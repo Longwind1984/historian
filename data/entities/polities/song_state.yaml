@@ -1,0 +1,15 @@
+id: k_song_state
+type: Polity
+name: 宋国
+name_en: Song (state)
+color: '#7f8c8d'
+founded:
+  year: -1040
+ended:
+  year: -286
+ended_by: k_qi_state
+description: 宋国。子姓，周初封商王兄微子启于宋，以奉殷商遗祀，都商丘。春秋时宋襄公图霸，泓水之败。战国时为中等诸侯，前286年齐闵王伐宋，宋康王败死，齐、楚、魏三分宋地，宋亡。始封年据史记通说。
+sources:
+- 史记·宋微子世家
+- 左传·僖公
+- 史记·六国年表

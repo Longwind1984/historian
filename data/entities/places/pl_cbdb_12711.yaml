@@ -1,0 +1,12 @@
+id: pl_cbdb_12711
+type: Place
+name: 海鹽
+modern_name: 海鹽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.517859
+longitude: 120.932022
+first_year: 960
+last_year: 1275
+description: CBDB 行政类型:Xian

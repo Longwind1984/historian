@@ -1,0 +1,22 @@
+id: b_sarhu
+type: Battle
+name: 萨尔浒之战
+date:
+  year: 1619
+  month: 4
+category: battle
+importance: 2
+location: pl_sarhu
+combatants:
+- k_ming
+- k_houjin
+commanders:
+- p_yanghao
+- p_nuerhaci
+victor: k_houjin
+victor_commander: p_nuerhaci
+description: 明四路围剿后金。杨镐指挥。努尔哈赤'凭尔几路来,我只一路去',集中兵力各个击破。明军大败。
+significance: 辽东易势,后金崛起不可挡。
+sources:
+- 清史稿·太祖本纪
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Battle of Sarhu.jpg

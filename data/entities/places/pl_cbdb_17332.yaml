@@ -1,0 +1,12 @@
+id: pl_cbdb_17332
+type: Place
+name: 義州
+modern_name: 義州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 41.539394379
+longitude: 121.24302673
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Zhou

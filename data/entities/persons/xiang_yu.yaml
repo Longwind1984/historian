@@ -1,0 +1,30 @@
+id: p_xiang_yu
+type: Person
+name: 项羽
+alias:
+- 项籍
+- 西楚霸王
+courtesy_name: 羽
+born:
+  year: -232
+died:
+  year: -202
+gender: male
+roles:
+- rebel_leader
+- general
+importance: 1
+birthplace: pl_xiaxiang_xiangyu
+bio: 楚汉战争主要人物。下相人。项梁侄。BC209 起兵吴中。BC207 巨鹿之战破釜沉舟,大破秦军主力。BC206 入关,焚咸阳,自称西楚霸王,都彭城,分封十八路诸侯。BC205
+  与刘邦战。BC202 垓下之战为韩信所败,突围至乌江自刎。
+ext:
+  significance: 中国历史上最传奇的悲剧英雄。
+sources:
+- 史记·项羽本纪
+- 资治通鉴·卷8-11
+wikidata_id: "Q182266"
+wikipedia_zh: "项羽"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/44/Xiang_Yu.jpg"
+image_license: "Public domain"
+image_credit: "ShangGuan Zhou（上官周）"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xiang_Yu.jpg"

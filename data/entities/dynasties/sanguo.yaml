@@ -1,0 +1,16 @@
+id: d_sanguo
+type: Dynasty
+name: 三国
+name_en: Three Kingdoms
+founded:
+  year: 220
+  month: 10
+ended:
+  year: 280
+  month: 3
+last_capital: pl_luoyang
+description: 三国。220年曹丕代汉建魏(都洛阳),221年刘备称帝建蜀汉(都成都),222年孙权称王建吴(都建业)。263年魏灭蜀,265年司马炎代魏建晋,280年晋灭吴,三国终。天下三分六十载。开国之君三主并立,故 founder 留空。
+period_label: 三国
+sources:
+- 三国志
+- 资治通鉴

@@ -1,0 +1,12 @@
+id: pl_cbdb_101028
+type: Place
+name: 江陰軍
+modern_name: 江陰軍
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.90877
+longitude: 120.26609
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Jun

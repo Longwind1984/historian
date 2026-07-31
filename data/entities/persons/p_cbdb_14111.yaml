@@ -1,0 +1,14 @@
+id: p_cbdb_14111
+type: Person
+name: 陸廣
+born:
+  year: 1000
+died:
+  year: 1052
+gender: male
+birthplace: pl_cbdb_13870
+dynasty_ref: k_beisong
+bio: CBDB ID 14111
+name_en: Lu Guang (2)
+sources:
+- CBDB (China Biographical Database)

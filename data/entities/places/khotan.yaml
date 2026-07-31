@@ -1,0 +1,13 @@
+id: pl_khotan
+type: Place
+name: 于阗
+modern_name: 和田
+province: 新疆
+latitude: 37.11
+longitude: 79.92
+category: city
+description: 安西四镇之一
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

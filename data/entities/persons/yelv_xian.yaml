@@ -1,0 +1,26 @@
+id: p_yelv_xian
+type: Person
+name: 耶律贤
+alias:
+- 辽景宗
+born:
+  year: 948
+died:
+  year: 982
+reign_start:
+  year: 969
+reign_end:
+  year: 982
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 世宗子。任贤纳谏,辽政复振。多病,后期政多决于皇后萧绰(承天太后)。
+ext:
+  title: 辽景宗
+  regime: 辽
+sources:
+- 辽史
+- 资治通鉴
+wikidata_id: "Q4997"
+wikipedia_zh: "遼景宗"

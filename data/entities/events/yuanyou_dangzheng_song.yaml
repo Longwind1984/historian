@@ -1,0 +1,16 @@
+id: e_yuanyou_dangzheng_song
+type: Event
+name: 元祐党争
+date:
+  year: 1086
+category: purge
+importance: 2
+location: pl_kaifeng
+polities_involved:
+- k_beisong
+description: 1085 神宗崩,高太后临朝,起司马光为相,废新法(元祐更化)。1093 高氏崩,哲宗亲政复新法(绍圣绍述),元祐党人遭大规模贬斥。
+impact: 北宋政治长期内耗,削弱国力。
+sources:
+- 宋史·哲宗本纪
+end_date:
+  year: 1100

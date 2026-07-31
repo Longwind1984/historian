@@ -1,0 +1,10 @@
+id: pl_cbdb_99908
+type: Place
+name: 山東
+modern_name: 山東
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Region

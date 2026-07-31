@@ -1,0 +1,14 @@
+id: p_cbdb_718
+type: Person
+name: 蕭固
+born:
+  year: 1002
+died:
+  year: 1066
+gender: male
+birthplace: pl_cbdb_100211
+dynasty_ref: k_beisong
+bio: CBDB ID 718
+name_en: Xiao Gu
+sources:
+- CBDB (China Biographical Database)

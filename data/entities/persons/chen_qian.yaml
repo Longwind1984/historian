@@ -1,0 +1,32 @@
+id: p_chen_qian
+type: Person
+name: 陈蒨
+alias:
+- 陈文帝
+born:
+  year: 522
+died:
+  year: 566
+reign_start:
+  year: 559
+reign_end:
+  year: 566
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_chen
+bio: 霸先侄。平王琳、灭留异,复江州湘州,陈政稍固。
+ext:
+  title: 陈文帝
+  regime: 陈
+sources:
+- 陈书
+- 南史
+- 资治通鉴
+wikidata_id: "Q712113"
+wikipedia_zh: "陈文帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chen_Wendi_Tang.jpg/500px-Chen_Wendi_Tang.jpg"
+image_license: "Public domain"
+image_credit: "Yan Li-pen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Wendi_Tang.jpg"

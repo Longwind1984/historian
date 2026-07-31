@@ -1,0 +1,30 @@
+id: p_nuerhaci
+type: Person
+name: 努尔哈赤
+alias:
+- 清太祖
+born:
+  year: 1559
+died:
+  year: 1626
+reign_start:
+  year: 1616
+reign_end:
+  year: 1626
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_hetuala_dor
+bio: 后金建立者。1583 起兵。1616 建后金。1619 萨尔浒之战。1626 宁远败于袁崇焕受创死。
+sources:
+- 清史稿·太祖本纪
+ext:
+  title: 努尔哈赤
+  regime: 后金
+wikidata_id: "Q311189"
+wikipedia_zh: "努尔哈赤"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%A4%AA%E7%A5%96%E5%A4%A9%E5%91%BD%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg/500px-%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%A4%AA%E7%A5%96%E5%A4%A9%E5%91%BD%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%A4%AA%E7%A5%96%E5%A4%A9%E5%91%BD%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"

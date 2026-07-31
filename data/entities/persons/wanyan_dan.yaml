@@ -1,0 +1,26 @@
+id: p_wanyan_dan
+type: Person
+name: 完颜亶
+alias:
+- 金熙宗
+born:
+  year: 1119
+died:
+  year: 1150
+reign_start:
+  year: 1135
+reign_end:
+  year: 1150
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_jin
+bio: 阿骨打孙。行汉制、定官制礼仪。与宋订绍兴和议。晚年酗酒滥杀,1150年为完颜亮所弑。
+ext:
+  title: 金熙宗
+  regime: 金
+sources:
+- 金史
+wikidata_id: "Q5071"
+wikipedia_zh: "金熙宗"

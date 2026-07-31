@@ -1,0 +1,17 @@
+id: e_wen_jing_zhizhi
+type: Event
+name: 文景之治
+date:
+  year: -180
+category: prosperity
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_xihan
+description: BC180-141 文帝、景帝在位期间,轻徭薄赋,与民休息,黄老之治。国库充盈,粮仓腐烂。
+impact: 为武帝朝鼎盛奠定物质基础。
+sources:
+- 史记·孝文本纪、孝景本纪
+- 资治通鉴·卷13-16
+end_date:
+  year: -141

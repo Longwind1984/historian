@@ -1,0 +1,12 @@
+id: pl_cbdb_15229
+type: Place
+name: 衛州
+modern_name: 衛州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.41038
+longitude: 114.0703
+first_year: 627
+last_year: 959
+description: CBDB 行政类型:Zhou

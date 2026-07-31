@@ -1,0 +1,20 @@
+id: f_eunuch_tang
+type: Faction
+name: 晚唐宦官集团
+nature: eunuch
+founded:
+  year: 750
+dissolved:
+  year: 905
+core_region: pl_chang_an
+description: 晚唐以神策军中尉、枢密使为核心的宦官势力,专废立之权。朱温尽诛宦官(900s)而终结。
+significance: 晚唐政治关键角色,五代式微。
+peak_period: 中晚唐
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论
+- 新唐书
+- 旧唐书

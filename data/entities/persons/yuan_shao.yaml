@@ -1,0 +1,20 @@
+id: p_yuan_shao
+type: Person
+name: 袁绍
+alias:
+- 袁本初
+courtesy_name: 本初
+died:
+  year: 202
+  month: 5
+gender: male
+birthplace: pl_ruyang_yuanshao
+bio: 汉末群雄之一。汝南汝阳人。'四世三公'。190 关东联军盟主讨董卓。199 灭公孙瓒,据有冀、青、幽、并四州。200 官渡之战大败于曹操。202 病卒。
+sources:
+- 三国志·魏书·袁绍传
+wikidata_id: "Q337013"
+wikipedia_zh: "袁绍"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Yuan_Shao_Portrait.jpg"
+image_license: "Public domain"
+image_credit: "The original uploader was Plastictv at English Wikipedia ."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yuan_Shao_Portrait.jpg"

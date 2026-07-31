@@ -1,0 +1,12 @@
+id: pl_cbdb_13305
+type: Place
+name: 眉山
+modern_name: 眉山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.050497
+longitude: 103.831459
+first_year: 976
+last_year: 1279
+description: CBDB 行政类型:Xian

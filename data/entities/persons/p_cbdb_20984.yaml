@@ -1,0 +1,14 @@
+id: p_cbdb_20984
+type: Person
+name: 李樸
+born:
+  year: 1064
+died:
+  year: 1128
+gender: male
+birthplace: pl_cbdb_12927
+dynasty_ref: k_beisong
+bio: CBDB ID 20984
+name_en: Li Pu
+sources:
+- CBDB (China Biographical Database)

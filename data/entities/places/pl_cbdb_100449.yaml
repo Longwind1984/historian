@@ -1,0 +1,12 @@
+id: pl_cbdb_100449
+type: Place
+name: 濟陰
+modern_name: 濟陰
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.990951
+longitude: 115.282862
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

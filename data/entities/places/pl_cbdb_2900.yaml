@@ -1,0 +1,12 @@
+id: pl_cbdb_2900
+type: Place
+name: 弘政
+modern_name: 弘政
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 41.53068
+longitude: 121.21885
+first_year: 1124
+last_year: 1234
+description: CBDB 行政类型:Xian

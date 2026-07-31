@@ -1,0 +1,39 @@
+id: p_liang_tang
+type: Person
+name: 李昂
+alias:
+- 唐文宗
+- 文宗
+born:
+  year: 809
+died:
+  year: 840
+  month: 1
+gender: male
+birthplace: pl_chang_an
+bio: 唐文宗。827-840 在位。勤政节俭,欲除宦官。835 年用李训、郑注发动甘露之变,失败,宦官大杀朝臣(李训、郑注、王涯等),文宗被架空,'受制于家奴'。840
+  年忧卒。
+ext:
+  significance: 甘露之变是宦官专权的转折点,此后唐廷完全被宦官把持。
+  title: 唐文宗
+  regime: 唐
+sources:
+- 旧唐书·文宗纪
+- 新唐书·文宗本纪
+- 资治通鉴·卷245
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 826
+reign_end:
+  year: 840
+roles:
+- emperor
+importance: 3
+wikidata_id: "Q9790"
+wikipedia_zh: "唐文宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/TangWenzongAlt.jpg"
+image_license: "Public domain"
+image_credit: "Ancient Chinese Artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:TangWenzongAlt.jpg"

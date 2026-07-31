@@ -1,0 +1,16 @@
+id: e_banchao_xiyu
+type: Event
+name: 班超通西域
+date:
+  year: 73
+category: diplomacy
+importance: 2
+location: pl_hexi_corridor
+polities_involved:
+- k_donghan
+description: 73 班超率 36 人出使西域。74-102 在西域 31 年,以夷制夷,平定五十余国。东汉在西域设立都护府。
+impact: 汉朝重新控制西域。
+sources:
+- 后汉书·班超传
+end_date:
+  year: 102

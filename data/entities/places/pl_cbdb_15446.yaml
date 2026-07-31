@@ -1,0 +1,12 @@
+id: pl_cbdb_15446
+type: Place
+name: 江陵
+modern_name: 江陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.350445
+longitude: 112.190773
+first_year: 643
+last_year: 959
+description: CBDB 行政类型:Xian

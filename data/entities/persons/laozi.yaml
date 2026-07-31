@@ -1,0 +1,30 @@
+id: p_laozi
+type: Person
+name: 李耳
+courtesy_name: 聃
+alias:
+- 老子
+- 老聃
+- 李聃
+gender: male
+floruit_start:
+  year: -535
+floruit_end:
+  year: -480
+roles:
+- scholar
+importance: 1
+bio: 老子，姓李名耳，字聃，楚国苦县人(一说陈人)，尝为周守藏室之史。见周之衰，西出函谷关，应关令尹喜之请著上下篇，言道德之意五千余言，是为《道德经》。以"道"为天地本根，主无为、守柔、不争，开道家学派。其人生平与年代异说纷纭，传统列为春秋末人，与孔子同时；史载孔子尝问礼于老子。
+sources:
+- 史记·老子韩非列传
+- 道德经·道经
+- 庄子·天下
+ext:
+  disputed: true
+  note: 约与孔子同时(孔子问礼于老聃约前518)。《史记》已言「莫知其所终」,生卒本不可考
+wikidata_id: "Q9333"
+wikipedia_zh: "老子"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Zhang_Lu-Laozi_Riding_an_Ox_%28cropped%29.jpg/500px-Zhang_Lu-Laozi_Riding_an_Ox_%28cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "Zhang Lu"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhang_Lu-Laozi_Riding_an_Ox_(cropped).jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_15006
+type: Place
+name: 猗氏
+modern_name: 猗氏
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.147945
+longitude: 110.77404
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:Xian

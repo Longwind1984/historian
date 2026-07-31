@@ -1,0 +1,12 @@
+id: pl_cbdb_12005
+type: Place
+name: 聞喜
+modern_name: 聞喜
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.357723
+longitude: 111.217209
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

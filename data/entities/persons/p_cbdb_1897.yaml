@@ -1,0 +1,14 @@
+id: p_cbdb_1897
+type: Person
+name: 王存
+born:
+  year: 1023
+died:
+  year: 1101
+gender: male
+birthplace: pl_cbdb_12704
+dynasty_ref: k_beisong
+bio: CBDB ID 1897
+name_en: Wang Cun
+sources:
+- CBDB (China Biographical Database)

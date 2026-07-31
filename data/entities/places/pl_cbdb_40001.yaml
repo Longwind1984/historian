@@ -1,0 +1,10 @@
+id: pl_cbdb_40001
+type: Place
+name: 迭剌部
+modern_name: 迭剌部
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 907
+last_year: 1125
+description: CBDB 行政类型:Bu

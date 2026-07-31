@@ -1,0 +1,118 @@
+- from: k_dongzhou
+  to: k_qin_state
+  type: destroyed_by
+  since:
+    year: -256
+  note: 前256年秦昭襄王灭东周，九鼎入秦
+- from: k_wu_state
+  to: k_yue_state
+  type: destroyed_by
+  since:
+    year: -473
+  note: 前473年越灭吴，夫差自尽
+- from: k_yue_state
+  to: k_chu_state
+  type: destroyed_by
+  since:
+    year: -306
+  note: 楚威王破越、杀无彊，越以此散(前306主流说；本表政权灭年从秦并越地前222)
+- from: k_yan_state
+  to: k_qin_state
+  type: destroyed_by
+  since:
+    year: -222
+  note: 前222年秦将王贲拔辽东，虏燕王喜，燕亡
+- from: p_zhou_ping_wang
+  to: e_pingwang_dongqian
+  type: participated_in
+  since:
+    year: -770
+  note: 主东迁洛邑，东周始
+- from: p_qi_huan_gong
+  to: e_kuiqiu_zhihui
+  type: participated_in
+  since:
+    year: -651
+  note: 葵丘主盟，受周赐胙，霸业极盛
+- from: p_jin_wen_gong
+  to: b_chengpu
+  type: led
+  since:
+    year: -632
+  note: 退避三舍，大败楚军称霸
+- from: p_chu_zhuang_wang
+  to: e_wending_zhongyuan
+  type: participated_in
+  since:
+    year: -606
+  note: 观兵周疆，问鼎轻重
+- from: p_goujian
+  to: e_goujian_mie_wu
+  type: led
+  since:
+    year: -473
+  note: 灭吴，夫差自尽
+- from: p_song_xiang_gong
+  to: b_hongshui
+  type: led
+  since:
+    year: -638
+  note: 拘守"不鼓不成列"旧军礼，败于楚，伤股
+- from: p_fuchai
+  to: e_goujian_mie_wu
+  type: participated_in
+  since:
+    year: -473
+  note: 吴都被破，求附庸不得，自刎，吴亡
+- from: p_guanzhong
+  to: p_qi_huan_gong
+  type: served_under
+  since:
+    year: -685
+  note: 经鲍叔牙荐相齐桓公，尊王攘夷
+- from: p_fanli
+  to: p_goujian
+  type: served_under
+  since:
+    year: -494
+  note: 佐勾践卧薪尝胆、谋吴二十年
+- from: p_wu_zixu
+  to: p_fuchai
+  type: served_under
+  since:
+    year: -495
+  note: 佐吴王夫差，谏拒越防患不听，赐剑自尽
+- from: p_zichan
+  to: k_zheng_state
+  type: served_under
+  since:
+    year: -543
+  note: 执政郑国，铸刑书
+- from: p_yanzi
+  to: k_qi_state
+  type: served_under
+  since:
+    year: -548
+  note: 相齐灵、庄、景三公，节俭直谏
+- from: p_qin_mu_gong
+  to: p_jin_wen_gong
+  type: allied_with
+  since:
+    year: -636
+  note: 秦晋姻好，穆公送重耳入晋即位
+- from: p_mozi
+  to: p_confucius
+  type: rival_of
+  note: 墨学非儒，主兼爱非攻，与儒家并称显学而立异
+- from: e_pingwang_dongqian
+  to: e_kuiqiu_zhihui
+  type: led_to
+  since:
+    year: -770
+  note: 王室东迁、威信陵夷，致霸政代兴，至齐桓公葵丘会盟达极盛
+- from: e_mibing_zhihui
+  to: e_goujian_mie_wu
+  type: led_to
+  since:
+    year: -546
+  note: 弭兵后晋楚中原息兵，争霸重心南移吴越，终以越灭吴收束春秋晚期格局

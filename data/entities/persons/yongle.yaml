@@ -1,0 +1,29 @@
+id: p_yongle
+type: Person
+name: 朱棣
+alias:
+- 明成祖
+- 明太宗
+born:
+  year: 1360
+died:
+  year: 1424
+  month: 7
+reign_start:
+  year: 1402
+reign_end:
+  year: 1424
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_beiping_zhudi
+bio: 明成祖,太祖第四子,燕王。1399-1402 靖难之役夺位。1421 迁都北京。1405-1433 命郑和下西洋。五征漠北。编纂《永乐大典》。
+sources:
+- 明史·成祖本纪
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Yongling-Oil-Yongle.jpg
+ext:
+  title: 朱棣
+  regime: 明
+wikidata_id: "Q9965"
+wikipedia_zh: "明成祖"

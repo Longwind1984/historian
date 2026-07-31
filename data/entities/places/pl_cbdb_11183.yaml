@@ -1,0 +1,12 @@
+id: pl_cbdb_11183
+type: Place
+name: 長山
+modern_name: 長山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.882379
+longitude: 117.864911
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

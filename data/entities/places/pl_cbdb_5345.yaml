@@ -1,0 +1,12 @@
+id: pl_cbdb_5345
+type: Place
+name: 秀水
+modern_name: 秀水
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.767469
+longitude: 120.753204
+first_year: 1430
+last_year: 1643
+description: CBDB 行政类型:Xian

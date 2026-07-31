@@ -1,0 +1,24 @@
+id: p_ban_gu
+type: Person
+name: 班固
+alias:
+- 班孟坚
+courtesy_name: 孟坚
+born:
+  year: 32
+died:
+  year: 92
+gender: male
+roles:
+- scholar
+importance: 2
+birthplace: pl_pingling_banchao
+bio: 东汉史学家。班彪子。著《汉书》,中国第一部纪传体断代史。
+sources:
+- 后汉书·班固传
+wikidata_id: "Q439681"
+wikipedia_zh: "班固"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ban_Gu.jpg/500px-Ban_Gu.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Ban_Gu.jpg"

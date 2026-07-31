@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci --prefix frontend --no-audit --no-fund && python3 -m pip install --user PyYAML==6.0.2",
+  "outputDirectory": "edgeone-dist",
+  "nodeVersion": "22.11.0",
+  "cloudFunctions": {
+    "python": {
+      "maxDuration": 60
+    }
+  },
+  "headers": [
+    {
+      "source": "/assets/*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/tiles/atlas/*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }]
+    }
+  ]
+}

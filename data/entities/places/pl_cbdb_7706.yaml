@@ -1,0 +1,12 @@
+id: pl_cbdb_7706
+type: Place
+name: 桐城
+modern_name: 桐城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.052280426
+longitude: 116.93860626
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

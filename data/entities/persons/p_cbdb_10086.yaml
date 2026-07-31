@@ -1,0 +1,12 @@
+id: p_cbdb_10086
+type: Person
+name: 吳鎰
+died:
+  year: 1197
+gender: male
+birthplace: pl_cbdb_100155
+dynasty_ref: k_beisong
+bio: CBDB ID 10086
+name_en: Wu Yi
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,25 @@
+id: k_nansong
+type: Polity
+name: 南宋
+name_en: Southern Song
+color: '#f39c12'
+founded:
+  year: 1127
+  month: 5
+ended:
+  year: 1279
+  month: 2
+capital: pl_linan_song
+description: 赵构建炎元年应天府即位,后南渡定都临安(杭州)。1141 绍兴和议与金对峙。1279 崖山海战亡于元。
+sources:
+- 宋史
+founder: p_gaozong
+ended_by: k_yuan
+territory:
+- valid_from:
+    year: 1127
+  valid_to:
+    year: 1279
+  geojson_file: chgis_nansong.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Southern Song map.jpg

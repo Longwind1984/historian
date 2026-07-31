@@ -1,0 +1,23 @@
+id: e_jingnan_zhiyi
+type: Event
+name: 靖难之役
+date:
+  year: 1399
+  month: 7
+category: war
+march:
+- from: pl_beijing_qing
+  to: pl_nanjing_ming
+  note: 燕王朱棣自北平起兵,四年而下南京。《明史·成祖本纪》
+importance: 2
+location: pl_beijing_qing
+polities_involved:
+- k_ming
+description: 1399 七月燕王朱棣以'清君侧'为名起兵。1402 攻入南京,建文帝下落成谜,朱棣即位。
+impact: 明成祖夺位,迁都北京。
+sources:
+- 明史·成祖本纪
+end_date:
+  year: 1402
+  month: 7
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Jingnan Campaign.jpg

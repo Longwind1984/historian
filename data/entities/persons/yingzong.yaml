@@ -1,0 +1,33 @@
+id: p_yingzong
+type: Person
+name: 赵曙
+alias:
+- 宋英宗
+born:
+  year: 1032
+died:
+  year: 1067
+  month: 1
+gender: male
+birthplace: pl_kaifeng
+bio: 宋英宗。仁宗养子。1063 继位,在位 4 年。命司马光设局编修历代君臣事迹(《资治通鉴》之始)。
+sources:
+- 宋史·英宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1063
+reign_end:
+  year: 1067
+roles:
+- emperor
+ext:
+  title: 宋英宗
+  regime: 北宋
+importance: 3
+wikidata_id: "Q7479"
+wikipedia_zh: "宋英宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E5%AE%8B%E4%BB%A3%E5%B8%9D%E5%8D%8A%E8%BA%AB%E5%83%8F%E5%86%8C.06.%E5%AE%8B%E8%8B%B1%E5%AE%97_%28cropped%29.jpg/500px-%E5%AE%8B%E4%BB%A3%E5%B8%9D%E5%8D%8A%E8%BA%AB%E5%83%8F%E5%86%8C.06.%E5%AE%8B%E8%8B%B1%E5%AE%97_%28cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E4%BB%A3%E5%B8%9D%E5%8D%8A%E8%BA%AB%E5%83%8F%E5%86%8C.06.%E5%AE%8B%E8%8B%B1%E5%AE%97_(cropped).jpg"

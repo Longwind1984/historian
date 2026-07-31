@@ -1,0 +1,36 @@
+id: p_liu_bang_qin
+type: Person
+name: 刘邦
+alias:
+- 汉高祖
+- 沛公
+- 刘季
+born:
+  year: -256
+died:
+  year: -195
+  month: 6
+reign_start:
+  year: -202
+reign_end:
+  year: -195
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_pei_xian_xiaohe
+bio: 汉朝建立者。沛县丰邑人,平民出身。BC209 沛县起兵,称沛公。BC206 入关灭秦,约法三章。BC206 被项羽封为汉王。BC205 还定三秦,楚汉战争爆发。BC202
+  垓下之战灭项羽,称帝建汉,都长安。BC202-195 在位。'汉承秦制',奠定汉朝。
+ext:
+  significance: 中国历史上第一位平民出身的开国皇帝。
+  title: 汉高祖
+  regime: 西汉
+sources:
+- 史记·高祖本纪
+- 汉书·高帝纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Liu-bang.jpg/500px-Liu-bang.jpg"
+wikidata_id: "Q7210"
+wikipedia_zh: "刘邦"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu-bang.jpg"

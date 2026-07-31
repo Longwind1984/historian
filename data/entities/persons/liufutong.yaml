@@ -1,0 +1,12 @@
+id: p_liufutong
+type: Person
+name: 刘福通
+died:
+  year: 1363
+gender: male
+birthplace: pl_yingzhou_liu
+bio: 元末红巾军首领。1351 颍州起义。1355 拥立韩林儿为小明王建宋。
+sources:
+- 明史·韩林儿传
+wikidata_id: "Q699373"
+wikipedia_zh: "刘福通"

@@ -1,0 +1,19 @@
+id: e_sijima_dai_wei
+type: Event
+name: 司马氏代魏
+date:
+  year: 249
+  month: 2
+category: succession
+importance: 2
+location: pl_luoyang
+polities_involved:
+- k_caowei
+- k_xijin
+description: 249 年高平陵之变,司马懿诛曹爽。254-260 司马师、昭继续掌权。260 司马昭弑魏帝曹髦(成济刺之)。265 司马炎即晋王位,266
+  二月代魏建晋。
+sources:
+- 晋书·宣帝纪、文帝纪、武帝纪
+end_date:
+  year: 266
+  month: 2

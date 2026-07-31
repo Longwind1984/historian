@@ -1,0 +1,12 @@
+id: pl_cbdb_12947
+type: Place
+name: 安福
+modern_name: 安福
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.382462
+longitude: 114.608452
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

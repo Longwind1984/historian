@@ -1,0 +1,32 @@
+id: p_yuanshikai
+type: Person
+name: 袁世凯
+alias:
+- 慰亭
+courtesy_name: 慰亭
+born:
+  year: 1859
+died:
+  year: 1916
+reign_start:
+  year: 1915
+reign_end:
+  year: 1916
+gender: male
+roles:
+- emperor
+- civil_official
+importance: 2
+birthplace: pl_xiangcheng_yuan
+bio: 晚清民初政治军事家。1895 小站练兵。1912 窃任大总统。1915 称帝(失败)。
+sources:
+- 清史稿·袁世凯传
+ext:
+  title: 袁世凯
+  regime: 中华帝国
+wikidata_id: "Q210329"
+wikipedia_zh: "袁世凯"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/YuanShikaiPresidente1915.jpg/500px-YuanShikaiPresidente1915.jpg"
+image_license: "Public domain"
+image_credit: "Photo by Rio V. De Sieux [1]"
+image_source_page: "https://commons.wikimedia.org/wiki/File:YuanShikaiPresidente1915.jpg"

@@ -1,0 +1,32 @@
+id: p_wanyanaguda
+type: Person
+name: 完颜阿骨打
+alias:
+- 完颜旻
+- 金太祖
+born:
+  year: 1068
+died:
+  year: 1123
+  month: 8
+reign_start:
+  year: 1115
+reign_end:
+  year: 1123
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_huining_wya
+bio: 金朝开国皇帝。女真完颜部首领。1114 起兵反辽,1115 称帝建国号金。1120 攻辽上京。1123 伐辽途中病死。
+sources:
+- 金史·太祖本纪
+ext:
+  title: 完颜阿骨打
+  regime: 金
+wikidata_id: "Q5060"
+wikipedia_zh: "完颜阿骨打"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/31/Wanggiyan_Aguda.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wanggiyan_Aguda.jpg"

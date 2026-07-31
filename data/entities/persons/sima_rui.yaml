@@ -1,0 +1,31 @@
+id: p_sima_rui
+type: Person
+name: 司马睿
+alias:
+- 晋元帝
+- 元帝
+born:
+  year: 276
+died:
+  year: 323
+reign_start:
+  year: 317
+reign_end:
+  year: 323
+gender: male
+roles:
+- emperor
+importance: 2
+bio: 琅琊王，永嘉后南渡，317年即位建康，开东晋。倚重王导、王敦，时称'王与马，共天下'。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋元帝
+  regime: 东晋
+wikidata_id: "Q7392"
+wikipedia_zh: "晉元帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sima_Rui_%28Jin_Yuandi%29.jpg/500px-Sima_Rui_%28Jin_Yuandi%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sima_Rui_(Jin_Yuandi).jpg"

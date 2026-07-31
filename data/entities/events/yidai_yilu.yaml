@@ -1,0 +1,13 @@
+id: e_yidai_yilu
+type: Event
+name: 一带一路倡议
+date:
+  year: 2013
+category: diplomacy
+importance: 2
+polities_involved:
+- k_prc
+description: 2013年，中国提出共建'丝绸之路经济带'和'21世纪海上丝绸之路'的合作倡议。
+sources:
+- 中华人民共和国史
+- 当代中国史

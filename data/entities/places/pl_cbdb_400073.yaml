@@ -1,0 +1,10 @@
+id: pl_cbdb_400073
+type: Place
+name: 關中
+modern_name: 關中
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 618
+last_year: 907
+description: CBDB 行政类型:Region

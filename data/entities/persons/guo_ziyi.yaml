@@ -1,0 +1,28 @@
+id: p_guo_ziyi
+type: Person
+name: 郭子仪
+alias:
+- 郭令公
+- 汾阳王
+born:
+  year: 697
+died:
+  year: 781
+  month: 6
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_fenyang
+bio: 中唐名将。安史之乱主力平叛者,封汾阳郡王。历仕四朝,寿至85岁,功盖天下而主不疑。
+ext:
+  significance: 中唐柱石。其部属后衍生河朔藩镇问题,影响五代政治。
+sources:
+- 旧唐书·郭子仪传
+- 新唐书·郭子仪传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Guo_Ziyi.jpg/500px-Guo_Ziyi.jpg"
+wikidata_id: "Q1290765"
+wikipedia_zh: "郭子仪"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Guo_Ziyi.jpg"

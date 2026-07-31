@@ -1,0 +1,14 @@
+id: pl_xiangling_jiananfeng
+type: Place
+name: 襄陵
+modern_name: 襄汾
+province: 山西
+latitude: 35.87
+longitude: 111.45
+category: city
+description: 贾南风籍贯
+sources:
+- 三国志
+- 晋书
+- 魏书
+- 中国历史地图集

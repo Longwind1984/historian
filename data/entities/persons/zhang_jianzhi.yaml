@@ -1,0 +1,17 @@
+id: p_zhang_jianzhi
+type: Person
+name: 张柬之
+alias:
+- 张孟阳
+courtesy_name: 孟阳
+born:
+  year: 625
+died:
+  year: 706
+gender: male
+birthplace: pl_xiangyang_zhang
+bio: 武周宰相。705 神龙革命发动者,逼武则天退位,迎中宗复位。封汉阳王。后为武三思所诬,贬死。
+sources:
+- 旧唐书·张柬之传
+wikidata_id: "Q708460"
+wikipedia_zh: "张柬之"

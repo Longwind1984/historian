@@ -1,0 +1,16 @@
+id: pl_weizhou
+type: Place
+name: 魏州
+modern_name: 大名
+province: 河北
+latitude: 36.27
+longitude: 115.16
+category: garrison
+description: 河朔重镇,后唐龙兴地
+aliases:
+- 魏府
+- 兴唐
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

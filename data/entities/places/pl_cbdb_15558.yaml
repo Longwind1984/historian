@@ -1,0 +1,12 @@
+id: pl_cbdb_15558
+type: Place
+name: 西縣
+modern_name: 西縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.14224
+longitude: 106.583701
+first_year: 732
+last_year: 959
+description: CBDB 行政类型:Xian

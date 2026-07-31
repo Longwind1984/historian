@@ -1,0 +1,21 @@
+id: p_li_peng
+type: Person
+name: 李鹏
+born:
+  year: 1928
+died:
+  year: 2019
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 生于上海，四川成都人。1988至1998年任国务院总理，1998至2003年任全国人大常委会委员长。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q18301"
+wikipedia_zh: "李鹏"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Lipeng.jpg"
+image_license: "CC BY-SA 2.0"
+image_credit: "World Economic Forum from Cologny, Switzerland. cropped by Shizhao"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Lipeng.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_12810
+type: Place
+name: 處州
+modern_name: 處州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.448732376
+longitude: 119.91300964
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

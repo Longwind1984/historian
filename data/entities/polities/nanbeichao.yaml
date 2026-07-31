@@ -1,0 +1,20 @@
+id: k_nanbeichao
+type: Polity
+name: 南北朝
+name_en: Southern & Northern Dynasties
+color: '#9b59b6'
+founded:
+  year: 420
+ended:
+  year: 589
+description: 420 刘裕代晋建宋,南北朝开始。南朝历宋齐梁陈;北朝历北魏(后分裂东魏/西魏)、北齐/北周。589 隋灭陈统一。
+sources:
+- 南史
+- 北史
+territory:
+- valid_from:
+    year: 420
+  valid_to:
+    year: 589
+  geojson_file: chgis_nanbeichao.geojson
+  note: CHGIS V5 prefecture polygons (aggregated)

@@ -1,0 +1,12 @@
+id: pl_linchuan
+type: Place
+name: 临川
+modern_name: 抚州
+province: 江西
+latitude: 27.95
+longitude: 116.36
+category: city
+description: 王安石籍贯
+sources:
+- 中国历史地图集
+- 旧唐书·地理志

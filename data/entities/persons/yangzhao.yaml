@@ -1,0 +1,16 @@
+id: p_yangzhao
+type: Person
+name: 杨昭
+alias:
+- 元德太子
+born:
+  year: 584
+died:
+  year: 606
+gender: male
+birthplace: pl_daxing
+bio: 隋炀帝长子,元德太子。早卒。三子:杨侑、杨侗、杨秉。
+sources:
+- 隋书·元德太子昭传
+wikidata_id: "Q1062868"
+wikipedia_zh: "楊昭"

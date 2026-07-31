@@ -1,0 +1,12 @@
+id: pl_cbdb_12818
+type: Place
+name: 松陽
+modern_name: 松陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.450748
+longitude: 119.485344
+first_year: 999
+last_year: 1279
+description: CBDB 行政类型:Xian

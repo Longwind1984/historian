@@ -1,0 +1,12 @@
+id: pl_cbdb_100596
+type: Place
+name: 長汀
+modern_name: 長汀
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.833381653
+longitude: 116.34954071
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

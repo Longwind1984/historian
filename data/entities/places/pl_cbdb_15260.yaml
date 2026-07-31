@@ -1,0 +1,12 @@
+id: pl_cbdb_15260
+type: Place
+name: 行唐
+modern_name: 行唐
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.43607
+longitude: 114.543609
+first_year: 774
+last_year: 907
+description: CBDB 行政类型:Xian

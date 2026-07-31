@@ -1,0 +1,32 @@
+id: p_haishan
+type: Person
+name: 海山
+alias:
+- 元武宗
+- 曲律汗
+born:
+  year: 1281
+died:
+  year: 1311
+reign_start:
+  year: 1307
+reign_end:
+  year: 1311
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_yuan
+bio: 成宗侄。滥封滥赏、变更钞法(至大银钞),财政恶化。约以兄终弟及传爱育黎拔力八达。
+ext:
+  title: 元武宗
+  regime: 元
+sources:
+- 元史
+- 新元史
+wikidata_id: "Q8532"
+wikipedia_zh: "元武宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/YuanEmperorAlbumQaishanKulugPortrait.jpg/500px-YuanEmperorAlbumQaishanKulugPortrait.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumQaishanKulugPortrait.jpg"

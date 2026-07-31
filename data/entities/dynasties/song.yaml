@@ -1,0 +1,18 @@
+id: d_song
+type: Dynasty
+name: 宋
+name_en: Song
+founded:
+  year: 960
+  month: 2
+ended:
+  year: 1279
+  month: 2
+last_capital: pl_kaifeng
+description: 宋朝。960 年赵匡胤陈桥兵变代后周。北宋(960-1127)都开封,南宋(1127-1279)都临安。文化经济高峰,军事弱势。1279
+  年崖山海战亡于元。
+period_label: 宋
+sources:
+- 宋史
+- 续资治通鉴长编
+founder: p_zhaokuangyin

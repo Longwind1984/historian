@@ -1,0 +1,14 @@
+id: e_dongfanghong1
+type: Event
+name: 东方红一号卫星
+date:
+  year: 1970
+category: science
+importance: 2
+polities_involved:
+- k_prc
+description: 1970年4月24日，中国成功发射第一颗人造地球卫星'东方红一号'。
+impact: 中国成为第五个独立发射人造卫星的国家。
+sources:
+- 中华人民共和国史
+- 当代中国史

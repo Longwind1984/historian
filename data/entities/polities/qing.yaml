@@ -1,0 +1,25 @@
+id: k_qing
+type: Polity
+name: 清
+name_en: Qing
+color: '#1abc9c'
+founded:
+  year: 1636
+ended:
+  year: 1912
+  month: 2
+capital: pl_beijing_qing
+description: 清朝。1636 皇太极改国号。1644 入关。1912 逊位,帝制结束。
+sources:
+- 清史稿
+founder: p_huangtaiji
+supplanted: k_ming
+ended_by: k_minguo
+territory:
+- valid_from:
+    year: 1644
+  valid_to:
+    year: 1911
+  geojson_file: chgis_qing.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Qing Dynasty map.jpg

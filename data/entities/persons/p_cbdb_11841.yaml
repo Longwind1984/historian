@@ -1,0 +1,14 @@
+id: p_cbdb_11841
+type: Person
+name: 趙崇度
+born:
+  year: 1175
+died:
+  year: 1230
+gender: male
+birthplace: pl_cbdb_100632
+dynasty_ref: k_beisong
+bio: CBDB ID 11841
+name_en: Zhao Chongdu
+sources:
+- CBDB (China Biographical Database)

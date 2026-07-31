@@ -1,0 +1,12 @@
+id: pl_cbdb_11570
+type: Place
+name: 澶州
+modern_name: 澶州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.681146
+longitude: 115.03487
+first_year: 960
+last_year: 1104
+description: CBDB 行政类型:Zhou

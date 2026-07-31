@@ -1,0 +1,12 @@
+id: pl_cbdb_5353
+type: Place
+name: 烏程
+modern_name: 烏程
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.864964
+longitude: 120.099312
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

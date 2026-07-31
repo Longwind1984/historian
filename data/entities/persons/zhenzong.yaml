@@ -1,0 +1,30 @@
+id: p_zhenzong
+type: Person
+name: 赵恒
+alias:
+- 宋真宗
+born:
+  year: 968
+  month: 12
+died:
+  year: 1022
+  month: 2
+gender: male
+birthplace: pl_kaifeng
+bio: 太宗子。1004年辽军南下,寇准劝亲征,澶州退敌后订澶渊之盟,岁输银绢换百年和平。后崇道封禅,天书事起,费用浩繁。
+sources:
+- 宋史·真宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 997
+reign_end:
+  year: 1022
+roles:
+- emperor
+ext:
+  title: 宋真宗
+  regime: 北宋
+importance: 3
+wikidata_id: "Q17499585"
+wikipedia_zh: "趙恆 (嘉靖進士)"

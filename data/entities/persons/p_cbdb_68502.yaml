@@ -1,0 +1,14 @@
+id: p_cbdb_68502
+type: Person
+name: 趙錦
+born:
+  year: 1516
+died:
+  year: 1591
+gender: male
+birthplace: pl_cbdb_5401
+dynasty_ref: k_ming
+bio: CBDB ID 68502
+name_en: Zhao Jin
+sources:
+- CBDB (China Biographical Database)

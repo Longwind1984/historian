@@ -1,0 +1,12 @@
+id: pl_liuhe
+type: Place
+name: 六合
+modern_name: 南京六合区
+province: 江苏
+latitude: 32.37
+longitude: 118.83
+category: battlefield
+description: 956 六合之战
+sources:
+- 资治通鉴
+- 中国历史地图集

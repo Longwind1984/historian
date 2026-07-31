@@ -1,0 +1,24 @@
+id: p_zhang_xueliang
+type: Person
+name: 张学良
+alias:
+- 张汉卿
+courtesy_name: 汉卿
+born:
+  year: 1901
+died:
+  year: 2001
+gender: male
+roles:
+- general
+importance: 2
+bio: 奉天海城(今属辽宁)人，生于台安，张作霖长子，奉系将领。1928 年皇姑屯事件后继任东三省保安总司令，同年 12 月宣布东北易帜，服从南京国民政府。1931 年九一八事变后执行不抵抗政策丢失东北。1936 年 12 月 12 日与杨虎城发动西安事变，扣押蒋介石，促成第二次国共合作与抗日民族统一战线。事后被长期幽禁，1949 年后随至台湾，1990 年恢复自由。2001 年病逝于美国夏威夷。
+sources:
+- 中华民国史·张学良传
+- 张友坤·张学良年谱
+wikidata_id: "Q20148"
+wikipedia_zh: "张学良"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Chang_Shueliang.jpg"
+image_license: "Public domain"
+image_credit: "Central Archive Press"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chang_Shueliang.jpg"

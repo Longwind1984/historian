@@ -1,0 +1,23 @@
+id: p_huo_guang
+type: Person
+name: 霍光
+alias:
+- 霍子孟
+courtesy_name: 子孟
+died:
+  year: -68
+gender: male
+roles:
+- consort_kin
+- civil_official
+importance: 2
+birthplace: pl_hedong_huoguang
+bio: 西汉权臣。霍去病弟。BC87 武帝临终托孤辅昭帝。BC74 废昌邑王刘贺,立宣帝。历昭、宣两朝,执政 20 年。
+sources:
+- 汉书·霍光金日磾传
+wikidata_id: "Q1193185"
+wikipedia_zh: "霍光"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Huo_guang.jpg/500px-Huo_guang.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Huo_guang.jpg"

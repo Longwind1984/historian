@@ -1,0 +1,18 @@
+id: d_wudai
+type: Dynasty
+name: 五代十国
+name_en: Five Dynasties and Ten Kingdoms
+founded:
+  year: 907
+  month: 4
+ended:
+  year: 979
+  month: 5
+last_capital: pl_kaifeng
+description: 五代十国。907年朱温代唐建后梁,五代始(梁唐晋汉周,都开封/洛阳);南方与山西先后有十国。960年赵匡胤建北宋,979年宋灭北汉,十国终。分裂七十载,藩镇割据之极。
+period_label: 五代十国
+sources:
+- 旧五代史
+- 新五代史
+- 资治通鉴
+founder: p_zhuwen

@@ -1,0 +1,23 @@
+id: p_qinkuai
+type: Person
+name: 秦桧
+courtesy_name: 会之
+born:
+  year: 1090
+died:
+  year: 1155
+  month: 11
+gender: male
+roles:
+- civil_official
+importance: 2
+birthplace: pl_jiangning_qin
+bio: 南宋权相、投降派首领。靖康被掳北上,后金遣归。1131 拜相。绍兴和议(1141)主持者。以'莫须有'罪杀岳飞。专国 19 年。'四大奸臣'之一。
+sources:
+- 宋史·奸臣传·秦桧
+wikidata_id: "Q731694"
+wikipedia_zh: "秦桧"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/%E7%A7%A6%E6%AA%9C.jpg/500px-%E7%A7%A6%E6%AA%9C.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E7%A7%A6%E6%AA%9C.jpg"

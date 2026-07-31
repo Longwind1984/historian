@@ -1,0 +1,31 @@
+id: p_lizhan
+type: Person
+name: 李湛
+alias:
+- 唐敬宗
+- 敬宗
+born:
+  year: 809
+died:
+  year: 827
+  month: 1
+gender: male
+birthplace: pl_chang_an
+bio: 唐敬宗。824-827 在位。少年荒唐,被宦官和击球将弑杀。
+sources:
+- 旧唐书·敬宗纪
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 824
+reign_end:
+  year: 826
+roles:
+- emperor
+ext:
+  title: 唐敬宗
+  regime: 唐
+importance: 3
+wikidata_id: "Q16076592"
+wikipedia_zh: "李湛 (趙國公)"

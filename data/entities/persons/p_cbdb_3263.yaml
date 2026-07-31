@@ -1,0 +1,14 @@
+id: p_cbdb_3263
+type: Person
+name: 朱塾
+born:
+  year: 1153
+died:
+  year: 1191
+gender: male
+birthplace: pl_cbdb_13894
+dynasty_ref: k_beisong
+bio: CBDB ID 3263
+name_en: Zhu Shu
+sources:
+- CBDB (China Biographical Database)

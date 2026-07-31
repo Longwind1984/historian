@@ -1,0 +1,23 @@
+id: p_yanglian
+type: Person
+name: 杨涟
+gender: male
+courtesy_name: 文孺
+born:
+  year: 1572
+died:
+  year: 1625
+  month: 7
+roles:
+- civil_official
+importance: 2
+bio: 应山人。1620 红丸、移宫两案中力争,声名大起。1624 上疏劾魏忠贤二十四大罪,反被诬受熊廷弼贿,下诏狱。狱中受土囊压身、铁钉贯耳之酷,1625 年七月死。
+sources:
+- 明史·杨涟传
+- 碧血录
+wikidata_id: "Q11101788"
+wikipedia_zh: "杨涟"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/64/%E6%A5%8A%E6%BC%A3.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%A5%8A%E6%BC%A3.jpg"

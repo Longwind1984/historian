@@ -1,0 +1,21 @@
+id: e_feishui_zhizhan
+type: Event
+name: 淝水之战
+date:
+  year: 383
+  month: 11
+category: battle
+march:
+- from: pl_chang_an
+  to: pl_shouchun_qin
+  note: 苻坚自长安发兵,主力趋寿阳,临淝水。《晋书·苻坚载记》
+importance: 1
+location: pl_feishui
+polities_involved:
+- k_dongjin
+- k_qian_qin
+description: 383 年前秦苻坚率 87 万大军南下,声称'投鞭断流'。东晋谢安为总指挥,谢石、谢玄率 8 万北府兵迎战。十一月淝水之战,秦军大溃,苻坚败归。'风声鹤唳,草木皆兵'。
+impact: 中国历史上以少胜多的经典战例。东晋延续,前秦崩溃,北方再度分裂。
+sources:
+- 晋书·谢玄传、苻坚载记
+- 资治通鉴·卷105

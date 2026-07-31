@@ -1,0 +1,32 @@
+id: p_qianlong
+type: Person
+name: 弘历
+alias:
+- 清高宗
+- 乾隆
+born:
+  year: 1711
+died:
+  year: 1799
+reign_start:
+  year: 1735
+reign_end:
+  year: 1796
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_beijing_qing
+bio: 清高宗。十全武功(1755-1792 两平准噶尔、平回部、大小金川等)。1773 开四库全书馆。1793 马戛尔尼使团。六下江南。
+sources:
+- 清史稿·高宗本纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/UB_Maastricht_-_Staunton_1798_-_plate_II.jpg/500px-UB_Maastricht_-_Staunton_1798_-_plate_II.jpg"
+ext:
+  title: 乾隆帝
+  regime: 清
+  note: 1796年正月禅位于嘉庆,称太上皇仍训政至1799年崩
+wikidata_id: "Q19133"
+wikipedia_zh: "乾隆帝"
+image_license: "Public domain"
+image_credit: "Sir George Staunton, 1st Baronet"
+image_source_page: "https://commons.wikimedia.org/wiki/File:UB_Maastricht_-_Staunton_1798_-_plate_II.jpg"

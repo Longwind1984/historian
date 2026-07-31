@@ -1,0 +1,25 @@
+id: k_yangwu
+type: Polity
+name: 杨吴
+name_en: Yang Wu
+color: '#1abc9c'
+founded:
+  year: 902
+  month: 4
+ended:
+  year: 937
+  month: 10
+capital: pl_jinling
+description: 杨行密奠基,唐封吴王。为南唐取代。
+sources:
+- 新五代史·吴世家
+- 十国春秋·吴
+founder: p_yanghangmi
+supplanted: k_tang
+ended_by: k_nantang
+territory:
+- valid_from:
+    year: 902
+  valid_to:
+    year: 937
+  geojson_file: yangwu_peak.geojson

@@ -1,0 +1,18 @@
+id: k_nan_liang
+type: Polity
+name: 梁
+name_en: Liang
+color: '#c0392b'
+founded:
+  year: 502
+  month: 4
+ended:
+  year: 557
+  month: 10
+capital: pl_jianye_han
+description: 南朝梁。萧衍建。'天监之治'。侯景之乱后衰落。
+sources:
+- 梁书
+founder: p_xiao_yan
+supplanted: k_nan_qi
+ended_by: k_nan_chen

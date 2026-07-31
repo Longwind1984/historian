@@ -1,0 +1,37 @@
+id: p_lianpo
+type: Person
+name: 廉颇
+gender: male
+born:
+  year: -327
+died:
+  year: -243
+roles:
+- general
+importance: 2
+bio: 廉颇，赵国人。赵惠文王时名将，以勇气闻于诸侯，与白起、王翦、李牧并称战国四大名将。前283年伐齐取阳晋，拜上卿。长平之战(前260)前期坚壁固守三年，秦不能克，秦乃施反间使赵以赵括代之，赵遂大败。前251年大破燕军于鄗，封信平君，假相国。与蔺相如争位列其下，相如避让，颇负荆请罪，结刎颈之交，世称"将相和"。赵悼襄王立(前245)使乐乘代颇，颇怒攻乐乘，奔魏；后复为楚将，无功，卒于寿春，临终叹"我思用赵人"。生卒无载，战国末人。
+life_events:
+- year: -283
+  event: 伐齐取阳晋，以勇闻，拜上卿
+  source: 史记·廉颇蔺相如列传
+- year: -260
+  event: 长平之战前期坚壁固守，遭反间被代换
+  source: 史记·廉颇蔺相如列传
+- year: -251
+  event: 破燕于鄗，封信平君
+  source: 史记·廉颇蔺相如列传
+- year: -245
+  event: 怒攻代将乐乘，奔魏，后入楚卒
+  source: 史记·廉颇蔺相如列传
+sources:
+- 史记·廉颇蔺相如列传
+- 战国策·赵策
+ext:
+  disputed: true
+  note: 生卒均约数;确年只有长平(前260)、奔魏入楚(前243后)
+wikidata_id: "Q744827"
+wikipedia_zh: "廉颇"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%E5%BB%89%E9%A0%97.jpg/500px-%E5%BB%89%E9%A0%97.jpg"
+image_license: "Public domain"
+image_credit: "馮夢龍"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%BB%89%E9%A0%97.jpg"

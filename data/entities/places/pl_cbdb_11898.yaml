@@ -1,0 +1,10 @@
+id: pl_cbdb_11898
+type: Place
+name: 陝西路
+modern_name: 陝西路
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 997
+last_year: 1071
+description: CBDB 行政类型:Lu

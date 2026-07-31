@@ -1,0 +1,14 @@
+id: p_cbdb_630
+type: Person
+name: 韓琦
+born:
+  year: 1008
+died:
+  year: 1075
+gender: male
+birthplace: pl_cbdb_11725
+dynasty_ref: k_beisong
+bio: CBDB ID 630
+name_en: Han Qi
+sources:
+- CBDB (China Biographical Database)

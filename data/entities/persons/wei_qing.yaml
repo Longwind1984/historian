@@ -1,0 +1,18 @@
+id: p_wei_qing
+type: Person
+name: 卫青
+alias:
+- 卫仲卿
+courtesy_name: 仲卿
+died:
+  year: -106
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_pingyang_weiqing
+bio: 西汉名将。卫子夫弟。BC129-119 五次出击匈奴。BC127 收复河南地,BC119 漠北之战大破匈奴,封长平侯。
+sources:
+- 史记·卫将军骠骑列传
+wikidata_id: "Q15930128"
+wikipedia_zh: "衛青 (明朝)"

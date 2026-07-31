@@ -1,0 +1,12 @@
+id: pl_cbdb_15972
+type: Place
+name: 青陽
+modern_name: 青陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.636639
+longitude: 117.863052
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

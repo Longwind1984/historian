@@ -1,0 +1,14 @@
+id: p_zhu_tao
+type: Person
+name: 朱滔
+born:
+  year: 746
+died:
+  year: 785
+gender: male
+birthplace: pl_youzhou
+bio: 卢龙节度使(772-785)。朱希彩死后继立。781-784 与田悦、王武俊、李纳联合叛乱,自称冀王。
+sources:
+- 旧唐书·朱滔传
+wikidata_id: "Q6644894"
+wikipedia_zh: "朱滔"

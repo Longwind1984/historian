@@ -1,0 +1,16 @@
+id: p_zhangdun
+type: Person
+name: 章惇
+courtesy_name: 子厚
+born:
+  year: 1035
+died:
+  year: 1105
+  month: 11
+gender: male
+birthplace: pl_pucheng_zhang
+bio: 新党领袖。哲宗亲政后任相(绍圣绍述),复新法,贬元祐党人。
+sources:
+- 宋史·奸臣传·章惇
+wikidata_id: "Q11598435"
+wikipedia_zh: "章惇"

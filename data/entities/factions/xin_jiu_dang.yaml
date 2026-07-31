@@ -1,0 +1,15 @@
+id: f_xin_jiu_dang
+type: Faction
+name: 新党 vs 旧党
+nature: political
+founded:
+  year: 1069
+dissolved:
+  year: 1126
+core_region: pl_kaifeng
+description: 王安石变法引发的北宋最大党争。新党(变法派):王安石、吕惠卿、曾布、章惇、蔡京;旧党(反变法):司马光、文彦博、韩琦、富弼、欧阳修、苏轼。
+significance: 北宋中后期政治主轴,党争内耗削弱国力。
+peak_period: 1069-1126
+sources:
+- 宋史
+- 续资治通鉴长编

@@ -1,0 +1,14 @@
+id: p_cbdb_10815
+type: Person
+name: 歐陽玄
+born:
+  year: 1283
+died:
+  year: 1357
+gender: male
+birthplace: pl_cbdb_18760
+dynasty_ref: k_yuan
+bio: CBDB ID 10815
+name_en: Ouyang Xuan
+sources:
+- CBDB (China Biographical Database)

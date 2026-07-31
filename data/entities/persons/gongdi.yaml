@@ -1,0 +1,33 @@
+id: p_gongdi
+type: Person
+name: 赵㬎
+alias:
+- 宋恭帝
+born:
+  year: 1271
+  month: 9
+died:
+  year: 1323
+gender: male
+birthplace: pl_linan_song
+bio: 宋恭帝。1274 4 岁继位,谢太后垂帘,贾似道当国。1276 元军入临安,降。被掳上都,后出家为僧(吐蕃)。
+sources:
+- 宋史·瀛国公本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1274
+reign_end:
+  year: 1276
+roles:
+- emperor
+ext:
+  title: 宋恭帝
+  regime: 南宋
+importance: 3
+wikidata_id: "Q7500"
+wikipedia_zh: "宋恭帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Song_Gongdi2.jpg/500px-Song_Gongdi2.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Song_Gongdi2.jpg"

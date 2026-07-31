@@ -1,0 +1,28 @@
+id: p_gao_zhan
+type: Person
+name: 高湛
+alias:
+- 北齐武成帝
+born:
+  year: 537
+died:
+  year: 569
+reign_start:
+  year: 561
+reign_end:
+  year: 565
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_bei_qi
+bio: 高欢九子。荒淫,杀高浟等宗室(高殷乃前一年为其兄孝昭帝高演所杀),和士开用事。565年传位其子高纬,自为太上皇。
+ext:
+  title: 北齐武成帝
+  regime: 北齐
+sources:
+- 北齐书
+- 北史
+- 资治通鉴
+wikidata_id: "Q718243"
+wikipedia_zh: "齐武成帝"

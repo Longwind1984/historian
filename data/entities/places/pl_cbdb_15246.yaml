@@ -1,0 +1,12 @@
+id: pl_cbdb_15246
+type: Place
+name: 永濟
+modern_name: 永濟
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.65789
+longitude: 115.407806
+first_year: 772
+last_year: 905
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_12726
+type: Place
+name: 宜興
+modern_name: 宜興
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.363638
+longitude: 119.814385
+first_year: 976
+last_year: 1279
+description: CBDB 行政类型:Xian

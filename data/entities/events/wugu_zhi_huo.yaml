@@ -1,0 +1,15 @@
+id: e_wugu_zhi_huo
+type: Event
+name: 巫蛊之祸
+date:
+  year: -91
+category: purge
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_xihan
+description: BC91 江充诬陷太子刘据行巫蛊术诅咒武帝。太子起兵杀江充,兵败,母子皆自杀。死者数万。
+impact: 武帝晚年悲剧,后昭帝、宣帝继位。
+sources:
+- 汉书·江充传、武五子传
+- 资治通鉴·卷22

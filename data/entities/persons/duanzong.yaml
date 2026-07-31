@@ -1,0 +1,33 @@
+id: p_duanzong
+type: Person
+name: 赵昰
+alias:
+- 宋端宗
+born:
+  year: 1269
+died:
+  year: 1278
+  month: 5
+gender: male
+birthplace: pl_yashan2
+bio: 宋端宗。临安陷落后陆秀夫、张世杰护送南逃。1276 福州即位。元军追击流亡海上,1278 病死,年 10 岁。
+sources:
+- 宋史·本纪47
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1276
+reign_end:
+  year: 1278
+roles:
+- emperor
+ext:
+  title: 宋端宗
+  regime: 南宋
+importance: 3
+wikidata_id: "Q7501"
+wikipedia_zh: "宋端宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/ZhaoShiDuanzong.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:ZhaoShiDuanzong.png"

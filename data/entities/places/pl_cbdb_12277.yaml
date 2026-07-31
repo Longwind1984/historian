@@ -1,0 +1,12 @@
+id: pl_cbdb_12277
+type: Place
+name: 代州
+modern_name: 代州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.060390472
+longitude: 112.94904327
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

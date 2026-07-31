@@ -1,0 +1,15 @@
+id: pl_zhongshan
+type: Place
+name: 中山
+modern_name: 定州
+province: 河北
+latitude: 38.51
+longitude: 115.01
+category: city
+description: 后燕都
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

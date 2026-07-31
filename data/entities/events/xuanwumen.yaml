@@ -1,0 +1,17 @@
+id: e_xuanwumen
+type: Event
+name: 玄武门之变
+date:
+  year: 626
+  month: 7
+category: coup
+importance: 2
+location: pl_xuanwu
+polities_involved:
+- k_tang
+description: 626 年六月四日,秦王李世民在玄武门发动政变,射杀太子李建成、齐王李元吉。高祖李渊被迫立世民为太子,八月禅位,世民即位为太宗。
+impact: 贞观之治开启。
+sources:
+- 旧唐书·太宗本纪
+- 资治通鉴·卷191
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Xuanwu Gate Incident.jpg

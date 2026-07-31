@@ -1,0 +1,18 @@
+id: p_li_xiannian
+name: 李先念
+type: Person
+born: {year: 1909}
+died: {year: 1992}
+roles:
+  - civil_official
+importance: 2
+bio: 湖北红安人。1983-1988年任中华人民共和国主席。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q311413"
+wikipedia_zh: "李先念"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Li_Xiannian.png/500px-Li_Xiannian.png"
+image_license: "Public domain"
+image_credit: "unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Xiannian.png"

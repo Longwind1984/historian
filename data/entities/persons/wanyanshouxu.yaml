@@ -1,0 +1,28 @@
+id: p_wanyanshouxu
+type: Person
+name: 完颜守绪
+alias:
+- 金哀宗
+born:
+  year: 1198
+died:
+  year: 1234
+  month: 2
+gender: male
+birthplace: pl_caizhou_wysx
+bio: 金朝末代皇帝。在位十年间蒙古步步紧逼,首都由中都迁汴再迁蔡州。1234 蒙宋联军破蔡州,自缢,金亡。
+sources:
+- 金史·哀宗本纪
+- 金史
+reign_start:
+  year: 1224
+reign_end:
+  year: 1234
+importance: 3
+roles:
+- emperor
+ext:
+  title: 金哀宗
+  regime: 金
+wikidata_id: "Q5081"
+wikipedia_zh: "金哀宗"

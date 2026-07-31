@@ -1,0 +1,13 @@
+id: pl_laiyang_qin
+type: Place
+name: 历城
+modern_name: 济南
+province: 山东
+latitude: 36.65
+longitude: 117.0
+category: city
+description: 秦叔宝籍贯
+sources:
+- 旧唐书
+- 隋书
+- 中国历史地图集

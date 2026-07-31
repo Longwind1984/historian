@@ -1,0 +1,29 @@
+id: k_liao
+type: Polity
+name: 契丹/辽
+name_en: Khitan/Liao
+color: '#7f8c8d'
+founded:
+  year: 916
+  month: 1
+ended:
+  year: 1125
+  month: 8
+capital: pl_liaoshangjing
+description: 契丹族耶律阿保机所建,947 年改国号辽。五代时期深度介入中原事务,灭后晋。占有燕云十六州。
+sources:
+- 辽史
+- 契丹国志
+founder: p_yeluabaoji
+territory:
+- valid_from:
+    year: 947
+  valid_to:
+    year: 1125
+  geojson_file: chgis_liao.geojson
+  note: CHGIS V5 prefecture polygons
+- valid_from:
+    year: 916
+  valid_to:
+    year: 1125
+  geojson_file: liao_peak.geojson

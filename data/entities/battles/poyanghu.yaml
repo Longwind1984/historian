@@ -1,0 +1,21 @@
+id: b_poyanghu
+type: Battle
+name: 鄱阳湖之战
+date:
+  year: 1363
+  month: 8
+category: battle
+importance: 2
+location: pl_poyanghu
+combatants:
+- k_wu_zhu
+- k_han_chen
+commanders:
+- p_zhuyuanzhang
+- p_chenyouliang
+victor: k_wu_zhu
+victor_commander: p_zhuyuanzhang
+description: 朱元璋与陈友谅的决战。陈友谅率六十万(号)水师,巨舰连锁。朱元璋以小船火攻,陈中箭死。
+significance: 朱元璋统一江南的决定性战役。
+sources:
+- 明史·太祖本纪

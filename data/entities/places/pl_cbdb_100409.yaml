@@ -1,0 +1,12 @@
+id: pl_cbdb_100409
+type: Place
+name: 洛陽
+modern_name: 洛陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.665276
+longitude: 112.38263
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

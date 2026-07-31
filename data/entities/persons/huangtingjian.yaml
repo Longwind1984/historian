@@ -1,0 +1,24 @@
+id: p_huangtingjian
+type: Person
+name: 黄庭坚
+gender: male
+courtesy_name: 鲁直
+art_name: 山谷道人
+born:
+  year: 1045
+died:
+  year: 1105
+  month: 9
+roles:
+- literatus
+importance: 2
+bio: 苏门四学士之一,江西诗派开山。以修《神宗实录》获罪,贬黔州、宜州,卒于贬所。崇宁元年名列元祐党人碑。书法为宋四家之一。
+sources:
+- 宋史·黄庭坚传
+- 山谷集
+wikidata_id: "Q709460"
+wikipedia_zh: "黃庭堅"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Huang_Tingjian.png/500px-Huang_Tingjian.png"
+image_license: "Public domain"
+image_credit: "Photoed and reproduction by User:Mountain"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Huang_Tingjian.png"

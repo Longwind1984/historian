@@ -1,0 +1,32 @@
+id: p_li_xuan_xizong
+type: Person
+name: 李儇
+alias:
+- 唐僖宗
+- 僖宗
+born:
+  year: 862
+died:
+  year: 888
+reign_start:
+  year: 873
+reign_end:
+  year: 888
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 懿宗子，十二岁即位，宦官田令孜专权。王仙芝、黄巢起义爆发，880年黄巢入长安，帝奔成都。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐僖宗
+  regime: 唐
+wikidata_id: "Q9889"
+wikipedia_zh: "唐僖宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%E5%94%90%E5%83%96%E5%AE%97%E5%B8%9D%EF%BC%88%E6%AE%98%E5%94%90%E4%BA%94%E4%BB%A3%E5%8F%B2%E6%BC%94%E7%BE%A9%E5%82%B3%EF%BC%89.jpg/500px-%E5%94%90%E5%83%96%E5%AE%97%E5%B8%9D%EF%BC%88%E6%AE%98%E5%94%90%E4%BA%94%E4%BB%A3%E5%8F%B2%E6%BC%94%E7%BE%A9%E5%82%B3%EF%BC%89.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%83%96%E5%AE%97%E5%B8%9D%EF%BC%88%E6%AE%98%E5%94%90%E4%BA%94%E4%BB%A3%E5%8F%B2%E6%BC%94%E7%BE%A9%E5%82%B3%EF%BC%89.jpg"

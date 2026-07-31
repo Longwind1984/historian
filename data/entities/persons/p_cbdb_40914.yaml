@@ -1,0 +1,14 @@
+id: p_cbdb_40914
+type: Person
+name: 李問
+born:
+  year: 975
+died:
+  year: 1064
+gender: male
+birthplace: pl_cbdb_12441
+dynasty_ref: k_beisong
+bio: CBDB ID 40914
+name_en: Li Wen
+sources:
+- CBDB (China Biographical Database)

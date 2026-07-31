@@ -1,0 +1,12 @@
+id: pl_cbdb_100659
+type: Place
+name: 陳留
+modern_name: 陳留
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.673195
+longitude: 114.524528
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

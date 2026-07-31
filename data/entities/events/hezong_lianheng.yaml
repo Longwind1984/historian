@@ -1,0 +1,22 @@
+id: e_hezong_lianheng
+type: Event
+name: 合纵连横
+date:
+  year: -333
+category: diplomacy
+polities_involved:
+- k_qin_state
+- k_han_state
+- k_zhao_state
+- k_wei_state
+- k_chu_state
+- k_yan_state
+- k_qi_state
+importance: 2
+description: 战国中后期列国外交大势。合纵者，山东六国南北联合抗秦；连横者，秦联络东方诸国东西事秦。传统据《史记》系苏秦约从始于前333年(说燕、赵，继而说韩、魏、齐、楚，佩六国相印)，张仪相秦行连横(约前328—前310，说魏、楚事秦)以破纵。然1973年长沙马王堆帛书《战国纵横家书》出土后，学界多据之考证苏秦年代实晚于张仪，主要活动于齐闵王时(约前300—前284)，前284年五国合纵伐齐，苏秦死。两说并存，本条从通说系其始于前333年。
+sources:
+- 史记·苏秦列传
+- 史记·张仪列传
+- 战国策·秦策
+ext:
+  note: 苏秦生卒年代有重大学术争议(史记系于张仪同时之传统说 vs 据马王堆帛书之后移说)；本条起年从史记通说

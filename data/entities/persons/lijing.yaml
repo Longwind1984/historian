@@ -1,0 +1,38 @@
+id: p_lijing
+type: Person
+name: 李璟
+alias:
+- 南唐元宗
+- 李景通
+- 南唐中主
+courtesy_name: 伯玉
+born:
+  year: 916
+died:
+  year: 961
+  month: 8
+gender: male
+birthplace: pl_jinling
+bio: 南唐元宗。李昪长子。在位期间灭闽、楚,然穷兵黩武,国势转衰。958 年去帝号,称国主奉周正朔。词人,有作品传世。
+sources:
+- 新五代史·南唐世家
+- 十国春秋·南唐
+- 十国春秋
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 943
+reign_end:
+  year: 961
+importance: 3
+roles:
+- emperor
+ext:
+  title: 南唐中主
+  regime: 南唐
+wikidata_id: "Q718254"
+wikipedia_zh: "李璟"
+image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Li_Jing_of_Southern_Tang.jpg"
+image_license: "Public domain"
+image_credit: "周文矩"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Jing_of_Southern_Tang.jpg"

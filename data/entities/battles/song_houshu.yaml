@@ -1,0 +1,25 @@
+id: b_song_houshu
+type: Battle
+name: 宋灭后蜀
+date:
+  year: 964
+  month: 11
+importance: 3
+location: pl_chengdu
+combatants:
+- k_song
+- k_houshu
+commanders:
+- p_zhaokuangyin
+- p_mengchang
+victor: k_song
+victor_commander: p_zhaokuangyin
+description: 宋太祖遣王全斌、刘光义分道伐蜀,66 天灭之。孟昶降。
+significance: 北宋统一重要一步。
+sources:
+- 续资治通鉴长编·卷5-6
+- 宋史·太祖本纪
+end_date:
+  year: 965
+  month: 2
+category: conquest

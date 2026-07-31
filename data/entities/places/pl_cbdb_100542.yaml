@@ -1,0 +1,12 @@
+id: pl_cbdb_100542
+type: Place
+name: 蘄水
+modern_name: 蘄水
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.458691
+longitude: 115.252037
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

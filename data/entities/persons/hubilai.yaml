@@ -1,0 +1,35 @@
+id: p_hubilai
+type: Person
+name: 忽必烈
+alias:
+- 元世祖
+- 薛禅汗
+born:
+  year: 1215
+  month: 9
+died:
+  year: 1294
+  month: 2
+reign_start:
+  year: 1260
+reign_end:
+  year: 1294
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_dadu_yuan
+bio: 元朝建立者。成吉思汗孙,蒙哥弟。1260 年称大汗,1271 年定国号元。1279 年崖山海战灭南宋,统一中国。
+ext:
+  significance: 完成中国全境统一,定都大都,奠元明格局。
+  title: 忽必烈
+  regime: 元
+sources:
+- 元史·世祖本纪
+- 新元史
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/YuanEmperorAlbumKhubilaiPortrait.jpg/500px-YuanEmperorAlbumKhubilaiPortrait.jpg"
+wikidata_id: "Q7523"
+wikipedia_zh: "忽必烈"
+image_license: "Public domain"
+image_credit: "Araniko"
+image_source_page: "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumKhubilaiPortrait.jpg"

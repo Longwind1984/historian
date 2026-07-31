@@ -1,0 +1,12 @@
+id: pl_cbdb_5878
+type: Place
+name: 南充
+modern_name: 南充
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.798986
+longitude: 106.080727
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

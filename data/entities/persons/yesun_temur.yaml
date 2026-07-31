@@ -1,0 +1,24 @@
+id: p_yesun_temur
+type: Person
+name: 也孙铁木儿
+alias:
+- 泰定帝
+born:
+  year: 1293
+died:
+  year: 1328
+reign_start:
+  year: 1323
+reign_end:
+  year: 1328
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 甘麻剌子。南坡之变后被拥立于漠北。在位五年病死上都,旋爆发两都之战。
+ext:
+  title: 元泰定帝
+  regime: 元
+sources:
+- 元史
+- 新元史

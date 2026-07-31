@@ -1,0 +1,24 @@
+id: p_linzexu
+type: Person
+name: 林则徐
+alias:
+- 林元抚
+courtesy_name: 元抚
+born:
+  year: 1785
+died:
+  year: 1850
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_houguan_lin
+bio: 清代政治家、民族英雄。1839 钦差大臣,虎门销烟。鸦片战争后被贬。
+sources:
+- 清史稿·林则徐传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Lin_Zexu.jpeg/500px-Portrait_of_Lin_Zexu.jpeg"
+wikidata_id: "Q184999"
+wikipedia_zh: "林则徐"
+image_license: "Public domain"
+image_credit: "Lam Qua"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Portrait_of_Lin_Zexu.jpeg"

@@ -1,0 +1,22 @@
+id: p_bigan
+type: Person
+name: 比干
+alias:
+- 子比干
+gender: male
+floruit_start:
+  year: -1060
+floruit_end:
+  year: -1046
+roles:
+- imperial_kin
+- civil_official
+importance: 2
+bio: 商王帝辛之叔，官少师。见纣暴虐，强谏三日不去，被剖心而死。后世奉为忠谏之典范。事见《史记·殷本纪》《尚书·泰誓》。年代模糊。
+sources:
+- 史记·殷本纪
+- 尚书·泰誓
+- 论语·微子
+ext:
+  disputed: true
+  note: 帝辛之叔,官少师,强谏被剖心。年代随商末,生卒无考

@@ -1,0 +1,12 @@
+id: pl_cbdb_5398
+type: Place
+name: 會稽
+modern_name: 會稽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.004515
+longitude: 120.578262
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

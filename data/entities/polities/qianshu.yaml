@@ -1,0 +1,25 @@
+id: k_qianshu
+type: Polity
+name: 前蜀
+name_en: Former Shu
+color: '#e74c3c'
+founded:
+  year: 907
+  month: 9
+ended:
+  year: 925
+  month: 11
+capital: pl_chengdu
+description: 王建在四川所建。925 年为后唐所灭。
+sources:
+- 新五代史·前蜀世家
+- 十国春秋·前蜀
+founder: p_wangjian
+supplanted: k_tang
+ended_by: k_houdong
+territory:
+- valid_from:
+    year: 907
+  valid_to:
+    year: 925
+  geojson_file: qianshu_peak.geojson

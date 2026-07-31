@@ -1,0 +1,12 @@
+id: pl_cbdb_14097
+type: Place
+name: 興安
+modern_name: 興安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.613132
+longitude: 110.665871
+first_year: 976
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,44 @@
+id: p_quyuan
+type: Person
+name: 屈原
+alias:
+- 屈平
+- 正则
+- 灵均
+courtesy_name: 原
+gender: male
+roles:
+- literatus
+- civil_official
+importance: 1
+born:
+  year: -340
+died:
+  year: -278
+bio: 屈原，名平，字原，又自云名正则、字灵均(见《离骚》)，楚国公族，与楚王同姓芈、屈氏。事楚怀王，为左徒、三闾大夫，博闻强记，明于治乱，娴于辞令；入则图议国事，出则应对诸侯，甚得怀王信任。主联齐抗秦、举贤授能，遭上官大夫等谗毁，去职放逐，辗转沅湘。前278年秦将白起破楚都郢，屈原悲愤绝望，怀石自沉于汨罗江(相传五月五日)。相传作《离骚》《九歌》《九章》《天问》等，开楚辞一派，后世并称"风骚"。生卒约前340-前278。
+life_events:
+- year: -340
+  event: (约)生于楚
+  source: 史记·屈原贾生列传
+- year: -319
+  event: (约)任左徒，甚得怀王信
+  source: 史记·屈原贾生列传
+- year: -304
+  event: (约)遭谗去职放逐
+  source: 史记·屈原贾生列传
+- year: -278
+  event: 白起破郢，投汨罗江死
+  source: 史记·屈原贾生列传
+sources:
+- 史记·屈原贾生列传
+- 楚辞·离骚
+- 战国策·楚策
+ext:
+  disputed: true
+  note: 生卒年有异说(通说约前340-前278)；楚辞诸篇多相传屈原作，部分篇章后世亦有归属讨论
+wikidata_id: "Q313330"
+wikipedia_zh: "屈原"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Qu_Yuan_Chen_Hongshou_2.jpg/500px-Qu_Yuan_Chen_Hongshou_2.jpg"
+image_license: "Public domain"
+image_credit: "Chen Hongshou"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qu_Yuan_Chen_Hongshou_2.jpg"

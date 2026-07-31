@@ -1,0 +1,15 @@
+id: k_wu_state
+type: Polity
+name: 吴国
+name_en: Wu (state)
+color: '#1abc9c'
+founded:
+  year: -585
+ended:
+  year: -473
+ended_by: k_yue_state
+description: 吴国。姬姓，相传太伯、仲雍奔荆蛮所建，至春秋晚期寿梦始大。吴王阖闾用孙武、伍子胥伐楚入郢(前506)，吴始强。夫差败越、北上黄池争霸，前473年越灭吴，夫差自尽，吴亡。
+sources:
+- 史记·吴太伯世家
+- 左传·定公
+- 左传·哀公

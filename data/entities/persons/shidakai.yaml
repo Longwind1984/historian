@@ -1,0 +1,20 @@
+id: p_shidakai
+type: Person
+name: 石达开
+alias:
+- 翼王
+born:
+  year: 1831
+died:
+  year: 1863
+gender: male
+birthplace: pl_guiping_shi
+bio: 太平天国翼王。天京事变后出走。1863 大渡河败亡。
+sources:
+- 清史稿·洪秀全传附
+wikidata_id: "Q2033146"
+wikipedia_zh: "石达开"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Shi-Dakai-Monument.JPG/500px-Shi-Dakai-Monument.JPG"
+image_license: "CC BY-SA 3.0"
+image_credit: "AlexHe34"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Shi-Dakai-Monument.JPG"

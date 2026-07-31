@@ -1,0 +1,22 @@
+id: p_shikefa
+type: Person
+name: 史可法
+born:
+  year: 1601
+died:
+  year: 1645
+gender: male
+roles:
+- civil_official
+- general
+importance: 2
+birthplace: pl_xiangfu_shi
+bio: 南明兵部尚书、东阁大学士。1645 扬州十日殉城。
+sources:
+- 明史·史可法传
+wikidata_id: "Q3274611"
+wikipedia_zh: "史可法"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/%E5%8F%B2%E5%8F%AF%E6%B3%95%E5%83%8F.jpg/500px-%E5%8F%B2%E5%8F%AF%E6%B3%95%E5%83%8F.jpg"
+image_license: "Public domain"
+image_credit: "Su Chao Ding"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%8F%B2%E5%8F%AF%E6%B3%95%E5%83%8F.jpg"

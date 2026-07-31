@@ -1,0 +1,17 @@
+id: e_dayunhe
+type: Event
+name: 大运河开通
+date:
+  year: 605
+category: science
+importance: 2
+location: pl_tongqu
+polities_involved:
+- k_sui
+description: 605-610 年隋炀帝开凿。以洛阳为中心,通济渠、永济渠、邗沟、江南河四段相连。涿郡(北京)至余杭(杭州),全长 2700 余公里。
+impact: 纵贯中国南北,影响千年。但工程浩大,死伤百万,直接引发隋末大起义。
+sources:
+- 隋书·炀帝纪
+- 资治通鉴·卷181
+end_date:
+  year: 610

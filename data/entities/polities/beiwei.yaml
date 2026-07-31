@@ -1,0 +1,17 @@
+id: k_beiwei
+type: Polity
+name: 北魏
+name_en: Northern Wei
+color: '#1abc9c'
+founded:
+  year: 386
+  month: 3
+ended:
+  year: 534
+capital: pl_pingcheng
+description: 北朝之一。鲜卑拓跋部建。398 都平城,494 迁洛阳。534 分裂为东西魏。
+sources:
+- 魏书
+- 北史
+founder: p_tuoba_gui
+ended_by: k_dong_wei

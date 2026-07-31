@@ -1,0 +1,38 @@
+id: p_qin_mu_gong
+type: Person
+name: 嬴任好
+alias:
+- 秦穆公
+- 穆公
+- 任好
+gender: male
+roles:
+- monarch
+importance: 2
+reign_start:
+  year: -659
+reign_end:
+  year: -621
+bio: 秦穆公，嬴姓，名任好。任用百里奚、蹇叔、由余，励精图治。干涉晋政，助晋文公入晋；后殽之战(前627)为晋所袭大败，东进受阻，乃西向伐戎，益国十二、开地千里，遂霸西戎，周天子致贺。在位约三十九年卒，殉百七十七人。
+life_events:
+- year: -655
+  event: 赎百里奚于楚，任为大夫
+  source: 史记·秦本纪
+- year: -636
+  event: 送晋文公入晋即位
+  source: 左传·僖公二十四年
+- year: -627
+  event: 殽之战为晋所袭大败
+  source: 左传·僖公三十三年
+- year: -623
+  event: 伐戎王，益国十二，霸西戎
+  source: 史记·秦本纪
+- year: -621
+  event: 卒，从死百七十七人
+  source: 史记·秦本纪
+sources:
+- 史记·秦本纪
+- 左传·僖公
+- 左传·文公
+wikidata_id: "Q1146646"
+wikipedia_zh: "秦穆公"

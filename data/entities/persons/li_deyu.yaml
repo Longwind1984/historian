@@ -1,0 +1,21 @@
+id: p_li_deyu
+type: Person
+name: 李德裕
+alias:
+- 李文饶
+courtesy_name: 文饶
+born:
+  year: 787
+died:
+  year: 850
+gender: male
+birthplace: pl_zhaojun_li
+bio: 中唐名相,李党领袖。父李吉甫。历武宗(会昌)、宣宗朝为相。会昌中兴主力:平昭义、灭回鹘、毁佛。846 宣宗即位被贬,贬死崖州。
+ext:
+  significance: 晚唐杰出政治家,陈寅恪评'牛李党争中李党代表山东士族'之说尚有争议。
+sources:
+- 旧唐书·李德裕传
+- 新唐书·李德裕传
+- 资治通鉴·卷246-248
+wikidata_id: "Q504002"
+wikipedia_zh: "李德裕"

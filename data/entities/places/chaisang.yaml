@@ -1,0 +1,15 @@
+id: pl_chaisang
+type: Place
+name: 柴桑
+modern_name: 九江
+province: 江西
+latitude: 29.71
+longitude: 115.99
+category: battlefield
+description: 赤壁之战周瑜驻地
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

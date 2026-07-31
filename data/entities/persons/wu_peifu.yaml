@@ -1,0 +1,24 @@
+id: p_wu_peifu
+type: Person
+name: 吴佩孚
+alias:
+- 吴子玉
+courtesy_name: 子玉
+born:
+  year: 1874
+died:
+  year: 1939
+gender: male
+roles:
+- general
+importance: 2
+bio: 山东蓬莱人，北洋军阀直系将领。秀才出身，入保定陆军速成学堂，曹锟部下。1918 年起在南北战争中崭露头角。1920 年直皖战争、1922 年第一次直奉战争均为主力指挥，势力盛时控制鄂、豫、陕数省，为当时中外瞩目之实力派。1924 年第二次直奉战争因冯玉祥倒戈而败。1926 年被北伐军击溃，退居四川、北平。抗战时期拒受日伪拉拢，1939 年卒于北平。
+sources:
+- 中华民国史·吴佩孚传
+- 郭剑林·吴佩孚传
+wikidata_id: "Q697046"
+wikipedia_zh: "吴佩孚"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Wu_Peifu_with_sword.jpg"
+image_license: "CC BY-SA 4.0"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wu_Peifu_with_sword.jpg"

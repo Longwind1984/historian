@@ -1,0 +1,12 @@
+id: pl_cbdb_12796
+type: Place
+name: 天台
+modern_name: 天台
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.138258
+longitude: 121.026558
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

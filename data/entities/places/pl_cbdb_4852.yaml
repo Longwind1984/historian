@@ -1,0 +1,12 @@
+id: pl_cbdb_4852
+type: Place
+name: 長清
+modern_name: 長清
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.551817
+longitude: 116.722055
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

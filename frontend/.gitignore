@@ -1,0 +1,5 @@
+# Playwright 产出
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

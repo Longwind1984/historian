@@ -1,0 +1,12 @@
+id: pl_cbdb_4660
+type: Place
+name: 六安州
+modern_name: 六安州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.754594803
+longitude: 116.49411774
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

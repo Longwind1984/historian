@@ -1,0 +1,14 @@
+id: p_cbdb_127505
+type: Person
+name: 汪玉
+born:
+  year: 1481
+died:
+  year: 1529
+gender: male
+birthplace: pl_cbdb_5407
+dynasty_ref: k_ming
+bio: CBDB ID 127505
+name_en: Wang Yu
+sources:
+- CBDB (China Biographical Database)

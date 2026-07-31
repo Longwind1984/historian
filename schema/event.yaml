@@ -1,0 +1,113 @@
+type: Event
+label: 事件
+label_en: Event
+icon: 📜
+color: '#16a085'
+description: 政治事件、制度变革、外交、文化事件等
+fields:
+  name:
+    type: string
+    required: true
+    label: 名称
+  date:
+    type: year_month
+    label: 发生时间
+  end_date:
+    type: year_month
+    optional: true
+    label: 结束时间
+  category:
+    type: enum
+    # 5 族 18 类（Rick 2026-07-14 定稿 14 类；07-15 全量重扫时按实据补 war/founding/science；
+    #            07-15 配色上轴后暴露「治世/盛世」无归处，补 prosperity）
+    # 族=配色，类=图标/标签。
+    # 军事: battle 战役(单次) / war 战争(跨年多役) / conquest 灭国·分合 / rebellion 民变·起义
+    # 权力: coup 政变·夺权 / succession 继统·禅代 / purge 党争·清洗 / founding 开国·立政
+    # 治理: reform 变法·改革 / institution 制度·律令 / prosperity 治世·盛世
+    #       (prosperity 是时代状态而非单一事件——贞观之治不是变法，此前塞在 reform 属事实性错误)
+    # 对外: diplomacy 外交·交流 / treaty 盟约·条约 / territory 疆土·迁徙
+    # 文明: culture 文化·盛会 / religion 宗教 / science 科技·工程 / disaster 灾难·疫荒(含人为惨案)
+    # other 仅作兜底(刺杀/逝世等无对应类)，不得当垃圾桶
+    options:
+    - battle
+    - war
+    - conquest
+    - rebellion
+    - coup
+    - succession
+    - purge
+    - founding
+    - reform
+    - institution
+    - prosperity
+    - diplomacy
+    - treaty
+    - territory
+    - culture
+    - religion
+    - science
+    - disaster
+    - other
+    family:
+      军事: [battle, war, conquest, rebellion]
+      权力: [coup, succession, purge, founding]
+      治理: [reform, institution, prosperity]
+      对外: [diplomacy, treaty, territory]
+      文明: [culture, religion, science, disaster]
+    label: 类别
+  march:
+    type: array
+    optional: true
+    label: 进军
+    description: |
+      行军路线，逐段记 from→to（皆为 Place ref），供地图画箭头。约定同 schema/battle.yaml：
+      只填史载明确的起讫，无可考者留空 —— 没有数据而画箭头即是编造方向。
+      军事族事件多建模为 Event（赤壁/淝水/明北伐皆是），故此字段两处皆需。
+    items:
+      type: object
+  location:
+    type: ref
+    to: Place
+    optional: true
+    label: 地点
+  polities_involved:
+    type: array
+    items:
+      type: ref
+      to: Polity
+    label: 涉及政权
+  importance:
+    type: int
+    label: 重要性
+    description: |
+      1=核心 2=重要 3=一般（未标注视为 3）。档位同 schema/person.yaml。
+      时间轴按此定 LOD：缩放放不下时先舍 3 再舍 2 —— 此前无此字段，只能拿
+      「因果度数 + 描述长度」作代理，等于让 bio 写得长的事件挤掉写得短的。
+      判据（写明以免各人各理解）：
+        1 核心：改朝换代、疆域巨变、制度奠基、死伤以百万计者 —— 移走它则该段历史讲不通
+        2 重要：影响及于一朝一代者
+        3 一般：局部战役、单次事件，或其意义已由所属的更大事件承载者
+  description:
+    type: text
+    required: true
+    label: 描述
+  impact:
+    type: text
+    optional: true
+    label: 影响
+  sources:
+    type: array
+    items: string
+    label: 史料出处
+  image:
+    type: url
+    optional: true
+    label: 配图
+ext: allow
+relations:
+  outgoing:
+  - part_of
+  incoming:
+  - participated_in
+  - involves
+  - took_place_at

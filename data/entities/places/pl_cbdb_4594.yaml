@@ -1,0 +1,12 @@
+id: pl_cbdb_4594
+type: Place
+name: 長洲
+modern_name: 長洲
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.31271
+longitude: 120.618622
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

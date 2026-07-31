@@ -1,0 +1,33 @@
+id: p_yuwen_yong
+type: Person
+name: 宇文邕
+alias:
+- 北周武帝
+born:
+  year: 543
+died:
+  year: 578
+  month: 6
+reign_start:
+  year: 560
+reign_end:
+  year: 578
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_chang_an_xiwei
+bio: 北周武帝。560-578 在位。572 杀权臣宇文护亲政。574 灭佛(三武一宗之二)。577 灭北齐,统一北方。578 病卒于征突厥途中。
+ext:
+  significance: 为杨坚统一中国奠定基础。
+  title: 北周武帝
+  regime: 北周
+sources:
+- 周书·武帝纪
+- 资治通鉴·卷171-173
+wikidata_id: "Q1327591"
+wikipedia_zh: "周武帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Zhou_Wu_Tang.jpg/500px-Zhou_Wu_Tang.jpg"
+image_license: "Public domain"
+image_credit: "Yan Liben"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhou_Wu_Tang.jpg"

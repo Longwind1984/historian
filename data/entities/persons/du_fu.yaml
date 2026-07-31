@@ -1,0 +1,28 @@
+id: p_du_fu
+type: Person
+name: 杜甫
+alias:
+- 杜子美
+- 杜工部
+courtesy_name: 子美
+born:
+  year: 712
+died:
+  year: 770
+gender: male
+roles:
+- literatus
+importance: 1
+birthplace: pl_gongxian_dufu
+bio: 盛唐大诗人。'诗圣'。河南巩县人。安史之乱颠沛流离,作'三吏三别'。770 病卒于湘江舟中。
+ext:
+  significance: 中国现实主义诗歌巅峰。
+sources:
+- 旧唐书·文苑传·杜甫
+- 新唐书·文艺传·杜甫
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dufu.jpg/500px-Dufu.jpg"
+wikidata_id: "Q33772"
+wikipedia_zh: "杜甫"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Dufu.jpg"

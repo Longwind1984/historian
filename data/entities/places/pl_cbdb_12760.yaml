@@ -1,0 +1,12 @@
+id: pl_cbdb_12760
+type: Place
+name: 諸暨
+modern_name: 諸暨
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.713137
+longitude: 120.227661
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

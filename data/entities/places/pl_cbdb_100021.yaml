@@ -1,0 +1,12 @@
+id: pl_cbdb_100021
+type: Place
+name: 仙源
+modern_name: 仙源
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.597553
+longitude: 116.986059
+first_year: 1012
+last_year: 1126
+description: CBDB 行政类型:Xian

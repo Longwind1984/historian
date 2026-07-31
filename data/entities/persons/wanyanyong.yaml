@@ -1,0 +1,28 @@
+id: p_wanyanyong
+type: Person
+name: 完颜雍
+alias:
+- 金世宗
+born:
+  year: 1123
+died:
+  year: 1189
+  month: 1
+gender: male
+birthplace: pl_beijing_wyliang
+bio: 金朝第五代。'小尧舜'。1164 与宋隆兴和议(四十余年和平)。推行'大定之治',金全盛期。
+sources:
+- 金史·世宗本纪
+- 金史
+reign_start:
+  year: 1161
+reign_end:
+  year: 1189
+importance: 2
+roles:
+- emperor
+ext:
+  title: 金世宗
+  regime: 金
+wikidata_id: "Q5073"
+wikipedia_zh: "金世宗"

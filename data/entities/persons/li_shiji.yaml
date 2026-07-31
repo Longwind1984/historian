@@ -1,0 +1,24 @@
+id: p_li_shiji
+type: Person
+name: 李世勣
+alias:
+- 徐世勣
+- 徐懋功
+- 李绩
+courtesy_name: 懋功
+born:
+  year: 594
+died:
+  year: 669
+  month: 12
+gender: male
+birthplace: pl_liaodong_shiji
+bio: 唐初名将。本姓徐,赐姓李。后避太宗讳去'世'。历仕高祖、太宗、高宗三朝。660-668 与苏定方灭高句丽。'凌烟阁'之一。
+sources:
+- 旧唐书·李绩传
+wikidata_id: "Q717965"
+wikipedia_zh: "李勣"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/%E6%9D%8E%E5%8B%A3.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E5%8B%A3.png"

@@ -1,0 +1,12 @@
+id: pl_cbdb_13918
+type: Place
+name: 劍浦
+modern_name: 劍浦
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.642174
+longitude: 118.169182
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

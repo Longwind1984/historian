@@ -1,0 +1,16 @@
+id: k_bei_qi
+type: Polity
+name: 北齐
+name_en: Northern Qi
+color: '#e74c3c'
+founded:
+  year: 550
+  month: 5
+ended:
+  year: 577
+capital: pl_yedu
+description: 高洋代东魏建。北朝暴虐之最。577 为北周所灭。
+sources:
+- 北齐书
+supplanted: k_dong_wei
+ended_by: k_bei_zhou

@@ -1,0 +1,38 @@
+id: p_simayan
+type: Person
+name: 司马炎
+alias:
+- 晋武帝
+- 司马安世
+- 武帝
+courtesy_name: 安世
+born:
+  year: 236
+died:
+  year: 290
+  month: 5
+gender: male
+birthplace: pl_wen_xianyu
+bio: 司马昭子。265年代魏称帝，280年灭吴一统。行占田制，太康之治称盛；然大封宗室诸王、立痴儿司马衷为嗣，埋下八王之乱之祸。
+ext:
+  significance: 结束三国分裂,但西晋短暂统一即崩溃。
+  title: 晋武帝
+  regime: 西晋
+sources:
+- 晋书·武帝纪
+- 资治通鉴·卷79-82
+- 晋书
+- 资治通鉴
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Jin_Wu_Di.jpg/500px-Jin_Wu_Di.jpg"
+reign_start:
+  year: 266
+reign_end:
+  year: 290
+roles:
+- emperor
+importance: 2
+wikidata_id: "Q7356"
+wikipedia_zh: "司馬炎"
+image_license: "Public domain"
+image_credit: "Yan Li-pen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jin_Wu_Di.jpg"

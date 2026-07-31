@@ -1,0 +1,27 @@
+id: p_sima_shao
+type: Person
+name: 司马绍
+alias:
+- 晋明帝
+- 明帝
+born:
+  year: 299
+died:
+  year: 325
+reign_start:
+  year: 323
+reign_end:
+  year: 325
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 元帝子。平王敦之乱，年二十七崩。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋明帝
+  regime: 东晋
+wikidata_id: "Q7393"
+wikipedia_zh: "晉明帝"

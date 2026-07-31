@@ -1,0 +1,14 @@
+id: p_cbdb_853
+type: Person
+name: 黃裳
+born:
+  year: 1044
+died:
+  year: 1130
+gender: male
+birthplace: pl_cbdb_13918
+dynasty_ref: k_beisong
+bio: CBDB ID 853
+name_en: Huang Shang
+sources:
+- CBDB (China Biographical Database)

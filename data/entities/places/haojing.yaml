@@ -1,0 +1,13 @@
+id: pl_haojing
+type: Place
+name: 镐京
+modern_name: 西安西南(沣河东岸)
+province: 陕西
+latitude: 34.24
+longitude: 108.90
+category: capital
+description: 西周都城。周文王作丰、武王都镐，与丰京并称丰镐；前771年犬戎破镐京，幽王被杀，平王东迁洛邑。
+sources:
+- 史记·周本纪
+- 诗经·大雅
+- 中国历史地图集

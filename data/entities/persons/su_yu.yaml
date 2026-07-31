@@ -1,0 +1,21 @@
+id: p_su_yu
+type: Person
+name: 粟裕
+born:
+  year: 1907
+died:
+  year: 1984
+gender: male
+roles:
+- general
+importance: 2
+bio: 湖南会同人，侗族。中国人民解放军大将，华东野战军主要指挥员，指挥苏中、豫东、淮海、渡江等战役，后任总参谋长。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q840370"
+wikipedia_zh: "粟裕"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Su_Yu_1955_formal.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Su_Yu_1955_formal.jpg"

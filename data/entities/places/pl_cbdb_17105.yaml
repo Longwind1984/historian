@@ -1,0 +1,12 @@
+id: pl_cbdb_17105
+type: Place
+name: 益都路
+modern_name: 益都路
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.687919617
+longitude: 118.47827148
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Lu

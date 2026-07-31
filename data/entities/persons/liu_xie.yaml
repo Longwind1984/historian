@@ -1,0 +1,31 @@
+id: p_liu_xie
+type: Person
+name: 刘协
+alias:
+- 汉献帝
+- 献帝
+born:
+  year: 181
+died:
+  year: 234
+reign_start:
+  year: 189
+reign_end:
+  year: 220
+gender: male
+roles:
+- emperor
+importance: 2
+bio: 灵帝子。董卓所立，历李傕郭汜之乱，196年曹操迎至许都，'挟天子以令诸侯'。220年禅位曹丕，东汉亡，封山阳公。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉献帝
+  regime: 东汉
+wikidata_id: "Q7316"
+wikipedia_zh: "汉献帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Death_of_Consort_Dong.png/500px-Death_of_Consort_Dong.png"
+image_license: "Public domain"
+image_credit: "The picture above is a print from a Qing Dynasty edition of Luo Guanzhongs Romance of the Three Kingdoms"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Death_of_Consort_Dong.png"

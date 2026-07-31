@@ -1,0 +1,13 @@
+id: pl_chang_an_pre_tang
+type: Place
+name: 长安(隋大兴)
+modern_name: 西安
+province: 陕西
+latitude: 34.27
+longitude: 108.95
+category: capital
+description: 隋唐都
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

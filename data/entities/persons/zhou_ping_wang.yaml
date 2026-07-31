@@ -1,0 +1,33 @@
+id: p_zhou_ping_wang
+type: Person
+name: 姬宜臼
+alias:
+- 周平王
+- 平王
+- 宜臼
+gender: male
+roles:
+- emperor
+importance: 2
+reign_start:
+  year: -770
+reign_end:
+  year: -720
+bio: 周平王姬宜臼，周幽王之子，母申后。前771年犬戎破镐京、幽王被杀，申侯与诸侯立宜臼。次年(前770)平王东迁洛邑，史称东周。王室东迁后王畿日蹙、威信陵夷，天子徒拥共主虚名，诸侯力政、霸政迭兴。在位约五十一年崩，孙桓王立。
+life_events:
+- year: -771
+  event: 幽王被杀于骊山，西周亡
+  source: 史记·周本纪
+- year: -770
+  event: 东迁洛邑，东周始
+  source: 史记·周本纪
+- year: -720
+  event: 在位崩，孙桓王立
+  source: 史记·周本纪
+sources:
+- 史记·周本纪
+- 左传·隐公
+- 史记·十二诸侯年表
+ext:
+  title: 周平王
+  regime: 东周

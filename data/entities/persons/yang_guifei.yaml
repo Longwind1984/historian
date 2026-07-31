@@ -1,0 +1,26 @@
+id: p_yang_guifei
+type: Person
+name: 杨玉环
+alias:
+- 杨贵妃
+- 太真
+born:
+  year: 719
+died:
+  year: 756
+  month: 7
+gender: female
+roles:
+- consort
+importance: 1
+birthplace: pl_yongji_yang
+bio: 唐玄宗宠妃。天宝四年(745)册为贵妃。堂兄杨国忠任相。756 马嵬驿之变中被缢死。'回眸一笑百媚生'。
+sources:
+- 旧唐书·后妃传·杨贵妃
+- 白居易·长恨歌
+wikidata_id: "Q298046"
+wikipedia_zh: "杨贵妃"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Yang_Guifei_by_Uemura_Shoen_%28Shohaku_Art_Museum%29.jpg/500px-Yang_Guifei_by_Uemura_Shoen_%28Shohaku_Art_Museum%29.jpg"
+image_license: "Public domain"
+image_credit: "Uemura Shōen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yang_Guifei_by_Uemura_Shoen_(Shohaku_Art_Museum).jpg"

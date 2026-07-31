@@ -1,0 +1,26 @@
+id: p_liu_yi_shaodi
+type: Person
+name: 刘懿
+alias:
+- 汉前少帝
+- 北乡侯
+died:
+  year: 125
+reign_start:
+  year: 125
+reign_end:
+  year: 125
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_donghan
+bio: 章帝孙。安帝崩后阎太后立之，在位约七月病卒，宦官旋拥立顺帝。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉前少帝
+  regime: 东汉
+wikidata_id: "Q7288"
+wikipedia_zh: "刘懿"

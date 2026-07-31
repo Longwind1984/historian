@@ -1,0 +1,18 @@
+id: f_niu_dang
+type: Faction
+name: 牛党
+nature: political
+founded:
+  year: 821
+dissolved:
+  year: 859
+core_region: pl_chang_an
+description: 中晚唐朝堂党争中的一派。以牛僧孺、李宗闵为首,代表科举出身的新进士、寒族士人。主张对藩镇姑息、对宦官妥协、对佛教宽容。
+significance: 陈寅恪曾以其代表'新兴进士阶级',后学界有争议。与李党长期互斗,内耗唐朝。
+peak_period: 长庆-大中
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新唐书
+- 旧唐书
+- 毛汉光·中国中古政治史论
+- 谷川道雄·隋唐帝国形成史论

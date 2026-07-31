@@ -1,0 +1,28 @@
+id: p_liu_bian
+type: Person
+name: 刘辩
+alias:
+- 汉少帝
+- 弘农王
+born:
+  year: 176
+died:
+  year: 190
+reign_start:
+  year: 189
+reign_end:
+  year: 189
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_donghan
+bio: 灵帝子。何进死后宦官作乱，董卓入京废之为弘农王，次年被鸩杀。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉少帝
+  regime: 东汉
+wikidata_id: "Q7301"
+wikipedia_zh: "劉辯"

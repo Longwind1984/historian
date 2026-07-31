@@ -1,0 +1,13 @@
+id: pl_xuzhou
+type: Place
+name: 徐州
+modern_name: 徐州
+province: 江苏
+latitude: 34.21
+longitude: 117.28
+category: battlefield
+description: 庞勋据徐州
+sources:
+- 旧唐书·地理志
+aliases:
+- 彭城

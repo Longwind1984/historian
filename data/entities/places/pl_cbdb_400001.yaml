@@ -1,0 +1,12 @@
+id: pl_cbdb_400001
+type: Place
+name: 長安
+modern_name: 長安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.246421814
+longitude: 108.90698242
+first_year: 618
+last_year: 907
+description: CBDB 行政类型:Xian

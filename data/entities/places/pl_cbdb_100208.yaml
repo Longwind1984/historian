@@ -1,0 +1,12 @@
+id: pl_cbdb_100208
+type: Place
+name: 揭陽
+modern_name: 揭陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 23.542976
+longitude: 116.349769
+first_year: 1121
+last_year: 1279
+description: CBDB 行政类型:Xian

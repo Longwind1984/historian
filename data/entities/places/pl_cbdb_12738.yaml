@@ -1,0 +1,12 @@
+id: pl_cbdb_12738
+type: Place
+name: 分水
+modern_name: 分水
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.92337
+longitude: 119.433472
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

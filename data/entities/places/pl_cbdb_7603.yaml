@@ -1,0 +1,12 @@
+id: pl_cbdb_7603
+type: Place
+name: 仁和
+modern_name: 仁和
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.294124603
+longitude: 120.16862488
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

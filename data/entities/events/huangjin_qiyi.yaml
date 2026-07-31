@@ -1,0 +1,19 @@
+id: e_huangjin_qiyi
+type: Event
+name: 黄巾起义
+date:
+  year: 184
+  month: 3
+category: rebellion
+importance: 1
+location: pl_julu_sui
+polities_involved:
+- k_donghan
+description: 184 年二月张角率太平道信徒于冀州起兵,众数十万。汉廷令各地豪强募兵镇压。204 张角死,起义失败,但开启了群雄割据。
+impact: 东汉末年大起义,直接导致汉末群雄割据。
+sources:
+- 后汉书·皇甫嵩传
+- 资治通鉴·卷58
+end_date:
+  year: 205
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Yellow Turban Rebellion.jpg

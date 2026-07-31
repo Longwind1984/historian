@@ -1,0 +1,14 @@
+id: p_cbdb_31560
+type: Person
+name: 宋之問
+born:
+  year: 656
+died:
+  year: 712
+gender: male
+birthplace: pl_cbdb_14731
+dynasty_ref: k_tang
+bio: CBDB ID 31560
+name_en: Song Zhiwen
+sources:
+- CBDB (China Biographical Database)

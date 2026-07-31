@@ -1,0 +1,16 @@
+id: p_wulin
+type: Person
+name: 吴璘
+courtesy_name: 唐卿
+born:
+  year: 1102
+died:
+  year: 1167
+  month: 6
+gender: male
+birthplace: pl_xiaogan_wu
+bio: 南宋将领,吴玠之弟。兄死后独镇川陕三十余年。隆兴北伐时收复十六州。
+sources:
+- 宋史·吴璘传
+wikidata_id: "Q18111104"
+wikipedia_zh: "吳璘 (景泰進士)"

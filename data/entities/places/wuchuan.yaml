@@ -1,0 +1,13 @@
+id: pl_wuchuan
+type: Place
+name: 武川
+modern_name: 武川
+province: 内蒙古
+latitude: 41.1
+longitude: 111.45
+category: city
+description: 宇文泰出生地(六镇之一)
+sources:
+- 旧五代史
+- 新五代史
+- 中国历史地图集

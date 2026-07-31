@@ -1,0 +1,14 @@
+id: p_cbdb_127006
+type: Person
+name: 石茂華
+born:
+  year: 1522
+died:
+  year: 1583
+gender: male
+birthplace: pl_cbdb_4930
+dynasty_ref: k_ming
+bio: CBDB ID 127006
+name_en: Shi Maohua
+sources:
+- CBDB (China Biographical Database)

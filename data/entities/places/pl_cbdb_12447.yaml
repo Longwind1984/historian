@@ -1,0 +1,12 @@
+id: pl_cbdb_12447
+type: Place
+name: 譙縣
+modern_name: 譙縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.879292
+longitude: 115.770905
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,24 @@
+id: k_nanhan
+type: Polity
+name: 南汉
+name_en: Southern Han
+color: '#9b59b6'
+founded:
+  year: 917
+  month: 8
+ended:
+  year: 971
+  month: 3
+capital: pl_guangzhou
+description: 刘龑(刘岩)所建,都广州。971 年为北宋所灭。暴虐著称。
+sources:
+- 新五代史·南汉世家
+- 十国春秋·南汉
+founder: p_liuyan
+ended_by: k_song
+territory:
+- valid_from:
+    year: 917
+  valid_to:
+    year: 971
+  geojson_file: nanhan_peak.geojson

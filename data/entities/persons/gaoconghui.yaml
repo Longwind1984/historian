@@ -1,0 +1,18 @@
+id: p_gaoconghui
+type: Person
+name: 高从诲
+alias:
+- 荆南文献王
+born:
+  year: 891
+died:
+  year: 948
+  month: 11
+gender: male
+birthplace: pl_jiangling
+bio: 荆南第二主。高季兴子。929 年继位。'高赖子'之名主要由此人在列强间左右逢源而来。
+sources:
+- 新五代史·南平世家
+- 十国春秋·荆南
+wikidata_id: "Q708099"
+wikipedia_zh: "高從誨"

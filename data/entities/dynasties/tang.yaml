@@ -1,0 +1,18 @@
+id: d_tang
+type: Dynasty
+name: 唐
+name_en: Tang
+founded:
+  year: 618
+  month: 5
+ended:
+  year: 907
+  month: 4
+last_capital: pl_chang_an
+description: 唐朝。618 年李渊代隋。盛唐(626-755)、中晚唐(755-907)。中国历史上影响最深远的朝代之一。907 年朱温篡唐,五代开始。
+period_label: 隋唐
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴·唐纪
+founder: p_liyuan

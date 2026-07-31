@@ -1,0 +1,23 @@
+id: p_shi_le
+type: Person
+name: 石勒
+alias:
+- 石世龙
+- 后赵高祖
+born:
+  year: 274
+died:
+  year: 333
+  month: 7
+gender: male
+birthplace: pl_wuxiang_shile
+bio: 后赵建立者。羯族。319 称赵王,都襄国。329 灭前赵。330 称帝。奴隶出身的开国者。
+sources:
+- 晋书·载记·石勒
+- 魏书·羯胡传
+wikidata_id: "Q1196190"
+wikipedia_zh: "石勒"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Shi_Le_%28Emperor_Ming_of_Later_Zhao%29.jpg/500px-Shi_Le_%28Emperor_Ming_of_Later_Zhao%29.jpg"
+image_license: "CC0"
+image_credit: "Qian Xuan (formerly attributed), Freer Gallery of Art (owner)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Shi_Le_(Emperor_Ming_of_Later_Zhao).jpg"

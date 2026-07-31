@@ -1,0 +1,10 @@
+id: pl_cbdb_17300
+type: Place
+name: 和寧路
+modern_name: 和寧路
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 1208
+last_year: 1367
+description: CBDB 行政类型:Lu

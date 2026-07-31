@@ -1,0 +1,12 @@
+id: pl_cbdb_12603
+type: Place
+name: 安豐
+modern_name: 安豐
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.334127
+longitude: 116.67452
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,24 @@
+id: p_zhu_kezhen
+type: Person
+name: 竺可桢
+alias:
+- 竺藕舫
+courtesy_name: 藕舫
+born:
+  year: 1890
+died:
+  year: 1974
+gender: male
+roles:
+- scholar
+importance: 2
+bio: 浙江上虞(绍兴)人，近代气象、地理学家。1910 年留美，哈佛大学博士。1918 年回国，任武昌高等师范、东南大学教授。1928 年任中央研究院气象研究所所长，为中国近代气象学奠基者。1936-1949 年任浙江大学校长，西迁办学，使浙大崛起。1948 年选聘中央研究院院士。1949 年后任中国科学院副院长。著《物候学》《中国近五千年来气候变迁的初步研究》。1974 年病逝于北京。
+sources:
+- 中华民国史·竺可桢传
+- 束家鑫·竺可桢传
+wikidata_id: "Q3373873"
+wikipedia_zh: "竺可桢"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Zhu_Kezhen_01.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhu_Kezhen_01.jpg"

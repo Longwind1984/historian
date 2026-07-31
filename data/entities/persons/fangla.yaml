@@ -1,0 +1,18 @@
+id: p_fangla
+type: Person
+name: 方腊
+alias:
+- 方十三
+died:
+  year: 1121
+  month: 8
+gender: male
+roles:
+- rebel_leader
+importance: 2
+birthplace: pl_qingxi_fang
+bio: 北宋末农民起义首领。1120 睦州青溪起义,以'花石纲'扰民为由,响应者百万,攻占六州五十二县,建元永乐。1121 童贯镇压。
+sources:
+- 宋史·童贯传附方腊
+wikidata_id: "Q3066393"
+wikipedia_zh: "方腊"

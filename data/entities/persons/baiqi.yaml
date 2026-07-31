@@ -1,0 +1,35 @@
+id: p_baiqi
+type: Person
+name: 白起
+alias:
+- 公孙起
+- 武安君
+gender: male
+roles:
+- general
+importance: 1
+died:
+  year: -257
+bio: 白起，郿(今陕西眉县)人，嬴姓白氏，一名公孙起。秦昭王时名将，用兵神速，一生征战七十余，所歼甚众(后世累计约近百万，史记未给总数)，与王翦、廉颇、李牧并称战国四大名将。前293年伊阙之战大破韩魏联军二十四万。前278年拔楚都郢，楚迁都陈，因功封武安君。前260年长平之战大破赵军，坑降卒四十万，赵之壮丁尽丧。后秦复攻邯郸，白起力谏不可(赵已合纵，秦兵疲)，托病不行，触怒秦昭王，前257年贬为士卒，迁阴密，旋赐剑令自尽于杜邮。生年无载。
+life_events:
+- year: -293
+  event: 伊阙之战，破韩魏联军二十四万
+  source: 史记·白起王翦列传
+- year: -278
+  event: 拔楚都郢，封武安君
+  source: 史记·白起王翦列传
+- year: -260
+  event: 长平之战，坑赵降卒四十万
+  source: 史记·白起王翦列传
+- year: -257
+  event: 忤秦王，赐死杜邮
+  source: 史记·白起王翦列传
+sources:
+- 史记·白起王翦列传
+- 战国策·秦策
+wikidata_id: "Q701746"
+wikipedia_zh: "白起"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bai_Qi.jpg/500px-Bai_Qi.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Bai_Qi.jpg"

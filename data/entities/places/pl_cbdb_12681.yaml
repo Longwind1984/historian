@@ -1,0 +1,12 @@
+id: pl_cbdb_12681
+type: Place
+name: 鹽官
+modern_name: 鹽官
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.40628
+longitude: 120.537499
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

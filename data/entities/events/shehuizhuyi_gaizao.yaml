@@ -1,0 +1,17 @@
+id: e_shehuizhuyi_gaizao
+type: Event
+name: 社会主义改造
+date:
+  year: 1953
+end_date:
+  year: 1956
+category: reform
+polities_involved:
+- k_prc
+importance: 2
+description: 1953-1956 年对农业、手工业、资本主义工商业的"三大改造"。农业由互助组、初级社而高级社，土改分得的土地重新收归集体;工商业经加工订货、公私合营，至
+  1956 年全行业公私合营，私股改定息，1966 年定息停付即完成收归国有。
+impact: 土改分田不过数年即被集体化收回;私有经济基本消失，计划经济体制确立，延续至 1978 年后的改革开放。
+sources:
+- 当代中国史
+- 中华人民共和国史

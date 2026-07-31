@@ -1,0 +1,19 @@
+id: p_liuguangshi
+type: Person
+name: 刘光世
+courtesy_name: 平叔
+born:
+  year: 1086
+died:
+  year: 1142
+gender: male
+birthplace: pl_kaifeng
+bio: 南宋将领(中兴四将之一)。御金屡有怯战之名。所部'淮西兵变'(郦琼叛)。
+sources:
+- 宋史·刘光世传
+wikidata_id: "Q10899435"
+wikipedia_zh: "劉光世"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/%E5%8A%89%E5%85%89%E4%B8%96.jpg"
+image_license: "Public domain"
+image_credit: "劉松年繪"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%8A%89%E5%85%89%E4%B8%96.jpg"

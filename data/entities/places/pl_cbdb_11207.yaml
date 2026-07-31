@@ -1,0 +1,12 @@
+id: pl_cbdb_11207
+type: Place
+name: 陽穀
+modern_name: 陽穀
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.230215
+longitude: 115.895768
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_11892
+type: Place
+name: 薊州
+modern_name: 薊州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 40.043861389
+longitude: 117.40181732
+first_year: 1122
+last_year: 1125
+description: CBDB 行政类型:Zhou

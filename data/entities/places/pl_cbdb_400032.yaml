@@ -1,0 +1,12 @@
+id: pl_cbdb_400032
+type: Place
+name: 平昌
+modern_name: 平昌
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 19.759296417
+longitude: 110.77374268
+first_year: 618
+last_year: 907
+description: CBDB 行政类型:Xian

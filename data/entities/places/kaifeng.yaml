@@ -1,0 +1,19 @@
+id: pl_kaifeng
+type: Place
+name: 汴梁
+modern_name: 开封
+province: 河南
+latitude: 34.8
+longitude: 114.31
+category: capital
+description: 五代后梁、后晋、后汉、后周及北宋都城。朱温于 907 年定都于此。
+aliases:
+- 汴州
+- 大梁
+- 开封府
+- 东京
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国
+- 太平寰宇记

@@ -1,0 +1,14 @@
+id: p_cbdb_19242
+type: Person
+name: 李顯(唐中宗)
+born:
+  year: 656
+died:
+  year: 710
+gender: male
+birthplace: pl_cbdb_14493
+dynasty_ref: k_tang
+bio: CBDB ID 19242
+name_en: Li Xian (Emperor Zhongzong of Tang)
+sources:
+- CBDB (China Biographical Database)

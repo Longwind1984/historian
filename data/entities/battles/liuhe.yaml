@@ -1,0 +1,25 @@
+id: b_liuhe
+type: Battle
+name: 六合之战
+date:
+  year: 956
+  month: 2
+category: battle
+importance: 3
+location: pl_liuhe
+combatants:
+- k_houzhou
+- k_nantang
+commanders:
+- p_zhaokuangyin
+- p_lijing
+victor: k_houzhou
+victor_commander: p_zhaokuangyin
+strength: 2000 vs 20000(以少胜多)
+description: 寿州之战期间,南唐派齐王李景达率两万军反攻六合,企图切断周军后路。赵匡胤以两千余兵据守六合,大破南唐军,斩俘甚众。
+significance: 赵匡胤再立大功,威望日隆。南唐在淮南战场彻底转入被动。为后周全面攻占淮南奠定基础。
+ext:
+  scale: 重要
+sources:
+- 旧五代史·周书·世宗纪
+- 宋史·太祖本纪

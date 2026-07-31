@@ -1,0 +1,19 @@
+id: e_er_ci_ge_ming
+type: Event
+name: 二次革命
+date:
+  year: 1913
+  month: 7
+end_date:
+  year: 1913
+  month: 9
+category: war
+polities_involved:
+- k_minguo
+importance: 2
+description: 1913 年宋教仁案发生后，袁世凯未经国会批准善后大借款、罢免赣、粤、皖三省国民党都督(江西李烈钧、广东胡汉民、安徽柏文蔚)，孙中山号召讨袁。7
+  月李烈钧在江西湖口独立，黄兴在南京响应，皖、粤、闽等省相继宣布独立，史称"二次革命"(赣宁之役)。北洋军迅速南下，9 月初攻克南京，各省独立取消。
+impact: 国民党武力讨袁失败，孙、黄流亡日本，袁世凯势力进一步坐大，为袁氏此后解散国会、走向帝制铺路。
+sources:
+- 中华民国史·第二编
+- 李宗一·袁世凯传

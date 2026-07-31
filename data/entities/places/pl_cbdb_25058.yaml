@@ -1,0 +1,10 @@
+id: pl_cbdb_25058
+type: Place
+name: 趙國
+modern_name: 趙國
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 907
+last_year: 959
+description: CBDB 行政类型:Fengguo

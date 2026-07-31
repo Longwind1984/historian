@@ -1,0 +1,14 @@
+id: p_cbdb_10084
+type: Person
+name: 吳澄
+born:
+  year: 1249
+died:
+  year: 1333
+gender: male
+birthplace: pl_cbdb_18539
+dynasty_ref: k_yuan
+bio: CBDB ID 10084
+name_en: Wu Cheng
+sources:
+- CBDB (China Biographical Database)

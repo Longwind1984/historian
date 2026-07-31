@@ -1,0 +1,12 @@
+id: pl_cbdb_101036
+type: Place
+name: 成都府
+modern_name: 成都府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.650384903
+longitude: 104.0779953
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Fu

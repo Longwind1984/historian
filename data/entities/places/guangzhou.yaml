@@ -1,0 +1,16 @@
+id: pl_guangzhou
+type: Place
+name: 广州
+modern_name: 广州
+province: 广东
+latitude: 23.13
+longitude: 113.27
+category: capital
+description: 南汉都城
+aliases:
+- 南海
+- 兴王府
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

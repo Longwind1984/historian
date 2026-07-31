@@ -1,0 +1,438 @@
+- from: p_yangjian
+  to: p_dugu_qieluo
+  type: spouse_of
+  since:
+    year: 566
+  until:
+    year: 602
+    month: 8
+- from: p_yangjian
+  to: p_yangyong
+  type: father_of
+  note: 长子
+- from: p_yangjian
+  to: p_yangguang
+  type: father_of
+  since:
+    year: 569
+  note: 次子
+- from: p_yangguang
+  to: p_yangzhao
+  type: father_of
+  since:
+    year: 584
+- from: p_yangzhao
+  to: p_yangyou
+  type: father_of
+- from: p_yangzhao
+  to: p_yangtong
+  type: father_of
+- from: p_yangjian
+  to: d_sui
+  type: founded
+  since:
+    year: 581
+    month: 3
+  note: 代周建隋
+- from: p_yangjian
+  to: k_bei_zhou
+  type: usurped
+  since:
+    year: 581
+    month: 3
+  note: 受禅
+- from: p_yangyong
+  to: p_yangguang
+  type: predecessor_of
+  note: 太子位被夺
+- from: p_yangjian
+  to: p_gaojiong
+  type: served_under
+  since:
+    year: 581
+  until:
+    year: 607
+  note: 首席谋臣
+- from: p_suwei
+  to: p_yangjian
+  type: served_under
+  note: 宰相,参修隋律
+  since:
+    year: 581
+  until:
+    year: 604
+- from: p_yangsu
+  to: p_yangjian
+  type: served_under
+  note: 名将,平陈、营建洛阳
+  until:
+    year: 606
+- from: p_yangguang
+  to: p_yangsu
+  type: served_under
+  since:
+    year: 604
+  until:
+    year: 606
+  note: 助夺嫡
+- from: p_hanqinhu
+  to: d_sui
+  type: served_under
+  until:
+    year: 592
+  note: 伐陈先锋
+- from: p_heruobi
+  to: d_sui
+  type: served_under
+  note: 平陈名将,后以怨望被诛
+  until:
+    year: 607
+- from: p_yangguang
+  to: e_dayunhe
+  type: participated_in
+  since:
+    year: 605
+  until:
+    year: 610
+  note: 主导
+- from: p_yangguang
+  to: e_sui_zheng_gaogouli
+  type: participated_in
+  since:
+    year: 612
+  until:
+    year: 614
+  note: 三征高句丽
+- from: p_yangguang
+  to: e_kaihuang_zhizhi
+  type: participated_in
+  since:
+    year: 581
+  until:
+    year: 604
+  note: 开皇年间为晋王
+- from: p_yangjian
+  to: e_kaihuang_zhizhi
+  type: participated_in
+  since:
+    year: 581
+  until:
+    year: 604
+  note: 主导
+- from: p_yangjian
+  to: e_sui_mie_chen
+  type: participated_in
+  since:
+    year: 588
+  until:
+    year: 589
+    month: 1
+  note: 主导
+- from: p_yangjian
+  to: e_yangjian_dai_zhou
+  type: participated_in
+  since:
+    year: 581
+    month: 3
+  note: 主导
+- from: p_yangsu_2
+  to: e_sui_mo_qiyi
+  type: participated_in
+  since:
+    year: 613
+    month: 8
+  note: 杨玄感起兵
+- from: p_li_mi
+  to: p_zhai_rang
+  type: served_under
+  since:
+    year: 616
+  until:
+    year: 617
+  note: 瓦岗军
+- from: p_li_mi
+  to: p_zhai_rang
+  type: killed
+  since:
+    year: 617
+  note: 杀翟让夺权
+- from: p_dou_jiande
+  to: e_sui_mo_qiyi
+  type: participated_in
+  since:
+    year: 611
+  until:
+    year: 621
+  note: 夏王
+- from: p_wang_shichong
+  to: e_sui_mo_qiyi
+  type: participated_in
+  since:
+    year: 618
+  until:
+    year: 621
+  note: 郑
+- from: p_yuwen_huaji
+  to: p_yangguang
+  type: killed
+  since:
+    year: 618
+    month: 4
+  note: 江都之变
+- from: p_yuwen_huaji
+  to: e_sui_mo_qiyi
+  type: participated_in
+  since:
+    year: 618
+    month: 4
+  note: 弑炀帝
+- from: p_liyuan
+  to: e_jian_guo_tang
+  type: participated_in
+  since:
+    year: 617
+  until:
+    year: 618
+    month: 5
+  note: 起兵太原
+- from: p_liyuan
+  to: d_tang
+  type: founded
+  since:
+    year: 618
+    month: 5
+  note: 代隋建唐
+- from: p_zhangsun_wuji
+  to: p_liyuan
+  type: served_under
+  note: 开国功臣,赵国公
+  since:
+    year: 617
+  until:
+    year: 626
+- from: p_zhangsun_wuji
+  to: e_xuanwumen
+  type: participated_in
+  since:
+    year: 626
+    month: 7
+  note: 策划者
+- from: p_li_jing_tang
+  to: e_tang_mie_dongtu_jue
+  type: led
+  since:
+    year: 629
+    month: 11
+  until:
+    year: 630
+    month: 3
+  note: 夜袭阴山
+- from: p_li_shiji
+  to: e_tang_mie_dongtu_jue
+  type: led
+  note: 与李靖分道击突厥,俘颉利可汗
+  since:
+    year: 629
+    month: 11
+  until:
+    year: 630
+    month: 3
+- from: p_yuchi_gong
+  to: e_xuanwumen
+  type: participated_in
+  note: 射杀李元吉,救李世民
+  since:
+    year: 626
+    month: 7
+- from: p_qin_shubao
+  to: e_xuanwumen
+  type: participated_in
+  note: 预玄武门之变,功臣
+  since:
+    year: 626
+    month: 7
+- from: p_cheng_yaojin
+  to: e_xuanwumen
+  type: participated_in
+  note: 玄武门功臣
+  since:
+    year: 626
+    month: 7
+- from: p_weizheng
+  to: e_zhenguan_zhizhi
+  type: participated_in
+  note: 诤臣,贞观良相
+  since:
+    year: 627
+  until:
+    year: 643
+    month: 2
+- from: p_wu_zetian
+  to: e_wu_zhou_geming
+  type: participated_in
+  since:
+    year: 690
+    month: 9
+  note: 称帝
+- from: p_wu_zetian
+  to: k_wu_zhou
+  type: founded
+  note: 改唐为周称帝,唯一女皇
+  since:
+    year: 690
+    month: 9
+- from: p_shangguan_waner
+  to: p_wu_zetian
+  type: served_under
+  since:
+    year: 677
+  until:
+    year: 705
+    month: 1
+  note: 掌诏命
+- from: p_zhang_jianzhi
+  to: e_shenlong_geming
+  type: participated_in
+  since:
+    year: 705
+    month: 1
+  note: 发动者
+- from: p_zhang_jianzhi
+  to: p_wu_zetian
+  type: usurped
+  since:
+    year: 705
+    month: 1
+  note: 逼退位
+- from: p_li_longji
+  to: e_tanglong_zhengbian
+  type: participated_in
+  since:
+    year: 710
+    month: 6
+  note: 发动者
+- from: p_li_longji
+  to: e_xiantian_zhibian
+  type: participated_in
+  since:
+    year: 713
+    month: 7
+  note: 主导
+- from: p_li_longji
+  to: e_kaiyuan_shengshi
+  type: participated_in
+  since:
+    year: 713
+  until:
+    year: 741
+  note: 主导
+- from: p_li_longji
+  to: p_yang_guifei
+  type: spouse_of
+  since:
+    year: 745
+  until:
+    year: 756
+    month: 7
+  note: 宠妃
+- from: p_yang_guifei
+  to: p_yang_guozhong
+  type: sibling_of
+  note: 堂兄妹
+- from: p_li_longji
+  to: p_li_linpu
+  type: served_under
+  since:
+    year: 736
+  until:
+    year: 752
+    month: 1
+  note: 任相
+- from: p_li_longji
+  to: p_yang_guozhong
+  type: served_under
+  since:
+    year: 752
+  until:
+    year: 756
+    month: 7
+  note: 任相
+- from: p_li_linpu
+  to: p_an_lushan
+  type: allied_with
+  since:
+    year: 742
+  until:
+    year: 752
+    month: 1
+  note: 放纵胡将
+- from: p_li_longji
+  to: e_an_lushan_rebellion
+  type: participated_in
+  since:
+    year: 755
+    month: 12
+  until:
+    year: 756
+    month: 7
+  note: 玄宗奔蜀
+- from: p_li_longji
+  to: e_mawei_zhibian
+  type: participated_in
+  note: 禁军哗变,被迫赐死杨妃
+  since:
+    year: 756
+    month: 7
+- from: p_yang_guozhong
+  to: e_mawei_zhibian
+  type: participated_in
+  since:
+    year: 756
+    month: 7
+  note: 被杀
+- from: p_yang_guifei
+  to: e_mawei_zhibian
+  type: participated_in
+  since:
+    year: 756
+    month: 7
+  note: 被缢死
+- from: p_guo_ziyi
+  to: e_tang_shoufu_liangjing
+  type: led
+  since:
+    year: 757
+    month: 9
+  note: 主力
+- from: e_talas_zhizhan
+  to: e_an_lushan_rebellion
+  type: led_to
+  note: 盛唐由盛转衰伏笔
+- from: p_li_bai
+  to: p_du_fu
+  type: allied_with
+  since:
+    year: 744
+  until:
+    year: 762
+  note: 至交
+- from: p_du_fu
+  to: p_li_bai
+  type: mentored_by
+  since:
+    year: 744
+  until:
+    year: 762
+  note: 受李白影响
+- from: e_kaihuang_zhizhi
+  to: e_sui_mo_qiyi
+  type: led_to
+  note: 盛世后隋炀帝暴政引发起义
+- from: e_kaiyuan_shengshi
+  to: e_an_lushan_rebellion
+  type: led_to
+  note: 盛世积累的矛盾爆发
+- from: e_wu_zhou_geming
+  to: e_shenlong_geming
+  type: led_to
+  note: 武周代唐→神龙复辟

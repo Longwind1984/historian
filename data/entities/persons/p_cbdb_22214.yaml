@@ -1,0 +1,14 @@
+id: p_cbdb_22214
+type: Person
+name: 王適
+born:
+  year: 1055
+died:
+  year: 1089
+gender: male
+birthplace: pl_cbdb_100511
+dynasty_ref: k_beisong
+bio: CBDB ID 22214
+name_en: Wang Shi (9)
+sources:
+- CBDB (China Biographical Database)

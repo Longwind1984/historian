@@ -1,0 +1,15 @@
+id: e_xiaowendi_hanhua
+type: Event
+name: 孝文帝汉化
+date:
+  year: 494
+category: reform
+importance: 1
+location: pl_luoyang_beiwei
+polities_involved:
+- k_beiwei
+description: 494 年北魏孝文帝自平城迁都洛阳,推行全面汉化:改姓元(改拓跋为元)、禁胡服胡语、与汉人通婚、用汉制。
+impact: 中国民族融合史上的标志性事件,影响隋唐政治格局。
+sources:
+- 魏书·高祖纪
+- 资治通鉴·卷139-141

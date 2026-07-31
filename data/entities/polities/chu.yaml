@@ -1,0 +1,24 @@
+id: k_chu
+type: Polity
+name: 楚
+name_en: Chu
+color: '#e67e22'
+founded:
+  year: 907
+  month: 4
+ended:
+  year: 951
+  month: 11
+capital: pl_changsha
+description: 马殷所建,都长沙。951 年为南唐所灭。
+sources:
+- 新五代史·楚世家
+- 十国春秋·楚
+founder: p_mayin
+ended_by: k_nantang
+territory:
+- valid_from:
+    year: 907
+  valid_to:
+    year: 951
+  geojson_file: chu_peak.geojson

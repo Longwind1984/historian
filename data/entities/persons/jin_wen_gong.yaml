@@ -1,0 +1,42 @@
+id: p_jin_wen_gong
+type: Person
+name: 姬重耳
+alias:
+- 晋文公
+- 重耳
+- 文公
+gender: male
+roles:
+- monarch
+importance: 1
+reign_start:
+  year: -636
+reign_end:
+  year: -628
+bio: 晋文公，姬姓，名重耳，晋献公之子。献公宠骊姬，太子申生自杀，重耳出奔，流亡十九年历狄、卫、齐、曹、宋、郑、楚、秦诸国。前636年秦穆公送之归晋即位。任狐偃、赵衰，整饬内政，作三军。前632年城濮之战退避三舍大败楚军，旋践土会盟受周襄王策命为侯伯，继齐桓公称霸。前628年卒。
+life_events:
+- year: -655
+  event: 骊姬之乱，出奔流亡
+  source: 左传·僖公五年
+- year: -636
+  event: 秦穆公送归晋即位
+  source: 左传·僖公二十四年
+- year: -633
+  event: 作三军，谋救宋
+  source: 左传·僖公二十七年
+- year: -632
+  event: 城濮之战败楚，践土会盟称霸
+  source: 左传·僖公二十八年
+- year: -628
+  event: 卒
+  source: 左传·僖公三十二年
+sources:
+- 史记·晋世家
+- 左传·僖公
+- 国语·晋语
+wikidata_id: "Q561973"
+wikipedia_zh: "晋文公"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/58/Duke_Wen_of_Jin_%28%E6%99%89%E6%96%87%E5%85%AC%29.jpg"
+image_license: "Public domain"
+image_credit: "Attributed to Li Tang"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Duke_Wen_of_Jin_(%E6%99%89%E6%96%87%E5%85%AC).jpg"

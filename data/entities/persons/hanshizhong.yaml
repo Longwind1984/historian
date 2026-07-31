@@ -1,0 +1,23 @@
+id: p_hanshizhong
+type: Person
+name: 韩世忠
+courtesy_name: 良臣
+born:
+  year: 1090
+died:
+  year: 1151
+  month: 9
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_yan'an_han
+bio: 南宋抗金名将(中兴四将之一)。1130 黄天荡以八千宋军围困金兀术十万军四十八日。大仪镇大捷(1134)。岳飞冤狱时独面诘秦桧'莫须有'。
+sources:
+- 宋史·韩世忠传
+wikidata_id: "Q706861"
+wikipedia_zh: "韩世忠"
+image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/%E9%9F%93%E4%B8%96%E5%BF%A0.jpg"
+image_license: "Public domain"
+image_credit: "劉松年繪"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%9F%93%E4%B8%96%E5%BF%A0.jpg"

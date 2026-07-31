@@ -1,0 +1,17 @@
+id: e_jia_tianxia
+type: Event
+name: 家天下·启继禹位
+date:
+  year: -2060
+category: succession
+polities_involved:
+- k_xia
+importance: 2
+description: 禹卒后其子启继位(一说因部落拥戴取代禹所定之益)，自此禅让制为世袭制所代，"公天下"转为"家天下"，确立王位父死子继之制。半信史，年代模糊。
+impact: 中国王位世袭制度之始，夏作为"家天下"王朝的开端。
+sources:
+- 史记·夏本纪
+- 竹书纪年·夏纪
+- 尚书·甘誓
+ext:
+  disputed: true

@@ -1,0 +1,12 @@
+id: pl_cbdb_100430
+type: Place
+name: 渠江
+modern_name: 渠江
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.47769
+longitude: 106.631752
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

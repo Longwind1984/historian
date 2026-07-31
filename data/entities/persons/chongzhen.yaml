@@ -1,0 +1,28 @@
+id: p_chongzhen
+type: Person
+name: 朱由检
+alias:
+- 明思宗
+- 崇祯
+born:
+  year: 1611
+died:
+  year: 1644
+  month: 3
+reign_start:
+  year: 1627
+reign_end:
+  year: 1644
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_beiping_zhudi
+bio: 明思宗。光宗第五子,熹宗弟。1627 即位,即除魏忠贤。但刚愎自用,屡易大臣。明末农民起义。1644 三月李自成入京,煤山自缢,明亡。
+sources:
+- 明史·庄烈帝本纪
+ext:
+  title: 崇祯帝
+  regime: 明
+wikidata_id: "Q10069"
+wikipedia_zh: "崇禎帝"

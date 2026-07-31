@@ -1,0 +1,14 @@
+id: pl_yangping_pass
+type: Place
+name: 阳平关
+modern_name: 宁强
+province: 陕西
+latitude: 32.83
+longitude: 105.91
+category: garrison
+description: 蜀道
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

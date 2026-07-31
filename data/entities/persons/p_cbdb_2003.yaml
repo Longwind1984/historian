@@ -1,0 +1,14 @@
+id: p_cbdb_2003
+type: Person
+name: 楊偕
+born:
+  year: 980
+died:
+  year: 1049
+gender: male
+birthplace: pl_cbdb_100409
+dynasty_ref: k_beisong
+bio: CBDB ID 2003
+name_en: Yang Xie
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,17 @@
+id: e_pangxun_zhibian
+type: Event
+name: 庞勋之变
+date:
+  year: 868
+category: rebellion
+importance: 3
+location: pl_xuzhou
+polities_involved:
+- k_tang
+description: 868 年桂林戍卒 800 人因久不得归,推庞勋为首起事,自广西北上,克徐州,众至 20 万。869 年为康承训率沙陀、吐谷浑兵平定。
+impact: 裘甫、庞勋两役是黄巢起义的前奏。沙陀因此役入中原。
+sources:
+- 旧唐书·懿宗纪
+- 资治通鉴·卷251
+end_date:
+  year: 869

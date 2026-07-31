@@ -1,0 +1,21 @@
+id: p_nie_rongzhen
+type: Person
+name: 聂荣臻
+born:
+  year: 1899
+died:
+  year: 1992
+gender: male
+roles:
+- general
+importance: 2
+bio: 四川江津人。中华人民共和国元帅，曾主持国防科技工作、组织'两弹'研制，任国务院副总理。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q701453"
+wikipedia_zh: "聂荣臻"
+image: "https://upload.wikimedia.org/wikipedia/commons/0/02/Marshal_Nie_Rongzhen.jpg"
+image_license: "Public domain"
+image_credit: "​《 新华社 》记者 郑景康"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Marshal_Nie_Rongzhen.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_100033
+type: Place
+name: 信都
+modern_name: 信都
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.565983
+longitude: 115.563812
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

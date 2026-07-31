@@ -1,0 +1,24 @@
+id: p_li_shangyin
+type: Person
+name: 李商隐
+alias:
+- 李义山
+courtesy_name: 义山
+born:
+  year: 813
+died:
+  year: 858
+gender: male
+roles:
+- literatus
+importance: 2
+birthplace: pl_xingyang
+bio: 晚唐诗人。牛李党争中受牵连,一生不得志。诗风朦胧多义。
+sources:
+- 旧唐书·李商隐传
+wikidata_id: "Q203782"
+wikipedia_zh: "李商隐"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Li_Shangyin.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Shangyin.jpg"

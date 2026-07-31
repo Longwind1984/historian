@@ -1,0 +1,26 @@
+id: k_nantang
+type: Polity
+name: 南唐
+name_en: Southern Tang
+color: '#3498db'
+founded:
+  year: 937
+  month: 10
+ended:
+  year: 975
+  month: 11
+capital: pl_jinling
+description: 李昪(徐知诰)代吴所建。文化经济繁盛,灭闽、楚。975 年为北宋所灭。李煜词帝在位时亡国。
+sources:
+- 新五代史·南唐世家
+- 十国春秋·南唐
+- 南唐书
+founder: p_li_bian
+supplanted: k_yangwu
+ended_by: k_song
+territory:
+- valid_from:
+    year: 937
+  valid_to:
+    year: 975
+  geojson_file: nantang_peak.geojson

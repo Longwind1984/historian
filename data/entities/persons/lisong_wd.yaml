@@ -1,0 +1,14 @@
+id: p_lisong_wd
+type: Person
+name: 李崧
+gender: male
+died:
+  year: 948
+roles:
+- civil_official
+importance: 3
+bio: 后晋宰相。契丹灭晋后仕辽,后归后汉。948 为苏逢吉挟私诬以谋反,族诛 —— 五代宰辅无善终之典型。
+sources:
+- 旧五代史·李崧传
+wikidata_id: "Q16202069"
+wikipedia_zh: "李崧 (五代)"

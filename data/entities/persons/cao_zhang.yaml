@@ -1,0 +1,19 @@
+id: p_cao_zhang
+type: Person
+name: 曹彰
+alias:
+- 曹子文
+courtesy_name: 子文
+died:
+  year: 223
+gender: male
+birthplace: pl_qiao_cao
+bio: 曹操子。骁勇。'黄须儿'。
+sources:
+- 三国志·魏书·任城威王彰传
+wikidata_id: "Q699893"
+wikipedia_zh: "曹彰"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cao_Zhang_-_Qing_ZQ-SGYY.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Cao_Zhang_-_Qing_ZQ-SGYY.jpg"

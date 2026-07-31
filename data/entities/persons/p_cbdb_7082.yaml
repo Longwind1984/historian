@@ -1,0 +1,14 @@
+id: p_cbdb_7082
+type: Person
+name: 王益
+born:
+  year: 993
+died:
+  year: 1038
+gender: male
+birthplace: pl_cbdb_100513
+dynasty_ref: k_beisong
+bio: CBDB ID 7082
+name_en: Wang Yi
+sources:
+- CBDB (China Biographical Database)

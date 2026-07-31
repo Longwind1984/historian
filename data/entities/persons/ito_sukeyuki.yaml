@@ -1,0 +1,21 @@
+id: p_ito_sukeyuki
+name: 伊东祐亨
+born:
+  year: 1843
+died:
+  year: 1914
+gender: male
+roles:
+- general
+importance: 3
+bio: 日本海军中将,联合舰队司令长官。1894 黄海海战、1895 威海卫之役日方指挥官。
+sources:
+- 清史稿·邦交志
+- 东方兵事纪略
+type: Person
+wikidata_id: "Q710382"
+wikipedia_zh: "伊东祐亨"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Itoh_Sukeyuki.jpg/500px-Itoh_Sukeyuki.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Itoh_Sukeyuki.jpg"

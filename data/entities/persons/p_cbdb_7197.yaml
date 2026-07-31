@@ -1,0 +1,14 @@
+id: p_cbdb_7197
+type: Person
+name: 周必大
+born:
+  year: 1126
+died:
+  year: 1204
+gender: male
+birthplace: pl_cbdb_100179
+dynasty_ref: k_beisong
+bio: CBDB ID 7197
+name_en: Zhou Bida
+sources:
+- CBDB (China Biographical Database)

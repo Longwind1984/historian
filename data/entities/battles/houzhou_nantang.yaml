@@ -1,0 +1,25 @@
+id: b_houzhou_nantang
+type: Battle
+name: 后周攻南唐
+date:
+  year: 956
+  month: 2
+importance: 2
+location: pl_shouzhou
+combatants:
+- k_houzhou
+- k_nantang
+commanders:
+- p_chairong
+- p_lijing
+victor: k_houzhou
+victor_commander: p_chairong
+description: 955-958 年后周世宗三征南唐。下寿州、六合破南唐军,南唐去帝号,献江北十四州(庐、舒、蕲、黄等)。
+significance: 削弱南唐,使后周国力大增。奠北宋统一基础。
+sources:
+- 资治通鉴·卷292-293
+- 旧五代史·周世宗纪
+end_date:
+  year: 958
+  month: 4
+category: war

@@ -1,0 +1,32 @@
+id: p_liu_yilong
+type: Person
+name: 刘义隆
+alias:
+- 宋文帝
+born:
+  year: 407
+died:
+  year: 453
+reign_start:
+  year: 424
+reign_end:
+  year: 453
+gender: male
+roles:
+- emperor
+importance: 2
+dynasty_ref: k_liusong
+bio: 武帝三子。在位三十年,劝课农桑、轻徭薄赋,史称'元嘉之治'。三次北伐拓跋魏皆败,尤以元嘉二十七年(450)王玄谟北伐惨败、魏军饮马瓜步为甚(后世辛弃疾《永遇乐》'元嘉草草,封狼居胥,赢得仓皇北顾'即咏此事)。453年为太子刘劭所弑。
+ext:
+  title: 宋文帝
+  regime: 刘宋
+sources:
+- 宋书
+- 南史
+- 资治通鉴
+wikidata_id: "Q49702"
+wikipedia_zh: "宋文帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Liu_Yilong_%28Emperor_Wen_of_Liu_Song%29.jpg/500px-Liu_Yilong_%28Emperor_Wen_of_Liu_Song%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Yilong_(Emperor_Wen_of_Liu_Song).jpg"

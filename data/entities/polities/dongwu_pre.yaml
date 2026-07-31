@@ -1,0 +1,14 @@
+id: k_dongwu_pre
+type: Polity
+name: 孙权集团
+name_en: Sun Quan's Faction
+color: '#4a7c6f'
+founded:
+  year: 195
+ended:
+  year: 229
+  month: 4
+description: 195 孙策渡江略地,200 孙权继位据江东六郡。208 赤壁破曹,222 称吴王。229 称帝建吴,此集团转为东吴政权。
+sources:
+- 三国志·吴书·吴主传
+founder: p_sun_quan

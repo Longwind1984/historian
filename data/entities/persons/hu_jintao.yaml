@@ -1,0 +1,26 @@
+id: p_hu_jintao
+type: Person
+name: 胡锦涛
+born:
+  year: 1942
+gender: male
+roles:
+- civil_official
+importance: 1
+bio: 安徽绩溪人，生于江苏泰州。2002至2012年任中共中央总书记，2003至2013年任国家主席，2004至2012年任中央军委主席。任内提出科学发展观。
+life_events:
+- year: 2002
+  event: 任中共中央总书记
+- year: 2003
+  event: 任国家主席
+- year: 2012
+  event: 中共十八大后卸任
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q15029"
+wikipedia_zh: "胡锦涛"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hu_Jintao_at_White_House_2011.jpg/500px-Hu_Jintao_at_White_House_2011.jpg"
+image_license: "Public domain"
+image_credit: "Pete Souza"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hu_Jintao_at_White_House_2011.jpg"

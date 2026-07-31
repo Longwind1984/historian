@@ -1,0 +1,18 @@
+id: p_zhu_de
+name: 朱德
+type: Person
+born: {year: 1886}
+died: {year: 1976}
+roles:
+  - general
+importance: 2
+bio: 四川仪陇人。中国人民解放军主要缔造者之一,中华人民共和国元帅,1959-1976年任全国人大常委会委员长。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q22513"
+wikipedia_zh: "朱德"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Zhu_De%2C_Commander_of_PLA.jpg/500px-Zhu_De%2C_Commander_of_PLA.jpg"
+image_license: "Public domain"
+image_credit: "anonymous (Gov)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhu_De,_Commander_of_PLA.jpg"

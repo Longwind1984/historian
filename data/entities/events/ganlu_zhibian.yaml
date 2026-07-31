@@ -1,0 +1,16 @@
+id: e_ganlu_zhibian
+type: Event
+name: 甘露之变
+date:
+  year: 835
+  month: 12
+category: coup
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_tang
+description: 835 年文宗用李训、郑注谋,以左金吾卫石榴树夜有甘露为名,欲诱宦官仇士良等入而诛之。事泄,仇士良等率神策军大杀朝臣(李训、郑注、王涯、贾餗等),死者千余。
+impact: 甘露之变后,宦官完全把持朝政。文宗'受制于家奴',唐廷名存实亡。牛李党争更趋激烈。
+sources:
+- 旧唐书·文宗纪
+- 资治通鉴·卷245

@@ -1,0 +1,12 @@
+id: p_wang_shichong
+type: Person
+name: 王世充
+died:
+  year: 621
+gender: male
+birthplace: pl_luoyang_sui
+bio: 隋末群雄之一。618 炀帝被弑后,在洛阳立杨侗为帝(皇泰主),619 废之自立,国号郑。621 李世民破之,降唐,后被杀。
+sources:
+- 旧唐书·王世充传
+wikidata_id: "Q708305"
+wikipedia_zh: "王世充"

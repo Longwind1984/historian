@@ -1,0 +1,14 @@
+id: e_liao_kingdom
+type: Event
+name: 契丹建国
+date:
+  year: 916
+category: founding
+importance: 2
+location: pl_liaoshangjing
+polities_involved:
+- k_liao
+description: 916 年耶律阿保机称帝,国号契丹。947 年耶律德光改国号辽。
+impact: 北方草原进入国家形态,长期影响中原。
+sources:
+- 辽史·太祖纪

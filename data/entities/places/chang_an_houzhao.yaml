@@ -1,0 +1,15 @@
+id: pl_chang_an_houzhao
+type: Place
+name: 长安/襄国
+modern_name: 邢台/西安
+province: 河北
+latitude: 37.07
+longitude: 114.5
+category: capital
+description: 后赵
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

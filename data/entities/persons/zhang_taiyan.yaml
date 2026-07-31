@@ -1,0 +1,25 @@
+id: p_zhang_taiyan
+type: Person
+name: 章太炎
+alias:
+- 章炳麟
+courtesy_name: 枚叔
+born:
+  year: 1869
+died:
+  year: 1936
+gender: male
+roles:
+- scholar
+- literatus
+importance: 2
+bio: 浙江余杭人，近代国学大师、革命家。早年师从俞樾治经学。1903 年因《驳康有为论革命书》及邹容《革命军》序入狱三年。1906 年出狱东渡，任同盟会机关报《民报》主编，以经学鼓吹革命。民国后以讲学、著述为业，1913 年、1932 年两度应邀在北京大学讲学，晚年在苏州创办章氏国学讲习会。学术上承清代乾嘉学派，精音韵训诂，著《国故论衡》《新方言》等。1936 年病逝于苏州。
+sources:
+- 汤志钧·章太炎年谱长编
+- 中华民国史·章炳麟传
+wikidata_id: "Q197162"
+wikipedia_zh: "章太炎"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Zhangtaiyan1899.jpg"
+image_license: "Public domain"
+image_credit: "​照片攝影者未知;redbrow製作"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhangtaiyan1899.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_14961
+type: Place
+name: 掖縣
+modern_name: 掖縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.17543
+longitude: 119.938004
+first_year: 627
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,14 @@
+id: p_cbdb_35269
+type: Person
+name: 王炎午
+born:
+  year: 1252
+died:
+  year: 1324
+gender: male
+birthplace: pl_cbdb_18513
+dynasty_ref: k_yuan
+bio: CBDB ID 35269
+name_en: Wang Yanwu
+sources:
+- CBDB (China Biographical Database)

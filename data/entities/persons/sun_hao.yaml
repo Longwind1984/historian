@@ -1,0 +1,32 @@
+id: p_sun_hao
+type: Person
+name: 孙皓
+alias:
+- 吴末帝
+- 归命侯
+born:
+  year: 242
+died:
+  year: 284
+reign_start:
+  year: 264
+reign_end:
+  year: 280
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_dongwu
+bio: 孙权孙。初立有令名,继而暴虐奢靡,吴政日坏。280年晋将王濬楼船下益州,出降,吴亡,三国一统于晋。
+ext:
+  title: 孙皓
+  regime: 东吴
+sources:
+- 三国志
+- 资治通鉴
+wikidata_id: "Q470030"
+wikipedia_zh: "孙皓"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Sun_Hao_Qing_portrait.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sun_Hao_Qing_portrait.jpg"

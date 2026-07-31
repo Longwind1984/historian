@@ -1,0 +1,28 @@
+id: p_cao_huan
+type: Person
+name: 曹奂
+alias:
+- 魏元帝
+- 陈留王
+born:
+  year: 246
+died:
+  year: 302
+reign_start:
+  year: 260
+reign_end:
+  year: 266
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_caowei
+bio: 武帝孙。司马昭所立。263年司马昭灭蜀汉。266年禅位于司马炎,曹魏亡,封陈留王。
+ext:
+  title: 曹奂
+  regime: 曹魏
+sources:
+- 三国志
+- 资治通鉴
+wikidata_id: "Q470091"
+wikipedia_zh: "曹奂"

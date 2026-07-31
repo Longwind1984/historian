@@ -1,0 +1,27 @@
+id: p_sushi_song
+type: Person
+name: 苏轼
+alias:
+- 苏东坡
+courtesy_name: 子瞻
+born:
+  year: 1037
+  month: 1
+died:
+  year: 1101
+  month: 8
+gender: male
+roles:
+- literatus
+- scholar
+importance: 1
+birthplace: pl_meishan_song
+bio: 北宋文学书画全才(唐宋八大家)。嘉祐二年进士。王安石变法时自请外放。乌台诗案(1079)贬黄州,作前后《赤壁赋》。豪放派词宗。
+sources:
+- 宋史·苏轼传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Su_shi.jpg/500px-Su_shi.jpg"
+wikidata_id: "Q36020"
+wikipedia_zh: "苏轼"
+image_license: "Public domain"
+image_credit: "Zhao Mengfu"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Su_shi.jpg"

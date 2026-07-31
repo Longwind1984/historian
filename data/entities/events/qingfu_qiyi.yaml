@@ -1,0 +1,19 @@
+id: e_qingfu_qiyi
+type: Event
+name: 裘甫起义
+date:
+  year: 859
+  month: 12
+category: rebellion
+importance: 3
+location: pl_zhoushan_qf
+polities_involved:
+- k_tang
+description: 859-860 年浙东裘甫起义,攻占象山、剡县,众至 3 万。为王式率军平定。
+impact: 唐朝第一次大规模农民起义,唐廷依赖沙陀等蕃兵平叛。
+sources:
+- 旧唐书·懿宗纪
+- 资治通鉴·卷250
+end_date:
+  year: 860
+  month: 6

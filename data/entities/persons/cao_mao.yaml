@@ -1,0 +1,26 @@
+id: p_cao_mao
+type: Person
+name: 曹髦
+alias:
+- 高贵乡公
+born:
+  year: 241
+died:
+  year: 260
+reign_start:
+  year: 254
+reign_end:
+  year: 260
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 文帝孙。司马师所立。不甘为傀儡,谓'司马昭之心,路人所知也',260年率殿中宿卫讨司马昭,为贾充指使成济所弑。
+ext:
+  title: 曹髦
+  regime: 曹魏
+sources:
+- 三国志
+- 资治通鉴
+wikidata_id: "Q550290"
+wikipedia_zh: "曹髦"

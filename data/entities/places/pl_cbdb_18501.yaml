@@ -1,0 +1,12 @@
+id: pl_cbdb_18501
+type: Place
+name: 富州
+modern_name: 富州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.197753906
+longitude: 115.78578186
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Zhou

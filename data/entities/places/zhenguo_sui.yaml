@@ -1,0 +1,13 @@
+id: pl_zhenguo_sui
+type: Place
+name: 真定
+modern_name: 正定
+province: 河北
+latitude: 38.15
+longitude: 114.57
+category: city
+description: 窦建德
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

@@ -1,0 +1,12 @@
+id: pl_cbdb_11725
+type: Place
+name: 安陽
+modern_name: 安陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.098343
+longitude: 114.345497
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

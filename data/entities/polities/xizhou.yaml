@@ -1,0 +1,18 @@
+id: k_xizhou
+type: Polity
+name: 西周
+name_en: Western Zhou
+color: '#27ae60'
+founded:
+  year: -1046
+ended:
+  year: -771
+founder: p_zhou_wu_wang
+capital: pl_haojing
+description: 西周政权。前1046年武王牧野灭商建国，都镐京(丰镐)，行分封宗法；厉王时国人暴动，共和行政(前841)为中国信史精确纪年起点；前771年犬戎破镐京，幽王被杀，平王东迁，西周终。共和前纪年据断代工程重建。
+sources:
+- 史记·周本纪
+- 史记·十二诸侯年表
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true

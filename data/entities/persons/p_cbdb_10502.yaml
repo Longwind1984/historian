@@ -1,0 +1,14 @@
+id: p_cbdb_10502
+type: Person
+name: 趙允讓
+born:
+  year: 995
+died:
+  year: 1059
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 10502
+name_en: Zhao Yunrang
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,19 @@
+id: e_lvlin_chimei
+type: Event
+name: 绿林赤眉起义
+date:
+  year: 17
+category: rebellion
+importance: 2
+location: pl_changshan
+polities_involved:
+- k_xin
+- k_xihan
+description: 17 王匡、王凤于绿林山起兵(绿林军)。18 樊崇于莒起兵(赤眉军)。23 绿林军立刘玄为更始帝。23 昆阳之战王莽主力被歼。25 刘秀称帝,27
+  灭赤眉。
+impact: 新朝覆灭,东汉建立。
+sources:
+- 后汉书·刘玄传、刘盆子传
+- 资治通鉴·卷38-41
+end_date:
+  year: 27

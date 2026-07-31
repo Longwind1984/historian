@@ -1,0 +1,25 @@
+id: b_boxiang
+type: Battle
+name: 柏乡之战
+date:
+  year: 910
+  month: 12
+importance: 3
+location: pl_boxiang
+combatants:
+- k_houliang
+- k_houdong
+commanders:
+- p_zhuwen
+- p_licunxu
+victor: k_houdong
+victor_commander: p_licunxu
+description: 后梁太祖开平四年至乾化元年。朱温遣王景仁率军攻成德王镕,晋王李存勖、赵王王镕联军迎战。晋军以少胜多,大破梁军主力,后梁河北战略受挫,后唐崛起关键战役。
+significance: 后梁由盛转衰、晋(后唐)由弱转强的转折点。
+sources:
+- 资治通鉴·卷267-268
+- 旧五代史·梁书
+end_date:
+  year: 911
+  month: 1
+category: battle

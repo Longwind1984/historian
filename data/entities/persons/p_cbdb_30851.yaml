@@ -1,0 +1,14 @@
+id: p_cbdb_30851
+type: Person
+name: 高適
+born:
+  year: 700
+died:
+  year: 765
+gender: male
+birthplace: pl_cbdb_15305
+dynasty_ref: k_tang
+bio: CBDB ID 30851
+name_en: Gao Shi
+sources:
+- CBDB (China Biographical Database)

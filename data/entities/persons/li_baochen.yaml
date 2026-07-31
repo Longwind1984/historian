@@ -1,0 +1,16 @@
+id: p_li_baochen
+type: Person
+name: 李宝臣
+alias:
+- 张忠志
+born:
+  year: 718
+died:
+  year: 781
+gender: male
+birthplace: pl_zhenzhou3
+bio: 成德节度使(763-781)。安史旧部。河朔三镇之一。
+sources:
+- 旧唐书·李宝臣传
+wikidata_id: "Q701247"
+wikipedia_zh: "李寶臣 (唐朝)"

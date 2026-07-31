@@ -1,0 +1,12 @@
+id: pl_cbdb_100640
+type: Place
+name: 鹽城
+modern_name: 鹽城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.385162
+longitude: 120.13372
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

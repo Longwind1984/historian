@@ -1,0 +1,12 @@
+id: pl_cbdb_15022
+type: Place
+name: 稷山
+modern_name: 稷山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.602161
+longitude: 110.978828
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,17 @@
+id: e_kunyang_zhizhan
+type: Event
+name: 昆阳之战
+date:
+  year: 23
+  month: 6
+category: battle
+importance: 2
+location: pl_kunyang
+polities_involved:
+- k_xin
+- k_xihan
+description: 23 年六月王莽遣王邑、王寻率 42 万大军围昆阳。刘秀率数千兵突围求援,内外夹击,会陨石坠营,新军大溃。'天助昆阳'。
+impact: 新朝覆灭决定性战役。
+sources:
+- 后汉书·光武帝纪
+- 资治通鉴·卷39

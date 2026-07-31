@@ -1,0 +1,12 @@
+id: pl_cbdb_12542
+type: Place
+name: 靜海
+modern_name: 靜海
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.010471
+longitude: 120.854645
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

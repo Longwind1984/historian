@@ -1,0 +1,12 @@
+id: pl_cbdb_13891
+type: Place
+name: 嘉禾
+modern_name: 嘉禾
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.33988
+longitude: 118.10537
+first_year: 1260
+last_year: 1279
+description: CBDB 行政类型:Xian

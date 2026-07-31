@@ -1,0 +1,19 @@
+id: p_zhang_fei
+type: Person
+name: 张飞
+alias:
+- 张翼德
+courtesy_name: 翼德
+died:
+  year: 221
+gender: male
+birthplace: pl_zhuo_zhangfei
+bio: 蜀汉骁将。涿郡人。当阳桥喝断,义释严颜。221 为部下所杀。
+sources:
+- 三国志·蜀书·张飞传
+wikidata_id: "Q197183"
+wikipedia_zh: "张飞"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%E6%98%8E%E4%BA%BA%E7%94%BB%E5%BC%A0%E9%A3%9E%E5%83%8F%E8%BD%B4.png/500px-%E6%98%8E%E4%BA%BA%E7%94%BB%E5%BC%A0%E9%A3%9E%E5%83%8F%E8%BD%B4.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E4%BA%BA%E7%94%BB%E5%BC%A0%E9%A3%9E%E5%83%8F%E8%BD%B4.png"

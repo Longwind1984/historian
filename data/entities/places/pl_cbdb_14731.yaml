@@ -1,0 +1,12 @@
+id: pl_cbdb_14731
+type: Place
+name: 弘農
+modern_name: 弘農
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.527512
+longitude: 110.865379
+first_year: 634
+last_year: 959
+description: CBDB 行政类型:Xian

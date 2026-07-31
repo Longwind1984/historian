@@ -1,0 +1,18 @@
+id: p_zhangquanyi
+type: Person
+name: 张全义
+alias:
+- 张居言
+courtesy_name: 国维
+born:
+  year: 852
+died:
+  year: 926
+  month: 4
+gender: male
+birthplace: pl_puyang
+bio: 五代方镇。历仕唐、梁、唐。治理洛阳数十年,恢复生产有功。926 年卒。
+sources:
+- 旧五代史·张全义传
+wikidata_id: "Q5360524"
+wikipedia_zh: "張全義"

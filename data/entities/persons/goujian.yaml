@@ -1,0 +1,39 @@
+id: p_goujian
+type: Person
+name: 勾践
+alias:
+- 越王勾践
+- 越王句践
+- 鸠浅
+gender: male
+roles:
+- monarch
+importance: 2
+reign_start:
+  year: -496
+reign_end:
+  year: -465
+bio: 越王勾践，姒姓，相传少康之后，越侯之裔。前496年即位，败吴于檇李，吴王阖闾伤死。前494年夫差伐越，勾践困于会稽，屈膝求和，入臣于吴为奴。归国后尝胆自励(后世称"卧薪尝胆")，任范蠡、文种，十年生聚、十年教训。前473年大举伐吴，灭吴，夫差自尽。旋北上会诸侯于徐州，致贡周室，号称霸主。在位约三十二年卒。
+life_events:
+- year: -496
+  event: 檇李败吴，阖闾伤死
+  source: 左传·定公十四年
+- year: -494
+  event: 夫椒之败，困守会稽求和
+  source: 左传·哀公元年
+- year: -490
+  event: 自吴归国，尝胆图强
+  source: 史记·越王句践世家
+- year: -473
+  event: 灭吴，夫差自尽
+  source: 左传·哀公二十二年
+sources:
+- 史记·越王句践世家
+- 左传·定公
+- 国语·越语
+wikidata_id: "Q1267918"
+wikipedia_zh: "勾践"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Goujian.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Goujian.jpg"

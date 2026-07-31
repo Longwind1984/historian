@@ -1,0 +1,14 @@
+id: p_cbdb_28825
+type: Person
+name: 張邦奇
+born:
+  year: 1484
+died:
+  year: 1544
+gender: male
+birthplace: pl_cbdb_5407
+dynasty_ref: k_ming
+bio: CBDB ID 28825
+name_en: Zhang Bangqi
+sources:
+- CBDB (China Biographical Database)

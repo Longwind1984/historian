@@ -1,0 +1,12 @@
+id: pl_cbdb_100587
+type: Place
+name: 金堂
+modern_name: 金堂
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.857916
+longitude: 104.434563
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

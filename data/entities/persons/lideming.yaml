@@ -1,0 +1,15 @@
+id: p_lideming
+type: Person
+name: 李德明
+born:
+  year: 981
+died:
+  year: 1032
+  month: 11
+gender: male
+birthplace: pl_xiazhou_li
+bio: 党项首领。李继迁子、李元昊父。受辽封大夏国王、宋封西平王。休养生息,扩张河西。
+sources:
+- 宋史·夏国传
+wikidata_id: "Q541665"
+wikipedia_zh: "李德明"

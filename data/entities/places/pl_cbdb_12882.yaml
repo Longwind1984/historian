@@ -1,0 +1,12 @@
+id: pl_cbdb_12882
+type: Place
+name: 安仁
+modern_name: 安仁
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.40443
+longitude: 116.903259
+first_year: 988
+last_year: 1279
+description: CBDB 行政类型:Xian

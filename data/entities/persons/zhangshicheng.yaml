@@ -1,0 +1,18 @@
+id: p_zhangshicheng
+type: Person
+name: 张士诚
+born:
+  year: 1321
+died:
+  year: 1367
+gender: male
+birthplace: pl_dongtai_zhang
+bio: 元末群雄。私盐贩出身。降元。后为朱元璋所灭。
+sources:
+- 明史·张士诚传
+wikidata_id: "Q704619"
+wikipedia_zh: "張士誠"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/cb/ZhangShicheng.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:ZhangShicheng.jpg"

@@ -1,0 +1,32 @@
+id: p_mengzhixiang
+type: Person
+name: 孟知祥
+alias:
+- 后蜀高祖
+courtesy_name: 保胤
+born:
+  year: 874
+died:
+  year: 934
+  month: 8
+gender: male
+birthplace: pl_xingtai
+bio: 后蜀建立者。后唐时镇守西川。933 年自立为蜀王,934 年称帝于成都,国号蜀。在位仅半年卒。
+sources:
+- 新五代史·后蜀世家
+- 十国春秋·后蜀
+- 十国春秋
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 934
+reign_end:
+  year: 934
+importance: 3
+roles:
+- emperor
+ext:
+  title: 孟知祥
+  regime: 后蜀
+wikidata_id: "Q1149186"
+wikipedia_zh: "孟知祥"

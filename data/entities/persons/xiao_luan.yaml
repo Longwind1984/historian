@@ -1,0 +1,27 @@
+id: p_xiao_luan
+type: Person
+name: 萧鸾
+alias:
+- 齐明帝
+born:
+  year: 452
+died:
+  year: 498
+reign_start:
+  year: 494
+reign_end:
+  year: 498
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 高帝侄。连废二帝自立,大杀高帝、武帝子孙殆尽。
+ext:
+  title: 齐明帝
+  regime: 南齐
+sources:
+- 南齐书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1149132"
+wikipedia_zh: "齐明帝"

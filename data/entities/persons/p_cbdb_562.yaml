@@ -1,0 +1,14 @@
+id: p_cbdb_562
+type: Person
+name: 范沖
+born:
+  year: 1067
+died:
+  year: 1141
+gender: male
+birthplace: pl_cbdb_13292
+dynasty_ref: k_beisong
+bio: CBDB ID 562
+name_en: Fan Chong
+sources:
+- CBDB (China Biographical Database)

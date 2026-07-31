@@ -1,0 +1,14 @@
+id: pl_mingtiao
+type: Place
+name: 鸣条
+modern_name: 山西运城夏县 / 河南封丘
+province: 山西
+latitude: 35.14
+longitude: 111.22
+category: battlefield
+description: 商汤灭夏鸣条之战战场。地望自古有异说，一谓山西运城夏县鸣条岗，一谓河南封丘东。
+sources:
+- 史记·殷本纪
+- 中国历史地图集
+ext:
+  disputed: true

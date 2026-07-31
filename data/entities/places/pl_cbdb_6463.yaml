@@ -1,0 +1,12 @@
+id: pl_cbdb_6463
+type: Place
+name: 河陽
+modern_name: 河陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.673196793
+longitude: 102.91121674
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

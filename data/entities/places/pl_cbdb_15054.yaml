@@ -1,0 +1,12 @@
+id: pl_cbdb_15054
+type: Place
+name: 太原
+modern_name: 太原
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.873748779
+longitude: 112.56482697
+first_year: 723
+last_year: 959
+description: CBDB 行政类型:Xian

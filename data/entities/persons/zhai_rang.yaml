@@ -1,0 +1,12 @@
+id: p_zhai_rang
+type: Person
+name: 翟让
+died:
+  year: 617
+gender: male
+birthplace: pl_qinghua
+bio: 瓦岗军创始者。东郡韦城人。616 起兵于瓦岗寨。617 让位于李密,后被李密所杀。
+sources:
+- 旧唐书·李密传
+wikidata_id: "Q841385"
+wikipedia_zh: "翟让"

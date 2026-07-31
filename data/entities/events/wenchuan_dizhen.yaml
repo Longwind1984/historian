@@ -1,0 +1,11 @@
+id: e_wenchuan_dizhen
+type: Event
+name: 汶川地震
+date:
+  year: 2008
+category: disaster
+importance: 2
+description: 2008年5月12日，四川汶川发生里氏8.0级地震，造成重大人员伤亡与财产损失。
+sources:
+- 中华人民共和国史
+- 当代中国史

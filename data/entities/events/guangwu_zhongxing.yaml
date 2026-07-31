@@ -1,0 +1,16 @@
+id: e_guangwu_zhongxing
+type: Event
+name: 光武中兴
+date:
+  year: 25
+category: prosperity
+importance: 2
+location: pl_luoyang
+polities_involved:
+- k_donghan
+description: 25-57 光武帝刘秀在位。释放奴婢、减轻赋税、整顿吏治。统一全国(37)。
+impact: 东汉开始。
+sources:
+- 后汉书·光武帝纪
+end_date:
+  year: 57

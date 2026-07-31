@@ -1,0 +1,12 @@
+id: pl_cbdb_18467
+type: Place
+name: 莆田
+modern_name: 莆田
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.433954
+longitude: 119.011101
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_100456
+type: Place
+name: 營道
+modern_name: 營道
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.531357
+longitude: 111.590881
+first_year: 962
+last_year: 1279
+description: CBDB 行政类型:Xian

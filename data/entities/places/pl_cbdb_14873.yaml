@@ -1,0 +1,12 @@
+id: pl_cbdb_14873
+type: Place
+name: 固始
+modern_name: 固始
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.18354
+longitude: 115.671104
+first_year: 620
+last_year: 959
+description: CBDB 行政类型:Xian

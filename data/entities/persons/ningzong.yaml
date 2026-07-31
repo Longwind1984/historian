@@ -1,0 +1,33 @@
+id: p_ningzong
+type: Person
+name: 赵扩
+alias:
+- 宋宁宗
+born:
+  year: 1168
+died:
+  year: 1224
+  month: 9
+gender: male
+birthplace: pl_linan_song
+bio: 宋宁宗。1194 继位。前期韩侂胄专权,禁道学(庆元党禁)。1206 开禧北伐败。1208 嘉定和议,韩侂胄被杀函首送金。后期史弥远专权。
+sources:
+- 宋史·宁宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1194
+reign_end:
+  year: 1224
+roles:
+- emperor
+ext:
+  title: 宋宁宗
+  regime: 南宋
+importance: 3
+wikidata_id: "Q7496"
+wikipedia_zh: "宋宁宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Song_Ningzong.jpg/500px-Song_Ningzong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Song_Ningzong.jpg"

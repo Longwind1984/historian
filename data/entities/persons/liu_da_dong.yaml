@@ -1,0 +1,29 @@
+id: p_liu_da_dong
+type: Person
+name: 刘炟
+alias:
+- 汉章帝
+- 章帝
+born:
+  year: 57
+died:
+  year: 88
+gender: male
+birthplace: pl_luoyang
+bio: 明帝子。宽厚为政，召开白虎观会议统一经义（《白虎通义》）。东汉极盛之末。
+sources:
+- 后汉书·章帝纪
+- 后汉书
+- 资治通鉴
+reign_start:
+  year: 75
+reign_end:
+  year: 88
+roles:
+- emperor
+ext:
+  title: 汉章帝
+  regime: 东汉
+importance: 3
+wikidata_id: "Q7277"
+wikipedia_zh: "汉章帝"

@@ -1,0 +1,32 @@
+id: p_mengchang
+type: Person
+name: 孟昶
+alias:
+- 后蜀后主
+- 保母
+courtesy_name: 保仁
+born:
+  year: 919
+died:
+  year: 965
+gender: male
+birthplace: pl_chengdu
+bio: 后蜀后主。孟知祥第三子。934 年即位。前期励精图治,后期宠信花蕊夫人,政事懈怠。965 年为北宋所俘,封秦国公,卒。
+sources:
+- 新五代史·后蜀世家
+- 十国春秋·后蜀
+- 十国春秋
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 934
+reign_end:
+  year: 965
+importance: 3
+roles:
+- emperor
+ext:
+  title: 孟昶
+  regime: 后蜀
+wikidata_id: "Q1071718"
+wikipedia_zh: "孟昶"

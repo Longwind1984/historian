@@ -1,0 +1,25 @@
+id: p_hu_hanmin
+type: Person
+name: 胡汉民
+alias:
+- 胡展堂
+courtesy_name: 展堂
+born:
+  year: 1879
+died:
+  year: 1936
+gender: male
+roles:
+- civil_official
+- scholar
+importance: 2
+bio: 广东番禺人，近代政治人物。1902 年留学日本，1905 年加入同盟会，任书记部书记，多次在《民报》撰文论战。民初任广东都督、总统府秘书长。孙中山逝世后一度代理大本营大元帅。1920-30 年代为国民党元老派代表，与蒋介石在约法问题上对立。1931 年被蒋介石软禁于汤山，获释后居广州，主导西南政务。1936 年病逝于广州。
+sources:
+- 中华民国史·胡汉民传
+- 蒋永敬·胡汉民先生年谱
+wikidata_id: "Q709979"
+wikipedia_zh: "胡漢民"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/26/Hu_Hanmin.jpg"
+image_license: "Public domain"
+image_credit: "Unknown; scanned by Internet Archive ( https://archive.org/ )"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hu_Hanmin.jpg"

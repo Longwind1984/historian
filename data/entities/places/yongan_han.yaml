@@ -1,0 +1,14 @@
+id: pl_yongan_han
+type: Place
+name: 白帝城
+modern_name: 奉节
+province: 重庆
+latitude: 31.05
+longitude: 109.46
+category: city
+description: 公孙述
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

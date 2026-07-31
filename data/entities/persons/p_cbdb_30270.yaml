@@ -1,0 +1,14 @@
+id: p_cbdb_30270
+type: Person
+name: 曹植
+born:
+  year: 192
+died:
+  year: 232
+gender: male
+birthplace: pl_cbdb_14693
+dynasty_ref: k_caowei
+bio: CBDB ID 30270
+name_en: Cao Zhi (2)
+sources:
+- CBDB (China Biographical Database)

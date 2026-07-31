@@ -1,0 +1,12 @@
+id: pl_cbdb_11450
+type: Place
+name: 榮陽
+modern_name: 榮陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.78683
+longitude: 113.31708
+first_year: 1120
+last_year: 1126
+description: CBDB 行政类型:Xian

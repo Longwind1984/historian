@@ -1,0 +1,30 @@
+id: p_huangtaiji
+type: Person
+name: 皇太极
+alias:
+- 清太宗
+born:
+  year: 1592
+died:
+  year: 1643
+reign_start:
+  year: 1626
+reign_end:
+  year: 1643
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_hetuala_dor
+bio: 清第二任。1635 改族名'满洲'。1636 改国号'大清'。1642 松锦之战灭洪承畴。
+sources:
+- 清史稿·太宗本纪
+ext:
+  title: 皇太极
+  regime: 清
+wikidata_id: "Q296367"
+wikipedia_zh: "皇太極"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/20/Emperor_Huang_Taiji.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author Qing Dynasty Court Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Emperor_Huang_Taiji.jpg"

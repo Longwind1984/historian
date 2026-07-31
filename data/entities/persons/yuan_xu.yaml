@@ -1,0 +1,28 @@
+id: p_yuan_xu
+type: Person
+name: 元诩
+alias:
+- 北魏孝明帝
+born:
+  year: 510
+died:
+  year: 528
+reign_start:
+  year: 515
+reign_end:
+  year: 528
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_beiwei
+bio: 宣武帝子,六岁即位,胡太后临朝。六镇起义爆发。528年为胡太后所鸩,旋有河阴之变,尔朱荣尽杀公卿两千余人。
+ext:
+  title: 北魏孝明帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1071618"
+wikipedia_zh: "魏孝明帝"

@@ -1,0 +1,14 @@
+id: p_cbdb_7026
+type: Person
+name: 范祖禹
+born:
+  year: 1041
+died:
+  year: 1098
+gender: male
+birthplace: pl_cbdb_13292
+dynasty_ref: k_beisong
+bio: CBDB ID 7026
+name_en: Fan Zuyu
+sources:
+- CBDB (China Biographical Database)

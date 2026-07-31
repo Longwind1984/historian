@@ -1,0 +1,20 @@
+id: e_gonghe_xingzheng
+type: Event
+name: 共和行政
+date:
+  year: -841
+end_date:
+  year: -828
+category: succession
+polities_involved:
+- k_xizhou
+importance: 1
+description: 厉王出奔后，朝政由共和摄理。一说诸侯奉共伯和摄天子事；一说周公、召公二相共同行政，号"共和"。共和十四年(前828)厉王崩于彘，太子静即位为宣王，共和终。
+impact: 共和行政期间为中国信史精确纪年的起点(前841)，自此中国历史有确切逐年纪年。
+sources:
+- 史记·周本纪
+- 竹书纪年·周纪
+- 古本竹书纪年辑校
+ext:
+  disputed: true
+  significance: 中国信史精确纪年之起点(前841年)；摄政主体(共伯和 vs 周召二相)两说并存

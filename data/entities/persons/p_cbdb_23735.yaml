@@ -1,0 +1,12 @@
+id: p_cbdb_23735
+type: Person
+name: 陳旦
+born:
+  year: 1123
+gender: male
+birthplace: pl_cbdb_13890
+dynasty_ref: k_beisong
+bio: CBDB ID 23735
+name_en: Chen Dan
+sources:
+- CBDB (China Biographical Database)

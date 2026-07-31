@@ -1,0 +1,15 @@
+id: pl_hanzhong_han
+type: Place
+name: 汉中
+modern_name: 汉中
+province: 陕西
+latitude: 33.07
+longitude: 107.03
+category: city
+description: 蜀汉北门户
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

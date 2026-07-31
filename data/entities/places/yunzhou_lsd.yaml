@@ -1,0 +1,15 @@
+id: pl_yunzhou_lsd
+type: Place
+name: 郓州
+modern_name: 东平
+province: 山东
+latitude: 35.91
+longitude: 116.3
+category: garrison
+description: 淄青治所
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴
+aliases:
+- 天平

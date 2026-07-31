@@ -1,0 +1,14 @@
+id: p_cbdb_40998
+type: Person
+name: 李仲芳
+born:
+  year: 960
+died:
+  year: 1012
+gender: male
+birthplace: pl_cbdb_11671
+dynasty_ref: k_beisong
+bio: CBDB ID 40998
+name_en: Li Zhongfang
+sources:
+- CBDB (China Biographical Database)

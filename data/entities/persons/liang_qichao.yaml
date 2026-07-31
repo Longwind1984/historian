@@ -1,0 +1,26 @@
+id: p_liang_qichao
+type: Person
+name: 梁启超
+alias:
+- 饮冰室主人
+courtesy_name: 卓如
+born:
+  year: 1873
+died:
+  year: 1929
+gender: male
+roles:
+- scholar
+- literatus
+- civil_official
+importance: 2
+bio: 广东新会人，近代思想家、学者。1890 年师从康有为，1898 年参与戊戌变法，事败流亡日本，创办《清议报》《新民丛报》，倡"新民说"，与革命派论战。民初组织进步党，先后任司法总长、财政总长。1918 年后退出政坛，专力学术与讲学，任清华国学研究院导师，著《清代学术概论》《中国近三百年学术史》等。1929 年病逝于北京。
+sources:
+- 丁文江·梁启超年谱长编
+- 中华民国史·梁启超传
+wikidata_id: "Q379836"
+wikipedia_zh: "梁启超"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%E6%A2%81%E5%90%AF%E8%B6%85%E5%9C%A8%E6%97%A5%E6%9C%AC%E6%9C%9F%E9%97%B4.jpg/500px-%E6%A2%81%E5%90%AF%E8%B6%85%E5%9C%A8%E6%97%A5%E6%9C%AC%E6%9C%9F%E9%97%B4.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%A2%81%E5%90%AF%E8%B6%85%E5%9C%A8%E6%97%A5%E6%9C%AC%E6%9C%9F%E9%97%B4.jpg"

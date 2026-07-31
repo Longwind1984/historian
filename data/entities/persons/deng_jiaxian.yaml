@@ -1,0 +1,18 @@
+id: p_deng_jiaxian
+name: 邓稼先
+type: Person
+born: {year: 1924}
+died: {year: 1986}
+roles:
+  - scholar
+importance: 2
+bio: 安徽怀宁人。核物理学家,中国核武器研制主要组织者之一,'两弹一星'元勋。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q5256919"
+wikipedia_zh: "邓稼先"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/%E9%84%A7%E7%A8%BC%E5%85%88%E6%99%AE%E6%B8%A1%E7%85%A7%E7%89%87.jpg/500px-%E9%84%A7%E7%A8%BC%E5%85%88%E6%99%AE%E6%B8%A1%E7%85%A7%E7%89%87.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%84%A7%E7%A8%BC%E5%85%88%E6%99%AE%E6%B8%A1%E7%85%A7%E7%89%87.jpg"

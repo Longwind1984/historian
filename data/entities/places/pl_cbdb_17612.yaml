@@ -1,0 +1,12 @@
+id: pl_cbdb_17612
+type: Place
+name: 宜都
+modern_name: 宜都
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.392385
+longitude: 111.457916
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

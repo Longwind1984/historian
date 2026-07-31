@@ -1,0 +1,18 @@
+id: p_dou_jiande
+type: Person
+name: 窦建德
+alias:
+- 窦建德
+born:
+  year: 573
+died:
+  year: 621
+gender: male
+birthplace: pl_zhenguo_sui
+bio: 隋末群雄之一。漳南人。618 称夏王,都乐寿。621 营救王世充时,在虎牢关为李世民所擒,斩于长安。
+ext:
+  significance: 隋末河北最大势力,深得民心。
+sources:
+- 旧唐书·窦建德传
+wikidata_id: "Q1133757"
+wikipedia_zh: "窦建德"

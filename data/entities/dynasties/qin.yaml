@@ -1,0 +1,15 @@
+id: d_qin
+type: Dynasty
+name: 秦
+name_en: Qin
+founded:
+  year: -221
+ended:
+  year: -207
+last_capital: pl_xianyang_qin
+description: 秦朝。前221年秦始皇嬴政灭六国完成统一,中国首个大一统中央集权王朝。废分封行郡县、书同文车同轨。前209年陈胜吴广起义,前207年子婴降刘邦,秦亡。国祚十五载。
+period_label: 秦
+sources:
+- 史记
+- 资治通鉴
+founder: p_ying_zheng

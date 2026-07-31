@@ -1,0 +1,17 @@
+id: e_julu_zhizhan
+type: Event
+name: 巨鹿之战
+date:
+  year: -207
+  month: 12
+category: battle
+importance: 2
+location: pl_julu_qi
+polities_involved:
+- k_chu_xiang
+- k_qin
+description: BC207 项羽率楚军 5 万,破釜沉舟,九战九捷,大破章邯、王离率领的秦军主力 40 万。王离被俘,章邯投降。
+impact: 秦朝覆灭的决定性战役。
+sources:
+- 史记·项羽本纪
+- 资治通鉴·卷8

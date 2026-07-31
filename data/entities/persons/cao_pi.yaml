@@ -1,0 +1,34 @@
+id: p_cao_pi
+type: Person
+name: 曹丕
+alias:
+- 曹子桓
+- 魏文帝
+courtesy_name: 子桓
+born:
+  year: 187
+died:
+  year: 226
+  month: 6
+reign_start:
+  year: 220
+reign_end:
+  year: 226
+gender: male
+roles:
+- emperor
+- literatus
+importance: 2
+birthplace: pl_qiao_cao
+bio: 曹魏建立者。曹操次子。220 即魏王位,十月迫汉献帝禅让,国号魏,都洛阳。在位 7 年。
+sources:
+- 三国志·魏书·文帝纪
+ext:
+  title: 曹丕
+  regime: 曹魏
+wikidata_id: "Q313333"
+wikipedia_zh: "曹丕"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cao_Pi_Tang.jpg/500px-Cao_Pi_Tang.jpg"
+image_license: "Public domain"
+image_credit: "Yan Li-pen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Cao_Pi_Tang.jpg"

@@ -1,0 +1,35 @@
+id: p_yangguang
+type: Person
+name: 杨广
+alias:
+- 隋炀帝
+courtesy_name: 阿𡡉
+born:
+  year: 569
+died:
+  year: 618
+  month: 4
+reign_start:
+  year: 604
+reign_end:
+  year: 618
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_daxing
+bio: 隋炀帝。杨坚次子。600 年代兄杨勇为太子,604 年即位(疑弑父)。营东都洛阳,开大运河,三征高句丽,巡幸江都。穷奢极欲,劳民伤财。617 年李渊起兵,618
+  年在江都被宇文化及所弑,隋亡。
+ext:
+  significance: 中国历史上最具争议的皇帝之一。大运河利在千秋,但其暴政直接导致隋朝覆灭。
+  title: 隋炀帝
+  regime: 隋
+sources:
+- 隋书·炀帝纪
+- 资治通鉴·卷180-185
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sui_Yangdi_Tang.jpg/500px-Sui_Yangdi_Tang.jpg"
+wikidata_id: "Q7419"
+wikipedia_zh: "隋炀帝"
+image_license: "Public domain"
+image_credit: "Yan Liben"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sui_Yangdi_Tang.jpg"

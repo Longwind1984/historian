@@ -1,0 +1,12 @@
+id: pl_cbdb_13874
+type: Place
+name: 連江
+modern_name: 連江
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.198015
+longitude: 119.534469
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

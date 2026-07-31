@@ -1,0 +1,12 @@
+id: pl_cbdb_5551
+type: Place
+name: 通山
+modern_name: 通山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.597151
+longitude: 114.503822
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

@@ -1,0 +1,14 @@
+id: p_cbdb_16500
+type: Person
+name: 徐文獻
+born:
+  year: 1102
+died:
+  year: 1168
+gender: male
+birthplace: pl_cbdb_12787
+dynasty_ref: k_beisong
+bio: CBDB ID 16500
+name_en: Xu Wenxian
+sources:
+- CBDB (China Biographical Database)

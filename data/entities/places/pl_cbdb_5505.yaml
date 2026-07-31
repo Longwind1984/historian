@@ -1,0 +1,12 @@
+id: pl_cbdb_5505
+type: Place
+name: 雩都
+modern_name: 雩都
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.954086
+longitude: 115.409363
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

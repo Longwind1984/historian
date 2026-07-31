@@ -1,0 +1,12 @@
+id: pl_cbdb_15293
+type: Place
+name: 高邑
+modern_name: 高邑
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.604755
+longitude: 114.611526
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

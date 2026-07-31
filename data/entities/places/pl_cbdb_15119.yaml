@@ -1,0 +1,12 @@
+id: pl_cbdb_15119
+type: Place
+name: 上黨
+modern_name: 上黨
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.183537
+longitude: 113.103485
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,21 @@
+id: p_lizicheng
+type: Person
+name: 李自成
+alias:
+- 李闯
+- 闯王
+born:
+  year: 1606
+died:
+  year: 1645
+gender: male
+roles:
+- rebel_leader
+importance: 1
+birthplace: pl_mizhi_li
+bio: 明末农民起义领袖。1644.3 入北京,明亡。山海关败于清军。1645 湖北九宫山死(存疑)。
+sources:
+- 明史·流贼传
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Li Zicheng.jpg
+wikidata_id: "Q333567"
+wikipedia_zh: "李自成"

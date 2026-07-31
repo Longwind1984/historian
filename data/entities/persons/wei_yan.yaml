@@ -1,0 +1,19 @@
+id: p_wei_yan
+type: Person
+name: 魏延
+alias:
+- 魏文长
+courtesy_name: 文长
+died:
+  year: 234
+gender: male
+birthplace: pl_yiyang_weiyan
+bio: 蜀汉骁将。234 诸葛亮死后因与杨仪不和,被诬谋反,诛。
+sources:
+- 三国志·蜀书·魏延传
+wikidata_id: "Q378539"
+wikipedia_zh: "魏延"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Wei_Yan_Qing_dynasty_illustration.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wei_Yan_Qing_dynasty_illustration.jpg"

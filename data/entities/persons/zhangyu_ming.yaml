@@ -1,0 +1,18 @@
+id: p_zhangyu_ming
+type: Person
+name: 张玉
+gender: male
+courtesy_name: 世美
+born:
+  year: 1343
+died:
+  year: 1401
+  month: 1
+roles:
+- general
+importance: 3
+bio: 靖难第一名将,燕军谋主。1400 东昌之战,朱棣为盛庸所围,玉率兵入阵求棣,力战死。棣闻之恸哭,谓「胜负常事,不足虑,恨失玉耳」。子张辅后平安南。
+sources:
+- 明史·张玉传
+wikidata_id: "Q11068798"
+wikipedia_zh: "張玉"

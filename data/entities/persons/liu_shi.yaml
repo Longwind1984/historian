@@ -1,0 +1,26 @@
+id: p_liu_shi
+type: Person
+name: 刘奭
+alias:
+- 汉元帝
+- 元帝
+born:
+  year: -75
+died:
+  year: -33
+reign_start:
+  year: -48
+reign_end:
+  year: -33
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 宣帝子。好儒术、优容宦官外戚，宦官石显专权，西汉自此转衰。昭君出塞在其时。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 汉元帝
+  regime: 西汉

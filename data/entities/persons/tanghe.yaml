@@ -1,0 +1,22 @@
+id: p_tanghe
+type: Person
+name: 汤和
+gender: male
+courtesy_name: 鼎臣
+born:
+  year: 1326
+died:
+  year: 1395
+  month: 8
+roles:
+- general
+importance: 3
+bio: 濠州钟离人,与朱元璋同里。最早招元璋入郭子兴军者即汤和。灭方国珍、张士诚,封信国公。洪武功臣中独得善终 —— 晚年首请归田纳兵权,又暗弱不与政事,故免于胡蓝之狱。
+sources:
+- 明史·汤和传
+wikidata_id: "Q11135965"
+wikipedia_zh: "汤和"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/28/%E6%B1%A4%E5%92%8C.jpg"
+image_license: "Public domain"
+image_credit: "Shangguan Zhou"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B1%A4%E5%92%8C.jpg"

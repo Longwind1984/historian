@@ -1,0 +1,12 @@
+id: pl_cbdb_18370
+type: Place
+name: 黃巖州
+modern_name: 黃巖州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.642612457
+longitude: 121.25835419
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Zhou

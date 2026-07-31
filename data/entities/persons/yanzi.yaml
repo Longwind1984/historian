@@ -1,0 +1,35 @@
+id: p_yanzi
+type: Person
+name: 晏婴
+courtesy_name: 仲
+alias:
+- 晏子
+- 晏平仲
+- 晏婴
+gender: male
+roles:
+- civil_official
+importance: 3
+died:
+  year: -500
+bio: 晏婴，字仲，谥平，后人称晏平仲，夷维人，齐国名相。历事齐灵、庄、景三公，以节俭力行、直言敢谏著称，谏景公省刑薄敛、减礼奢泰。使楚折其辱，智辩闻名。传《晏子春秋》后人辑其言行。
+life_events:
+- year: -548
+  event: 崔杼弑庄公后晏婴立景公
+  source: 左传·襄公二十五年
+- year: -531
+  event: 使楚，折楚王之辱
+  source: 晏子春秋·内篇
+- year: -500
+  event: 卒(约前500)
+  source: 史记·管晏列传
+sources:
+- 史记·管晏列传
+- 左传·襄公
+- 晏子春秋·内篇
+wikidata_id: "Q1045306"
+wikipedia_zh: "晏婴"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/38/Yan_Ying.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yan_Ying.png"

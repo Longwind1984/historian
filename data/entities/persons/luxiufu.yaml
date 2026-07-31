@@ -1,0 +1,20 @@
+id: p_luxiufu
+type: Person
+name: 陆秀夫
+courtesy_name: 君实
+born:
+  year: 1236
+died:
+  year: 1279
+  month: 3
+gender: male
+birthplace: pl_jianhu_lu
+bio: 南宋末丞相。1276 临安陷落后,与陈宜中在福州拥立端宗,流亡海上。崖山海战宋军败,负 8 岁帝昺投海殉国。
+sources:
+- 宋史·陆秀夫传
+wikidata_id: "Q2738615"
+wikipedia_zh: "陸秀夫"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/%E9%99%B8%E7%A7%80%E5%A4%AB.jpg/500px-%E9%99%B8%E7%A7%80%E5%A4%AB.jpg"
+image_license: "Public domain"
+image_credit: "Qing Gu Yuanji"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%99%B8%E7%A7%80%E5%A4%AB.jpg"

@@ -1,0 +1,16 @@
+id: pl_haozhou_xu
+type: Place
+name: 濠州
+modern_name: 凤阳
+province: 安徽
+latitude: 32.86
+longitude: 117.56
+category: city
+description: 朱元璋/徐达籍贯
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集
+aliases:
+- 钟离

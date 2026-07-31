@@ -1,0 +1,10 @@
+id: pl_cbdb_14999
+type: Place
+name: 河東道
+modern_name: 河東道
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 627
+last_year: 959
+description: CBDB 行政类型:Dao

@@ -1,0 +1,24 @@
+id: p_hulinyi
+type: Person
+name: 胡林翼
+gender: male
+courtesy_name: 贶生
+born:
+  year: 1812
+died:
+  year: 1861
+  month: 9
+roles:
+- civil_official
+- general
+importance: 2
+bio: 湖北巡抚,湘军实际的后勤与财政中枢。整顿厘金、漕务以养军,曾国藩谓其才胜己十倍。1861 安庆克复月余而咯血死。
+sources:
+- 清史稿·胡林翼传
+- 胡文忠公遗集
+wikidata_id: "Q6150378"
+wikipedia_zh: "胡林翼"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/%E8%83%A1%E6%9E%97%E7%BF%BC.jpg"
+image_license: "Public domain"
+image_credit: "unknownj"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%83%A1%E6%9E%97%E7%BF%BC.jpg"

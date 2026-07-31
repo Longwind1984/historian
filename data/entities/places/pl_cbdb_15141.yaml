@@ -1,0 +1,12 @@
+id: pl_cbdb_15141
+type: Place
+name: 龍岡
+modern_name: 龍岡
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.066357
+longitude: 114.494263
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:Xian

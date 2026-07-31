@@ -1,0 +1,12 @@
+id: pl_cbdb_4453
+type: Place
+name: 故城
+modern_name: 故城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.380794
+longitude: 116.124138
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

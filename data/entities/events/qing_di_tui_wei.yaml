@@ -1,0 +1,18 @@
+id: e_qing_di_tui_wei
+type: Event
+name: 清帝退位
+date:
+  year: 1912
+  month: 2
+  day: 12
+category: succession
+polities_involved:
+- k_qing
+- k_minguo
+importance: 1
+description: 1912 年 2 月 12 日，清宣统帝溥仪奉隆裕太后颁《退位诏书》，宣布清帝退位。诏书授权袁世凯以全权组织临时共和政府，与民军协商统一办法。此前南北议和达成优待清室条件，清帝保留尊号、暂居宫禁、岁费四百万两。
+impact: 结束清朝自 1636 年(入关 1644)以来的统治，亦结束两千余年的君主专制制度，政权转入共和体制。
+sources:
+- 清史稿·宣统本纪
+- 中华民国史·第一编
+- 章开沅·辛亥革命史

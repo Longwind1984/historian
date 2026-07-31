@@ -1,0 +1,14 @@
+id: p_cbdb_103333
+type: Person
+name: 李思齊
+born:
+  year: 1323
+died:
+  year: 1374
+gender: male
+birthplace: pl_cbdb_17386
+dynasty_ref: k_ming
+bio: CBDB ID 103333
+name_en: Li Siqi
+sources:
+- CBDB (China Biographical Database)

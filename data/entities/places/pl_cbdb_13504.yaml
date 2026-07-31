@@ -1,0 +1,12 @@
+id: pl_cbdb_13504
+type: Place
+name: 石照
+modern_name: 石照
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.003943
+longitude: 106.259559
+first_year: 965
+last_year: 1279
+description: CBDB 行政类型:Xian

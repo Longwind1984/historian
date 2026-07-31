@@ -1,0 +1,17 @@
+id: p_wangshenqi
+type: Person
+name: 王审琦
+gender: male
+courtesy_name: 仲宝
+born:
+  year: 925
+died:
+  year: 974
+roles:
+- general
+importance: 3
+bio: 义社十兄弟之一,与赵匡胤友善。陈桥兵变时为殿前都虞候,与石守信为内应。961 杯酒释兵权,出为忠正军节度使。
+sources:
+- 宋史·王审琦传
+wikidata_id: "Q15940340"
+wikipedia_zh: "王审琦"

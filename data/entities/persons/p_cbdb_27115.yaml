@@ -1,0 +1,14 @@
+id: p_cbdb_27115
+type: Person
+name: 張祹
+born:
+  year: 995
+died:
+  year: 1050
+gender: male
+birthplace: pl_cbdb_12675
+dynasty_ref: k_beisong
+bio: CBDB ID 27115
+name_en: Zhang Tao
+sources:
+- CBDB (China Biographical Database)

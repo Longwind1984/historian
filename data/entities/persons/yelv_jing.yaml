@@ -1,0 +1,26 @@
+id: p_yelv_jing
+type: Person
+name: 耶律璟
+alias:
+- 辽穆宗
+born:
+  year: 931
+died:
+  year: 969
+reign_start:
+  year: 951
+reign_end:
+  year: 969
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 太宗子。嗜酒好猎、昼寝夜饮,时号'睡王'。刑罚残暴,969年为近侍所弑。其时中原周宋渐强而辽不与争。
+ext:
+  title: 辽穆宗
+  regime: 辽
+sources:
+- 辽史
+- 资治通鉴
+wikidata_id: "Q4993"
+wikipedia_zh: "遼穆宗"

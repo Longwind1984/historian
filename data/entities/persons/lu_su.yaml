@@ -1,0 +1,21 @@
+id: p_lu_su
+type: Person
+name: 鲁肃
+alias:
+- 鲁子敬
+courtesy_name: 子敬
+born:
+  year: 172
+died:
+  year: 217
+gender: male
+birthplace: pl_dongcheng_lusu
+bio: 东吴谋士。210 劝孙权借荆州与刘备。'榻上策'。
+sources:
+- 三国志·吴书·鲁肃传
+wikidata_id: "Q559744"
+wikipedia_zh: "鲁肃"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/97/LuSu.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:LuSu.jpg"

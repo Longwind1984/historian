@@ -1,0 +1,18 @@
+id: p_wu_yuanji
+type: Person
+name: 吴元济
+born:
+  year: 783
+died:
+  year: 817
+  month: 11
+gender: male
+birthplace: pl_caizhou_wysx
+bio: 淮西节度使(814-817)。父吴少阳,814 继位。815 宰相武元衡被刺(李师道主使)。817 李愬雪夜入蔡州生擒吴元济,淮西平。
+ext:
+  significance: 李愬入蔡州是元和中兴标志之战。
+sources:
+- 旧唐书·吴元济传
+- 资治通鉴·卷240
+wikidata_id: "Q4260268"
+wikipedia_zh: "吳元濟"

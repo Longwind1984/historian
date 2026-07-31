@@ -1,0 +1,12 @@
+id: pl_cbdb_14536
+type: Place
+name: 岐州
+modern_name: 岐州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.522518158
+longitude: 107.38591766
+first_year: 618
+last_year: 755
+description: CBDB 行政类型:Zhou

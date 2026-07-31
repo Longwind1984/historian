@@ -1,0 +1,26 @@
+id: k_xihan
+type: Polity
+name: 西汉
+name_en: Western Han
+color: '#e74c3c'
+founded:
+  year: -202
+  month: 2
+ended:
+  year: 9
+  month: 1
+capital: pl_chang_an
+description: 汉朝。刘邦建。BC141-87 武帝朝鼎盛。BC9 王莽篡汉。
+sources:
+- 汉书
+founder: p_liu_bang_qin
+supplanted: k_chu_xiang
+ended_by: k_xin
+territory:
+- valid_from:
+    year: -206
+  valid_to:
+    year: 9
+  geojson_file: chgis_xihan.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Han Dynasty map.jpg

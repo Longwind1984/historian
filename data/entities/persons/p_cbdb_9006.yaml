@@ -1,0 +1,14 @@
+id: p_cbdb_9006
+type: Person
+name: 趙頊
+born:
+  year: 1048
+died:
+  year: 1085
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 9006
+name_en: Zhao Xu
+sources:
+- CBDB (China Biographical Database)

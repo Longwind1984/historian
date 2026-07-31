@@ -1,0 +1,21 @@
+id: e_shi_jie_liao
+type: Event
+name: 石敬瑭借契丹灭后唐
+date:
+  year: 936
+  month: 11
+category: conquest
+importance: 1
+location: pl_taiyuan
+polities_involved:
+- k_houjin
+- k_houdong
+description: 936 年石敬瑭反,求援于契丹。耶律德光率军入援,败唐军于晋阳。石敬瑭称帝,建国号晋,自称儿皇帝,割燕云十六州。后唐末帝自焚,后唐亡。
+impact: 燕云十六州丢失,北方屏障尽失。中原数百年受制于游牧民族。
+sources:
+- 资治通鉴·卷280
+- 旧五代史·晋高祖纪
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 石敬瑭乞契丹之师,割地为酬——燕云之失由此

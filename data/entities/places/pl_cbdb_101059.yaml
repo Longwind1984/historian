@@ -1,0 +1,12 @@
+id: pl_cbdb_101059
+type: Place
+name: 兗州
+modern_name: 兗州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.556697845
+longitude: 116.82369995
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

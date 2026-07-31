@@ -1,0 +1,20 @@
+id: p_weizhongxian
+type: Person
+name: 魏忠贤
+alias:
+- 魏太监
+- 九千岁
+born:
+  year: 1568
+died:
+  year: 1627
+gender: male
+roles:
+- eunuch
+importance: 1
+birthplace: pl_hejian_wei
+bio: 明代宦官,司礼监秉笔太监。天启朝阉党首领,称'九千岁'。1627 崇祯即位自缢。
+sources:
+- 明史·宦官传·魏忠贤
+wikidata_id: "Q702101"
+wikipedia_zh: "魏忠贤"

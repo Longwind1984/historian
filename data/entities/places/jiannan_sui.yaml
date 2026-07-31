@@ -1,0 +1,13 @@
+id: pl_jiannan_sui
+type: Place
+name: 剑南
+modern_name: 成都
+province: 四川
+latitude: 30.67
+longitude: 104.07
+category: city
+description: 隋唐剑南道
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

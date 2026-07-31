@@ -1,0 +1,12 @@
+id: pl_cbdb_14166
+type: Place
+name: 鐔津
+modern_name: 鐔津
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 23.378511
+longitude: 110.913522
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

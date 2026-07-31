@@ -1,0 +1,29 @@
+id: b_youzhou917
+type: Battle
+name: 幽州之战(幽州保卫战)
+date:
+  year: 917
+  month: 3
+importance: 3
+location: pl_youzhou
+combatants:
+- k_houdong
+- k_liao
+commanders:
+- p_yeluabaoji
+- p_likaiqu
+victor: k_houdong
+victor_commander: p_licunxu
+strength: 约7万晋援军 vs 30万契丹
+description: 917年三月契丹乘新州之胜围攻幽州,周德威坚守约200日。李存勖抽调李嗣源、李存审、阎宝率七万步骑自易州北上驰援。晋军以步兵大阵稳扎稳打对抗契丹骑兵,大破之,解幽州之围。
+significance: 保全晋之河北战略要地,被誉为'古代以步制骑的典范'。延缓契丹南下进程。
+ext:
+  scale: 重大
+sources:
+- 旧五代史·唐书·庄宗纪
+- 辽史·太祖纪
+- 资治通鉴·卷269
+end_date:
+  year: 917
+  month: 8
+category: battle

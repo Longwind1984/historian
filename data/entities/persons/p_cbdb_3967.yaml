@@ -1,0 +1,14 @@
+id: p_cbdb_3967
+type: Person
+name: 王令
+born:
+  year: 1032
+died:
+  year: 1059
+gender: male
+birthplace: pl_cbdb_12441
+dynasty_ref: k_beisong
+bio: CBDB ID 3967
+name_en: Wang Ling
+sources:
+- CBDB (China Biographical Database)

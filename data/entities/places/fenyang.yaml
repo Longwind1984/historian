@@ -1,0 +1,15 @@
+id: pl_fenyang
+type: Place
+name: 汾阳
+modern_name: 汾阳
+province: 山西
+latitude: 37.27
+longitude: 111.78
+category: city
+description: 郭子仪封地
+aliases:
+- 汾州
+sources:
+- 中国历史地图集
+- 旧唐书·地理志
+- 宋史·地理志

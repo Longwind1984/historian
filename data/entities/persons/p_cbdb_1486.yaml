@@ -1,0 +1,14 @@
+id: p_cbdb_1486
+type: Person
+name: 司馬池
+born:
+  year: 980
+died:
+  year: 1041
+gender: male
+birthplace: pl_cbdb_11938
+dynasty_ref: k_beisong
+bio: CBDB ID 1486
+name_en: Sima Chi
+sources:
+- CBDB (China Biographical Database)

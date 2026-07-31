@@ -1,0 +1,35 @@
+id: p_liheng_tang
+type: Person
+name: 李恒
+alias:
+- 唐穆宗
+- 穆宗
+born:
+  year: 795
+died:
+  year: 824
+gender: male
+birthplace: pl_chang_an
+bio: 唐穆宗。820-824 在位。父宪宗被弑后由宦官拥立。河朔三镇再次叛乱(821 长庆割据),元和中兴成果丧失。荒酒色。
+sources:
+- 旧唐书·穆宗纪
+- 资治通鉴·卷241-243
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 820
+reign_end:
+  year: 824
+roles:
+- emperor
+ext:
+  title: 唐穆宗
+  regime: 唐
+importance: 3
+wikidata_id: "Q9763"
+wikipedia_zh: "唐穆宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Muzong.jpg"
+image_license: "Public domain"
+image_credit: "Tang Painter,"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Muzong.jpg"

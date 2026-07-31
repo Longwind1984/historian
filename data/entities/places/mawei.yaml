@@ -1,0 +1,13 @@
+id: pl_mawei
+type: Place
+name: 马嵬驿
+modern_name: 兴平
+province: 陕西
+latitude: 34.3
+longitude: 108.49
+category: battlefield
+description: 756 马嵬驿之变
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

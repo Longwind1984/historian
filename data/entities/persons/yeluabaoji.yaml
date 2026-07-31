@@ -1,0 +1,28 @@
+id: p_yeluabaoji
+type: Person
+name: 耶律阿保机
+alias:
+- 辽太祖
+born:
+  year: 872
+died:
+  year: 926
+  month: 9
+reign_start:
+  year: 916
+reign_end:
+  year: 926
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_liaoshangjing
+bio: 契丹族统一者,辽朝奠基者。916 年称帝,国号契丹。926 年灭渤海国,东征途中卒。
+sources:
+- 辽史·太祖纪
+- 契丹国志
+ext:
+  title: 辽太祖
+  regime: 辽
+wikidata_id: "Q4989"
+wikipedia_zh: "耶律阿保机"

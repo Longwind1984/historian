@@ -1,0 +1,16 @@
+id: p_wangshoucheng
+type: Person
+name: 王守澄
+gender: male
+died:
+  year: 835
+  month: 10
+roles:
+- eunuch
+importance: 3
+bio: 唐宦官,历宪、穆、敬、文四朝。820 宪宗暴崩,时议归罪守澄等;其后穆宗、文宗皆由其拥立。835 文宗与李训、郑注谋诛宦官,先鸩杀守澄,旋即甘露之变事败,宦官反噬。
+sources:
+- 旧唐书·宦官传
+- 资治通鉴·卷241-245
+wikidata_id: "Q7967621"
+wikipedia_zh: "王守澄"

@@ -1,0 +1,37 @@
+id: p_zhuyuanzhang
+type: Person
+name: 朱元璋
+alias:
+- 明太祖
+- 朱洪武
+- 朱兴宗
+- 朱重八
+courtesy_name: 国瑞
+born:
+  year: 1328
+  month: 10
+died:
+  year: 1398
+  month: 6
+reign_start:
+  year: 1368
+reign_end:
+  year: 1398
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_haozhou_xu
+bio: 明朝建立者。出身赤贫,早年为僧乞讨。1352 年投郭子兴红巾军,逐步兼并群雄。1368 年称帝建明,定都南京。北伐灭元,统一中国。
+ext:
+  significance: 中国历史上唯一从赤贫到统一的开国皇帝。
+  title: 朱元璋
+  regime: 明
+sources:
+- 明史·太祖本纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Portrait_assis_de_l%27empereur_Ming_Taizu.jpg/500px-Portrait_assis_de_l%27empereur_Ming_Taizu.jpg"
+wikidata_id: "Q9957"
+wikipedia_zh: "朱元璋"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Portrait_assis_de_l%27empereur_Ming_Taizu.jpg"

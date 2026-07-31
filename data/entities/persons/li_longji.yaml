@@ -1,0 +1,37 @@
+id: p_li_longji
+type: Person
+name: 李隆基
+alias:
+- 唐玄宗
+- 李三郎
+courtesy_name: 三郎
+born:
+  year: 685
+  month: 9
+died:
+  year: 762
+  month: 5
+reign_start:
+  year: 712
+reign_end:
+  year: 756
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_daxing
+bio: 唐玄宗。710 唐隆政变诛韦后,712 即位。713 先天之变诛太平公主。开元(713-741)励精图治,史称'开元盛世',唐朝全盛。天宝(742-756)宠杨贵妃、任李林甫、杨国忠,怠政。755
+  安史之乱爆发,763 平定。玄宗奔蜀,马嵬驿之变杨贵妃死,后还都为太上皇,762 崩。
+ext:
+  significance: 盛唐转衰的关键人物。前期明君,后期昏君。
+  title: 唐玄宗
+  regime: 唐
+sources:
+- 旧唐书·玄宗本纪
+- 资治通鉴·卷210-221
+wikidata_id: "Q9746"
+wikipedia_zh: "唐玄宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%E6%9D%8E%E9%9A%86%E5%9F%BA%E5%83%8F.jpg/500px-%E6%9D%8E%E9%9A%86%E5%9F%BA%E5%83%8F.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E9%9A%86%E5%9F%BA%E5%83%8F.jpg"

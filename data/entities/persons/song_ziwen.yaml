@@ -1,0 +1,24 @@
+id: p_song_ziwen
+type: Person
+name: 宋子文
+alias:
+- T.V.宋
+courtesy_name: 子文
+born:
+  year: 1894
+died:
+  year: 1971
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 广东文昌(今属海南)人，生于上海，近代财政、政治人物。毕业于上海圣约翰大学，留学美国哈佛、哥伦比亚大学。1925 年任广东国民政府财政部长。1928 年后长期主持国民政府财政、金融，1942 年任外交部长，1945 年任行政院长、出席旧金山联合国制宪会议。推行币制改革，主导建立中央银行体系。1949 年去美国。1971 年病逝于旧金山。
+sources:
+- 中华民国史·宋子文传
+- 吴景平·宋子文评传
+wikidata_id: "Q716051"
+wikipedia_zh: "宋子文"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/T._V._Soong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:T._V._Soong.jpg"

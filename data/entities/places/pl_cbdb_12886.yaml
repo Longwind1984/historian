@@ -1,0 +1,12 @@
+id: pl_cbdb_12886
+type: Place
+name: 玉山
+modern_name: 玉山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.679602
+longitude: 118.240181
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,24 @@
+id: p_du_yuming
+type: Person
+name: 杜聿明
+alias:
+- 杜光亭
+courtesy_name: 光亭
+born:
+  year: 1904
+died:
+  year: 1981
+gender: male
+roles:
+- general
+importance: 2
+bio: 陕西米脂人，抗日将领。黄埔军校第一期毕业。抗战时任第五军军长，1939 年指挥昆仑关战役，重创日军第五师团。后任中国远征军第一路副司令长官，入缅作战。1948 年任徐州"剿总"副总司令，在淮海战役中被俘。1959 年获特赦。1981 年病逝于北京。
+sources:
+- 中国抗日战争史·杜聿明传
+- 中华民国史·人物传·杜聿明
+wikidata_id: "Q5310099"
+wikipedia_zh: "杜聿明"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Du_Yuming.jpg"
+image_license: "Public domain"
+image_credit: "Original uploader was Derino at zh.wikipedia"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Du_Yuming.jpg"

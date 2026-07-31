@@ -1,0 +1,14 @@
+id: e_wending_zhongyuan
+type: Event
+name: 问鼎中原
+date:
+  year: -606
+category: diplomacy
+polities_involved:
+- k_chu_state
+importance: 2
+description: 前606年楚庄王伐陆浑之戎，遂至洛水，陈兵周疆。周定王使王孙满劳之，庄王问九鼎之大小轻重，意欲代周。满以"在德不在鼎"对，庄王乃退。
+impact: 楚庄王觊觎周室共主之位，示楚之强；亦反映王室之衰与霸政之盛。
+sources:
+- 左传·宣公三年
+- 史记·楚世家

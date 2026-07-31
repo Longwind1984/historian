@@ -1,0 +1,12 @@
+id: pl_cbdb_15999
+type: Place
+name: 零陵
+modern_name: 零陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.210339
+longitude: 111.612564
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

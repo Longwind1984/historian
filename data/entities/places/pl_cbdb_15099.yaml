@@ -1,0 +1,12 @@
+id: pl_cbdb_15099
+type: Place
+name: 鴈門
+modern_name: 鴈門
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.09017
+longitude: 113.0374
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:Xian

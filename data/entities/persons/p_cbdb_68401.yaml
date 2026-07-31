@@ -1,0 +1,14 @@
+id: p_cbdb_68401
+type: Person
+name: 魏良弼
+born:
+  year: 1492
+died:
+  year: 1575
+gender: male
+birthplace: pl_cbdb_5431
+dynasty_ref: k_ming
+bio: CBDB ID 68401
+name_en: Wei Liangbi
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_11934
+type: Place
+name: 陝州
+modern_name: 陝州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.656059265
+longitude: 111.36267853
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

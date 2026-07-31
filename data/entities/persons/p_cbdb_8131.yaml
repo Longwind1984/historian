@@ -1,0 +1,14 @@
+id: p_cbdb_8131
+type: Person
+name: 蔡卞
+born:
+  year: 1058
+died:
+  year: 1117
+gender: male
+birthplace: pl_cbdb_100022
+dynasty_ref: k_beisong
+bio: CBDB ID 8131
+name_en: Cai Bian
+sources:
+- CBDB (China Biographical Database)

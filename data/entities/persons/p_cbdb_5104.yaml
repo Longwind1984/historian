@@ -1,0 +1,14 @@
+id: p_cbdb_5104
+type: Person
+name: 王中(司馬遵妻)
+born:
+  year: 1160
+died:
+  year: 1203
+gender: female
+birthplace: pl_cbdb_100052
+dynasty_ref: k_beisong
+bio: CBDB ID 5104
+name_en: Wang Zhong
+sources:
+- CBDB (China Biographical Database)

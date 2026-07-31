@@ -1,0 +1,12 @@
+id: pl_cbdb_18448
+type: Place
+name: 寧德
+modern_name: 寧德
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.661217
+longitude: 119.517273
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

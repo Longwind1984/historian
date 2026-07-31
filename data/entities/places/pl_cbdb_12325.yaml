@@ -1,0 +1,12 @@
+id: pl_cbdb_12325
+type: Place
+name: 寧化
+modern_name: 寧化
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.642059
+longitude: 112.100998
+first_year: 960
+last_year: 979
+description: CBDB 行政类型:Xian

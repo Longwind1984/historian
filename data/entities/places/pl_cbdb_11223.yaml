@@ -1,0 +1,12 @@
+id: pl_cbdb_11223
+type: Place
+name: 虞城
+modern_name: 虞城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.510823
+longitude: 115.887953
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: e_gaige_kaifang
+name: 改革开放
+type: Event
+date:
+  year: 1978
+category: reform
+importance: 1
+description: 1978年12月中共十一届三中全会后,中国开始实行改革开放政策,推进经济体制改革与对外开放。
+impact: 国民经济持续快速增长,社会面貌发生深刻变化。
+sources:
+- 中华人民共和国史
+- 当代中国史

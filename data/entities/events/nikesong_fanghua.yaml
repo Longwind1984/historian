@@ -1,0 +1,12 @@
+id: e_nikesong_fanghua
+type: Event
+name: 尼克松访华
+date:
+  year: 1972
+category: diplomacy
+importance: 2
+description: 1972年2月，美国总统尼克松访问中国，双方在上海发表《联合公报》。
+impact: 中美关系开始走向正常化。
+sources:
+- 中华人民共和国史
+- 当代中国史

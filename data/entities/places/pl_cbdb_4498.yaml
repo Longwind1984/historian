@@ -1,0 +1,12 @@
+id: pl_cbdb_4498
+type: Place
+name: 邢臺
+modern_name: 邢臺
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.066357
+longitude: 114.494263
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

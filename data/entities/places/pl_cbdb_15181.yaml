@@ -1,0 +1,12 @@
+id: pl_cbdb_15181
+type: Place
+name: 貴鄉
+modern_name: 貴鄉
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.30969
+longitude: 115.218359
+first_year: 740
+last_year: 935
+description: CBDB 行政类型:Xian

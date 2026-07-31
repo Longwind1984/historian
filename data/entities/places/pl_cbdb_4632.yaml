@@ -1,0 +1,12 @@
+id: pl_cbdb_4632
+type: Place
+name: 泰州
+modern_name: 泰州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.495872498
+longitude: 119.91123962
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

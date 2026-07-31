@@ -1,0 +1,12 @@
+id: pl_cbdb_15757
+type: Place
+name: 蘇州
+modern_name: 蘇州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.31271
+longitude: 120.618622
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Zhou

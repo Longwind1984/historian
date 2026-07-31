@@ -1,0 +1,23 @@
+id: p_zhangzai
+type: Person
+name: 张载
+courtesy_name: 子厚
+born:
+  year: 1020
+died:
+  year: 1077
+  month: 12
+gender: male
+roles:
+- scholar
+importance: 2
+birthplace: pl_meixian_zhang
+bio: 北宋理学关学创始人。著《正蒙》《西铭》。'为天地立心,为生民立命,为往圣继绝学,为万世开太平'(横渠四句)。
+sources:
+- 宋史·张载传
+wikidata_id: "Q197338"
+wikipedia_zh: "張載 (北宋)"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Chang_Tsai.jpg/500px-Chang_Tsai.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chang_Tsai.jpg"

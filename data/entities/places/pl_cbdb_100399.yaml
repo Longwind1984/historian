@@ -1,0 +1,12 @@
+id: pl_cbdb_100399
+type: Place
+name: 沅江
+modern_name: 沅江
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.837835
+longitude: 112.379974
+first_year: 963
+last_year: 1279
+description: CBDB 行政类型:Xian

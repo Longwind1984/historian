@@ -1,0 +1,12 @@
+id: pl_cbdb_4636
+type: Place
+name: 海門
+modern_name: 海門
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.842256
+longitude: 121.692779
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

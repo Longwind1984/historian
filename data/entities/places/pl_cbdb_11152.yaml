@@ -1,0 +1,12 @@
+id: pl_cbdb_11152
+type: Place
+name: 諸城
+modern_name: 諸城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.993355
+longitude: 119.403984
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

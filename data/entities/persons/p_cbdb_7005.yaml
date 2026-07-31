@@ -1,0 +1,14 @@
+id: p_cbdb_7005
+type: Person
+name: 陳襄
+born:
+  year: 1017
+died:
+  year: 1080
+gender: male
+birthplace: pl_cbdb_12726
+dynasty_ref: k_beisong
+bio: CBDB ID 7005
+name_en: Chen Xiang
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,17 @@
+id: e_ji_nan_can_an
+type: Event
+name: 济南惨案
+date:
+  year: 1928
+  month: 5
+end_date:
+  year: 1928
+  month: 5
+category: disaster
+importance: 3
+description: 1928 年 5 月，国民革命军北伐逼近山东，日本以保护侨民为由出兵济南。5 月 3 日日军与中国军队发生冲突，随即屠戮济南军民，杀害山东交涉员蔡公时及随员
+  17 人。据中方调查，中国军民死伤逾万人。北伐军绕道北上避免冲突扩大。次年中日达成协议，日军撤出济南。
+impact: 北伐进程受阻，激化民众反日情绪；为三年后九一八事变的预演。
+sources:
+- 中华民国史·第二编
+- 中国抗日战争史·上卷

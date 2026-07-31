@@ -1,0 +1,12 @@
+id: pl_cbdb_3804
+type: Place
+name: 臨潢
+modern_name: 臨潢
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 44.05668
+longitude: 119.25768
+first_year: 908
+last_year: 1121
+description: CBDB 行政类型:Xian

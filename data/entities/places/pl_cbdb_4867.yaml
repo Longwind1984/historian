@@ -1,0 +1,12 @@
+id: pl_cbdb_4867
+type: Place
+name: 海豐
+modern_name: 海豐
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.740623
+longitude: 117.601212
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_13937
+type: Place
+name: 漳浦
+modern_name: 漳浦
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.117096
+longitude: 117.610733
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

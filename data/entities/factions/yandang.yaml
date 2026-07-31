@@ -1,0 +1,15 @@
+id: f_yandang
+type: Faction
+name: 阉党
+nature: political
+founded:
+  year: 1620
+dissolved:
+  year: 1627
+core_region: pl_beijing_qing
+description: 魏忠贤为首的宦官集团,称'九千岁'。1625-1627 大兴党狱。1627 崇祯除魏忠贤。
+significance: 明末宦官专权顶峰。
+peak_period: 1620-1627
+sources:
+- 明史
+- 清史稿

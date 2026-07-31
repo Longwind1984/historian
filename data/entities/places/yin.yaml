@@ -1,0 +1,13 @@
+id: pl_yin
+type: Place
+name: 殷
+modern_name: 安阳殷墟
+province: 河南
+latitude: 36.07
+longitude: 114.39
+category: capital
+description: 商代后期都城。盘庚迁殷后历二百五十余年至帝辛未迁，甲骨文与殷墟考古(含妇好墓)可证其地望。
+sources:
+- 史记·殷本纪
+- 竹书纪年·殷纪
+- 中国历史地图集

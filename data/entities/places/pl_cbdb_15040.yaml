@@ -1,0 +1,12 @@
+id: pl_cbdb_15040
+type: Place
+name: 文城
+modern_name: 文城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.219128
+longitude: 110.506981
+first_year: 634
+last_year: 904
+description: CBDB 行政类型:Xian

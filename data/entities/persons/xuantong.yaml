@@ -1,0 +1,31 @@
+id: p_xuantong
+type: Person
+name: 溥仪
+alias:
+- 宣统
+- 逊帝
+born:
+  year: 1906
+died:
+  year: 1967
+reign_start:
+  year: 1908
+reign_end:
+  year: 1912
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_beijing_qing
+bio: 清末代皇帝。1908-1912 在位。1912.2.12 退位,帝制终结。1917 张勋复辟(12日)。1932-1945 伪满洲国。
+sources:
+- 清史稿·宣统本纪
+ext:
+  title: 溥仪
+  regime: 清
+wikidata_id: "Q185152"
+wikipedia_zh: "溥仪"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/%E6%BA%A5%E4%BB%AA.jpg/500px-%E6%BA%A5%E4%BB%AA.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%BA%A5%E4%BB%AA.jpg"

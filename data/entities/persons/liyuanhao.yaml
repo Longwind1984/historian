@@ -1,0 +1,28 @@
+id: p_liyuanhao
+type: Person
+name: 李元昊
+alias:
+- 赵元昊
+- 曩霄
+born:
+  year: 1003
+died:
+  year: 1048
+  month: 1
+reign_start:
+  year: 1038
+reign_end:
+  year: 1048
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_xiazhou_li
+bio: 西夏开国皇帝。1038 称帝建国号大夏(西夏)。创西夏文字。1038-1044 三川口、好水川、定川寨三败宋军。1044 庆历和议名义称臣实独立。
+sources:
+- 宋史·夏国传
+ext:
+  title: 李元昊
+  regime: 西夏
+wikidata_id: "Q7438"
+wikipedia_zh: "夏景宗"

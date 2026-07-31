@@ -1,0 +1,17 @@
+id: k_wu_zhou
+type: Polity
+name: 武周
+name_en: Wu Zhou
+color: '#c0392b'
+founded:
+  year: 690
+  month: 9
+ended:
+  year: 705
+  month: 1
+capital: pl_luoyang_sui
+description: 武则天建立的朝代(690-705)。中国历史上唯一的女性皇权朝代。神龙革命后退位,唐复国。
+sources:
+- 旧唐书·则天皇后本纪
+founder: p_wu_zetian
+ended_by: k_tang

@@ -1,0 +1,18 @@
+id: f_nantang_faction
+type: Faction
+name: 南唐党争
+nature: political
+founded:
+  year: 943
+dissolved:
+  year: 975
+core_region: pl_jinling
+description: 南唐中后期,以宋齐丘、冯延巳、孙晟等为代表的朝堂党争。南北士人矛盾激烈。
+significance: 消耗了南唐的政治能量,反映南方政权内耗。
+peak_period: 中主-后主时期
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

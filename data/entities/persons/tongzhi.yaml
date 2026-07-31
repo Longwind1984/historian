@@ -1,0 +1,34 @@
+id: p_tongzhi
+type: Person
+name: 载淳
+alias:
+- 清穆宗
+- 同治
+- 同治帝
+born:
+  year: 1856
+died:
+  year: 1875
+gender: male
+birthplace: pl_beijing_qing
+bio: 咸丰子,六岁即位。辛酉政变后两宫太后垂帘、恭亲王议政。洋务运动兴办,太平天国平定,史称'同治中兴'。年十九崩,无嗣。
+sources:
+- 清史稿·穆宗本纪
+- 清史稿
+- 清实录
+reign_start:
+  year: 1861
+reign_end:
+  year: 1875
+roles:
+- emperor
+ext:
+  title: 同治帝
+  regime: 清
+importance: 3
+wikidata_id: "Q318811"
+wikipedia_zh: "同治帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E7%A9%86%E5%AE%97%E5%90%8C%E6%B2%BB%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg/500px-%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E7%A9%86%E5%AE%97%E5%90%8C%E6%B2%BB%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+image_license: "Public domain"
+image_credit: "Annonymous Qing Dynasty Court Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E7%A9%86%E5%AE%97%E5%90%8C%E6%B2%BB%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"

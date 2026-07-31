@@ -1,0 +1,14 @@
+id: pl_guiping_shi
+type: Place
+name: 桂平
+modern_name: 桂平
+province: 广西
+latitude: 23.39
+longitude: 110.08
+category: city
+description: 石达开籍贯
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

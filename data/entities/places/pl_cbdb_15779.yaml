@@ -1,0 +1,12 @@
+id: pl_cbdb_15779
+type: Place
+name: 武康
+modern_name: 武康
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.550453
+longitude: 119.964065
+first_year: 624
+last_year: 959
+description: CBDB 行政类型:Xian

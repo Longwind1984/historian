@@ -1,0 +1,12 @@
+id: pl_cbdb_100513
+type: Place
+name: 臨川
+modern_name: 臨川
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.984781
+longitude: 116.351341
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

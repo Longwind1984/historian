@@ -1,0 +1,12 @@
+id: pl_cbdb_15746
+type: Place
+name: 延陵
+modern_name: 延陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.882374
+longitude: 119.478287
+first_year: 688
+last_year: 959
+description: CBDB 行政类型:Xian

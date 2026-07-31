@@ -1,0 +1,13 @@
+id: pl_yingzhou_yy2
+type: Place
+name: 应州
+modern_name: 应县
+province: 山西
+latitude: 39.55
+longitude: 113.19
+category: garrison
+description: 燕云十六州之一
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

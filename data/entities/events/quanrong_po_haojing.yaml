@@ -1,0 +1,16 @@
+id: e_quanrong_po_haojing
+type: Event
+name: 犬戎破镐京·西周亡
+date:
+  year: -771
+category: conquest
+importance: 1
+location: pl_haojing
+polities_involved:
+- k_xizhou
+description: 幽王废申后与太子宜臼，申侯联合犬戎攻周。前771年犬戎破镐京，杀幽王于骊山下，掠丰镐，西周亡。传统"烽火戏诸侯"叙事据清华简《系年》可议，而申侯联犬戎破镐京之事较为信实。平王(宜臼)东迁洛邑，东周始。
+impact: 西周终结，平王东迁洛邑，王室衰微，开启东周(春秋战国)局面。
+sources:
+- 史记·周本纪
+- 国语·郑语
+- 清华简·系年

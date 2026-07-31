@@ -1,0 +1,14 @@
+id: p_cbdb_211
+type: Person
+name: 張浚
+born:
+  year: 1097
+died:
+  year: 1164
+gender: male
+birthplace: pl_cbdb_100549
+dynasty_ref: k_beisong
+bio: CBDB ID 211
+name_en: Zhang Jun
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_10993
+type: Place
+name: 浚儀
+modern_name: 浚儀
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.785477
+longitude: 114.34333
+first_year: 960
+last_year: 1008
+description: CBDB 行政类型:Xian

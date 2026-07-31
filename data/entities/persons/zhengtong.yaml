@@ -1,0 +1,42 @@
+id: p_zhengtong
+type: Person
+name: 朱祁镇
+alias:
+- 明英宗
+- 正统帝
+- 天顺帝
+born:
+  year: 1427
+died:
+  year: 1464
+gender: male
+birthplace: pl_beiping_zhudi
+bio: 明英宗。宣宗子。1435-1449 第一次在位。1449 土木堡之变被瓦剌俘。1457 夺门之变复辟,1457-1464 第二次在位。
+sources:
+- 明史·英宗本纪
+- 明史
+- 明实录
+reign_start:
+  year: 1435
+reign_end:
+  year: 1449
+roles:
+- emperor
+ext:
+  title: 明英宗
+  regime: 明
+  reigns:
+  - from: 1435
+    to: 1449
+    note: 正统;土木堡之变被俘
+  - from: 1457
+    to: 1464
+    note: 天顺;夺门之变复辟
+  note: 两次在位;reign_start/end 取正统(1435-1449),天顺(1457-1464)见 reigns
+importance: 2
+wikidata_id: "Q9983"
+wikipedia_zh: "明英宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/%E6%98%8E%E8%8B%B1%E5%AE%97.jpg"
+image_license: "Public domain"
+image_credit: "Palace Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E8%8B%B1%E5%AE%97.jpg"

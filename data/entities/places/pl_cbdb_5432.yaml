@@ -1,0 +1,12 @@
+id: pl_cbdb_5432
+type: Place
+name: 豐城
+modern_name: 豐城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.197754
+longitude: 115.785782
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

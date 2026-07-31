@@ -1,0 +1,25 @@
+id: k_beisong
+type: Polity
+name: 北宋
+name_en: Northern Song
+color: '#f1c40f'
+founded:
+  year: 960
+  month: 2
+ended:
+  year: 1127
+  month: 3
+capital: pl_kaifeng
+description: 赵匡胤陈桥兵变代后周。都汴梁。979 灭北汉完成本部统一。1127 金军破开封,掳徽钦二帝(靖康之变),北宋亡。
+sources:
+- 宋史
+founder: p_zhaokuangyin
+ended_by: k_jin
+territory:
+- valid_from:
+    year: 960
+  valid_to:
+    year: 1127
+  geojson_file: chgis_beisong.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Northern Song map.jpg

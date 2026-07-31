@@ -1,0 +1,29 @@
+id: p_huangchao
+type: Person
+name: 黄巢
+alias:
+- 黄天霸
+- 冲天大将军
+born:
+  year: 820
+died:
+  year: 884
+  month: 6
+gender: male
+roles:
+- rebel_leader
+importance: 1
+birthplace: pl_junzhou
+bio: 唐末农民起义领袖。875 年起兵,880 年攻入长安称帝,国号齐。884 年战败,在狼虎谷为外甥林言所杀。其部将朱温后降唐,成为后梁太祖。
+ext:
+  significance: 唐末大起义摧毁了唐朝根基,直接催生五代十国格局。
+sources:
+- 旧唐书·黄巢传
+- 新唐书·逆臣传
+- 资治通鉴·卷252-256
+wikidata_id: "Q714113"
+wikipedia_zh: "黄巢"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Huang_Chao.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Huang_Chao.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_101100
+type: Place
+name: 虔州
+modern_name: 虔州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.847000122
+longitude: 114.93247986
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,12 @@
+id: pl_cbdb_15672
+type: Place
+name: 西充
+modern_name: 西充
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.010458
+longitude: 105.880943
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_18341
+type: Place
+name: 義烏
+modern_name: 義烏
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.300087
+longitude: 120.071625
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

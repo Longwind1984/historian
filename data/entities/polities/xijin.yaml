@@ -1,0 +1,26 @@
+id: k_xijin
+type: Polity
+name: 西晋
+name_en: Western Jin
+color: '#16a085'
+founded:
+  year: 266
+  month: 2
+ended:
+  year: 316
+  month: 12
+capital: pl_luoyang
+description: 司马炎代魏建。280 灭吴统一。316 亡于汉赵(永嘉之乱)。
+sources:
+- 晋书·武帝纪
+founder: p_simayan
+supplanted: k_caowei
+ended_by: k_hanzhao
+territory:
+- valid_from:
+    year: 265
+  valid_to:
+    year: 316
+  geojson_file: chgis_xijin.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Western Jin map.jpg

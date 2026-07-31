@@ -1,0 +1,27 @@
+id: p_li_liangzuo
+type: Person
+name: 李谅祚
+alias:
+- 西夏毅宗
+born:
+  year: 1047
+died:
+  year: 1067
+reign_start:
+  year: 1048
+reign_end:
+  year: 1067
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 元昊子,周岁即位,母党没藏氏专权。亲政后诛没藏、行汉礼、附宋侵宋反复。
+ext:
+  title: 西夏毅宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q7443"
+wikipedia_zh: "夏毅宗"

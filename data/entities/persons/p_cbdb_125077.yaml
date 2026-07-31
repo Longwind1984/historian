@@ -1,0 +1,14 @@
+id: p_cbdb_125077
+type: Person
+name: 李遷
+born:
+  year: 1511
+died:
+  year: 1582
+gender: male
+birthplace: pl_cbdb_5431
+dynasty_ref: k_ming
+bio: CBDB ID 125077
+name_en: Li Qian
+sources:
+- CBDB (China Biographical Database)

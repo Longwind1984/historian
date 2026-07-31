@@ -1,0 +1,15 @@
+id: pl_luoyang_sui
+type: Place
+name: 洛阳(东都)
+modern_name: 洛阳
+province: 河南
+latitude: 34.62
+longitude: 112.45
+category: capital
+description: 隋唐东都
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代
+aliases:
+- 东都

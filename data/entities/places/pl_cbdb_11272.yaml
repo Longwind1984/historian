@@ -1,0 +1,12 @@
+id: pl_cbdb_11272
+type: Place
+name: 濮州
+modern_name: 濮州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.672870636
+longitude: 115.50356293
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,20 @@
+id: p_wusan_gui
+type: Person
+name: 吴三桂
+alias:
+- 平西王
+born:
+  year: 1612
+died:
+  year: 1678
+gender: male
+birthplace: pl_gaoyou_wu
+bio: 明山海关总兵。1644 引清军入关。后封平西王。1673-1678 三藩之乱,称帝,死。
+sources:
+- 清史稿·吴三桂传
+wikidata_id: "Q468701"
+wikipedia_zh: "吴三桂"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wu_Sangui.jpg"
+image_license: "Public domain"
+image_credit: "Author in Qing Dynasty"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wu_Sangui.jpg"

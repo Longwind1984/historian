@@ -1,0 +1,12 @@
+id: p_cbdb_20099
+type: Person
+name: 王伯大
+died:
+  year: 1253
+gender: male
+birthplace: pl_cbdb_13873
+dynasty_ref: k_beisong
+bio: CBDB ID 20099
+name_en: Wang Boda
+sources:
+- CBDB (China Biographical Database)

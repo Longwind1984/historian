@@ -1,0 +1,12 @@
+id: pl_cbdb_100097
+type: Place
+name: 大名
+modern_name: 大名
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.24564
+longitude: 115.13826
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

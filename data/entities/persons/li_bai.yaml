@@ -1,0 +1,29 @@
+id: p_li_bai
+type: Person
+name: 李白
+alias:
+- 李太白
+- 青莲居士
+courtesy_name: 太白
+born:
+  year: 701
+died:
+  year: 762
+gender: male
+roles:
+- literatus
+importance: 1
+birthplace: pl_suiye_libai
+bio: 盛唐大诗人。'诗仙'。祖籍陇西成纪,生于碎叶城(今吉尔吉斯斯坦)。742-744 入长安供奉翰林。安史之乱中入永王李璘幕府,永王败后被流夜郎,遇赦还。762
+  卒于当涂。
+ext:
+  significance: 中国文学史巅峰之一。
+sources:
+- 旧唐书·文苑传·李白
+- 新唐书·文艺传·李白
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/%E6%9D%8E%E7%99%BD.png/500px-%E6%9D%8E%E7%99%BD.png"
+wikidata_id: "Q7071"
+wikipedia_zh: "李白"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E7%99%BD.png"

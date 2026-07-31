@@ -1,0 +1,16 @@
+id: p_chen_ping
+type: Person
+name: 陈平
+died:
+  year: -178
+gender: male
+birthplace: pl_huyang_chenping
+bio: 汉初功臣。'六出奇计'。BC204 反间范增。BC200 白登之围贿赂阏氏解围。惠帝朝为相。
+sources:
+- 史记·陈丞相世家
+wikidata_id: "Q707658"
+wikipedia_zh: "陈平 (汉朝)"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chen_Ping%2C_Marquis_of_Quni.jpg/500px-Chen_Ping%2C_Marquis_of_Quni.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Ping,_Marquis_of_Quni.jpg"

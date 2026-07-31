@@ -1,0 +1,14 @@
+id: p_cbdb_127987
+type: Person
+name: 李維楨
+born:
+  year: 1547
+died:
+  year: 1626
+gender: male
+birthplace: pl_cbdb_5527
+dynasty_ref: k_ming
+bio: CBDB ID 127987
+name_en: Li Weizhen
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,16 @@
+id: p_fusu
+type: Person
+name: 扶苏
+died:
+  year: -210
+gender: male
+roles:
+- imperial_kin
+importance: 2
+birthplace: pl_shang_jun
+bio: 秦始皇长子。BC212 因谏焚书坑儒被贬上郡监蒙恬军。BC210 始皇崩,赵高、李斯矫诏赐死扶苏,立胡亥。
+sources:
+- 史记·李斯列传
+- 资治通鉴·卷7
+wikidata_id: "Q1268605"
+wikipedia_zh: "扶苏"

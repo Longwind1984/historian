@@ -1,0 +1,15 @@
+id: p_dou_xian
+type: Person
+name: 窦宪
+alias:
+- 窦伯度
+courtesy_name: 伯度
+died:
+  year: 92
+gender: male
+birthplace: pl_xianyang_qin
+bio: 东汉外戚、名将。89 大破北匈奴于金微山,登燕然山刻石。91 灭北匈奴。92 因谋反赐死。
+sources:
+- 后汉书·窦宪传
+wikidata_id: "Q1251323"
+wikipedia_zh: "竇憲"

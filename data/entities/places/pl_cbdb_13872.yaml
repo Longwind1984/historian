@@ -1,0 +1,12 @@
+id: pl_cbdb_13872
+type: Place
+name: 懷安
+modern_name: 懷安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.093738556
+longitude: 119.22961426
+first_year: 980
+last_year: 1279
+description: CBDB 行政类型:Xian

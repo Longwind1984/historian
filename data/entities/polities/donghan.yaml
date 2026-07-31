@@ -1,0 +1,25 @@
+id: k_donghan
+type: Polity
+name: 东汉
+name_en: Eastern Han
+color: '#f39c12'
+founded:
+  year: 25
+ended:
+  year: 220
+  month: 12
+capital: pl_luoyang
+description: 刘秀建。220 曹丕代汉,东汉亡,三国开始。
+sources:
+- 后汉书
+founder: p_liu_xiu
+supplanted: k_xin
+ended_by: k_caowei
+territory:
+- valid_from:
+    year: 25
+  valid_to:
+    year: 220
+  geojson_file: chgis_donghan.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Eastern Han Dynasty map.jpg

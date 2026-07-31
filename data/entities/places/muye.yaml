@@ -1,0 +1,12 @@
+id: pl_muye
+type: Place
+name: 牧野
+modern_name: 新乡卫辉一带
+province: 河南
+latitude: 35.40
+longitude: 114.07
+category: battlefield
+description: 周武王伐纣牧野之战战场，位商都朝歌南郊。
+sources:
+- 尚书·牧誓
+- 中国历史地图集

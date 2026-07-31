@@ -1,0 +1,21 @@
+id: p_yan_gaoqing
+type: Person
+name: 颜杲卿
+alias:
+- 颜常山
+born:
+  year: 692
+died:
+  year: 756
+  month: 1
+gender: male
+birthplace: pl_zhenzhou3
+bio: 中唐忠臣,颜真卿堂兄。安史之乱起兵常山,城陷被俘,骂贼而死。
+sources:
+- 旧唐书·颜杲卿传
+wikidata_id: "Q11665093"
+wikipedia_zh: "顏杲卿"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-12-%E9%A1%94%E6%9D%B2%E5%8D%BF.jpg/500px-%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-12-%E9%A1%94%E6%9D%B2%E5%8D%BF.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-12-%E9%A1%94%E6%9D%B2%E5%8D%BF.jpg"

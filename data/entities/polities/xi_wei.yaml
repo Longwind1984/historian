@@ -1,0 +1,16 @@
+id: k_xi_wei
+type: Polity
+name: 西魏
+name_en: Western Wei
+color: '#27ae60'
+founded:
+  year: 535
+ended:
+  year: 557
+capital: pl_chang_an_xiwei
+description: 宇文泰拥立。557 宇文觉代之建北周。
+sources:
+- 周书
+founder: p_yuwentai
+supplanted: k_beiwei
+ended_by: k_bei_zhou

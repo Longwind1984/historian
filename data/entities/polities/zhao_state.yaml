@@ -1,0 +1,16 @@
+id: k_zhao_state
+type: Polity
+name: 赵国
+name_en: Zhao (state)
+color: '#8e44ad'
+founded:
+  year: -403
+ended:
+  year: -222
+ended_by: k_qin_state
+capital: pl_handan_qin
+description: 赵国。嬴姓，赵氏，与韩、魏分晋而立。前403年周威烈王命赵籍为诸侯。前307年赵武灵王行胡服骑射，改车战为骑兵，军力骤强，拓地北至云中、雁门。前260年长平之战白起坑赵降卒四十万，赵由盛转衰。前228年秦破邯郸，虏赵王迁；公子嘉奔代，自立为代王。前222年秦将王贲拔代，虏代王嘉，赵亡。
+sources:
+- 史记·赵世家
+- 史记·六国年表
+- 战国策·赵策

@@ -1,0 +1,14 @@
+id: p_cbdb_10622
+type: Person
+name: 劉蒙
+born:
+  year: 1040
+died:
+  year: 1079
+gender: male
+birthplace: pl_cbdb_11479
+dynasty_ref: k_beisong
+bio: CBDB ID 10622
+name_en: Liu Meng
+sources:
+- CBDB (China Biographical Database)

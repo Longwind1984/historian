@@ -1,0 +1,16 @@
+id: e_beizhou_mie_beiqi
+type: Event
+name: 北周灭北齐
+date:
+  year: 577
+category: conquest
+importance: 2
+location: pl_yedu
+polities_involved:
+- k_bei_zhou
+- k_bei_qi
+description: 577 年北周武帝宇文邕率军攻邺,北齐后主高纬被俘,北齐亡。北方统一。
+impact: 为杨坚代周建隋、隋统一全国奠定基础。
+sources:
+- 周书·武帝纪
+- 北齐书·后主纪

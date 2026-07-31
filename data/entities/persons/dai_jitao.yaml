@@ -1,0 +1,25 @@
+id: p_dai_jitao
+type: Person
+name: 戴季陶
+alias:
+- 戴传贤
+courtesy_name: 选中
+born:
+  year: 1891
+died:
+  year: 1949
+gender: male
+roles:
+- civil_official
+- scholar
+importance: 2
+bio: 原籍浙江吴兴，生于四川广汉，近代政治人物、理论家。早年留学日本，1909 年加入同盟会。民国后任孙中山秘书，长期参与机要。1925 年著《孙文主义之哲学的基础》《国民革命与中国国民党》，阐述"戴季陶主义"，为国民党右派理论代表。历任国民党中央宣传部长、考试院院长。1949 年 2 月于广州服安眠药自杀。
+sources:
+- 中华民国史·戴季陶传
+- 范小方·戴季陶传
+wikidata_id: "Q704286"
+wikipedia_zh: "戴季陶"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/%E6%88%B4%E5%AD%A3%E9%99%B6Tai_Chi-tao.jpg/500px-%E6%88%B4%E5%AD%A3%E9%99%B6Tai_Chi-tao.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%88%B4%E5%AD%A3%E9%99%B6Tai_Chi-tao.jpg"

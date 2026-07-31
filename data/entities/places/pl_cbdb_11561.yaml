@@ -1,0 +1,12 @@
+id: pl_cbdb_11561
+type: Place
+name: 館陶
+modern_name: 館陶
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.525088
+longitude: 115.318095
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

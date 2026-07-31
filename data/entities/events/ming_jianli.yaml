@@ -1,0 +1,16 @@
+id: e_ming_jianli
+type: Event
+name: 明朝建立
+date:
+  year: 1368
+  month: 1
+category: founding
+importance: 1
+location: pl_nanjing_ming
+polities_involved:
+- k_ming
+description: 朱元璋 1352 年投濠州郭子兴部,渐自立。1363 年鄱阳湖之战灭陈友谅,1367 年灭张士诚,江南遂无抗手。1368 年正月初四于应天府(今南京)即皇帝位,国号大明,建元洪武。
+impact: 明朝(1368-1644)开始。中国历代大一统王朝中唯一由南向北完成统一者。
+sources:
+- 明史·太祖本纪
+- 明太祖实录·卷29

@@ -1,0 +1,12 @@
+id: pl_cbdb_4553
+type: Place
+name: 廣德州
+modern_name: 廣德州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.894685745
+longitude: 119.4201889
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

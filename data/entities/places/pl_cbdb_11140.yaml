@@ -1,0 +1,10 @@
+id: pl_cbdb_11140
+type: Place
+name: 京東路
+modern_name: 京東路
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 997
+last_year: 1073
+description: CBDB 行政类型:Lu

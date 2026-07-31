@@ -1,0 +1,15 @@
+id: pl_xiaoxian
+type: Place
+name: 符离
+modern_name: 宿州
+province: 安徽
+latitude: 33.62
+longitude: 116.95
+category: battlefield
+description: 隆兴北伐
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

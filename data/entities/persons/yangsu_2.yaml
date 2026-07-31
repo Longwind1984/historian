@@ -1,0 +1,18 @@
+id: p_yangsu_2
+type: Person
+name: 杨玄感
+alias:
+- 杨玄感
+died:
+  year: 613
+  month: 8
+gender: male
+birthplace: pl_daxing
+bio: 隋礼部尚书杨素子。613 年趁炀帝征高句丽,在黎阳起兵反隋,众至 10 万。失败被杀。
+ext:
+  significance: 隋末大起义前奏,标志隋朝统治集团内部分裂。
+sources:
+- 隋书·杨玄感传
+- 资治通鉴·卷182
+wikidata_id: "Q712333"
+wikipedia_zh: "杨玄感"

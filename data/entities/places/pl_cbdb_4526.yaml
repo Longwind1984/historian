@@ -1,0 +1,12 @@
+id: pl_cbdb_4526
+type: Place
+name: 開州
+modern_name: 開州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.754283905
+longitude: 115.00592804
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

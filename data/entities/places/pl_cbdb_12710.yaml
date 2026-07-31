@@ -1,0 +1,12 @@
+id: pl_cbdb_12710
+type: Place
+name: 華亭
+modern_name: 華亭
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.009476
+longitude: 121.227638
+first_year: 960
+last_year: 1275
+description: CBDB 行政类型:Xian

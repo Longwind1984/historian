@@ -1,0 +1,26 @@
+id: p_yelv_zongzhen
+type: Person
+name: 耶律宗真
+alias:
+- 辽兴宗
+born:
+  year: 1016
+died:
+  year: 1055
+reign_start:
+  year: 1031
+reign_end:
+  year: 1055
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 圣宗子。乘宋夏交兵,遣使索地,增岁币(重熙增币)。两征西夏皆不利。
+ext:
+  title: 辽兴宗
+  regime: 辽
+sources:
+- 辽史
+- 资治通鉴
+wikidata_id: "Q5005"
+wikipedia_zh: "辽兴宗"

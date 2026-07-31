@@ -1,0 +1,16 @@
+id: p_mengkai
+type: Person
+name: 孟楷
+gender: male
+died:
+  year: 883
+roles:
+- rebel_leader
+- general
+importance: 3
+bio: 黄巢部将,尚让之亚。881 黄巢入长安建大齐,楷为尚书左仆射。883 攻蔡州、陈州,为秦宗权部所擒杀,巢怒而围陈州三百日 —— 「舂磨寨」食人之惨即在此役。
+sources:
+- 新唐书·黄巢传
+- 资治通鉴·卷255
+wikidata_id: "Q10945186"
+wikipedia_zh: "孟楷"

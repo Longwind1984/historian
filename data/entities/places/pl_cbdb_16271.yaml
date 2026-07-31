@@ -1,0 +1,12 @@
+id: pl_cbdb_16271
+type: Place
+name: 永泰
+modern_name: 永泰
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.248932
+longitude: 105.556836
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

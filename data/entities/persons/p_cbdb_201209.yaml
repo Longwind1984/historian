@@ -1,0 +1,12 @@
+id: p_cbdb_201209
+type: Person
+name: 李恕
+born:
+  year: 1459
+gender: male
+birthplace: pl_cbdb_5215
+dynasty_ref: k_ming
+bio: CBDB ID 201209
+name_en: Li Shu
+sources:
+- CBDB (China Biographical Database)

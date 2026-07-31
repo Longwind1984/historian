@@ -1,0 +1,16 @@
+id: p_maxiguang
+type: Person
+name: 马希广
+alias:
+- 楚废王
+died:
+  year: 950
+  month: 12
+gender: male
+birthplace: pl_changsha
+bio: 楚第四主。马殷子。947-950 在位。为同母弟马希萼所杀。
+sources:
+- 新五代史·楚世家
+- 十国春秋·楚
+wikidata_id: "Q11667962"
+wikipedia_zh: "馬希廣"

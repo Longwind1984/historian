@@ -1,0 +1,12 @@
+id: pl_cbdb_11027
+type: Place
+name: 開封府
+modern_name: 開封府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.785477
+longitude: 114.34333
+first_year: 1053
+last_year: 1119
+description: CBDB 行政类型:Fu

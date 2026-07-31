@@ -1,0 +1,21 @@
+id: p_liqingzhao
+type: Person
+name: 李清照
+born:
+  year: 1084
+died:
+  year: 1155
+gender: female
+roles:
+- literatus
+importance: 1
+birthplace: pl_jinan_li
+bio: 两宋之际女词人。婉约派代表。父李格非,夫赵明诚。靖康之变后南渡。著《漱玉词》。'千古第一才女'。
+sources:
+- 宋史(无传)
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Li_Qingzhao_statue.JPG/500px-Li_Qingzhao_statue.JPG"
+wikidata_id: "Q464470"
+wikipedia_zh: "李清照"
+image_license: "CC BY 3.0"
+image_credit: "Gisling"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Qingzhao_statue.JPG"

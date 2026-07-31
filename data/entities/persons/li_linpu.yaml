@@ -1,0 +1,17 @@
+id: p_li_linpu
+type: Person
+name: 李林甫
+born:
+  year: 683
+died:
+  year: 753
+  month: 1
+gender: male
+birthplace: pl_zongcheng_linpu
+bio: 玄宗朝宰相。736-752 任相 19 年。'口蜜腹剑'。任用胡将为节度使(安禄山由此崛起),排除异己。
+ext:
+  significance: 为安史之乱埋下祸根。
+sources:
+- 旧唐书·李林甫传
+wikidata_id: "Q713000"
+wikipedia_zh: "李林甫"

@@ -1,0 +1,17 @@
+id: e_qin_mie_liuguo
+type: Event
+name: 秦灭六国
+date:
+  year: -230
+category: conquest
+importance: 1
+location: pl_xianyang_qin
+polities_involved:
+- k_qin
+description: BC230-221 秦王政发动统一战争,十年间灭韩(230)、赵(228)、魏(225)、楚(223)、燕(222)、齐(221)。
+impact: 中国历史上第一次完成统一。
+sources:
+- 史记·秦始皇本纪
+- 资治通鉴·卷6-7
+end_date:
+  year: -221

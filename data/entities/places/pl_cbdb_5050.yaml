@@ -1,0 +1,12 @@
+id: pl_cbdb_5050
+type: Place
+name: 永城
+modern_name: 永城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.93945694
+longitude: 116.36399841
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

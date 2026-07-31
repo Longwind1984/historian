@@ -1,0 +1,12 @@
+id: pl_cbdb_12650
+type: Place
+name: 黃州
+modern_name: 黃州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.446989059
+longitude: 114.86549377
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

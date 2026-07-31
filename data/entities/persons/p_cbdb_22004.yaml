@@ -1,0 +1,14 @@
+id: p_cbdb_22004
+type: Person
+name: 陳文蔚
+born:
+  year: 1154
+died:
+  year: 1239
+gender: male
+birthplace: pl_cbdb_100006
+dynasty_ref: k_beisong
+bio: CBDB ID 22004
+name_en: Chen Wenwei
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,25 @@
+id: p_li_xian_xixia
+type: Person
+name: 李睍
+alias:
+- 西夏末帝
+died:
+  year: 1227
+reign_start:
+  year: 1226
+reign_end:
+  year: 1227
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 献宗侄。1227年中兴府粮尽出降,旋被杀,西夏亡。蒙古屠中兴府,西夏典籍散佚殆尽。
+ext:
+  title: 西夏末帝
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q7459"
+wikipedia_zh: "夏末帝"

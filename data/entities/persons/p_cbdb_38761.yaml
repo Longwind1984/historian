@@ -1,0 +1,14 @@
+id: p_cbdb_38761
+type: Person
+name: 王遇
+born:
+  year: 1142
+died:
+  year: 1211
+gender: male
+birthplace: pl_cbdb_13936
+dynasty_ref: k_beisong
+bio: CBDB ID 38761
+name_en: Wang Yu
+sources:
+- CBDB (China Biographical Database)

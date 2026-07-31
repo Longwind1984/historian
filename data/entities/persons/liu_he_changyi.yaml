@@ -1,0 +1,28 @@
+id: p_liu_he_changyi
+type: Person
+name: 刘贺
+alias:
+- 昌邑王
+- 海昏侯
+born:
+  year: -92
+died:
+  year: -59
+reign_start:
+  year: -74
+reign_end:
+  year: -74
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 昌邑王。昭帝崩无嗣，霍光迎立，在位仅二十七日以'行淫乱'被废，后封海昏侯。2011年南昌海昏侯墓发掘。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 刘贺
+  regime: 西汉
+wikidata_id: "Q7228"
+wikipedia_zh: "刘贺"

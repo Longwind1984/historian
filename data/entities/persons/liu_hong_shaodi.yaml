@@ -1,0 +1,27 @@
+id: p_liu_hong_shaodi
+type: Person
+name: 刘弘
+alias:
+- 后少帝
+- 常山王
+died:
+  year: -180
+reign_start:
+  year: -184
+reign_end:
+  year: -180
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xihan
+bio: 惠帝子。吕后立为帝，仍由吕后临朝。吕后死后诸吕被诛，刘弘亦被废杀。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 后少帝
+  regime: 西汉
+wikidata_id: "Q7220"
+wikipedia_zh: "劉弘"

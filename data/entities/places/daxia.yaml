@@ -1,0 +1,14 @@
+id: pl_daxia
+type: Place
+name: 大夏
+modern_name: 巴尔赫
+province: 阿富汗
+latitude: 36.77
+longitude: 66.9
+category: city
+description: 中亚
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

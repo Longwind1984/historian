@@ -1,0 +1,12 @@
+id: pl_cbdb_12974
+type: Place
+name: 宜黃
+modern_name: 宜黃
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.546391
+longitude: 116.210182
+first_year: 968
+last_year: 1279
+description: CBDB 行政类型:Xian

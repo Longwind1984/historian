@@ -1,0 +1,24 @@
+id: b_mingtiao
+type: Battle
+name: 鸣条之战
+date:
+  year: -1600
+category: conquest
+importance: 1
+location: pl_mingtiao
+combatants:
+- k_shang
+- k_xia
+commanders:
+- p_shangtang
+- p_jie_xia
+victor: k_shang
+victor_commander: p_shangtang
+description: 商汤乘夏桀失德、诸侯叛离，以伊尹为相，誓师伐夏。战于鸣条(地望有异说)，夏军大败，桀奔南巢，夏亡。商汤建国号商。年代据断代工程。
+significance: 商代夏而立，史载以武力易姓代国之始。
+sources:
+- 史记·殷本纪
+- 尚书·汤誓
+- 竹书纪年·夏纪
+ext:
+  disputed: true

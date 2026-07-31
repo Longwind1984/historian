@@ -1,0 +1,16 @@
+id: e_heyin_zhibian
+type: Event
+name: 河阴之变
+date:
+  year: 528
+  month: 4
+category: purge
+importance: 2
+location: pl_heyin
+polities_involved:
+- k_beiwei
+description: 528 年尔朱荣借口胡太后毒杀孝明帝,率军入洛阳,在河阴(河南孟津)屠百官公卿二千余人,胡太后与幼主沉于黄河。立孝庄帝。
+impact: 北魏分裂的导火索。
+sources:
+- 魏书·尔朱荣传
+- 资治通鉴·卷152

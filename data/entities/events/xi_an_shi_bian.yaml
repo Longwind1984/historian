@@ -1,0 +1,22 @@
+id: e_xi_an_shi_bian
+type: Event
+name: 西安事变
+date:
+  year: 1936
+  month: 12
+  day: 12
+end_date:
+  year: 1936
+  month: 12
+  day: 25
+category: coup
+polities_involved:
+- k_minguo
+importance: 2
+description: 1936 年 12 月 12 日，张学良、杨虎城在西安扣留前来督战的蒋介石，通电提出改组政府、停止内战、共同抗日等八项主张，史称"西安事变"(双十二事变)。中共派周恩来等赴西安斡旋，主张和平解决。经谈判，蒋介石接受停止内战、联共抗日。25
+  日张学良亲送蒋介石返京，事后张被长期幽禁，杨虎城被囚。
+impact: 第二次国共合作形成，十年内战基本结束，抗日民族统一战线初步确立，为全面抗战奠定政治基础。
+sources:
+- 中华民国史·第三编
+- 中国共产党历史·第一卷
+- 申伯纯·西安事变纪实

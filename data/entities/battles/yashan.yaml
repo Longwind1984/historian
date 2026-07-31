@@ -1,0 +1,25 @@
+id: b_yashan
+type: Battle
+name: 崖山海战
+date:
+  year: 1279
+  month: 3
+category: conquest
+importance: 1
+location: pl_yashan2
+march:
+- from: pl_cbdb_100447
+  to: pl_yashan2
+  note: 张弘范由潮阳港乘舟入海，经甲子门获知宋帝所在，乃进至崖山；此段只记最后一程海上进军，不概括此前沿海战事。《宋史纪事本末·卷一百八·二王之立》
+combatants:
+- k_nansong
+- k_yuan
+commanders:
+- p_luxiufu
+- p_zhangshijie
+victor: k_yuan
+victor_commander: null
+description: 1278 南宋流亡朝廷退至崖山。1279 元将张弘范率水陆大军围攻。宋军千余艘战船连成水寨,被围断水二十余日。决战宋军全军覆没。
+significance: 丞相陆秀夫负 8 岁帝昺投海,从死者十余万。南宋亡。中国首次完全被北方游牧民族政权征服。
+sources:
+- 宋史·本纪47

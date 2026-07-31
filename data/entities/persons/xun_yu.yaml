@@ -1,0 +1,21 @@
+id: p_xun_yu
+type: Person
+name: 荀彧
+alias:
+- 荀文若
+courtesy_name: 文若
+born:
+  year: 163
+died:
+  year: 212
+gender: male
+birthplace: pl_yingchuan_xunyu
+bio: 曹操首席谋士。颍川颍阴人。'王佐之才'。196 劝曹操迎献帝都许。212 因反对曹操进魏公,被迫自杀。
+sources:
+- 三国志·魏书·荀彧传
+wikidata_id: "Q1275315"
+wikipedia_zh: "荀彧"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Xun_Yu_Qing_illustration.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xun_Yu_Qing_illustration.jpg"

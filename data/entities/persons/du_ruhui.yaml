@@ -1,0 +1,21 @@
+id: p_du_ruhui
+type: Person
+name: 杜如晦
+alias:
+- 杜克明
+courtesy_name: 克明
+born:
+  year: 585
+died:
+  year: 630
+gender: male
+birthplace: pl_duqu_duhui
+bio: 唐初名相。与房玄龄并称'房杜'。
+sources:
+- 旧唐书·杜如晦传
+wikidata_id: "Q701445"
+wikipedia_zh: "杜如晦"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Du_Ruhui.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi (王圻) and Wang Siyi (王思義) (Life time: Wang Qi died in 1612, Wang Siyi is his son and highly unlikely to have live"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Du_Ruhui.jpg"

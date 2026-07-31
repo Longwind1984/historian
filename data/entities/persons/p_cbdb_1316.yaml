@@ -1,0 +1,14 @@
+id: p_cbdb_1316
+type: Person
+name: 呂公弼
+born:
+  year: 1007
+died:
+  year: 1073
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 1316
+name_en: Lü Gongbi
+sources:
+- CBDB (China Biographical Database)

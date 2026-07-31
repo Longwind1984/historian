@@ -1,0 +1,15 @@
+id: pl_shenzhou_yanjiao
+type: Place
+name: 应县
+modern_name: 应县
+province: 山西
+latitude: 39.55
+longitude: 113.19
+category: city
+description: 李克用籍贯(沙陀)
+aliases:
+- 神武川
+sources:
+- 旧五代史
+- 新五代史
+- 中国历史地图集

@@ -1,0 +1,12 @@
+id: pl_cbdb_100211
+type: Place
+name: 新喻
+modern_name: 新喻
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.804075
+longitude: 114.931137
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

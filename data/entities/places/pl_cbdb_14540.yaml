@@ -1,0 +1,12 @@
+id: pl_cbdb_14540
+type: Place
+name: 扶風
+modern_name: 扶風
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.361824036
+longitude: 107.86849213
+first_year: 634
+last_year: 959
+description: CBDB 行政类型:Xian

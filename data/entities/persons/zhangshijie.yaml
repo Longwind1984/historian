@@ -1,0 +1,17 @@
+id: p_zhangshijie
+type: Person
+name: 张世杰
+died:
+  year: 1279
+  month: 3
+gender: male
+birthplace: pl_you_zhou
+bio: 南宋末将领。1276 后率水军坚持抗元。崖山海战兵败,突围遇风暴溺亡。'宋末三杰'之一。
+sources:
+- 宋史·张世杰传
+wikidata_id: "Q718017"
+wikipedia_zh: "张世杰"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/%E5%BC%B5%E4%B8%96%E5%82%91-%E5%90%B3%E9%83%A1%E5%90%8D%E8%B3%A2%E5%9C%96%E5%82%B3%E8%B4%8A.jpg/500px-%E5%BC%B5%E4%B8%96%E5%82%91-%E5%90%B3%E9%83%A1%E5%90%8D%E8%B3%A2%E5%9C%96%E5%82%B3%E8%B4%8A.jpg"
+image_license: "Public domain"
+image_credit: "(Gu Yuan) 顧沅"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%BC%B5%E4%B8%96%E5%82%91-%E5%90%B3%E9%83%A1%E5%90%8D%E8%B3%A2%E5%9C%96%E5%82%B3%E8%B4%8A.jpg"

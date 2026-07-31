@@ -1,0 +1,12 @@
+id: pl_cbdb_5042
+type: Place
+name: 延津
+modern_name: 延津
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.142761
+longitude: 114.194687
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

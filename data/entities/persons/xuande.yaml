@@ -1,0 +1,33 @@
+id: p_xuande
+type: Person
+name: 朱瞻基
+alias:
+- 明宣宗
+- 宣德帝
+born:
+  year: 1399
+died:
+  year: 1435
+gender: male
+birthplace: pl_beiping_zhudi
+bio: 仁宗子。平汉王高煦之叛,弃交趾,倚三杨。设内书堂教宦官读书,票拟批红之制成,宦权之基由此立。'仁宣之治'。
+sources:
+- 明史·宣宗本纪
+- 明史
+- 明实录
+reign_start:
+  year: 1425
+reign_end:
+  year: 1435
+roles:
+- emperor
+ext:
+  title: 宣德帝
+  regime: 明
+importance: 3
+wikidata_id: "Q9977"
+wikipedia_zh: "明宣宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E6%98%8E%E5%AE%A3%E5%AE%97.jpg"
+image_license: "Public domain"
+image_credit: "Palace Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E5%AE%A3%E5%AE%97.jpg"

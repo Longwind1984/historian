@@ -1,0 +1,17 @@
+id: e_kaihuang_zhizhi
+type: Event
+name: 开皇之治
+date:
+  year: 581
+category: prosperity
+importance: 2
+location: pl_daxing
+polities_involved:
+- k_sui
+description: 581-604 隋文帝在位期间。整顿吏治、轻徭薄赋、大兴科举雏形、颁《开皇律》。国家仓库充盈,人口由 400 万户增至 890 万户。
+impact: 中国历史上著名的治世,史称'开皇之治'。
+sources:
+- 隋书·高祖纪
+- 资治通鉴·卷175-179
+end_date:
+  year: 604

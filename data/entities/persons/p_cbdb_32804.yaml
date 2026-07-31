@@ -1,0 +1,14 @@
+id: p_cbdb_32804
+type: Person
+name: 柳女
+born:
+  year: 801
+died:
+  year: 810
+gender: female
+birthplace: pl_cbdb_15009
+dynasty_ref: k_tang
+bio: CBDB ID 32804
+name_en: Liu Nu
+sources:
+- CBDB (China Biographical Database)

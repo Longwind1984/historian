@@ -1,0 +1,32 @@
+id: p_wanganshi
+type: Person
+name: 王安石
+alias:
+- 王介甫
+- 王半山
+courtesy_name: 介甫
+born:
+  year: 1021
+  month: 12
+died:
+  year: 1086
+  month: 5
+gender: male
+roles:
+- civil_official
+- scholar
+- literatus
+importance: 1
+birthplace: pl_linchuan
+bio: 北宋政治家、文学家、思想家。神宗熙宁年间(1069-1076)推行变法(青苗/募役/市易/保甲等)。因保守派反对和新法执行扭曲而失败。
+ext:
+  significance: 北宋最大政治事件,影响南宋以降党争和经世思想。
+sources:
+- 宋史·王安石传
+- 临川先生文集
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%AD%B7%E4%BB%A3%E8%81%96%E8%B3%A2%E5%90%8D%E4%BA%BA%E5%83%8F-29-%E5%AE%8B%E4%B8%9E%E7%9B%B8%E7%8E%8B%E8%8D%86%E5%85%AC%E5%AE%89%E7%9F%B3.jpg/500px-%E6%AD%B7%E4%BB%A3%E8%81%96%E8%B3%A2%E5%90%8D%E4%BA%BA%E5%83%8F-29-%E5%AE%8B%E4%B8%9E%E7%9B%B8%E7%8E%8B%E8%8D%86%E5%85%AC%E5%AE%89%E7%9F%B3.jpg"
+wikidata_id: "Q319618"
+wikipedia_zh: "王安石"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%AD%B7%E4%BB%A3%E8%81%96%E8%B3%A2%E5%90%8D%E4%BA%BA%E5%83%8F-29-%E5%AE%8B%E4%B8%9E%E7%9B%B8%E7%8E%8B%E8%8D%86%E5%85%AC%E5%AE%89%E7%9F%B3.jpg"

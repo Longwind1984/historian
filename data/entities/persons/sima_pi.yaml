@@ -1,0 +1,31 @@
+id: p_sima_pi
+type: Person
+name: 司马丕
+alias:
+- 晋哀帝
+- 哀帝
+born:
+  year: 341
+died:
+  year: 365
+reign_start:
+  year: 361
+reign_end:
+  year: 365
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 成帝子。好方术、服丹药，年二十五崩。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋哀帝
+  regime: 东晋
+wikidata_id: "Q7398"
+wikipedia_zh: "晉哀帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/c1/%E6%99%89%E5%93%80%E5%B8%9D_%E5%8F%B8%E9%A6%AC%E4%B8%95.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%99%89%E5%93%80%E5%B8%9D_%E5%8F%B8%E9%A6%AC%E4%B8%95.png"

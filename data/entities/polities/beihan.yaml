@@ -1,0 +1,25 @@
+id: k_beihan
+type: Polity
+name: 北汉
+name_en: Northern Han
+color: '#16a085'
+founded:
+  year: 951
+  month: 2
+ended:
+  year: 979
+  month: 6
+capital: pl_taiyuan
+description: 后周代汉后,刘崇在太原所建。依附契丹抗周/宋。979 年为北宋所灭。十国最后亡者。
+sources:
+- 新五代史·东汉世家
+- 十国春秋·北汉
+- 资治通鉴·卷290-293
+founder: p_liuchong
+ended_by: k_song
+territory:
+- valid_from:
+    year: 951
+  valid_to:
+    year: 979
+  geojson_file: beihan_peak.geojson

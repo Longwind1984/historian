@@ -1,0 +1,33 @@
+id: p_qinzong
+type: Person
+name: 赵桓
+alias:
+- 宋钦宗
+born:
+  year: 1100
+  month: 5
+died:
+  year: 1161
+gender: male
+birthplace: pl_kaifeng
+bio: 宋钦宗。1125/1126 金军南下,徽宗禅位。钦宗优柔,罢李纲,主和。1127 开封城破,与徽宗同被掳(靖康之变),囚燕京至死。
+sources:
+- 宋史·钦宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1126
+reign_end:
+  year: 1127
+roles:
+- emperor
+ext:
+  title: 宋钦宗
+  regime: 北宋
+importance: 2
+wikidata_id: "Q7488"
+wikipedia_zh: "宋钦宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Songqinzong_Chinghong.jpg/500px-Songqinzong_Chinghong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Songqinzong_Chinghong.jpg"

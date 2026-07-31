@@ -1,0 +1,20 @@
+id: p_hanqi
+type: Person
+name: 韩琦
+courtesy_name: 稚圭
+born:
+  year: 1008
+died:
+  year: 1075
+  month: 8
+gender: male
+birthplace: pl_anyang
+bio: 北宋名臣。与范仲淹同御西夏。仁宗、英宗、神宗三朝宰相。反对王安石新法。
+sources:
+- 宋史·韩琦传
+wikidata_id: "Q11663960"
+wikipedia_zh: "韩琦"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4b/%E5%AE%8B%E9%9F%A9%E9%AD%8F%E5%85%AC%E7%90%A6.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E9%9F%A9%E9%AD%8F%E5%85%AC%E7%90%A6.jpg"

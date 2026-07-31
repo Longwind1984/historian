@@ -1,0 +1,14 @@
+id: p_hanzhongyun
+type: Person
+name: 韩重赟
+gender: male
+died:
+  year: 974
+roles:
+- general
+importance: 3
+bio: 义社十兄弟之一。陈桥兵变为控鹤军都指挥使。968 有告其私选亲兵为腹心者,太祖欲诛之,赵普谏止,乃出为彰德军节度使。
+sources:
+- 宋史·韩重赟传
+wikidata_id: "Q15931993"
+wikipedia_zh: "韩重赟"

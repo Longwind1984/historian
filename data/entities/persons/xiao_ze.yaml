@@ -1,0 +1,28 @@
+id: p_xiao_ze
+type: Person
+name: 萧赜
+alias:
+- 齐武帝
+born:
+  year: 440
+died:
+  year: 493
+reign_start:
+  year: 482
+reign_end:
+  year: 493
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_qi
+bio: 高帝子。承高帝之政,与北魏通好,境内安集,史称'永明之治'。永明文学盛于其时。
+ext:
+  title: 齐武帝
+  regime: 南齐
+sources:
+- 南齐书
+- 南史
+- 资治通鉴
+wikidata_id: "Q940037"
+wikipedia_zh: "齐武帝"

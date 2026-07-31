@@ -1,0 +1,24 @@
+id: p_zhuxi
+type: Person
+name: 朱熹
+courtesy_name: 元晦
+born:
+  year: 1130
+  month: 10
+died:
+  year: 1200
+  month: 4
+gender: male
+roles:
+- scholar
+importance: 1
+birthplace: pl_wuyuan_zhu
+bio: 南宋理学集大成者(程朱理学)。编《四书章句集注》(元后科举定本)。讲学白鹿洞、岳麓书院。宁宗初因韩侂胄'庆元党禁'遭禁。死后平反,从祀孔庙。
+sources:
+- 宋史·道学传·朱熹
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Zhu_xi.jpg"
+wikidata_id: "Q9397"
+wikipedia_zh: "朱熹"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhu_xi.jpg"

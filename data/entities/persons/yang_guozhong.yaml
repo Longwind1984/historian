@@ -1,0 +1,19 @@
+id: p_yang_guozhong
+type: Person
+name: 杨国忠
+alias:
+- 杨钊
+died:
+  year: 756
+  month: 7
+gender: male
+roles:
+- consort_kin
+- civil_official
+importance: 2
+birthplace: pl_yongji_yang
+bio: 玄宗朝宰相。杨贵妃堂兄。748 入朝,752 接替李林甫为相。与安禄山不和,激化矛盾。756 马嵬驿之变中被乱军所杀。
+sources:
+- 旧唐书·杨国忠传
+wikidata_id: "Q1069299"
+wikipedia_zh: "杨国忠"

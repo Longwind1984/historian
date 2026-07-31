@@ -1,0 +1,34 @@
+id: p_linxiangru
+type: Person
+name: 蔺相如
+gender: male
+floruit_start:
+  year: -283
+floruit_end:
+  year: -260
+roles:
+- civil_official
+importance: 2
+bio: 蔺相如，赵国人，本宦者令缪贤舍人。赵得楚和氏璧，秦昭王愿以十五城易之，相如奉璧入秦，察秦王无意偿城，完璧归赵(前283)，拜上大夫。前279年渑池之会随赵王赴秦，秦王请赵王鼓瑟，相如以颈血溅秦王，迫秦王击缶，全赵体面，拜上卿，位在老将廉颇之上。颇不服欲辱之，相如处处避让，称"先国家之急而后私仇"，颇闻之负荆请罪，结刎颈之交，世称"将相和"。其后事迹史无明载。生卒无载，战国末人。
+life_events:
+- year: -283
+  event: 完璧归赵，拜上大夫
+  source: 史记·廉颇蔺相如列传
+- year: -279
+  event: 渑池之会迫秦王击缶，拜上卿
+  source: 史记·廉颇蔺相如列传
+- year: -279
+  event: 廉颇负荆请罪，将相和
+  source: 史记·廉颇蔺相如列传
+sources:
+- 史记·廉颇蔺相如列传
+- 战国策·赵策
+ext:
+  disputed: true
+  note: 完璧归赵(前283)、渑池之会(前279)、将相和。生卒无考
+wikidata_id: "Q3051517"
+wikipedia_zh: "藺相如"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lin_Xiangru_%28a_general_of_the_State_of_Zhao%29.png/500px-Lin_Xiangru_%28a_general_of_the_State_of_Zhao%29.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Lin_Xiangru_(a_general_of_the_State_of_Zhao).png"

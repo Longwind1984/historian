@@ -1,0 +1,12 @@
+id: pl_cbdb_12299
+type: Place
+name: 介休
+modern_name: 介休
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.026474
+longitude: 111.912163
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

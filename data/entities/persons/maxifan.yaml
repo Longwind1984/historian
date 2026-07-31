@@ -1,0 +1,17 @@
+id: p_maxifan
+type: Person
+name: 马希范
+alias:
+- 楚文昭王
+born:
+  year: 899
+died:
+  year: 947
+  month: 5
+gender: male
+birthplace: pl_changsha
+bio: 楚第二任国王。马殷次子。930 年继位。奢侈荒淫,曾筑会春园、嘉客堂。947 年卒。
+sources:
+- 十国春秋·楚
+wikidata_id: "Q6146182"
+wikipedia_zh: "馬希範"

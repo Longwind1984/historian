@@ -1,0 +1,12 @@
+id: pl_cbdb_100015
+type: Place
+name: 乾德
+modern_name: 乾德
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.462707
+longitude: 111.623817
+first_year: 964
+last_year: 1140
+description: CBDB 行政类型:Xian

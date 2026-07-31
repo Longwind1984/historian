@@ -1,0 +1,14 @@
+id: p_cbdb_92865
+type: Person
+name: 李義府
+born:
+  year: 614
+died:
+  year: 666
+gender: male
+birthplace: pl_cbdb_16271
+dynasty_ref: k_tang
+bio: CBDB ID 92865
+name_en: Li Yifu
+sources:
+- CBDB (China Biographical Database)

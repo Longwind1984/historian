@@ -1,0 +1,14 @@
+id: p_cbdb_8109
+type: Person
+name: 盛度
+born:
+  year: 968
+died:
+  year: 1041
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 8109
+name_en: Sheng Du
+sources:
+- CBDB (China Biographical Database)

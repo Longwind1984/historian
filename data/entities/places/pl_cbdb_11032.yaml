@@ -1,0 +1,12 @@
+id: pl_cbdb_11032
+type: Place
+name: 雍邱
+modern_name: 雍邱
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.49547
+longitude: 114.76066
+first_year: 1053
+last_year: 1119
+description: CBDB 行政类型:Xian

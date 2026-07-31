@@ -1,0 +1,17 @@
+id: e_yiling_zhizhan
+type: Event
+name: 夷陵之战
+date:
+  year: 222
+  month: 8
+category: battle
+importance: 2
+location: pl_yiling
+polities_involved:
+- k_shuhan
+- k_dongwu
+description: 222 年刘备率 5 万攻吴,为关羽报仇、夺荆州。陆逊为吴都督,以逸待劳,火烧连营,刘备大败。223 刘备病卒于白帝城。
+impact: 三国鼎立最后定型。
+sources:
+- 三国志·蜀书·先主传
+- 资治通鉴·卷69

@@ -1,0 +1,12 @@
+id: pl_cbdb_100509
+type: Place
+name: 膚施
+modern_name: 膚施
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.591808
+longitude: 109.46991
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

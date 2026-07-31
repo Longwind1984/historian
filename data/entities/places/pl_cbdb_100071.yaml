@@ -1,0 +1,12 @@
+id: pl_cbdb_100071
+type: Place
+name: 南豐
+modern_name: 南豐
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.214306
+longitude: 116.52993
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

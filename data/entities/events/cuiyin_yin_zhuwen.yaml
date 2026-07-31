@@ -1,0 +1,17 @@
+id: e_cuiyin_yin_zhuwen
+type: Event
+name: 崔胤引朱温入京
+date:
+  year: 901
+category: purge
+importance: 3
+location: pl_chang_an
+polities_involved:
+- k_tang
+description: 901 年宰相崔胤欲倚朱温除宦官,召朱温入京。903 年朱温尽诛宦官(除黃衣 30 人),延续百年的宦官专权终结。904 朱温弑昭宗。
+impact: 崔胤引狼入室,唐朝已沦为朱温掌中物。
+sources:
+- 旧唐书·昭宗纪
+- 资治通鉴·卷262-264
+end_date:
+  year: 904

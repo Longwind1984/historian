@@ -1,0 +1,17 @@
+id: e_baijia_zhengming
+type: Event
+name: 百家争鸣
+date:
+  year: -450
+end_date:
+  year: -221
+category: culture
+polities_involved:
+- k_qi_state
+- k_chu_state
+importance: 2
+description: 春秋末至战国，社会剧变、列国竞争、士阶层崛起，学术下移，私学大兴。儒、墨、道、法、名、阴阳、纵横、农、杂、兵诸家并起，各立门户，著书立说，游说诸侯，相互辩驳，形成思想多元、百家争鸣之局。齐稷下学宫汇聚学者论辩，为其中枢；楚地则衍为辞赋(楚辞)一脉。代表若孟子、荀子之儒，墨子之墨，庄子之道，商鞅、韩非之法。至秦统一(前221)、汉武罢黜百家，争鸣渐息。
+sources:
+- 史记·孟子荀卿列传
+- 汉书·艺文志
+- 庄子·天下

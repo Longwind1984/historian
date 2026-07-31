@@ -1,0 +1,14 @@
+id: pl_baima_yi
+type: Place
+name: 白马驿
+modern_name: 滑县
+province: 河南
+latitude: 35.58
+longitude: 114.52
+category: battlefield
+description: 905 白马驿之祸
+sources:
+- 资治通鉴
+- 中国历史地图集
+aliases:
+- 白马

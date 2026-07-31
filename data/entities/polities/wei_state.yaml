@@ -1,0 +1,16 @@
+id: k_wei_state
+type: Polity
+name: 魏国
+name_en: Wei (state)
+color: '#2980b9'
+founded:
+  year: -403
+ended:
+  year: -225
+ended_by: k_qin_state
+capital: pl_kaifeng
+description: 魏国。姬姓，魏氏，与韩、赵分晋而立。前403年周威烈王命魏斯为诸侯。战国初魏文侯礼贤下士，用李悝变法、著《法经》，吴起练魏武卒，国力冠于三晋，称霸中原。文侯、武侯之后，魏遭齐、秦夹击：前354年桂陵之战、前341年马陵之战两败于齐，损失惨重，渐失霸业；西河之地复为秦所夺，迁都大梁。前225年秦将王贲引河灌大梁，城坏，魏王假降，魏亡。
+sources:
+- 史记·魏世家
+- 史记·六国年表
+- 战国策·魏策

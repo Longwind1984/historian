@@ -1,0 +1,19 @@
+id: e_kaixi_beifa
+type: Event
+name: 开禧北伐
+date:
+  year: 1206
+  month: 5
+category: war
+importance: 3
+location: pl_linan_song
+polities_involved:
+- k_nansong
+- k_jin
+description: 韩侂胄秉政,准备北伐。1206 分路出击,四川吴曦叛降金,诸路皆败。1208 史弥远杀韩侂胄函首送金。嘉定和议:增岁币,伯侄之国。
+impact: 北伐失败后韩侂胄被杀，南宋与金订立嘉定和议，增加岁币并承认伯侄名分，朝廷恢复失地的主动尝试受挫。
+sources:
+- 宋史·宁宗本纪
+- 宋史·韩侂胄传
+end_date:
+  year: 1208

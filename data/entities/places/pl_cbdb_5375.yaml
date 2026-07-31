@@ -1,0 +1,12 @@
+id: pl_cbdb_5375
+type: Place
+name: 永康
+modern_name: 永康
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.897268
+longitude: 120.025253
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

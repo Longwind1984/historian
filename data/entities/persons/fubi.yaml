@@ -1,0 +1,19 @@
+id: p_fubi
+type: Person
+name: 富弼
+courtesy_name: 彦国
+born:
+  year: 1004
+died:
+  year: 1083
+gender: male
+birthplace: pl_luoyang
+bio: 北宋名臣。庆历新政参与者。出使辽国谈判(增币代割地)。反对新法。
+sources:
+- 宋史·富弼传
+wikidata_id: "Q10954250"
+wikipedia_zh: "富弼"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/%E5%AF%8C%E5%BD%A5%E5%9C%8B%E5%83%8F.jpg"
+image_license: "Public domain"
+image_credit: "王圻"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AF%8C%E5%BD%A5%E5%9C%8B%E5%83%8F.jpg"

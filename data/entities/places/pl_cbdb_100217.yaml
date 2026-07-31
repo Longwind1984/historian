@@ -1,0 +1,12 @@
+id: pl_cbdb_100217
+type: Place
+name: 新淦
+modern_name: 新淦
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.759735
+longitude: 115.393806
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

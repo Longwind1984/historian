@@ -1,0 +1,15 @@
+id: pl_longcheng
+type: Place
+name: 龙城
+modern_name: 朝阳
+province: 辽宁
+latitude: 41.57
+longitude: 120.45
+category: city
+description: 前燕北燕
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

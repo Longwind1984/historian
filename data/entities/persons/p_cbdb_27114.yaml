@@ -1,0 +1,14 @@
+id: p_cbdb_27114
+type: Person
+name: 張先
+born:
+  year: 990
+died:
+  year: 1078
+gender: male
+birthplace: pl_cbdb_12715
+dynasty_ref: k_beisong
+bio: CBDB ID 27114
+name_en: Zhang Xian
+sources:
+- CBDB (China Biographical Database)

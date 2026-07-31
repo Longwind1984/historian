@@ -1,0 +1,12 @@
+id: pl_cbdb_12888
+type: Place
+name: 貴溪
+modern_name: 貴溪
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.287901
+longitude: 117.202271
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

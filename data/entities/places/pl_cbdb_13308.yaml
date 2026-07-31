@@ -1,0 +1,12 @@
+id: pl_cbdb_13308
+type: Place
+name: 青神
+modern_name: 青神
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.837276
+longitude: 103.845108
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_7213
+type: Place
+name: 大興
+modern_name: 大興
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.931427002
+longitude: 116.36800385
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

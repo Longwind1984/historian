@@ -1,0 +1,14 @@
+id: pl_jianou
+type: Place
+name: 建州
+modern_name: 建瓯
+province: 福建
+latitude: 27.05
+longitude: 118.3
+category: battlefield
+description: 945 南唐灭闽主战场
+sources:
+- 资治通鉴
+- 中国历史地图集
+aliases:
+- 建安

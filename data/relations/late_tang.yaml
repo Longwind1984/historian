@@ -1,0 +1,598 @@
+- from: p_lisong
+  to: p_lichun
+  type: father_of
+  since:
+    year: 778
+  note: 顺宗→宪宗
+- from: p_lisong
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 805
+    month: 1
+  until:
+    year: 805
+    month: 8
+  note: 顺宗在位 8 月
+- from: p_lichun
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 805
+    month: 8
+  until:
+    year: 820
+    month: 2
+  note: 宪宗 元和中兴
+- from: p_lichun
+  to: p_liheng_tang
+  type: father_of
+  since:
+    year: 795
+  note: 宪宗→穆宗
+- from: p_liheng_tang
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 820
+    month: 2
+  until:
+    year: 824
+  note: 穆宗
+- from: p_liheng_tang
+  to: p_lizhan
+  type: father_of
+  since:
+    year: 809
+- from: p_liheng_tang
+  to: p_liang_tang
+  type: father_of
+  since:
+    year: 809
+- from: p_lizhan
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 824
+  until:
+    year: 827
+    month: 1
+  note: 敬宗 被弑
+- from: p_liang_tang
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 827
+    month: 1
+  until:
+    year: 840
+    month: 1
+  note: 文宗
+- from: p_liang_tang
+  to: e_ganlu_zhibian
+  type: participated_in
+  since:
+    year: 835
+    month: 12
+  until:
+    year: 840
+    month: 1
+  note: 策划者
+- from: p_liyan_tang
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 840
+    month: 1
+  until:
+    year: 846
+    month: 3
+  note: 武宗 会昌中兴
+- from: p_liyan_tang
+  to: e_huichang_fofo
+  type: participated_in
+  since:
+    year: 845
+  until:
+    year: 846
+    month: 3
+  note: 主导
+- from: p_licheng_tang
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 846
+    month: 3
+  until:
+    year: 859
+    month: 8
+  note: 宣宗 大中之治
+- from: p_licheng_tang
+  to: e_dazhong_zhizhi
+  type: participated_in
+  since:
+    year: 846
+  until:
+    year: 859
+    month: 8
+  note: 主导
+- from: p_licheng_tang
+  to: p_li_cui
+  type: father_of
+  since:
+    year: 833
+- from: p_li_cui
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 859
+    month: 8
+  until:
+    year: 873
+    month: 8
+  note: 懿宗
+- from: p_li_cui
+  to: p_li_xuan_xizong
+  type: father_of
+  since:
+    year: 862
+- from: p_li_xuan_xizong
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 873
+    month: 8
+  until:
+    year: 888
+    month: 3
+  note: 僖宗
+- from: p_li_xuan_xizong
+  to: p_liye_tang
+  type: sibling_of
+  since:
+    year: 867
+  note: 兄弟
+- from: p_liye_tang
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 888
+    month: 3
+  until:
+    year: 904
+    month: 8
+  note: 昭宗
+- from: p_liye_tang
+  to: p_li_zhu
+  type: father_of
+  since:
+    year: 892
+- from: p_li_zhu
+  to: k_tang
+  type: succeeded_by
+  since:
+    year: 904
+    month: 8
+  until:
+    year: 907
+    month: 4
+  note: 哀帝,禅让朱温
+- from: p_li_zhu
+  to: p_zhuwen
+  type: usurped
+  since:
+    year: 907
+    month: 4
+  note: 禅让
+- from: p_zhuwen
+  to: p_li_zhu
+  type: killed
+  since:
+    year: 908
+    month: 3
+  note: 弑哀帝
+- from: p_lichun
+  to: p_liheng_tang
+  type: killed
+  since:
+    year: 820
+    month: 2
+  note: 宪宗为宦官所弑,穆宗继位(疑案)
+- from: p_niu_sengru
+  to: f_niu_dang
+  type: leader_of
+  note: 牛党领袖,进士科出身
+  since:
+    year: 821
+  until:
+    year: 847
+- from: p_li_zongmin
+  to: f_niu_dang
+  type: leader_of
+  note: 牛党领袖,与牛僧孺同党
+  since:
+    year: 821
+  until:
+    year: 846
+- from: p_li_deyu
+  to: f_li_dang
+  type: leader_of
+  note: 李党领袖,会昌名相
+  since:
+    year: 821
+  until:
+    year: 850
+- from: p_li_jifu
+  to: f_li_dang
+  type: leader_of
+  note: 李党前驱,李德裕之父
+  since:
+    year: 805
+  until:
+    year: 814
+- from: p_niu_sengru
+  to: p_li_deyu
+  type: rival_of
+  since:
+    year: 821
+  until:
+    year: 850
+  note: 牛李党争
+- from: p_niu_sengru
+  to: p_li_zongmin
+  type: allied_with
+  since:
+    year: 821
+  until:
+    year: 847
+  note: 同党
+- from: p_li_deyu
+  to: p_li_jifu
+  type: child_of
+  since:
+    year: 787
+  note: 李德裕是李吉甫子
+- from: p_niu_sengru
+  to: e_niu_li_dangzheng
+  type: participated_in
+  note: 牛党魁,与李德裕互为进退
+  since:
+    year: 821
+  until:
+    year: 847
+- from: p_li_deyu
+  to: e_niu_li_dangzheng
+  type: participated_in
+  note: 李党魁,会昌执政,贬死崖州
+  since:
+    year: 821
+  until:
+    year: 850
+- from: p_li_deyu
+  to: p_liyan_tang
+  type: served_under
+  since:
+    year: 840
+    month: 1
+  until:
+    year: 846
+    month: 3
+  note: 会昌为相
+- from: p_lisong
+  to: p_wang_shuwen
+  type: served_under
+  since:
+    year: 805
+    month: 1
+  until:
+    year: 805
+    month: 8
+  note: 顺宗用王叔文
+- from: p_wang_shuwen
+  to: p_wang_pi
+  type: allied_with
+  since:
+    year: 805
+  until:
+    year: 806
+  note: 二王
+- from: p_wang_shuwen
+  to: p_liu_yuxi
+  type: allied_with
+  note: 永贞革新党,八司马之一
+  since:
+    year: 805
+  until:
+    year: 806
+- from: p_wang_shuwen
+  to: p_liu_zongyuan
+  type: allied_with
+  note: 永贞革新党,八司马之一
+  since:
+    year: 805
+  until:
+    year: 806
+- from: p_wang_shuwen
+  to: e_yongzhen_gexin
+  type: participated_in
+  since:
+    year: 805
+    month: 8
+  note: 主导
+- from: p_chou_shiliang
+  to: e_ganlu_zhibian
+  type: participated_in
+  since:
+    year: 835
+    month: 12
+  note: 镇压
+- from: p_chou_shiliang
+  to: f_eunuch_tang
+  type: leader_of
+  note: 神策军中尉,专权废立(废陈王成美、立武宗)
+  since:
+    year: 826
+  until:
+    year: 843
+- from: p_wang_xianzhi
+  to: p_huangchao
+  type: allied_with
+  since:
+    year: 875
+    month: 6
+  until:
+    year: 878
+    month: 2
+  note: 初期共同起义
+- from: p_wang_xianzhi
+  to: e_wang_xianzhi_qiyi
+  type: participated_in
+  since:
+    year: 875
+    month: 6
+  until:
+    year: 878
+    month: 2
+  note: 领袖
+- from: p_huangchao
+  to: e_huangchao_qiyi
+  type: participated_in
+  since:
+    year: 875
+  until:
+    year: 884
+    month: 6
+  note: 领袖
+- from: p_huangchao
+  to: e_huangchao_zhan_changan
+  type: participated_in
+  since:
+    year: 880
+    month: 12
+  note: 称帝建齐
+- from: p_huangchao
+  to: f_huangchao_army
+  type: leader_of
+  note: 起义领袖,攻入长安称帝建齐
+  since:
+    year: 875
+  until:
+    year: 884
+    month: 6
+- from: p_wang_xianzhi
+  to: f_huangchao_army
+  type: leader_of
+  note: 初期起义首领,878年战死
+  since:
+    year: 875
+    month: 6
+  until:
+    year: 878
+    month: 2
+- from: p_shang_rang
+  to: p_huangchao
+  type: served_under
+  since:
+    year: 875
+  until:
+    year: 884
+  note: 黄巢部将
+- from: p_shang_rang
+  to: f_huangchao_army
+  type: member_of
+  note: 黄巢大将,后降唐
+  since:
+    year: 875
+  until:
+    year: 884
+- from: p_zhuwen
+  to: p_huangchao
+  type: served_under
+  since:
+    year: 877
+  until:
+    year: 882
+    month: 9
+  note: 黄巢部将
+- from: p_zhuwen
+  to: f_huangchao_army
+  type: member_of
+  since:
+    year: 877
+  until:
+    year: 882
+    month: 9
+  note: 降唐前
+- from: p_zhuwen
+  to: e_huangchao_deng_zhou_jianliang
+  type: participated_in
+  since:
+    year: 882
+    month: 9
+  note: 降唐
+- from: p_likaiqu
+  to: e_jiannan_chengzhong_li_jianyong
+  type: participated_in
+  since:
+    year: 881
+  until:
+    year: 884
+  note: 沙陀破黄巢
+- from: p_gao_pian
+  to: e_huangchao_zhan_changan
+  type: participated_in
+  since:
+    year: 879
+  until:
+    year: 880
+    month: 12
+  note: 坐视黄巢北上
+- from: p_tian_chengsi
+  to: f_heshuo
+  type: leader_of
+  since:
+    year: 763
+  until:
+    year: 779
+  note: 魏博
+- from: p_li_baochen
+  to: f_heshuo
+  type: leader_of
+  since:
+    year: 763
+  until:
+    year: 781
+  note: 成德
+- from: p_li_huaixian
+  to: f_heshuo
+  type: leader_of
+  since:
+    year: 763
+  until:
+    year: 768
+  note: 卢龙
+- from: p_tian_yue
+  to: p_tian_chengsi
+  type: child_of
+  since:
+    year: 751
+  note: 侄
+- from: p_wang_wujun
+  to: p_li_baochen
+  type: served_under
+  note: 成德部将
+- from: p_zhu_tao
+  to: f_heshuo
+  type: leader_of
+  since:
+    year: 772
+  until:
+    year: 785
+  note: 卢龙
+- from: p_lichun
+  to: e_yuanhe_xiaofan
+  type: participated_in
+  since:
+    year: 806
+  until:
+    year: 819
+  note: 主导
+- from: p_wu_yuanji
+  to: e_yuanhe_xiaofan
+  type: participated_in
+  since:
+    year: 814
+  until:
+    year: 817
+    month: 11
+  note: 被擒
+- from: p_li_su
+  to: p_wu_yuanji
+  type: killed
+  since:
+    year: 817
+    month: 11
+  note: 雪夜入蔡州
+- from: p_li_su
+  to: e_yuanhe_xiaofan
+  type: participated_in
+  since:
+    year: 817
+    month: 11
+  note: 擒吴元济
+- from: p_li_shidao
+  to: e_yuanhe_xiaofan
+  type: participated_in
+  since:
+    year: 806
+  until:
+    year: 819
+  note: 淄青
+- from: p_li_shidao
+  to: p_lichun
+  type: rival_of
+  since:
+    year: 806
+  until:
+    year: 819
+  note: 反削藩
+- from: p_li_guangbi
+  to: e_an_lushan_rebellion
+  type: participated_in
+  since:
+    year: 755
+    month: 12
+  until:
+    year: 763
+    month: 1
+  note: 主力平叛
+- from: p_yan_zhenqing
+  to: e_an_lushan_rebellion
+  type: participated_in
+  since:
+    year: 755
+    month: 12
+  note: 起兵讨贼
+- from: p_yan_gaoqing
+  to: e_an_lushan_rebellion
+  type: participated_in
+  since:
+    year: 755
+    month: 12
+  until:
+    year: 756
+    month: 1
+  note: 起兵讨贼
+- from: p_zhang_xun
+  to: e_an_lushan_rebellion
+  type: participated_in
+  since:
+    year: 757
+  until:
+    year: 757
+    month: 11
+  note: 睢阳保卫战
+- from: p_yan_zhenqing
+  to: p_yan_gaoqing
+  type: sibling_of
+  note: 堂兄弟
+- from: p_guo_ziyi
+  to: e_an_lushan_rebellion
+  type: participated_in
+  since:
+    year: 755
+    month: 12
+  until:
+    year: 763
+    month: 1
+  note: 主力平叛
+- from: e_huangchao_qiyi
+  to: e_jiannan_chengzhong_li_jianyong
+  type: led_to
+  note: 沙陀因平叛崛起
+- from: e_hexi_zhangyichao
+  to: e_dazhong_zhizhi
+  type: part_of
+  since:
+    year: 851
+  note: 大中之治成就

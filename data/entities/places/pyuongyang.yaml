@@ -1,0 +1,13 @@
+id: pl_pyuongyang
+type: Place
+name: 平壤
+modern_name: 平壤
+province: 朝鲜
+latitude: 39.02
+longitude: 125.74
+category: city
+description: 隋征高句丽目标
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

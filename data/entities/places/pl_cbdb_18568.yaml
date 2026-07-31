@@ -1,0 +1,12 @@
+id: pl_cbdb_18568
+type: Place
+name: 南城
+modern_name: 南城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.559717
+longitude: 116.627449
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

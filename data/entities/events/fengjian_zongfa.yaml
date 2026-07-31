@@ -1,0 +1,17 @@
+id: e_fengjian_zongfa
+type: Event
+name: 分封制与宗法制
+date:
+  year: -1046
+category: institution
+polities_involved:
+- k_xizhou
+importance: 1
+description: 西周立国，以分封制封宗亲功臣于各地建侯卫(如齐、鲁、燕、卫)，以宗法制定嫡长子继承与大小宗之别，配以礼乐，构筑"天子-诸侯-卿大夫-士"的等级秩序。为周室统治的根本制度。
+impact: 奠定西周政治与社会结构，宗法与分封影响中国后世两千年宗族与政治伦理。
+sources:
+- 史记·周本纪
+- 左传·僖公二十四年
+- 诗经·大雅
+ext:
+  disputed: true

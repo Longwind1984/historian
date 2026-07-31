@@ -1,0 +1,21 @@
+id: p_zhangxianzhong
+type: Person
+name: 张献忠
+born:
+  year: 1606
+died:
+  year: 1647
+gender: male
+roles:
+- rebel_leader
+importance: 2
+birthplace: pl_dingbian_zhang
+bio: 明末农民起义领袖。1644 入川称帝(大西)。1647 西充中箭死。
+sources:
+- 明史·流贼传
+wikidata_id: "Q715573"
+wikipedia_zh: "张献忠"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%E5%BC%B5%E7%8D%BB%E5%BF%A0.jpg/500px-%E5%BC%B5%E7%8D%BB%E5%BF%A0.jpg"
+image_license: "Public domain"
+image_credit: "（清）松排山人（編）；《古本小說集成》編委會"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%BC%B5%E7%8D%BB%E5%BF%A0.jpg"

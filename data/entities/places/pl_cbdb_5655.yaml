@@ -1,0 +1,12 @@
+id: pl_cbdb_5655
+type: Place
+name: 桃源
+modern_name: 桃源
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.901598
+longitude: 111.477768
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

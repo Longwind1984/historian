@@ -1,0 +1,28 @@
+id: p_gao_yin
+type: Person
+name: 高殷
+alias:
+- 北齐废帝
+- 济南王
+born:
+  year: 545
+died:
+  year: 561
+reign_start:
+  year: 559
+reign_end:
+  year: 560
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 文宣帝子。560年为叔父高演所废,旋遇害。
+ext:
+  title: 北齐废帝
+  regime: 北齐
+sources:
+- 北齐书
+- 北史
+- 资治通鉴
+wikidata_id: "Q708368"
+wikipedia_zh: "高殷"

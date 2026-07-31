@@ -1,0 +1,20 @@
+id: p_lishanchang
+type: Person
+name: 李善长
+alias:
+- 韩国公
+born:
+  year: 1314
+died:
+  year: 1390
+gender: male
+birthplace: pl_dingyuan_li
+bio: 明开国首辅,左丞相。1390 胡惟庸案株连处死。
+sources:
+- 明史·李善长传
+wikidata_id: "Q699369"
+wikipedia_zh: "李善長"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/93/%E6%9D%8E%E5%96%84%E9%95%BF.jpg"
+image_license: "Public domain"
+image_credit: "上官周"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E5%96%84%E9%95%BF.jpg"

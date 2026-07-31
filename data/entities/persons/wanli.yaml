@@ -1,0 +1,33 @@
+id: p_wanli
+type: Person
+name: 朱翊钧
+alias:
+- 明神宗
+- 万历
+born:
+  year: 1563
+died:
+  year: 1620
+  month: 8
+reign_start:
+  year: 1572
+reign_end:
+  year: 1620
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_beiping_zhudi
+bio: 明神宗。穆宗子。1572 10 岁即位。1573-1582 张居正改革。1592-1598 万历朝鲜之役(抗倭援朝)。1619 萨尔浒败于后金。在位 48
+  年(明最长)。
+sources:
+- 明史·神宗本纪
+ext:
+  title: 万历帝
+  regime: 明
+wikidata_id: "Q10061"
+wikipedia_zh: "明神宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/42/%E6%98%8E%E7%A5%9E%E5%AE%97.jpg"
+image_license: "Public domain"
+image_credit: "Ming Dynasty Imperial Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%A5%9E%E5%AE%97.jpg"

@@ -1,0 +1,23 @@
+id: p_li_siguang
+type: Person
+name: 李四光
+alias:
+- 李仲揆
+gender: male
+born:
+  year: 1889
+died:
+  year: 1971
+roles:
+- scholar
+importance: 2
+bio: 湖北黄冈人，蒙古族。地质学家，创地质力学。早年留英，任北大地质系教授、中央研究院地质研究所所长。1950 年自英归国，任地质部部长。以地质力学理论指导找油，参与部署松辽平原勘探，1959 年大庆油田发现，一举推翻"中国贫油论"。亦倡地震地质研究。
+sources:
+- 当代中国史
+- 中国科学技术史
+wikidata_id: "Q707276"
+wikipedia_zh: "李四光"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Li_Siguang.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Siguang.jpg"

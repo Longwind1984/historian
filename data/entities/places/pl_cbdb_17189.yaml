@@ -1,0 +1,12 @@
+id: pl_cbdb_17189
+type: Place
+name: 雲內州
+modern_name: 雲內州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 40.6098
+longitude: 111.4313
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Zhou

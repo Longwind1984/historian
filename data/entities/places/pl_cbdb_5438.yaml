@@ -1,0 +1,12 @@
+id: pl_cbdb_5438
+type: Place
+name: 寧州
+modern_name: 寧州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.038708
+longitude: 114.559631
+first_year: 1503
+last_year: 1643
+description: CBDB 行政类型:Zhou

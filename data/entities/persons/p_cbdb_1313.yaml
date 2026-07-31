@@ -1,0 +1,14 @@
+id: p_cbdb_1313
+type: Person
+name: 呂廣問
+born:
+  year: 1098
+died:
+  year: 1170
+gender: male
+birthplace: pl_cbdb_12846
+dynasty_ref: k_beisong
+bio: CBDB ID 1313
+name_en: Lü Guangwen
+sources:
+- CBDB (China Biographical Database)

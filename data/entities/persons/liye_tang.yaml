@@ -1,0 +1,36 @@
+id: p_liye_tang
+type: Person
+name: 李晔
+alias:
+- 唐昭宗
+- 昭宗
+born:
+  year: 867
+died:
+  year: 904
+  month: 8
+gender: male
+birthplace: pl_chang_an
+bio: 唐昭宗。888-904 在位。893-904 间多次被宦官、藩镇挟持。901 崔胤引朱温入京。904 朱温弑昭宗,立哀帝。
+sources:
+- 旧唐书·昭宗纪
+- 资治通鉴·卷257-264
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 888
+reign_end:
+  year: 904
+roles:
+- emperor
+ext:
+  title: 唐昭宗
+  regime: 唐
+importance: 3
+wikidata_id: "Q9891"
+wikipedia_zh: "唐昭宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Zhaozong.jpg/500px-Zhaozong.jpg"
+image_license: "Public domain"
+image_credit: "Ancient Chinese Artist."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhaozong.jpg"

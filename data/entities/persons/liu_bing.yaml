@@ -1,0 +1,28 @@
+id: p_liu_bing
+type: Person
+name: 刘炳
+alias:
+- 汉冲帝
+- 冲帝
+born:
+  year: 143
+died:
+  year: 145
+reign_start:
+  year: 144
+reign_end:
+  year: 145
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_donghan
+bio: 顺帝子，两岁即位，在位五月而崩，梁冀专权。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉冲帝
+  regime: 东汉
+wikidata_id: "Q7292"
+wikipedia_zh: "汉冲帝"

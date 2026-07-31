@@ -1,0 +1,13 @@
+id: pl_yizhou
+type: Place
+name: 益州
+modern_name: 成都
+province: 四川
+latitude: 30.67
+longitude: 104.07
+category: city
+description: 高骈前任
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

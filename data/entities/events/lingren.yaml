@@ -1,0 +1,20 @@
+id: e_lingren
+type: Event
+name: 后唐庄宗伶人乱政
+date:
+  year: 923
+category: institution
+importance: 3
+location: pl_luoyang
+polities_involved:
+- k_houdong
+description: 李存勖精通音律,自取艺名'李天下',与伶人同台演出;宠信伶人景进、史彦琼、郭从谦,破格任伶人为刺史、干预朝政、搬弄是非;冷落并猜忌功臣,郭崇韬等被冤杀;伶官搜刮民财、朝纲败坏。926
+  年伶官郭从谦发动兴教门之变,李存勖中流矢而亡。
+impact: 典型的'善始不善终'案例。欧阳修《新五代史·伶官传序》总结为'忧劳可以兴国,逸豫可以亡身'、'祸患常积于忽微,而智勇多困于所溺'。直接导致后唐庄宗覆灭、李嗣源(明宗)即位。
+sources:
+- 新五代史·伶官传
+- 旧五代史·唐书·庄宗纪
+- 资治通鉴·后唐纪
+end_date:
+  year: 926
+  month: 5

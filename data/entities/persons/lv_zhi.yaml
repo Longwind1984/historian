@@ -1,0 +1,26 @@
+id: p_lv_zhi
+type: Person
+name: 吕雉
+alias:
+- 吕后
+- 高后
+born:
+  year: -241
+died:
+  year: -180
+gender: female
+roles:
+- consort
+importance: 1
+birthplace: pl_danfu_lvzhi
+bio: 汉高祖皇后。BC195 高祖崩,惠帝即位。BC188 惠帝崩,临朝称制 8 年。BC180 病卒。诸吕之乱被周勃、陈平所平。
+ext:
+  significance: 中国历史上第一位实际掌握最高权力的女性。
+sources:
+- 史记·吕太后本纪
+wikidata_id: "Q298039"
+wikipedia_zh: "吕雉"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/WUL-he21_01467_%E6%96%B0%E9%90%AB%E7%B9%AA%E5%83%8F%E6%9D%B1%E8%A5%BF%E6%BC%A2%E5%85%A8%E5%82%B3_01_%28%E5%91%82%E5%90%8E%29.jpg/500px-WUL-he21_01467_%E6%96%B0%E9%90%AB%E7%B9%AA%E5%83%8F%E6%9D%B1%E8%A5%BF%E6%BC%A2%E5%85%A8%E5%82%B3_01_%28%E5%91%82%E5%90%8E%29.jpg"
+image_license: "Public domain"
+image_credit: "鍾 惺, 1574-1624"
+image_source_page: "https://commons.wikimedia.org/wiki/File:WUL-he21_01467_%E6%96%B0%E9%90%AB%E7%B9%AA%E5%83%8F%E6%9D%B1%E8%A5%BF%E6%BC%A2%E5%85%A8%E5%82%B3_01_(%E5%91%82%E5%90%8E).jpg"

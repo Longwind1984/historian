@@ -1,0 +1,12 @@
+id: pl_cbdb_17032
+type: Place
+name: 汲縣
+modern_name: 汲縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.410385
+longitude: 114.070267
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Xian

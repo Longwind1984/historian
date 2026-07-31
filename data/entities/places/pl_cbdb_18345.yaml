@@ -1,0 +1,12 @@
+id: pl_cbdb_18345
+type: Place
+name: 蘭溪州
+modern_name: 蘭溪州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.204452515
+longitude: 119.47885132
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Zhou

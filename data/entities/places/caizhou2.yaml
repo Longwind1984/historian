@@ -1,0 +1,13 @@
+id: pl_caizhou2
+type: Place
+name: 蔡州/汝南
+modern_name: 汝南
+province: 河南
+latitude: 33.0
+longitude: 114.36
+category: battlefield
+description: 吴元济治所
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

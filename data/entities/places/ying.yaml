@@ -1,0 +1,14 @@
+id: pl_ying
+type: Place
+name: 英国
+modern_name: 伦敦
+province: 英国
+latitude: 51.51
+longitude: -0.13
+category: region
+description: 英帝国
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

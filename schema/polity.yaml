@@ -1,0 +1,83 @@
+type: Polity
+label: 政权
+label_en: Polity
+icon: 🏯
+color: '#c0392b'
+description: 政权(朝代/王国)
+fields:
+  name:
+    type: string
+    required: true
+    label: 名称
+  name_en:
+    type: string
+    optional: true
+    label: 英文名
+  color:
+    type: string
+    optional: true
+    label: 地图色标
+    description: hex color, used in map and graph
+  founded:
+    type: year_month
+    label: 建立时间
+  ended:
+    type: year_month
+    label: 灭亡时间
+  founder:
+    type: ref
+    to: Person
+    label: 创建者
+  capital:
+    type: ref
+    to: Place
+    label: 都城
+  supplanted:
+    type: ref
+    to: Polity
+    optional: true
+    label: 取代了哪个政权
+  ended_by:
+    type: ref
+    to: Polity
+    optional: true
+    label: 亡于哪个政权
+  ended_by_person:
+    type: ref
+    to: Person
+    optional: true
+    label: 亡于哪个关键人物
+  description:
+    type: text
+    label: 简介
+  territory:
+    type: array
+    label: 疆域时段
+    items:
+      type: object
+      fields:
+        valid_from: year_month
+        valid_to: year_month
+        geojson_file: string
+        note: string
+  sources:
+    type: array
+    items: string
+    label: 史料出处
+  image:
+    type: url
+    optional: true
+    label: 配图
+ext: allow
+relations:
+  outgoing:
+  - founded_by
+  - succeeded_by
+  - destroyed_by
+  - capital_at
+  - territory_of
+  incoming:
+  - founded_by
+  - succeeded_by
+  - destroyed_by
+  - usurped_by

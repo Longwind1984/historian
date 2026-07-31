@@ -1,0 +1,18 @@
+id: p_chen_yun
+name: 陈云
+type: Person
+born: {year: 1905}
+died: {year: 1995}
+roles:
+  - civil_official
+importance: 2
+bio: 上海青浦人。长期主管经济工作,曾任国务院副总理、中央纪委第一书记等职。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q557233"
+wikipedia_zh: "陈云"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/1958_Chenyun.jpg/500px-1958_Chenyun.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:1958_Chenyun.jpg"

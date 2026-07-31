@@ -1,0 +1,12 @@
+id: pl_cbdb_16806
+type: Place
+name: 恩州
+modern_name: 恩州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.213150024
+longitude: 116.07292938
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Zhou

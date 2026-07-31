@@ -1,0 +1,14 @@
+id: p_cbdb_1216
+type: Person
+name: 劉牧
+born:
+  year: 1011
+died:
+  year: 1064
+gender: male
+birthplace: pl_cbdb_12800
+dynasty_ref: k_beisong
+bio: CBDB ID 1216
+name_en: Liu Mu (2)
+sources:
+- CBDB (China Biographical Database)

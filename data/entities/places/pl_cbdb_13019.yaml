@@ -1,0 +1,12 @@
+id: pl_cbdb_13019
+type: Place
+name: 湘潭
+modern_name: 湘潭
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.704017
+longitude: 112.904414
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

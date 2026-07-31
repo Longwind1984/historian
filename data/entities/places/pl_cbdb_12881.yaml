@@ -1,0 +1,12 @@
+id: pl_cbdb_12881
+type: Place
+name: 德興
+modern_name: 德興
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.953411
+longitude: 117.580116
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_14098
+type: Place
+name: 靈川
+modern_name: 靈川
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.463203
+longitude: 110.38369
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

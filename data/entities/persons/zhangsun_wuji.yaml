@@ -1,0 +1,22 @@
+id: p_zhangsun_wuji
+type: Person
+name: 长孙无忌
+alias:
+- 长孙辅机
+courtesy_name: 辅机
+born:
+  year: 594
+died:
+  year: 659
+gender: male
+birthplace: pl_luoyang_sui
+bio: 唐初功臣,凌烟阁二十四功臣之首。李治舅。助李世民玄武门之变。高宗朝为顾命大臣。因反对立武则天为后,659 被许敬宗诬陷谋反,贬死黔州。
+sources:
+- 旧唐书·长孙无忌传
+- 资治通鉴·卷200
+wikidata_id: "Q1192341"
+wikipedia_zh: "长孙无忌"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/%E9%95%B7%E5%AD%AB%E7%84%A1%E5%BF%8C.jpg/500px-%E9%95%B7%E5%AD%AB%E7%84%A1%E5%BF%8C.jpg"
+image_license: "Public domain"
+image_credit: "沈源"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%95%B7%E5%AD%AB%E7%84%A1%E5%BF%8C.jpg"

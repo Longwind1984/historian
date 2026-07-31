@@ -1,0 +1,24 @@
+id: p_liu_zongyuan
+type: Person
+name: 柳宗元
+alias:
+- 柳子厚
+courtesy_name: 子厚
+born:
+  year: 773
+died:
+  year: 819
+gender: male
+roles:
+- literatus
+importance: 2
+birthplace: pl_yongjin_lyz
+bio: 唐代文学家、哲学家。永贞革新核心。失败后贬永州、柳州。唐宋八大家之一。著《永州八记》《封建论》《天对》。
+sources:
+- 旧唐书·柳宗元传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Liu_Zongyuan.jpg/500px-Liu_Zongyuan.jpg"
+wikidata_id: "Q337773"
+wikipedia_zh: "柳宗元"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Zongyuan.jpg"

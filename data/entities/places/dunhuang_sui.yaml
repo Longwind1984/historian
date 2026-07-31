@@ -1,0 +1,13 @@
+id: pl_dunhuang_sui
+type: Place
+name: 敦煌
+modern_name: 敦煌
+province: 甘肃
+latitude: 40.14
+longitude: 94.66
+category: city
+description: 河西走廊
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

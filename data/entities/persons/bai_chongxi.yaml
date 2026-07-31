@@ -1,0 +1,24 @@
+id: p_bai_chongxi
+type: Person
+name: 白崇禧
+alias:
+- 白健生
+courtesy_name: 健生
+born:
+  year: 1893
+died:
+  year: 1966
+gender: male
+roles:
+- general
+importance: 2
+bio: 广西临桂(今属桂林)人，回族，桂系将领。保定军校毕业。与李宗仁统一广西，为新桂系核心。北伐时任国民革命军副总参谋长、东路军前敌总指挥。抗战时任军事委员会副参谋总长兼军训部长，参与指挥武汉、桂南诸役，人称"小诸葛"。1946 年任国防部长。1949 年赴台，1966 年病逝于台北。
+sources:
+- 中华民国史·白崇禧传
+- 程思远·白崇禧传
+wikidata_id: "Q706491"
+wikipedia_zh: "白崇禧"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Bai_Chongxi.jpg/500px-Bai_Chongxi.jpg"
+image_license: "Public domain"
+image_credit: "Unknown; scanned by 天竺鼠 ( talk ) 10:57, 19 August 2009 (UTC)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Bai_Chongxi.jpg"

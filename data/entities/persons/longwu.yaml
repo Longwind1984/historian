@@ -1,0 +1,20 @@
+id: p_longwu
+type: Person
+name: 朱聿键
+alias:
+- 隆武帝
+born:
+  year: 1602
+died:
+  year: 1646
+gender: male
+birthplace: pl_fuzhou
+bio: 南明第二位。唐王朱聿键。1645-1646 在位。
+sources:
+- 明史·唐王传
+wikidata_id: "Q45697"
+wikipedia_zh: "隆武帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/56/Long-wu.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Long-wu.jpg"

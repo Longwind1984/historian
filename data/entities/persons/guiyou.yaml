@@ -1,0 +1,20 @@
+id: p_guiyou
+type: Person
+name: 贵由
+alias:
+- 元定宗
+born:
+  year: 1206
+died:
+  year: 1248
+gender: male
+bio: 窝阔台长子。第三代大汗(1246-1248)。1246 忽里台即位。与拔都交恶,1248 西征途中卒。
+sources:
+- 元史·定宗本纪
+- 新元史·定宗本纪
+wikidata_id: "Q7520"
+wikipedia_zh: "贵由"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guyuk_khan_from_Persian_miniature.jpg/500px-Guyuk_khan_from_Persian_miniature.jpg"
+image_license: "Public domain"
+image_credit: "Abdullâh Sultân (atelier). Shîrâz"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Guyuk_khan_from_Persian_miniature.jpg"

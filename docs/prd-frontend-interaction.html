@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>纪年图谱 · 前端交互设计修改方案（PRD）</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f1e5; --paper-el:#fdfaf2; --paper-deep:#efe8d6;
+  --ink:#2b2620; --ink-soft:#6f6656; --ink-faint:#9a9078;
+  --line:#ddd3bf; --line-soft:#e8e0cd;
+  --accent:#b23b2e; --accent-deep:#8f2b20; --accent-soft:rgba(178,59,46,.08);
+  --gold:#a67c2e; --jade:#3d6b57; --blue:#3a5f7d;
+  --serif:'Noto Serif SC','Songti SC','STSong','SimSun',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.75;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;opacity:.35;z-index:0;
+  background-image:radial-gradient(rgba(43,38,32,.045) 1px,transparent 1px);background-size:26px 26px;}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+code,.mono{font-family:var(--mono);font-size:.86em;background:var(--paper-deep);border:1px solid var(--line-soft);border-radius:4px;padding:1px 5px;color:var(--accent-deep);white-space:nowrap}
+
+/* ===== 页眉 ===== */
+header.cover{position:relative;z-index:1;background:var(--paper-el);border-bottom:3px double var(--line);padding:52px 40px 40px;}
+.cover-inner{max-width:1180px;margin:0 auto;display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap}
+.seal{flex:none;width:72px;height:72px;background:var(--accent);color:#f9f3e6;font-family:var(--serif);font-weight:900;
+  font-size:34px;display:flex;align-items:center;justify-content:center;border-radius:8px;
+  box-shadow:inset 0 0 0 3px #f9f3e6,inset 0 0 0 5px var(--accent);transform:rotate(-2deg)}
+.cover h1{font-family:var(--serif);font-weight:900;font-size:34px;letter-spacing:.04em;line-height:1.3}
+.cover h1 small{display:block;font-size:15px;font-weight:400;color:var(--ink-soft);letter-spacing:.35em;margin-top:6px}
+.cover-meta{margin-left:auto;text-align:right;font-size:13px;color:var(--ink-soft);line-height:2}
+.cover-meta b{color:var(--ink)}
+.cover-meta .status{display:inline-block;border:1px solid var(--gold);color:var(--gold);border-radius:3px;padding:0 8px;font-size:12px;letter-spacing:.2em}
+
+/* ===== 布局 ===== */
+.layout{position:relative;z-index:1;max-width:1180px;margin:0 auto;display:grid;grid-template-columns:230px 1fr;gap:36px;padding:36px 40px 80px;}
+nav.toc{position:sticky;top:24px;align-self:start;font-size:13px;border-left:2px solid var(--line);padding-left:0}
+nav.toc .toc-title{font-family:var(--serif);font-weight:900;letter-spacing:.3em;color:var(--ink-faint);font-size:12px;padding:0 0 10px 16px}
+nav.toc a{display:block;padding:5px 16px;color:var(--ink-soft);border-left:2px solid transparent;margin-left:-2px}
+nav.toc a:hover{color:var(--accent);border-left-color:var(--accent);text-decoration:none;background:var(--accent-soft)}
+main{min-width:0}
+section{margin-bottom:56px}
+h2{font-family:var(--serif);font-weight:900;font-size:24px;letter-spacing:.06em;padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:20px;display:flex;align-items:baseline;gap:12px}
+h2 .no{font-size:13px;color:var(--accent);font-family:var(--mono);font-weight:400;letter-spacing:0}
+h3{font-family:var(--serif);font-weight:600;font-size:18px;margin:26px 0 12px;padding-left:12px;border-left:4px solid var(--accent)}
+h4{font-size:15px;margin:18px 0 8px;color:var(--ink)}
+p{margin:10px 0}
+ul,ol{margin:8px 0 8px 22px}
+li{margin:5px 0}
+strong{font-weight:700}
+.lead{font-size:16px;color:var(--ink-soft)}
+
+/* ===== 通用组件 ===== */
+.note{background:var(--accent-soft);border:1px solid rgba(178,59,46,.25);border-left:4px solid var(--accent);border-radius:4px;padding:12px 16px;margin:14px 0;font-size:14px}
+.note.gold{background:rgba(166,124,46,.08);border-color:rgba(166,124,46,.3);border-left-color:var(--gold)}
+.note .note-tag{font-weight:700;color:var(--accent);margin-right:6px}
+.note.gold .note-tag{color:var(--gold)}
+
+.badge{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.05em;border-radius:3px;padding:1px 8px;vertical-align:2px;margin-right:6px;white-space:nowrap}
+.badge.p0{background:#b23b2e;color:#fff}
+.badge.p1{background:#c96a1b;color:#fff}
+.badge.p2{background:#3a5f7d;color:#fff}
+.badge.p3{background:#8a8172;color:#fff}
+.badge.effort{background:var(--paper-deep);color:var(--ink-soft);border:1px solid var(--line)}
+.badge.dep{background:rgba(61,107,87,.12);color:var(--jade);border:1px solid rgba(61,107,87,.3)}
+
+.ev{font-family:var(--mono);font-size:11.5px;background:#2b2620;color:#e8dfc8;border-radius:4px;padding:2px 8px;white-space:nowrap;display:inline-block;margin:2px 2px 2px 0}
+.ev.red{background:var(--accent-deep);color:#ffe9e4}
+
+table.spec{width:100%;border-collapse:collapse;margin:14px 0;font-size:13.5px;background:var(--paper-el)}
+table.spec th{background:var(--paper-deep);font-family:var(--serif);font-weight:600;text-align:left;padding:9px 12px;border:1px solid var(--line);letter-spacing:.05em}
+table.spec td{padding:9px 12px;border:1px solid var(--line-soft);vertical-align:top}
+table.spec tr:hover td{background:rgba(178,59,46,.03)}
+
+/* 方案卡片 */
+.card{background:var(--paper-el);border:1px solid var(--line);border-radius:8px;margin:20px 0;overflow:hidden;box-shadow:0 1px 3px rgba(43,38,32,.06)}
+.card-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:13px 18px;background:var(--paper-deep);border-bottom:1px solid var(--line)}
+.card-head .cid{font-family:var(--mono);font-weight:700;font-size:15px;color:var(--accent)}
+.card-head .ctitle{font-family:var(--serif);font-weight:900;font-size:16.5px;letter-spacing:.03em}
+.card-head .sp{flex:1}
+.card-body{padding:16px 18px}
+.field{margin:12px 0}
+.field .flabel{font-size:12px;font-weight:700;letter-spacing:.25em;color:var(--ink-faint);margin-bottom:4px}
+.field ul{margin-top:4px}
+.accept{background:rgba(61,107,87,.07);border:1px dashed rgba(61,107,87,.4);border-radius:5px;padding:10px 14px;font-size:13.5px;margin-top:12px}
+.accept .flabel{color:var(--jade)}
+
+/* before / after */
+.ba{display:grid;grid-template-columns:1fr 34px 1fr;gap:0;align-items:stretch;margin:12px 0;font-size:13px}
+.ba .col{border:1px solid var(--line);border-radius:6px;padding:10px 14px;background:var(--paper)}
+.ba .col.after{border-color:rgba(61,107,87,.5);background:rgba(61,107,87,.05)}
+.ba .arrow{display:flex;align-items:center;justify-content:center;color:var(--accent);font-size:18px;font-weight:700}
+.ba .col .cap{font-size:11px;letter-spacing:.2em;color:var(--ink-faint);font-weight:700;margin-bottom:6px}
+.ba .col.after .cap{color:var(--jade)}
+.ba ol,.ba ul{margin:4px 0 0 18px}
+.ba li{margin:3px 0}
+
+/* 布局示意图 */
+.diagram{background:#262119;border-radius:10px;padding:18px;font-family:var(--mono);font-size:11px;color:#cfc4a8;margin:16px 0;box-shadow:inset 0 0 0 1px #4a4234}
+.dg{display:grid;gap:6px;height:100%}
+.dg .box{border:1px solid #6b5f45;border-radius:4px;padding:8px 10px;background:rgba(207,196,168,.06);display:flex;flex-direction:column;justify-content:center;gap:2px}
+.dg .box b{color:#f0e6cc;font-size:11.5px}
+.dg .box span{color:#8f8468;font-size:10.5px}
+.dg .box.hot{border-color:var(--accent);background:rgba(178,59,46,.18)}
+.dg .box.hot b{color:#ffb3a8}
+.dg-mast{display:flex;gap:6px;margin-bottom:6px}
+.dg-mast .box{flex:1}
+.dg-main{display:grid;grid-template-columns:1.15fr 1fr;gap:6px;min-height:300px}
+.dg-right{display:grid;grid-template-rows:1fr auto 1.4fr;gap:6px}
+.legend-line{font-size:11.5px;color:var(--ink-faint);margin-top:6px}
+
+/* 流程条 */
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0;font-size:13px}
+.flow .step{background:var(--paper-el);border:1px solid var(--line);border-radius:20px;padding:5px 14px;white-space:nowrap}
+.flow .step.hot{border-color:var(--accent);color:var(--accent);font-weight:700;background:var(--accent-soft)}
+.flow .arr{color:var(--ink-faint)}
+.kbd{font-family:var(--mono);font-size:12px;background:var(--ink);color:var(--paper-el);border-radius:4px;padding:1px 7px;box-shadow:0 2px 0 rgba(0,0,0,.25);white-space:nowrap}
+
+footer{position:relative;z-index:1;border-top:3px double var(--line);background:var(--paper-el);padding:26px 40px;text-align:center;font-size:12.5px;color:var(--ink-faint);letter-spacing:.1em}
+
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr;padding:24px 18px 60px}
+  nav.toc{position:static;border-left:none;border-bottom:2px solid var(--line);padding-bottom:12px}
+  header.cover{padding:36px 20px 28px}
+  .cover-meta{margin-left:0;text-align:left}
+  .ba{grid-template-columns:1fr}
+  .ba .arrow{transform:rotate(90deg);padding:4px}
+}
+@media print{
+  body::before,nav.toc{display:none}
+  .layout{grid-template-columns:1fr}
+  .card,.note,table.spec{break-inside:avoid}
+  body{background:#fff}
+}
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="cover-inner">
+    <div class="seal">紀</div>
+    <div>
+      <h1>纪年图谱 · 前端交互设计修改方案
+        <small>FRONTEND INTERACTION PRD · history-kb</small>
+      </h1>
+    </div>
+    <div class="cover-meta">
+      <span class="status">历史方案 · A–D 已落地 · E 未立项</span><br>
+      日期 <b>2026-07-17</b>　|　基于 <b>main @ 35447bc</b> 代码走查<br>
+      范围 <b>仅前端交互</b>（不动数据与后端 API）<br>
+      读者 <b>Rick</b>　|　执行参考 <b>roadmap-v2 M4</b>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+<nav class="toc">
+  <div class="toc-title">目 录</div>
+  <a href="#s0">§0 执行摘要</a>
+  <a href="#s1">§1 背景与方法</a>
+  <a href="#s2">§2 现状交互架构</a>
+  <a href="#s3">§3 问题清单（实测）</a>
+  <a href="#s4">§4 设计原则</a>
+  <a href="#s5">§5 修改方案</a>
+  <a href="#s5a">　A 批 · 修断点 P0</a>
+  <a href="#s5b">　B 批 · 通闭环 P1</a>
+  <a href="#s5c">　C 批 · 效率层 P2</a>
+  <a href="#s5d">　D 批 · 呈现一致性 P2</a>
+  <a href="#s5e">　E 批 · 结构层 P3</a>
+  <a href="#s6">§6 优先级与路线图</a>
+  <a href="#s7">§7 验收与度量</a>
+  <a href="#s8">§8 附录 · 死代码清单</a>
+</nav>
+
+<main>
+
+<!-- ============ §0 ============ -->
+<section id="s0">
+<h2><span class="no">§0</span>执行摘要</h2>
+<p class="lead">history-kb 的数据地基与三视图骨架（时间柱 / 地图 / 谱系星图）已经成型，视觉语言（纸墨 × 印章 × 古籍）辨识度高。当前最伤体验的不是缺功能，而是<b>一批已交付交互的断点与半闭环</b>：主 CTA 按钮点击即抛错、三处「地图定位」是无反馈空操作、URL 年份分享恢复失效、搜索选中后时间柱原地不动。</p>
+
+<div class="flow">
+  <span class="step hot">刷年 → lens → 右栏同步</span><span class="arr">闭环① 健康</span>
+  <span class="step hot">点选实体 → 三视图联动</span><span class="arr">闭环② 多处断裂 ← 本 PRD 主修</span>
+</div>
+
+<table class="spec">
+  <tr><th style="width:90px">批次</th><th>主题</th><th style="width:70px">条目</th><th style="width:110px">预估工作量</th><th style="width:150px">性质</th></tr>
+  <tr><td><span class="badge p0">A · P0</span></td><td>修断点：坏按钮、死状态、URL 恢复、底图双源</td><td>5</td><td>约 2 人日</td><td>纯修复，零设计风险</td></tr>
+  <tr><td><span class="badge p1">B · P1</span></td><td>通闭环：搜索→时间柱、星云选中联动、在世 chips 高亮</td><td>3</td><td>约 3 人日</td><td>修复 + 小设计</td></tr>
+  <tr><td><span class="badge p2">C · P2</span></td><td>效率层：全局键盘体系、搜索升级、年代导航去重</td><td>3</td><td>约 5 人日</td><td>新交互，需评审</td></tr>
+  <tr><td><span class="badge p2">D · P2</span></td><td>呈现一致性：文案规范、档案卡统一、年谱、地图标注、空态</td><td>6</td><td>约 6 人日</td><td>修复 + 规范落地</td></tr>
+  <tr><td><span class="badge p3">E · P3</span></td><td>结构层：响应式、新手引导（建议 v2.1 单独立项）</td><td>2</td><td>另行估算</td><td>方向性提案</td></tr>
+</table>
+
+<div class="note"><span class="note-tag">一句话</span>先把「已经承诺给用户的交互」全部兑现（A+B ≈ 一周），再谈效率与呈现增强；E 批不进 v2.0 收版口径。</div>
+</section>
+
+<!-- ============ §1 ============ -->
+<section id="s1">
+<h2><span class="no">§1</span>背景与方法</h2>
+<h3>1.1 产品现状</h3>
+<p>互动中国历史知识库：前 2100（大禹）→ 2026，<b>7,442 实体 / 10,095 关系</b>，YAML 为唯一真相源。前端 Vue 3 + Pinia + Vite，MapLibre GL（疆域地图）+ d3-force Canvas（图谱 2D）+ 自研 Three.js 引擎（星云 / 时空柱）。主界面两条核心闭环：</p>
+<ul>
+  <li><b>闭环① · 刷年</b>：滚动时间柱 → 顶部 lens 线 → 右栏年号读数 / 疆域地图 / 「此刻在世」列表同步（经 <code>year</code> / <code>settledYear</code> 双年份防抖）。此闭环机制健康，是本产品最独特的交互资产。</li>
+  <li><b>闭环② · 点选实体</b>：时间柱 / 地图 / 图谱 / 星点选 → 档案面板 + 各视图高亮联动 + URL hash 同步。<b>本 PRD 的问题清单主要集中在这一环。</b></li>
+</ul>
+
+<h3>1.2 方法</h3>
+<ul>
+  <li>对 <code>frontend/src</code> 全部 13 个 Vue 组件、5 个 Pinia store、16 个星图引擎模块做逐文件走查；P0 级断点均由本人二次打开源码核实（非仅凭记忆或日志）。</li>
+  <li>交叉引用 <code>handoff.json</code>（2026-07-17 实测版）的 known_defects 与 open_questions、<code>docs/roadmap-v2.md</code> 的 M4 规划，避免与已规划工作重复造轮子。</li>
+  <li>每条问题标注证据（<span class="ev">文件:行号</span>）；每条方案给出验收标准，可直接转成 E2E 用例。</li>
+</ul>
+
+<h3>1.3 非目标</h3>
+<ul>
+  <li>不新增数据内容、不改后端 API 契约（B/C 批若需新端点会单独标注，均可用现有端点实现）。</li>
+  <li>不重复 roadmap 已立项的新玩法（事件长河 T4.8、进军箭头内容工程 march-A 类）——本 PRD 只覆盖「已有界面的交互质量」。</li>
+  <li>不做视觉重设计：现有纸墨语言保留，方案全部在其体系内延伸。</li>
+</ul>
+</section>
+
+<!-- ============ §2 ============ -->
+<section id="s2">
+<h2><span class="no">§2</span>现状交互架构</h2>
+<h3>2.1 应用壳（时间柱路由）</h3>
+<div class="diagram">
+  <div class="dg-mast">
+    <div class="box"><b>masthead 58px</b><span>印·品牌｜搜索框｜路由切换｜配色×4｜年读数</span></div>
+  </div>
+  <div class="dg-mast">
+    <div class="box"><b>FilterBar</b><span>重点人物 toggle + 13 身份 chips（仅 timeline / graph+web 显示）</span></div>
+  </div>
+  <div class="dg-main">
+    <div class="box"><b>TimeColumn 时间柱</b><span>朝代 gutter 96px ｜ 帝王世系带 ｜ 人物生命条（四态时间锚）｜ 事件卡片+溢出槽 ｜ 因果链虚线<br>lens 线 top:240px ｜ Ctrl+滚轮缩放 0.42–12px/年 ｜ 双击复位</span></div>
+    <div class="dg-right">
+      <div class="box"><b>MapPanel 地图</b><span>底图×5（素/古/今/浅/卫）｜疆域 fill+hover ｜事件印章+进军箭头 ｜ 图例可点</span></div>
+      <div class="box hot"><b>此刻在世 chips ×16</b><span>点选 → selectEntity</span></div>
+      <div class="box hot"><b>档案面板 MomentPanel</b><span>hover 预览 / click 锁定 ｜ tab: 关系·链接·年谱·史料 ｜ CTA「展开谱系星图→」⚠坏</span></div>
+    </div>
+  </div>
+  <div class="legend-line">红框 = 问题密集区；纵向/横向 SplitPane 可拖，双击复位，比例存 localStorage</div>
+</div>
+
+<h3>2.2 视图与状态矩阵</h3>
+<table class="spec">
+  <tr><th>层级</th><th>取值</th><th>切换方式</th><th>状态位置</th><th>进 URL?</th></tr>
+  <tr><td>route</td><td><code>timeline</code> / <code>graph</code></td><td>masthead 按钮</td><td><code>ui.route</code></td><td>✓（非默认才写）</td></tr>
+  <tr><td>view</td><td><code>web</code> / <code>nebula</code> / <code>column</code></td><td>星图壳 tab</td><td><code>ui.view</code></td><td>✓</td></tr>
+  <tr><td>年</td><td>-2100..2026</td><td>滚动 / 时空柱扫描环拖拽</td><td><code>time.year → settledYear</code></td><td>✓（但恢复失效 ⚠）</td></tr>
+  <tr><td>选中</td><td>entityId + type</td><td>各视图点选 / 搜索</td><td><code>selection.selectedEntityId</code></td><td>✓（仅 id，type 丢失）</td></tr>
+  <tr><td>底图</td><td>素/古/今/浅/卫</td><td>地图左上 glyph</td><td><span class="ev red">双源：MapPanel 本地 ref('素') vs ui.basemap('osgeo')</span></td><td>✗</td></tr>
+  <tr><td>配色</td><td>澄/青/赭/夜</td><td>masthead chips</td><td><code>ui.palette</code></td><td>✓ + localStorage</td></tr>
+  <tr><td>筛选</td><td>重点 + 13 身份</td><td>FilterBar</td><td><code>filter</code> store</td><td>✗（刻意，localStorage）</td></tr>
+</table>
+
+<h3>2.3 已存在的良好设计（保留并延伸）</h3>
+<ul>
+  <li><b>四态时间锚</b>：生卒确凿 / 存疑渐隐斜体 / 仅卒年 / 仅在位 —— 「不确定的不伪装成确定的」，本 PRD 所有方案遵守同一伦理。</li>
+  <li><b>双年份防抖</b>（year / settledYear 180ms）：重活不落每帧，是刷年流畅的根。</li>
+  <li><b>hover 预览 + 350ms 抑制窗</b>：扫读不锁屏，点击才锁定。</li>
+  <li><b>朝代色板跨视图一致</b>（星云/时空柱/时间柱同源 palettes.js）。</li>
+  <li><b>时空柱扫描环 ⇄ 时间柱双向刷年</b>（带防环路 guard）——B 批联动方案照此模式。</li>
+</ul>
+</section>
+
+<!-- ============ §3 ============ -->
+<section id="s3">
+<h2><span class="no">§3</span>问题清单（实测）</h2>
+<p>按「用户能否当场察觉」分级。P0 = 点击即坏或承诺的行为不存在；P1 = 闭环断、用户要绕路；P2 = 一致性与效率；P3 = 结构性缺失。证据列全部为本次走查实测。</p>
+
+<h3>3.1 P0 · 断点（承诺了，但没兑现）</h3>
+<table class="spec">
+  <tr><th style="width:36px">#</th><th>问题</th><th style="width:300px">证据</th><th style="width:220px">用户感知</th></tr>
+  <tr><td>1</td><td>档案面板主 CTA「展开谱系星图 →」<b>点击必抛 TypeError</b>：<code>openInGraph()</code> 调 <code>store.setRoute</code>，而 <code>store</code> 是 <code>useTimeStore()</code>（只有 setYear/setZoom），<code>setRoute</code> 在 <code>useUIStore</code>。同文件 188 行引入了 <code>ui</code> 却没用。</td><td><span class="ev red">MomentPanel.vue:397</span> <span class="ev">useUIStore.js:42</span></td><td>主按钮毫无反应，控制台报错</td></tr>
+  <tr><td>2</td><td>「📍 地图定位」= 重复 <code>selectEntity</code> 同一个 id：已选中时 watch 不触发，<b>点了没有任何效果</b>；星图路由的 EntityDetail 里同款按钮更彻底——该路由下根本没有地图。</td><td><span class="ev red">MomentPanel.vue:398-401</span> <span class="ev red">EntityDetail.vue:378-380</span></td><td>按钮是摆设</td></tr>
+  <tr><td>3</td><td>「🕸 在关系图中展开」写入 <code>pathHighlight</code>，<b>全 src 无任何组件读它</b>——死旗标。</td><td><span class="ev red">useSelectionStore.js:16</span> <span class="ev red">EntityDetail.vue:383</span></td><td>按钮是摆设</td></tr>
+  <tr><td>4</td><td>URL hash 恢复失效：<code>#year=750</code> 打开页面停在默认年（handoff 已记为 medium 缺陷，未修）；且 <code>loadFromUrl</code> 只在挂载时跑一次，<b>hashchange 不重载</b>——分享给别人的链接，对方贴进已打开的页面没反应。另：<code>entity</code> 参数只存 id 不存 type，跨会话恢复后类型靠猜。</td><td><span class="ev red">useUIStore.js:58-72</span> <span class="ev">handoff.json known_defects#1</span></td><td>「复制此刻」类分享不可信</td></tr>
+  <tr><td>5</td><td>底图状态双源：store 里 <code>basemap:'osgeo'</code> 从未被读，MapPanel 用本地 <code>ref('素')</code>；底图不进 URL、不持久化，刷新即回默认。</td><td><span class="ev red">useUIStore.js:17,44</span> <span class="ev red">MapPanel.vue:67</span></td><td>选择不被记住</td></tr>
+</table>
+
+<h3>3.2 P1 · 闭环断裂</h3>
+<table class="spec">
+  <tr><th style="width:36px">#</th><th>问题</th><th style="width:300px">证据</th><th style="width:220px">用户感知</th></tr>
+  <tr><td>6</td><td>搜索选中实体后，<b>时间柱不滚到该实体年代</b>。注释声称「搜索经 scrollToYear 平滑滚动」，实现里没有——选中一个南宋人，时间柱还停在 750 年，档案、地图、在世列表三方各说各话。</td><td><span class="ev red">useTimeStore.js:21-22（注释与实现脱节）</span> <span class="ev">SearchBar.vue</span></td><td>搜完找不到人在哪</td></tr>
+  <tr><td>7</td><td>星云视图不响应外部选中（搜索栏/URL 进入）：注释自标「防环路、留 T3.4」，进入 tab 时一次性飞抵，之后相机不再动。时空柱同样只有进入时联动。</td><td><span class="ev">NebulaView.vue:135,163-166</span></td><td>三视图「联动」名不副实</td></tr>
+  <tr><td>8</td><td>「此刻在世」chips 只支持点击；hover 时时间柱上对应生命条不高亮（hoveredEntityId 机制已存在，未接上）。</td><td><span class="ev">MomentPanel.vue:306-315</span></td><td>16 个人名难以对号入柱</td></tr>
+</table>
+
+<h3>3.3 P2 · 一致性与效率</h3>
+<table class="spec">
+  <tr><th style="width:36px">#</th><th>问题</th><th style="width:300px">证据</th></tr>
+  <tr><td>9</td><td><b>繁简混用 + 英文残留</b>：品牌/朝代 gutter 用繁体（紀年圖譜·戰國·漢），era chips 用简体（共和国）；「SCROLL THROUGH TIME」「 CE」「双链 Top」「截取」「起点 id / 终点 id」夹英文。</td><td><span class="ev">App.vue:8,99</span> <span class="ev">palettes.js:133-153</span> <span class="ev">WebGraph.vue:54-56,194</span></td></tr>
+  <tr><td>10</td><td><b>WebGraph 路径查询要求手填实体 id</b>（placeholder「起点 id」）——开发者界面直接暴露给用户；同产品里星云 Connect-two 已有联想搜索组件，未复用。</td><td><span class="ev red">WebGraph.vue:52-60</span> <span class="ev">NebulaView.vue:74-110</span></td></tr>
+  <tr><td>11</td><td><b>全局零键盘体系</b>：时间柱无任何快捷键；WebGraph 只有 <span class="kbd">Space</span>；星云有 WASD/QE/F/R 但只在画布聚焦时生效。无快捷键帮助。</td><td><span class="ev">TimeColumn.vue（全文无 keydown）</span> <span class="ev">WebGraph.vue:655-660</span></td></tr>
+  <tr><td>12</td><td>搜索框无键盘 ↑↓/Enter 导航、无类型过滤、无空态；handoff 待拍板项「是否纳入 modern_name」（南京 4→11 条）悬而未决。</td><td><span class="ev">SearchBar.vue</span> <span class="ev">handoff.json open_questions#3</span></td></tr>
+  <tr><td>13</td><td><b>两套档案卡字段不一致</b>：MomentPanel（关系/链接/年谱/史料）vs EntityDetail（详情/关系/链接/同代）；史料出处一个单列 tab、一个塞详情里；「同代」只在星图有。两组件各自维护，已在漂移。</td><td><span class="ev">MomentPanel.vue:33-159</span> <span class="ev">EntityDetail.vue:29-38,176-181</span></td></tr>
+  <tr><td>14</td><td>年谱是半成品：柱上 pins 只有生/卒两点（「暂无 moments 数据」）；年谱 tab 同样只有生卒两行，且 <code>'生于' + (sel.birthplace ? '' : '')</code> 两分支都拼空串——写了一半。</td><td><span class="ev red">MomentPanel.vue:377-385（381 行 bug）</span> <span class="ev">TimeColumn.vue:1027-1047</span></td></tr>
+  <tr><td>15</td><td>地图疆域无政权文字标注：清理列表里有 <code>territory-label</code> 层，<b>代码从未 addLayer</b>。用户只能靠 hover 逐个探。</td><td><span class="ev red">MapPanel.vue:388</span></td></tr>
+  <tr><td>16</td><td>配色切换时地图底色只读一次、不跟随（代码注释自认遗留）。</td><td><span class="ev">MapPanel.vue:71-73</span></td></tr>
+  <tr><td>17</td><td>空态/错误态各自为政：全站 10+ 种空态文案与样式无统一组件；后端连不上时只有 masthead 下一行错误文本。</td><td><span class="ev">App.vue:46-51 及各组件空态</span></td></tr>
+  <tr><td>18</td><td>朝代 gutter（点击滚到朝代中点）与顶部 15 枚 era chips（平滑滚动到代表年）功能重叠、样式两套、繁简不一。</td><td><span class="ev">TimeColumn.vue:483-507 vs 1050-1059</span></td></tr>
+</table>
+
+<h3>3.4 P3 · 结构性缺失</h3>
+<table class="spec">
+  <tr><th style="width:36px">#</th><th>问题</th><th style="width:300px">证据</th></tr>
+  <tr><td>19</td><td><b>全前端零 <code>@media</code> 查询</b>：固定桌面双栏，移动端不可用；仅 3D 引擎对 <code>pointer:coarse</code> 做渲染降级。</td><td><span class="ev red">全 src grep 无 @media</span> <span class="ev">mount.js:31</span></td></tr>
+  <tr><td>20</td><td>无新手引导 / 无帮助入口：首次进入面对 4126 年量程的柱子，没有任何「怎么玩」的提示（WebGraph 空态有一句提示，是唯一例外）。</td><td><span class="ev">WebGraph.vue:67-69</span></td></tr>
+</table>
+
+<div class="note gold"><span class="note-tag">另有</span>handoff.json 已登记的缺陷（星图年份显示 -2100、北宋疆域仅 10 feature、金无疆域、进军箭头内容 5/111）属数据/引擎层，不在本交互 PRD 内重复立项，仅在 §6 标注依赖关系。</div>
+</section>
+
+<!-- ============ §4 ============ -->
+<section id="s4">
+<h2><span class="no">§4</span>设计原则</h2>
+<p>从项目已有气质中提炼，作为 §5 所有方案的裁决标准；新交互与旧交互冲突时，按此顺序取舍。</p>
+<table class="spec">
+  <tr><th style="width:150px">原则</th><th>含义</th><th style="width:320px">在本 PRD 中的应用</th></tr>
+  <tr><td><b>1 · 界面不撒谎</b></td><td>延伸「四态时间锚」伦理：按钮点了必须有反应，注释声称的行为必须存在，做不到的就从界面上拿掉。</td><td>A 批全部；删死按钮优于留摆设</td></tr>
+  <tr><td><b>2 · 一年一世界</b></td><td>lens 线是全站锚点：任何「选中实体」若带时间属性，都应能把用户带回它的年代。</td><td>B1 搜索联动滚动；A2 定位含跳年</td></tr>
+  <tr><td><b>3 · 三视图一体</b></td><td>选中、年份、配色是全局事实，任何视图不得私有化（底图双源即反例）。</td><td>A5 统一底图；B2 星云响应外部选中</td></tr>
+  <tr><td><b>4 · 键盘可达</b></td><td>研究工具的高频路径（刷年、搜索、切视图）必须可纯键盘完成，且键位全站一张表。</td><td>C1 键盘体系</td></tr>
+  <tr><td><b>5 · 繁简有据</b></td><td>品牌层从繁（紀年圖譜），数据层从史（人名地名依数据源），UI 层从简（按钮、提示、空态）。</td><td>D1 文案规范</td></tr>
+  <tr><td><b>6 · 宁缺毋滥</b></td><td>数据缺失时显式说「待补」，不编造、不硬画（沿用 march 红线：没有数据而画箭头即是编造方向）。</td><td>D4 年谱、D5 地图标注的缺失态</td></tr>
+</table>
+</section>
+
+<!-- ============ §5 ============ -->
+<section id="s5">
+<h2><span class="no">§5</span>修改方案</h2>
+<p>每条方案：问题 → 方案 → 交互细节 → 涉及文件 → 验收。批次内条目可按优先级独立实施，互不阻塞（依赖关系单独标注）。</p>
+
+<h3 id="s5a">A 批 · 修断点 <span class="badge p0">P0</span><span class="badge effort">≈ 2 人日</span></h3>
+<p class="lead">五条全部是「兑现已有承诺」，无设计争议，建议直接排期。</p>
+
+<div class="card">
+  <div class="card-head"><span class="cid">A1</span><span class="ctitle">修复「展开谱系星图 →」主 CTA</span><span class="sp"></span><span class="badge p0">P0</span><span class="badge effort">0.5h</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>点击抛 TypeError（§3-1），这是档案面板唯一主按钮。</div>
+    <div class="field"><div class="flabel">方案</div><code>openInGraph()</code> 改用已引入的 <code>ui.setRoute('graph')</code>；选中实体天然随 <code>selectionStore</code> 带过去，星图侧栏 EntityDetail 已 watch 选中，会自动显示同一人。</div>
+    <div class="ba">
+      <div class="col"><div class="cap">现状</div><ol><li>点「展开谱系星图 →」</li><li>TypeError，原地不动</li></ol></div>
+      <div class="arrow">→</div>
+      <div class="col after"><div class="cap">目标</div><ol><li>点「展开谱系星图 →」</li><li>切入星图路由，侧栏即显示当前实体</li><li>WebGraph 进入以其为中心的局部图（现有 watch 行为）</li></ol></div>
+    </div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">MomentPanel.vue:397</span></div>
+    <div class="accept"><div class="flabel">验收</div>点击后路由切换且侧栏实体一致；新增 E2E 用例锁住（防再次回归——此 bug 正是无闸门漏进来的同类）。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">A2</span><span class="ctitle">让「📍 地图定位」真正定位（两处）</span><span class="sp"></span><span class="badge p0">P0</span><span class="badge effort">4h</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-2：重复 select 同一 id，watch 不触发 = 零效果；星图路由下无地图可定位。</div>
+    <div class="field"><div class="flabel">方案</div>引入显式定位请求：selectionStore 增 <code>locateRequest = { id, nonce }</code>（nonce 单调递增），MapPanel watch 它而非仅 watch id —— 同 id 重复定位也触发飞行。点击行为分路由：
+      <ul>
+        <li><b>时间柱路由</b>（MomentPanel）：发 locateRequest + 若实体带代表年则 <code>setYear</code> 到该年（原则 2）+ <code>ui.mapExpanded = true</code> 让地图短暂成为主体。</li>
+        <li><b>星图路由</b>（EntityDetail）：先 <code>setRoute('timeline')</code> 再发 locateRequest —— 「定位」语义本就属于时间柱路由的地图。</li>
+      </ul>
+    </div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">useSelectionStore.js</span> <span class="ev">MomentPanel.vue:398-401</span> <span class="ev">EntityDetail.vue:378-380</span> <span class="ev">MapPanel.vue:602-649</span></div>
+    <div class="accept"><div class="flabel">验收</div>已选中状态下再点「地图定位」，地图仍执行飞行/落点；星图路由点击后回到时间柱且地图到位。无 location 的实体按钮禁用并 tooltip「无地理数据」。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">A3</span><span class="ctitle">「🕸 在关系图中展开」兑现或移除</span><span class="sp"></span><span class="badge p0">P0</span><span class="badge effort">1h</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-3：写入死旗标 <code>pathHighlight</code>，无人消费。</div>
+    <div class="field"><div class="flabel">方案</div>推荐兑现而非移除：<code>setRoute('graph') + setView('web')</code>，WebGraph 现有「选中即切局部图」行为自动完成「展开」。删除 <code>pathHighlight</code> 死状态。若评审认为「展开」应有更强语义（如深度 2 起步），再单开任务，但死旗标本批必须清。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">EntityDetail.vue:383</span> <span class="ev">useSelectionStore.js:16</span></div>
+    <div class="accept"><div class="flabel">验收</div>点击后进入图谱 2D 且以该实体为中心的局部图可见；src 内 grep 不到 <code>pathHighlight</code>。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">A4</span><span class="ctitle">修复 URL 状态恢复与分享链路</span><span class="sp"></span><span class="badge p0">P0</span><span class="badge effort">0.5d（含定位根因）</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-4：<code>#year=750</code> 恢复失效；hashchange 不重载；entity 缺 type。handoff 已登记但未定位根因——候选方向：①时间柱 scroll → year 是单向写入，外部 <code>setYear</code> 不回写 scrollTop，下一次滚动事件把 year 冲掉；②<code>loadFromUrl</code> 调用时机早于 dataStore.init() 完成。<b>先定位再修，两条都要堵。</b></div>
+    <div class="field"><div class="flabel">方案</div>
+      <ul>
+        <li>TimeColumn 增 watch：<code>year</code> 被外部（非自身滚动）改变时平滑滚动到对应位置（内部滚动时置 guard 旗防环）。这同时是 B1 的基础设施。</li>
+        <li><code>hashchange</code> 事件重跑 <code>loadFromUrl</code>。</li>
+        <li>URL 的 entity 参数升级为 <code>entity=p_li_bai:Person</code>（向后兼容无 type 旧链接）。</li>
+      </ul>
+    </div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">useUIStore.js:46-72</span> <span class="ev">TimeColumn.vue（scroll/year 同步段）</span> <span class="ev">App.vue（hashchange 挂载点）</span></div>
+    <div class="accept"><div class="flabel">验收</div>新标签粘贴 <code>#year=1127&amp;entity=p_yue_fei:Person</code> 直达该年该人；已打开页面改 hash 同样生效；roadmap T4.9「复制此刻」分享依赖此项。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">A5</span><span class="ctitle">底图状态单源化 + 进 URL</span><span class="sp"></span><span class="badge p0">P0</span><span class="badge effort">2h</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-5：store <code>basemap:'osgeo'</code> 是从未被读的死默认值，真实状态在 MapPanel 本地 ref。</div>
+    <div class="field"><div class="flabel">方案</div>以 <code>ui.basemap</code> 为唯一源（取值改汉字键 '素/古/今/浅/卫' 与按钮一致），MapPanel 删本地 ref；basemap 写入 URL hash + localStorage（同 palette 待遇）；删除 <code>'osgeo'</code> 死值。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">useUIStore.js:17,44,46-72</span> <span class="ev">MapPanel.vue:67,151-189</span></div>
+    <div class="accept"><div class="flabel">验收</div>刷新/分享链接后底图保持；grep 无第二处 basemap 状态。</div>
+  </div>
+</div>
+
+<h3 id="s5b">B 批 · 通闭环 <span class="badge p1">P1</span><span class="badge effort">≈ 3 人日</span></h3>
+<p class="lead">A 批修完「点了没反应」，B 批修「动了但不同步」。三条都依赖 A4 的 year↔scroll 双向同步。</p>
+
+<div class="card">
+  <div class="card-head"><span class="cid">B1</span><span class="ctitle">搜索选中 → 时间柱滚动到该实体年代</span><span class="sp"></span><span class="badge p1">P1</span><span class="badge effort">1d</span><span class="badge dep">依赖 A4</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-6：搜岳飞，柱子在 750 年，右栏在读岳飞——三方脱节。注释早已承诺这个行为。</div>
+    <div class="field"><div class="flabel">方案</div>click 选中（hover 预览不触发）时，若实体可定年，<code>setYear(代表年)</code>，TimeColumn 借 A4 的 watch 平滑滚过去。代表年优先级：<b>Person</b> 生年→floruit 起→卒年→在位起；<b>Event/Battle</b> date；<b>Polity/Faction/Dynasty</b> 建立年；<b>Place</b> 不定年（不滚，仅地图飞行）。同时把 lens 胶囊短暂闪一次（160ms 朱红脉冲）告知「柱子为你跳了」。</div>
+    <div class="ba">
+      <div class="col"><div class="cap">现状</div><ol><li>搜「岳飞」回车</li><li>档案出岳飞，柱子在 750</li><li>用户手动滚 400 年找岳飞</li></ol></div>
+      <div class="arrow">→</div>
+      <div class="col after"><div class="cap">目标</div><ol><li>搜「岳飞」回车</li><li>柱子平滑滚到 1103，lens 脉冲</li><li>生命条高亮 + 地图飞籍贯 + 在世列表刷新</li></ol></div>
+    </div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">SearchBar.vue</span> <span class="ev">useSelectionStore.js（selectEntity 增选项）</span> <span class="ev">TimeColumn.vue</span> <span class="ev">api/client.js（代表年推导，可复用现有字段）</span></div>
+    <div class="accept"><div class="flabel">验收</div>对五类实体各测一例：柱到位、地图到位、档案到位；Place 选中不滚柱。E2E 覆盖搜索→定位全链路。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">B2</span><span class="ctitle">星云 / 时空柱响应外部选中（T3.4 收编）</span><span class="sp"></span><span class="badge p1">P1</span><span class="badge effort">1d</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-7：外部选中不联动 3D 相机，「三视图联动」在星图断档。</div>
+    <div class="field"><div class="flabel">方案</div>照抄时空柱扫描环已验证的防环模式：selectionStore 记录选中来源（<code>origin: 'nebula' | 'search' | ...</code>），NebulaView watch 选中，当 origin 非自身时执行飞近（复用 mount.js 现有 flyTo）；时空柱同。空闲巡航在飞行完成后才恢复。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">useSelectionStore.js</span> <span class="ev">NebulaView.vue:135,163-166</span> <span class="ev">starmap/engine/mount.js:199-212</span> <span class="ev">columnMount.js:605-610（防环范式参考）</span></div>
+    <div class="accept"><div class="flabel">验收</div>星云打开状态下用搜索栏选任意星上实体，相机 1.2s 内飞近且名牌出现；星云内点击不触发自我循环飞行。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">B3</span><span class="ctitle">「此刻在世」chips ⇄ 时间柱互高亮</span><span class="sp"></span><span class="badge p1">P1</span><span class="badge effort">2h</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-8：chips 与时间柱是同一年的两种读法，却互不相识。</div>
+    <div class="field"><div class="flabel">方案</div>chips 的 hover 接 <code>setHover(id)</code>（现有 350ms 抑制窗机制不动），TimeColumn 对 hovered 生命条加强制显名 + 提亮（hover 样式已有，只差触发源）；反向，柱上 hover 人物时若其在 chips 前 16 之列，对应 chip 加框。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">MomentPanel.vue:306-315</span> <span class="ev">TimeColumn.vue:727-741</span></div>
+    <div class="accept"><div class="flabel">验收</div>hover chip → 柱上该人生命条显名提亮；hover 柱上人 → chip 加框；hover 不触发档案锁定（抑制窗行为不变）。</div>
+  </div>
+</div>
+
+<h3 id="s5c">C 批 · 效率层 <span class="badge p2">P2</span><span class="badge effort">≈ 5 人日</span><span class="badge dep">新交互 · 需 Rick 评审</span></h3>
+<p class="lead">面向高频研究场景。键位表与搜索语义各有一份小决策点，建议评审后再动工。</p>
+
+<div class="card">
+  <div class="card-head"><span class="cid">C1</span><span class="ctitle">全局键盘体系 + 「?」快捷键帮助</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">2d</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-11：4126 年量程的探索工具全靠鼠标滚，无快捷键、无帮助。</div>
+    <div class="field"><div class="flabel">方案 · 键位表（草案）</div>
+      <table class="spec">
+        <tr><th style="width:130px">键</th><th>行为</th><th style="width:170px">作用域</th></tr>
+        <tr><td><span class="kbd">/</span></td><td>聚焦全局搜索</td><td>全局</td></tr>
+        <tr><td><span class="kbd">←</span> <span class="kbd">→</span></td><td>年份 ±1；<span class="kbd">Shift</span> ±10；<span class="kbd">Alt</span> ±100</td><td>时间柱路由</td></tr>
+        <tr><td><span class="kbd">Space</span></td><td>播放/暂停：年份自动 +1/400ms 步进（再按停）</td><td>时间柱路由</td></tr>
+        <tr><td><span class="kbd">g</span></td><td>「跳至年份」小输入框（支持 <code>前221</code> / <code>-221</code> / <code>750</code>）</td><td>时间柱路由</td></tr>
+        <tr><td><span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span></td><td>星图三 tab：图谱 / 星云 / 时空柱</td><td>星图路由</td></tr>
+        <tr><td><span class="kbd">t</span></td><td>回时间柱路由</td><td>全局</td></tr>
+        <tr><td><span class="kbd">Esc</span></td><td>清除选中 / 关闭帮助（分层）</td><td>全局</td></tr>
+        <tr><td><span class="kbd">?</span></td><td>快捷键帮助浮层（本表）</td><td>全局</td></tr>
+      </table>
+      输入框聚焦时全部快捷键挂起；WebGraph 原有 <span class="kbd">Space</span>=fitView 改为 <span class="kbd">f</span>（与星云 F 飞向对齐），避免与播放冲突。播放功能复用双年份防抖，<code>settledYear</code> 天然挡请求风暴。
+    </div>
+    <div class="field"><div class="flabel">决策点（需 Rick 拍板）</div>① Space 播放是否值得（好演示、好「看历史流过」，但非研究刚需）；② <span class="kbd">g</span> 跳年是否接受「前221」汉字输入（解析成本低，建议支持）。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">新增 composables/useHotkeys.js</span> <span class="ev">App.vue（帮助浮层）</span> <span class="ev">TimeColumn.vue / WebGraph.vue:655-660</span></div>
+    <div class="accept"><div class="flabel">验收</div>键位表 100% 可用且有帮助浮层；E2E 覆盖 / → ← → → Esc 主路径；输入框聚焦时快捷键不串扰。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">C2</span><span class="ctitle">搜索升级：键盘导航 · 类型过滤 · modern_name 决策</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">1.5d</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-12：只能鼠标点；搜「南京」4 条还是 11 条未定。</div>
+    <div class="field"><div class="flabel">方案</div>
+      <ul>
+        <li>↑↓ 移动高亮、Enter 选中、Esc 收起；高亮项滚入可视区。</li>
+        <li>输入框下沿一行类型过滤 chips（人/國/事/戰/地…印章样式），点选收窄结果；默认全类型。</li>
+        <li><b>modern_name 建议纳入</b>：匹配自古名的结果在前，匹配自今名的在后并带「今名」徽章（如 黄天荡<span class="badge effort">今名·南京</span>）——既解决 4→11 的召回，又不让今名喧宾夺主。这是对 handoff open_question#3 的正面回答：<b>默认执行「纳入+徽章」，除非 Rick 否决</b>。</li>
+        <li>无结果空态：「未寻得『{q}』· 试试朝代名或帝王名」。</li>
+      </ul>
+    </div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">SearchBar.vue（重写为组件）</span> <span class="ev">backend /entities q 参数（若 modern_name 需后端支持则单开小任务）</span></div>
+    <div class="accept"><div class="flabel">验收</div>全键盘完成「/ → 输入 → ↓ → Enter」；modern_name 结果带徽章且排序在后；空态可见。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">C3</span><span class="ctitle">年代导航去重：gutter 与 era chips 合并</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">1d</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-18：两套朝代跳转（gutter 点击 vs 顶部 15 chips），样式与繁简不一。</div>
+    <div class="field"><div class="flabel">方案</div>删顶部 chips 行，把能力并入 gutter：gutter 朝代块已可点（滚到中点），补 hover tooltip「{朝代} {起–讫} · 点击前往」；gutter 顶部加一枚「⌕ 前221…」迷你跳年入口（复用 C1 的 <span class="kbd">g</span> 弹层）。省出的纵向空间还给事件卡片区。朝代名从繁（数据层从史，原则 5），chips 简体遗存随之消除。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">TimeColumn.vue:483-507,1050-1059</span></div>
+    <div class="accept"><div class="flabel">验收</div>gutter 完成原 chips 全部跳转；UI 上不再存在第二套朝代导航。</div>
+  </div>
+</div>
+
+<h3 id="s5d">D 批 · 呈现一致性 <span class="badge p2">P2</span><span class="badge effort">≈ 6 人日</span></h3>
+<p class="lead">同一产品在两个路由里不该有两副面孔。D2/D3 与 roadmap M4-T4.7（人物详情页升级）合并执行最省。</p>
+
+<div class="card">
+  <div class="card-head"><span class="cid">D1</span><span class="ctitle">文案规范：繁简分层 + 清除英文残留</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">1d</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-9：紀年圖譜（繁）与「共和国」（简）同屏；SCROLL THROUGH TIME / CE / Top / 截取 / 起点 id 夹英文。</div>
+    <div class="field"><div class="flabel">方案 · 三层规则（原则 5 落地）</div>
+      <ul>
+        <li><b>品牌层从繁</b>：紀年圖譜、印章字形、朝代名（戰國/漢/民國）——保留，是气质。</li>
+        <li><b>数据层从史</b>：人名地名以数据源为准，不强行简繁转换。</li>
+        <li><b>UI 层从简</b>：按钮/提示/空态/设置一律简体。逐项替换：「SCROLL THROUGH TIME」→「以时为轴」（或删）、年份后缀「 CE」→ 直接显示「750 年」（负年已显示「前」）、「全局 · 双链 Top」→「全局 · 双链前列」、「截取」→「仅显示前 N 项」、「起点 id / 终点 id」→ C2 联想搜索后自然消亡。</li>
+      </ul>
+    </div>
+    <div class="accept"><div class="flabel">验收</div>全站 grep 无孤立英文 UI 串（数据英文名除外）；规则追加进 <code>docs/content-spec.md</code> 一节，防回潮。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">D2</span><span class="ctitle">两套档案卡合并为单一 EntityProfile 组件</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">2d</span><span class="badge dep">与 T4.7 合并</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-13：MomentPanel 与 EntityDetail 字段集不同、史料位置不同、各自漂移；「同代」只在星图有。</div>
+    <div class="field"><div class="flabel">方案</div>抽 <code>components/shared/EntityProfile.vue</code>：tab 取并集 <b>详情 / 关系 / 链接 / 年谱 / 同代 / 史料</b>（年谱、同代惰性加载）；两路由各自只剩壳（宽度与操作按钮差异用 props）。顺带把死代码 <code>composables/useEntityDetail.js</code> 复活为加载层或删除（二选一，不留僵尸）。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">MomentPanel.vue</span> <span class="ev">EntityDetail.vue</span> <span class="ev">composables/useEntityDetail.js</span></div>
+    <div class="accept"><div class="flabel">验收</div>同一实体在两路由下档案字段逐一对齐；新增字段只改一处。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">D3</span><span class="ctitle">年谱：修半成品 + 接 life_events 预留位</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">0.5d</span><span class="badge dep">依赖 M5 内容填充</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-14：<code>'生于' + (sel.birthplace ? '' : '')</code> 两分支皆空串；柱上 pins 与年谱 tab 只有生/卒。</div>
+    <div class="field"><div class="flabel">方案</div>①修拼接 bug：生年行显示「{生年} 生于{籍贯}」（无籍贯则不显示地名段）。②年谱 tab 与柱上 pins 改为读 <code>life_events[]</code>（M5 内容规范已规划该字段）：有数据即渲染大事记，无数据按原则 6 显式写「年谱待补 · 仅录生卒」，不编造。柱上 pins 同步：life_events 超 5 条时只画重要性 1 的。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">MomentPanel.vue:377-385</span> <span class="ev">TimeColumn.vue:1027-1047</span></div>
+    <div class="accept"><div class="flabel">验收</div>李白（有 life_events 样板后）年谱可见大事记；无数据人物显示「待补」而非空 tab；拼接 bug 消失。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">D4</span><span class="ctitle">地图疆域政权标注层（territory-label 落地）</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">1d</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-15：清理列表有 <code>territory-label</code>，代码从未添加该层——疆域只能靠 hover 探名。</div>
+    <div class="field"><div class="flabel">方案</div>补 symbol 层：主行政名（feature properties 已有名，T2.4 已补全），字号随 zoom 缩放、按 feature 面积做显示阈值（小政权 zoom&lt;4 不显），文字色用朝代色 70% 透明 + 纸色 halo，与纸墨语言一致。属性缺名的 feature 不标（原则 6），不写「未知」。「古」图集模式下标注压半透明避免与图集自带地名打架。</div>
+    <div class="field"><div class="flabel">涉及文件</div><span class="ev">MapPanel.vue:388-425</span></div>
+    <div class="accept"><div class="flabel">验收</div>750 年默认 zoom 可见唐/吐蕃/回纥等主名；zoom out 标注密度不糊；hover tooltip 行为不变。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">D5</span><span class="ctitle">地图底色跟随配色 + 空态/错误态统一组件</span><span class="sp"></span><span class="badge p2">P2</span><span class="badge effort">1d</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">问题</div>§3-16/17：「夜」配色下地图仍是纸色（只读一次）；全站 10+ 种空态文案样式各异；后端断连只剩一行字。</div>
+    <div class="field"><div class="flabel">方案</div>①MapPanel 监听 palette 变化重设素底色与 graticule 色（素/古今四底图配色表进 palettes.js）。②新建 <code>shared/EmptyState.vue</code>（图标 + 一句话 + 可选行动按钮），全站空态逐个替换；后端断连升级为全屏 EmptyState +「重试」按钮（重跑 dataStore.init）。</div>
+    <div class="accept"><div class="flabel">验收</div>切「夜」后地图底色同步变深；grep 各组件不再内联空态文案；断连页可重试恢复。</div>
+  </div>
+</div>
+
+<h3 id="s5e">E 批 · 结构层 <span class="badge p3">P3</span><span class="badge effort">建议 v2.1 单独立项</span></h3>
+<p class="lead">方向性提案，不进 v2.0 收版口径；先记录，避免每次路过都重新纠结。</p>
+
+<div class="card">
+  <div class="card-head"><span class="cid">E1</span><span class="ctitle">响应式布局（移动端）</span><span class="sp"></span><span class="badge p3">P3</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">现状</div>§3-19：零 @media，桌面双栏在手机上不可用。</div>
+    <div class="field"><div class="flabel">方向草案</div>≤768px 单栏 + 底部四 tab：<b>时间柱 / 地图 / 档案 / 星图</b>。时间柱天然竖向可单列；地图复用现有 mapExpanded 全屏态；档案即 EntityProfile 全屏；星图默认图谱 2D（3D 在 <code>pointer:coarse</code> 已有降级）。lens 线位置改为 top:30%。工期大头在 TimeColumn 的横向分区（gutter 96px + 帝王带）在窄屏的折叠策略，建议窄屏隐藏 gutter 仅留刻度。</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-head"><span class="cid">E2</span><span class="ctitle">首访引导 + 常驻帮助</span><span class="sp"></span><span class="badge p3">P3</span></div>
+  <div class="card-body">
+    <div class="field"><div class="flabel">现状</div>§3-20：首访面对 4126 年柱子无任何指引。</div>
+    <div class="field"><div class="flabel">方向草案</div>首访 3 屏 overlay（localStorage 记已读）：①滚 = 穿越（lens 线动图）；②点 = 档案（生命条→档案动图）；③三视图一体（路线切换动图）。masthead 加常驻「?」入口 = C1 快捷键帮助 + 3 屏回放。不做 step-by-step 打断式引导（与研究工具气质不符）。</div>
+  </div>
+</div>
+</section>
+
+<!-- ============ §6 ============ -->
+<section id="s6">
+<h2><span class="no">§6</span>优先级与路线图</h2>
+<h3>6.1 排期矩阵</h3>
+<table class="spec">
+  <tr><th>ID</th><th>条目</th><th style="width:60px">级别</th><th style="width:80px">工作量</th><th style="width:120px">依赖</th><th>一句话价值</th></tr>
+  <tr><td><b>A1</b></td><td>修「展开谱系星图」CTA</td><td><span class="badge p0">P0</span></td><td>0.5h</td><td>—</td><td>主按钮不再是陷阱</td></tr>
+  <tr><td><b>A2</b></td><td>地图定位真定位 ×2</td><td><span class="badge p0">P0</span></td><td>4h</td><td>—</td><td>定位语义成立</td></tr>
+  <tr><td><b>A3</b></td><td>关系图展开兑现 + 删死旗</td><td><span class="badge p0">P0</span></td><td>1h</td><td>—</td><td>界面不撒谎</td></tr>
+  <tr><td><b>A4</b></td><td>URL 恢复 + hashchange + year↔scroll</td><td><span class="badge p0">P0</span></td><td>0.5d</td><td>—</td><td>分享链路可信；B 批地基</td></tr>
+  <tr><td><b>A5</b></td><td>底图单源 + 进 URL</td><td><span class="badge p0">P0</span></td><td>2h</td><td>—</td><td>选择被记住</td></tr>
+  <tr><td><b>B1</b></td><td>搜索 → 柱滚动到年代</td><td><span class="badge p1">P1</span></td><td>1d</td><td>A4</td><td>搜索闭环成立（最高频路径）</td></tr>
+  <tr><td><b>B2</b></td><td>星云/时空柱响应外部选中</td><td><span class="badge p1">P1</span></td><td>1d</td><td>—</td><td>三视图联动名实相符（收 T3.4 欠债）</td></tr>
+  <tr><td><b>B3</b></td><td>在世 chips ⇄ 柱互高亮</td><td><span class="badge p1">P1</span></td><td>2h</td><td>—</td><td>两种读法互相对号</td></tr>
+  <tr><td><b>C1</b></td><td>全局键盘体系 + 帮助</td><td><span class="badge p2">P2</span></td><td>2d</td><td>评审键位</td><td>研究效率与演示效果</td></tr>
+  <tr><td><b>C2</b></td><td>搜索升级（键盘/过滤/今名）</td><td><span class="badge p2">P2</span></td><td>1.5d</td><td>modern_name 拍板</td><td>召回与效率</td></tr>
+  <tr><td><b>C3</b></td><td>年代导航去重</td><td><span class="badge p2">P2</span></td><td>1d</td><td>C1（跳年弹层）</td><td>一套导航</td></tr>
+  <tr><td><b>D1</b></td><td>文案繁简分层 + 清英文</td><td><span class="badge p2">P2</span></td><td>1d</td><td>—</td><td>一副面孔</td></tr>
+  <tr><td><b>D2</b></td><td>EntityProfile 合并</td><td><span class="badge p2">P2</span></td><td>2d</td><td>并入 T4.7</td><td>字段不再漂移</td></tr>
+  <tr><td><b>D3</b></td><td>年谱修半 + life_events 位</td><td><span class="badge p2">P2</span></td><td>0.5d</td><td>M5 数据</td><td>详情页核心内容</td></tr>
+  <tr><td><b>D4</b></td><td>疆域政权标注层</td><td><span class="badge p2">P2</span></td><td>1d</td><td>—</td><td>地图可读性跃升</td></tr>
+  <tr><td><b>D5</b></td><td>地图配色跟随 + 空态统一</td><td><span class="badge p2">P2</span></td><td>1d</td><td>—</td><td>一致性收尾</td></tr>
+  <tr><td><b>E1/E2</b></td><td>响应式 / 引导</td><td><span class="badge p3">P3</span></td><td>另估</td><td>v2.1 立项</td><td>记录方向，不在本期</td></tr>
+</table>
+
+<h3>6.2 与既有规划的咬合</h3>
+<ul>
+  <li><b>A+B（约一周）建议插入当前迭代即刻执行</b>：全部是「还旧账」，与进行中的 march-A 类内容工程（等 Rick 确认 A/B/C 划分中）无代码冲突——一个在前端交互层，一个在数据内容层。</li>
+  <li><b>D2+D3 并入 roadmap M4-T4.7</b>（人物详情页升级），避免详情页被两轮分别重写。</li>
+  <li><b>A4 是 T4.9「复制此刻」分享的前置</b>：URL 恢复不修，分享功能交付即失信。</li>
+  <li><b>B2 收编 T3.4 遗留</b>（星图外部选中联动），M3 的账在 M4 还。</li>
+  <li>handoff 的引擎/数据缺陷（星图年份 -2100、北宋疆域 10 feature）与本 PRD 并行排队，不互相阻塞。</li>
+</ul>
+
+<div class="note"><span class="note-tag">建议顺序</span>A1→A3→A5（半天清三个小断点建立信心）→ A4 → A2 → B1 → B3 → B2 → C/D 按评审结果排。E 批 v2.1 再议。</div>
+</section>
+
+<!-- ============ §7 ============ -->
+<section id="s7">
+<h2><span class="no">§7</span>验收与度量</h2>
+<h3>7.1 总验收（本批完成的定义）</h3>
+<ul>
+  <li><b>界面不撒谎审计通过</b>：全站按钮逐一点击无零反馈项；<code>grep -r "pathHighlight\|useEntityDetail\|setZoom" frontend/src</code> 无死引用；注释声称的行为与实现逐条对齐。</li>
+  <li><b>闭环走查</b>：「搜索→选中→柱/图/档案/URL 四处一致」对 Person/Event/Battle/Polity/Place 五类各跑一例通过。</li>
+  <li><b>分享链路</b>：任意状态「复制 URL → 新标签打开 → 状态逐字段一致」。</li>
+  <li><b>E2E 增量</b>：A1/A2/A4/B1 各锁一条 Playwright 用例（P0 曾两次因无闸门漏进主分支，这次每个断点配一个哨兵）。</li>
+  <li><b>测试闸门不破</b>：pytest 57 全绿 + validate_data.py errors=0 基线不动（本 PRD 不碰数据，理论上不应有波动）。</li>
+</ul>
+<h3>7.2 体验度量（改前 / 改后对比，手动实测即可）</h3>
+<table class="spec">
+  <tr><th>任务</th><th>改前</th><th>改后目标</th></tr>
+  <tr><td>从启动到「看岳飞及其时代版图」</td><td>搜索 → 手动滚约 400 年 → 手动找生命条，约 30s</td><td><code>/</code> 岳飞 Enter，≤5s 三视图到位</td></tr>
+  <tr><td>把「1127 年的地图」发给朋友</td><td>链接恢复失效，对方看到 750</td><td>链接直达 1127，逐字段一致</td></tr>
+  <tr><td>从档案进星图看某人的关系网</td><td>主按钮抛错，需手动切路由再重搜</td><td>一键，选中态随行</td></tr>
+  <tr><td>纯键盘完成一次年代探索</td><td>不可能（零快捷键）</td><td><span class="kbd">/</span>→Enter→<span class="kbd">←→</span>→<span class="kbd">Space</span> 全程无鼠标</td></tr>
+</table>
+</section>
+
+<!-- ============ §8 ============ -->
+<section id="s8">
+<h2><span class="no">§8</span>附录 · 死代码与清理清单</h2>
+<p>随对应批次顺带清理，不单独排任务；清理本身零用户可见面，但每条都是下一个断点的温床。</p>
+<table class="spec">
+  <tr><th>对象</th><th>位置</th><th>处置</th><th style="width:90px">随批次</th></tr>
+  <tr><td><code>pathHighlight</code> 死状态</td><td><span class="ev">useSelectionStore.js:16</span></td><td>删（A3 兑现后无用途）</td><td>A3</td></tr>
+  <tr><td><code>useEntityDetail.js</code> 无人 import</td><td><span class="ev">composables/useEntityDetail.js</span></td><td>复活为 EntityProfile 加载层，或删</td><td>D2</td></tr>
+  <tr><td><code>zoom/setZoom</code> 旧遗产（'编年/朝代'两档，已被连续 zoomLevel 取代）</td><td><span class="ev">useTimeStore.js:18,28</span></td><td>删</td><td>A4</td></tr>
+  <tr><td><code>relatedIds</code> 直接 return 空 Set 的 stub</td><td><span class="ev">TimeColumn.vue:659-664</span></td><td>实现（选中人物关系连线本需要它）或删注释说明</td><td>B3</td></tr>
+  <tr><td><code>activePolity</code> 恒 return null</td><td><span class="ev">MomentPanel.vue:318-321</span></td><td>删或实现</td><td>D2</td></tr>
+  <tr><td><code>ui.basemap='osgeo'</code> 死默认值</td><td><span class="ev">useUIStore.js:17</span></td><td>删（A5 单源化）</td><td>A5</td></tr>
+  <tr><td><code>.sm-empty*</code> 有样式无模板</td><td><span class="ev">StarmapView.vue:174-212</span></td><td>删（空态统一走 EmptyState）</td><td>D5</td></tr>
+  <tr><td>Cytoscape / vis-timeline 时代死样式（<code>.cy-tooltip .vis-* .graph-panel .path-explorer .filter-panel</code> 等）+ 硬编码深色 <code>.map-overlay</code></td><td><span class="ev">main.css 多处</span></td><td>删</td><td>D5</td></tr>
+  <tr><td><code>vue-router</code> 装了未用（route 是 store 字符串）</td><td><span class="ev">package.json</span></td><td>删依赖；或正式启用（不建议——当前双路由 hash 方案够用）</td><td>A4</td></tr>
+  <tr><td>TimeColumn 默认选中李白（URL 无 entity 时）</td><td><span class="ev">TimeColumn.vue:466-469</span></td><td>保留但加注释说明是「演示锚点」；或改为选中当年最著名在世者（锦上添花，可选）</td><td>D2</td></tr>
+</table>
+
+<div class="note gold"><span class="note-tag">流程建议</span>本 PRD 评审通过后，A/B 批可直接出 GLM 任务书（改动小、边界清、验收可自动化）；C/D 批先确认键位表、modern_name、档案 tab 并集三个决策点再动工。</div>
+</section>
+
+</main>
+</div>
+
+<footer>
+紀年圖譜 · 前端交互設計修改方案 v1 ｜ 2026-07-17 ｜ 基於 main@35447bc 代碼走查 ｜ 證據可逐條複核<br>
+「沒有數據而畫箭頭即是編造方向」—— 本方案所有交互承諾亦同此理：做不到的不上界面。
+</footer>
+
+</body>
+</html>

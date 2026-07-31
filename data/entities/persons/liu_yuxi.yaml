@@ -1,0 +1,21 @@
+id: p_liu_yuxi
+type: Person
+name: 刘禹锡
+alias:
+- 刘梦得
+courtesy_name: 梦得
+born:
+  year: 772
+died:
+  year: 842
+gender: male
+birthplace: pl_luoyang
+bio: 唐代文学家、哲学家。永贞革新核心成员(二王刘柳)。失败后长期贬谪(朗州、连州、夔州、和州)。后还朝。诗'旧时王谢堂前燕'千古传诵。
+sources:
+- 旧唐书·刘禹锡传
+wikidata_id: "Q706837"
+wikipedia_zh: "刘禹锡"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Riu_Yu_hsi.jpg/500px-Riu_Yu_hsi.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Riu_Yu_hsi.jpg"

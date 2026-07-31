@@ -1,0 +1,12 @@
+id: pl_cbdb_15318
+type: Place
+name: 義豐
+modern_name: 義豐
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.412342
+longitude: 115.315086
+first_year: 705
+last_year: 959
+description: CBDB 行政类型:Xian

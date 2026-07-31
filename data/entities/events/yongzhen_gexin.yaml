@@ -1,0 +1,19 @@
+id: e_yongzhen_gexin
+type: Event
+name: 永贞革新
+date:
+  year: 805
+  month: 8
+category: reform
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_tang
+description: 805 年顺宗即位,任用王叔文、王伾、刘禹锡、柳宗元等推行改革:罢宫市五坊、放出宫女、收宦官兵权。顺宗中风失语,宦官俱文珍迫顺宗内禅,革新失败。
+impact: 失败导致二王八司马被贬,宦官掌握神策军,为晚唐宦官专权开端的标志。
+sources:
+- 旧唐书·顺宗纪
+- 资治通鉴·卷236
+end_date:
+  year: 805
+  month: 10

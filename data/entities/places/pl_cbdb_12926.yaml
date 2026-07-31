@@ -1,0 +1,12 @@
+id: pl_cbdb_12926
+type: Place
+name: 寧都
+modern_name: 寧都
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.466515
+longitude: 116.010101
+first_year: 1153
+last_year: 1279
+description: CBDB 行政类型:Xian

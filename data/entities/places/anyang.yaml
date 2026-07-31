@@ -1,0 +1,12 @@
+id: pl_anyang
+type: Place
+name: 相州
+modern_name: 安阳
+province: 河南
+latitude: 36.1
+longitude: 114.39
+category: battlefield
+description: 岳飞籍贯
+sources:
+- 中国历史地图集
+- 旧唐书·地理志

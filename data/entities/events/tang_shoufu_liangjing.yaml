@@ -1,0 +1,20 @@
+id: e_tang_shoufu_liangjing
+type: Event
+name: 唐收复两京
+date:
+  year: 757
+  month: 9
+category: war
+importance: 2
+march:
+- from: pl_daxing
+  to: pl_luoyang_sui
+  note: 757年九月唐军先收复长安，继而收复洛阳；此段只记收复两京的先后阶段，不延伸到河北追击。《旧唐书·肃宗本纪》《资治通鉴·卷220》
+location: pl_daxing
+polities_involved:
+- k_tang
+description: 757 年九月郭子仪、李光弼率唐军(借回纥兵)先后收复长安、洛阳。安史叛军退守河北。
+impact: 安史之乱转折点。但藩镇割据之根已种。
+sources:
+- 旧唐书·肃宗本纪
+- 资治通鉴·卷220

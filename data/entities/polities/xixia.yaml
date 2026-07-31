@@ -1,0 +1,23 @@
+id: k_xixia
+type: Polity
+name: 西夏
+name_en: Western Xia
+color: '#8e44ad'
+founded:
+  year: 1038
+  month: 10
+ended:
+  year: 1227
+capital: pl_xingqing_xixia
+description: 党项族政权。1038 李元昊称帝建国号大夏。1044 庆历和议。1227 蒙古灭夏。
+sources:
+- 宋史·夏国传
+founder: p_liyuanhao
+ended_by: k_yuan
+territory:
+- valid_from:
+    year: 1038
+  valid_to:
+    year: 1227
+  geojson_file: null
+  note: CHGIS V5 未单独提供西夏府级多边形(文献不足)

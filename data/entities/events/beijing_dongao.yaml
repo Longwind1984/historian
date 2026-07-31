@@ -1,0 +1,13 @@
+id: e_beijing_dongao
+type: Event
+name: 北京冬奥会
+date:
+  year: 2022
+category: culture
+importance: 3
+polities_involved:
+- k_prc
+description: 2022年2月，第24届冬季奥林匹克运动会在北京举行，北京成为首个既举办夏季奥运会又举办冬季奥运会的城市。
+sources:
+- 中华人民共和国史
+- 当代中国史

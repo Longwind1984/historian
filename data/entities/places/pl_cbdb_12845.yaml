@@ -1,0 +1,12 @@
+id: pl_cbdb_12845
+type: Place
+name: 旌德
+modern_name: 旌德
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.291025
+longitude: 118.538772
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

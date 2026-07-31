@@ -1,0 +1,12 @@
+id: pl_cbdb_100667
+type: Place
+name: 東明
+modern_name: 東明
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.92438
+longitude: 114.859356
+first_year: 963
+last_year: 1126
+description: CBDB 行政类型:Xian

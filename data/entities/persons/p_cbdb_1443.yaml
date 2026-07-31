@@ -1,0 +1,14 @@
+id: p_cbdb_1443
+type: Person
+name: 沈起
+born:
+  year: 1017
+died:
+  year: 1088
+gender: male
+birthplace: pl_cbdb_100584
+dynasty_ref: k_beisong
+bio: CBDB ID 1443
+name_en: Shen Qi
+sources:
+- CBDB (China Biographical Database)

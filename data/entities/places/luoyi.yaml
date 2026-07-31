@@ -1,0 +1,17 @@
+id: pl_luoyi
+type: Place
+name: 洛邑
+modern_name: 洛阳
+province: 河南
+latitude: 34.62
+longitude: 112.45
+category: capital
+aliases:
+- 成周
+- 王城
+- 东都
+description: 东周王城。周公营建洛邑为东都；前770年平王自镐京东迁定都于此，东周历代天子都之，至前256年秦灭东周。春秋时为天下共主周天子所居，名义上的政治中心。
+sources:
+- 史记·周本纪
+- 左传·隐公
+- 尚书·洛诰

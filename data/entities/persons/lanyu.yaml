@@ -1,0 +1,14 @@
+id: p_lanyu
+type: Person
+name: 蓝玉
+alias:
+- 凉国公
+died:
+  year: 1393
+gender: male
+birthplace: pl_dingyuan_li
+bio: 明开国骁将。1388 捕鱼儿海破北元。1393 蓝玉案被诛。
+sources:
+- 明史·蓝玉传
+wikidata_id: "Q1187958"
+wikipedia_zh: "藍玉"

@@ -1,0 +1,12 @@
+id: pl_cbdb_4633
+type: Place
+name: 如皋
+modern_name: 如皋
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.384022
+longitude: 120.558662
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

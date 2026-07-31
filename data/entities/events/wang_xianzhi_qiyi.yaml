@@ -1,0 +1,19 @@
+id: e_wang_xianzhi_qiyi
+type: Event
+name: 王仙芝起义
+date:
+  year: 875
+  month: 6
+category: rebellion
+importance: 3
+location: pl_changyuan
+polities_involved:
+- k_tang
+description: 875 年六月王仙芝于长垣聚众起兵,自称天补平均大将军。攻占曹、濮、郓诸州。后转战河南、湖北、安徽。878 年战死于黄梅。
+impact: 与黄巢起义同为唐末大起义先驱。
+sources:
+- 旧唐书·僖宗纪
+- 资治通鉴·卷252
+end_date:
+  year: 878
+  month: 2

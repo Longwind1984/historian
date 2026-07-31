@@ -1,0 +1,17 @@
+id: p_tian_chengsi
+type: Person
+name: 田承嗣
+born:
+  year: 705
+died:
+  year: 779
+gender: male
+birthplace: pl_weizhou
+bio: 魏博节度使(763-779)。安史旧部。河朔三镇割据奠基者。领魏、博、相、卫、贝、澶六州,设牙军,父死子继,公赋不入朝。
+ext:
+  significance: 河朔三镇割据传统的开创者。
+sources:
+- 旧唐书·田承嗣传
+- 新唐书·藩镇魏博传
+wikidata_id: "Q4260397"
+wikipedia_zh: "田承嗣"

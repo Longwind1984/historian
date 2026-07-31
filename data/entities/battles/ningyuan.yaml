@@ -1,0 +1,21 @@
+id: b_ningyuan
+type: Battle
+name: 宁远之战
+date:
+  year: 1626
+category: battle
+importance: 3
+location: pl_ningyuan
+combatants:
+- k_ming
+- k_houjin
+commanders:
+- p_yuanchonghuan
+- p_nuerhaci
+victor: k_ming
+victor_commander: p_yuanchonghuan
+description: 努尔哈赤攻宁远。袁崇焕用红夷大炮坚守。努尔哈赤受创(后病死)。
+significance: 明首次正面击败后金。
+sources:
+- 明史·袁崇焕传
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Battle of Ningyuan.jpg

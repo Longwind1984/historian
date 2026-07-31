@@ -1,0 +1,20 @@
+id: p_xuwen
+type: Person
+name: 徐温
+gender: male
+courtesy_name: 敦美
+born:
+  year: 862
+died:
+  year: 927
+  month: 10
+roles:
+- general
+- civil_official
+importance: 3
+bio: 杨行密旧将,杨吴权臣。908 弑杨渥,专吴政二十年,封齐国公。养子徐知诰(即李昪)嗣其位,937 代吴建南唐。
+sources:
+- 新五代史·吴世家
+- 十国春秋·吴
+wikidata_id: "Q698576"
+wikipedia_zh: "徐溫"

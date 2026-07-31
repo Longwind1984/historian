@@ -1,0 +1,14 @@
+id: pl_huang_hai
+type: Place
+name: 黄海
+modern_name: 黄海
+province: 黄海
+latitude: 36.0
+longitude: 124.0
+category: battlefield
+description: 黄海海战
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

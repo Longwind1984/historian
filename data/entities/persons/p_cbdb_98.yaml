@@ -1,0 +1,14 @@
+id: p_cbdb_98
+type: Person
+name: 陳堯佐
+born:
+  year: 963
+died:
+  year: 1044
+gender: male
+birthplace: pl_cbdb_100494
+dynasty_ref: k_beisong
+bio: CBDB ID 98
+name_en: Chen Yaozuo
+sources:
+- CBDB (China Biographical Database)

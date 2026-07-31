@@ -1,0 +1,14 @@
+id: p_cbdb_12850
+type: Person
+name: 王代恕
+born:
+  year: 973
+died:
+  year: 1041
+gender: male
+birthplace: pl_cbdb_100662
+dynasty_ref: k_beisong
+bio: CBDB ID 12850
+name_en: Wang Daishu
+sources:
+- CBDB (China Biographical Database)

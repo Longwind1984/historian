@@ -1,0 +1,14 @@
+id: k_waci
+type: Polity
+name: 瓦剌
+name_en: Oirat
+color: '#6a8ca0'
+founded:
+  year: 1438
+ended:
+  year: 1454
+description: 蒙古西部部族联盟(卫拉特)。1438 脱欢统一漠北、立脱脱不花为可汗而己为太师,实权在瓦剌。子也先 1449 土木堡俘明英宗,1453 自立为汗,1454 被杀,联盟瓦解。此处起止取其作为统一政治势力的活跃期;部族本身此前此后皆延续,后裔演为准噶尔。
+sources:
+- 明史·瓦剌传
+- 明英宗实录
+founder: p_yexian

@@ -1,0 +1,15 @@
+id: f_jingnan_ji
+type: Faction
+name: 靖难功臣集团
+nature: military_clan
+founded:
+  year: 1399
+dissolved:
+  year: 1424
+core_region: pl_beiping_zhudi
+description: 朱棣燕藩嫡系。姚广孝为谋主,张玉、朱能、丘福等为将。靖难之役夺位。1410 丘福北征全军覆没。
+significance: 明成祖朝统治核心。
+peak_period: 1399-1424
+sources:
+- 明史
+- 清史稿

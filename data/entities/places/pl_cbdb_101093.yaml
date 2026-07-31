@@ -1,0 +1,12 @@
+id: pl_cbdb_101093
+type: Place
+name: 嚴州
+modern_name: 嚴州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.544481
+longitude: 119.498856
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

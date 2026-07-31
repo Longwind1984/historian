@@ -1,0 +1,12 @@
+id: pl_cbdb_14746
+type: Place
+name: 龍興
+modern_name: 龍興
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.871128
+longitude: 113.061172
+first_year: 705
+last_year: 959
+description: CBDB 行政类型:Xian

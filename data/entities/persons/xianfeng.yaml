@@ -1,0 +1,34 @@
+id: p_xianfeng
+type: Person
+name: 奕詝
+alias:
+- 清文宗
+- 咸丰
+- 咸丰帝
+born:
+  year: 1831
+died:
+  year: 1861
+gender: male
+birthplace: pl_beijing_qing
+bio: 道光四子。太平天国起、第二次鸦片战争败,1860年英法联军入北京、火烧圆明园,避走热河,次年崩于避暑山庄。遗命八大臣辅政,旋有辛酉政变。
+sources:
+- 清史稿·文宗本纪
+- 清史稿
+- 清实录
+reign_start:
+  year: 1850
+reign_end:
+  year: 1861
+roles:
+- emperor
+ext:
+  title: 咸丰帝
+  regime: 清
+importance: 2
+wikidata_id: "Q334452"
+wikipedia_zh: "咸丰帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%E3%80%8A%E5%92%B8%E4%B8%B0%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg/500px-%E3%80%8A%E5%92%B8%E4%B8%B0%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+image_license: "Public domain"
+image_credit: "Qing Dynasty Court Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E3%80%8A%E5%92%B8%E4%B8%B0%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"

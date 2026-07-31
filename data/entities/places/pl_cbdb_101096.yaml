@@ -1,0 +1,12 @@
+id: pl_cbdb_101096
+type: Place
+name: 溫州
+modern_name: 溫州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.018291473
+longitude: 120.65322113
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

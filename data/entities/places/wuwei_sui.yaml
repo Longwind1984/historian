@@ -1,0 +1,13 @@
+id: pl_wuwei_sui
+type: Place
+name: 武威
+modern_name: 武威
+province: 甘肃
+latitude: 37.93
+longitude: 102.64
+category: city
+description: 苏威籍贯
+sources:
+- 旧唐书
+- 隋书
+- 中国历史地图集

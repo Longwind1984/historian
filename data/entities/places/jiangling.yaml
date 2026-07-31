@@ -1,0 +1,16 @@
+id: pl_jiangling
+type: Place
+name: 江陵
+modern_name: 荆州
+province: 湖北
+latitude: 30.33
+longitude: 112.24
+category: capital
+description: 荆南/南平都城
+aliases:
+- 荆州
+- 南平
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

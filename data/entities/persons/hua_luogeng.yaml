@@ -1,0 +1,18 @@
+id: p_hua_luogeng
+name: 华罗庚
+type: Person
+born: {year: 1910}
+died: {year: 1985}
+roles:
+  - scholar
+importance: 2
+bio: 江苏金坛人。数学家,在数论、多复变函数论等领域有重要贡献。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q590111"
+wikipedia_zh: "华罗庚"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Hua_Luogeng_1956.jpg"
+image_license: "Public domain"
+image_credit: "牛畏予"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hua_Luogeng_1956.jpg"

@@ -1,0 +1,14 @@
+id: pl_shenyang_qing
+type: Place
+name: 盛京/沈阳
+modern_name: 沈阳
+province: 辽宁
+latitude: 41.81
+longitude: 123.43
+category: capital
+description: 清入关前都
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

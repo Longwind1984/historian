@@ -1,0 +1,35 @@
+id: p_sunwu
+type: Person
+name: 孙武
+alias:
+- 孙子
+gender: male
+born:
+  year: -545
+died:
+  year: -470
+roles:
+- general
+- scholar
+importance: 1
+bio: 孙武，齐国人，后入吴。以兵法十三篇见吴王阖闾，被任为将军，佐阖闾与伍子胥伐楚，前506年柏举之战大破楚军，攻入郢都。旧题其所著《孙子兵法》十三篇为兵学经典，论"知己知彼""不战而屈人之兵"。其生平先秦两汉记载简略，个别学者对其独立身份存疑。
+life_events:
+- year: -512
+  event: 以兵法十三篇见吴王阖闾
+  source: 史记·孙子吴起列传
+- year: -506
+  event: 柏举之战大破楚军入郢
+  source: 左传·定公四年
+sources:
+- 史记·孙子吴起列传
+- 孙子兵法·谋攻篇
+- 左传·定公四年
+ext:
+  disputed: true
+  note: 生卒均约数;《史记》确载者仅仕吴阖闾(前514-前496)间事
+wikidata_id: "Q37151"
+wikipedia_zh: "孙武"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg"

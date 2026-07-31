@@ -1,0 +1,17 @@
+id: e_gengzi_qiyi
+type: Event
+name: 义和团运动
+date:
+  year: 1900
+category: rebellion
+importance: 2
+location: pl_beijing_qing
+polities_involved:
+- k_qing
+description: 1900 民间反洋教运动。慈禧利用宣战。八国联军攻陷北京,慈禧西狩。1901 辛丑条约赔 4.5 亿两。
+impact: 晚清民族主义运动。
+sources:
+- 清史稿·德宗本纪
+end_date:
+  year: 1901
+  month: 9

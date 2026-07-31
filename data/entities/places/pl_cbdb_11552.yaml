@@ -1,0 +1,12 @@
+id: pl_cbdb_11552
+type: Place
+name: 莘縣
+modern_name: 莘縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.236708
+longitude: 115.665085
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

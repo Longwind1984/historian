@@ -1,0 +1,16 @@
+id: e_daliyi
+type: Event
+name: 大礼议
+date:
+  year: 1521
+category: purge
+importance: 2
+location: pl_beijing_qing
+polities_involved:
+- k_ming
+description: 1521 武宗崩无子,堂弟朱厚熜(世宗)入继。世宗欲尊生父为帝,与朝臣(杨廷和等)对立。1524 廷杖百余人,世宗胜。
+impact: 明世宗朝政治主线,加剧君臣对立。
+sources:
+- 明史·世宗本纪
+end_date:
+  year: 1524

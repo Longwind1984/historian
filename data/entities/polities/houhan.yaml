@@ -1,0 +1,31 @@
+id: k_houhan
+type: Polity
+name: 后汉
+name_en: Later Han
+color: '#f39c12'
+founded:
+  year: 947
+  month: 2
+ended:
+  year: 951
+  month: 1
+capital: pl_kaifeng
+description: 刘知远在契丹北撤后建国,都开封。仅四年即亡,五代最短命。
+sources:
+- 旧五代史·汉书
+- 新五代史·汉本纪
+- 资治通鉴·卷286-290
+founder: p_liuzhiyuan
+ended_by: k_houzhou
+territory:
+- valid_from:
+    year: 947
+  valid_to:
+    year: 950
+  geojson_file: houhan_peak.geojson
+- valid_from:
+    year: 947
+  valid_to:
+    year: 951
+  geojson_file: chgis_wudai.geojson
+  note: CHGIS V5 府级多边形(整个五代时期)

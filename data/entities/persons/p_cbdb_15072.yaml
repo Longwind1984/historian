@@ -1,0 +1,14 @@
+id: p_cbdb_15072
+type: Person
+name: 楊簡
+born:
+  year: 1141
+died:
+  year: 1226
+gender: male
+birthplace: pl_cbdb_12771
+dynasty_ref: k_beisong
+bio: CBDB ID 15072
+name_en: Yang Jian
+sources:
+- CBDB (China Biographical Database)

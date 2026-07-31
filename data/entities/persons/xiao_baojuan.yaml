@@ -1,0 +1,32 @@
+id: p_xiao_baojuan
+type: Person
+name: 萧宝卷
+alias:
+- 东昏侯
+born:
+  year: 483
+died:
+  year: 501
+reign_start:
+  year: 498
+reign_end:
+  year: 501
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_qi
+bio: 明帝子。荒暴嗜杀,诛戮大臣,激起萧衍起兵。501年为其臣所弑。
+ext:
+  title: 齐东昏侯
+  regime: 南齐
+sources:
+- 南齐书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1336575"
+wikipedia_zh: "蕭寶卷"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_%28page_48%29_%28%E8%90%A7%E5%AE%9D%E5%8D%B7_%E6%BD%98%E7%8E%89%E5%84%BF_cropped%29.jpg/500px-thumbnail.jpg"
+image_license: "CC0"
+image_credit: "书格"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_(page_48)_(%E8%90%A7%E5%AE%9D%E5%8D%B7_%E6%BD%98%E7%8E%89%E5%84%BF_cropped).jpg"

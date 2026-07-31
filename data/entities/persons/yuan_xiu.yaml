@@ -1,0 +1,28 @@
+id: p_yuan_xiu
+type: Person
+name: 元修
+alias:
+- 北魏孝武帝
+born:
+  year: 510
+died:
+  year: 535
+reign_start:
+  year: 532
+reign_end:
+  year: 534
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_beiwei
+bio: 高欢所立。不堪高欢挟制,534年西奔宇文泰,北魏遂分东西。旋为宇文泰所鸩。
+ext:
+  title: 北魏孝武帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1071537"
+wikipedia_zh: "魏孝武帝"

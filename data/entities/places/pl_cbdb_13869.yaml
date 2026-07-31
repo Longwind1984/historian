@@ -1,0 +1,12 @@
+id: pl_cbdb_13869
+type: Place
+name: 閩縣
+modern_name: 閩縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.073954
+longitude: 119.321577
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

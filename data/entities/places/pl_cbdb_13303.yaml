@@ -1,0 +1,12 @@
+id: pl_cbdb_13303
+type: Place
+name: 眉州
+modern_name: 眉州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.05050087
+longitude: 103.83145905
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

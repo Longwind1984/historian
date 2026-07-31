@@ -1,0 +1,12 @@
+id: pl_cbdb_8273
+type: Place
+name: 東湖
+modern_name: 東湖
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.704227448
+longitude: 111.28712463
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

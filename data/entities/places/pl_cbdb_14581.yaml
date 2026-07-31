@@ -1,0 +1,12 @@
+id: pl_cbdb_14581
+type: Place
+name: 慶州
+modern_name: 慶州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.00516
+longitude: 107.876
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:Zhou

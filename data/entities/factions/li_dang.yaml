@@ -1,0 +1,18 @@
+id: f_li_dang
+type: Faction
+name: 李党
+nature: political
+founded:
+  year: 821
+dissolved:
+  year: 859
+core_region: pl_chang_an
+description: 中晚唐朝堂党争中的另一派。以李德裕、李吉甫为首,代表门荫世族、北朝以来的山东士族(陈寅恪说)。主张强力削藩、抑制宦官、毁佛。
+significance: 李党执政时期(李德裕会昌年间)是晚唐短暂中兴。
+peak_period: 长庆-大中
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新唐书
+- 旧唐书
+- 毛汉光·中国中古政治史论
+- 谷川道雄·隋唐帝国形成史论

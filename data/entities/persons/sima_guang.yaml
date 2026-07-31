@@ -1,0 +1,29 @@
+id: p_sima_guang
+type: Person
+name: 司马光
+alias:
+- 司马君实
+courtesy_name: 君实
+born:
+  year: 1019
+died:
+  year: 1086
+  month: 9
+gender: male
+roles:
+- civil_official
+- scholar
+importance: 1
+birthplace: pl_xiaxian
+bio: 北宋政治家、史学家。保守派领袖,反对王安石变法。主编《资治通鉴》。1085 高太后临朝,起为相,废新法。
+ext:
+  significance: 《资治通鉴》是中国史学的不朽巨著。
+sources:
+- 宋史·司马光传
+- 资治通鉴
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Sima_Guang_1.jpg/500px-Sima_Guang_1.jpg"
+wikidata_id: "Q33566"
+wikipedia_zh: "司马光"
+image_license: "Public domain"
+image_credit: "Annonymous"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sima_Guang_1.jpg"

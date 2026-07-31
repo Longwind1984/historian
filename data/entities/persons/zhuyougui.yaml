@@ -1,0 +1,31 @@
+id: p_zhuyougui
+type: Person
+name: 朱友珪
+alias:
+- 郢王
+born:
+  year: 888
+died:
+  year: 913
+  month: 3
+gender: male
+birthplace: pl_kaifeng
+bio: 后梁第二任皇帝。朱温第三子,封郢王。912 年弑父篡位,在位约半年。913 年为弟朱友贞所杀。
+sources:
+- 旧五代史·梁末帝纪
+- 资治通鉴·卷268
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 912
+reign_end:
+  year: 913
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后梁郢王
+  regime: 后梁
+wikidata_id: "Q1138520"
+wikipedia_zh: "朱友珪"

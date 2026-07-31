@@ -1,0 +1,29 @@
+id: b_gaolianghe
+type: Battle
+name: 高梁河之战
+date:
+  year: 979
+  month: 7
+category: battle
+importance: 2
+march:
+- from: pl_taiyuan
+  to: pl_youzhou
+  note: 宋太宗灭北汉后由太原径攻辽南京幽州；此段只记灭北汉后转攻幽州，不代替高梁河战场内的交战路线。《宋史·太宗本纪》《辽史·景宗本纪》
+location: pl_youzhou
+combatants:
+- k_beisong
+- k_liao
+commanders:
+- p_zhaoguangyi
+victor: k_liao
+victor_commander: null
+description: 太宗灭北汉后径攻辽之南京幽州。围城半月不下。辽将耶律休哥来援,高梁河畔大败宋军。太宗股中两箭,驴车逃归。
+significance: 北宋首次重大军事失利,基本宣告武力收复燕云无望。
+sources:
+- 宋史·太宗本纪
+- 辽史·景宗本纪
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 宋太宗径攻幽州,高梁河大败

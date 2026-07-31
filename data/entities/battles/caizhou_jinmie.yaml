@@ -1,0 +1,21 @@
+id: b_caizhou_jinmie
+type: Battle
+name: 蔡州之战(金亡)
+date:
+  year: 1234
+  month: 2
+category: conquest
+importance: 2
+location: pl_caizhou_wysx
+combatants:
+- k_jin
+- k_yuan
+- k_nansong
+commanders:
+- p_wanyanshouxu
+victor: k_yuan
+victor_commander: null
+description: 金哀宗弃汴走蔡州。蒙古与南宋联军围蔡州三月。城破。哀宗传位完颜承麟后自缢,金亡。
+significance: 金朝(1115-1234)灭亡,立国 119 年。
+sources:
+- 金史·哀宗本纪

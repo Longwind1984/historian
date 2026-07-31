@@ -1,0 +1,12 @@
+id: pl_cbdb_11172
+type: Place
+name: 萊州
+modern_name: 萊州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.175430298
+longitude: 119.93800354
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

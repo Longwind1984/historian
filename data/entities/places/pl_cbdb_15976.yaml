@@ -1,0 +1,12 @@
+id: pl_cbdb_15976
+type: Place
+name: 長沙
+modern_name: 長沙
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.198198
+longitude: 112.978134
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

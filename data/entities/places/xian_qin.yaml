@@ -1,0 +1,14 @@
+id: pl_xian_qin
+type: Place
+name: 新郑/郑
+modern_name: 新郑
+province: 河南
+latitude: 34.4
+longitude: 113.86
+category: city
+description: 韩都
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

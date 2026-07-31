@@ -1,0 +1,14 @@
+id: p_cbdb_22123
+type: Person
+name: 王陶
+born:
+  year: 1020
+died:
+  year: 1080
+gender: male
+birthplace: pl_cbdb_100599
+dynasty_ref: k_beisong
+bio: CBDB ID 22123
+name_en: Wang Tao (4)
+sources:
+- CBDB (China Biographical Database)

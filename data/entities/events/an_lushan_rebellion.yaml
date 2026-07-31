@@ -1,0 +1,28 @@
+id: e_an_lushan_rebellion
+type: Event
+name: 安史之乱
+date:
+  year: 755
+  month: 12
+category: war
+march:
+- from: pl_youzhou
+  to: pl_luoyang_sui
+  note: 安禄山于范阳节度使治所幽州起兵南下，越河北而陷洛阳；此段只表达叛军攻取东都的第一阶段。《资治通鉴·卷217》
+- from: pl_luoyang_sui
+  to: pl_chang_an
+  note: 叛军据洛阳后西进，唐军失潼关，继而陷长安；库内尚无潼关地点，故本段仅记两座都城间的阶段起讫，不代替逐站路线。《资治通鉴·卷218》
+importance: 1
+location: pl_youzhou
+polities_involved:
+- k_tang
+description: 755 年安禄山自范阳起兵,攻克洛阳、长安。玄宗入蜀,肃宗即位灵武。唐廷借回纥兵平叛,763 年史朝义兵败自缢,历时八年的安史之乱结束。
+impact: 唐由盛转衰的转折点。直接导致藩镇割据(河朔三镇)、宦官专权(神策军)、朋党之争——五代十国的所有病根皆源于此。从此关陇集团进一步式微,中国政治经济重心开始南移。
+sources:
+- 旧唐书·安禄山传
+- 新唐书·逆臣传
+- 资治通鉴·卷217-223
+end_date:
+  year: 763
+  month: 1
+image: https://commons.wikimedia.org/wiki/Special:FilePath/An Lushan Rebellion.jpg

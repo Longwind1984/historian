@@ -1,0 +1,25 @@
+id: p_feng_guozhang
+type: Person
+name: 冯国璋
+alias:
+- 冯华甫
+courtesy_name: 华甫
+born:
+  year: 1859
+died:
+  year: 1919
+gender: male
+roles:
+- general
+- civil_official
+importance: 2
+bio: 直隶河间(今属河北)人，北洋军阀直系首领。天津武备学堂毕业，曾赴日本考察军事，为袁世凯小站练兵骨干，与段祺瑞、王士珍并称"北洋三杰"。民国后任直隶都督、江苏都督。1916 年当选副总统，1917 年黎元洪去职后代理大总统，与段祺瑞在护法、对德宣战等问题上对立，形成"府院之争"。1918 年期满去职，1919 年病逝。
+sources:
+- 中华民国史·冯国璋传
+- 来新夏·北洋军阀史稿
+wikidata_id: "Q700576"
+wikipedia_zh: "馮國璋"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Feng_Kuo-chang.jpg"
+image_license: "Public domain"
+image_credit: "User Magnus Manske on en.wikipedia"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Feng_Kuo-chang.jpg"

@@ -1,0 +1,22 @@
+id: p_pangjuan
+type: Person
+name: 庞涓
+gender: male
+roles:
+- general
+importance: 3
+died:
+  year: -341
+bio: 庞涓，魏国人。早年与孙膑俱学兵法，后为魏惠王将。忌孙膑之才，召至魏施以膑刑黥面，齐使载膑归齐。前354年庞涓率魏军围赵邯郸，齐田忌、孙膑救赵，于桂陵设伏破之。前341年魏伐韩，齐救韩，庞涓轻骑追击齐军，孙膑减灶示弱诱之入马陵狭谷，万弩齐发，魏军大溃，庞涓自杀(一说出战死)。
+life_events:
+- year: -353
+  event: 桂陵之战，中伏败于齐
+  source: 史记·孙子吴起列传
+- year: -341
+  event: 马陵之战，兵败自杀
+  source: 史记·孙子吴起列传
+sources:
+- 史记·孙子吴起列传
+- 战国策·齐策
+wikidata_id: "Q3773182"
+wikipedia_zh: "庞涓"

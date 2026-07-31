@@ -1,0 +1,10 @@
+id: pl_cbdb_18935
+type: Place
+name: 四川
+modern_name: 四川
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 1001
+last_year: 1279
+description: CBDB 行政类型:Region

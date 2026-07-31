@@ -1,0 +1,22 @@
+id: p_yangpu
+type: Person
+name: 杨溥
+alias:
+- 吴睿帝
+born:
+  year: 900
+died:
+  year: 938
+  month: 12
+gender: male
+birthplace: pl_jinling
+bio: 杨吴末代君主。937 年禅位于徐知诰(李昪),吴亡。938 年卒。
+sources:
+- 新五代史·吴世家
+- 十国春秋·吴
+wikidata_id: "Q1092630"
+wikipedia_zh: "杨溥 (建文进士)"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Yang_Pu.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yang_Pu.png"

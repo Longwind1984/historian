@@ -1,0 +1,38 @@
+id: p_zhuwen
+type: Person
+name: 朱温
+alias:
+- 朱全忠
+- 朱晃
+- 梁太祖
+courtesy_name: 全忠
+born:
+  year: 852
+  month: 10
+died:
+  year: 912
+  month: 7
+reign_start:
+  year: 907
+reign_end:
+  year: 912
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_songzhou
+bio: 后梁建立者。初为黄巢部将,882 年降唐,赐名全忠。任宣武节度使,以汴州为基地逐步扩张,904 年挟持唐昭宗迁洛阳,907 年逼唐哀帝禅让,建国号梁,都开封。晚年荒淫,912
+  年为第三子朱友珪所弑。
+sources:
+- 旧五代史·梁太祖纪
+- 新五代史·梁本纪
+- 资治通鉴·卷254-268
+ext:
+  title: 朱温
+  regime: 后梁
+wikidata_id: "Q1275305"
+wikipedia_zh: "朱温"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Zhu_Wen_%28Liang_Taizu%29.jpg/500px-Zhu_Wen_%28Liang_Taizu%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhu_Wen_(Liang_Taizu).jpg"

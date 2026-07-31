@@ -1,0 +1,632 @@
+- from: p_ying_zheng
+  to: k_qin
+  type: founded
+  note: 完成统一
+- from: p_ying_zheng
+  to: p_fusu
+  type: father_of
+- from: p_ying_zheng
+  to: p_hu_hai
+  type: father_of
+- from: p_lv_bu_wei
+  to: p_ying_zheng
+  type: served_under
+  until:
+    year: 235
+  note: 相邦
+- from: p_li_si
+  to: p_ying_zheng
+  type: served_under
+  until:
+    year: 208
+  note: 丞相
+- from: p_zhao_gao
+  to: p_hu_hai
+  type: served_under
+  note: 沙丘矫诏立胡亥,任郎中令操控朝政
+  until:
+    year: 207
+    month: 9
+- from: p_wang_jian
+  to: p_ying_zheng
+  type: served_under
+  note: 灭楚
+- from: p_meng_tian
+  to: p_ying_zheng
+  type: served_under
+  until:
+    year: 210
+  note: 却匈奴
+- from: p_zhao_gao
+  to: p_fusu
+  type: killed
+  note: 矫诏赐死
+- from: p_zhao_gao
+  to: p_li_si
+  type: killed
+  since:
+    year: 208
+  note: 诬陷谋反
+- from: p_zhao_gao
+  to: p_hu_hai
+  type: killed
+  since:
+    year: 207
+    month: 9
+  note: 逼杀
+- from: p_ying_zheng
+  to: e_qin_mie_liuguo
+  type: participated_in
+  note: 主导
+- from: p_ying_zheng
+  to: e_fenshu_kengru
+  type: participated_in
+  since:
+    year: 213
+  until:
+    year: 210
+    month: 7
+  note: 主导
+- from: p_zhang_han
+  to: p_hu_hai
+  type: served_under
+  note: 少府,统骊山徒平陈胜吴广起义
+  until:
+    year: 209
+- from: p_zhang_han
+  to: k_qin
+  type: served_under
+  note: 巨鹿兵败降项羽
+  until:
+    year: 207
+- from: p_xiang_liang
+  to: p_xiang_yu
+  type: uncle_of
+  note: 叔侄
+- from: p_xiang_yu
+  to: k_chu_xiang
+  type: founded
+  since:
+    year: 206
+    month: 2
+  note: 都彭城
+- from: p_xiang_yu
+  to: p_fan_zeng
+  type: served_under
+  until:
+    year: 204
+  note: 亚父
+- from: p_xiang_yu
+  to: e_julu_zhizhan
+  type: led
+  since:
+    year: 207
+    month: 12
+  note: 破釜沉舟
+- from: p_xiang_yu
+  to: e_chuhan_zhanzheng
+  type: participated_in
+  note: 西楚霸王,终败于刘邦
+  since:
+    year: 206
+    month: 8
+  until:
+    year: 202
+    month: 12
+- from: p_xiang_yu
+  to: e_gaixia_zhizhan
+  type: led
+  since:
+    year: 202
+    month: 12
+  note: 战败
+- from: p_liu_bang_qin
+  to: k_xihan
+  type: founded
+  since:
+    year: 202
+    month: 2
+  note: 都长安
+- from: p_liu_bang_qin
+  to: p_xiang_yu
+  type: rival_of
+  since:
+    year: 206
+    month: 8
+  until:
+    year: 202
+    month: 12
+  note: 楚汉
+- from: p_liu_bang_qin
+  to: e_chuhan_zhanzheng
+  type: led
+  note: 汉王,终胜称帝
+  since:
+    year: 206
+    month: 8
+  until:
+    year: 202
+    month: 12
+- from: p_liu_bang_qin
+  to: e_gaixia_zhizhan
+  type: led
+  since:
+    year: 202
+    month: 12
+  note: 胜方
+- from: p_liu_bang_qin
+  to: p_xiao_he
+  type: served_under
+  until:
+    year: 195
+    month: 6
+  note: 相国
+- from: p_zhang_liang
+  to: p_liu_bang_qin
+  type: served_under
+  note: 运筹帷幄,封留侯
+  until:
+    year: 189
+- from: p_liu_bang_qin
+  to: p_han_xin
+  type: served_under
+  until:
+    year: 196
+  note: 大将军
+- from: p_caocan
+  to: p_liu_bang_qin
+  type: served_under
+  note: 功臣第二,萧何死后继相
+- from: p_fan_kuai
+  to: p_liu_bang_qin
+  type: served_under
+  note: 连襟,鸿门宴持盾救主
+- from: p_chen_ping
+  to: p_liu_bang_qin
+  type: served_under
+  note: 六出奇计,后任丞相
+- from: p_han_xin
+  to: e_gaixia_zhizhan
+  type: led
+  since:
+    year: 202
+    month: 12
+  note: 指挥
+- from: p_lv_zhi
+  to: p_liu_bang_qin
+  type: spouse_of
+  until:
+    year: 195
+    month: 6
+- from: p_lv_zhi
+  to: p_han_xin
+  type: killed
+  since:
+    year: 196
+  note: 诛韩信
+- from: p_xiao_he
+  to: p_han_xin
+  type: mentored_by
+  note: 萧何月下追韩信
+- from: p_xiao_he
+  to: p_lv_zhi
+  type: allied_with
+  note: 诛韩信
+- from: p_liu_heng
+  to: k_xihan
+  type: succeeded_by
+  since:
+    year: 180
+  until:
+    year: 157
+  note: 文帝
+- from: p_liu_qi
+  to: k_xihan
+  type: succeeded_by
+  since:
+    year: 157
+  until:
+    year: 141
+  note: 景帝
+- from: p_liu_heng
+  to: p_liu_qi
+  type: father_of
+  since:
+    year: 188
+- from: p_liu_qi
+  to: p_liu_che
+  type: father_of
+  since:
+    year: 156
+- from: p_liu_che
+  to: k_xihan
+  type: succeeded_by
+  since:
+    year: 141
+  until:
+    year: 87
+  note: 武帝
+- from: p_liu_che
+  to: p_liu_fuling
+  type: father_of
+  since:
+    year: 94
+- from: p_liu_fuling
+  to: k_xihan
+  type: succeeded_by
+  since:
+    year: 87
+  until:
+    year: 74
+  note: 昭帝
+- from: p_liu_xun
+  to: k_xihan
+  type: succeeded_by
+  since:
+    year: 74
+  until:
+    year: 49
+  note: 宣帝
+- from: p_liu_ao
+  to: k_xihan
+  type: succeeded_by
+  since:
+    year: 33
+  until:
+    year: 7
+  note: 成帝
+- from: p_zhao_feiyan
+  to: p_liu_ao
+  type: spouse_of
+  until:
+    year: 7
+- from: p_liu_heng
+  to: e_wen_jing_zhizhi
+  type: participated_in
+  since:
+    year: 180
+  until:
+    year: 157
+  note: 主导
+- from: p_liu_qi
+  to: e_wen_jing_zhizhi
+  type: participated_in
+  since:
+    year: 157
+  until:
+    year: 141
+  note: 主导
+- from: p_liu_qi
+  to: e_qiguo_zhiluan
+  type: participated_in
+  since:
+    year: 154
+    month: 1
+  until:
+    year: 154
+    month: 3
+  note: 主导
+- from: p_liu_che
+  to: e_tui_en_ling
+  type: participated_in
+  since:
+    year: 127
+  note: 采纳主父偃策
+- from: p_wei_qing
+  to: p_liu_che
+  type: served_under
+  note: 大将军,七击匈奴
+  until:
+    year: 106
+- from: p_huo_qubing
+  to: p_liu_che
+  type: served_under
+  note: 骠骑将军,封冠军侯
+  until:
+    year: 117
+- from: p_wei_qing
+  to: p_huo_qubing
+  type: uncle_of
+  note: 舅侄
+- from: p_wei_qing
+  to: e_mobei_zhizhan
+  type: led
+  note: 率军越大漠击单于本阵
+  since:
+    year: 119
+- from: p_huo_qubing
+  to: e_mobei_zhizhan
+  type: led
+  since:
+    year: 119
+  note: 封狼居胥
+- from: p_zhang_qian
+  to: p_liu_che
+  type: served_under
+  note: 凿空西域,两度出使
+  until:
+    year: 114
+- from: p_zhang_qian
+  to: e_zhang_qian_xiyu
+  type: participated_in
+  since:
+    year: 138
+  until:
+    year: 114
+  note: 凿空
+- from: p_su_wu
+  to: p_liu_che
+  type: served_under
+  note: 出使匈奴被扣十九年,持节不屈
+- from: p_huo_guang
+  to: p_liu_fuling
+  type: served_under
+  since:
+    year: 87
+  until:
+    year: 68
+  note: 辅政
+- from: p_huo_guang
+  to: p_liu_xun
+  type: served_under
+  since:
+    year: 74
+  until:
+    year: 66
+  note: 立宣帝
+- from: p_dong_zhongshu
+  to: p_liu_che
+  type: served_under
+  note: 天人三策
+- from: p_sima_qian
+  to: p_liu_che
+  type: served_under
+  until:
+    year: 91
+  note: 太史令
+- from: p_liu_che
+  to: e_wugu_zhi_huo
+  type: participated_in
+  since:
+    year: 91
+  note: 晚年悲剧
+- from: p_liu_che
+  to: e_mobei_zhizhan
+  type: participated_in
+  since:
+    year: 119
+  note: 主导
+- from: p_wang_mang
+  to: k_xin
+  type: founded
+  since:
+    year: 9
+    month: 1
+  note: 代汉建新
+- from: p_wang_mang
+  to: k_xihan
+  type: usurped
+  note: 以外戚代汉,建新朝
+  since:
+    year: 9
+    month: 1
+- from: p_wang_mang
+  to: e_wang_mang_chuan_han
+  type: participated_in
+  since:
+    year: 9
+    month: 1
+  note: 主导
+- from: p_wang_mang
+  to: e_wang_mang_gaige
+  type: participated_in
+  since:
+    year: 9
+  until:
+    year: 22
+  note: 主导
+- from: p_liu_xiu
+  to: k_donghan
+  type: founded
+  since:
+    year: 25
+  note: 都洛阳
+- from: p_liu_xiu
+  to: k_xin
+  type: usurped
+  since:
+    year: 23
+  note: 灭新
+- from: p_liu_xiu
+  to: e_kunyang_zhizhan
+  type: led
+  since:
+    year: 23
+    month: 6
+  note: 8000破42万
+- from: p_liu_xiu
+  to: e_guangwu_zhongxing
+  type: participated_in
+  since:
+    year: 25
+  until:
+    year: 57
+    month: 3
+  note: 主导
+- from: p_liu_xiu
+  to: e_lvlin_chimei
+  type: participated_in
+  since:
+    year: 22
+  until:
+    year: 27
+  note: 更始帝后自立
+- from: p_liu_zhuang_dong
+  to: k_donghan
+  type: succeeded_by
+  since:
+    year: 57
+  until:
+    year: 75
+  note: 明帝
+- from: p_liu_da_dong
+  to: k_donghan
+  type: succeeded_by
+  since:
+    year: 75
+  until:
+    year: 88
+  note: 章帝
+- from: p_liu_xiu
+  to: p_liu_zhuang_dong
+  type: father_of
+  since:
+    year: 28
+- from: p_liu_zhuang_dong
+  to: p_liu_da_dong
+  type: father_of
+  since:
+    year: 57
+- from: p_ban_chao
+  to: p_liu_zhuang_dong
+  type: served_under
+  note: 投笔从戎,经营西域三十一年
+  since:
+    year: 73
+  until:
+    year: 88
+- from: p_ban_chao
+  to: e_banchao_xiyu
+  type: led
+  note: 以三十六人定西域五十余国
+  since:
+    year: 73
+  until:
+    year: 102
+- from: p_ban_chao
+  to: p_ban_gu
+  type: sibling_of
+  note: 兄弟
+- from: p_dou_xian
+  to: p_liu_zhuang_dong
+  type: served_under
+  until:
+    year: 92
+  note: 窦太后兄
+- from: p_ma_yuan_dong
+  to: p_liu_xiu
+  type: served_under
+  note: 伏波将军,平定交趾
+  until:
+    year: 49
+- from: p_zhang_heng
+  to: k_donghan
+  type: served_under
+  note: 太史令,制浑天仪、地动仪
+  since:
+    year: 78
+  until:
+    year: 139
+- from: p_cai_lun
+  to: k_donghan
+  type: served_under
+  since:
+    year: 75
+  until:
+    year: 121
+  note: 宦官
+- from: p_zhang_jiao
+  to: e_huangjin_qiyi
+  type: participated_in
+  since:
+    year: 184
+    month: 3
+  until:
+    year: 184
+    month: 9
+  note: 领袖
+- from: p_zhang_jiao
+  to: p_zhang_bao
+  type: sibling_of
+  note: 兄弟
+- from: p_dong_zhuo
+  to: e_dong_zhuo_luan_zheng
+  type: participated_in
+  since:
+    year: 189
+    month: 8
+  until:
+    year: 192
+    month: 5
+  note: 主导
+- from: p_dong_zhuo
+  to: p_lv_bu
+  type: served_under
+  until:
+    year: 192
+    month: 5
+  note: 义父子
+- from: p_lv_bu
+  to: p_dong_zhuo
+  type: killed
+  since:
+    year: 192
+    month: 5
+  note: 与王允合谋
+- from: p_yuan_shao
+  to: e_dong_zhuo_luan_zheng
+  type: participated_in
+  since:
+    year: 190
+  note: 关东联军盟主
+- from: p_yuan_shao
+  to: e_guandu_zhizhan
+  type: participated_in
+  since:
+    year: 200
+    month: 2
+  note: 战败
+- from: e_qin_mie_liuguo
+  to: e_fenshu_kengru
+  type: led_to
+  note: 统一后强化思想控制
+- from: e_fenshu_kengru
+  to: e_daze_xiang_qiyi
+  type: led_to
+  note: 暴政引发起义
+- from: e_daze_xiang_qiyi
+  to: e_julu_zhizhan
+  type: led_to
+  note: 起义→秦亡
+- from: e_julu_zhizhan
+  to: e_chuhan_zhanzheng
+  type: led_to
+  note: 秦亡后楚汉争霸
+- from: e_chuhan_zhanzheng
+  to: e_qiguo_zhiluan
+  type: led_to
+  note: 汉朝建立后,巩固中央
+- from: e_wen_jing_zhizhi
+  to: e_mobei_zhizhan
+  type: led_to
+  note: 国力强盛→主动出击
+- from: e_wugu_zhi_huo
+  to: e_wang_mang_chuan_han
+  type: led_to
+  note: 西汉晚期乱局
+- from: e_wang_mang_chuan_han
+  to: e_kunyang_zhizhan
+  type: led_to
+  note: 新朝暴政
+- from: e_kunyang_zhizhan
+  to: e_guangwu_zhongxing
+  type: led_to
+  note: 新亡东汉立
+- from: e_huangjin_qiyi
+  to: e_dong_zhuo_luan_zheng
+  type: led_to
+  note: 黄巾→军阀混战
+- from: e_dong_zhuo_luan_zheng
+  to: e_guandu_zhizhan
+  type: led_to
+  note: 军阀混战→官渡

@@ -1,0 +1,17 @@
+id: e_danggu_zhi_huo
+type: Event
+name: 党锢之祸
+date:
+  year: 166
+category: purge
+importance: 2
+location: pl_luoyang
+polities_involved:
+- k_donghan
+description: 166-184 桓、灵二帝时,宦官专权。士大夫李膺、范滂等清流与宦官对抗。宦官以'党人'罪名禁锢百余人。184 黄巾起义后才赦免党人,但东汉已摇摇欲坠。
+impact: 东汉政治关键事件,反映士大夫与宦官的长期冲突。
+sources:
+- 后汉书·党锢传
+end_date:
+  year: 184
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Disasters of Partisan Prohibitions.jpg

@@ -1,0 +1,18 @@
+id: p_ye_jianying
+name: 叶剑英
+type: Person
+born: {year: 1897}
+died: {year: 1986}
+roles:
+  - general
+importance: 2
+bio: 广东梅县人。中华人民共和国元帅,1978-1983年任全国人大常委会委员长。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q504372"
+wikipedia_zh: "叶剑英"
+image: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ye_Jianying.jpg"
+image_license: "Public domain"
+image_credit: "解放军画报 刘峰"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Ye_Jianying.jpg"

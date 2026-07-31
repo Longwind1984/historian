@@ -1,0 +1,29 @@
+id: p_zhou_cheng_wang
+type: Person
+name: 周成王
+alias:
+- 成王
+- 姬诵
+gender: male
+roles:
+- emperor
+importance: 2
+reign_start:
+  year: -1042
+reign_end:
+  year: -1021
+bio: 武王之子，姬姓，名诵。幼年即位，周公摄政七年；周公东征平乱后营洛邑、制礼乐。成王亲政后与子康王并称"成康之治"，传刑错四十余年不用。年代据断代工程。
+sources:
+- 史记·周本纪
+- 尚书·周书
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true
+  title: 周成王
+  regime: 西周
+wikidata_id: "Q388766"
+wikipedia_zh: "周成王"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/King_Cheng_of_Zhou.jpg/500px-King_Cheng_of_Zhou.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:King_Cheng_of_Zhou.jpg"

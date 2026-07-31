@@ -1,0 +1,15 @@
+id: pl_yuhang
+type: Place
+name: 余杭
+modern_name: 杭州
+province: 浙江
+latitude: 30.27
+longitude: 120.16
+category: city
+description: 大运河南端
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代
+aliases:
+- 杭州

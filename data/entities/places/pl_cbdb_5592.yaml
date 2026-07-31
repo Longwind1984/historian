@@ -1,0 +1,12 @@
+id: pl_cbdb_5592
+type: Place
+name: 石首
+modern_name: 石首
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.72431
+longitude: 112.406464
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

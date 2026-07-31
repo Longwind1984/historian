@@ -1,0 +1,25 @@
+id: p_yuwen_jue
+type: Person
+name: 宇文觉
+alias:
+- 北周孝闵帝
+born:
+  year: 542
+died:
+  year: 557
+gender: male
+birthplace: pl_tongzhou
+bio: 北周建立者。宇文泰子。557 代西魏建周,称天王。同年为堂兄宇文护所废杀。
+sources:
+- 周书·孝闵帝纪
+reign_start:
+  year: 557
+reign_end:
+  year: 557
+roles:
+- emperor
+ext:
+  title: 北周孝闵帝
+  regime: 北周
+wikidata_id: "Q1149222"
+wikipedia_zh: "周孝闵帝"

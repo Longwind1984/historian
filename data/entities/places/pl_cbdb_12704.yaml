@@ -1,0 +1,12 @@
+id: pl_cbdb_12704
+type: Place
+name: 丹陽
+modern_name: 丹陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.995802
+longitude: 119.569855
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

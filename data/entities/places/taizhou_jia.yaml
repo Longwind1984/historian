@@ -1,0 +1,15 @@
+id: pl_taizhou_jia
+type: Place
+name: 台州
+modern_name: 台州
+province: 浙江
+latitude: 28.66
+longitude: 121.66
+category: city
+description: 贾似道籍贯
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

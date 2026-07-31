@@ -1,0 +1,18 @@
+id: e_pangeng_qianyin
+type: Event
+name: 盘庚迁殷
+date:
+  year: -1300
+category: territory
+importance: 2
+location: pl_yin
+polities_involved:
+- k_shang
+description: 商自中丁后九世之乱、屡次迁都；盘庚即位后约前1300年迁都至殷(今安阳)，作《盘庚》三篇劝谕臣民迁居。迁殷后二百五十余年商都未再迁，国势由衰转稳，故商又称殷。
+impact: 商都始定于殷，政治稳定，进入甲骨文可证的信史阶段，为武丁中兴奠基。
+sources:
+- 尚书·盘庚
+- 史记·殷本纪
+- 竹书纪年·殷纪
+ext:
+  disputed: true

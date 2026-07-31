@@ -1,0 +1,16 @@
+id: p_zhang_liao
+type: Person
+name: 张辽
+alias:
+- 张文远
+courtesy_name: 文远
+born:
+  year: 169
+died:
+  year: 222
+gender: male
+birthplace: pl_mayi_zhangliao
+bio: 曹魏骁将。原吕布部下。215 逍遥津大破孙权。
+sources:
+- 三国志·魏书·张辽传
+wikidata_id: "Q65913366"

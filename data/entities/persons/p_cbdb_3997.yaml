@@ -1,0 +1,14 @@
+id: p_cbdb_3997
+type: Person
+name: 王禹偁
+born:
+  year: 954
+died:
+  year: 1001
+gender: male
+birthplace: pl_cbdb_11263
+dynasty_ref: k_beisong
+bio: CBDB ID 3997
+name_en: Wang Yucheng
+sources:
+- CBDB (China Biographical Database)

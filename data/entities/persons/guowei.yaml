@@ -1,0 +1,38 @@
+id: p_guowei
+type: Person
+name: 郭威
+alias:
+- 后周太祖
+- 郭雀儿
+born:
+  year: 904
+died:
+  year: 954
+  month: 2
+gender: male
+birthplace: pl_xingtai
+bio: 后周建立者。后汉枢密使。乾祐三年十一月因隐帝下诏杀之而起兵，同年十二月经澶州军变后受后汉太后诰命监国；广顺元年正月即帝位，国号周。改革弊政。954 年病死，养子柴荣继。
+sources:
+- 旧五代史·周太祖纪
+- 新五代史·周本纪
+- 资治通鉴·卷289-291
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 951
+  month: 1
+reign_end:
+  year: 954
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后周太祖
+  regime: 后周
+wikidata_id: "Q1188860"
+wikipedia_zh: "郭威"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Guo_Wei_%28Zhou_Taizu%29.jpg/500px-Guo_Wei_%28Zhou_Taizu%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Guo_Wei_(Zhou_Taizu).jpg"

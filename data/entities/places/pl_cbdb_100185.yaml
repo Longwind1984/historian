@@ -1,0 +1,12 @@
+id: pl_cbdb_100185
+type: Place
+name: 建昌
+modern_name: 建昌
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.087832
+longitude: 115.761818
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

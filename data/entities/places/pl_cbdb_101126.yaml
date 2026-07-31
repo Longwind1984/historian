@@ -1,0 +1,12 @@
+id: pl_cbdb_101126
+type: Place
+name: 南劍州
+modern_name: 南劍州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.642173767
+longitude: 118.16918182
+first_year: 979
+last_year: 1279
+description: CBDB 行政类型:Zhou

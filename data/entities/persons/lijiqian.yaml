@@ -1,0 +1,15 @@
+id: p_lijiqian
+type: Person
+name: 李继迁
+born:
+  year: 963
+died:
+  year: 1004
+  month: 2
+gender: male
+birthplace: pl_xiazhou_li
+bio: 党项族首领,西夏奠基者。李元昊之祖。叛宋附辽。攻取灵州,奠西夏基业。
+sources:
+- 宋史·夏国传
+wikidata_id: "Q717904"
+wikipedia_zh: "李继迁"

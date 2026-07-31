@@ -1,0 +1,37 @@
+id: p_liyan_tang
+type: Person
+name: 李炎
+alias:
+- 唐武宗
+- 武宗
+born:
+  year: 814
+died:
+  year: 846
+  month: 3
+gender: male
+birthplace: pl_chang_an
+bio: 唐武宗。840-846 在位。任李德裕为相,平昭义刘稹(843-844),回鹘破亡(840-846)。845 年大举灭佛(三武一宗之三),史称会昌毁佛。服丹药中毒死。
+ext:
+  significance: 晚唐短暂中兴,称'会昌中兴'。
+  title: 唐武宗
+  regime: 唐
+sources:
+- 旧唐书·武宗纪
+- 资治通鉴·卷246-248
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 840
+reign_end:
+  year: 846
+roles:
+- emperor
+importance: 3
+wikidata_id: "Q9801"
+wikipedia_zh: "唐武宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tang_Wuzong.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tang_Wuzong.jpg"

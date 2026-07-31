@@ -1,0 +1,12 @@
+id: pl_cbdb_15160
+type: Place
+name: 臨洺
+modern_name: 臨洺
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.790363
+longitude: 114.482628
+first_year: 622
+last_year: 959
+description: CBDB 行政类型:Xian

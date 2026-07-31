@@ -1,0 +1,20 @@
+id: p_hongguang
+type: Person
+name: 朱由崧
+alias:
+- 弘光帝
+born:
+  year: 1607
+died:
+  year: 1646
+gender: male
+birthplace: pl_nanjing_ming2
+bio: 南明第一位皇帝。福王朱由崧。1644-1645 在位。1645 南京陷被俘。
+sources:
+- 明史·福王传
+wikidata_id: "Q1352743"
+wikipedia_zh: "弘光帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/%E5%BC%98%E5%85%89%E5%B8%9D.jpg/500px-%E5%BC%98%E5%85%89%E5%B8%9D.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%BC%98%E5%85%89%E5%B8%9D.jpg"

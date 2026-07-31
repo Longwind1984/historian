@@ -1,0 +1,38 @@
+id: p_wu_zixu
+type: Person
+name: 伍员
+courtesy_name: 子胥
+alias:
+- 伍子胥
+- 伍员
+- 子胥
+gender: male
+born:
+  year: -559
+died:
+  year: -484
+roles:
+- civil_official
+- general
+importance: 2
+bio: 伍子胥，名员，字子胥，楚国人，伍奢之子。楚平王信谗杀伍奢并其长子尚，子胥出奔，历宋郑入吴。佐吴王阖闾刺王僚夺位、破楚，前506年与孙武共率吴军攻入楚都郢，鞭平王尸三百。后谏吴王夫差拒越求和、慎防越患，夫差不听，反赐属镂之剑令其自尽，前484年子胥伏剑死。
+life_events:
+- year: -522
+  event: 父兄为楚平王所杀，出奔吴
+  source: 左传·昭公二十年
+- year: -515
+  event: 佐阖闾刺王僚夺位
+  source: 史记·吴太伯世家
+- year: -506
+  event: 与孙武破楚入郢，鞭平王尸
+  source: 左传·定公四年
+- year: -484
+  event: 谏夫差拒越，赐剑自尽
+  source: 左传·哀公十一年
+sources:
+- 史记·伍子胥列传
+- 左传·昭公
+- 左传·哀公
+ext:
+  disputed: true
+  note: 卒年确(前484吴王夫差赐属镂);生年约,史无明文

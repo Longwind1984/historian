@@ -1,0 +1,21 @@
+id: p_mengge
+type: Person
+name: 蒙哥
+alias:
+- 元宪宗
+born:
+  year: 1209
+died:
+  year: 1259
+  month: 8
+gender: male
+birthplace: pl_karaktuokuo
+bio: 拖雷长子。第四代大汗(1251-1259)。1253 派旭烈兀第三次西征。1258 亲征南宋,合州钓鱼城战死。
+sources:
+- 元史·宪宗本纪
+wikidata_id: "Q7521"
+wikipedia_zh: "蒙哥"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/2c/M%C3%B6ngke_Khan.jpg"
+image_license: "CC0"
+image_credit: "Abdullâh Sultân (atelier). Shîrâz"
+image_source_page: "https://commons.wikimedia.org/wiki/File:M%C3%B6ngke_Khan.jpg"

@@ -1,0 +1,18 @@
+id: e_xining_bianfa
+type: Event
+name: 王安石变法(熙宁变法)
+date:
+  year: 1069
+  month: 2
+category: reform
+importance: 2
+location: pl_kaifeng
+polities_involved:
+- k_beisong
+description: 神宗任王安石参知政事推行改革。设'制置三司条例司'。新法:青苗、募役、方田均税、农田水利、市易、均输(理财);保甲、保马、将兵(军事);改革科举(育才)。
+impact: 增加财政收入,加强军事,但因执行扭曲、党争效果有限。新党旧党长期互斗。
+sources:
+- 宋史·王安石传
+end_date:
+  year: 1085
+  month: 3

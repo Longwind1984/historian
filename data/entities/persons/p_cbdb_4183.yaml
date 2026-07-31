@@ -1,0 +1,14 @@
+id: p_cbdb_4183
+type: Person
+name: 歐陽觀
+born:
+  year: 952
+died:
+  year: 1010
+gender: male
+birthplace: pl_cbdb_100179
+dynasty_ref: k_beisong
+bio: CBDB ID 4183
+name_en: Ouyang Guan
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_18344
+type: Place
+name: 浦江
+modern_name: 浦江
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.458708
+longitude: 119.883675
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

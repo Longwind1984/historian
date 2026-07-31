@@ -1,0 +1,14 @@
+id: p_cbdb_13059
+type: Person
+name: 李淵(唐高祖)
+born:
+  year: 566
+died:
+  year: 635
+gender: male
+birthplace: pl_cbdb_14493
+dynasty_ref: k_tang
+bio: CBDB ID 13059
+name_en: Li Yuan (Emperor Gaozu of Tang)
+sources:
+- CBDB (China Biographical Database)

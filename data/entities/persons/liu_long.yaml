@@ -1,0 +1,28 @@
+id: p_liu_long
+type: Person
+name: 刘隆
+alias:
+- 汉殇帝
+- 殇帝
+born:
+  year: 105
+died:
+  year: 106
+reign_start:
+  year: 106
+reign_end:
+  year: 106
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_donghan
+bio: 和帝子，生百余日即位，在位八月而崩，为中国历史上即位年龄最小的皇帝。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉殇帝
+  regime: 东汉
+wikidata_id: "Q7282"
+wikipedia_zh: "汉殇帝"

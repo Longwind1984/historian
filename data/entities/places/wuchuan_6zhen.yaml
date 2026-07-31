@@ -1,0 +1,15 @@
+id: pl_wuchuan_6zhen
+type: Place
+name: 武川镇
+modern_name: 武川
+province: 内蒙古
+latitude: 41.1
+longitude: 111.45
+category: garrison
+description: 六镇之一,关陇集团发源
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

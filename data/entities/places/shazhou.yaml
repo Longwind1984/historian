@@ -1,0 +1,13 @@
+id: pl_shazhou
+type: Place
+name: 沙州
+modern_name: 敦煌
+province: 甘肃
+latitude: 40.14
+longitude: 94.66
+category: city
+description: 归义军治所
+sources:
+- 旧唐书·地理志
+aliases:
+- 敦煌

@@ -1,0 +1,19 @@
+id: e_ya_pian_zhanzheng
+type: Event
+name: 第一次鸦片战争
+date:
+  year: 1840
+  month: 6
+category: war
+importance: 1
+location: pl_guangzhou
+polities_involved:
+- k_qing
+- k_britain
+description: 1839.6 林则徐虎门销烟。1840.6 英军犯广东北犯。1842.8 南京条约:割香港、开五口(广厦福宁上)、赔款 2100 万银元。
+impact: 中国近代史开端,百年屈辱史起。
+sources:
+- 清史稿·宣宗本纪
+end_date:
+  year: 1842
+  month: 8

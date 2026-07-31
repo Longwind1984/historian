@@ -1,0 +1,12 @@
+id: pl_cbdb_15704
+type: Place
+name: 楚州
+modern_name: 楚州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.502789
+longitude: 119.141106
+first_year: 625
+last_year: 959
+description: CBDB 行政类型:Zhou

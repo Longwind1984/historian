@@ -1,0 +1,42 @@
+id: p_shangtang
+type: Person
+name: 汤
+alias:
+- 成汤
+- 商汤
+- 天乙
+- 子履
+gender: male
+roles:
+- emperor
+importance: 1
+reign_start:
+  year: -1600
+bio: 商族首领，子姓，名履。任用伊尹为相，修德积聚；鸣条之战灭夏桀，约前1600年建国号商，都于亳。作《汤诰》安抚诸侯，商代开国之君。年代据断代工程框架。
+life_events:
+- year: -1620
+  event: 任伊尹为相，修德积聚
+  source: 史记·殷本纪
+- year: -1600
+  event: 鸣条之战灭夏桀
+  source: 史记·殷本纪
+- year: -1600
+  event: 建立商朝，都于亳
+  source: 史记·殷本纪
+- year: -1600
+  event: 作《汤诰》，诸侯归服
+  source: 尚书·商书
+sources:
+- 史记·殷本纪
+- 尚书·商书
+- 竹书纪年·殷纪
+ext:
+  disputed: true
+  title: 商汤
+  regime: 商
+wikidata_id: "Q471820"
+wikipedia_zh: "商汤"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/King_Tang_of_Shang.jpg/500px-King_Tang_of_Shang.jpg"
+image_license: "Public domain"
+image_credit: "Ma Lin"
+image_source_page: "https://commons.wikimedia.org/wiki/File:King_Tang_of_Shang.jpg"

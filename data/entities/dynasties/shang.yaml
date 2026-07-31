@@ -1,0 +1,18 @@
+id: d_shang
+type: Dynasty
+name: 商
+name_en: Shang
+founded:
+  year: -1600
+ended:
+  year: -1046
+founder: p_shangtang
+last_capital: pl_yin
+description: 商朝，亦称殷商。约前1600年汤灭夏建国，屡迁其都；盘庚迁殷(约前1300)后始定，自此甲骨文可证商王世系。前1046年牧野之战败于周，帝辛自焚，商亡。年代据夏商周断代工程框架。
+period_label: 商
+sources:
+- 史记·殷本纪
+- 竹书纪年·殷纪
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true

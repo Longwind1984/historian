@@ -1,0 +1,34 @@
+id: p_chu_zhuang_wang
+type: Person
+name: 熊旅
+alias:
+- 楚庄王
+- 庄王
+- 芈旅
+- 侣
+gender: male
+roles:
+- monarch
+importance: 2
+reign_start:
+  year: -613
+reign_end:
+  year: -591
+bio: 楚庄王，芈姓，熊氏，名旅(一作侣)，楚穆王之子。即位初三年不出号令，一鸣惊人，旋罢淫乐听政。任孙叔敖为令尹，整顿内政。前606年伐陆浑之戎，至洛水观兵周疆，问鼎之轻重。前597年邲之战大败晋军，称霸中原。在位约二十三年卒。
+life_events:
+- year: -611
+  event: 一鸣惊人，罢淫乐听政
+  source: 史记·楚世家
+- year: -606
+  event: 伐陆浑之戎，问鼎中原
+  source: 左传·宣公三年
+- year: -597
+  event: 邲之战败晋，称霸
+  source: 左传·宣公十二年
+- year: -591
+  event: 卒
+  source: 史记·楚世家
+sources:
+- 史记·楚世家
+- 左传·宣公
+- 国语·楚语

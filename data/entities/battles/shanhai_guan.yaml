@@ -1,0 +1,29 @@
+id: b_shanhai_guan
+type: Battle
+name: 山海关之战
+date:
+  year: 1644
+  month: 5
+category: battle
+march:
+- from: pl_shenyang_qing
+  to: pl_shanhaiguan
+  side: k_qing
+  note: 顺治元年多尔衮奉命自盛京率师西征，六日后接吴三桂书而急趋山海关；只记清军入关前这一段。《清史稿·世祖本纪》
+importance: 1
+location: pl_shanhaiguan
+combatants:
+- k_qing
+- k_dashun_li
+- k_ming
+commanders:
+- p_duoergun
+- p_wusan_gui
+- p_lizicheng
+victor: k_qing
+victor_commander: p_duoergun
+description: 1644.5 吴三桂引清军入关。多尔衮率清军与吴三桂合击李自成于一片石。李败。清入北京。
+significance: 清朝定鼎中原之始。
+sources:
+- 清史稿·世祖本纪
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Battle of Shanhai Pass.jpg

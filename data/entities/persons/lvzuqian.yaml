@@ -1,0 +1,20 @@
+id: p_lvzuqian
+type: Person
+name: 吕祖谦
+courtesy_name: 伯恭
+born:
+  year: 1137
+died:
+  year: 1181
+  month: 9
+gender: male
+birthplace: pl_jinhua_lv
+bio: 南宋理学家(婺学/金华学派)。组织鹅湖之会。编《宋文鉴》《东莱博议》。
+sources:
+- 宋史·吕祖谦传
+wikidata_id: "Q4272132"
+wikipedia_zh: "呂祖謙"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E5%AE%8B%E5%A4%AA%E5%8F%B2%E5%90%95%E7%A5%96%E8%B0%A6.jpg/500px-%E5%AE%8B%E5%A4%AA%E5%8F%B2%E5%90%95%E7%A5%96%E8%B0%A6.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%A4%AA%E5%8F%B2%E5%90%95%E7%A5%96%E8%B0%A6.jpg"

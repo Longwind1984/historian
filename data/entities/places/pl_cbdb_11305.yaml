@@ -1,0 +1,12 @@
+id: pl_cbdb_11305
+type: Place
+name: 宜城
+modern_name: 宜城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.710701
+longitude: 112.260132
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

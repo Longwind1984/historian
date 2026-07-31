@@ -1,0 +1,12 @@
+id: pl_cbdb_100549
+type: Place
+name: 衡陽
+modern_name: 衡陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.901617
+longitude: 112.597038
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,23 @@
+id: p_jia_nan_feng
+type: Person
+name: 贾南风
+alias:
+- 贾皇后
+- 贾南风
+born:
+  year: 257
+died:
+  year: 300
+  month: 5
+gender: female
+roles:
+- consort
+importance: 2
+birthplace: pl_xiangling_jiananfeng
+bio: 晋惠帝皇后。貌丑而权欲强。291 起八王之乱,废杀杨太后、太子遹。300 为赵王司马伦所杀。
+ext:
+  significance: 八王之乱的直接祸首。
+sources:
+- 晋书·后妃传·贾南风
+wikidata_id: "Q712318"
+wikipedia_zh: "賈南風"

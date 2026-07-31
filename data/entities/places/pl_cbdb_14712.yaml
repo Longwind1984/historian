@@ -1,0 +1,12 @@
+id: pl_cbdb_14712
+type: Place
+name: 新安
+modern_name: 新安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.733059
+longitude: 112.144302
+first_year: 657
+last_year: 959
+description: CBDB 行政类型:Xian

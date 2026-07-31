@@ -1,0 +1,33 @@
+id: p_guangzong
+type: Person
+name: 赵惇
+alias:
+- 宋光宗
+born:
+  year: 1147
+died:
+  year: 1200
+  month: 9
+gender: male
+birthplace: pl_linan_song
+bio: 宋光宗。1189 继位。惧内,与父孝宗失和,精神失常。1194 赵汝愚、韩侂胄拥立其子宁宗,光宗被尊太上皇。
+sources:
+- 宋史·光宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1189
+reign_end:
+  year: 1194
+roles:
+- emperor
+ext:
+  title: 宋光宗
+  regime: 南宋
+importance: 3
+wikidata_id: "Q7494"
+wikipedia_zh: "宋光宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Guangzong.jpg/500px-Guangzong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Guangzong.jpg"

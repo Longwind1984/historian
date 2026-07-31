@@ -1,0 +1,17 @@
+id: k_nan_qi
+type: Polity
+name: 南齐
+name_en: Southern Qi
+color: '#34495e'
+founded:
+  year: 479
+  month: 4
+ended:
+  year: 502
+  month: 4
+capital: pl_jianye_han
+description: 南朝齐。萧道成建。
+sources:
+- 南齐书
+supplanted: k_liusong
+ended_by: k_nan_liang

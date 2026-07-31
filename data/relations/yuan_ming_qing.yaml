@@ -1,0 +1,957 @@
+- from: p_hubilai
+  to: p_tiemur
+  type: father_of
+  since:
+    year: 1265
+- from: p_tiemur
+  to: d_yuan
+  type: succeeded_by
+  note: 元成宗,守成
+  since:
+    year: 1294
+  until:
+    year: 1307
+- from: p_a_yu
+  to: d_yuan
+  type: succeeded_by
+  note: 元仁宗,延祐复科
+  since:
+    year: 1311
+  until:
+    year: 1320
+- from: p_tuogantimur
+  to: d_yuan
+  type: succeeded_by
+  since:
+    year: 1333
+  until:
+    year: 1368
+  note: 末代
+- from: p_tuotuo_yuan
+  to: p_tuogantimur
+  type: served_under
+  note: 右丞相,主修三史,后遭贬死
+  since:
+    year: 1340
+  until:
+    year: 1356
+- from: p_tuotuo_yuan
+  to: e_hongjinjun_qiyi
+  type: participated_in
+  since:
+    year: 1351
+  note: 镇压
+- from: p_hanshantong
+  to: p_liufutong
+  type: allied_with
+  since:
+    year: 1351
+  until:
+    year: 1351
+  note: 红巾
+- from: p_hanshantong
+  to: e_hongjinjun_qiyi
+  type: participated_in
+  since:
+    year: 1351
+  until:
+    year: 1351
+  note: 领袖
+- from: p_liufutong
+  to: e_hongjinjun_qiyi
+  type: participated_in
+  note: 红巾军首领,立韩林儿为帝
+  since:
+    year: 1351
+  until:
+    year: 1363
+- from: p_chenyouliang
+  to: b_poyanghu
+  type: led
+  since:
+    year: 1363
+    month: 8
+  note: 战败身死
+- from: p_zhuyuanzhang
+  to: b_poyanghu
+  type: led
+  since:
+    year: 1363
+    month: 8
+  note: 胜
+- from: p_zhuyuanzhang
+  to: k_ming
+  type: founded
+  since:
+    year: 1368
+    month: 1
+  note: 都南京
+- from: p_zhuyuanzhang
+  to: d_yuan
+  type: usurped
+  since:
+    year: 1368
+  note: 驱逐元廷
+- from: p_xuda
+  to: p_zhuyuanzhang
+  type: served_under
+  note: 开国第一功臣,魏国公,率军北伐
+  since:
+    year: 1353
+  until:
+    year: 1385
+- from: p_changyuchun
+  to: p_zhuyuanzhang
+  type: served_under
+  note: 副将军,常先锋,1369年卒于军
+  since:
+    year: 1355
+  until:
+    year: 1369
+- from: p_zhuyuanzhang
+  to: p_liuji
+  type: served_under
+  since:
+    year: 1360
+  until:
+    year: 1375
+  note: 谋臣
+- from: p_lishanchang
+  to: p_zhuyuanzhang
+  type: served_under
+  note: 开国丞相,韩国公,坐胡党死
+  since:
+    year: 1354
+  until:
+    year: 1390
+- from: p_zhuyuanzhang
+  to: f_huaixi_ji
+  type: leader_of
+  note: 淮西功臣集团,明初核心
+  since:
+    year: 1352
+  until:
+    year: 1398
+- from: p_zhuyuanzhang
+  to: p_jianwen
+  type: grandfather_of
+  since:
+    year: 1377
+  note: 懿文太子朱标早卒
+- from: p_jianwen
+  to: k_ming
+  type: succeeded_by
+  note: 惠宗,靖难之役失位
+  since:
+    year: 1398
+  until:
+    year: 1402
+- from: p_yongle
+  to: p_jianwen
+  type: usurped
+  since:
+    year: 1402
+    month: 7
+  note: 靖难
+- from: p_yongle
+  to: k_ming
+  type: succeeded_by
+  since:
+    year: 1402
+    month: 7
+  until:
+    year: 1424
+    month: 7
+  note: 成祖
+- from: p_zhuyuanzhang
+  to: p_yongle
+  type: father_of
+  since:
+    year: 1360
+  note: 第四子
+- from: p_yongle
+  to: p_hongxi
+  type: father_of
+  since:
+    year: 1378
+- from: p_hongxi
+  to: k_ming
+  type: succeeded_by
+  since:
+    year: 1424
+  until:
+    year: 1425
+  note: 仁宗
+- from: p_hongxi
+  to: p_xuande
+  type: father_of
+  since:
+    year: 1399
+- from: p_xuande
+  to: k_ming
+  type: succeeded_by
+  since:
+    year: 1425
+  until:
+    year: 1435
+  note: 宣宗
+- from: p_xuande
+  to: p_zhengtong
+  type: father_of
+  since:
+    year: 1427
+- from: p_zhengtong
+  to: k_ming
+  type: succeeded_by
+  note: 英宗,土木堡之变被俘
+  since:
+    year: 1435
+  until:
+    year: 1449
+    month: 9
+- from: p_zhengtong
+  to: b_tumubao
+  type: participated_in
+  since:
+    year: 1449
+    month: 9
+  note: 被俘
+- from: p_jingtai
+  to: k_ming
+  type: succeeded_by
+  since:
+    year: 1449
+  until:
+    year: 1457
+  note: 代宗
+- from: p_yuqian
+  to: p_jingtai
+  type: served_under
+  note: 兵部尚书,力主抗击瓦剌
+  since:
+    year: 1449
+  until:
+    year: 1457
+- from: p_yuqian
+  to: b_beijing_bao_wei
+  type: led
+  note: 力排南迁之议,坚守京师退也先
+  since:
+    year: 1449
+    month: 10
+- from: p_zhengtong
+  to: p_jingtai
+  type: sibling_of
+  note: 兄弟
+- from: p_zhengtong
+  to: e_duomen_zhibian
+  type: participated_in
+  since:
+    year: 1457
+  note: 复辟
+- from: p_zhengtong
+  to: p_yuqian
+  type: killed
+  since:
+    year: 1457
+  note: 夺门后诛
+- from: p_jingtai
+  to: p_zhengtong
+  type: succeeded_by
+  since:
+    year: 1457
+  until:
+    year: 1464
+  note: 复辟
+- from: p_zhengtong
+  to: p_chenghua
+  type: father_of
+  since:
+    year: 1447
+- from: p_chenghua
+  to: k_ming
+  type: succeeded_by
+  note: 宪宗,成化犁庭
+  since:
+    year: 1464
+  until:
+    year: 1487
+- from: p_chenghua
+  to: p_hongzhi
+  type: father_of
+  since:
+    year: 1470
+- from: p_hongzhi
+  to: k_ming
+  type: succeeded_by
+  note: 孝宗,弘治中兴
+  since:
+    year: 1487
+  until:
+    year: 1505
+- from: p_hongzhi
+  to: p_zhengde
+  type: father_of
+  since:
+    year: 1491
+- from: p_zhengde
+  to: k_ming
+  type: succeeded_by
+  note: 武宗,宁王之乱
+  since:
+    year: 1505
+  until:
+    year: 1521
+- from: p_zhengde
+  to: p_jiajing
+  type: sibling_of
+  note: 堂弟入继
+- from: p_jiajing
+  to: k_ming
+  type: succeeded_by
+  since:
+    year: 1521
+  until:
+    year: 1567
+    month: 1
+  note: 世宗
+- from: p_jiajing
+  to: e_daliyi
+  type: participated_in
+  note: 追尊本生父,与廷臣激争
+  since:
+    year: 1521
+  until:
+    year: 1524
+- from: p_jiajing
+  to: e_gengxu_zhibian
+  type: participated_in
+  note: 俺答兵逼北京,帝闭门不出
+  since:
+    year: 1550
+- from: p_yansong
+  to: p_jiajing
+  type: served_under
+  note: 权相,专国政二十年,1562年罢
+  since:
+    year: 1542
+  until:
+    year: 1562
+- from: p_jiajing
+  to: p_hairui
+  type: rival_of
+  since:
+    year: 1566
+  note: 海瑞上疏
+- from: p_jiajing
+  to: p_longqing
+  type: father_of
+  since:
+    year: 1537
+- from: p_longqing
+  to: k_ming
+  type: succeeded_by
+  note: 穆宗,隆庆和议
+  since:
+    year: 1567
+  until:
+    year: 1572
+- from: p_longqing
+  to: p_wanli
+  type: father_of
+  since:
+    year: 1563
+- from: p_wanli
+  to: k_ming
+  type: succeeded_by
+  note: 神宗,万历三大征,后期怠政
+  since:
+    year: 1572
+  until:
+    year: 1620
+    month: 8
+- from: p_zhangjuzheng
+  to: p_wanli
+  type: served_under
+  note: 首辅,推行一条鞭法,万历十年卒
+  since:
+    year: 1572
+  until:
+    year: 1582
+- from: p_zhangjuzheng
+  to: e_wang_an_shi_zhang_juzheng
+  type: participated_in
+  since:
+    year: 1573
+  until:
+    year: 1582
+  note: 主导
+- from: p_qijiguang
+  to: p_zhangjuzheng
+  type: allied_with
+  since:
+    year: 1567
+  until:
+    year: 1582
+  note: 张居正支持戚继光
+- from: p_wanli
+  to: p_taichang
+  type: father_of
+  since:
+    year: 1582
+- from: p_taichang
+  to: k_ming
+  type: succeeded_by
+  since:
+    year: 1620
+    month: 8
+  until:
+    year: 1620
+    month: 9
+  note: 一月天子
+- from: p_taichang
+  to: p_tianqi
+  type: father_of
+  since:
+    year: 1605
+- from: p_tianqi
+  to: k_ming
+  type: succeeded_by
+  note: 熹宗,魏忠贤专权
+  since:
+    year: 1620
+  until:
+    year: 1627
+- from: p_tianqi
+  to: p_weizhongxian
+  type: served_under
+  since:
+    year: 1620
+  until:
+    year: 1627
+  note: 魏忠贤专权
+- from: p_weizhongxian
+  to: f_yandang
+  type: leader_of
+  note: 司礼监秉笔,称九千岁
+  since:
+    year: 1620
+  until:
+    year: 1627
+- from: p_tianqi
+  to: p_chongzhen
+  type: sibling_of
+  note: 兄弟
+- from: p_chongzhen
+  to: k_ming
+  type: succeeded_by
+  since:
+    year: 1627
+  until:
+    year: 1644
+    month: 3
+  note: 末代
+- from: p_chongzhen
+  to: p_weizhongxian
+  type: killed
+  since:
+    year: 1627
+  note: 诛阉党
+- from: f_donglin_dang
+  to: f_yandang
+  type: rival_of
+  since:
+    year: 1620
+  until:
+    year: 1627
+  note: 东林 vs 阉党
+- from: p_lizicheng
+  to: k_dashun_li
+  type: founded
+  since:
+    year: 1644
+    month: 3
+  note: 大顺
+- from: p_lizicheng
+  to: b_shanhai_guan
+  type: led
+  since:
+    year: 1644
+    month: 5
+  note: 败
+- from: p_wusan_gui
+  to: b_shanhai_guan
+  type: participated_in
+  since:
+    year: 1644
+    month: 5
+  note: 引清入关
+- from: p_duoergun
+  to: b_shanhai_guan
+  type: led
+  since:
+    year: 1644
+    month: 5
+  note: 胜方
+- from: p_duoergun
+  to: p_wusan_gui
+  type: allied_with
+  since:
+    year: 1644
+    month: 5
+  note: 联合灭李
+- from: p_nuerhaci
+  to: k_houjin_qing
+  type: founded
+  note: 统一女真,1616年称汗建金
+  since:
+    year: 1616
+- from: p_nuerhaci
+  to: b_sarhu
+  type: led
+  since:
+    year: 1619
+    month: 4
+  note: 胜
+- from: p_nuerhaci
+  to: b_ningyuan
+  type: led
+  since:
+    year: 1626
+  note: 战败受创
+- from: p_huangtaiji
+  to: p_nuerhaci
+  type: father_of
+  note: 第八子
+- from: p_huangtaiji
+  to: k_houjin_qing
+  type: succeeded_by
+  note: 继汗位,1636年改国号清
+  since:
+    year: 1626
+  until:
+    year: 1636
+- from: p_huangtaiji
+  to: k_qing
+  type: founded
+  since:
+    year: 1636
+  note: 改国号清
+- from: p_huangtaiji
+  to: p_shunzhi
+  type: father_of
+  since:
+    year: 1638
+- from: p_duoergun
+  to: p_nuerhaci
+  type: father_of
+  note: 第十四子
+- from: p_shunzhi
+  to: k_qing
+  type: succeeded_by
+  since:
+    year: 1644
+  until:
+    year: 1661
+  note: 入关定鼎
+- from: p_shunzhi
+  to: p_duoergun
+  type: served_under
+  since:
+    year: 1644
+  until:
+    year: 1650
+  note: 摄政
+- from: p_shunzhi
+  to: p_kangxi
+  type: father_of
+  since:
+    year: 1654
+- from: p_kangxi
+  to: k_qing
+  type: succeeded_by
+  since:
+    year: 1661
+  until:
+    year: 1722
+  note: 圣祖 61 年
+- from: p_kangxi
+  to: e_kangxi_ping_sanfan
+  type: participated_in
+  since:
+    year: 1673
+    month: 12
+  until:
+    year: 1681
+    month: 10
+  note: 主导
+- from: p_kangxi
+  to: e_shou_taiwan
+  type: participated_in
+  note: 遣施琅攻台,设台湾府
+  since:
+    year: 1683
+- from: p_kangxi
+  to: p_yongzheng
+  type: father_of
+  since:
+    year: 1678
+- from: p_yongzheng
+  to: k_qing
+  type: succeeded_by
+  note: 世宗,摊丁入亩,设军机处
+  since:
+    year: 1722
+  until:
+    year: 1735
+- from: p_yongzheng
+  to: e_yongzheng_gaige
+  type: participated_in
+  since:
+    year: 1723
+  until:
+    year: 1735
+  note: 主导
+- from: p_yongzheng
+  to: p_qianlong
+  type: father_of
+  since:
+    year: 1711
+- from: p_qianlong
+  to: k_qing
+  type: succeeded_by
+  note: 高宗,十全武功,盛世极盛
+  since:
+    year: 1735
+  until:
+    year: 1796
+- from: p_qianlong
+  to: e_shiquan_wugong
+  type: participated_in
+  since:
+    year: 1755
+  until:
+    year: 1792
+  note: 主导
+- from: p_qianlong
+  to: p_heshen
+  type: served_under
+  since:
+    year: 1775
+  until:
+    year: 1799
+  note: 和珅专权
+- from: p_qianlong
+  to: p_jiaqing
+  type: father_of
+  since:
+    year: 1760
+- from: p_jiaqing
+  to: k_qing
+  type: succeeded_by
+  note: 仁宗,诛和珅,由盛转衰
+  since:
+    year: 1796
+  until:
+    year: 1820
+- from: p_jiaqing
+  to: p_heshen
+  type: killed
+  since:
+    year: 1799
+  note: 诛和珅
+- from: p_jiaqing
+  to: p_daoguang
+  type: father_of
+  since:
+    year: 1782
+- from: p_daoguang
+  to: k_qing
+  type: succeeded_by
+  note: 宣宗,鸦片战争
+  since:
+    year: 1820
+  until:
+    year: 1850
+- from: p_daoguang
+  to: e_ya_pian_zhanzheng
+  type: participated_in
+  note: 战败,签南京条约
+  since:
+    year: 1840
+    month: 6
+  until:
+    year: 1842
+    month: 8
+- from: p_linzexu
+  to: p_daoguang
+  type: served_under
+  note: 钦差大臣,虎门销烟,后遭遣戍
+  since:
+    year: 1838
+  until:
+    year: 1840
+- from: p_linzexu
+  to: e_ya_pian_zhanzheng
+  type: participated_in
+  since:
+    year: 1839
+    month: 6
+  note: 虎门销烟
+- from: p_daoguang
+  to: p_xianfeng
+  type: father_of
+  since:
+    year: 1831
+- from: p_xianfeng
+  to: k_qing
+  type: succeeded_by
+  note: 文宗,太平天国与英法联军
+  since:
+    year: 1850
+  until:
+    year: 1861
+- from: p_xianfeng
+  to: e_taiping_tian_guo
+  type: participated_in
+  note: 太平天国运动贯穿其朝
+  since:
+    year: 1851
+  until:
+    year: 1861
+- from: p_xianfeng
+  to: p_cixi
+  type: spouse_of
+  note: 妃
+- from: p_xianfeng
+  to: p_tongzhi
+  type: father_of
+  since:
+    year: 1856
+- from: p_tongzhi
+  to: k_qing
+  type: succeeded_by
+  note: 穆宗,同治中兴
+  since:
+    year: 1861
+  until:
+    year: 1875
+- from: p_cixi
+  to: p_tongzhi
+  type: mother_of
+- from: p_guangxu
+  to: k_qing
+  type: succeeded_by
+  note: 德宗,戊戌变法、庚子西狩
+  since:
+    year: 1875
+  until:
+    year: 1908
+- from: p_cixi
+  to: p_guangxu
+  type: rival_of
+  since:
+    year: 1898
+  until:
+    year: 1908
+  note: 戊戌变法vs政变
+- from: p_guangxu
+  to: e_jia_wu_zhanzheng
+  type: participated_in
+  note: 主战,战后签马关条约
+  since:
+    year: 1894
+    month: 7
+  until:
+    year: 1895
+    month: 4
+- from: p_lihongzhang
+  to: e_jia_wu_zhanzheng
+  type: participated_in
+  since:
+    year: 1894
+    month: 7
+  note: 北洋主导
+- from: p_guangxu
+  to: e_wu_xu_bian_fa
+  type: participated_in
+  since:
+    year: 1898
+    month: 6
+  until:
+    year: 1898
+    month: 9
+  note: 主导
+- from: p_cixi
+  to: e_wu_xu_bian_fa
+  type: participated_in
+  since:
+    year: 1898
+    month: 9
+  note: 政变
+- from: p_guangxu
+  to: e_gengzi_qiyi
+  type: participated_in
+  since:
+    year: 1900
+  note: 西狩
+- from: p_cixi
+  to: e_gengzi_qiyi
+  type: participated_in
+  since:
+    year: 1900
+  note: 宣战
+- from: p_xuantong
+  to: k_qing
+  type: succeeded_by
+  since:
+    year: 1908
+  until:
+    year: 1912
+    month: 2
+  note: 末代
+- from: p_xuantong
+  to: e_xin_hai_ge_ming
+  type: participated_in
+  since:
+    year: 1911
+    month: 10
+  until:
+    year: 1912
+    month: 2
+  note: 退位
+- from: p_zengguofan
+  to: f_xiangjun
+  type: leader_of
+  note: 组建湘军,平定太平天国
+  since:
+    year: 1853
+  until:
+    year: 1872
+- from: p_zengguofan
+  to: e_taiping_tian_guo
+  type: participated_in
+  since:
+    year: 1853
+  until:
+    year: 1864
+    month: 6
+  note: 平太平
+- from: p_zengguofan
+  to: e_yang_wu_yun_dong
+  type: participated_in
+  note: 设安庆内军械所,倡办洋务
+  since:
+    year: 1861
+  until:
+    year: 1872
+- from: p_zuozongtang
+  to: p_zengguofan
+  type: allied_with
+  note: 同为湘军系
+- from: p_lihongzhang
+  to: p_zengguofan
+  type: mentored_by
+  note: 李鸿章是曾国藩门生
+- from: p_lihongzhang
+  to: f_huaijun_bei_yang
+  type: leader_of
+  note: 淮军创始,北洋大臣,洋务核心
+  since:
+    year: 1862
+  until:
+    year: 1901
+- from: p_zhangzhidong
+  to: e_yang_wu_yun_dong
+  type: participated_in
+  note: 办汉阳铁厂,中体西用
+  since:
+    year: 1884
+  until:
+    year: 1909
+- from: p_yuanshikai
+  to: f_huaijun_bei_yang
+  type: leader_of
+  note: 小站练兵,建北洋新军
+  since:
+    year: 1895
+  until:
+    year: 1916
+- from: p_yuanshikai
+  to: e_xin_hai_ge_ming
+  type: participated_in
+  since:
+    year: 1911
+    month: 10
+  note: 北洋系核心
+- from: p_hongxiuquan
+  to: k_taiping
+  type: founded
+  note: 称天王,建都天京
+  since:
+    year: 1851
+    month: 1
+- from: p_hongxiuquan
+  to: f_taiping
+  type: leader_of
+  note: 天王,天京事变后由盛转衰
+  since:
+    year: 1851
+  until:
+    year: 1864
+- from: p_yangxiuqing
+  to: p_hongxiuquan
+  type: served_under
+  since:
+    year: 1851
+  until:
+    year: 1856
+  note: 东王
+- from: k_ming
+  to: k_qing
+  type: destroyed_by
+  note: 李自成破北京后清军入关
+  since:
+    year: 1644
+    month: 3
+- from: k_qing
+  to: k_minguo
+  type: destroyed_by
+  note: 辛亥革命后宣统退位
+  since:
+    year: 1912
+    month: 2
+- from: d_yuan
+  to: k_ming
+  type: destroyed_by
+  note: 徐达北伐克大都
+  since:
+    year: 1368
+- from: e_hongjinjun_qiyi
+  to: e_ming_jianli
+  type: led_to
+  note: 红巾起义动摇元室,朱元璋起于郭子兴部而终代元自立
+- from: e_jingnan_zhiyi
+  to: e_zhenghe_xiaxiyang
+  type: led_to
+  note: 靖难→永乐朝
+- from: b_tumubao
+  to: e_duomen_zhibian
+  type: led_to
+  note: 土木堡→夺门
+- from: e_ya_pian_zhanzheng
+  to: e_taiping_tian_guo
+  type: led_to
+  note: 鸦片战争→太平天国
+- from: e_yang_wu_yun_dong
+  to: e_jia_wu_zhanzheng
+  type: led_to
+  note: 洋务→甲午破产
+- from: e_jia_wu_zhanzheng
+  to: e_wu_xu_bian_fa
+  type: led_to
+  note: 甲午→维新
+- from: e_gengzi_qiyi
+  to: e_xin_hai_ge_ming
+  type: led_to
+  note: 庚子→革命

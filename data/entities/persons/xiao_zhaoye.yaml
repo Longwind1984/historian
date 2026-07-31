@@ -1,0 +1,28 @@
+id: p_xiao_zhaoye
+type: Person
+name: 萧昭业
+alias:
+- 郁林王
+born:
+  year: 473
+died:
+  year: 494
+reign_start:
+  year: 493
+reign_end:
+  year: 494
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_qi
+bio: 武帝孙。奢纵无度,494年为萧鸾所废杀。
+ext:
+  title: 齐郁林王
+  regime: 南齐
+sources:
+- 南齐书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1141013"
+wikipedia_zh: "萧昭业"

@@ -1,0 +1,24 @@
+id: p_yeluchucai
+type: Person
+name: 耶律楚材
+courtesy_name: 晋卿
+born:
+  year: 1190
+  month: 7
+died:
+  year: 1244
+  month: 6
+gender: male
+roles:
+- civil_official
+importance: 2
+birthplace: pl_beijing_ylcj
+bio: 契丹族,辽东丹王耶律倍八世孙。仕金、后仕蒙古。成吉思汗、窝阔台两朝重臣。主张'以儒治国'。著《湛然居士文集》。
+sources:
+- 元史·耶律楚材传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%E8%80%B6%E5%BE%8B%E6%A5%9A%E6%9D%90.JPG/500px-%E8%80%B6%E5%BE%8B%E6%A5%9A%E6%9D%90.JPG"
+wikidata_id: "Q117449"
+wikipedia_zh: "耶律楚材"
+image_license: "CC BY 3.0"
+image_credit: "Gisling"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%80%B6%E5%BE%8B%E6%A5%9A%E6%9D%90.JPG"

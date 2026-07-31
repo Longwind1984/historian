@@ -1,0 +1,14 @@
+id: p_cbdb_7304
+type: Person
+name: 呂公綽
+born:
+  year: 999
+died:
+  year: 1055
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 7304
+name_en: Lü Gongchuo
+sources:
+- CBDB (China Biographical Database)

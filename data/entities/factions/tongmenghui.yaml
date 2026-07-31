@@ -1,0 +1,15 @@
+id: f_tongmenghui
+type: Faction
+name: 同盟会(革命党)
+nature: political
+founded:
+  year: 1905
+dissolved:
+  year: 1912
+core_region: pl_dongjing_tongmeng
+description: 1905 孙中山、黄兴、宋教仁等在东京成立中国同盟会。'驱除鞑虏,恢复中华,创立民国,平均地权'。
+significance: 辛亥革命的主导力量。
+peak_period: 1905-1912
+sources:
+- 明史
+- 清史稿

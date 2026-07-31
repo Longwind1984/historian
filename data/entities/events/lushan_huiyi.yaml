@@ -1,0 +1,18 @@
+id: e_lushan_huiyi
+type: Event
+name: 庐山会议
+date:
+  year: 1959
+  month: 7
+end_date:
+  year: 1959
+  month: 8
+category: purge
+polities_involved:
+- k_prc
+importance: 2
+description: 1959 年 7 月中共中央在庐山开政治局扩大会议，原议题为纠正大跃进以来的"左"倾偏差。国防部长彭德怀 7 月 14 日上书毛泽东，指大炼钢铁"得不偿失"、浮夸风"小资产阶级狂热性"。毛将此信定为"右倾机会主义"的进攻，会议转向反右倾，彭德怀与黄克诚、张闻天、周小舟被定为"反党集团"，彭去职。
+impact: 纠左中止，反右倾运动推向全国，各级干部噤声；浮夸风与高征购在饥荒已现之际继续加码，大饥荒的规模因此扩大。
+sources:
+- 当代中国史
+- 中华人民共和国史

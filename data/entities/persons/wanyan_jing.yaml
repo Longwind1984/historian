@@ -1,0 +1,26 @@
+id: p_wanyan_jing
+type: Person
+name: 完颜璟
+alias:
+- 金章宗
+born:
+  year: 1168
+died:
+  year: 1208
+reign_start:
+  year: 1189
+reign_end:
+  year: 1208
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_jin
+bio: 世宗孙。文治鼎盛,修《泰和律》。然黄河屡决、蒙古渐起,开禧南侵无功,金由盛转衰。
+ext:
+  title: 金章宗
+  regime: 金
+sources:
+- 金史
+wikidata_id: "Q5074"
+wikipedia_zh: "金章宗"

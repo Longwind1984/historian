@@ -1,0 +1,177 @@
+# Relation type registry (documentation + UI styling)
+# Note: relations are free-form in YAML data; this file documents and styles them.
+
+relations:
+  # --- Kinship ---
+  - type: father_of
+    label: 父
+    inverse: child_of
+    color: "#1abc9c"
+    directional: true
+  - type: mother_of
+    label: 母
+    inverse: child_of
+    color: "#1abc9c"
+    directional: true
+  - type: child_of
+    label: 子女
+    inverse: father_of
+    color: "#1abc9c"
+    directional: true
+  - type: spouse_of
+    label: 配偶
+    inverse: spouse_of
+    color: "#e91e63"
+    directional: false
+  - type: sibling_of
+    label: 兄弟姐妹
+    inverse: sibling_of
+    color: "#1abc9c"
+    directional: false
+  - type: grandfather_of
+    label: 祖
+    inverse: grandchild_of
+    color: "#1abc9c"
+    directional: true
+
+  # --- Lord / Minister ---
+  - type: served_under
+    label: 臣服于/效忠
+    inverse: lord_of
+    color: "#9b59b6"
+    directional: true
+  - type: lord_of
+    label: 主君
+    inverse: served_under
+    color: "#9b59b6"
+    directional: true
+  - type: held_title
+    label: 任/封
+    color: "#f39c12"
+    directional: true
+  - type: granted_surname
+    label: 赐姓
+    color: "#f39c12"
+    directional: true
+
+  # --- Succession ---
+  - type: succeeded_by
+    label: 继任
+    inverse: predecessor_of
+    color: "#34495e"
+    directional: true
+  - type: predecessor_of
+    label: 前任
+    inverse: succeeded_by
+    color: "#34495e"
+    directional: true
+  - type: usurped
+    label: 篡夺
+    color: "#c0392b"
+    directional: true
+  - type: founded
+    label: 建立
+    inverse: founded_by
+    color: "#27ae60"
+    directional: true
+  - type: founded_by
+    label: 由...建立
+    inverse: founded
+    color: "#27ae60"
+    directional: true
+  - type: destroyed_by
+    label: 亡于
+    color: "#c0392b"
+    directional: true
+
+  # --- Faction ---
+  - type: member_of
+    label: 隶属
+    inverse: has_member
+    color: "#9b59b6"
+    directional: true
+  - type: leader_of
+    label: 领袖
+    inverse: led_by
+    color: "#8e44ad"
+    directional: true
+  - type: rival_of
+    label: 敌对
+    inverse: rival_of
+    color: "#e74c3c"
+    directional: false
+  - type: allied_with
+    label: 联盟
+    inverse: allied_with
+    color: "#3498db"
+    directional: false
+
+  # --- Military / Event ---
+  - type: participated_in
+    label: 参与
+    color: "#16a085"
+    directional: true
+  - type: led
+    label: 统帅
+    color: "#d35400"
+    directional: true
+  - type: fought_in
+    label: 参战
+    color: "#e67e22"
+    directional: true
+  - type: killed
+    label: 弑/杀
+    color: "#c0392b"
+    directional: true
+
+  # --- Geography ---
+  - type: born_in
+    label: 籍贯
+    color: "#2ecc71"
+    directional: true
+  - type: took_place_at
+    label: 发生于
+    color: "#2ecc71"
+    directional: true
+  - type: capital_at
+    label: 都于
+    color: "#2ecc71"
+    directional: true
+
+  # --- Mentoring ---
+  - type: mentored_by
+    label: 师从
+    inverse: mentor_of
+    color: "#7f8c8d"
+    directional: true
+
+  # --- Event causality (Event ↔ Event) ---
+  # 数据约定：每对因果只写一条。led_to = from 导致 to（因→果）；
+  # caused_by = from 起因于 to（from 的原因是 to），是 led_to 的逆语义。
+  #
+  # 不要用 preceded_by 表达事件因果——它只属于 Dynasty→Dynasty（王朝相继，
+  # 见 schema/dynasty.yaml），且其英文本义（A is preceded by B = B 在前）与
+  # 「from→to = 因→果」正好相反。2026-07-15 前库里有 53 条 Event↔Event 的
+  # preceded_by，两套相反约定混用（49 条当 led_to 写、4 条按本义写），前端
+  # deriveEventCausal 又不认这个类型 → 这些因果对用户完全不可见。已全部收口到
+  # led_to（见 scripts/migrations/2026-07-15-causal-unify.py）。
+  - type: caused_by
+    label: 前因
+    inverse: led_to
+    color: "#c0392b"
+    directional: true
+  - type: led_to
+    label: 后果
+    inverse: caused_by
+    color: "#e67e22"
+    directional: true
+  - type: part_of
+    label: 从属
+    inverse: includes
+    color: "#7f8c8d"
+    directional: true
+  - type: concurrent_with
+    label: 同期
+    inverse: concurrent_with
+    color: "#3498db"
+    directional: false

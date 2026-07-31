@@ -1,0 +1,34 @@
+id: p_xiaozong
+type: Person
+name: 赵昚
+alias:
+- 宋孝宗
+born:
+  year: 1127
+  month: 11
+died:
+  year: 1194
+  month: 6
+gender: male
+birthplace: pl_linan_song
+bio: 宋孝宗。太祖七世孙。1162 高宗禅位。即为岳飞平反,起用张浚。1163 隆兴北伐,符离溃败。1164 隆兴和议(叔侄之国)。乾道淳熙之治,南宋政局最稳。
+sources:
+- 宋史·孝宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1162
+reign_end:
+  year: 1189
+roles:
+- emperor
+ext:
+  title: 宋孝宗
+  regime: 南宋
+importance: 2
+wikidata_id: "Q7492"
+wikipedia_zh: "宋孝宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/%E5%AE%8B%E5%AD%9D%E5%AE%97%E7%9A%87%E5%B8%9D.jpg/500px-%E5%AE%8B%E5%AD%9D%E5%AE%97%E7%9A%87%E5%B8%9D.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%AD%9D%E5%AE%97%E7%9A%87%E5%B8%9D.jpg"

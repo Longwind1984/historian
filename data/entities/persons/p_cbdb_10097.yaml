@@ -1,0 +1,14 @@
+id: p_cbdb_10097
+type: Person
+name: 宋濂
+born:
+  year: 1310
+died:
+  year: 1381
+gender: male
+birthplace: pl_cbdb_5371
+dynasty_ref: k_ming
+bio: CBDB ID 10097
+name_en: Song Lian
+sources:
+- CBDB (China Biographical Database)

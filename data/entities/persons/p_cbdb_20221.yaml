@@ -1,0 +1,14 @@
+id: p_cbdb_20221
+type: Person
+name: 劉几
+born:
+  year: 1008
+died:
+  year: 1088
+gender: male
+birthplace: pl_cbdb_100409
+dynasty_ref: k_beisong
+bio: CBDB ID 20221
+name_en: Liu Ji
+sources:
+- CBDB (China Biographical Database)

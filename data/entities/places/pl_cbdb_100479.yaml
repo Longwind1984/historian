@@ -1,0 +1,12 @@
+id: pl_cbdb_100479
+type: Place
+name: 硤石
+modern_name: 硤石
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.36277
+longitude: 111.47834
+first_year: 967
+last_year: 1072
+description: CBDB 行政类型:Xian

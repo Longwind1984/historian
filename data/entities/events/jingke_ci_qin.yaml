@@ -1,0 +1,15 @@
+id: e_jingke_ci_qin
+type: Event
+name: 荆轲刺秦
+date:
+  year: -227
+category: other
+polities_involved:
+- k_qin_state
+- k_yan_state
+importance: 3
+description: 秦灭韩(前230)、破赵(前228)后兵临易水，燕太子丹患之，前227年遣刺客荆轲入秦。荆轲以燕督亢地图及秦叛将樊於期首级为献，秦王政展图，图穷匕见，荆轲持匕首逐刺秦王，未中；秦王拔剑断其股，左右杀之。副使秦舞阳殿前失色，事败。
+impact: 刺秦未遂，秦王震怒，命王翦攻燕，前226年破蓟，燕王喜走辽东；加速燕之灭亡，亦使秦并六国之势不可逆转。
+sources:
+- 史记·刺客列传
+- 战国策·燕策

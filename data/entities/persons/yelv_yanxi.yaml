@@ -1,0 +1,27 @@
+id: p_yelv_yanxi
+type: Person
+name: 耶律延禧
+alias:
+- 天祚帝
+born:
+  year: 1075
+died:
+  year: 1128
+reign_start:
+  year: 1101
+reign_end:
+  year: 1125
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_liao
+bio: 道宗孙。荒于游猎,女真完颜阿骨打起兵,辽兵屡败。1125年为金所擒,辽亡。
+ext:
+  title: 辽天祚帝
+  regime: 辽
+sources:
+- 辽史
+- 资治通鉴
+wikidata_id: "Q5009"
+wikipedia_zh: "辽天祚帝"

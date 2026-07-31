@@ -1,0 +1,24 @@
+id: p_li_mi
+type: Person
+name: 李密
+alias:
+- 李玄邃
+- 李法主
+courtesy_name: 玄邃
+born:
+  year: 582
+died:
+  year: 619
+  month: 1
+gender: male
+birthplace: pl_chang_an_pre_tang
+bio: 隋末瓦岗军领袖。辽东襄平人。613 叔杨玄感起兵,败后投瓦岗。翟让让位后任瓦岗军主帅。618 王世充击败之,降唐,后叛唐被杀。
+sources:
+- 隋书·李密传
+- 旧唐书·李密传
+wikidata_id: "Q711364"
+wikipedia_zh: "李密 (隋朝)"
+image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Li_Mi_%28Sui_dynasty%29.jpg"
+image_license: "Public domain"
+image_credit: "Tachibana Morikuni"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Mi_(Sui_dynasty).jpg"

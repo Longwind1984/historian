@@ -1,0 +1,33 @@
+id: p_chengjisihan
+type: Person
+name: 铁木真
+alias:
+- 成吉思汗
+- 元太祖
+born:
+  year: 1162
+died:
+  year: 1227
+  month: 8
+reign_start:
+  year: 1206
+reign_end:
+  year: 1227
+gender: male
+roles:
+- emperor
+- general
+importance: 1
+birthplace: pl_kelun_tie
+bio: 蒙古帝国创建者。1206 统一蒙古各部,称成吉思汗。1211-1215 攻金占中都。1219-1224 第一次西征灭花剌子模。1227 灭西夏途中病死清水。
+sources:
+- 元史·太祖本纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/500px-YuanEmperorAlbumGenghisPortrait.jpg"
+ext:
+  title: 成吉思汗
+  regime: 蒙古
+wikidata_id: "Q720"
+wikipedia_zh: "成吉思汗"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg"

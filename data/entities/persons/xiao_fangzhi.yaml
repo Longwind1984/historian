@@ -1,0 +1,28 @@
+id: p_xiao_fangzhi
+type: Person
+name: 萧方智
+alias:
+- 梁敬帝
+born:
+  year: 543
+died:
+  year: 558
+reign_start:
+  year: 555
+reign_end:
+  year: 557
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_liang
+bio: 元帝子。陈霸先所立。557年禅位于陈霸先,梁亡,旋被害。
+ext:
+  title: 梁敬帝
+  regime: 梁
+sources:
+- 梁书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1059979"
+wikipedia_zh: "梁敬帝"

@@ -1,0 +1,14 @@
+id: p_cbdb_64110
+type: Person
+name: 張佩綸
+born:
+  year: 1848
+died:
+  year: 1903
+gender: male
+birthplace: pl_cbdb_7384
+dynasty_ref: k_qing
+bio: CBDB ID 64110
+name_en: Zhang Peilun
+sources:
+- CBDB (China Biographical Database)

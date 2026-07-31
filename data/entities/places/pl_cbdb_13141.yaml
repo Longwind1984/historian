@@ -1,0 +1,12 @@
+id: pl_cbdb_13141
+type: Place
+name: 大冶
+modern_name: 大冶
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.093138
+longitude: 114.962959
+first_year: 960
+last_year: 976
+description: CBDB 行政类型:Xian

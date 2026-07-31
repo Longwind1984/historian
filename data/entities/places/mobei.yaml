@@ -1,0 +1,14 @@
+id: pl_mobei
+type: Place
+name: 漠北
+modern_name: 外蒙古
+province: 蒙古
+latitude: 47.92
+longitude: 106.92
+category: battlefield
+description: BC119 漠北之战
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

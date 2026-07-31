@@ -1,0 +1,18 @@
+id: k_jin
+type: Polity
+name: 金
+name_en: Jin (Jurchen)
+color: '#95a5a6'
+founded:
+  year: 1115
+ended:
+  year: 1234
+capital: pl_huining_wya
+description: 1115 完颜阿骨打建国号大金。1125 灭辽,1127 灭北宋(靖康之变)。与南宋对峙百余年。1234 蒙古与南宋联军的蔡州之战,金亡。
+sources:
+- 金史
+founder: p_wanyanaguda
+ended_by: k_yuan
+ext:
+  territory_note: 无金代疆域数据。原先指向 chgis_beisong.geojson,但那张图只有 10 块南方州军(汀州/邵武军/兴化军/广德军/太平州/池州/吉阳军(海南)/连州/岳州/兴国军),金在任何年份都没到过,且其 valid_from:1115 与北宋 960~1127 重叠,曾致 1115~1127 北宋从地图上消失。宁可留白,不画假疆域。待补真正的金代 CHGIS
+    分国图。

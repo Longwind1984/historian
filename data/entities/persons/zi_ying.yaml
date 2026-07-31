@@ -1,0 +1,24 @@
+id: p_zi_ying
+type: Person
+name: 子婴
+alias:
+- 秦王子婴
+died:
+  year: -206
+reign_start:
+  year: -207
+reign_end:
+  year: -206
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_xianyang_qin
+bio: 秦末代君主。BC207 即位,称秦王(去帝号)。设计杀赵高。BC206 刘邦入关,降。后为项羽所杀。
+sources:
+- 史记·秦始皇本纪
+ext:
+  title: 子婴
+  regime: 秦
+wikidata_id: "Q7203"
+wikipedia_zh: "子婴"

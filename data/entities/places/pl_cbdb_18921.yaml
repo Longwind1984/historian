@@ -1,0 +1,10 @@
+id: pl_cbdb_18921
+type: Place
+name: 哈剌火州
+modern_name: 哈剌火州
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 1220
+last_year: 1367
+description: CBDB 行政类型:Dependent State

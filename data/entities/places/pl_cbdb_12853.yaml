@@ -1,0 +1,12 @@
+id: pl_cbdb_12853
+type: Place
+name: 休寧
+modern_name: 休寧
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.781190872
+longitude: 118.17577362
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

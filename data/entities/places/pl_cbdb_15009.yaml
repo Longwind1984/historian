@@ -1,0 +1,12 @@
+id: pl_cbdb_15009
+type: Place
+name: 解縣
+modern_name: 解縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.911781
+longitude: 110.855438
+first_year: 648
+last_year: 959
+description: CBDB 行政类型:Xian

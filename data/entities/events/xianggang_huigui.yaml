@@ -1,0 +1,12 @@
+id: e_xianggang_huigui
+name: 香港回归
+type: Event
+date:
+  year: 1997
+category: territory
+importance: 2
+description: 1997年7月1日,中国政府对香港恢复行使主权,设立香港特别行政区。
+impact: 结束英国对香港的管治。
+sources:
+- 中华人民共和国史
+- 当代中国史

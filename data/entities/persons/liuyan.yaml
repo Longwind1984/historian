@@ -1,0 +1,18 @@
+id: p_liuyan
+type: Person
+name: 刘龑
+alias:
+- 刘岩
+- 刘陟
+- 南汉高祖
+born:
+  year: 889
+died:
+  year: 942
+  month: 5
+gender: male
+birthplace: pl_luoyang
+bio: 南汉建立者。刘隐之弟。917 年称帝于广州,国号大越,918 年改汉。荒淫暴虐,自造'龑'字。942 年卒。
+sources:
+- 新五代史·南汉世家
+- 十国春秋·南汉

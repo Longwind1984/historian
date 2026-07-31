@@ -1,0 +1,14 @@
+id: p_cbdb_34497
+type: Person
+name: 李時勉
+born:
+  year: 1374
+died:
+  year: 1450
+gender: male
+birthplace: pl_cbdb_5483
+dynasty_ref: k_ming
+bio: CBDB ID 34497
+name_en: Li Shimian
+sources:
+- CBDB (China Biographical Database)

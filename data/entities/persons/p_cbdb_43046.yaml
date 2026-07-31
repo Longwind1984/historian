@@ -1,0 +1,14 @@
+id: p_cbdb_43046
+type: Person
+name: 胡鑑
+born:
+  year: 1220
+died:
+  year: 1282
+gender: male
+birthplace: pl_cbdb_100179
+dynasty_ref: k_beisong
+bio: CBDB ID 43046
+name_en: Hu jian
+sources:
+- CBDB (China Biographical Database)

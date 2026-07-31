@@ -1,0 +1,12 @@
+id: pl_cbdb_15807
+type: Place
+name: 東陽
+modern_name: 東陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.260567
+longitude: 120.227981
+first_year: 686
+last_year: 959
+description: CBDB 行政类型:Xian

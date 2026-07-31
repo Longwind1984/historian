@@ -1,0 +1,28 @@
+id: p_jie_xia
+type: Person
+name: 桀
+alias:
+- 夏桀
+- 帝癸
+- 姒履癸
+gender: male
+roles:
+- emperor
+importance: 2
+reign_end:
+  year: -1600
+bio: 夏末王，名履癸。在位时大兴土木(倾宫、瑶台)，宠妹喜，诸侯多叛。鸣条之战败于商汤，夏亡，被放于南巢。传统史载以暴君为名，年代模糊。
+sources:
+- 史记·夏本纪
+- 竹书纪年·夏纪
+- 尚书·汤誓
+ext:
+  disputed: true
+  title: 夏桀
+  regime: 夏
+wikidata_id: "Q465081"
+wikipedia_zh: "桀"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Xiajie.png"
+image_license: "Public domain"
+image_credit: "User:Shibo77"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xiajie.png"

@@ -1,0 +1,14 @@
+id: p_cbdb_32162
+type: Person
+name: 李華
+born:
+  year: 715
+died:
+  year: 766
+gender: male
+birthplace: pl_cbdb_15294
+dynasty_ref: k_tang
+bio: CBDB ID 32162
+name_en: Li Hua
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,29 @@
+id: p_yuan_kuo
+type: Person
+name: 元廓
+alias:
+- 西魏恭帝
+born:
+  year: 537
+died:
+  year: 557
+reign_start:
+  year: 554
+reign_end:
+  year: 557
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xi_wei
+bio: 文帝子。宇文泰所立。557年禅位于宇文觉,西魏亡,旋被害。
+ext:
+  title: 西魏恭帝
+  regime: 西魏
+  note: 禅位于西魏恭帝三年十二月(公历557年正月),故讫年取557,与北周立国接续
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q2665689"
+wikipedia_zh: "魏恭帝"

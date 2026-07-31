@@ -1,0 +1,28 @@
+id: p_liu_yan_nanhan
+type: Person
+name: 刘䶮
+alias:
+- 南汉高祖
+- 刘岩
+born:
+  year: 889
+died:
+  year: 942
+reign_start:
+  year: 917
+reign_end:
+  year: 942
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 据岭南,917年称帝建南汉(初国号大越)。创'䶮'字为名。用刑残酷,然岭南自此渐开。
+ext:
+  title: 刘䶮
+  regime: 南汉
+sources:
+- 十国春秋
+- 新五代史
+- 资治通鉴
+wikidata_id: "Q717972"
+wikipedia_zh: "劉龑"

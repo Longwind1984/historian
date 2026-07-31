@@ -1,0 +1,19 @@
+id: p_chen_yi
+name: 陈毅
+type: Person
+born: {year: 1901}
+died: {year: 1972}
+roles:
+  - general
+  - literatus
+importance: 2
+bio: 四川乐至人。中华人民共和国元帅,曾任上海市长、国务院副总理兼外交部长。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q188408"
+wikipedia_zh: "陈毅"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Chen_Yi%28communist%29.jpg"
+image_license: "Public domain"
+image_credit: "​《 新华社 》记者 齐观山"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Yi(communist).jpg"

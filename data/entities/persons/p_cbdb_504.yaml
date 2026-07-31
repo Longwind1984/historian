@@ -1,0 +1,14 @@
+id: p_cbdb_504
+type: Person
+name: 周敦頤
+born:
+  year: 1017
+died:
+  year: 1073
+gender: male
+birthplace: pl_cbdb_100456
+dynasty_ref: k_beisong
+bio: CBDB ID 504
+name_en: Zhou Dunyi
+sources:
+- CBDB (China Biographical Database)

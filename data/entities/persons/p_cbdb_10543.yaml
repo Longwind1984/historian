@@ -1,0 +1,12 @@
+id: p_cbdb_10543
+type: Person
+name: 陳著
+born:
+  year: 1224
+gender: male
+birthplace: pl_cbdb_100584
+dynasty_ref: k_beisong
+bio: CBDB ID 10543
+name_en: Chen Zhu
+sources:
+- CBDB (China Biographical Database)

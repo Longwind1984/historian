@@ -1,0 +1,14 @@
+id: p_cbdb_30886
+type: Person
+name: 李密
+born:
+  year: 582
+died:
+  year: 618
+gender: male
+birthplace: pl_cbdb_16699
+dynasty_ref: k_tang
+bio: CBDB ID 30886
+name_en: Li Mi
+sources:
+- CBDB (China Biographical Database)

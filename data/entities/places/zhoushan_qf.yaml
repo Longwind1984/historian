@@ -1,0 +1,11 @@
+id: pl_zhoushan_qf
+type: Place
+name: 浙东/象山
+modern_name: 象山
+province: 浙江
+latitude: 29.45
+longitude: 121.87
+category: battlefield
+description: 裘甫起兵地
+sources:
+- 旧唐书·地理志

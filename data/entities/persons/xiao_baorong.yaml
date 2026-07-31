@@ -1,0 +1,28 @@
+id: p_xiao_baorong
+type: Person
+name: 萧宝融
+alias:
+- 齐和帝
+born:
+  year: 488
+died:
+  year: 502
+reign_start:
+  year: 501
+reign_end:
+  year: 502
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_qi
+bio: 明帝子。萧衍所立。502年禅位于萧衍,南齐亡,旋被害。
+ext:
+  title: 齐和帝
+  regime: 南齐
+sources:
+- 南齐书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1190420"
+wikipedia_zh: "齐和帝"

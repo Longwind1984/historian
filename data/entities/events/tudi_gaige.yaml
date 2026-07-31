@@ -1,0 +1,14 @@
+id: e_tudi_gaige
+type: Event
+name: 土地改革
+date:
+  year: 1950
+end_date:
+  year: 1953
+category: reform
+importance: 2
+description: 1950年颁布《中华人民共和国土地改革法》，在新解放区废除地主土地所有制、将土地分配给农民，至1953年基本完成。
+impact: 改变了农村土地占有关系。
+sources:
+- 中华人民共和国史
+- 当代中国史

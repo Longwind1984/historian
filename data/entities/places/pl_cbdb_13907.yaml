@@ -1,0 +1,12 @@
+id: pl_cbdb_13907
+type: Place
+name: 同安
+modern_name: 同安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.736046
+longitude: 118.144119
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

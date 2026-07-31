@@ -1,0 +1,18 @@
+id: p_yuan_longping
+name: 袁隆平
+type: Person
+born: {year: 1930}
+died: {year: 2021}
+roles:
+  - scholar
+importance: 1
+bio: 生于北京,籍贯江西德安。农学家,杂交水稻研究奠基人之一。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q3141326"
+wikipedia_zh: "袁隆平"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Yuan_Longping_at_news_conference_%28cropped%29.png/500px-Yuan_Longping_at_news_conference_%28cropped%29.png"
+image_license: "CC BY 3.0"
+image_credit: "China News Service"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yuan_Longping_at_news_conference_(cropped).png"

@@ -1,0 +1,12 @@
+id: pl_cbdb_13449
+type: Place
+name: 長江
+modern_name: 長江
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.637562
+longitude: 105.424927
+first_year: 960
+last_year: 1235
+description: CBDB 行政类型:Xian

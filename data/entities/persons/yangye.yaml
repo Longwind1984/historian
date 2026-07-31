@@ -1,0 +1,20 @@
+id: p_yangye
+type: Person
+name: 杨业
+alias:
+- 杨继业
+- 杨无敌
+died:
+  year: 986
+  month: 8
+gender: male
+birthplace: pl_taiyuan
+bio: 北宋抗辽名将。原北汉降将。雍熙北伐西路军副帅,陈家谷孤军被俘绝食死。'杨家将'传奇原型。
+sources:
+- 宋史·杨业传
+wikidata_id: "Q1291632"
+wikipedia_zh: "杨业"
+image: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Yangye_1892.jpg"
+image_license: "Public domain"
+image_credit: "Illustrator unknown, novelist = Xiong Damu (熊大木) (Life time: This is from a book printed 120 years ago.)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yangye_1892.jpg"

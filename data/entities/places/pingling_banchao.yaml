@@ -1,0 +1,14 @@
+id: pl_pingling_banchao
+type: Place
+name: 平陵/扶风
+modern_name: 咸阳/兴平
+province: 陕西
+latitude: 34.33
+longitude: 108.49
+category: city
+description: 班超籍贯
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

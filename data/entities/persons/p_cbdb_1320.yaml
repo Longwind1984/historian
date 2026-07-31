@@ -1,0 +1,14 @@
+id: p_cbdb_1320
+type: Person
+name: 呂弸中
+born:
+  year: 1090
+died:
+  year: 1146
+gender: male
+birthplace: pl_cbdb_12785
+dynasty_ref: k_beisong
+bio: CBDB ID 1320
+name_en: Lü Bengzhong
+sources:
+- CBDB (China Biographical Database)

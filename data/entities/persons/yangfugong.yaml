@@ -1,0 +1,15 @@
+id: p_yangfugong
+type: Person
+name: 杨复恭
+gender: male
+died:
+  year: 894
+roles:
+- eunuch
+importance: 3
+bio: 唐昭宗时神策军中尉。拥立昭宗,自谓有定策功,养子数十人分据藩镇,号「外宅郎君」。892 与昭宗决裂出奔,894 被擒斩。
+sources:
+- 旧唐书·宦官传
+- 资治通鉴·卷259-260
+wikidata_id: "Q8048388"
+wikipedia_zh: "楊復恭"

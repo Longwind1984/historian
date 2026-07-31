@@ -1,0 +1,12 @@
+id: pl_cbdb_8312
+type: Place
+name: 新寧
+modern_name: 新寧
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.433082581
+longitude: 110.84442902
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

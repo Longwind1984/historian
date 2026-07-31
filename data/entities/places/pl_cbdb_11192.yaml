@@ -1,0 +1,12 @@
+id: pl_cbdb_11192
+type: Place
+name: 歷城
+modern_name: 歷城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.650131226
+longitude: 117.00148773
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,28 @@
+id: p_xiao_yi
+type: Person
+name: 萧绎
+alias:
+- 梁元帝
+born:
+  year: 508
+died:
+  year: 555
+reign_start:
+  year: 552
+reign_end:
+  year: 555
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_liang
+bio: 武帝七子。平侯景之乱,即位于江陵。554年西魏破江陵,焚书十四万卷,自谓'读书万卷,犹有今日',旋被杀。
+ext:
+  title: 梁元帝
+  regime: 梁
+sources:
+- 梁书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1149114"
+wikipedia_zh: "梁元帝"

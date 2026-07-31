@@ -1,0 +1,15 @@
+id: pl_yongjin_lyz
+type: Place
+name: 河东/永济
+modern_name: 永济
+province: 山西
+latitude: 34.87
+longitude: 110.45
+category: city
+description: 柳宗元籍贯
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴
+aliases:
+- 蒲州

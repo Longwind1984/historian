@@ -1,0 +1,14 @@
+id: p_cbdb_3641
+type: Person
+name: 陸沅
+born:
+  year: 1110
+died:
+  year: 1194
+gender: male
+birthplace: pl_cbdb_100584
+dynasty_ref: k_beisong
+bio: CBDB ID 3641
+name_en: Lu Yuan
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,14 @@
+id: p_cbdb_11825
+type: Person
+name: 熊禾
+born:
+  year: 1253
+died:
+  year: 1312
+gender: male
+birthplace: pl_cbdb_18454
+dynasty_ref: k_yuan
+bio: CBDB ID 11825
+name_en: Xiong He
+sources:
+- CBDB (China Biographical Database)

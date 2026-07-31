@@ -1,0 +1,878 @@
+- from: p_zhaokuangyin
+  to: p_zhaoguangyi
+  type: sibling_of
+  note: 兄弟
+- from: p_zhaoguangyi
+  to: p_zhenzong
+  type: father_of
+  since:
+    year: 968
+    month: 12
+- from: p_zhaoguangyi
+  to: p_zhenzong
+  type: succeeded_by
+  note: 真宗赵恒继位
+  since:
+    year: 997
+    month: 3
+  until:
+    year: 1022
+    month: 2
+- from: p_zhenzong
+  to: p_renzong
+  type: succeeded_by
+  note: 仁宗赵祯继位
+  since:
+    year: 1022
+    month: 2
+  until:
+    year: 1063
+    month: 3
+- from: p_zhenzong
+  to: p_renzong
+  type: father_of
+  since:
+    year: 1010
+- from: p_renzong
+  to: p_yingzong
+  type: succeeded_by
+  since:
+    year: 1063
+    month: 4
+  until:
+    year: 1067
+    month: 1
+  note: 养子入继
+- from: p_yingzong
+  to: p_shenzong
+  type: succeeded_by
+  note: 神宗赵顼继位
+  since:
+    year: 1067
+    month: 1
+  until:
+    year: 1085
+    month: 3
+- from: p_yingzong
+  to: p_shenzong
+  type: father_of
+  since:
+    year: 1048
+    month: 5
+- from: p_shenzong
+  to: p_zhezong
+  type: succeeded_by
+  note: 哲宗赵煦继位
+  since:
+    year: 1085
+    month: 3
+  until:
+    year: 1100
+    month: 1
+- from: p_shenzong
+  to: p_huizong
+  type: father_of
+  since:
+    year: 1082
+    month: 11
+- from: p_shenzong
+  to: p_zhezong
+  type: father_of
+  since:
+    year: 1077
+- from: p_zhezong
+  to: p_huizong
+  type: succeeded_by
+  note: 徽宗赵佶继位,哲宗无嗣弟立
+  since:
+    year: 1100
+    month: 1
+  until:
+    year: 1125
+    month: 12
+- from: p_huizong
+  to: p_qinzong
+  type: succeeded_by
+  since:
+    year: 1125
+    month: 12
+  until:
+    year: 1127
+    month: 3
+  note: 禅位
+- from: p_huizong
+  to: p_qinzong
+  type: father_of
+  since:
+    year: 1100
+    month: 5
+- from: p_huizong
+  to: p_gaozong
+  type: father_of
+  since:
+    year: 1107
+    month: 6
+  note: 第九子
+- from: p_gaozong
+  to: p_xiaozong
+  type: succeeded_by
+  since:
+    year: 1162
+  note: 禅位,养子
+- from: p_xiaozong
+  to: p_guangzong
+  type: succeeded_by
+  note: 光宗赵惇继位
+  since:
+    year: 1189
+  until:
+    year: 1194
+- from: p_xiaozong
+  to: p_guangzong
+  type: father_of
+  since:
+    year: 1147
+- from: p_guangzong
+  to: p_ningzong
+  type: succeeded_by
+  note: 宁宗赵扩继位,绍熙内禅
+  since:
+    year: 1194
+  until:
+    year: 1224
+    month: 9
+- from: p_guangzong
+  to: p_ningzong
+  type: father_of
+  since:
+    year: 1168
+- from: p_ningzong
+  to: p_lizong
+  type: succeeded_by
+  since:
+    year: 1224
+  until:
+    year: 1264
+    month: 11
+  note: 史弥远拥立
+- from: p_lizong
+  to: p_duzong
+  type: succeeded_by
+  note: 度宗赵禥继位
+  since:
+    year: 1264
+    month: 11
+  until:
+    year: 1274
+    month: 8
+- from: p_lizong
+  to: p_duzong
+  type: father_of
+  note: 侄
+- from: p_duzong
+  to: p_gongdi
+  type: succeeded_by
+  note: 恭帝赵㬎继位,四岁即位
+  since:
+    year: 1274
+    month: 8
+  until:
+    year: 1276
+- from: p_duzong
+  to: p_gongdi
+  type: father_of
+  since:
+    year: 1271
+    month: 9
+- from: p_duzong
+  to: p_duanzong
+  type: father_of
+  since:
+    year: 1269
+- from: p_duzong
+  to: p_dibing
+  type: father_of
+  since:
+    year: 1272
+- from: p_gongdi
+  to: p_duanzong
+  type: sibling_of
+  note: 兄弟
+- from: p_duanzong
+  to: p_dibing
+  type: succeeded_by
+  note: 帝昺赵昺继位,崖山亡宋
+  since:
+    year: 1278
+    month: 5
+  until:
+    year: 1279
+    month: 3
+- from: p_zhaopu
+  to: p_zhaokuangyin
+  type: served_under
+  note: 开国宰相,雪夜访普
+  since:
+    year: 956
+  until:
+    year: 976
+    month: 11
+- from: p_zhaopu
+  to: k_beisong
+  type: founded
+  since:
+    year: 960
+    month: 2
+  note: 谋主
+- from: p_zhaokuangyin
+  to: f_yishe_shixiongdi
+  type: leader_of
+  note: 义社十兄弟之首
+  since:
+    year: 950
+  until:
+    year: 976
+    month: 11
+- from: p_shishouxin_song
+  to: f_yishe_shixiongdi
+  type: member_of
+  note: 义社十兄弟之一
+  since:
+    year: 950
+- from: p_zhaokuangyin
+  to: e_beijiu_shibingquan
+  type: participated_in
+  since:
+    year: 961
+    month: 7
+  note: 主导
+- from: p_shishouxin_song
+  to: e_beijiu_shibingquan
+  type: participated_in
+  note: 交出兵权,出镇地方
+  since:
+    year: 961
+    month: 7
+- from: p_shenzong
+  to: e_xining_bianfa
+  type: participated_in
+  since:
+    year: 1069
+    month: 2
+  until:
+    year: 1085
+    month: 3
+  note: 主导
+- from: p_wanganshi
+  to: e_xining_bianfa
+  type: participated_in
+  since:
+    year: 1069
+    month: 2
+  until:
+    year: 1076
+  note: 主持
+- from: p_wanganshi
+  to: p_shenzong
+  type: served_under
+  since:
+    year: 1069
+  until:
+    year: 1085
+    month: 3
+  note: 宰相
+- from: p_wanganshi
+  to: f_xin_jiu_dang
+  type: leader_of
+  since:
+    year: 1069
+  note: 新党
+- from: p_sima_guang
+  to: f_xin_jiu_dang
+  type: member_of
+  since:
+    year: 1069
+  until:
+    year: 1086
+  note: 旧党
+- from: p_sima_guang
+  to: f_yuanyou_dangren
+  type: leader_of
+  note: 元祐更化主政
+  since:
+    year: 1086
+  until:
+    year: 1086
+- from: p_sushi_song
+  to: f_yuanyou_dangren
+  type: member_of
+  note: 元祐党人,屡遭贬谪
+  since:
+    year: 1086
+  until:
+    year: 1101
+    month: 8
+- from: p_sushi_song
+  to: f_xin_jiu_dang
+  type: member_of
+  since:
+    year: 1069
+  until:
+    year: 1101
+    month: 8
+  note: 中立偏旧
+- from: p_wanganshi
+  to: p_sima_guang
+  type: rival_of
+  since:
+    year: 1069
+  until:
+    year: 1086
+  note: 新旧党争
+- from: p_caijing
+  to: f_xin_jiu_dang
+  type: member_of
+  since:
+    year: 1102
+  until:
+    year: 1126
+    month: 8
+  note: 借新法之名
+- from: p_caijing
+  to: e_yuanyou_dangbei
+  type: participated_in
+  since:
+    year: 1102
+  note: 主导
+- from: p_huizong
+  to: p_caijing
+  type: served_under
+  since:
+    year: 1102
+  until:
+    year: 1125
+    month: 12
+  note: 四度相
+- from: p_tongguan
+  to: p_huizong
+  type: served_under
+  note: 宦官统帅,掌兵二十年
+  until:
+    year: 1125
+    month: 12
+- from: p_zhoudunyi
+  to: f_daoxue_pai
+  type: member_of
+  since:
+    year: 1030
+  until:
+    year: 1073
+    month: 7
+  note: 开山
+- from: p_chengyi
+  to: f_daoxue_pai
+  type: leader_of
+  note: 伊川先生,洛学代表
+  since:
+    year: 1050
+  until:
+    year: 1107
+    month: 9
+- from: p_chenghao
+  to: p_chengyi
+  type: sibling_of
+  note: 兄弟
+- from: p_zhuxi
+  to: f_daoxue_pai
+  type: leader_of
+  since:
+    year: 1160
+  until:
+    year: 1200
+    month: 4
+  note: 集大成
+- from: p_zhuxi
+  to: p_chengyi
+  type: mentored_by
+  note: 程朱理学间接师承
+- from: p_zhuxi
+  to: p_lujiuyuan
+  type: rival_of
+  since:
+    year: 1175
+  note: 鹅湖之辩
+- from: p_zhangzai
+  to: f_daoxue_pai
+  type: member_of
+  since:
+    year: 1040
+  until:
+    year: 1077
+    month: 12
+  note: 关学
+- from: p_lujiuyuan
+  to: f_daoxue_pai
+  type: member_of
+  since:
+    year: 1170
+  until:
+    year: 1193
+    month: 1
+  note: 心学
+- from: p_suxun_song
+  to: p_sushi_song
+  type: father_of
+  since:
+    year: 1037
+    month: 1
+- from: p_suxun_song
+  to: p_suzhe
+  type: father_of
+  since:
+    year: 1039
+- from: p_sushi_song
+  to: p_suzhe
+  type: sibling_of
+  note: 兄弟
+- from: p_ouyangxiu
+  to: p_sushi_song
+  type: mentored_by
+  since:
+    year: 1057
+  note: 嘉祐二年主考
+- from: p_kouzhun
+  to: p_zhenzong
+  type: served_under
+  note: 力主亲征,澶渊建功
+  since:
+    year: 1004
+  until:
+    year: 1022
+    month: 2
+- from: p_kouzhun
+  to: e_chanyuan_zhimeng
+  type: participated_in
+  since:
+    year: 1004
+  until:
+    year: 1005
+    month: 1
+  note: 力主亲征
+- from: p_zhenzong
+  to: e_chanyuan_zhimeng
+  type: participated_in
+  since:
+    year: 1004
+  note: 亲征
+- from: p_xiaotaihou
+  to: e_chanyuan_zhimeng
+  type: participated_in
+  since:
+    year: 1004
+  note: 亲征
+- from: p_yelulongxu
+  to: e_chanyuan_zhimeng
+  type: participated_in
+  note: 辽圣宗,母萧太后主盟
+  since:
+    year: 1004
+- from: p_fanzhongyan
+  to: e_qingli_xinzheng
+  type: participated_in
+  since:
+    year: 1043
+  until:
+    year: 1045
+  note: 主持
+- from: p_fanzhongyan
+  to: p_renzong
+  type: served_under
+  note: 参知政事,主持庆历新政
+  since:
+    year: 1040
+  until:
+    year: 1052
+    month: 6
+- from: p_hanqi
+  to: p_renzong
+  type: served_under
+  note: 宰相,历仕仁英神三朝
+  until:
+    year: 1075
+    month: 8
+- from: p_baozheng
+  to: p_renzong
+  type: served_under
+  note: 权知开封府,铁面无私
+  until:
+    year: 1062
+    month: 5
+- from: p_liyuanhao
+  to: k_xixia
+  type: founded
+  note: 党项酋长,1038年称帝建夏
+  since:
+    year: 1038
+    month: 10
+- from: p_lijiqian
+  to: p_lideming
+  type: father_of
+  since:
+    year: 981
+- from: p_lideming
+  to: p_liyuanhao
+  type: father_of
+  since:
+    year: 1003
+- from: p_liyuanhao
+  to: e_qingli_hexi
+  type: participated_in
+  note: 三川口、好水川后议和
+  since:
+    year: 1044
+- from: p_liyuanhao
+  to: b_sanchuankou
+  type: led
+  note: 设伏重创宋军
+  since:
+    year: 1040
+- from: p_liyuanhao
+  to: b_haoshuigu
+  type: led
+  note: 诱敌深入,大破宋军
+  since:
+    year: 1041
+    month: 3
+- from: p_huizong
+  to: e_haishang_zhimeng
+  type: participated_in
+  since:
+    year: 1120
+  note: 联金灭辽
+- from: p_tongguan
+  to: e_haishang_zhimeng
+  type: participated_in
+  note: 宦官统兵,主持联金灭辽
+  since:
+    year: 1120
+- from: p_ligang_song
+  to: e_jingkang_zhibian
+  type: participated_in
+  since:
+    year: 1126
+  note: 开封保卫战
+- from: p_qinzong
+  to: e_jingkang_zhibian
+  type: participated_in
+  note: 靖康末帝,城破被俘
+  since:
+    year: 1127
+    month: 3
+- from: p_huizong
+  to: e_jingkang_zhibian
+  type: participated_in
+  note: 太上皇,被俘北上
+  since:
+    year: 1127
+    month: 3
+- from: p_zhangbangchang
+  to: e_jingkang_zhibian
+  type: participated_in
+  note: 被金立为伪楚帝
+  since:
+    year: 1127
+    month: 3
+- from: p_gaozong
+  to: k_nansong
+  type: founded
+  note: 重建宋室,定都临安
+  since:
+    year: 1127
+    month: 5
+- from: p_gaozong
+  to: e_jianyan_nandu
+  type: participated_in
+  note: 南渡避金,建炎南渡
+  since:
+    year: 1127
+    month: 5
+- from: p_zongze
+  to: p_gaozong
+  type: served_under
+  note: 东京留守,三呼过河而卒
+  since:
+    year: 1127
+  until:
+    year: 1128
+    month: 7
+- from: p_yuefei
+  to: p_gaozong
+  type: served_under
+  note: 抗金名将,收复襄阳六郡
+  since:
+    year: 1127
+  until:
+    year: 1142
+    month: 1
+- from: p_hanshizhong
+  to: p_gaozong
+  type: served_under
+  note: 抗金名将,黄天荡阻金
+  since:
+    year: 1127
+  until:
+    year: 1151
+    month: 9
+- from: p_yuefei
+  to: b_yancheng
+  type: led
+  note: 大破拐子马,十二金牌召还
+  since:
+    year: 1140
+    month: 7
+- from: p_hanshizhong
+  to: b_huangtiandang
+  type: led
+  note: 以八千阻金十万四十八日
+  since:
+    year: 1130
+    month: 4
+- from: p_lianghongyu
+  to: b_huangtiandang
+  type: participated_in
+  since:
+    year: 1130
+    month: 4
+  note: 击鼓
+- from: p_qinkuai
+  to: p_gaozong
+  type: served_under
+  note: 主和宰相,害岳飞
+  since:
+    year: 1131
+  until:
+    year: 1155
+    month: 11
+- from: p_qinkuai
+  to: p_yuefei
+  type: killed
+  since:
+    year: 1142
+    month: 1
+  note: 莫须有
+- from: p_qinkuai
+  to: e_shaoxing_heyi
+  type: participated_in
+  since:
+    year: 1141
+    month: 11
+  note: 主持
+- from: p_gaozong
+  to: e_shaoxing_heyi
+  type: participated_in
+  note: 称臣纳贡,划定淮界
+  since:
+    year: 1141
+    month: 11
+- from: p_yuefei
+  to: f_zhuzhan_touxiang
+  type: leader_of
+  since:
+    year: 1127
+  until:
+    year: 1142
+    month: 1
+  note: 主战派
+- from: p_qinkuai
+  to: f_zhuzhan_touxiang
+  type: member_of
+  since:
+    year: 1131
+  until:
+    year: 1155
+    month: 11
+  note: 投降派首领
+- from: p_jiasidao
+  to: p_lizong
+  type: served_under
+  note: 外戚擅权,理宗末年任相
+  since:
+    year: 1259
+  until:
+    year: 1275
+    month: 8
+- from: p_jiasidao
+  to: p_duzong
+  type: served_under
+  note: 权相,度宗朝专政
+  since:
+    year: 1264
+  until:
+    year: 1274
+    month: 8
+- from: p_luxiufu
+  to: p_dibing
+  type: killed
+  since:
+    year: 1279
+    month: 3
+  note: 负帝投海
+- from: p_zhangshijie
+  to: p_dibing
+  type: served_under
+  note: 陆秀夫同辅幼主,海上行朝
+  since:
+    year: 1276
+  until:
+    year: 1279
+    month: 3
+- from: p_wentianxiang
+  to: p_gongdi
+  type: served_under
+  note: 右丞相,抗元被俘不屈
+  since:
+    year: 1275
+  until:
+    year: 1278
+- from: p_luxiufu
+  to: b_yashan
+  type: participated_in
+  note: 负帝投海,宋亡
+  since:
+    year: 1279
+    month: 3
+- from: p_zhangshijie
+  to: b_yashan
+  type: participated_in
+  note: 覆舟,突围后溺亡
+  since:
+    year: 1279
+    month: 3
+- from: p_dibing
+  to: b_yashan
+  type: participated_in
+  note: 八岁,宋末帝
+  since:
+    year: 1279
+    month: 3
+- from: p_chengjisihan
+  to: p_kuotai
+  type: father_of
+  since:
+    year: 1186
+- from: p_chengjisihan
+  to: p_tuolei
+  type: father_of
+  since:
+    year: 1193
+- from: p_chengjisihan
+  to: p_kuotai
+  type: succeeded_by
+  note: 窝阔台继大汗位
+  since:
+    year: 1229
+- from: p_tuolei
+  to: p_mengge
+  type: father_of
+  since:
+    year: 1209
+- from: p_tuolei
+  to: p_hubilai
+  type: father_of
+  since:
+    year: 1215
+- from: p_kuotai
+  to: p_guiyou
+  type: succeeded_by
+  note: 贵由继大汗位
+  since:
+    year: 1246
+- from: p_guiyou
+  to: p_mengge
+  type: succeeded_by
+  note: 蒙哥继大汗位
+  since:
+    year: 1251
+- from: p_yeluchucai
+  to: p_chengjisihan
+  type: served_under
+  note: 谏止屠城
+  since:
+    year: 1218
+  until:
+    year: 1227
+    month: 8
+- from: p_yeluchucai
+  to: p_kuotai
+  type: served_under
+  note: 太宗朝任中书令,立十路课税所
+  since:
+    year: 1229
+  until:
+    year: 1241
+    month: 12
+- from: p_wanyanwuqimai
+  to: p_wanyanaguda
+  type: sibling_of
+  note: 弟
+- from: p_wanyanaguda
+  to: p_wanyanwuqimai
+  type: succeeded_by
+  note: 金太宗,继兄阿骨打位
+  since:
+    year: 1123
+    month: 9
+- from: p_wanyanliang
+  to: p_wanyanyong
+  type: succeeded_by
+  since:
+    year: 1161
+    month: 12
+  note: 兵变自立
+- from: p_wanyanwuzhu
+  to: p_wanyanaguda
+  type: father_of
+  note: 第四子
+- from: p_wanyanwuzhu
+  to: b_huangtiandang
+  type: led
+  note: 金军主帅,黄天荡受阻
+  since:
+    year: 1130
+    month: 4
+- from: p_wanyanwuzhu
+  to: b_yancheng
+  type: led
+  since:
+    year: 1140
+    month: 7
+  note: 败
+- from: p_wanyanshouxu
+  to: b_caizhou_jinmie
+  type: participated_in
+  since:
+    year: 1234
+    month: 2
+  note: 自缢
+- from: k_nansong
+  to: d_yuan
+  type: destroyed_by
+  note: 崖山海战,十万军民殉国
+  since:
+    year: 1279
+    month: 3
+- from: k_beisong
+  to: k_nansong
+  type: succeeded_by
+  note: 靖康之变后高宗重建
+  since:
+    year: 1127
+    month: 5
+- from: e_chenqiao
+  to: e_beijiu_shibingquan
+  type: led_to
+  note: 陈桥→释兵权
+- from: e_chanyuan_zhimeng
+  to: e_haishang_zhimeng
+  type: led_to
+  note: 宋辽和平→海上之盟背辽

@@ -1,0 +1,21 @@
+id: p_tuolei
+type: Person
+name: 拖雷
+alias:
+- 睿宗
+born:
+  year: 1193
+died:
+  year: 1232
+  month: 9
+gender: male
+birthplace: pl_kelun_tie
+bio: 成吉思汗第四子。子蒙哥、忽必烈、旭烈兀、阿里不哥相继为汗。元朝追尊睿宗。
+sources:
+- 元史·睿宗传
+wikidata_id: "Q7517"
+wikipedia_zh: "拖雷"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/85/Tolui_Khan.jpg"
+image_license: "Public domain"
+image_credit: "Rashid-al-Din Hamadani"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tolui_Khan.jpg"

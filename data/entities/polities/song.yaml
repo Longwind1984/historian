@@ -1,0 +1,17 @@
+id: k_song
+type: Polity
+name: 宋
+name_en: Song
+color: '#f1c40f'
+founded:
+  year: 960
+  month: 2
+ended:
+  year: 1279
+  month: 2
+capital: pl_kaifeng
+description: 北宋。960 年赵匡胤陈桥兵变代后周。979 年灭北汉,统一中国本部。
+sources:
+- 宋史
+- 续资治通鉴长编
+founder: p_zhaokuangyin

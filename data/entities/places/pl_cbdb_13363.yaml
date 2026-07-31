@@ -1,0 +1,12 @@
+id: pl_cbdb_13363
+type: Place
+name: 蒲江
+modern_name: 蒲江
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.214197
+longitude: 103.502586
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

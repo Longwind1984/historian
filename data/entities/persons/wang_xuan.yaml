@@ -1,0 +1,21 @@
+id: p_wang_xuan
+type: Person
+name: 王选
+gender: male
+born:
+  year: 1937
+died:
+  year: 2006
+roles:
+- scholar
+importance: 2
+bio: 江苏无锡人，生于上海。北京大学教授。1975 年起主持汉字信息处理与激光照排系统研制，跳过当时国外正在用的二、三代机型，直接做第四代激光照排，以轮廓加参数描述汉字字形解决字库存储难题。1987 年《经济日报》成为首家用其系统照排的报纸，此后中文出版业弃铅字排版，业内称"告别铅与火"。2001 年获国家最高科学技术奖。
+sources:
+- 当代中国史
+- 中国科学技术史
+wikidata_id: "Q92987"
+wikipedia_zh: "王选"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Wang_Xuan_statue%2C_Wuxi_Museum.jpg/500px-Wang_Xuan_statue%2C_Wuxi_Museum.jpg"
+image_license: "CC BY-SA 4.0"
+image_credit: "Huangchenhai"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wang_Xuan_statue,_Wuxi_Museum.jpg"

@@ -1,0 +1,22 @@
+id: p_fang_xuanling
+type: Person
+name: 房玄龄
+alias:
+- 房乔
+courtesy_name: 乔
+born:
+  year: 579
+died:
+  year: 648
+  month: 8
+gender: male
+birthplace: pl_qi_xianfang
+bio: 唐初名相。'贞观之治'重要辅臣。'房谋杜断'。
+sources:
+- 旧唐书·房玄龄传
+wikidata_id: "Q736647"
+wikipedia_zh: "房玄龄"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Fang_Xuanling.jpg"
+image_license: "Public domain"
+image_credit: "Kikuchi Yōsai"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Fang_Xuanling.jpg"

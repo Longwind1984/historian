@@ -1,0 +1,14 @@
+id: pl_shanhaiguan
+type: Place
+name: 山海关
+modern_name: 秦皇岛
+province: 河北
+latitude: 40.0
+longitude: 119.76
+category: battlefield
+description: 1644 山海关之战
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

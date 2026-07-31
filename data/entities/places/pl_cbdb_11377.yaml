@@ -1,0 +1,12 @@
+id: pl_cbdb_11377
+type: Place
+name: 永安
+modern_name: 永安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.69323
+longitude: 112.941292
+first_year: 1007
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_7618
+type: Place
+name: 德清
+modern_name: 德清
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.553133011
+longitude: 120.08480072
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

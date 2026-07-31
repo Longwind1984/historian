@@ -1,0 +1,20 @@
+id: p_fan_zeng
+type: Person
+name: 范增
+alias:
+- 范亚父
+born:
+  year: -277
+died:
+  year: -204
+gender: male
+birthplace: pl_chao_xian_fanzeng
+bio: 项羽谋士。'亚父'。BC208 劝项梁立楚怀王孙心。BC206 鸿门宴劝项羽杀刘邦。后离间而死。
+sources:
+- 史记·项羽本纪
+wikidata_id: "Q1195629"
+wikipedia_zh: "范增"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3c/%E8%8C%83%E5%A2%9E%E5%83%8F.jpg"
+image_license: "CC BY-SA 4.0"
+image_credit: "西汉画家"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%8C%83%E5%A2%9E%E5%83%8F.jpg"

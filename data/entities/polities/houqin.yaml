@@ -1,0 +1,17 @@
+id: k_houqin
+type: Polity
+name: 后秦
+name_en: Later Qin
+color: '#6a8c4a'
+founded:
+  year: 384
+  month: 4
+ended:
+  year: 417
+  month: 8
+description: 384 淝水战后姚苌自立,国号秦,都长安,羌族政权。385 缢杀苻坚灭前秦。417 东晋刘裕北伐,姚泓出降,国亡。
+sources:
+- 晋书·载记第十六至十八
+- 资治通鉴·卷105-118
+founder: p_yaochang
+capital: pl_chang_an

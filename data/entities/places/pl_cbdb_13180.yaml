@@ -1,0 +1,12 @@
+id: pl_cbdb_13180
+type: Place
+name: 峽州
+modern_name: 峽州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.704227
+longitude: 111.287125
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

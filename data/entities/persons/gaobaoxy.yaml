@@ -1,0 +1,17 @@
+id: p_gaobaoxy
+type: Person
+name: 高保勗
+alias:
+- 荆南贞安王
+born:
+  year: 924
+died:
+  year: 962
+  month: 11
+gender: male
+birthplace: pl_jiangling
+bio: 荆南第五主。高从诲子。960-962 在位。荒淫。'万事不如杯在手,一年几见月当头'典出于此。
+sources:
+- 十国春秋·荆南
+wikidata_id: "Q6148923"
+wikipedia_zh: "高保勗"

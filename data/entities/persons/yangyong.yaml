@@ -1,0 +1,14 @@
+id: p_yangyong
+type: Person
+name: 杨勇
+alias:
+- 房陵王
+died:
+  year: 604
+gender: male
+birthplace: pl_daxing
+bio: 隋文帝长子,太子。率性奢侈,为母独孤皇后所不喜。600 年被废为房陵王,弟杨广被立为太子。604 年杨广即位后被赐死。
+sources:
+- 隋书·房陵王勇传
+wikidata_id: "Q906115"
+wikipedia_zh: "杨勇 (隋朝)"

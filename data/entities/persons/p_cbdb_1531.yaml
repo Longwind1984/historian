@@ -1,0 +1,14 @@
+id: p_cbdb_1531
+type: Person
+name: 孫抗
+born:
+  year: 998
+died:
+  year: 1051
+gender: male
+birthplace: pl_cbdb_12857
+dynasty_ref: k_beisong
+bio: CBDB ID 1531
+name_en: Sun Kang
+sources:
+- CBDB (China Biographical Database)

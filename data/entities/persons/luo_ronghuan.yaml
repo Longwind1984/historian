@@ -1,0 +1,22 @@
+id: p_luo_ronghuan
+type: Person
+name: 罗荣桓
+gender: male
+born:
+  year: 1902
+died:
+  year: 1963
+roles:
+- general
+- civil_official
+importance: 2
+bio: 湖南衡山人。参加秋收起义，随毛泽东上井冈山，是三湾改编"支部建在连上"的最早实践者之一。长期任政治工作主官，抗战任八路军 115 师政委，主政山东根据地。解放战争任东北野战军政委，与林彪搭档，参与辽沈、平津战役。1955 年授元帅，十大元帅中唯一的政工元帅。建国后任总政治部主任。1963 年病逝。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q709545"
+wikipedia_zh: "罗荣桓"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Luo_Ronghuan.jpg"
+image_license: "Public domain"
+image_credit: "​《 新华社 》记者 齐观山"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Luo_Ronghuan.jpg"

@@ -1,0 +1,24 @@
+id: p_wang_guowei
+type: Person
+name: 王国维
+alias:
+- 王静安
+courtesy_name: 静安
+born:
+  year: 1877
+died:
+  year: 1927
+gender: male
+roles:
+- scholar
+importance: 2
+bio: 浙江海宁人，近代学者。早年习西学，治哲学、美学，译康德、叔本华。后转入文史，1923 年应召任清废帝溥仪"南书房行走"。1925 年任清华国学研究院导师。治学广涉甲骨金文、宋元戏曲、西北史地，倡"二重证据法"。著《观堂集林》《宋元戏曲考》《人间词话》等。1927 年 6 月 2 日自沉于颐和园昆明湖。
+sources:
+- 中华民国史·王国维传
+- 陈鸿祥·王国维传
+wikidata_id: "Q707376"
+wikipedia_zh: "王国维"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/%E7%8E%8B%E9%9D%9C%E5%AE%89%E5%85%88%E7%94%9F%E6%9C%80%E8%BF%91%E5%B0%8F%E5%83%8F.jpg"
+image_license: "Public domain"
+image_credit: "清华学校研究院"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E9%9D%9C%E5%AE%89%E5%85%88%E7%94%9F%E6%9C%80%E8%BF%91%E5%B0%8F%E5%83%8F.jpg"

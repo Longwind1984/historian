@@ -1,0 +1,16 @@
+id: p_cao_chong
+type: Person
+name: 曹冲
+alias:
+- 曹仓舒
+born:
+  year: 196
+died:
+  year: 208
+gender: male
+birthplace: pl_qiao_cao
+bio: 曹操子。'曹冲称象'。早慧,13 岁夭折。
+sources:
+- 三国志·魏书·邓哀王冲传
+wikidata_id: "Q580624"
+wikipedia_zh: "曹冲"

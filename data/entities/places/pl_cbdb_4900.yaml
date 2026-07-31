@@ -1,0 +1,12 @@
+id: pl_cbdb_4900
+type: Place
+name: 東阿
+modern_name: 東阿
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.211385
+longitude: 116.251021
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

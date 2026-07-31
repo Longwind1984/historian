@@ -1,0 +1,12 @@
+id: pl_cbdb_11975
+type: Place
+name: 下邽
+modern_name: 下邽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.729103
+longitude: 109.50959
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

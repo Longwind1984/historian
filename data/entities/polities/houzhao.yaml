@@ -1,0 +1,16 @@
+id: k_houzhao
+type: Polity
+name: 后赵
+name_en: Later Zhao
+color: '#95a5a6'
+founded:
+  year: 319
+  month: 11
+ended:
+  year: 351
+capital: pl_xiangguo
+description: 十六国之一。羯。石勒建。333 石虎继位,暴虐。350 冉闵灭之。
+sources:
+- 晋书·载记
+founder: p_shi_le
+ended_by: k_ranwei

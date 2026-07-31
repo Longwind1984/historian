@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "纪年图谱 · 微信读书伴读",
+  "description": "在微信读书旁打开纪年图谱，仅在用户主动操作时读取当前选区。",
+  "version": "0.1.0",
+  "minimum_chrome_version": "114",
+  "permissions": [
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://weread.qq.com/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "打开纪年图谱伴读"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://weread.qq.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; object-src 'none'; frame-src http://127.0.0.1:5173;"
+  }
+}

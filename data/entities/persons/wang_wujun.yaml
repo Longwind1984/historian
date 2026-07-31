@@ -1,0 +1,14 @@
+id: p_wang_wujun
+type: Person
+name: 王武俊
+born:
+  year: 735
+died:
+  year: 801
+gender: male
+birthplace: pl_zhenzhou3
+bio: 成德节度使(781-801)。契丹族。杀李惟岳自立。781-786 年间多次反叛与归附唐廷。
+sources:
+- 旧唐书·王武俊传
+wikidata_id: "Q7967676"
+wikipedia_zh: "王武俊"

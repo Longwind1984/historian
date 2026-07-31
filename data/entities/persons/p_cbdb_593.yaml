@@ -1,0 +1,14 @@
+id: p_cbdb_593
+type: Person
+name: 范雍
+born:
+  year: 979
+died:
+  year: 1046
+gender: male
+birthplace: pl_cbdb_100409
+dynasty_ref: k_beisong
+bio: CBDB ID 593
+name_en: Fan Yong
+sources:
+- CBDB (China Biographical Database)

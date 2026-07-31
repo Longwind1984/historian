@@ -1,0 +1,18 @@
+id: p_song_qingling
+name: 宋庆龄
+type: Person
+born: {year: 1893}
+died: {year: 1981}
+roles:
+  - civil_official
+importance: 2
+bio: 广东文昌人,生于上海。孙中山夫人,曾任中华人民共和国副主席、名誉主席。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q17132"
+wikipedia_zh: "宋庆龄"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Soong_Ching-ling.jpg/500px-Soong_Ching-ling.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Soong_Ching-ling.jpg"

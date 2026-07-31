@@ -1,0 +1,12 @@
+id: pl_cbdb_100610
+type: Place
+name: 陽翟
+modern_name: 陽翟
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.162491
+longitude: 113.467056
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

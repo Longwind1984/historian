@@ -1,0 +1,14 @@
+id: p_liu_yin
+type: Person
+name: 刘隐
+born:
+  year: 874
+died:
+  year: 911
+gender: male
+birthplace: pl_guangzhou
+bio: 唐末岭南节度使。南汉刘龑之兄,南汉基业奠基者。
+sources:
+- 新五代史·南汉世家
+wikidata_id: "Q708360"
+wikipedia_zh: "刘隐"

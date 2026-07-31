@@ -1,0 +1,12 @@
+id: pl_cbdb_11205
+type: Place
+name: 東平府
+modern_name: 東平府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.91034317
+longitude: 116.29917145
+first_year: 1119
+last_year: 1126
+description: CBDB 行政类型:Fu

@@ -1,0 +1,43 @@
+type: Title
+label: 官职/封号
+label_en: Title
+icon: 🎖️
+color: "#f39c12"
+description: 官职、封爵、称号
+fields:
+  name:
+    type: string
+    required: true
+    label: 名称
+  rank:
+    type: string
+    optional: true
+    label: 品级
+  category:
+    type: enum
+    options:
+      - central          # 中央官
+      - local            # 地方官
+      - military         # 军职
+      - noble            # 封爵
+      - honorific        # 荣誉称号
+      - posthumous       # 谥号/追赠
+    label: 类别
+  polity:
+    type: ref
+    to: Polity
+    optional: true
+    label: 所属政权
+  description:
+    type: text
+    optional: true
+    label: 描述
+  sources:
+    type: array
+    items: string
+    optional: true
+    label: 史料出处
+ext: allow
+relations:
+  incoming:
+    - held_title         # Person → Title

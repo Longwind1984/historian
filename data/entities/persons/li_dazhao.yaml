@@ -1,0 +1,25 @@
+id: p_li_dazhao
+type: Person
+name: 李大钊
+alias:
+- 李守常
+courtesy_name: 守常
+born:
+  year: 1889
+died:
+  year: 1927
+gender: male
+roles:
+- scholar
+- rebel_leader
+importance: 2
+bio: 河北乐亭人，近代思想家。早年留学日本早稻田大学。1916 年回国，任北京大学图书馆主任、经济学教授。1918 年起在《新青年》发表《庶民的胜利》《我的马克思主义观》，为最早在中国系统介绍马克思主义者之一。1919 年支持五四运动。1920 年与陈独秀筹建中国共产党，并推动北方党组织，称"南陈北李"。1927 年 4 月 6 日被奉系张作霖逮捕，28 日以"里通苏联"罪在北京绞杀。
+sources:
+- 中华民国史·李大钊传
+- 朱成甲·李大钊传
+wikidata_id: "Q378036"
+wikipedia_zh: "李大钊"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/1930_Li_Dazhao_Chinese_comintern.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:1930_Li_Dazhao_Chinese_comintern.jpg"

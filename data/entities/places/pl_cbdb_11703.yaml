@@ -1,0 +1,12 @@
+id: pl_cbdb_11703
+type: Place
+name: 河北西路
+modern_name: 河北西路
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.140110016
+longitude: 114.56364441
+first_year: 1073
+last_year: 1126
+description: CBDB 行政类型:Lu

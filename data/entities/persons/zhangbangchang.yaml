@@ -1,0 +1,15 @@
+id: p_zhangbangchang
+type: Person
+name: 张邦昌
+born:
+  year: 1081
+died:
+  year: 1127
+  month: 11
+gender: male
+birthplace: pl_kaifeng
+bio: 北宋末大臣。靖康之变后金人立为'大楚'傀儡皇帝(在位 32 天)。金退后还政赵构。被高宗赐死。
+sources:
+- 宋史·叛臣传·张邦昌
+wikidata_id: "Q2648375"
+wikipedia_zh: "张邦昌"

@@ -1,0 +1,15 @@
+id: e_kuiqiu_zhihui
+type: Event
+name: 葵丘之会
+date:
+  year: -651
+category: treaty
+polities_involved:
+- k_qi_state
+importance: 2
+description: 前651年齐桓公会诸侯于葵丘，周襄王使宰孔赐胙，命"无下拜"，桓公犹下拜受。盟辞禁遏叛逆、壅泉利邻、储粮、禄士等，申明"尊王攘夷"。为齐桓公霸业之顶点。
+impact: 齐桓公霸业达于鼎盛，春秋首霸之局确立，"尊王攘夷"成为霸政旗帜。
+sources:
+- 左传·僖公九年
+- 史记·齐太公世家
+- 国语·齐语

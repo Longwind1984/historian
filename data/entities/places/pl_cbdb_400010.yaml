@@ -1,0 +1,12 @@
+id: pl_cbdb_400010
+type: Place
+name: 符離
+modern_name: 符離
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.766956329
+longitude: 116.96672821
+first_year: 627
+last_year: 832
+description: CBDB 行政类型:Xian

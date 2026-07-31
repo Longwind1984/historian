@@ -1,0 +1,33 @@
+id: p_liu_zhuang_dong
+type: Person
+name: 刘庄
+alias:
+- 汉明帝
+- 明帝
+born:
+  year: 28
+died:
+  year: 75
+gender: male
+birthplace: pl_luoyang
+bio: 光武帝子。尊儒重法、整肃吏治，遣班超通西域，佛教传入并建白马寺。与章帝并称'明章之治'。
+sources:
+- 后汉书·明帝纪
+- 后汉书
+- 资治通鉴
+reign_start:
+  year: 57
+reign_end:
+  year: 75
+roles:
+- emperor
+ext:
+  title: 汉明帝
+  regime: 东汉
+importance: 3
+wikidata_id: "Q7271"
+wikipedia_zh: "汉明帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Liu_Zhuang_%28Emperor_Ming_of_Han%29.png/500px-Liu_Zhuang_%28Emperor_Ming_of_Han%29.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Zhuang_(Emperor_Ming_of_Han).png"

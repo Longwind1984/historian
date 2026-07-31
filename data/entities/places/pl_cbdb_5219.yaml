@@ -1,0 +1,12 @@
+id: pl_cbdb_5219
+type: Place
+name: 武功
+modern_name: 武功
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.332054
+longitude: 108.105102
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_6072
+type: Place
+name: 增城
+modern_name: 增城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 23.292559
+longitude: 113.829155
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

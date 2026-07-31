@@ -1,0 +1,24 @@
+id: b_huangtiandang
+type: Battle
+name: 黄天荡之战
+date:
+  year: 1130
+  month: 4
+importance: 3
+location: pl_huangtiandang
+combatants:
+- k_nansong
+- k_jin
+commanders:
+- p_hanshizhong
+- p_lianghongyu
+- p_wanyanwuzhu
+victor: null
+description: 金兀术焚临安北撤,韩世忠率八千于镇江封锁长江,围困金军十万于黄天荡 48 日。梁红玉击鼓助战。
+significance: 金此后不敢轻易渡江。
+sources:
+- 宋史·韩世忠传
+end_date:
+  year: 1130
+  month: 5
+category: battle

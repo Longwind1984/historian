@@ -1,0 +1,16 @@
+id: pl_dadu_yuan
+type: Place
+name: 大都
+modern_name: 北京
+province: 北京
+latitude: 39.91
+longitude: 116.4
+category: capital
+description: 元都
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集
+aliases:
+- 汗八里

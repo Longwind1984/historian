@@ -1,0 +1,12 @@
+id: pl_cbdb_12675
+type: Place
+name: 餘杭
+modern_name: 餘杭
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.27177
+longitude: 119.9406
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,20 @@
+id: p_xiahou_dun
+type: Person
+name: 夏侯惇
+alias:
+- 夏侯元让
+courtesy_name: 元让
+died:
+  year: 220
+  month: 6
+gender: male
+birthplace: pl_qiao_cao
+bio: 曹魏宗将。'盲夏侯'。
+sources:
+- 三国志·魏书·夏侯惇传
+wikidata_id: "Q378433"
+wikipedia_zh: "夏侯惇"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Xiahou_Dun_Portrait.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xiahou_Dun_Portrait.jpg"

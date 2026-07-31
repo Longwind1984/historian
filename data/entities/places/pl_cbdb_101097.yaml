@@ -1,0 +1,12 @@
+id: pl_cbdb_101097
+type: Place
+name: 宣州
+modern_name: 宣州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.946941376
+longitude: 118.74250031
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

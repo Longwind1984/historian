@@ -1,0 +1,14 @@
+id: p_cbdb_40789
+type: Person
+name: 李誠之
+born:
+  year: 1153
+died:
+  year: 1221
+gender: male
+birthplace: pl_cbdb_12786
+dynasty_ref: k_beisong
+bio: CBDB ID 40789
+name_en: Li Chengzhi
+sources:
+- CBDB (China Biographical Database)

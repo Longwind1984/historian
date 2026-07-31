@@ -1,0 +1,12 @@
+id: pl_cbdb_100463
+type: Place
+name: 甌寧
+modern_name: 甌寧
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.038864136
+longitude: 118.32378387
+first_year: 1066
+last_year: 1279
+description: CBDB 行政类型:Xian

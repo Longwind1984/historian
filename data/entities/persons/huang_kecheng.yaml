@@ -1,0 +1,22 @@
+id: p_huang_kecheng
+type: Person
+name: 黄克诚
+gender: male
+born:
+  year: 1902
+died:
+  year: 1986
+roles:
+- general
+- civil_official
+importance: 2
+bio: 湖南永兴人。长期任军队政治工作主官，抗战率新四军三师开辟苏北。1945 年首倡向东北进军，为中共抢占东北之策源。建国后任总参谋长、军委秘书长。1959 年庐山会议因支持彭德怀上书，被划为"彭黄张周反党集团"成员，撤职批斗，文革中续遭迫害，1978 年后平反，任中央纪委常务书记。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q717035"
+wikipedia_zh: "黄克诚"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Huang_Kecheng.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Huang_Kecheng.jpg"

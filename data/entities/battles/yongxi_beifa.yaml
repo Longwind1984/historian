@@ -1,0 +1,29 @@
+id: b_yongxi_beifa
+type: Battle
+name: 雍熙北伐
+date:
+  year: 986
+  month: 3
+importance: 2
+location: pl_yanyan_zhou
+combatants:
+- k_beisong
+- k_liao
+commanders:
+- p_caobin
+- p_panmei
+- p_yangye
+victor: k_liao
+victor_commander: null
+description: 太宗三路伐辽。曹彬冒进粮尽退兵,再进又败于岐沟关;西路军杨业孤军陈家谷被俘绝食死。
+significance: 宋对辽转入全面守势,'积弱'格局定。
+sources:
+- 宋史·杨业传
+end_date:
+  year: 986
+  month: 7
+category: war
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 三路再伐,岐沟关溃、杨业殁,武力收复之志绝

@@ -1,0 +1,14 @@
+id: p_cbdb_1789
+type: Person
+name: 王兢
+born:
+  year: 1032
+died:
+  year: 1095
+gender: male
+birthplace: pl_cbdb_100072
+dynasty_ref: k_beisong
+bio: CBDB ID 1789
+name_en: Wang Jing (2)
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,14 @@
+id: pl_taiwan_qing
+type: Place
+name: 台湾
+modern_name: 台北
+province: 台湾
+latitude: 25.03
+longitude: 121.56
+category: region
+description: 1683 收台湾
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

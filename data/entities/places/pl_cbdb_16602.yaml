@@ -1,0 +1,12 @@
+id: pl_cbdb_16602
+type: Place
+name: 柳州
+modern_name: 柳州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.309988
+longitude: 109.404396
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Zhou

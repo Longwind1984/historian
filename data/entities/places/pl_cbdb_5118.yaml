@@ -1,0 +1,12 @@
+id: pl_cbdb_5118
+type: Place
+name: 南陽
+modern_name: 南陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.001678
+longitude: 112.535469
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

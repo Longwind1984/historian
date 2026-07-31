@@ -1,0 +1,16 @@
+id: k_chu_state
+type: Polity
+name: 楚国
+name_en: Chu (state)
+color: '#16a085'
+founded:
+  year: -1030
+ended:
+  year: -223
+ended_by: k_qin_state
+capital: pl_ying_qin
+description: 楚国。芈姓，熊氏，周初封熊绎于楚蛮，居荆山，子男之田。春秋初僭称王号，疆域日广。楚庄王问鼎中原、邲战败晋，为春秋霸主。战国为南方大国，与秦争衡。前223年秦将王翦、蒙武破楚，虏楚王负刍，楚亡。始封年据史记通说。
+sources:
+- 史记·楚世家
+- 左传·宣公
+- 史记·秦始皇本纪

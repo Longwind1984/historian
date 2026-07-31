@@ -1,0 +1,17 @@
+id: e_zhenghe_xiaxiyang
+type: Event
+name: 郑和下西洋
+date:
+  year: 1405
+category: diplomacy
+importance: 2
+location: pl_liujiagang
+polities_involved:
+- k_ming
+description: 1405-1433 郑和七下西洋(或言八)。船队庞大(200 余艘,2.7 万人)。最远抵东非、阿拉伯。
+impact: 世界航海史壮举。明朝官方主导,无经济目的,后因财政停罢。
+sources:
+- 明史·郑和传
+end_date:
+  year: 1433
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Zheng He Voyages.jpg

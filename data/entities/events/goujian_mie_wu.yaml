@@ -1,0 +1,16 @@
+id: e_goujian_mie_wu
+type: Event
+name: 越灭吴
+date:
+  year: -473
+category: conquest
+polities_involved:
+- k_yue_state
+- k_wu_state
+importance: 2
+description: 前473年越王勾践大举伐吴，围吴都，破之。吴王夫差求为附庸不得，自刎，吴亡。越北上会诸侯于徐州，致贡周室，号称霸主。
+impact: 春秋晚期吴越争霸以越胜终；越跻身霸主，然旋即衰并于楚，春秋之局将入战国。
+sources:
+- 左传·哀公二十二年
+- 史记·越王句践世家
+- 史记·吴太伯世家

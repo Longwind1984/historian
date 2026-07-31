@@ -1,0 +1,28 @@
+id: p_liu_zhi_huandi
+type: Person
+name: 刘志
+alias:
+- 汉桓帝
+- 桓帝
+born:
+  year: 132
+died:
+  year: 168
+reign_start:
+  year: 146
+reign_end:
+  year: 168
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_donghan
+bio: 章帝曾孙。联宦官诛灭梁冀，宦官五侯专权；第一次党锢之祸起于其时。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉桓帝
+  regime: 东汉
+wikidata_id: "Q7297"
+wikipedia_zh: "汉桓帝"

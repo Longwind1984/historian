@@ -1,0 +1,12 @@
+id: pl_cbdb_101094
+type: Place
+name: 紹興府
+modern_name: 紹興府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.004515
+longitude: 120.578262
+first_year: 1131
+last_year: 1279
+description: CBDB 行政类型:Fu

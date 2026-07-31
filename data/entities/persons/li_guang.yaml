@@ -1,0 +1,22 @@
+id: p_li_guang
+type: Person
+name: 李广
+alias:
+- 李飞将军
+- 飞将军
+died:
+  year: -119
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_longxi_liguang
+bio: 西汉名将。陇西成纪人。历仕文、景、武三朝,与匈奴七十余战。BC119 随卫青漠北之战失道,自杀。'李广难封'。
+sources:
+- 史记·李将军列传
+wikidata_id: "Q706443"
+wikipedia_zh: "李广"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/%E5%86%A5%E5%B1%B1%E5%B0%84%E8%99%8E.jpg/500px-%E5%86%A5%E5%B1%B1%E5%B0%84%E8%99%8E.jpg"
+image_license: "Public domain"
+image_credit: "Ma Tai (馬駘; 1885-1937)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%86%A5%E5%B1%B1%E5%B0%84%E8%99%8E.jpg"

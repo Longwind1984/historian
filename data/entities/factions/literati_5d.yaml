@@ -1,0 +1,18 @@
+id: f_literati_5d
+type: Faction
+name: 五代文人圈
+nature: scholarly
+founded:
+  year: 900
+dissolved:
+  year: 979
+core_region: pl_kaifeng
+description: 五代乱世中以冯道为代表的实用主义文官群体。历仕多朝,主持刻九经,保存文化典籍。
+significance: 五代乱世文脉存续的载体,虽后世争议其节,但客观贡献于文化传承。
+peak_period: 五代全期
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

@@ -1,0 +1,14 @@
+id: p_cbdb_480
+type: Person
+name: 周嘉正
+born:
+  year: 970
+died:
+  year: 1033
+gender: male
+birthplace: pl_cbdb_100416
+dynasty_ref: k_beisong
+bio: CBDB ID 480
+name_en: Zhou Jiazheng
+sources:
+- CBDB (China Biographical Database)

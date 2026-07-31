@@ -1,0 +1,18 @@
+id: p_fan_kuai
+type: Person
+name: 樊哙
+born:
+  year: -242
+died:
+  year: -189
+gender: male
+birthplace: pl_pei_xian_xiaohe
+bio: 汉初骁将。刘邦连襟(娶吕媭)。BC206 鸿门宴闯帐救刘邦。
+sources:
+- 史记·樊郦滕灌列传
+wikidata_id: "Q1149550"
+wikipedia_zh: "樊噲"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Fan_Kuai.jpg/500px-Fan_Kuai.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Fan_Kuai.jpg"

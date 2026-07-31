@@ -1,0 +1,35 @@
+id: p_shijingtan
+type: Person
+name: 石敬瑭
+alias:
+- 后晋高祖
+- 儿皇帝
+born:
+  year: 892
+  month: 3
+died:
+  year: 942
+  month: 6
+reign_start:
+  year: 936
+reign_end:
+  year: 942
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_taiyuan
+bio: 后晋建立者。沙陀人,李嗣源女婿。936 年在太原起兵反唐,向契丹借兵灭后唐,自称儿皇帝,割燕云十六州予契丹。都开封。942 年病死。
+sources:
+- 旧五代史·晋高祖纪
+- 新五代史·晋本纪
+- 资治通鉴·卷280-283
+ext:
+  title: 石敬瑭
+  regime: 后晋
+wikidata_id: "Q1189495"
+wikipedia_zh: "石敬瑭"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Shi_Jingtang_%28Jin_Gaozu%29.jpg/500px-Shi_Jingtang_%28Jin_Gaozu%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Shi_Jingtang_(Jin_Gaozu).jpg"

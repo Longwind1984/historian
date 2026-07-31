@@ -1,0 +1,13 @@
+id: pl_dongyong_sui
+type: Place
+name: 东垣
+modern_name: 新绛
+province: 山西
+latitude: 35.62
+longitude: 111.22
+category: city
+description: 韩擒虎籍贯
+sources:
+- 旧唐书
+- 隋书
+- 中国历史地图集

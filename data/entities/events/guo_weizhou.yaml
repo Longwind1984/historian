@@ -1,0 +1,17 @@
+id: e_guo_weizhou
+type: Event
+name: 郭威建后周
+date:
+  year: 951
+  month: 1
+category: founding
+importance: 2
+location: pl_kaifeng
+polities_involved:
+- k_houhan
+- k_houzhou
+description: 乾祐三年十一月，后汉隐帝诛辅政大臣并下诏杀郭威，郭威遂自邺都起兵南下，隐帝兵败被杀；十二月郭威经澶州军变后受诰监国。广顺元年正月，郭威即帝位，国号周。
+impact: 五代最后一次改朝换代。后周为北宋统一奠基。
+sources:
+- 资治通鉴·卷289-290
+- 旧五代史·周太祖纪

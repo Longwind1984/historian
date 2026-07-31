@@ -1,0 +1,23 @@
+id: k_yuan
+type: Polity
+name: 元
+name_en: Yuan
+color: '#34495e'
+founded:
+  year: 1271
+ended:
+  year: 1368
+capital: pl_dadu_yuan
+description: 1271 忽必烈定国号大元。1279 崖山灭南宋,统一全国。创行省制度。元曲兴盛。1368 明军克大都,元廷北遁(北元)。
+sources:
+- 元史
+founder: p_hubilai
+ended_by: k_ming
+territory:
+- valid_from:
+    year: 1271
+  valid_to:
+    year: 1368
+  geojson_file: chgis_yuan.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Yuan Dynasty map.jpg

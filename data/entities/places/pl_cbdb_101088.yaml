@@ -1,0 +1,12 @@
+id: pl_cbdb_101088
+type: Place
+name: 杭州
+modern_name: 杭州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.294124603
+longitude: 120.16862488
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

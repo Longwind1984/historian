@@ -1,0 +1,15 @@
+id: e_zhou_buddhism
+type: Event
+name: 周世宗毁佛
+date:
+  year: 955
+category: religion
+importance: 2
+location: pl_kaifeng
+polities_involved:
+- k_houzhou
+description: 955 年周世宗下诏废寺院 30336 所,仅留 2694 所;铜佛铸钱。僧尼归俗者众。
+impact: 三武一宗灭佛之末。短期内增加国家铜源和人口。
+sources:
+- 资治通鉴·卷292
+- 佛祖统纪

@@ -1,0 +1,14 @@
+id: p_cbdb_7211
+type: Person
+name: 范成大
+born:
+  year: 1126
+died:
+  year: 1193
+gender: male
+birthplace: pl_cbdb_100158
+dynasty_ref: k_beisong
+bio: CBDB ID 7211
+name_en: Fan Chengda
+sources:
+- CBDB (China Biographical Database)

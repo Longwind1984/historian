@@ -1,0 +1,18 @@
+id: p_maxisheng
+type: Person
+name: 马希声
+alias:
+- 楚衡阳王
+born:
+  year: 898
+died:
+  year: 932
+  month: 8
+gender: male
+birthplace: pl_changsha
+bio: 楚第二主。马殷长子(一说次子)。930 年继位。在位三年卒。
+sources:
+- 新五代史·楚世家
+- 十国春秋·楚
+wikidata_id: "Q6146263"
+wikipedia_zh: "馬希聲"

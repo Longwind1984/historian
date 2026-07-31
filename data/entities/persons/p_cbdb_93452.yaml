@@ -1,0 +1,14 @@
+id: p_cbdb_93452
+type: Person
+name: 張建封
+born:
+  year: 735
+died:
+  year: 800
+gender: male
+birthplace: pl_cbdb_15513
+dynasty_ref: k_tang
+bio: CBDB ID 93452
+name_en: Zhang Jianfeng
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,14 @@
+id: p_cbdb_1097
+type: Person
+name: 李定
+born:
+  year: 1028
+died:
+  year: 1087
+gender: male
+birthplace: pl_cbdb_12435
+dynasty_ref: k_beisong
+bio: CBDB ID 1097
+name_en: Li Ding
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,29 @@
+id: p_yuan_ye
+type: Person
+name: 元晔
+alias:
+- 北魏长广王
+- 长广王
+born:
+  year: 509
+died:
+  year: 532
+reign_start:
+  year: 530
+reign_end:
+  year: 531
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_beiwei
+bio: 太武帝玄孙。孝庄帝杀尔朱荣后,尔朱兆等于晋阳立之。531年尔朱世隆等以其疏属,改立节闵帝元恭,晔被废为东海王,次年遇害。
+ext:
+  title: 北魏长广王
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q3276215"
+wikipedia_zh: "元晔"

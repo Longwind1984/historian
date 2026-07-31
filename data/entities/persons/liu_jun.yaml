@@ -1,0 +1,32 @@
+id: p_liu_jun
+type: Person
+name: 刘骏
+alias:
+- 宋孝武帝
+born:
+  year: 430
+died:
+  year: 464
+reign_start:
+  year: 453
+reign_end:
+  year: 464
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_liusong
+bio: 文帝三子。讨平弑父之刘劭而立。加强中央集权、削弱宗王,然荒淫奢靡。
+ext:
+  title: 宋孝武帝
+  regime: 刘宋
+sources:
+- 宋书
+- 南史
+- 资治通鉴
+wikidata_id: "Q718246"
+wikipedia_zh: "宋孝武帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/fc/%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4_%E9%AB%98%E6%B8%85_%28page_95_%E5%AE%8B%E4%B8%BB%E5%88%98%E9%AA%8F_crop%29.jpg"
+image_license: "Public domain"
+image_credit: "张居正"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4_%E9%AB%98%E6%B8%85_(page_95_%E5%AE%8B%E4%B8%BB%E5%88%98%E9%AA%8F_crop).jpg"

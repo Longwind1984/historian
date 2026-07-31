@@ -1,0 +1,15 @@
+id: f_yuanyou_dangren
+type: Faction
+name: 元祐党人
+nature: political
+founded:
+  year: 1086
+dissolved:
+  year: 1126
+core_region: pl_kaifeng
+description: 元祐年间(1086-1094)执政、被哲宗亲政及徽宗朝列为'奸党'的旧党人物。崇宁元年(1102)蔡京立'元祐党人碑',列司马光、苏轼、苏辙、黄庭坚、秦观、程颐等 309 人。
+significance: 北宋党争顶峰,文化压制,士大夫群体受重创。
+peak_period: 1102-1105
+sources:
+- 宋史
+- 续资治通鉴长编

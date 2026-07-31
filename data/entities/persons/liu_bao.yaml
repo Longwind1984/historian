@@ -1,0 +1,27 @@
+id: p_liu_bao
+type: Person
+name: 刘保
+alias:
+- 汉顺帝
+- 顺帝
+born:
+  year: 115
+died:
+  year: 144
+reign_start:
+  year: 125
+reign_end:
+  year: 144
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 安帝子。宦官拥立，遂开宦官封侯之例；梁冀等外戚亦坐大。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉顺帝
+  regime: 东汉
+wikidata_id: "Q7289"
+wikipedia_zh: "汉顺帝"

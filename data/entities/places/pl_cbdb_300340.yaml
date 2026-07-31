@@ -1,0 +1,10 @@
+id: pl_cbdb_300340
+type: Place
+name: 留守中衛
+modern_name: 留守中衛
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 1379
+last_year: 1643
+description: CBDB 行政类型:Wei

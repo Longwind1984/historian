@@ -1,0 +1,28 @@
+id: p_yuwen_yun
+type: Person
+name: 宇文赟
+alias:
+- 北周宣帝
+born:
+  year: 559
+died:
+  year: 580
+reign_start:
+  year: 578
+reign_end:
+  year: 579
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_bei_zhou
+bio: 武帝子。武帝崩即纵酒荒淫、诛杀重臣。579年传位幼子自称天元皇帝。580年崩,杨坚遂总揽朝政。
+ext:
+  title: 北周宣帝
+  regime: 北周
+sources:
+- 周书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1149215"
+wikipedia_zh: "周宣帝"

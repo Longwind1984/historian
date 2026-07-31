@@ -1,0 +1,33 @@
+id: p_xiao_yan
+type: Person
+name: 萧衍
+alias:
+- 梁武帝
+- 叔达
+courtesy_name: 叔达
+born:
+  year: 464
+died:
+  year: 549
+  month: 5
+gender: male
+birthplace: pl_nanlanxia_xiaoyan
+bio: 南朝梁建立者。502-549 在位。在位 48 年,前期'天监之治'。548-549 侯景之乱,被围台城饿死。奉佛,数度舍身同泰寺。
+sources:
+- 梁书·武帝纪
+- 资治通鉴·卷144-162
+reign_start:
+  year: 502
+reign_end:
+  year: 549
+roles:
+- emperor
+ext:
+  title: 梁武帝
+  regime: 梁
+wikidata_id: "Q736726"
+wikipedia_zh: "梁武帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Liang_Wudi.jpg/500px-Liang_Wudi.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liang_Wudi.jpg"

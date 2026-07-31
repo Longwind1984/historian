@@ -1,0 +1,18 @@
+id: p_ji_xianlin
+name: 季羡林
+type: Person
+born: {year: 1911}
+died: {year: 2009}
+roles:
+  - scholar
+importance: 2
+bio: 山东临清人。语言学家、东方学家,精通梵语等,长期任教于北京大学。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q714228"
+wikipedia_zh: "季羡林"
+image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Ji_Xianlin_1952.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Ji_Xianlin_1952.jpg"

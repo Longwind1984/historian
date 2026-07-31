@@ -1,0 +1,28 @@
+id: p_yuan_shanjian
+type: Person
+name: 元善见
+alias:
+- 东魏孝静帝
+born:
+  year: 524
+died:
+  year: 552
+reign_start:
+  year: 534
+reign_end:
+  year: 550
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_dong_wei
+bio: 高欢所立,迁都邺。终身为高氏傀儡,叹'自古无不亡之国'。550年禅位于高洋,东魏亡,旋被鸩。
+ext:
+  title: 东魏孝静帝
+  regime: 东魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1149239"
+wikipedia_zh: "魏孝静帝"

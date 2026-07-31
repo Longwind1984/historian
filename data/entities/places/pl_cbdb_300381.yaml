@@ -1,0 +1,12 @@
+id: pl_cbdb_300381
+type: Place
+name: 荊州衛
+modern_name: 荊州衛
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.347992
+longitude: 112.211248
+first_year: 1367
+last_year: 1643
+description: CBDB 行政类型:Wei

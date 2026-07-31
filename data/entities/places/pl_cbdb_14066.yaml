@@ -1,0 +1,12 @@
+id: pl_cbdb_14066
+type: Place
+name: 保昌
+modern_name: 保昌
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.118843
+longitude: 114.302086
+first_year: 1022
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,34 @@
+id: p_zhaokuangyin
+type: Person
+name: 赵匡胤
+alias:
+- 宋太祖
+courtesy_name: 元朗
+born:
+  year: 927
+  month: 3
+died:
+  year: 976
+  month: 11
+reign_start:
+  year: 960
+reign_end:
+  year: 976
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_luoyang
+bio: 北宋建立者。后周殿前都点检。960 年陈桥兵变,黄袍加身,代后周建宋。在位期间进行统一战争,灭荆南、后蜀、南汉、南唐。976 年暴卒,弟光义继位(烛影斧声)。
+sources:
+- 宋史·太祖本纪
+- 续资治通鉴长编·卷1-17
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Song_Taizu.jpg/500px-Song_Taizu.jpg"
+ext:
+  title: 宋太祖
+  regime: 北宋
+wikidata_id: "Q7471"
+wikipedia_zh: "赵匡胤"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Song_Taizu.jpg"

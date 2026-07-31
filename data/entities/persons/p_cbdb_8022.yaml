@@ -1,0 +1,14 @@
+id: p_cbdb_8022
+type: Person
+name: 趙槩
+born:
+  year: 996
+died:
+  year: 1083
+gender: male
+birthplace: pl_cbdb_11223
+dynasty_ref: k_beisong
+bio: CBDB ID 8022
+name_en: Zhao Gai
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,15 @@
+id: pl_dengzhou
+type: Place
+name: 登州
+modern_name: 蓬莱
+province: 山东
+latitude: 37.81
+longitude: 120.76
+category: city
+description: 海上之盟出发地
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

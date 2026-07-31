@@ -1,0 +1,51 @@
+type: Dynasty
+label: 大朝代
+label_en: Dynasty
+icon: 🏯
+color: "#bdc3c7"
+description: 大一统或主要朝代(用于跨朝代索引,与具体政权 Polity 区分。如 唐/宋/元/明/清)
+fields:
+  name:
+    type: string
+    required: true
+    label: 朝代名
+  name_en:
+    type: string
+    optional: true
+    label: 英文名
+  founded:
+    type: year_month
+    label: 建立时间
+  ended:
+    type: year_month
+    label: 灭亡时间
+  founder:
+    type: ref
+    to: Person
+    optional: true
+    label: 开国之君
+  last_capital:
+    type: ref
+    to: Place
+    optional: true
+    label: 都城
+  description:
+    type: text
+    label: 简介
+  period_label:
+    type: string
+    optional: true
+    label: 时期标签(如 隋唐、晚唐、北宋)
+  sources:
+    type: array
+    items: string
+    label: 史料出处
+ext: allow
+relations:
+  outgoing:
+    - preceded_by       # Dynasty → Dynasty
+    - succeeded_by      # Dynasty → Dynasty
+    - includes          # Dynasty → Polity (该朝代内的具体政权)
+    - overlaps_with     # Dynasty → Dynasty
+  incoming:
+    - includes

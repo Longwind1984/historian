@@ -1,0 +1,20 @@
+id: p_chengyi
+type: Person
+name: 程颐
+courtesy_name: 正叔
+born:
+  year: 1033
+died:
+  year: 1107
+  month: 9
+gender: male
+birthplace: pl_luoyang
+bio: 北宋理学奠基人。强调'涵养须用敬'。程朱理学的'程'即指程颐。著《伊川易传》。
+sources:
+- 宋史·道学传·程颐
+wikidata_id: "Q558380"
+wikipedia_zh: "程颐"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/%E5%AE%8B%E5%B4%87%E6%94%BF%E6%AE%BF%E8%AF%B4%E4%B9%A6%E7%A8%8B%E9%A2%90.jpg/500px-%E5%AE%8B%E5%B4%87%E6%94%BF%E6%AE%BF%E8%AF%B4%E4%B9%A6%E7%A8%8B%E9%A2%90.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%B4%87%E6%94%BF%E6%AE%BF%E8%AF%B4%E4%B9%A6%E7%A8%8B%E9%A2%90.jpg"

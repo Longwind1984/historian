@@ -1,0 +1,31 @@
+id: p_liconghou
+type: Person
+name: 李从厚
+alias:
+- 后唐闵帝
+born:
+  year: 914
+died:
+  year: 934
+  month: 4
+gender: male
+birthplace: pl_luoyang
+bio: 后唐闵帝。明宗第三子。933 年即位,仅五月,为凤翔节度使李从珂所废杀。
+sources:
+- 旧五代史·闵帝纪
+- 资治通鉴·卷279
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 933
+reign_end:
+  year: 934
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后唐闵帝
+  regime: 后唐
+wikidata_id: "Q708431"
+wikipedia_zh: "唐閔帝"

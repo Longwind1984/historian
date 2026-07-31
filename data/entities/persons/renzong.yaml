@@ -1,0 +1,27 @@
+id: p_renzong
+type: Person
+name: 赵祯
+alias:
+- 宋仁宗
+born:
+  year: 1010
+died:
+  year: 1063
+  month: 3
+reign_start:
+  year: 1022
+reign_end:
+  year: 1063
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_kaifeng
+bio: 宋仁宗。1022-1063 在位 42 年(宋在位最久)。仁宗盛治,范仲淹、欧阳修、包拯等名臣辈出。1043 庆历新政(范)失败。1044 庆历和议与西夏。'仁君'典范。
+sources:
+- 宋史·仁宗本纪
+ext:
+  title: 宋仁宗
+  regime: 北宋
+wikidata_id: "Q18236174"
+wikipedia_zh: "趙禎 (成化進士)"

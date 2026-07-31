@@ -1,0 +1,15 @@
+id: p_zhengtan
+type: Person
+name: 郑覃
+gender: male
+died:
+  year: 842
+roles:
+- civil_official
+importance: 3
+bio: 唐宰相,李德裕党要角。精经学,恶进士浮华,尝请废进士科。文宗时与牛党李宗闵相攻,为牛李党争核心人物之一。
+sources:
+- 旧唐书·郑覃传
+- 资治通鉴·卷245-246
+wikidata_id: "Q8070738"
+wikipedia_zh: "鄭覃"

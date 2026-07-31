@@ -1,0 +1,27 @@
+id: p_sun_xiu
+type: Person
+name: 孙休
+alias:
+- 吴景帝
+born:
+  year: 235
+died:
+  year: 264
+reign_start:
+  year: 258
+reign_end:
+  year: 264
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_dongwu
+bio: 孙权六子。孙綝所立,旋设计诛綝亲政。在位六年而崩。
+ext:
+  title: 孙休
+  regime: 东吴
+sources:
+- 三国志
+- 资治通鉴
+wikidata_id: "Q468767"
+wikipedia_zh: "孫休"

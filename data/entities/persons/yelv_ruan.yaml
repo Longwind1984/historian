@@ -1,0 +1,27 @@
+id: p_yelv_ruan
+type: Person
+name: 耶律阮
+alias:
+- 辽世宗
+born:
+  year: 917
+died:
+  year: 951
+reign_start:
+  year: 947
+reign_end:
+  year: 951
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_liao
+bio: 太宗侄。军中拥立,与述律太后争位。951年火神淀之乱被弑。
+ext:
+  title: 辽世宗
+  regime: 辽
+sources:
+- 辽史
+- 资治通鉴
+wikidata_id: "Q4992"
+wikipedia_zh: "辽世宗"

@@ -1,0 +1,14 @@
+id: pl_houjin_sarhu
+type: Place
+name: 建州
+modern_name: 新宾
+province: 辽宁
+latitude: 41.71
+longitude: 125.03
+category: region
+description: 后金
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

@@ -1,0 +1,32 @@
+id: p_mozi
+type: Person
+name: 墨翟
+alias:
+- 墨子
+- 墨翟
+gender: male
+born:
+  year: -468
+died:
+  year: -376
+roles:
+- scholar
+importance: 2
+bio: 墨子，名翟，相传为鲁国人(一说宋人)，手工业者出身。创墨家学派，主"兼爱""非攻""尚贤""节用""天志""明鬼"，反对礼乐奢靡与攻伐战争。其徒称墨者，有严密组织，以巨子为首，赴火蹈刃不旋踵。相传曾止楚攻宋。其说后由弟子后学辑为《墨子》。其学与儒家并称显学而立异。
+life_events:
+- year: -445
+  event: 止楚攻宋
+  source: 墨子·公输
+sources:
+- 史记·孟子荀卿列传
+- 墨子·公输
+- 淮南子·要略
+ext:
+  disputed: true
+  note: 通说约前468-前376;另有前480-前420等说,学界未定
+wikidata_id: "Q272411"
+wikipedia_zh: "墨子"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg/500px-%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg"
+image_license: "CC0"
+image_credit: "Vjacheslav Rublevskiy"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg"

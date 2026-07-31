@@ -1,0 +1,25 @@
+id: p_zhou_li_wang
+type: Person
+name: 周厉王
+alias:
+- 厉王
+- 姬胡
+gender: male
+roles:
+- emperor
+importance: 2
+reign_start:
+  year: -877
+reign_end:
+  year: -841
+bio: 西周王，姬姓，名胡。任用荣夷公行"专利"，专山林川泽之利；又弭谤使人监视谤者，国人道路以目。前841年国人暴动，厉王出奔彘(今山西霍州)，居彘至死，朝政由共和摄理。共和元年(前841)为中国信史精确纪年之始；其在位起年据断代工程重建。
+sources:
+- 史记·周本纪
+- 国语·周语
+- 竹书纪年·周纪
+ext:
+  disputed: true
+  title: 周厉王
+  regime: 西周
+wikidata_id: "Q55256"
+wikipedia_zh: "周厉王"

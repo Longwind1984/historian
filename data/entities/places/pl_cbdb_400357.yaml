@@ -1,0 +1,10 @@
+id: pl_cbdb_400357
+type: Place
+name: 福建軍節度
+modern_name: 福建軍節度
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 760
+last_year: 771
+description: CBDB 行政类型:jiedu

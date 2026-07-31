@@ -1,0 +1,12 @@
+id: pl_cbdb_12869
+type: Place
+name: 貴池
+modern_name: 貴池
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.654661
+longitude: 117.481834
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,15 @@
+id: pl_heyin
+type: Place
+name: 河阴
+modern_name: 孟津
+province: 河南
+latitude: 34.83
+longitude: 112.46
+category: battlefield
+description: 528 河阴之变
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

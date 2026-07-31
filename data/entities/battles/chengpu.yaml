@@ -1,0 +1,20 @@
+id: b_chengpu
+type: Battle
+name: 城濮之战
+date:
+  year: -632
+category: battle
+importance: 3
+location: pl_chengpu
+combatants:
+- k_jin_state
+- k_chu_state
+commanders:
+- p_jin_wen_gong
+victor: k_jin_state
+victor_commander: p_jin_wen_gong
+description: 前632年，晋文公救宋，楚将子玉率军北上。晋军"退避三舍"(退九十里)避其锋，会秦、齐之师，大败楚军于城濮。文公旋会诸侯于践土，受周襄王策命为侯伯，晋霸确立。
+significance: 晋文公由此继齐桓公称霸，奠晋国长期中原霸主地位；"退避三舍"成为避其锋锐、后发制人之典。
+sources:
+- 左传·僖公二十八年
+- 史记·晋世家

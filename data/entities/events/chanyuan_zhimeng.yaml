@@ -1,0 +1,21 @@
+id: e_chanyuan_zhimeng
+type: Event
+name: 澶渊之盟
+date:
+  year: 1005
+  month: 1
+category: treaty
+importance: 1
+location: pl_chanzhou
+polities_involved:
+- k_beisong
+- k_liao
+description: 1004 辽圣宗、萧太后亲率军南下,寇准力主真宗亲征至澶州。宋军射杀辽将萧挞凛。议和:宋辽约为兄弟之国(宋为兄),宋每年输辽银 10 万两、绢
+  20 万匹。
+impact: 宋辽维持和平约 120 年(至 1120 海上之盟)。开启'岁币'外交模式。
+sources:
+- 宋史·真宗本纪
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 以岁币易和,燕云之失就此定局

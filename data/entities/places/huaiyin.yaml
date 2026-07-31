@@ -1,0 +1,13 @@
+id: pl_huaiyin
+type: Place
+name: 淮阴
+modern_name: 淮安
+province: 江苏
+latitude: 33.51
+longitude: 119.02
+category: city
+description: 韩信故里(参考)
+sources:
+- 中国历史地图集
+- 旧唐书·地理志
+- 宋史·地理志

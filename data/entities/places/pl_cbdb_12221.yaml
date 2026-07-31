@@ -1,0 +1,12 @@
+id: pl_cbdb_12221
+type: Place
+name: 榆次
+modern_name: 榆次
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.678467
+longitude: 112.744682
+first_year: 979
+last_year: 1126
+description: CBDB 行政类型:Xian

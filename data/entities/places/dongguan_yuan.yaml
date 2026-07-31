@@ -1,0 +1,11 @@
+id: pl_dongguan_yuan
+type: Place
+name: 东莞
+modern_name: 东莞
+province: 广东
+latitude: 23.02
+longitude: 113.75
+category: city
+description: 袁崇焕籍贯(《明史》作东莞,另有广西藤县一说,今两地皆有其祠)。
+sources:
+- 明史·袁崇焕传

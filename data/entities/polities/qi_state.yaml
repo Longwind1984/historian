@@ -1,0 +1,17 @@
+id: k_qi_state
+type: Polity
+name: 齐国
+name_en: Qi (state)
+color: '#2980b9'
+founded:
+  year: -1044
+ended:
+  year: -221
+founder: p_jiang_ziya
+ended_by: k_qin_state
+capital: pl_linzi_qin
+description: 齐国。周初太公望(姜子牙)受封于营丘，姜姓，都临淄。通渔盐之利，富甲东方。齐桓公任管仲为相，尊王攘夷，为春秋首霸。前386年田和得周列为诸侯，田氏代齐，姜齐绝、田齐立，国号不改。前221年秦灭齐，六国尽亡。始封年据史记通说。
+sources:
+- 史记·齐太公世家
+- 史记·田敬仲完世家
+- 左传·闵公

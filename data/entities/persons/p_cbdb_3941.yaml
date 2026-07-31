@@ -1,0 +1,14 @@
+id: p_cbdb_3941
+type: Person
+name: 王洙
+born:
+  year: 997
+died:
+  year: 1057
+gender: male
+birthplace: pl_cbdb_11214
+dynasty_ref: k_beisong
+bio: CBDB ID 3941
+name_en: Wang Zhu
+sources:
+- CBDB (China Biographical Database)

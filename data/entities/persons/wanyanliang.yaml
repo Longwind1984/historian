@@ -1,0 +1,34 @@
+id: p_wanyanliang
+type: Person
+name: 完颜亮
+alias:
+- 海陵王
+- 金废帝
+- 完颜迪古乃
+born:
+  year: 1122
+died:
+  year: 1161
+  month: 12
+gender: male
+birthplace: pl_beijing_wyliang
+bio: 金朝第四代。1149 弑熙宗自立。1153 迁都中都(今北京)。1161 大举攻宋(采石矶败于虞允文),兵变中被部下杀于瓜洲。
+sources:
+- 金史·海陵本纪
+- 金史
+reign_start:
+  year: 1150
+reign_end:
+  year: 1161
+importance: 2
+roles:
+- emperor
+ext:
+  title: 海陵王
+  regime: 金
+wikidata_id: "Q5072"
+wikipedia_zh: "完顏亮"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Wanyan_Digunai_cropped.jpg/500px-Wanyan_Digunai_cropped.jpg"
+image_license: "CC BY-SA 3.0"
+image_credit: "User:Slb nsk"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wanyan_Digunai_cropped.jpg"

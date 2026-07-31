@@ -1,0 +1,15 @@
+id: pl_chang_an_xiwei
+type: Place
+name: 长安(西魏)
+modern_name: 西安
+province: 陕西
+latitude: 34.27
+longitude: 108.95
+category: capital
+description: 西魏北周都
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

@@ -1,0 +1,12 @@
+id: pl_cbdb_13384
+type: Place
+name: 陽安
+modern_name: 陽安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.403244
+longitude: 104.565246
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

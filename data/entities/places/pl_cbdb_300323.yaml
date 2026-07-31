@@ -1,0 +1,12 @@
+id: pl_cbdb_300323
+type: Place
+name: 大河衛
+modern_name: 大河衛
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.526625
+longitude: 119.14457
+first_year: 1369
+last_year: 1643
+description: CBDB 行政类型:Wei

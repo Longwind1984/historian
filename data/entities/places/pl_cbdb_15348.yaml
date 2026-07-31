@@ -1,0 +1,12 @@
+id: pl_cbdb_15348
+type: Place
+name: 滄州
+modern_name: 滄州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.209125519
+longitude: 117.02410126
+first_year: 627
+last_year: 959
+description: CBDB 行政类型:Zhou

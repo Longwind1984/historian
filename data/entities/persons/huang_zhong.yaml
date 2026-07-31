@@ -1,0 +1,19 @@
+id: p_huang_zhong
+type: Person
+name: 黄忠
+alias:
+- 黄汉升
+courtesy_name: 汉升
+died:
+  year: 220
+gender: male
+birthplace: pl_nanyang
+bio: 蜀汉骁将。219 定军山斩夏侯渊。
+sources:
+- 三国志·蜀书·黄忠传
+wikidata_id: "Q378547"
+wikipedia_zh: "黄忠"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Huang_Zhong_Portrait.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Huang_Zhong_Portrait.jpg"

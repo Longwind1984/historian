@@ -1,0 +1,12 @@
+id: pl_cbdb_12464
+type: Place
+name: 靈璧
+modern_name: 靈璧
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.545761
+longitude: 117.551811
+first_year: 1117
+last_year: 1141
+description: CBDB 行政类型:Xian

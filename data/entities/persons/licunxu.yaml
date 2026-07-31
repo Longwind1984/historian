@@ -1,0 +1,38 @@
+id: p_licunxu
+type: Person
+name: 李存勖
+alias:
+- 李亚子
+- 后唐庄宗
+born:
+  year: 885
+  month: 12
+died:
+  year: 926
+  month: 5
+gender: male
+birthplace: pl_taiyuan
+bio: 后唐建立者。李克用长子。923 年称帝建国号唐,灭后梁,都洛阳。精于军事,宠爱伶人,任用宦官。926 年邺都兵变,伶人郭从谦弑之。
+sources:
+- 旧五代史·庄宗纪
+- 新五代史·唐本纪
+- 资治通鉴·卷266-274
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 923
+reign_end:
+  year: 926
+importance: 2
+roles:
+- emperor
+ext:
+  title: 后唐庄宗
+  regime: 后唐
+wikidata_id: "Q706815"
+wikipedia_zh: "唐庄宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Zhuangzong_of_Later_Tang.jpg/500px-Zhuangzong_of_Later_Tang.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhuangzong_of_Later_Tang.jpg"

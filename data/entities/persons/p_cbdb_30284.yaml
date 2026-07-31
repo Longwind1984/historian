@@ -1,0 +1,15 @@
+id: p_cbdb_30284
+type: Person
+name: 海瑞
+born:
+  year: 1514
+died:
+  year: 1587
+gender: male
+birthplace: pl_cbdb_6177
+dynasty_ref: k_ming
+bio: CBDB ID 30284
+name_en: Hai Rui
+sources:
+- CBDB (China Biographical Database)
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Hai Rui.jpg

@@ -1,0 +1,23 @@
+id: p_qianyuanguan
+type: Person
+name: 钱元瓘
+alias:
+- 吴越文穆王
+- 钱传瓘
+courtesy_name: 明宝
+born:
+  year: 887
+died:
+  year: 941
+  month: 9
+gender: male
+birthplace: pl_hangzhou
+bio: 吴越第二任国王。钱镠第七子。932 年继位。941 年宫中大火,惊悸而卒。
+sources:
+- 十国春秋·吴越
+wikidata_id: "Q893008"
+wikipedia_zh: "錢元瓘"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Qian_Yuanguan_%28King_Wenmu_of_Wuyue%29.png/500px-Qian_Yuanguan_%28King_Wenmu_of_Wuyue%29.png"
+image_license: "CC BY-SA 4.0"
+image_credit: "Ming dynasty Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qian_Yuanguan_(King_Wenmu_of_Wuyue).png"

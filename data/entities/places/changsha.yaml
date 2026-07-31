@@ -1,0 +1,15 @@
+id: pl_changsha
+type: Place
+name: 长沙
+modern_name: 长沙
+province: 湖南
+latitude: 28.23
+longitude: 112.94
+category: capital
+description: 楚都城
+aliases:
+- 潭州
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

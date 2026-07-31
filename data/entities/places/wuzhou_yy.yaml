@@ -1,0 +1,13 @@
+id: pl_wuzhou_yy
+type: Place
+name: 武州
+modern_name: 宣化
+province: 河北
+latitude: 40.61
+longitude: 115.26
+category: garrison
+description: 燕云十六州之一
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

@@ -1,0 +1,32 @@
+id: p_limu
+type: Person
+name: 李牧
+gender: male
+roles:
+- general
+importance: 2
+died:
+  year: -229
+bio: 李牧，赵国北疆名将。长年守雁门、代郡以防匈奴，厚待士卒、坚壁不轻战，示弱骄敌；后一战破匈奴十余万骑，灭襜褴、破东胡，匈奴十余岁不敢犯赵边。后入朝御秦，于肥(前233)、番吾(前232)连却秦军，封武安君，秦人惮之。秦乃行反间，赂赵王迁宠臣郭开，诬牧谋反，前229年赵王使人代之，牧不受命，遂捕杀之(一说出微服被执见杀)。后三月王翦大破赵，虏赵王迁。
+life_events:
+- year: -244
+  event: (约)大破匈奴十余万骑
+  source: 史记·廉颇蔺相如列传
+- year: -233
+  event: 肥之战却秦军
+  source: 史记·廉颇蔺相如列传
+- year: -232
+  event: 番吾之战却秦军，封武安君
+  source: 史记·廉颇蔺相如列传
+- year: -229
+  event: 遭秦反间，被赵王捕杀
+  source: 史记·廉颇蔺相如列传
+sources:
+- 史记·廉颇蔺相如列传
+- 战国策·赵策
+wikidata_id: "Q714415"
+wikipedia_zh: "李牧"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Li_Mu1.jpg/500px-Li_Mu1.jpg"
+image_license: "Public domain"
+image_credit: "anonymous"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Mu1.jpg"

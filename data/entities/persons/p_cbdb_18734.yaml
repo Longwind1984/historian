@@ -1,0 +1,14 @@
+id: p_cbdb_18734
+type: Person
+name: 薛長孺
+born:
+  year: 1001
+died:
+  year: 1061
+gender: male
+birthplace: pl_cbdb_12268
+dynasty_ref: k_beisong
+bio: CBDB ID 18734
+name_en: Xue Changru
+sources:
+- CBDB (China Biographical Database)

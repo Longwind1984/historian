@@ -1,0 +1,12 @@
+id: p_li_shidao
+type: Person
+name: 李师道
+died:
+  year: 819
+gender: male
+birthplace: pl_yunzhou_lsd
+bio: 淄青节度使(806-819)。815 派刺客刺杀宰相武元衡、伤裴度。819 为部下所杀,淄青平。
+sources:
+- 旧唐书·李师道传
+wikidata_id: "Q5367311"
+wikipedia_zh: "李師道"

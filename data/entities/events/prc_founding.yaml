@@ -1,0 +1,12 @@
+id: e_prc_founding
+name: 中华人民共和国成立
+type: Event
+date:
+  year: 1949
+category: founding
+importance: 1
+description: 1949年10月1日,在北京天安门广场举行典礼,宣告中华人民共和国成立。
+impact: 结束了近代以来的长期战乱与分裂状态,确立新的国家政权。
+sources:
+- 中华人民共和国史
+- 当代中国史

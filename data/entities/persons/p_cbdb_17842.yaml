@@ -1,0 +1,14 @@
+id: p_cbdb_17842
+type: Person
+name: 王克
+born:
+  year: 1024
+died:
+  year: 1077
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 17842
+name_en: Wang Ke
+sources:
+- CBDB (China Biographical Database)

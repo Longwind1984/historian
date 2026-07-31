@@ -1,0 +1,16 @@
+id: pl_hangzhou
+type: Place
+name: 杭州
+modern_name: 杭州
+province: 浙江
+latitude: 30.27
+longitude: 120.16
+category: capital
+description: 吴越都城
+aliases:
+- 西府
+- 钱塘
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

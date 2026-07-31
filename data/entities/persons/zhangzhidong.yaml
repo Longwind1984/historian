@@ -1,0 +1,25 @@
+id: p_zhangzhidong
+type: Person
+name: 张之洞
+alias:
+- 张孝达
+- 张香涛
+courtesy_name: 孝达
+born:
+  year: 1837
+died:
+  year: 1909
+gender: male
+roles:
+- civil_official
+importance: 2
+birthplace: pl_nanpi_zhang
+bio: 晚清洋务后期领袖。1889 始建汉阳铁厂。1898《劝学篇》'中体西用'。
+sources:
+- 清史稿·张之洞传
+wikidata_id: "Q197344"
+wikipedia_zh: "张之洞"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/%E5%BC%B5%E4%B9%8B%E6%B4%9E%E6%9C%9D%E6%9C%8D%E7%85%A7.jpg/500px-%E5%BC%B5%E4%B9%8B%E6%B4%9E%E6%9C%9D%E6%9C%8D%E7%85%A7.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%BC%B5%E4%B9%8B%E6%B4%9E%E6%9C%9D%E6%9C%8D%E7%85%A7.jpg"

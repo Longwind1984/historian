@@ -1,0 +1,12 @@
+id: p_xiang_liang
+type: Person
+name: 项梁
+died:
+  year: -208
+gender: male
+birthplace: pl_xiaxiang_xiangyu
+bio: 项羽叔。BC209 起兵吴中。立楚怀王孙心。BC208 战死于定陶。
+sources:
+- 史记·项羽本纪
+wikidata_id: "Q1336714"
+wikipedia_zh: "項梁"

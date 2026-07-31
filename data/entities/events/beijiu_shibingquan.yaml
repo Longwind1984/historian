@@ -1,0 +1,16 @@
+id: e_beijiu_shibingquan
+type: Event
+name: 杯酒释兵权
+date:
+  year: 961
+  month: 7
+category: institution
+importance: 1
+location: pl_kaifeng
+polities_involved:
+- k_beisong
+description: 赵匡胤宴请石守信、王审琦、高怀德等高级将领,以'君臣两无猜疑'为由,劝其交出兵权,出守外藩。
+impact: 结束唐末五代武将专权、藩镇割据传统,确立宋代'重文抑武'国策。
+sources:
+- 续资治通鉴长编·卷2
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Baojiu Shibingquan.jpg

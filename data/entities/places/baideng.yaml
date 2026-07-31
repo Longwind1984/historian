@@ -1,0 +1,14 @@
+id: pl_baideng
+type: Place
+name: 白登山
+modern_name: 大同
+province: 山西
+latitude: 40.18
+longitude: 113.32
+category: battlefield
+description: BC200 白登之围
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

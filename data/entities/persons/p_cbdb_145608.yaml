@@ -1,0 +1,14 @@
+id: p_cbdb_145608
+type: Person
+name: 王恕
+born:
+  year: 723
+died:
+  year: 784
+gender: male
+birthplace: pl_cbdb_14502
+dynasty_ref: k_tang
+bio: CBDB ID 145608
+name_en: Wang Shu
+sources:
+- CBDB (China Biographical Database)

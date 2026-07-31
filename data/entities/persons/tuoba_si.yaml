@@ -1,0 +1,27 @@
+id: p_tuoba_si
+type: Person
+name: 拓跋嗣
+alias:
+- 北魏明元帝
+born:
+  year: 392
+died:
+  year: 423
+reign_start:
+  year: 409
+reign_end:
+  year: 423
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 道武帝子。诛拓跋绍即位。攻取刘宋河南之地。
+ext:
+  title: 北魏明元帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1071591"
+wikipedia_zh: "魏明元帝"

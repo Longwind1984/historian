@@ -1,0 +1,22 @@
+id: p_dugu_qieluo
+type: Person
+name: 独孤伽罗
+alias:
+- 独孤皇后
+- 文献皇后
+born:
+  year: 544
+died:
+  year: 602
+  month: 8
+gender: female
+roles:
+- consort
+importance: 2
+birthplace: pl_yuncheng_gu
+bio: 隋文帝杨坚皇后。父独孤信(关陇八柱国)。与杨坚并称'二圣',深度参与朝政。'一夫一妻'制度坚定推行者,影响文帝不设嫔妃。
+sources:
+- 隋书·后妃传
+- 周书·独孤信传
+wikidata_id: "Q1066855"
+wikipedia_zh: "獨孤伽羅"

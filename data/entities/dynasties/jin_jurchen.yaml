@@ -1,0 +1,15 @@
+id: d_jin_jurchen
+type: Dynasty
+name: 金
+name_en: Jin
+founded:
+  year: 1115
+  month: 1
+ended:
+  year: 1234
+  month: 2
+last_capital: pl_beijing_wyliang
+description: 女真金朝。1115 年完颜阿骨打建国,1234 亡于蒙古宋联军。灭辽(1125)、北宋(1127)。
+period_label: 辽宋夏金
+sources:
+- 金史

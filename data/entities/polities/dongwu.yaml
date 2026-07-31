@@ -1,0 +1,24 @@
+id: k_dongwu
+type: Polity
+name: 东吴
+name_en: Eastern Wu
+color: '#3498db'
+founded:
+  year: 222
+ended:
+  year: 280
+  month: 3
+capital: pl_jianye_han
+description: 三国之一。孙权建,都建业。280 为西晋所灭。
+sources:
+- 三国志·吴书
+founder: p_sun_quan
+ended_by: k_xijin
+territory:
+- valid_from:
+    year: 222
+  valid_to:
+    year: 280
+  geojson_file: chgis_dongwu.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Eastern Wu map.jpg

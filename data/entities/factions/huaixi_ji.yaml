@@ -1,0 +1,15 @@
+id: f_huaixi_ji
+type: Faction
+name: 明淮西将帅集团
+nature: military_clan
+founded:
+  year: 1352
+dissolved:
+  year: 1393
+core_region: pl_haozhou_xu
+description: 朱元璋起家于濠州(凤阳),淮西将帅为开国核心:李善长、徐达、常遇春、汤和、邓愈、蓝玉等。1380 胡惟庸案、1393 蓝玉案双案清洗。
+significance: 明初开国军功集团。
+peak_period: 1352-1393
+sources:
+- 明史
+- 清史稿

@@ -1,0 +1,24 @@
+id: p_mei_lanfang
+type: Person
+name: 梅兰芳
+alias:
+- 梅畹华
+courtesy_name: 畹华
+born:
+  year: 1894
+died:
+  year: 1961
+gender: male
+roles:
+- literatus
+importance: 2
+bio: 江苏泰州人，生于北京，近代京剧表演艺术家。出身梨园世家，工旦角。博采众长，创"梅派"艺术，代表作有《贵妃醉酒》《霸王别姬》《天女散花》等。1919 年起多次赴日、美、苏演出，将京剧推向世界。抗战期间蓄须明志，罢演拒登台。1949 年后任中国京剧院院长。1961 年病逝于北京。
+sources:
+- 中华民国史·梅兰芳传
+- 梅绍武·我的父亲梅兰芳
+wikidata_id: "Q526989"
+wikipedia_zh: "梅兰芳"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mei_Lanfang.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Mei_Lanfang.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_100662
+type: Place
+name: 咸平
+modern_name: 咸平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.475006
+longitude: 114.459076
+first_year: 1002
+last_year: 1126
+description: CBDB 行政类型:Xian

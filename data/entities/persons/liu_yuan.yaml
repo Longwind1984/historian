@@ -1,0 +1,19 @@
+id: p_liu_yuan
+type: Person
+name: 刘渊
+alias:
+- 刘元海
+- 汉赵高祖
+courtesy_name: 元海
+died:
+  year: 310
+  month: 8
+gender: male
+birthplace: pl_zuo_han_liuyuan
+bio: 汉赵(前赵)建立者。匈奴屠各种。304 称汉王,308 称帝,都平阳(山西临汾)。308-310 在位。开启十六国时代。
+ext:
+  significance: 五胡十六国之始。
+sources:
+- 晋书·载记·刘元海
+wikidata_id: "Q45627131"
+wikipedia_zh: "劉淵 (元朝)"

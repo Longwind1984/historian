@@ -1,0 +1,12 @@
+id: pl_cbdb_11566
+type: Place
+name: 清平
+modern_name: 清平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.79152
+longitude: 115.873886
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

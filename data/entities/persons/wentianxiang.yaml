@@ -1,0 +1,25 @@
+id: p_wentianxiang
+type: Person
+name: 文天祥
+courtesy_name: 履善
+born:
+  year: 1236
+  month: 6
+died:
+  year: 1283
+  month: 1
+gender: male
+roles:
+- civil_official
+- literatus
+importance: 1
+birthplace: pl_luling_wen
+bio: 南宋末政治家、文学家、民族英雄。宝祐四年(1256)状元。1275 起兵勤王。1278 兵败被俘。狱中作《正气歌》。拒降元,1283 就义于大都柴市口。'人生自古谁无死'。
+sources:
+- 宋史·文天祥传
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Wentianxiang_touxiang.JPG"
+wikidata_id: "Q575900"
+wikipedia_zh: "文天祥"
+image_license: "CC BY-SA 3.0"
+image_credit: "The original uploader was 用心阁 at Chinese Wikipedia ."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wentianxiang_touxiang.JPG"

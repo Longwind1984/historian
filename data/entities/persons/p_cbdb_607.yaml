@@ -1,0 +1,14 @@
+id: p_cbdb_607
+type: Person
+name: 馮京
+born:
+  year: 1021
+died:
+  year: 1094
+gender: male
+birthplace: pl_cbdb_100370
+dynasty_ref: k_beisong
+bio: CBDB ID 607
+name_en: Feng Jing
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_13879
+type: Place
+name: 閩清
+modern_name: 閩清
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.213224
+longitude: 118.862495
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

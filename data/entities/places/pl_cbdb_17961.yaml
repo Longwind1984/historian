@@ -1,0 +1,12 @@
+id: pl_cbdb_17961
+type: Place
+name: 甘州路
+modern_name: 甘州路
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.933113098
+longitude: 100.44992065
+first_year: 1228
+last_year: 1367
+description: CBDB 行政类型:Lu

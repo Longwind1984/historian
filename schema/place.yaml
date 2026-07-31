@@ -1,0 +1,63 @@
+type: Place
+label: 地点
+label_en: Place
+icon: 📍
+color: "#2ecc71"
+description: 历史地点
+fields:
+  name:
+    type: string
+    required: true
+    label: 古地名
+  modern_name:
+    type: string
+    required: true
+    label: 今地名
+  province:
+    type: string
+    optional: true
+    label: 现省份
+  latitude:
+    type: number
+    label: 纬度
+  longitude:
+    type: number
+    label: 经度
+  category:
+    type: enum
+    # 本字段说的是「这地方是什么」,而非「谁跟它有什么关系」。
+    # birthplace 已废弃:籍贯是人与地的**关系**(见 person.birthplace),不是地点的属性。
+    # 把它写成属性的后果:洛阳本是 capital,有人要拿它当籍贯,便另建一个 category=birthplace
+    # 的洛阳 —— 于是每来一个人就多一个同名地点。实测 163 个 birthplace 地点中 149 个
+    # 只被 person.birthplace 引用,53 组同名重复(洛阳6/长安4/沛县4/镇州4)皆源于此。
+    # 新增地点一律按其本身性质取值;某人生于此,写 person.birthplace 指过来即可。
+    options:
+      - capital          # 都城
+      - city             # 城市
+      - battlefield      # 战场
+      - garrison         # 重镇/军事要地
+      - region           # 区域(无具体点)
+      - pass             # 关隘
+    label: 类型
+  aliases:
+    type: array
+    items: string
+    optional: true
+    label: 别名
+  description:
+    type: text
+    optional: true
+    label: 描述
+  sources:
+    type: array
+    items: string
+    optional: true
+    label: 史料出处
+ext: allow
+relations:
+  outgoing: []
+  incoming:
+    - born_in            # Person → Place
+    - took_place_at      # Event/Battle → Place
+    - capital_at         # Polity → Place
+    - location_of        # Faction → Place

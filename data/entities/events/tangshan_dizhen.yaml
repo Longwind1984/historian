@@ -1,0 +1,16 @@
+id: e_tangshan_dizhen
+type: Event
+name: 唐山大地震
+date:
+  year: 1976
+  month: 7
+category: disaster
+polities_involved:
+- k_prc
+importance: 2
+description: 1976 年 7 月 28 日凌晨 3 时 42 分，河北唐山发生里氏 7.8 级地震，震源深度约 12 公里，市区几乎夷平。官方 1979
+  年公布死亡 242,769 人、重伤 164,851 人。震时正值文革末期，当局未接受国际援助。
+impact: 20 世纪死亡人数最多的地震之一。震后重建历十年。
+sources:
+- 当代中国史
+- 中国地震年鉴

@@ -1,0 +1,14 @@
+id: pl_yangdu_zhuge
+type: Place
+name: 阳都
+modern_name: 沂南
+province: 山东
+latitude: 35.55
+longitude: 118.47
+category: city
+description: 诸葛亮籍贯
+sources:
+- 三国志
+- 晋书
+- 魏书
+- 中国历史地图集

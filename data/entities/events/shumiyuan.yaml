@@ -1,0 +1,19 @@
+id: e_shumiyuan
+type: Event
+name: 五代枢密院制度
+date:
+  year: 907
+category: institution
+importance: 2
+location: pl_kaifeng
+polities_involved:
+- k_houliang
+- k_houdong
+- k_houjin
+- k_houhan
+- k_houzhou
+description: 枢密使本源于唐,初由宦官担任。五代时去宦官化,改由皇帝亲信文臣(敬翔、郭崇韬、安重诲)或武将担任,成为仅次于皇帝的最高军事决策机构,与中书门下(行政)分立。后梁朱温改枢密院为'崇政院'由敬翔掌;后唐复枢密院,权力扩大。
+impact: 构成五代'中书门下+枢密院+三司'三权分立格局,实质上分割宰相权力、强化皇权。直接演变为宋朝'二府三司'体制,是中国古代中枢体制由三省制向二府制转型的关键环节。
+sources:
+- 五代会要
+- 新五代史·职方考

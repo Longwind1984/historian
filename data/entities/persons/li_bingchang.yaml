@@ -1,0 +1,27 @@
+id: p_li_bingchang
+type: Person
+name: 李秉常
+alias:
+- 西夏惠宗
+born:
+  year: 1061
+died:
+  year: 1086
+reign_start:
+  year: 1067
+reign_end:
+  year: 1086
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 毅宗子,七岁即位,母党梁氏专权。谋复汉礼被囚,宋乘机五路伐夏,永乐城之战夏胜。
+ext:
+  title: 西夏惠宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q7448"
+wikipedia_zh: "夏惠宗"

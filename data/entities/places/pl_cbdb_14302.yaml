@@ -1,0 +1,12 @@
+id: pl_cbdb_14302
+type: Place
+name: 儋州
+modern_name: 儋州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 19.748701096
+longitude: 109.34163666
+first_year: 960
+last_year: 1072
+description: CBDB 行政类型:Zhou

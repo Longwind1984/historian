@@ -1,0 +1,341 @@
+# Dynasty → Polity 的断代归属(2026-07-16 填全:14 条 → 84 条)。
+# 在此之前只填了 9 个朝代,系统只能靠「年份落在哪个朝代区间」猜归属,而区间彼此
+# 重叠(辽 916~1125 与宋 960~1279 并存)—— 首个命中即返回的匹配把 960~1125 出生的人
+# 全判成辽人,「辽」因此分到 748 人,而真辽人只有 32 个。
+# 归属依据是断代,不是正统:辽/金/西夏/北汉各归其本朝,不塞给宋。
+- from: d_xia
+  to: k_xia
+  type: includes
+  note: 夏 属夏断代
+- from: d_shang
+  to: k_shang
+  type: includes
+  note: 商 属商断代
+- from: d_zhou
+  to: k_xizhou
+  type: includes
+  note: 西周 属周断代
+- from: d_zhou
+  to: k_dongzhou
+  type: includes
+  note: 东周 属周断代
+- from: d_zhou
+  to: k_qi_state
+  type: includes
+  note: 齐国 属周断代
+- from: d_zhou
+  to: k_yan_state
+  type: includes
+  note: 燕国 属周断代
+- from: d_zhou
+  to: k_lu_state
+  type: includes
+  note: 鲁国 属周断代
+- from: d_zhou
+  to: k_song_state
+  type: includes
+  note: 宋国 属周断代
+- from: d_zhou
+  to: k_jin_state
+  type: includes
+  note: 晋国 属周断代
+- from: d_zhou
+  to: k_chu_state
+  type: includes
+  note: 楚国 属周断代
+- from: d_zhou
+  to: k_zheng_state
+  type: includes
+  note: 郑国 属周断代
+- from: d_zhou
+  to: k_qin_state
+  type: includes
+  note: 秦国 属周断代
+- from: d_zhou
+  to: k_yue_state
+  type: includes
+  note: 越国 属周断代
+- from: d_zhou
+  to: k_wu_state
+  type: includes
+  note: 吴国 属周断代
+- from: d_zhou
+  to: k_han_state
+  type: includes
+  note: 韩国 属周断代
+- from: d_zhou
+  to: k_wei_state
+  type: includes
+  note: 魏国 属周断代
+- from: d_zhou
+  to: k_zhao_state
+  type: includes
+  note: 赵国 属周断代
+- from: d_qin
+  to: k_qin
+  type: includes
+  note: 秦朝 属秦断代
+- from: d_han
+  to: k_chu_xiang
+  type: includes
+  note: 西楚 属汉断代
+- from: d_han
+  to: k_xihan
+  type: includes
+  note: 西汉 属汉断代
+- from: d_han
+  to: k_xin
+  type: includes
+  note: 新 属汉断代
+- from: d_han
+  to: k_donghan
+  type: includes
+  note: 东汉 属汉断代
+- from: d_han
+  to: k_xiongnu
+  type: includes
+  note: 匈奴 属汉断代
+- from: d_han
+  to: k_yuanshao_pre
+  type: includes
+  note: 袁绍集团 属汉断代
+- from: d_han
+  to: k_caowei_pre
+  type: includes
+  note: 曹操集团 属汉断代
+- from: d_han
+  to: k_shuhan_pre
+  type: includes
+  note: 刘备集团 属汉断代
+- from: d_han
+  to: k_dongwu_pre
+  type: includes
+  note: 孙权集团 属汉断代
+- from: d_sanguo
+  to: k_caowei
+  type: includes
+  note: 曹魏 属三国断代
+- from: d_sanguo
+  to: k_shuhan
+  type: includes
+  note: 蜀汉 属三国断代
+- from: d_sanguo
+  to: k_dongwu
+  type: includes
+  note: 东吴 属三国断代
+- from: d_jin
+  to: k_xijin
+  type: includes
+  note: 西晋 属晋断代
+- from: d_jin
+  to: k_dongjin
+  type: includes
+  note: 东晋 属晋断代
+- from: d_jin
+  to: k_hanzhao
+  type: includes
+  note: 汉赵/前赵 属晋断代
+- from: d_jin
+  to: k_houzhao
+  type: includes
+  note: 后赵 属晋断代
+- from: d_jin
+  to: k_qian_qin
+  type: includes
+  note: 前秦 属晋断代
+- from: d_jin
+  to: k_ranwei
+  type: includes
+  note: 冉魏 属晋断代
+- from: d_jin
+  to: k_houqin
+  type: includes
+  note: 后秦 属晋断代
+- from: d_nanbeichao
+  to: k_nanbeichao
+  type: includes
+  note: 南北朝 属南北朝断代
+- from: d_nanbeichao
+  to: k_beiwei
+  type: includes
+  note: 北魏 属南北朝断代
+- from: d_nanbeichao
+  to: k_liusong
+  type: includes
+  note: 刘宋 属南北朝断代
+- from: d_nanbeichao
+  to: k_nan_qi
+  type: includes
+  note: 南齐 属南北朝断代
+- from: d_nanbeichao
+  to: k_nan_liang
+  type: includes
+  note: 梁 属南北朝断代
+- from: d_nanbeichao
+  to: k_dong_wei
+  type: includes
+  note: 东魏 属南北朝断代
+- from: d_nanbeichao
+  to: k_xi_wei
+  type: includes
+  note: 西魏 属南北朝断代
+- from: d_nanbeichao
+  to: k_bei_qi
+  type: includes
+  note: 北齐 属南北朝断代
+- from: d_nanbeichao
+  to: k_bei_zhou
+  type: includes
+  note: 北周 属南北朝断代
+- from: d_nanbeichao
+  to: k_nan_chen
+  type: includes
+  note: 陈 属南北朝断代
+- from: d_sui
+  to: k_sui
+  type: includes
+  note: 隋 属隋断代
+- from: d_tang
+  to: k_tang
+  type: includes
+  note: 唐 属唐断代
+- from: d_tang
+  to: k_wu_zhou
+  type: includes
+  note: 武周 属唐断代
+- from: d_wudai
+  to: k_yangwu
+  type: includes
+  note: 杨吴 属五代十国断代
+- from: d_wudai
+  to: k_chu
+  type: includes
+  note: 楚 属五代十国断代
+- from: d_wudai
+  to: k_houliang
+  type: includes
+  note: 后梁 属五代十国断代
+- from: d_wudai
+  to: k_qianshu
+  type: includes
+  note: 前蜀 属五代十国断代
+- from: d_wudai
+  to: k_wuyue
+  type: includes
+  note: 吴越 属五代十国断代
+- from: d_wudai
+  to: k_min
+  type: includes
+  note: 闽 属五代十国断代
+- from: d_wudai
+  to: k_nanhan
+  type: includes
+  note: 南汉 属五代十国断代
+- from: d_wudai
+  to: k_houdong
+  type: includes
+  note: 后唐 属五代十国断代
+- from: d_wudai
+  to: k_jingnan
+  type: includes
+  note: 荆南 属五代十国断代
+- from: d_wudai
+  to: k_houshu
+  type: includes
+  note: 后蜀 属五代十国断代
+- from: d_wudai
+  to: k_houjin
+  type: includes
+  note: 后晋 属五代十国断代
+- from: d_wudai
+  to: k_nantang
+  type: includes
+  note: 南唐 属五代十国断代
+- from: d_wudai
+  to: k_houhan
+  type: includes
+  note: 后汉 属五代十国断代
+- from: d_wudai
+  to: k_beihan
+  type: includes
+  note: 北汉 属五代十国断代
+- from: d_wudai
+  to: k_houzhou
+  type: includes
+  note: 后周 属五代十国断代
+- from: d_liao
+  to: k_liao
+  type: includes
+  note: 契丹/辽 属辽断代
+- from: d_song
+  to: k_song
+  type: includes
+  note: 宋 属宋断代
+- from: d_song
+  to: k_beisong
+  type: includes
+  note: 北宋 属宋断代
+- from: d_song
+  to: k_nansong
+  type: includes
+  note: 南宋 属宋断代
+- from: d_song
+  to: k_xixia
+  type: includes
+  note: 西夏 属宋断代
+- from: d_jin_jurchen
+  to: k_jin
+  type: includes
+  note: 金 属金断代
+- from: d_yuan
+  to: k_yuan
+  type: includes
+  note: 元 属元断代
+- from: d_yuan
+  to: k_wu_zhu
+  type: includes
+  note: 吴(朱元璋) 属元断代
+- from: d_yuan
+  to: k_han_chen
+  type: includes
+  note: 汉(陈友谅) 属元断代
+- from: d_ming
+  to: k_ming
+  type: includes
+  note: 明 属明断代
+- from: d_ming
+  to: k_waci
+  type: includes
+  note: 瓦剌 属明断代
+- from: d_ming
+  to: k_houjin_qing
+  type: includes
+  note: 后金 属明断代
+- from: d_ming
+  to: k_dashun_li
+  type: includes
+  note: 大顺 属明断代
+- from: d_qing
+  to: k_qing
+  type: includes
+  note: 清 属清断代
+- from: d_qing
+  to: k_taiping
+  type: includes
+  note: 太平天国 属清断代
+- from: d_qing
+  to: k_britain
+  type: includes
+  note: 英国 属清断代
+- from: d_qing
+  to: k_riben
+  type: includes
+  note: 日本 属清断代
+- from: d_minguo
+  to: k_minguo
+  type: includes
+  note: 中华民国 属中华民国断代
+- from: d_prc
+  to: k_prc
+  type: includes
+  note: 中华人民共和国 属中华人民共和国断代

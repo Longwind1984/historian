@@ -1,0 +1,12 @@
+id: pl_cbdb_12697
+type: Place
+name: 潤州
+modern_name: 潤州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.206489563
+longitude: 119.44429016
+first_year: 960
+last_year: 1112
+description: CBDB 行政类型:Zhou

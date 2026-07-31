@@ -1,0 +1,18 @@
+id: p_shishouxin_song
+type: Person
+name: 石守信
+born:
+  year: 928
+died:
+  year: 984
+gender: male
+birthplace: pl_kaifeng
+bio: 北宋开国元勋,义社十兄弟之一。陈桥兵变内应。961 杯酒释兵权后罢军职。
+sources:
+- 宋史·石守信传
+wikidata_id: "Q7495924"
+wikipedia_zh: "石守信"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/%E7%9F%B3%E5%AE%88%E4%BF%A1.jpg/500px-%E7%9F%B3%E5%AE%88%E4%BF%A1.jpg"
+image_license: "Public domain"
+image_credit: "清顾沅辑"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E5%AE%88%E4%BF%A1.jpg"

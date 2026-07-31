@@ -1,0 +1,12 @@
+id: pl_cbdb_13935
+type: Place
+name: 漳州
+modern_name: 漳州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.511744
+longitude: 117.653053
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,33 @@
+id: p_liu_che
+type: Person
+name: 刘彻
+alias:
+- 汉武帝
+born:
+  year: -156
+died:
+  year: -87
+reign_start:
+  year: -141
+reign_end:
+  year: -87
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_chang_an
+bio: 汉武帝。景帝子。BC141-87 在位。BC140 改元建元(始用年号)。BC134 察举制。BC127 推恩令。BC121 霍去病破匈奴,取河西。BC119
+  卫青、霍去病漠北之战大破匈奴。BC138/BC119 张骞通西域。BC91 巫蛊之祸,太子据自杀。BC87 崩。
+ext:
+  significance: 中国历史上最伟大的帝王之一,开启汉朝鼎盛。
+  title: 汉武帝
+  regime: 西汉
+sources:
+- 史记·孝武本纪
+- 汉书·武帝纪
+image: "https://upload.wikimedia.org/wikipedia/commons/e/e9/%E6%BC%A2%E6%AD%A6%E5%B8%9D.jpg"
+wikidata_id: "Q7225"
+wikipedia_zh: "汉武帝"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%BC%A2%E6%AD%A6%E5%B8%9D.jpg"

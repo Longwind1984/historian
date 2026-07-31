@@ -1,0 +1,22 @@
+id: e_sui_mie_chen
+type: Event
+name: 隋灭陈统一
+date:
+  year: 589
+  month: 1
+category: conquest
+march:
+- from: pl_caishiji
+  to: pl_jianye
+  side: k_sui
+  note: 韩擒虎自横江夜渡克采石后进逼建康；横江尚无地点实体，故只落采石至建康这一段，不把庐江误作渡江起点。《资治通鉴·卷177》
+importance: 1
+location: pl_jianye
+polities_involved:
+- k_sui
+- k_nan_chen
+description: 588 年隋发兵 51 万大举伐陈,韩擒虎、贺若弼等为将。589 年正月攻入建康,俘陈后主陈叔宝,陈亡。
+impact: 结束自永嘉之乱以来近 300 年的分裂(西晋短暂统一不计),中国重新统一。
+sources:
+- 隋书·高祖纪
+- 资治通鉴·卷177

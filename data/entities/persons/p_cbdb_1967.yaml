@@ -1,0 +1,14 @@
+id: p_cbdb_1967
+type: Person
+name: 吳中復
+born:
+  year: 1011
+died:
+  year: 1078
+gender: male
+birthplace: pl_cbdb_13140
+dynasty_ref: k_beisong
+bio: CBDB ID 1967
+name_en: Wu Zhongfu
+sources:
+- CBDB (China Biographical Database)

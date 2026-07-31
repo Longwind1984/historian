@@ -1,0 +1,20 @@
+id: p_gao_pian
+type: Person
+name: 高骈
+alias:
+- 高千里
+courtesy_name: 千里
+born:
+  year: 821
+died:
+  year: 887
+gender: male
+birthplace: pl_youzhou
+bio: 唐末名将、文学家。南平郡王。879 年破南诏,坐镇江陵。黄巢北上时拥兵不击,致使黄巢渡江入长安。后迷信神仙,被部将毕师铎所杀。
+ext:
+  significance: 坐视黄巢北上致唐廷崩溃,是唐朝灭亡关键转折。
+sources:
+- 旧唐书·高骈传
+- 资治通鉴·卷253-254
+wikidata_id: "Q5521624"
+wikipedia_zh: "高駢"

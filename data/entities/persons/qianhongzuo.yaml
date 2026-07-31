@@ -1,0 +1,18 @@
+id: p_qianhongzuo
+type: Person
+name: 钱弘佐
+alias:
+- 吴越忠献王
+courtesy_name: 元祐
+born:
+  year: 928
+died:
+  year: 947
+  month: 6
+gender: male
+birthplace: pl_hangzhou
+bio: 吴越第三任国王。钱元瓘第六子。941 年继位,年仅14岁。947 年卒。
+sources:
+- 十国春秋·吴越
+wikidata_id: "Q6146126"
+wikipedia_zh: "錢弘佐"

@@ -1,0 +1,24 @@
+id: p_liang_shuming
+type: Person
+name: 梁漱溟
+alias:
+- 梁寿铭
+courtesy_name: 寿铭
+born:
+  year: 1893
+died:
+  year: 1988
+gender: male
+roles:
+- scholar
+importance: 2
+bio: 广西桂林人，生于北京，近代哲学家、社会活动家。早年入顺天中学。1917 年任北京大学讲师，讲东西文化及其哲学，为现代新儒家早期代表。后致力于乡村建设运动，在山东邹平办乡村建设研究院。1941 年参与发起中国民主政团同盟。1946 年参加政治协商会议。1949 年后居北京。著《东西文化及其哲学》《中国文化要义》等。1988 年病逝于北京。
+sources:
+- 中华民国史·梁漱溟传
+- 景海峰·梁漱溟评传
+wikidata_id: "Q1167488"
+wikipedia_zh: "梁漱溟"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Liang_Shuming.jpg"
+image_license: "Public domain"
+image_credit: "Unknown; scanned by 天竺鼠 ( talk )"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liang_Shuming.jpg"

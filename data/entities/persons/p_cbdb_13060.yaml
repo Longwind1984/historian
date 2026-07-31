@@ -1,0 +1,14 @@
+id: p_cbdb_13060
+type: Person
+name: 李世民(唐太宗)
+born:
+  year: 598
+died:
+  year: 649
+gender: male
+birthplace: pl_cbdb_14493
+dynasty_ref: k_tang
+bio: CBDB ID 13060
+name_en: Li Shimin (Emperor Taizong of Tang)
+sources:
+- CBDB (China Biographical Database)

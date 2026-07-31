@@ -1,0 +1,27 @@
+id: p_zhou_yu
+type: Person
+name: 周瑜
+alias:
+- 周公瑾
+courtesy_name: 公瑾
+born:
+  year: 175
+died:
+  year: 210
+  month: 12
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_shu_yang_zhouyu
+bio: 东吴名将。庐江舒县人。208 赤壁之战主帅,大破曹操。210 病逝于巴丘,年 36。
+ext:
+  significance: 中国军事史经典战例统帅。
+sources:
+- 三国志·吴书·周瑜传
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f1/ZhouYu.jpg"
+wikidata_id: "Q198048"
+wikipedia_zh: "周瑜"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:ZhouYu.jpg"

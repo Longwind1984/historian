@@ -1,0 +1,12 @@
+id: pl_cbdb_5147
+type: Place
+name: 信陽
+modern_name: 信陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.131119
+longitude: 114.069244
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

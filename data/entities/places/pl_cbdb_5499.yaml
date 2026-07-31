@@ -1,0 +1,12 @@
+id: pl_cbdb_5499
+type: Place
+name: 宜春
+modern_name: 宜春
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.794266
+longitude: 114.375885
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

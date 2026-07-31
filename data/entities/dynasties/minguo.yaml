@@ -1,0 +1,16 @@
+id: d_minguo
+type: Dynasty
+name: 中华民国
+name_en: Republic of China
+founded:
+  year: 1912
+  month: 1
+ended:
+  year: 1949
+  month: 9
+last_capital: pl_nanjing_minguo
+description: 中华民国。1912 年 1 月 1 日建立,采共和制,结束帝制。1949 年国民政府迁台,本库大陆通史以 1949 年为界。
+period_label: 民国
+sources:
+- 中华民国史
+- 中国近代史

@@ -1,0 +1,24 @@
+id: p_tong_linge
+type: Person
+name: 佟麟阁
+alias:
+- 佟捷三
+courtesy_name: 捷三
+born:
+  year: 1892
+died:
+  year: 1937
+gender: male
+roles:
+- general
+importance: 2
+bio: 河北高阳人，抗日将领。早年入冯玉祥西北军，曾任国民军第一军师长。1933 年参加长城抗战，同年任察哈尔民众抗日同盟军第一军军长。1937 年七七事变爆发，任第二十九军副军长，于北平南苑率部抗击日军。7 月 28 日在南苑战斗中阵亡，为全面抗战爆发后首批殉国的高级将领之一。
+sources:
+- 中国抗日战争史·佟麟阁传
+- 中华民国史·人物传·佟麟阁
+wikidata_id: "Q698645"
+wikipedia_zh: "佟麟阁"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Tong_linge.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tong_linge.jpg"

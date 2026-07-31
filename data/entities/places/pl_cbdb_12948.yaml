@@ -1,0 +1,12 @@
+id: pl_cbdb_12948
+type: Place
+name: 太和
+modern_name: 太和
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.792103
+longitude: 114.894874
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

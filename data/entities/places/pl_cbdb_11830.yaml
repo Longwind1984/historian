@@ -1,0 +1,12 @@
+id: pl_cbdb_11830
+type: Place
+name: 寶塞
+modern_name: 寶塞
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.83195
+longitude: 115.34796
+first_year: 981
+last_year: 1126
+description: CBDB 行政类型:Xian

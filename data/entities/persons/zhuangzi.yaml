@@ -1,0 +1,42 @@
+id: p_zhuangzi
+type: Person
+name: 庄周
+alias:
+- 庄子
+- 子休
+courtesy_name: 子休
+gender: male
+roles:
+- scholar
+importance: 1
+born:
+  year: -369
+died:
+  year: -286
+bio: 庄子，名周，字子休(相传)，宋国蒙(今河南商丘一带)人。曾为漆园吏，一生贫寒。楚威王闻其贤，厚币迎之许以为相，庄子辞不受，宁游戏污渎之中自快，不为有国者所羁。继承发展老子之道，为道家主要代表，与老子并称"老庄"。主齐物、逍遥、自然无为，非毁礼法，寓言宏肆，思辨精微。相传著书十余万言，今存《庄子》三十三篇(内篇七、外篇十五、杂篇十一)，内篇多认为出自其手，外、杂篇多为后学所作。生卒约前369-前286。
+life_events:
+- year: -369
+  event: (约)生于宋国蒙
+  source: 史记·老子韩非列传
+- year: -355
+  event: (约)为漆园吏
+  source: 史记·老子韩非列传
+- year: -338
+  event: (约)楚威王迎之为相，辞不受
+  source: 史记·老子韩非列传
+- year: -286
+  event: (约)卒
+  source: 史记·老子韩非列传
+sources:
+- 史记·老子韩非列传
+- 庄子
+- 汉书·艺文志
+ext:
+  disputed: true
+  note: 生卒年有异说(通说约前369-前286)；字子休为后世相传；《庄子》外杂篇多后学所作
+wikidata_id: "Q47739"
+wikipedia_zh: "庄子"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Zhuangzi.png/500px-Zhuangzi.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhuangzi.png"

@@ -1,0 +1,14 @@
+id: p_cbdb_5409
+type: Person
+name: 祝氏(朱熹母)
+born:
+  year: 1097
+died:
+  year: 1169
+gender: female
+birthplace: pl_cbdb_12852
+dynasty_ref: k_beisong
+bio: CBDB ID 5409
+name_en: Zhu Shi (Mother of Zhu Xi)
+sources:
+- CBDB (China Biographical Database)

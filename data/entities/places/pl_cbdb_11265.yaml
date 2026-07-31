@@ -1,0 +1,12 @@
+id: pl_cbdb_11265
+type: Place
+name: 金鄉
+modern_name: 金鄉
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.068165
+longitude: 116.304527
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

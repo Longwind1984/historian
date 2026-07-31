@@ -1,0 +1,40 @@
+id: p_li_xian_zhongzong
+type: Person
+name: 李显
+alias:
+- 唐中宗
+- 中宗
+born:
+  year: 656
+died:
+  year: 710
+reign_start:
+  year: 705
+reign_end:
+  year: 710
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 高宗子。684年初次即位仅五十余日为武后所废；705年神龙政变复位，唐祚重续。韦后、安乐公主干政，710年暴崩，一说被鸩。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  reigns:
+  - from: 684
+    to: 684
+    note: 首次即位,五十余日为武后所废
+  - from: 705
+    to: 710
+    note: 神龙政变复位
+  note: 两次在位;reign_start/end 取705-710(实际主政之次),684年首次在位见 reigns
+  title: 唐中宗
+  regime: 唐
+wikidata_id: "Q9717"
+wikipedia_zh: "唐中宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Tang_Zhongzong.png"
+image_license: "Public domain"
+image_credit: "Because the artists have died over 100 years, so unknown."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tang_Zhongzong.png"

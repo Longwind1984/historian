@@ -1,0 +1,12 @@
+id: pl_cbdb_100633
+type: Place
+name: 高安
+modern_name: 高安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.425598
+longitude: 115.372276
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

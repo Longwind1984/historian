@@ -1,0 +1,17 @@
+id: d_zhou
+type: Dynasty
+name: 周
+name_en: Zhou
+founded:
+  year: -1046
+ended:
+  year: -256
+founder: p_zhou_wu_wang
+description: 周朝。前1046年武王灭商建国，都镐京(西周)；前771年犬戎破镐京，平王东迁洛邑(东周)。分西周、东周(春秋战国)两段，前256年赧王亡于秦。共和元年(前841)起中国有精确纪年，此前为断代工程重建纪年。
+period_label: 周
+sources:
+- 史记·周本纪
+- 史记·十二诸侯年表
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true

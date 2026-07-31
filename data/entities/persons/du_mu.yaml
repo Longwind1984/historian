@@ -1,0 +1,21 @@
+id: p_du_mu
+type: Person
+name: 杜牧
+alias:
+- 杜牧之
+courtesy_name: 牧之
+born:
+  year: 803
+died:
+  year: 852
+gender: male
+birthplace: pl_xianyang_dm
+bio: 晚唐诗人、文学家。'东风不与周郎便,铜雀春深锁二乔'。
+sources:
+- 旧唐书·杜牧传
+wikidata_id: "Q334095"
+wikipedia_zh: "杜牧"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Du_Mu.jpg/500px-Du_Mu.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Du_Mu.jpg"

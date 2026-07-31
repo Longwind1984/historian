@@ -1,0 +1,12 @@
+id: pl_cbdb_100357
+type: Place
+name: 楚丘
+modern_name: 楚丘
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.704596
+longitude: 115.701694
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

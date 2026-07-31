@@ -1,0 +1,18 @@
+id: e_bawang_zhiluan
+type: Event
+name: 八王之乱
+date:
+  year: 291
+  month: 3
+category: war
+importance: 1
+location: pl_luoyang
+polities_involved:
+- k_xijin
+description: 291-306 年西晋皇族八王争夺权力的混战。贾后废杀杨太后、太子遹引发。八王:汝南王亮、楚王玮、赵王伦、齐王冏、长沙王乂、成都王颖、河间王颙、东海王越。东海王越最终胜出。
+impact: 西晋元气大伤,直接导致永嘉之乱和西晋灭亡,中国陷入 270 余年分裂。
+sources:
+- 晋书·八王传
+- 资治通鉴·卷82-86
+end_date:
+  year: 306

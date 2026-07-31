@@ -1,0 +1,15 @@
+id: pl_wanping
+type: Place
+name: 万平/万年
+modern_name: 西安
+province: 陕西
+latitude: 34.27
+longitude: 108.95
+category: city
+description: 颜真卿籍贯
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴
+aliases:
+- 京兆万年

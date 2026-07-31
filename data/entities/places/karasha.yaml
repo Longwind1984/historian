@@ -1,0 +1,13 @@
+id: pl_karasha
+type: Place
+name: 疏勒
+modern_name: 喀什
+province: 新疆
+latitude: 39.47
+longitude: 75.99
+category: city
+description: 安西四镇之一
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

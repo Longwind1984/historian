@@ -1,0 +1,12 @@
+id: pl_cbdb_15143
+type: Place
+name: 堯山
+modern_name: 堯山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.339809
+longitude: 114.698692
+first_year: 742
+last_year: 959
+description: CBDB 行政类型:Xian

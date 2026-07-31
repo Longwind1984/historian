@@ -1,0 +1,12 @@
+id: pl_cbdb_7546
+type: Place
+name: 常熟
+modern_name: 常熟
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.646582
+longitude: 120.733788
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

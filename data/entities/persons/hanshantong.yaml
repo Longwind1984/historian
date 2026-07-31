@@ -1,0 +1,12 @@
+id: p_hanshantong
+type: Person
+name: 韩山童
+died:
+  year: 1351
+gender: male
+birthplace: pl_luan_han
+bio: 元末红巾军首领。自称宋徽宗八世孙。1351 起义即事泄被杀。
+sources:
+- 明史·韩林儿传
+wikidata_id: "Q713234"
+wikipedia_zh: "韩山童"

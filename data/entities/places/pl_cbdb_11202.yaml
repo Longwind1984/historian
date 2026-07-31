@@ -1,0 +1,12 @@
+id: pl_cbdb_11202
+type: Place
+name: 章丘
+modern_name: 章丘
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.75417
+longitude: 117.46158
+first_year: 1006
+last_year: 1069
+description: CBDB 行政类型:Xian

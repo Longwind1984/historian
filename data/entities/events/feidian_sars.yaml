@@ -1,0 +1,14 @@
+id: e_feidian_sars
+type: Event
+name: 非典型肺炎疫情
+date:
+  year: 2002
+end_date:
+  year: 2003
+category: disaster
+importance: 2
+description: 2002年底至2003年，严重急性呼吸综合征（SARS，非典）在中国及多国传播。
+impact: 此后中国加强公共卫生应急体系建设。
+sources:
+- 中华人民共和国史
+- 当代中国史

@@ -1,0 +1,14 @@
+id: p_cbdb_10795
+type: Person
+name: 趙雄
+born:
+  year: 1129
+died:
+  year: 1193
+gender: male
+birthplace: pl_cbdb_100480
+dynasty_ref: k_beisong
+bio: CBDB ID 10795
+name_en: Zhao Xiong
+sources:
+- CBDB (China Biographical Database)

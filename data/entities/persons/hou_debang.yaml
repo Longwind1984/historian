@@ -1,0 +1,21 @@
+id: p_hou_debang
+type: Person
+name: 侯德榜
+gender: male
+born:
+  year: 1890
+died:
+  year: 1974
+roles:
+- scholar
+importance: 2
+bio: 福建闽侯人。化学工程学家。1920 年代主持永利碱厂，破解当时被西方垄断保密的索尔维制碱法，1933 年以英文著《纯碱制造》公之于世，打破技术封锁。1940 年代创"侯氏制碱法"(联合制碱法)，将合成氨与制碱两流程联合，氯化铵副产为肥，原料利用率大增。建国后任化工部副部长。
+sources:
+- 当代中国史
+- 中国科学技术史
+wikidata_id: "Q2489789"
+wikipedia_zh: "侯德榜"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/%E4%BE%AF%E5%BE%B7%E6%A6%9C%E9%99%A2%E5%A3%AB.jpg"
+image_license: "Public domain"
+image_credit: "不詳"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E4%BE%AF%E5%BE%B7%E6%A6%9C%E9%99%A2%E5%A3%AB.jpg"

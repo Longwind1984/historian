@@ -1,0 +1,26 @@
+id: p_liu_gong
+type: Person
+name: 刘恭
+alias:
+- 前少帝
+died:
+  year: -184
+reign_start:
+  year: -188
+reign_end:
+  year: -184
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xihan
+bio: 惠帝子。吕后立为帝，年幼不预政。后以怨言被幽杀。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 前少帝
+  regime: 西汉
+wikidata_id: "Q7217"
+wikipedia_zh: "西汉前少帝"

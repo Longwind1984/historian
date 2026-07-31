@@ -1,0 +1,12 @@
+id: pl_cbdb_13140
+type: Place
+name: 永興
+modern_name: 永興
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.83013
+longitude: 115.209625
+first_year: 960
+last_year: 977
+description: CBDB 行政类型:Xian

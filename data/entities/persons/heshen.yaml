@@ -1,0 +1,20 @@
+id: p_heshen
+type: Person
+name: 和珅
+alias:
+- 致斋
+born:
+  year: 1750
+died:
+  year: 1799
+gender: male
+birthplace: pl_beijing_qing
+bio: 清代权臣。大学士、军机大臣。1799 嘉庆赐自尽。抄家产值传说八亿两。
+sources:
+- 清史稿·和珅传
+wikidata_id: "Q700179"
+wikipedia_zh: "和珅"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Hesen.jpg/500px-Hesen.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hesen.jpg"

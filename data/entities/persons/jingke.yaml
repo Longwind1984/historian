@@ -1,0 +1,25 @@
+id: p_jingke
+type: Person
+name: 荆轲
+alias:
+- 荆卿
+- 庆卿
+gender: male
+roles: []
+importance: 2
+died:
+  year: -227
+bio: 荆轲，其先齐人，徙于卫，卫人谓之庆卿；之燕，燕人谓之荆卿。好读书击剑，以术说卫元君不用，游历至燕，与高渐离饮于燕市，歌泣相和。受燕太子丹厚遇，丹患秦兵临易水，欲劫秦王政使归诸侯侵地，不则刺之。前227年荆轲奉燕督亢地图及秦叛将樊於期首级入秦献之，秦王展图，图穷匕见，轲左手把秦王袖、右手持匕首揕之，未中；秦王惊起拔剑断其左股，轲以匕首掷之中铜柱，遂被左右所杀。事败，秦旋发兵伐燕。
+life_events:
+- year: -227
+  event: 奉燕太子丹命刺秦王，图穷匕见，事败被杀
+  source: 史记·刺客列传
+sources:
+- 史记·刺客列传
+- 战国策·燕策
+wikidata_id: "Q532410"
+wikipedia_zh: "荆轲"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jingkeciqinwang.png/500px-Jingkeciqinwang.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jingkeciqinwang.png"

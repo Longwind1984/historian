@@ -1,0 +1,12 @@
+id: pl_cbdb_13079
+type: Place
+name: 清湘
+modern_name: 清湘
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.931814
+longitude: 111.065003
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

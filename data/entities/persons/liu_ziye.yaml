@@ -1,0 +1,31 @@
+id: p_liu_ziye
+type: Person
+name: 刘子业
+alias:
+- 前废帝
+born:
+  year: 449
+died:
+  year: 465
+reign_start:
+  year: 464
+reign_end:
+  year: 465
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 孝武帝子。凶暴悖乱,屠戮宗室,465年为湘东王刘彧所弑。
+ext:
+  title: 宋前废帝
+  regime: 刘宋
+sources:
+- 宋书
+- 南史
+- 资治通鉴
+wikidata_id: "Q718258"
+wikipedia_zh: "刘子业"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/%E5%AE%8B%E5%89%8D%E5%BB%A2%E5%B8%9D.jpg/500px-%E5%AE%8B%E5%89%8D%E5%BB%A2%E5%B8%9D.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%89%8D%E5%BB%A2%E5%B8%9D.jpg"

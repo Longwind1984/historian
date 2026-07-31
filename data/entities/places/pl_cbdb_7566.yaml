@@ -1,0 +1,12 @@
+id: pl_cbdb_7566
+type: Place
+name: 通州直隸州直轄地方
+modern_name: 通州直隸州直轄地方
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.010471344
+longitude: 120.85464478
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Zhixiadifang

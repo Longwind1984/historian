@@ -1,0 +1,16 @@
+id: d_ming
+type: Dynasty
+name: 明
+name_en: Ming
+founded:
+  year: 1368
+  month: 1
+ended:
+  year: 1644
+  month: 3
+last_capital: pl_nanjing_ming
+description: 明朝。1368 年朱元璋建,初都南京,永乐迁北京。1644 年李自成入京,崇祯自缢。南明延续至 1662。
+period_label: 明
+sources:
+- 明史
+founder: p_zhuyuanzhang

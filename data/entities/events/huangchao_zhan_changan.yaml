@@ -1,0 +1,20 @@
+id: e_huangchao_zhan_changan
+type: Event
+name: 黄巢攻入长安
+date:
+  year: 880
+  month: 12
+category: rebellion
+importance: 2
+location: pl_chang_an
+march:
+- from: pl_luoyang_sui
+  to: pl_chang_an
+  note: 黄巢广明元年（880）十一月陷洛阳，继陷虢州、破潼关并经华州入长安；此段只记880年攻取东、西两京的具体阶段，不与875—884年黄巢起义父事件重复。《资治通鉴·卷254》
+polities_involved:
+- k_tang
+description: 880 年十二月黄巢大军自洛阳入长安,僖宗奔蜀。黄巢即皇帝位,国号大齐,建元金统。
+impact: 唐朝中央威信彻底丧失,藩镇成为历史主角。直接催生五代十国。
+sources:
+- 旧唐书·僖宗纪
+- 资治通鉴·卷254

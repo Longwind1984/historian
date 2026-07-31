@@ -1,0 +1,12 @@
+id: pl_cbdb_100197
+type: Place
+name: 應城
+modern_name: 應城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.946003
+longitude: 113.569679
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

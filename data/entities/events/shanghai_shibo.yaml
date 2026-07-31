@@ -1,0 +1,13 @@
+id: e_shanghai_shibo
+type: Event
+name: 上海世博会
+date:
+  year: 2010
+category: culture
+importance: 3
+polities_involved:
+- k_prc
+description: 2010年5月至10月，第41届世界博览会在上海举行，主题为'城市，让生活更美好'。
+sources:
+- 中华人民共和国史
+- 当代中国史

@@ -1,0 +1,12 @@
+id: pl_cbdb_16201
+type: Place
+name: 丹稜
+modern_name: 丹稜
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.02619
+longitude: 103.512261
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

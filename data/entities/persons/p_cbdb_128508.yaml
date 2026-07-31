@@ -1,0 +1,14 @@
+id: p_cbdb_128508
+type: Person
+name: 孟洋
+born:
+  year: 1483
+died:
+  year: 1534
+gender: male
+birthplace: pl_cbdb_300348
+dynasty_ref: k_ming
+bio: CBDB ID 128508
+name_en: Meng Yang
+sources:
+- CBDB (China Biographical Database)

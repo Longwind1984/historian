@@ -1,0 +1,18 @@
+id: f_zhuwen_group
+type: Faction
+name: 朱温集团
+nature: military_clan
+founded:
+  year: 880
+dissolved:
+  year: 923
+core_region: pl_kaifeng
+description: 黄巢旧部投降唐朝后,以朱温(全忠)为首、宣武镇为基地形成的军政集团。吸收大量黄巢降将和河南方镇,后梁立国的核心班底。
+significance: 五代后梁的政权基础。
+peak_period: 唐末-后梁
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

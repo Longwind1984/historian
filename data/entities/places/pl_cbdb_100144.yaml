@@ -1,0 +1,12 @@
+id: pl_cbdb_100144
+type: Place
+name: 寧陵
+modern_name: 寧陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.445976
+longitude: 115.315368
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

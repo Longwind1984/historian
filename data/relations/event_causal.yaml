@@ -1,0 +1,548 @@
+# 事件因果链（Event ↔ Event）
+# T4.5：为重大事件补"前因 -> 本事件 -> 后果"因果关联。
+# 类型约定（见 schema/relations.yaml）：
+#   led_to        from 导致 to（因 -> 果）
+#   caused_by     from 起因于 to（from 的原因是 to），led_to 的逆语义
+#   part_of       from 从属于 to（更大事件/时期）
+#   concurrent_with  同期并发（无向）
+# 每条必带 note（一句因果逻辑）+ sources（正史/公认史论）。
+# 只连真实存在的事件实体（id 经 grep 核对）。
+
+# === 秦汉 ===
+- from: e_wang_mang_gaige
+  to: e_lvlin_chimei
+  type: led_to
+  note: 王田、币制与五均六筦等改制反复失当，加以灾荒和吏治扰民，激化社会矛盾，绿林、赤眉相继起兵并推翻新朝
+  sources:
+  - 汉书·王莽传
+  - 后汉书·刘玄传、刘盆子传
+  - 资治通鉴·卷38-41
+- from: e_gaixia_zhizhan
+  to: e_chuhan_zhanzheng
+  type: part_of
+  note: 垓下之战是楚汉战争的终局决战，项羽兵败自刎后持续四年的楚汉争夺结束；这是从属关系而非另造一条事件因果
+  sources:
+  - 史记·项羽本纪
+  - 资治通鉴·卷11
+- from: e_danggu_zhi_huo
+  to: e_huangjin_qiyi
+  type: led_to
+  note: 党锢之祸禁锢善类、朝政日敝，激起太平道黄巾起义
+  sources:
+  - 后汉书·党锢传
+  - 后汉书·灵帝纪
+  - 资治通鉴·卷58
+
+# === 魏晋 ===
+- from: e_bawang_zhiluan
+  to: e_yongjia_zhiluan
+  type: led_to
+  note: 八王之乱耗竭中原，匈奴刘渊等乘虚起兵，致永嘉之乱
+  sources:
+  - 晋书·八王传
+  - 晋书·怀帝纪
+  - 资治通鉴·卷85-87
+- from: e_yongjia_zhiluan
+  to: e_yiguan_nandu
+  type: led_to
+  note: 永嘉之乱洛阳陷落，中原士族衣冠南渡，东晋肇基
+  sources:
+  - 晋书·怀帝纪
+  - 晋书·元帝纪
+  - 资治通鉴·卷87-89
+
+# === 南北朝 ===
+- from: e_heyin_zhibian
+  to: e_beiwei_fenlie
+  type: led_to
+  note: 河阴屠杀摧毁北魏朝廷中枢，尔朱氏与地方军镇此后争权不止，高欢、宇文泰分别控制东西朝廷，终使北魏分裂
+  sources:
+  - 魏书·尔朱荣传
+  - 魏书·孝静纪
+  - 周书·文帝纪
+  - 资治通鉴·卷152
+
+# === 隋 ===
+- from: e_yangjian_dai_zhou
+  to: e_kaihuang_zhizhi
+  type: led_to
+  note: 杨坚代周建隋，扫除南北乱局，开皇之治遂兴
+  sources:
+  - 隋书·高祖纪
+  - 资治通鉴·卷175-178
+- from: e_sui_mie_chen
+  to: e_kaihuang_zhizhi
+  type: part_of
+  note: 隋灭陈一统天下，乃开皇之治之高潮
+  sources:
+  - 隋书·高祖纪
+  - 资治通鉴·卷177
+- from: e_sui_zheng_gaogouli
+  to: e_sui_mo_qiyi
+  type: concurrent_with
+  note: 隋末起义始于611年，三征高句丽在612至614年进行；两事同期交叠，613年杨玄感乘第二次东征起兵并迫使隋军撤还，但不能倒置为征辽导致已经开始的整场起义
+  sources:
+  - 隋书·炀帝纪
+  - 隋书·杨玄感传
+  - 资治通鉴·卷181-182
+- from: e_sui_mo_qiyi
+  to: e_jian_guo_tang
+  type: led_to
+  note: 隋末群雄并起，李渊乘势太原起兵，受禅建唐
+  sources:
+  - 旧唐书·高祖纪
+  - 资治通鉴·卷183-185
+
+# === 唐 ===
+- from: e_jian_guo_tang
+  to: e_xuanwumen
+  type: led_to
+  note: 唐立国未几，秦王与太子争位，酿玄武门之变
+  sources:
+  - 旧唐书·太宗纪
+  - 资治通鉴·卷191
+- from: e_xuanwumen
+  to: e_zhenguan_zhizhi
+  type: led_to
+  note: 玄武门之变后太宗即位，遂开贞观之治
+  sources:
+  - 旧唐书·太宗纪
+  - 资治通鉴·卷191-193
+- from: e_zhenguan_zhizhi
+  to: e_kaiyuan_shengshi
+  type: led_to
+  note: 贞观奠基，经永徽至开元达于盛世
+  sources:
+  - 新唐书·食货志
+  - 资治通鉴·卷213
+- from: e_tang_mie_dongtu_jue
+  to: e_zhenguan_zhizhi
+  type: part_of
+  note: 唐灭东突厥发生于629至630年，是627至649年贞观时期的重大军事事件；这里只表达时期从属，不把治世与战争互写成单线因果
+  sources:
+  - 旧唐书·太宗本纪
+  - 旧唐书·突厥传
+  - 资治通鉴·卷193
+- from: e_tanglong_zhengbian
+  to: e_xiantian_zhibian
+  type: led_to
+  note: 唐隆政变后李隆基与太平公主共同掌握朝局，原有联盟转为争夺最高权力，三年后玄宗先发制人诛太平公主集团
+  sources:
+  - 旧唐书·玄宗本纪
+  - 资治通鉴·卷209
+  - 资治通鉴·卷210
+- from: e_xiantian_zhibian
+  to: e_kaiyuan_shengshi
+  type: led_to
+  note: 先天之变清除太平公主集团后玄宗取得完整政权，随即改元开元并任用姚崇、宋璟整顿政务
+  sources:
+  - 旧唐书·玄宗本纪
+  - 资治通鉴·卷210
+  - 资治通鉴·卷211-215
+- from: e_an_lushan_rebellion
+  to: e_mawei_zhibian
+  type: led_to
+  note: 安史叛军攻破潼关、逼近长安，玄宗仓促西逃，护驾禁军遂在马嵬哗变并诛杨国忠、逼死杨贵妃
+  sources:
+  - 旧唐书·杨贵妃传
+  - 资治通鉴·卷218
+- from: e_an_lushan_rebellion
+  to: e_tang_shoufu_liangjing
+  type: led_to
+  note: 安史叛军占据长安、洛阳后，肃宗组织郭子仪等反攻，借回纥兵于757年先后收复两京
+  sources:
+  - 旧唐书·肃宗本纪
+  - 资治通鉴·卷220
+- from: e_an_lushan_rebellion
+  to: e_yuanhe_xiaofan
+  type: led_to
+  note: 乱后河朔三镇割据自重，宪宗元和间被迫兴兵削藩
+  sources:
+  - 新唐书·方镇表
+  - 资治通鉴·卷237-241
+- from: e_yongzhen_gexin
+  to: e_ganlu_zhibian
+  type: led_to
+  note: 永贞革新失败宦官坐大，文宗图谋除宦引发甘露之变
+  sources:
+  - 旧唐书·宦官传
+  - 资治通鉴·卷245
+- from: e_ganlu_zhibian
+  to: e_niu_li_dangzheng
+  type: led_to
+  note: 宦官专权激化朝局，牛李两派借宦官之势互斗半世纪
+  sources:
+  - 新唐书·李宗闵传
+  - 资治通鉴·卷246-248
+- from: e_qingfu_qiyi
+  to: e_pangxun_zhibian
+  type: led_to
+  note: 裘甫起义揭橥唐末民变序幕，十四年后庞勋继起
+  sources:
+  - 旧唐书·懿宗纪
+  - 资治通鉴·卷250
+- from: e_pangxun_zhibian
+  to: e_huangchao_qiyi
+  type: led_to
+  note: 庞勋虽平，残部与流民汇入黄巢，民变遂成燎原
+  sources:
+  - 新唐书·逆臣传
+  - 资治通鉴·卷251-253
+- from: e_huangchao_qiyi
+  to: e_zhuwen_tang
+  type: led_to
+  note: 黄巢残部朱温降唐坐大，终篡唐祚，唐亡
+  sources:
+  - 旧唐书·朱温传
+  - 新唐书·逆臣传
+  - 资治通鉴·卷263-266
+- from: e_huangchao_zhan_changan
+  to: e_huangchao_qiyi
+  type: part_of
+  note: 黄巢攻占长安称帝建齐，为起义之高潮组成
+  sources:
+  - 新唐书·逆臣传
+  - 资治通鉴·卷254
+- from: e_huangchao_zhan_changan
+  to: e_jiannan_chengzhong_li_jianyong
+  type: led_to
+  note: 黄巢占领长安、僖宗入蜀后，唐廷为收复京师征召沙陀李克用；其军遂成为逐出黄巢并收复长安的主力
+  sources:
+  - 旧唐书·僖宗纪
+  - 旧五代史·武皇纪
+  - 资治通鉴·卷254-255
+- from: e_wang_xianzhi_qiyi
+  to: e_huangchao_qiyi
+  type: concurrent_with
+  note: 王仙芝、黄巢同期起事，初合后分
+  sources:
+  - 新唐书·逆臣传
+  - 资治通鉴·卷252
+# === 宋 ===
+- from: e_qingli_xinzheng
+  to: e_xining_bianfa
+  type: led_to
+  note: 庆历新政夭折，二十余年后王安石熙宁变法接续图强
+  sources:
+  - 宋史·范仲淹传
+  - 宋史·王安石传
+- from: e_xining_bianfa
+  to: e_yuanyou_dangzheng_song
+  type: led_to
+  note: 新法迭兴迭废，新党旧党互斗贯穿北宋后期
+  sources:
+  - 宋史·神宗纪
+  - 宋史·奸臣传
+  - 续资治通鉴长编
+- from: e_yuanyou_dangzheng_song
+  to: e_yuanyou_dangbei
+  type: led_to
+  note: 党争激化，徽宗崇宁间蔡京立元祐党人碑禁锢旧党
+  sources:
+  - 宋史·蔡京传
+  - 续资治通鉴长编
+- from: e_jingkang_zhibian
+  to: e_haishang_zhimeng
+  type: caused_by
+  note: 联金灭辽使宋失北方屏障，金察宋军虚弱旋即南下
+  sources:
+  - 宋史·徽宗纪
+  - 金史·太祖纪
+  - 续资治通鉴长编
+- from: e_jingkang_zhibian
+  to: e_jianyan_nandu
+  type: led_to
+  note: 靖康之变二帝北狩，赵构南渡建炎，南宋肇建
+  sources:
+  - 宋史·高宗纪
+  - 建炎以来系年要录
+- from: e_jianyan_nandu
+  to: e_shaoxing_heyi
+  type: led_to
+  note: 南渡后宋金交战经年，终以绍兴和议定臣藩之局
+  sources:
+  - 宋史·高宗纪
+  - 建炎以来系年要录
+- from: e_lianmeng_miejin
+  to: b_yashan
+  type: led_to
+  note: 联蒙灭金重蹈联金灭辽覆辙，金亡失缓冲，宋蒙战争终至崖山亡宋
+  sources:
+  - 宋史·理宗纪
+  - 元史·太祖纪
+  - 续资治通鉴
+
+# === 近代 ===
+- from: e_wu_xu_bian_fa
+  to: e_xin_hai_ge_ming
+  type: led_to
+  note: 戊戌变法失败证改良路绝，革命思潮遂兴，终至辛亥
+  sources:
+  - 清史稿·德宗本纪
+  - 辛亥革命史
+
+# === 当代 ===
+- from: e_gaige_kaifang
+  to: e_jingji_tequ
+  type: led_to
+  note: 十一届三中全会确立改革开放方向后，中央以深圳、珠海、汕头、厦门四个经济特区试行对外开放政策
+  sources:
+  - 中华人民共和国史
+  - 当代中国史
+
+# === 燕云十六州:936 割让 → 三次武力收复失败 → 澶渊买和 → 联金复燕 → 靖康 ===
+# 这条 191 年的长链是「相隔较远事件的因果关联」的样本:选中割燕云可一路串到靖康。
+- from: e_shi_jie_liao
+  to: e_yanyun
+  type: led_to
+  note: 石敬瑭乞师契丹以灭后唐，割幽蓟十六州、称儿皇帝为其代价
+  sources:
+  - 旧五代史·晋高祖纪
+  - 新五代史·四夷附录
+  - 资治通鉴·卷280
+- from: e_yanyun
+  to: b_houzhou_liao
+  type: led_to
+  note: 燕云既失，中原失长城之险、门户洞开；周世宗亲征图复，取三关三州而中道崩殂
+  sources:
+  - 旧五代史·周世宗纪
+  - 资治通鉴·卷294
+- from: e_yanyun
+  to: b_gaolianghe
+  type: led_to
+  note: 宋太宗灭北汉乘胜径攻幽州以复燕云，围城半月不下，辽援至，高梁河大败
+  sources:
+  - 宋史·太宗纪
+  - 辽史·景宗纪
+  - 续资治通鉴长编·卷20
+- from: b_gaolianghe
+  to: b_yongxi_beifa
+  type: led_to
+  note: 高梁河既败，七年后再举三路伐辽；曹彬溃于岐沟关，杨业殁于陈家谷，复燕云之志遂绝
+  sources:
+  - 宋史·太宗纪
+  - 宋史·杨业传
+  - 续资治通鉴长编·卷27
+- from: b_yongxi_beifa
+  to: e_chanyuan_zhimeng
+  type: led_to
+  note: 两伐皆北，宋弃武力收复之图；澶渊以岁币易和，燕云之失就此定局
+  sources:
+  - 宋史·真宗纪
+  - 续资治通鉴长编·卷58
+
+# === 元明之际:红巾 → 明立 → 克大都(元亡) ===
+- from: b_poyanghu
+  to: e_ming_jianli
+  type: led_to
+  note: 鄱阳湖灭陈友谅，江南遂无抗手；四年后张士诚亦平，朱元璋乃得称帝
+  sources:
+  - 明史·太祖本纪
+  - 明史·陈友谅传
+- from: e_ming_jianli
+  to: e_ming_beifa_dadu
+  type: led_to
+  note: 定鼎应天后倾力北伐，徐达克大都，元室北奔
+  sources:
+  - 明史·太祖本纪
+  - 明史·徐达传
+
+# === 现当代 ===
+- from: e_da_yue_jin
+  to: e_lushan_huiyi
+  type: led_to
+  note: 大跃进恶果已现，庐山原为纠左而开
+  sources:
+  - 当代中国史
+- from: e_lushan_huiyi
+  to: e_da_jihuang
+  type: led_to
+  note: 彭德怀上书言浮夸风之弊，反被定为反党;纠左中止、反右倾及于全国，各级噤声，
+    高征购在饥荒已现时仍继续加码，饥荒规模因之扩大
+  sources:
+  - 当代中国史
+  - 中华人民共和国史
+- from: e_lushan_huiyi
+  to: e_wen_hua_da_ge_ming
+  type: led_to
+  note: 彭德怀去职开党内批评之禁;此后高层分歧循同一路径处理，至文革而极
+  sources:
+  - 当代中国史
+- from: e_wen_hua_da_ge_ming
+  to: e_shangshan_xiaxiang
+  type: led_to
+  note: 停课致红卫兵无处安置、城镇无力就业，遂遣一千七百万青年下乡
+  sources:
+  - 当代中国史
+- from: e_wen_hua_da_ge_ming
+  to: e_jiuyisan_shijian
+  type: led_to
+  note: 林彪以文革起、由文革倾;接班人叛逃身死，文革合法性大伤
+  sources:
+  - 当代中国史
+- from: e_jiuyisan_shijian
+  to: e_siwu_yundong
+  type: led_to
+  note: 林彪事件动摇民间信仰，五年后悼周之集会遂成公开指斥四人帮之机
+  sources:
+  - 当代中国史
+- from: e_siwu_yundong
+  to: e_fensui_siren_bang
+  type: led_to
+  note: 自发抗议虽被定为反革命事件，民意已明;同年十月四人帮被捕
+  sources:
+  - 当代中国史
+- from: e_shangshan_xiaxiang
+  to: e_huifu_gaokao
+  type: led_to
+  note: 一代人失学十年，恢复高考时积压考生同场，报考五百七十万录取二十七万
+  sources:
+  - 当代中国史
+- from: e_huifu_gaokao
+  to: e_gaige_kaifang
+  type: led_to
+  note: 以考试取代出身与推荐，为改革开放储备人才;亦是拨乱反正最早的制度举措之一
+  sources:
+  - 当代中国史
+- from: e_zhenbaodao
+  to: e_nikesong_fanghua
+  type: led_to
+  note: 中苏由分歧转为军事对峙，中国转求对美缓和
+  sources:
+  - 当代中国史
+- from: e_tudi_gaige
+  to: e_shehuizhuyi_gaizao
+  type: led_to
+  note: 土改分得之田数年后经互助组、初级社而高级社，重新收归集体
+  sources:
+  - 当代中国史
+- from: e_sanfan_wufan
+  to: e_shehuizhuyi_gaizao
+  type: led_to
+  note: 五反重创私营工商业元气，为其后全行业公私合营清除阻力
+  sources:
+  - 当代中国史
+- from: e_yi_wu_jihua
+  to: e_shehuizhuyi_gaizao
+  type: concurrent_with
+  note: 第一个五年计划实施于1953至1957年，社会主义改造集中于1953至1956年；两者同属过渡时期总路线下并行推进的工业化建设与所有制改造，不互写成单向因果
+  sources:
+  - 国家发展和改革委员会·“一五”计划（1953—1957年）
+  - 中国人大网·第一个五年计划（1953年—1957年）
+- from: e_zhongying_lianhe_shengming
+  to: e_xianggang_huigui
+  type: led_to
+  note: 联合声明确立一国两制与五十年不变，为回归的法律框架
+  sources:
+  - 中英关于香港问题的联合声明
+
+# === 补 11 条核心孤立事件的因果(T6.9) ===
+# 上古三代
+- from: b_mingtiao
+  to: b_muye
+  type: led_to
+  note: 商以武力代夏,开「易姓代国」之例;六百年后周人循此例伐纣,牧野再演
+  sources:
+  - 史记·殷本纪
+  - 史记·周本纪
+- from: b_muye
+  to: e_fengjian_zongfa
+  type: led_to
+  note: 克商而有天下,然殷遗与东土未附,乃封宗亲功臣以藩屏周,分封宗法之制由此立
+  sources:
+  - 史记·周本纪
+  - 左传·僖公二十四年
+- from: e_fengjian_zongfa
+  to: e_zhougong_zhili
+  type: led_to
+  note: 分封既立,复以礼乐定尊卑亲疏,使封建有其秩序 —— 制度与仪节相为表里
+  sources:
+  - 尚书·周官
+  - 礼记·明堂位
+- from: e_fengjian_zongfa
+  to: e_quanrong_po_haojing
+  type: led_to
+  note: 封建之制赖天子共主之威以维系;幽王失德、诸侯不至,犬戎遂破镐京,其制先坏而后国亡
+  sources:
+  - 史记·周本纪
+- from: e_quanrong_po_haojing
+  to: e_pingwang_dongqian
+  type: led_to
+  note: 镐京既破,平王避戎东迁洛邑,王畿日蹙、天子共主名存实亡,春秋之局自此始
+  sources:
+  - 史记·周本纪
+# 战国
+- from: e_shangyang_bianfa
+  to: b_changping
+  type: led_to
+  note: 变法奠秦富国强兵之基,至长平乃能以举国之力久持三年而胜赵
+  sources:
+  - 史记·商君列传
+  - 史记·白起王翦列传
+- from: b_changping
+  to: e_qin_mie_liuguo
+  type: led_to
+  note: 赵之壮丁尽丧,六国再无抗秦主力,统一之势自此不可逆
+  sources:
+  - 史记·白起王翦列传
+  - 史记·秦始皇本纪
+# 魏晋南北朝
+- from: e_yongjia_zhiluan
+  to: e_feishui_zhizhan
+  type: led_to
+  note: 永嘉后北方入十六国之局,前秦一统北方而挟以图南,遂有淝水之役
+  sources:
+  - 晋书·苻坚载记
+- from: e_feishui_zhizhan
+  to: e_xiaowendi_hanhua
+  type: led_to
+  note: 淝水一败前秦崩解,北方再分裂,拓跋鲜卑乘之而起;北魏既统北方,乃有孝文汉化之事
+  sources:
+  - 魏书·序纪
+  - 魏书·高祖纪
+- from: e_beizhou_mie_beiqi
+  to: e_sui_mie_chen
+  type: led_to
+  note: 北周并北齐而北方一统,杨坚代周尽承其势,南陈遂无以抗
+  sources:
+  - 隋书·高祖纪
+  - 陈书·后主纪
+- from: e_sui_mie_chen
+  to: e_sui_mo_qiyi
+  type: led_to
+  note: 统一既成,炀帝恃其富强而急役重敛(开河、征辽),民不堪命,大起义遂作
+  sources:
+  - 隋书·炀帝纪
+# 明清之际
+- from: e_hongjinjun_qiyi
+  to: b_shanhai_guan
+  type: led_to
+  note: 明亡于流寇之继起,李自成入京;吴三桂引清军入关,一片石之战定清鼎中原之局
+  sources:
+  - 明史·流贼传
+  - 清史稿·世祖本纪
+# 现当代
+- from: e_xi_an_shi_bian
+  to: e_qi_qi_shi_bian
+  type: led_to
+  note: 西安事变促成第二次国共合作,内战暂止;半年后七七事变起,举国得以合力抗战
+  sources:
+  - 当代中国史
+- from: e_san_da_zhan_yi
+  to: e_prc_founding
+  type: led_to
+  note: 三大战役后国民党军主力尽失、长江以北皆易手,其统治基础瓦解,建政遂成定局
+  sources:
+  - 当代中国史
+- from: e_prc_founding
+  to: e_tudi_gaige
+  type: led_to
+  note: 新政权立,即以土地改革法废地主土地所有制,重定农村土地关系
+  sources:
+  - 当代中国史
+- from: e_prc_founding
+  to: e_kang_mei_yuan_chao
+  type: led_to
+  note: 建政甫一年即出兵朝鲜,冷战格局下的第一次直接对抗
+  sources:
+  - 当代中国史

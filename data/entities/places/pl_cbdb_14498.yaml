@@ -1,0 +1,12 @@
+id: pl_cbdb_14498
+type: Place
+name: 三原
+modern_name: 三原
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.794427
+longitude: 108.798811
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:Xian

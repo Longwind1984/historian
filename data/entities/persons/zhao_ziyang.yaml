@@ -1,0 +1,21 @@
+id: p_zhao_ziyang
+type: Person
+name: 赵紫阳
+born:
+  year: 1919
+died:
+  year: 2005
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 河南滑县人。1980至1987年任国务院总理，1987至1989年任中共中央总书记，推动经济体制改革。1989年被免去中共中央总书记职务，此后长期被限制人身自由，直至2005年逝世。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q99829"
+wikipedia_zh: "赵紫阳"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bezoek_Chinese_premier_Zhao_Ziyang_%2C_met_premier_Lubbers_tijdens_regeringsdiner%2C_Bestanddeelnr_933-3563_%28cropped%29.jpg/500px-Bezoek_Chinese_premier_Zhao_Ziyang_%2C_met_premier_Lubbers_tijdens_regeringsdiner%2C_Bestanddeelnr_933-3563_%28cropped%29.jpg"
+image_license: "CC0"
+image_credit: "Rob Bogaerts / Anefo"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Bezoek_Chinese_premier_Zhao_Ziyang_,_met_premier_Lubbers_tijdens_regeringsdiner,_Bestanddeelnr_933-3563_(cropped).jpg"

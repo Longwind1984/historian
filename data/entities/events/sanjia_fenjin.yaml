@@ -1,0 +1,18 @@
+id: e_sanjia_fenjin
+type: Event
+name: 三家分晋
+date:
+  year: -403
+category: conquest
+polities_involved:
+- k_jin_state
+- k_han_state
+- k_zhao_state
+- k_wei_state
+importance: 1
+description: 春秋末晋国卿大夫相互兼并，前453年韩、赵、魏三家灭智伯，分据晋国实权，晋君反为附庸。前403年周威烈王命韩虔、赵籍、魏斯为诸侯，三家分晋成定局；前376年三家废晋靖公，分其残余之地，晋绝祀。司马光《资治通鉴》以周威烈王命三晋为诸侯一事为全书开篇，视为战国之始。
+impact: 标志春秋终、战国始；礼乐征伐自天子出之旧制彻底崩坏，卿大夫擅权分国成为既定事实，列国竞争格局由此开启。
+sources:
+- 史记·晋世家
+- 史记·六国年表
+- 资治通鉴·卷一

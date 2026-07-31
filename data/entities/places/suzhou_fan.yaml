@@ -1,0 +1,15 @@
+id: pl_suzhou_fan
+type: Place
+name: 苏州吴县
+modern_name: 苏州
+province: 江苏
+latitude: 31.3
+longitude: 120.62
+category: city
+description: 范仲淹籍贯
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

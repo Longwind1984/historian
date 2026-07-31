@@ -1,0 +1,17 @@
+id: e_yuanhe_xiaofan
+type: Event
+name: 元和削藩
+date:
+  year: 806
+category: war
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_tang
+description: 806-819 年宪宗李纯在位期间,先后平定西川刘辟(806)、镇海李锜(807)、魏博田兴归附(812)、淮西吴元济(817)、淄青李师道(819)。河朔三镇名义归附。是安史之乱后唐朝中央权威的最高峰。
+impact: 晚唐短暂中兴(元和中兴)。但宪宗一死,河朔三镇立刻再叛,削藩成果丧失。
+sources:
+- 旧唐书·宪宗纪
+- 资治通鉴·卷237-241
+end_date:
+  year: 819

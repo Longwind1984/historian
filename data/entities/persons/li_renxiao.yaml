@@ -1,0 +1,27 @@
+id: p_li_renxiao
+type: Person
+name: 李仁孝
+alias:
+- 西夏仁宗
+born:
+  year: 1124
+died:
+  year: 1193
+reign_start:
+  year: 1139
+reign_end:
+  year: 1193
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 崇宗子。尊儒兴学、立科举、修《天盛律令》,西夏文治极盛。附金五十年不战。
+ext:
+  title: 西夏仁宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q7453"
+wikipedia_zh: "夏仁宗"

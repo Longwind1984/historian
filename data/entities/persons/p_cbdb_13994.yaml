@@ -1,0 +1,12 @@
+id: p_cbdb_13994
+type: Person
+name: 張商卿
+born:
+  year: 1099
+gender: male
+birthplace: pl_cbdb_100181
+dynasty_ref: k_beisong
+bio: CBDB ID 13994
+name_en: Zhang Shangqing
+sources:
+- CBDB (China Biographical Database)

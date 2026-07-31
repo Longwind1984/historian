@@ -1,0 +1,12 @@
+id: pl_cbdb_7863
+type: Place
+name: 德化
+modern_name: 德化
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.722364426
+longitude: 115.98567963
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

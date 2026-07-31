@@ -1,0 +1,14 @@
+id: pl_gaixia
+type: Place
+name: 垓下
+modern_name: 灵璧
+province: 安徽
+latitude: 33.5
+longitude: 117.42
+category: battlefield
+description: BC202 垓下之战
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

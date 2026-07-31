@@ -1,0 +1,12 @@
+id: pl_cbdb_100403
+type: Place
+name: 河東
+modern_name: 河東
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.835129
+longitude: 110.332306
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

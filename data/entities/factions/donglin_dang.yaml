@@ -1,0 +1,15 @@
+id: f_donglin_dang
+type: Faction
+name: 东林党
+nature: political
+founded:
+  year: 1604
+dissolved:
+  year: 1627
+core_region: pl_wuxi_donglin
+description: 万历三十年(1604)顾宪成重修无锡东林书院,讲学议政。天启朝与阉党对抗。'东林七贤'前六君子(杨涟、左光斗等)被魏忠贤杀害。1627 崇祯除魏忠贤,平反东林。
+significance: 明末影响最大的士大夫政治集团。
+peak_period: 1604-1627
+sources:
+- 明史
+- 清史稿

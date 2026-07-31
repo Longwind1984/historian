@@ -1,0 +1,16 @@
+id: e_sansi
+type: Event
+name: 三司使财政制度
+date:
+  year: 930
+category: institution
+importance: 2
+location: pl_luoyang
+polities_involved:
+- k_houdong
+description: 三司指盐铁司(盐铁专卖及商税)、度支司(财政收支调度)、户部司(户籍田赋)。后梁朱温不重视三司,另设'建昌宫'为最高财政机关。后唐初以租庸使辖三司、或命大臣'判三司事';后唐长兴元年(930)正式合并三司,设三司使与副使统一领导,直接对皇帝负责,不经政事堂。
+impact: 切断宰相财政权,皇帝通过直接控制三司使集中财权,是五代强化中央集权的关键制度。为宋朝'二府三司'中的'计省'直接渊源。
+sources:
+- 五代会要
+- 新五代史·百官志
+- 北宋三司使渊源初探

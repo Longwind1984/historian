@@ -1,0 +1,36 @@
+id: p_dibing
+type: Person
+name: 赵昺
+alias:
+- 宋末帝
+- 少帝
+- 宋帝昺
+- 祥兴帝
+born:
+  year: 1272
+died:
+  year: 1279
+  month: 3
+gender: male
+birthplace: pl_yashan2
+bio: 宋末帝。1278 即位,8 岁。1279 崖山海战宋全军覆没,丞相陆秀夫负帝投海。南宋亡。
+sources:
+- 宋史·本纪47
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1278
+reign_end:
+  year: 1279
+roles:
+- emperor
+ext:
+  title: 宋帝昺
+  regime: 南宋
+importance: 3
+wikidata_id: "Q7503"
+wikipedia_zh: "赵昺"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/57/Song_Modi.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Song_Modi.jpg"

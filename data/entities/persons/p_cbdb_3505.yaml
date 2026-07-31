@@ -1,0 +1,14 @@
+id: p_cbdb_3505
+type: Person
+name: 李虛舟
+born:
+  year: 971
+died:
+  year: 1059
+gender: male
+birthplace: pl_cbdb_100062
+dynasty_ref: k_beisong
+bio: CBDB ID 3505
+name_en: Li Xuzhou
+sources:
+- CBDB (China Biographical Database)

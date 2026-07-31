@@ -1,0 +1,12 @@
+id: pl_jianmen
+type: Place
+name: 剑门关
+modern_name: 剑阁
+province: 四川
+latitude: 32.24
+longitude: 105.94
+category: garrison
+description: 蜀道天险,965 宋军破关
+sources:
+- 资治通鉴
+- 中国历史地图集

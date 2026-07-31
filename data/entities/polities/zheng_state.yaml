@@ -1,0 +1,15 @@
+id: k_zheng_state
+type: Polity
+name: 郑国
+name_en: Zheng (state)
+color: '#9b59b6'
+founded:
+  year: -806
+ended:
+  year: -375
+capital: pl_xian_qin
+description: 郑国。姬姓，前806年周宣王封弟桓公友于郑。春秋初郑庄公克段、败周联军于繻葛，小霸于中原；然地处四战之地，介于晋楚之间，久为大国争夺。郑子产执政铸刑书。前375年韩哀侯灭郑，韩迁都于郑，郑亡。
+sources:
+- 史记·郑世家
+- 左传·隐公
+- 史记·六国年表

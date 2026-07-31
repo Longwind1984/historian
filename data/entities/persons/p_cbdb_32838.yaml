@@ -1,0 +1,14 @@
+id: p_cbdb_32838
+type: Person
+name: 裴冕
+born:
+  year: 703
+died:
+  year: 769
+gender: male
+birthplace: pl_cbdb_15020
+dynasty_ref: k_tang
+bio: CBDB ID 32838
+name_en: Pei Mian
+sources:
+- CBDB (China Biographical Database)

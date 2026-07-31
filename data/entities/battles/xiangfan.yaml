@@ -1,0 +1,22 @@
+id: b_xiangfan
+type: Battle
+name: 襄樊之战
+date:
+  year: 1267
+importance: 2
+location: pl_xiangfan
+combatants:
+- k_nansong
+- k_yuan
+commanders: []
+victor: k_yuan
+victor_commander: null
+description: 元(蒙古)军围襄阳、樊城六年(1267-1273)。宋将吕文焕坚守。1273 樊城先破,襄阳孤立降。
+significance: 襄阳失陷后南宋门户洞开,6 年后灭宋。
+sources:
+- 宋史·度宗本纪
+end_date:
+  year: 1273
+  month: 3
+category: battle
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Battle of Xiangfan.jpg

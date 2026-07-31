@@ -1,0 +1,12 @@
+id: pl_cbdb_13876
+type: Place
+name: 長樂
+modern_name: 長樂
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.959837
+longitude: 119.518837
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

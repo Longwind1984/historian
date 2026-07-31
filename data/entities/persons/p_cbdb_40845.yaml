@@ -1,0 +1,14 @@
+id: p_cbdb_40845
+type: Person
+name: 李中吉
+born:
+  year: 992
+died:
+  year: 1075
+gender: male
+birthplace: pl_cbdb_100402
+dynasty_ref: k_beisong
+bio: CBDB ID 40845
+name_en: Li Zhongji
+sources:
+- CBDB (China Biographical Database)

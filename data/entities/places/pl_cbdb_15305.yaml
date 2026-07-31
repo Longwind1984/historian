@@ -1,0 +1,12 @@
+id: pl_cbdb_15305
+type: Place
+name: 蓨縣
+modern_name: 蓨縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.688007
+longitude: 116.258102
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

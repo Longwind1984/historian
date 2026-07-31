@@ -1,0 +1,19 @@
+id: e_jia_wu_zhanzheng
+type: Event
+name: 甲午中日战争
+date:
+  year: 1894
+  month: 7
+category: war
+importance: 1
+location: pl_korea_jia_wu
+polities_involved:
+- k_qing
+- k_riben
+description: 1894.7 朝鲜东学党起义引发中日出兵。9 黄海海战。1895.2 威海卫陷,北洋水师覆没。1895.4 马关条约(割台澎辽、赔 2 亿两)。
+impact: 洋务运动破产。中国民族危机加深,刺激维新。
+sources:
+- 清史稿·德宗本纪
+end_date:
+  year: 1895
+  month: 4

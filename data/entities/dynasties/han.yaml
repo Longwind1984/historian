@@ -1,0 +1,16 @@
+id: d_han
+type: Dynasty
+name: 汉
+name_en: Han
+founded:
+  year: -202
+ended:
+  year: 220
+last_capital: pl_luoyang
+description: 汉朝。前202年刘邦称帝建汉。西汉(前202-公元8)都长安,东汉(25-220)都洛阳。其间新莽(9-23)王莽篡汉,不另立朝代。公元220年曹丕代汉,汉亡。两汉四百载,奠定华夏主体。
+period_label: 汉
+sources:
+- 汉书
+- 后汉书
+- 资治通鉴
+founder: p_liu_bang_qin

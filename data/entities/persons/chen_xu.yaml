@@ -1,0 +1,31 @@
+id: p_chen_xu
+type: Person
+name: 陈顼
+alias:
+- 陈宣帝
+born:
+  year: 530
+died:
+  year: 582
+reign_start:
+  year: 568
+reign_end:
+  year: 582
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 文帝弟。废侄自立。太建北伐一度收淮南,旋为北周所败,尽失淮南之地。
+ext:
+  title: 陈宣帝
+  regime: 陈
+sources:
+- 陈书
+- 南史
+- 资治通鉴
+wikidata_id: "Q718227"
+wikipedia_zh: "陈宣帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Chen_Xuandi_Tang.jpg"
+image_license: "Public domain"
+image_credit: "Yan Li-pen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Xuandi_Tang.jpg"

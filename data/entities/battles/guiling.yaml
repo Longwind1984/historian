@@ -1,0 +1,20 @@
+id: b_guiling
+type: Battle
+name: 桂陵之战
+date:
+  year: -353
+category: battle
+combatants:
+- k_wei_state
+- k_qi_state
+- k_zhao_state
+commanders:
+- p_sunbin
+victor: k_qi_state
+victor_commander: p_sunbin
+importance: 3
+description: 前354年魏将庞涓伐赵，围邯郸。次年齐威王以田忌为将、孙膑为师救赵。孙膑避实击虚，率齐军直捣魏都大梁，迫使庞涓回师自救；于桂陵设伏大破魏军，赵围遂解，是为"围魏救赵"。
+significance: 魏国自文侯以来中原霸业首遭重创，齐自此与魏争雄；"围魏救赵"成后世兵家避实击虚之经典。
+sources:
+- 史记·孙子吴起列传
+- 战国策·齐策

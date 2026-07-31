@@ -1,0 +1,28 @@
+id: p_yuan_gong
+type: Person
+name: 元恭
+alias:
+- 北魏节闵帝
+- 前废帝
+born:
+  year: 498
+died:
+  year: 532
+reign_start:
+  year: 531
+reign_end:
+  year: 532
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 尔朱世隆所立。高欢起兵破尔朱氏后被废,旋遇害。
+ext:
+  title: 北魏节闵帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1074737"
+wikipedia_zh: "魏节闵帝"

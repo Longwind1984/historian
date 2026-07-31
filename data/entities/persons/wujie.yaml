@@ -1,0 +1,16 @@
+id: p_wujie
+type: Person
+name: 吴玠
+courtesy_name: 晋卿
+born:
+  year: 1093
+died:
+  year: 1139
+  month: 6
+gender: male
+birthplace: pl_xiaogan_wu
+bio: 南宋抗金名将。与弟吴璘镇守川陕。1130 和尚原之战大败金兀术(宋军首胜)。保住四川。
+sources:
+- 宋史·吴玠传
+wikidata_id: "Q10919648"
+wikipedia_zh: "吴玠"

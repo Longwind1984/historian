@@ -1,0 +1,14 @@
+id: pl_guangling
+type: Place
+name: 广陵
+modern_name: 扬州
+province: 江苏
+latitude: 32.39
+longitude: 119.42
+category: city
+description: 东汉江淮
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

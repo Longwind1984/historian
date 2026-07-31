@@ -1,0 +1,27 @@
+id: p_sima_yan_chengdi
+type: Person
+name: 司马衍
+alias:
+- 晋成帝
+- 成帝
+born:
+  year: 321
+died:
+  year: 342
+reign_start:
+  year: 325
+reign_end:
+  year: 342
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 明帝子，五岁即位，庾亮辅政。苏峻之乱起于其时。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋成帝
+  regime: 东晋
+wikidata_id: "Q7394"
+wikipedia_zh: "晉成帝"

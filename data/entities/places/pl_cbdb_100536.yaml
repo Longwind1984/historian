@@ -1,0 +1,12 @@
+id: pl_cbdb_100536
+type: Place
+name: 蒲城
+modern_name: 蒲城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.955936
+longitude: 109.585121
+first_year: 971
+last_year: 1126
+description: CBDB 行政类型:Xian

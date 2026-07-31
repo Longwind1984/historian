@@ -1,0 +1,21 @@
+id: b_yakin
+type: Battle
+name: 甲午海战(黄海)
+date:
+  year: 1894
+  month: 9
+category: battle
+importance: 3
+location: pl_huang_hai
+combatants:
+- k_qing
+- k_riben
+commanders:
+- p_dingruchang
+- p_ito_sukeyuki
+victor: k_riben
+victor_commander: null
+description: 1894.9 北洋水师提督丁汝昌率舰队在黄海大东沟遇日本联合舰队。激战 5 小时,北洋损失致远、经远等。李鸿章'保船制敌'。
+significance: 甲午战争转折。
+sources:
+- 清史稿·海军志

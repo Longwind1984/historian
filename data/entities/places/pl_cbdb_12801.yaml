@@ -1,0 +1,12 @@
+id: pl_cbdb_12801
+type: Place
+name: 江山
+modern_name: 江山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.735312
+longitude: 118.615936
+first_year: 960
+last_year: 1266
+description: CBDB 行政类型:Xian

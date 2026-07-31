@@ -1,0 +1,23 @@
+id: p_dong_zhongshu
+type: Person
+name: 董仲舒
+born:
+  year: -179
+died:
+  year: -104
+gender: male
+roles:
+- scholar
+importance: 2
+birthplace: pl_guangchuan_dongzhongshu
+bio: 西汉思想家。BC134 提出'罢黜百家,独尊儒术'。'天人三策'。著《春秋繁露》。
+ext:
+  significance: 儒学成为中国正统的关键人物。
+sources:
+- 汉书·董仲舒传
+wikidata_id: "Q445626"
+wikipedia_zh: "董仲舒"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/67/Dong_zhongshu.jpg"
+image_license: "Public domain"
+image_credit: "孔继尧"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Dong_zhongshu.jpg"

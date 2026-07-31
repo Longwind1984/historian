@@ -1,0 +1,28 @@
+id: p_li_zhi
+type: Person
+name: 李治
+alias:
+- 唐高宗
+- 高宗
+born:
+  year: 628
+died:
+  year: 683
+reign_start:
+  year: 649
+reign_end:
+  year: 683
+gender: male
+roles:
+- emperor
+importance: 2
+bio: 太宗第九子。永徽之治承贞观遗风；灭西突厥、百济、高句丽，唐疆域至极盛。晚年风疾，政多委武后，并称'二圣'。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐高宗
+  regime: 唐
+wikidata_id: "Q9703"
+wikipedia_zh: "唐高宗"

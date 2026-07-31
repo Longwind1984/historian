@@ -1,0 +1,33 @@
+id: p_tugh_temur
+type: Person
+name: 图帖睦尔
+alias:
+- 元文宗
+- 札牙笃汗
+born:
+  year: 1304
+died:
+  year: 1332
+reign_start:
+  year: 1329
+reign_end:
+  year: 1332
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 武宗子。两都之战后即位;让位其兄和世㻋(明宗);明宗四月后于王忽察都暴卒,史多疑为文宗、燕铁木儿所鸩(《元史》仅记'崩'未著死因),文宗遂复位。设奎章阁、修《经世大典》。
+ext:
+  title: 元文宗
+  regime: 元
+  reigns:
+  - from: 1328
+    to: 1329
+    note: 两都之战后于大都即位
+  - from: 1329
+    to: 1332
+    note: 让位明宗,明宗暴卒后复位
+  note: 两次在位;reign_start/end 取复位之次(1329-1332),首次(1328-1329)见 reigns
+sources:
+- 元史
+- 新元史

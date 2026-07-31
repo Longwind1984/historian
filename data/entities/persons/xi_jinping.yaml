@@ -1,0 +1,18 @@
+id: p_xi_jinping
+type: Person
+name: 习近平
+gender: male
+born:
+  year: 1953
+roles:
+- civil_official
+importance: 1
+bio: 陕西富平人，生于北京。习仲勋之子。文革中父被清洗，1969 年赴陕西延川梁家河插队七年。历福建、浙江、上海地方主官。2012 年 11 月任中共中央总书记，2013 年任国家主席。任内推行反腐运动，2018 年修宪取消国家主席连任限制，2022 年中共二十大连任总书记，打破 1990 年代以来形成的最高领导人两届更替惯例。
+sources:
+- 当代中国史
+wikidata_id: "Q15031"
+wikipedia_zh: "习近平"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Xi_Jinping_meets_Keir_Starmer_Jan_2026.jpg/500px-Xi_Jinping_meets_Keir_Starmer_Jan_2026.jpg"
+image_license: "CC BY 4.0"
+image_credit: "Simon Dawson / No 10 Downing Street"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xi_Jinping_meets_Keir_Starmer_Jan_2026.jpg"

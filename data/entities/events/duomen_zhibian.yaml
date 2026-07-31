@@ -1,0 +1,14 @@
+id: e_duomen_zhibian
+type: Event
+name: 夺门之变
+date:
+  year: 1457
+category: coup
+importance: 3
+location: pl_beijing_qing
+polities_involved:
+- k_ming
+description: 1457 石亨、徐有贞趁景泰帝病重,拥英宗复辟。于谦被杀。
+impact: 明朝政争。
+sources:
+- 明史·英宗本纪

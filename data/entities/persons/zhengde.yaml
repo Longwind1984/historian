@@ -1,0 +1,33 @@
+id: p_zhengde
+type: Person
+name: 朱厚照
+alias:
+- 明武宗
+- 正德帝
+born:
+  year: 1491
+died:
+  year: 1521
+gender: male
+birthplace: pl_beiping_zhudi
+bio: 孝宗子。宠刘瑾等'八虎',建豹房,自封'威武大将军'巡边,应州之役御驾亲征。平宁王宸濠之叛(王守仁功)。无嗣而崩。
+sources:
+- 明史·武宗本纪
+- 明史
+- 明实录
+reign_start:
+  year: 1505
+reign_end:
+  year: 1521
+roles:
+- emperor
+ext:
+  title: 正德帝
+  regime: 明
+importance: 2
+wikidata_id: "Q10007"
+wikipedia_zh: "明武宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/c7/%E6%98%8E%E6%AD%A6%E5%AE%97.jpg"
+image_license: "Public domain"
+image_credit: "Palace Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E6%AD%A6%E5%AE%97.jpg"

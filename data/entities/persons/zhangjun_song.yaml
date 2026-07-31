@@ -1,0 +1,23 @@
+id: p_zhangjun_song
+type: Person
+name: 张浚
+gender: male
+courtesy_name: 德远
+born:
+  year: 1097
+died:
+  year: 1164
+  month: 8
+roles:
+- civil_official
+importance: 2
+bio: 南宋主战派领袖。1130 富平之战集五路兵二十万败于金人,关陕尽失;1163 督师北伐,符离一溃而隆兴和议成。两度当国、两度丧师,而终身言战不悔 —— 主战派的抱负与其军事才具之间的落差,南宋无人比他更典型。
+sources:
+- 宋史·张浚传
+- 建炎以来系年要录
+wikidata_id: "Q710270"
+wikipedia_zh: "張浚"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Statue_of_Zhang_Jun%2C_Nanxuan_Cultural_Park%2C_4_April_2021A.jpg/500px-Statue_of_Zhang_Jun%2C_Nanxuan_Cultural_Park%2C_4_April_2021A.jpg"
+image_license: "CC BY 3.0"
+image_credit: "Uploaded by Huangdan2060"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Statue_of_Zhang_Jun,_Nanxuan_Cultural_Park,_4_April_2021A.jpg"

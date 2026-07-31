@@ -1,0 +1,18 @@
+id: e_chenqiao
+type: Event
+name: 陈桥兵变
+date:
+  year: 960
+  month: 2
+category: coup
+importance: 1
+location: pl_kaifeng
+polities_involved:
+- k_houzhou
+- k_song
+description: 960 年后周殿前都点检赵匡胤在陈桥驿被部下'黄袍加身',回师汴梁,恭帝禅位,建国号宋。
+impact: 结束五代,中国重新走向统一。
+sources:
+- 续资治通鉴长编·卷1
+- 宋史·太祖本纪
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Chenqiao Mutiny.jpg

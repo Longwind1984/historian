@@ -1,0 +1,14 @@
+id: p_cbdb_19241
+type: Person
+name: 李治(唐高宗)
+born:
+  year: 628
+died:
+  year: 683
+gender: male
+birthplace: pl_cbdb_14493
+dynasty_ref: k_tang
+bio: CBDB ID 19241
+name_en: Li Zhi (Emperor Gaozong of Tang)
+sources:
+- CBDB (China Biographical Database)

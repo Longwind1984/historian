@@ -1,0 +1,15 @@
+id: pl_qinzhou
+type: Place
+name: 秦州
+modern_name: 天水
+province: 甘肃
+latitude: 34.58
+longitude: 105.72
+category: city
+description: 关陇要地
+aliases:
+- 天水
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

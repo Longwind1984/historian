@@ -1,0 +1,33 @@
+id: p_a_yu
+type: Person
+name: 爱育黎拔力八达
+alias:
+- 元仁宗
+- 普颜笃汗
+born:
+  year: 1285
+died:
+  year: 1320
+gender: male
+birthplace: pl_dadu_yuan
+bio: 武宗弟。行汉法,1313年恢复科举(延祐复科),为元代唯一较系统的儒治尝试。背武仁之约,立己子英宗。
+sources:
+- 元史·仁宗本纪
+- 元史
+- 新元史
+reign_start:
+  year: 1311
+reign_end:
+  year: 1320
+roles:
+- emperor
+ext:
+  title: 元仁宗
+  regime: 元
+importance: 3
+wikidata_id: "Q8540"
+wikipedia_zh: "元仁宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/YuanEmperorAlbumAyurbarvadaBuyantuPortrait.jpg/500px-YuanEmperorAlbumAyurbarvadaBuyantuPortrait.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumAyurbarvadaBuyantuPortrait.jpg"

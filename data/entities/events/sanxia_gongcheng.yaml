@@ -1,0 +1,15 @@
+id: e_sanxia_gongcheng
+type: Event
+name: 三峡工程
+date:
+  year: 1994
+end_date:
+  year: 2009
+category: science
+importance: 2
+polities_involved:
+- k_prc
+description: 长江三峡水利枢纽工程，1994年正式开工，2003年首批机组发电，2009年基本建成，为大型水利水电与防洪航运工程。
+sources:
+- 中华人民共和国史
+- 当代中国史

@@ -1,0 +1,25 @@
+id: p_zhan_tianyou
+type: Person
+name: 詹天佑
+alias:
+- 詹眷诚
+courtesy_name: 眷诚
+born:
+  year: 1861
+died:
+  year: 1919
+gender: male
+roles:
+- scholar
+- civil_official
+importance: 2
+bio: 原籍安徽婺源(今属江西)，生于广东南海(今广州)，近代铁路工程师。1872 年作为首批留美幼童赴美，1881 年耶鲁大学毕业回国。曾参与唐津铁路、关内外铁路工程。1905 年任京张铁路总工程师兼会办，自主设计并主持修建中国人自建的第一条干线铁路京张铁路，创设"人"字形展线与竖井开凿法。1912 年任粤汉铁路会办。1919 年病逝于汉口。
+sources:
+- 中华民国史·詹天佑传
+- 经盛鸿·詹天佑评传
+wikidata_id: "Q1397430"
+wikipedia_zh: "詹天佑"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/81/1918%E5%B9%B4%E8%A9%B9%E5%A4%A9%E4%BD%91.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:1918%E5%B9%B4%E8%A9%B9%E5%A4%A9%E4%BD%91.jpg"

@@ -1,0 +1,15 @@
+id: f_xiangjun
+type: Faction
+name: 湘军系
+nature: military_clan
+founded:
+  year: 1853
+dissolved:
+  year: 1949
+core_region: pl_xiangxiang_zeng
+description: 曾国藩 1853 创湘军平太平天国。湖南籍军人官僚集团。左宗棠、彭玉麟、胡林翼、曾国荃。
+significance: 晚清军政主要势力,'同治中兴'主导。
+peak_period: 1853-
+sources:
+- 明史
+- 清史稿

@@ -1,0 +1,26 @@
+id: p_fanzhongyan
+type: Person
+name: 范仲淹
+courtesy_name: 希文
+born:
+  year: 989
+  month: 10
+died:
+  year: 1052
+  month: 6
+gender: male
+roles:
+- civil_official
+- literatus
+- general
+importance: 1
+birthplace: pl_suzhou_fan
+bio: 北宋政治家、文学家、军事家。1040-1043 镇守陕西御西夏(与韩琦并称'韩范')。1043 任参知政事主持庆历新政,一年即罢。'先天下之忧而忧'。
+sources:
+- 宋史·范仲淹传
+image: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Fan_Zhongyan.jpg"
+wikidata_id: "Q381822"
+wikipedia_zh: "范仲淹"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Fan_Zhongyan.jpg"

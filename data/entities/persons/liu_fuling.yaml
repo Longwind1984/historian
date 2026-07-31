@@ -1,0 +1,29 @@
+id: p_liu_fuling
+type: Person
+name: 刘弗陵
+alias:
+- 汉昭帝
+born:
+  year: -94
+died:
+  year: -74
+gender: male
+birthplace: pl_chang_an
+bio: 汉昭帝。武帝少子。BC87-74 在位。霍光辅政。BC81 盐铁会议。
+sources:
+- 汉书·昭帝纪
+reign_start:
+  year: -87
+reign_end:
+  year: -74
+roles:
+- emperor
+ext:
+  title: 汉昭帝
+  regime: 西汉
+wikidata_id: "Q7227"
+wikipedia_zh: "汉昭帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/91/HanZhaoDiLiuFuling_%28cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "Yan Li-pen (Yan Liben) (act. 640-673)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:HanZhaoDiLiuFuling_(cropped).jpg"

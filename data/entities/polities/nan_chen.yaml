@@ -1,0 +1,18 @@
+id: k_nan_chen
+type: Polity
+name: 陈
+name_en: Chen
+color: '#f1c40f'
+founded:
+  year: 557
+  month: 10
+ended:
+  year: 589
+  month: 1
+capital: pl_jianye_han
+description: 南朝陈。陈霸先建。589 为隋所灭,中国重新统一。
+sources:
+- 陈书
+founder: p_chen_baxian
+supplanted: k_nan_liang
+ended_by: k_sui

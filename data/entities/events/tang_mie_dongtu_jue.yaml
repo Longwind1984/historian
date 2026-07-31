@@ -1,0 +1,19 @@
+id: e_tang_mie_dongtu_jue
+type: Event
+name: 唐灭东突厥
+date:
+  year: 629
+  month: 11
+category: conquest
+importance: 2
+location: pl_dunhuang_turk
+polities_involved:
+- k_tang
+description: 629 年唐太宗命李靖、李世勣等大举出击东突厥。630 年正月李靖夜袭阴山,大破之。三月俘颉利可汗,东突厥灭亡。
+impact: 唐朝成为东亚霸主。太宗被各族尊为'天可汗'。
+sources:
+- 旧唐书·突厥传
+- 资治通鉴·卷193
+end_date:
+  year: 630
+  month: 3

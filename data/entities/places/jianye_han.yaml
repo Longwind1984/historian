@@ -1,0 +1,17 @@
+id: pl_jianye_han
+type: Place
+name: 建业
+modern_name: 南京
+province: 江苏
+latitude: 32.04
+longitude: 118.78
+category: capital
+description: 东吴东晋南朝都
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集
+aliases:
+- 建康

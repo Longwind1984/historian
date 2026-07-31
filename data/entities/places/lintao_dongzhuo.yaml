@@ -1,0 +1,14 @@
+id: pl_lintao_dongzhuo
+type: Place
+name: 临洮
+modern_name: 临洮
+province: 甘肃
+latitude: 35.37
+longitude: 103.86
+category: city
+description: 董卓籍贯
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

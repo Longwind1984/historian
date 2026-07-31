@@ -1,0 +1,40 @@
+id: p_fanli
+type: Person
+name: 范蠡
+courtesy_name: 少伯
+alias:
+- 范少伯
+- 鸱夷子皮
+- 陶朱公
+gender: male
+born:
+  year: -536
+died:
+  year: -448
+roles:
+- civil_official
+importance: 2
+bio: 范蠡，字少伯，楚国宛人。佐越王勾践，前494年会稽之危后随勾践入臣于吴为质，归国后辅勾践卧薪尝胆、谋吴二十年。前473年灭吴，功成后泛舟五湖，变姓名适齐，号鸱夷子皮；又适陶治产积居成巨富，号陶朱公。后人传其兼擅谋国与货殖。
+life_events:
+- year: -494
+  event: 随勾践入臣于吴
+  source: 国语·越语下
+- year: -482
+  event: 谋乘吴北上之虚伐吴
+  source: 史记·越王句践世家
+- year: -473
+  event: 灭吴，功成泛舟五湖
+  source: 国语·越语下
+sources:
+- 史记·越王句践世家
+- 国语·越语
+- 史记·货殖列传
+ext:
+  disputed: true
+  note: 生卒均约数,史无明文;《史记·越王勾践世家》只记其事
+wikidata_id: "Q1374991"
+wikipedia_zh: "范蠡"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Fanli.jpg/500px-Fanli.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Fanli.jpg"

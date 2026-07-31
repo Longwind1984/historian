@@ -1,0 +1,14 @@
+id: pl_liujiagang
+type: Place
+name: 刘家港
+modern_name: 太仓
+province: 江苏
+latitude: 31.5
+longitude: 121.1
+category: city
+description: 郑和出发港
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

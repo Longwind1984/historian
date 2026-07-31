@@ -1,0 +1,14 @@
+id: p_cbdb_24554
+type: Person
+name: 林俊
+born:
+  year: 1452
+died:
+  year: 1527
+gender: male
+birthplace: pl_cbdb_6034
+dynasty_ref: k_ming
+bio: CBDB ID 24554
+name_en: Lin Jun
+sources:
+- CBDB (China Biographical Database)

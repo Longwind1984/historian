@@ -1,0 +1,17 @@
+id: d_xia
+type: Dynasty
+name: 夏
+name_en: Xia
+founded:
+  year: -2070
+ended:
+  year: -1600
+founder: p_dayu
+description: 夏朝。传说与半信史王朝，约前2070年禹受舜禅让建国，传至桀亡于商汤。二里头文化或为其考古对应(学界尚有争议)。年代据夏商周断代工程框架，属模糊纪年。
+period_label: 夏
+sources:
+- 史记·夏本纪
+- 竹书纪年·夏纪
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true

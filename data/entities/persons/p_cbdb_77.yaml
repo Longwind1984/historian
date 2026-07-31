@@ -1,0 +1,14 @@
+id: p_cbdb_77
+type: Person
+name: 陳升之
+born:
+  year: 1011
+died:
+  year: 1079
+gender: male
+birthplace: pl_cbdb_100011
+dynasty_ref: k_beisong
+bio: CBDB ID 77
+name_en: Chen Shengzhi
+sources:
+- CBDB (China Biographical Database)

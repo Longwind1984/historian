@@ -1,0 +1,23 @@
+id: p_hongxiuquan
+type: Person
+name: 洪秀全
+alias:
+- 天王
+born:
+  year: 1814
+died:
+  year: 1864
+gender: male
+roles:
+- rebel_leader
+importance: 1
+birthplace: pl_huaxian_hong
+bio: 太平天国领袖。1837 异梦,1843 创拜上帝会。1851 金田起义,建号太平天国,称天王。1864 天京陷落前病死。
+sources:
+- 清史稿·洪秀全传
+image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Hong_Xiuquan.jpg"
+wikidata_id: "Q334732"
+wikipedia_zh: "洪秀全"
+image_license: "Public domain"
+image_credit: "Ford &amp; West Lith."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hong_Xiuquan.jpg"

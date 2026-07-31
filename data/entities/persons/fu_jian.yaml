@@ -1,0 +1,36 @@
+id: p_fu_jian
+type: Person
+name: 苻坚
+alias:
+- 苻永固
+- 前秦宣昭帝
+- 苻坚
+courtesy_name: 永固
+born:
+  year: 338
+died:
+  year: 385
+  month: 10
+reign_start:
+  year: 357
+reign_end:
+  year: 385
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_lintong_fujian
+bio: 前秦君主。氐族。357-385 在位。370 灭前燕,376 灭前凉、代,统一北方。383 淝水之战大败,帝国崩溃。385 为姚苌所缢。
+ext:
+  significance: 383 之前北方最接近统一的君主。
+  title: 苻坚
+  regime: 前秦
+sources:
+- 晋书·载记·苻坚
+- 资治通鉴·卷102-105
+wikidata_id: "Q967998"
+wikipedia_zh: "苻坚"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E8%8B%BB%E5%A0%85%29.jpg/500px-Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_%28%E8%8B%BB%E5%A0%85%29.jpg"
+image_license: "Public domain"
+image_credit: "see below"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Harvard_drs_49802792_%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_v.1_(%E8%8B%BB%E5%A0%85).jpg"

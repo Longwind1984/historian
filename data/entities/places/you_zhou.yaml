@@ -1,0 +1,15 @@
+id: pl_you_zhou
+type: Place
+name: 范阳
+modern_name: 涿州
+province: 河北
+latitude: 39.49
+longitude: 115.98
+category: garrison
+description: 安禄山起家地
+aliases:
+- 幽州
+sources:
+- 中国历史地图集
+- 旧唐书·地理志
+- 宋史·地理志

@@ -1,0 +1,31 @@
+id: p_kangxi
+type: Person
+name: 玄烨
+alias:
+- 清圣祖
+- 康熙
+born:
+  year: 1654
+died:
+  year: 1722
+reign_start:
+  year: 1661
+reign_end:
+  year: 1722
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_beijing_qing
+bio: 清圣祖。中国历史上在位最久的皇帝(61 年)。1669 擒鳌拜。1681 平三藩。1683 收台湾(施琅)。1689 尼布楚条约。1690-1697 三征噶尔丹。
+sources:
+- 清史稿·圣祖本纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%9C%A3%E7%A5%96%E5%BA%B7%E7%86%99%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg/500px-%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%9C%A3%E7%A5%96%E5%BA%B7%E7%86%99%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+ext:
+  title: 康熙帝
+  regime: 清
+wikidata_id: "Q17790"
+wikipedia_zh: "康熙帝"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author Qing Dynasty Court Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%9C%A3%E7%A5%96%E5%BA%B7%E7%86%99%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"

@@ -1,0 +1,17 @@
+id: e_yangjian_dai_zhou
+type: Event
+name: 杨坚代周
+date:
+  year: 581
+  month: 3
+category: succession
+importance: 2
+location: pl_daxing
+polities_involved:
+- k_sui
+- k_bei_zhou
+description: 581 年二月北周静帝禅让,杨坚即位,国号隋,改元开皇。北周(宇文泰奠基的关陇集团政权)灭亡。
+impact: 隋朝建立。关陇集团继续主导,杨氏即关陇八柱国之一。
+sources:
+- 隋书·高祖纪
+- 资治通鉴·卷175

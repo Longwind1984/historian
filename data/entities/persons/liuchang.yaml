@@ -1,0 +1,17 @@
+id: p_liuchang
+type: Person
+name: 刘鋹
+alias:
+- 刘继兴
+- 南汉后主
+born:
+  year: 942
+died:
+  year: 980
+gender: male
+birthplace: pl_guangzhou
+bio: 南汉后主。958 年即位。荒淫无道,信宦官,百官皆须阉割。971 年为宋所俘。
+sources:
+- 十国春秋·南汉
+wikidata_id: "Q712137"
+wikipedia_zh: "劉鋹"

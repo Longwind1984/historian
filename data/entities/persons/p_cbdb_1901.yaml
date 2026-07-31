@@ -1,0 +1,14 @@
+id: p_cbdb_1901
+type: Person
+name: 王曾
+born:
+  year: 978
+died:
+  year: 1038
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 1901
+name_en: Wang Zeng
+sources:
+- CBDB (China Biographical Database)

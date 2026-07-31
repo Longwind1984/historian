@@ -1,0 +1,24 @@
+id: p_lao_she
+type: Person
+name: 老舍
+alias:
+- 舒庆春
+courtesy_name: 舍予
+born:
+  year: 1899
+died:
+  year: 1966
+gender: male
+roles:
+- literatus
+importance: 2
+bio: 北京人，满族正红旗，近代作家。原名舒庆春，字舍予。1918 年北京师范学校毕业，后任小学校长。1924 年赴英国伦敦大学东方学院任教，其间作《老张的哲学》《赵子曰》《二马》。1930 年回国，先后任教济南齐鲁大学、山东大学。1936 年起创作《骆驼祥子》。抗战时任中华全国文艺界抗敌协会总务部主任。1949 年后任北京市文联主席。1966 年去世。
+sources:
+- 中华民国史·老舍传
+- 关纪新·老舍评传
+wikidata_id: "Q315167"
+wikipedia_zh: "老舍"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/LaoShe.jpg/500px-LaoShe.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:LaoShe.jpg"

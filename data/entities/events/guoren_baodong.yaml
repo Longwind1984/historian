@@ -1,0 +1,15 @@
+id: e_guoren_baodong
+type: Event
+name: 国人暴动
+date:
+  year: -841
+category: rebellion
+polities_involved:
+- k_xizhou
+importance: 2
+description: 周厉王任荣夷公行"专利"、弭谤监谤，国人道路以目。前841年(共和元年)国人群起暴动袭厉王，厉王出奔彘(今山西霍州)，西周贵族遂行共和行政。此年为中国信史精确纪年之起点。
+impact: 厉王被逐、共和行政开始；前841年成为中国有确切逐年纪年的开端。
+sources:
+- 史记·周本纪
+- 国语·周语
+- 竹书纪年·周纪

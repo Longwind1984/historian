@@ -1,0 +1,28 @@
+id: p_li_jing_tang
+type: Person
+name: 李靖
+alias:
+- 李药师
+- 李卫公
+courtesy_name: 药师
+born:
+  year: 571
+died:
+  year: 649
+  month: 5
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_sanyuan_jing
+bio: 唐初军事家。630 大破东突厥,擒颉利可汗。635 破吐谷浑。'凌烟阁二十四功臣'之一。著《李卫公问对》。
+ext:
+  significance: 中国军事史杰出统帅。
+sources:
+- 旧唐书·李靖传
+wikidata_id: "Q706792"
+wikipedia_zh: "李靖"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/%E6%9D%8E%E9%9D%96.jpg/500px-%E6%9D%8E%E9%9D%96.jpg"
+image_license: "CC BY-SA 3.0"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E9%9D%96.jpg"

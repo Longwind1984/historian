@@ -1,0 +1,15 @@
+id: pl_daxing
+type: Place
+name: 大兴城
+modern_name: 西安
+province: 陕西
+latitude: 34.27
+longitude: 108.95
+category: capital
+description: 隋唐都城
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代
+aliases:
+- 长安

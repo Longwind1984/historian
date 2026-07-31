@@ -1,0 +1,22 @@
+id: p_pangeng
+type: Person
+name: 盘庚
+alias:
+- 子旬
+gender: male
+roles:
+- emperor
+importance: 2
+reign_start:
+  year: -1300
+bio: 商王，名旬。商自中丁后九世之乱、屡迁其都；盘庚即位后约前1300年迁都至殷(今安阳)，作《盘庚》三篇劝谕臣民迁居。迁殷后商都始定，国势由衰转稳，故商又称殷。年代据断代工程框架。
+sources:
+- 史记·殷本纪
+- 尚书·盘庚
+- 竹书纪年·殷纪
+ext:
+  disputed: true
+  title: 盘庚
+  regime: 商
+wikidata_id: "Q736654"
+wikipedia_zh: "盘庚"

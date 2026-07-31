@@ -1,0 +1,14 @@
+id: p_cbdb_332
+type: Person
+name: 張詠
+born:
+  year: 946
+died:
+  year: 1015
+gender: male
+birthplace: pl_cbdb_11273
+dynasty_ref: k_beisong
+bio: CBDB ID 332
+name_en: Zhang Yong
+sources:
+- CBDB (China Biographical Database)

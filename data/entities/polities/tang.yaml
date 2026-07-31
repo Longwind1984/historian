@@ -1,0 +1,26 @@
+id: k_tang
+type: Polity
+name: 唐
+name_en: Tang
+color: '#bd3c3c'
+founded:
+  year: 618
+  month: 1
+ended:
+  year: 907
+  month: 4
+capital: pl_chang_an
+description: 唐朝。907 年朱温篡唐,唐亡。五代十国时期的政治前夜。
+sources:
+- 新唐书
+- 旧唐书
+- 资治通鉴·卷265
+ended_by: k_houliang
+territory:
+- valid_from:
+    year: 618
+  valid_to:
+    year: 907
+  geojson_file: chgis_tang.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Tang Dynasty map.jpg

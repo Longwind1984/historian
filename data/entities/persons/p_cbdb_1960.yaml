@@ -1,0 +1,14 @@
+id: p_cbdb_1960
+type: Person
+name: 吳充
+born:
+  year: 1021
+died:
+  year: 1080
+gender: male
+birthplace: pl_cbdb_13892
+dynasty_ref: k_beisong
+bio: CBDB ID 1960
+name_en: Wu Chong
+sources:
+- CBDB (China Biographical Database)

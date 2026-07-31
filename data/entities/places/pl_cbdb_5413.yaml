@@ -1,0 +1,12 @@
+id: pl_cbdb_5413
+type: Place
+name: 臨海
+modern_name: 臨海
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.843132
+longitude: 121.120598
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

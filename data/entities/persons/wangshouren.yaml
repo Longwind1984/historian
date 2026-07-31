@@ -1,0 +1,26 @@
+id: p_wangshouren
+type: Person
+name: 王守仁
+alias:
+- 王阳明
+courtesy_name: 伯安
+born:
+  year: 1472
+died:
+  year: 1529
+gender: male
+roles:
+- scholar
+- general
+- civil_official
+importance: 1
+birthplace: pl_yuyao_wang
+bio: 明代思想家、军事家。心学集大成者。1508 龙场悟道。1519 平宁王之乱。
+sources:
+- 明史·王守仁传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/%E8%94%A1%E4%B8%96%E6%96%B0_%E7%8E%8B%E9%98%B3%E6%98%8E%E8%82%96%E5%83%8F%E8%BD%B4_%28cropped%29.jpg/500px-%E8%94%A1%E4%B8%96%E6%96%B0_%E7%8E%8B%E9%98%B3%E6%98%8E%E8%82%96%E5%83%8F%E8%BD%B4_%28cropped%29.jpg"
+wikidata_id: "Q378462"
+wikipedia_zh: "王陽明"
+image_license: "Public domain"
+image_credit: "Cai Shixin"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%94%A1%E4%B8%96%E6%96%B0_%E7%8E%8B%E9%98%B3%E6%98%8E%E8%82%96%E5%83%8F%E8%BD%B4_(cropped).jpg"

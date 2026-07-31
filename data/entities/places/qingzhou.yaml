@@ -1,0 +1,15 @@
+id: pl_qingzhou
+type: Place
+name: 青州
+modern_name: 青州
+province: 山东
+latitude: 36.68
+longitude: 118.48
+category: garrison
+description: 平卢节度使治
+aliases:
+- 平卢
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

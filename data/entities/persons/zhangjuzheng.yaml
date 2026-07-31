@@ -1,0 +1,25 @@
+id: p_zhangjuzheng
+type: Person
+name: 张居正
+alias:
+- 张叔大
+- 张太岳
+courtesy_name: 叔大
+born:
+  year: 1525
+died:
+  year: 1582
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_jiangling
+bio: 明代政治家、改革家。万历初年内阁首辅。1573 考成法。1581 一条鞭法。死后被清算。
+sources:
+- 明史·张居正传
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Zhangjuzheng.jpg"
+wikidata_id: "Q197234"
+wikipedia_zh: "張居正"
+image_license: "Public domain"
+image_credit: "Original uploader was 蒼穹之丘 at zh.wikipedia"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhangjuzheng.jpg"

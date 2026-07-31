@@ -1,0 +1,12 @@
+id: pl_cbdb_12736
+type: Place
+name: 淳安
+modern_name: 淳安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.612287
+longitude: 118.965165
+first_year: 1127
+last_year: 1279
+description: CBDB 行政类型:Xian

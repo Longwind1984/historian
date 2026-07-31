@@ -1,0 +1,24 @@
+id: p_yuanchonghuan
+name: 袁崇焕
+courtesy_name: 元素
+born:
+  year: 1584
+died:
+  year: 1630
+  month: 8
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_dongguan_yuan
+bio: 明末蓟辽督师。1626 宁远之战以红夷大炮却后金军,为明军首胜;1627 宁锦大捷。1629 己巳之变后金绕道入关直逼北京,崇祯以通敌罪下其狱,1630 年八月磔于西市。
+sources:
+- 明史·袁崇焕传
+- 国榷
+type: Person
+wikidata_id: "Q715553"
+wikipedia_zh: "袁崇焕"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Yuan_Chonghuan.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yuan_Chonghuan.jpg"

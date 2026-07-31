@@ -1,0 +1,21 @@
+id: p_chen_jingrun
+type: Person
+name: 陈景润
+born:
+  year: 1933
+died:
+  year: 1996
+gender: male
+roles:
+- scholar
+importance: 2
+bio: 福建福州人。数学家，在哥德巴赫猜想研究中证明'1+2'（陈氏定理）。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q715284"
+wikipedia_zh: "陈景润"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chen_Jingrun.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Jingrun.jpg"

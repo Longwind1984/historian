@@ -1,0 +1,12 @@
+id: pl_cbdb_303345
+type: Place
+name: 錦衣衛
+modern_name: 錦衣衛
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.93143
+longitude: 116.368
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Wei

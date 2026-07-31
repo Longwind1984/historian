@@ -1,0 +1,28 @@
+id: p_yuan_qin
+type: Person
+name: 元钦
+alias:
+- 西魏废帝
+born:
+  year: 525
+died:
+  year: 554
+reign_start:
+  year: 551
+reign_end:
+  year: 554
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xi_wei
+bio: 文帝子。谋除宇文泰事泄被废,旋鸩杀。
+ext:
+  title: 西魏废帝
+  regime: 西魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q2660296"
+wikipedia_zh: "元钦"

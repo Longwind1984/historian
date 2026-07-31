@@ -1,0 +1,12 @@
+id: pl_cbdb_12446
+type: Place
+name: 亳州
+modern_name: 亳州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.879291534
+longitude: 115.77090454
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

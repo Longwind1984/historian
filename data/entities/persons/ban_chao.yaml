@@ -1,0 +1,26 @@
+id: p_ban_chao
+type: Person
+name: 班超
+alias:
+- 班仲升
+courtesy_name: 仲升
+born:
+  year: 32
+died:
+  year: 102
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_pingling_banchao
+bio: 东汉名将、外交家。班彪子,班固弟。73 出使西域。'投笔从戎'。74-102 在西域 31 年,以夷制夷,平定西域五十余国。封定远侯。102 年 70 岁还洛阳,九月卒。
+ext:
+  significance: 经营西域的杰出统帅。
+sources:
+- 后汉书·班超传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Statue_commemorating_Ban_Chao%2C_Kashgar.jpg/500px-Statue_commemorating_Ban_Chao%2C_Kashgar.jpg"
+wikidata_id: "Q366132"
+wikipedia_zh: "班超"
+image_license: "CC BY-SA 3.0"
+image_credit: "John Hill"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Statue_commemorating_Ban_Chao,_Kashgar.jpg"

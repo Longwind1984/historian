@@ -1,0 +1,24 @@
+id: p_cixi
+type: Person
+name: 慈禧太后
+alias:
+- 叶赫那拉·杏贞
+- 西太后
+born:
+  year: 1835
+died:
+  year: 1908
+gender: female
+roles:
+- consort
+importance: 1
+birthplace: pl_beijing_qing
+bio: 晚清实际最高统治者,同治、光绪两朝垂帘听政 47 年。1861 辛酉政变。1898 戊戌政变。1900 庚子西狩。
+sources:
+- 清史稿·后妃传
+wikidata_id: "Q47842"
+wikipedia_zh: "慈禧太后"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Ci-Xi_Imperial_Dowager_Empress_%289.2%29.PNG/500px-The_Ci-Xi_Imperial_Dowager_Empress_%289.2%29.PNG"
+image_license: "Public domain"
+image_credit: "John Yu Shuinling"
+image_source_page: "https://commons.wikimedia.org/wiki/File:The_Ci-Xi_Imperial_Dowager_Empress_(9.2).PNG"

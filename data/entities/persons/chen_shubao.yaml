@@ -1,0 +1,29 @@
+id: p_chen_shubao
+type: Person
+name: 陈叔宝
+alias:
+- 陈后主
+born:
+  year: 553
+died:
+  year: 604
+gender: male
+birthplace: pl_jiangling
+bio: 南朝陈末代君主。582-589 在位。荒淫词人。589 隋军破建康,跳井躲藏被俘。'商女不知亡国恨'。
+sources:
+- 陈书·后主纪
+reign_start:
+  year: 582
+reign_end:
+  year: 589
+roles:
+- emperor
+ext:
+  title: 陈后主
+  regime: 陈
+wikidata_id: "Q718206"
+wikipedia_zh: "陈后主"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Chen_Shubao.jpg/500px-Chen_Shubao.jpg"
+image_license: "Public domain"
+image_credit: "Yan Liben"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Shubao.jpg"

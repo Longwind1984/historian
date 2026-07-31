@@ -1,0 +1,13 @@
+id: pl_suzhou_tang
+type: Place
+name: 苏州
+modern_name: 苏州
+province: 江苏
+latitude: 31.3
+longitude: 120.62
+category: city
+description: 中晚唐江南
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

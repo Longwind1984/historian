@@ -1,0 +1,14 @@
+id: p_cbdb_833
+type: Person
+name: 胡宗愈
+born:
+  year: 1029
+died:
+  year: 1094
+gender: male
+birthplace: pl_cbdb_12723
+dynasty_ref: k_beisong
+bio: CBDB ID 833
+name_en: Hu Zongyu
+sources:
+- CBDB (China Biographical Database)

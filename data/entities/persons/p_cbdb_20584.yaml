@@ -1,0 +1,14 @@
+id: p_cbdb_20584
+type: Person
+name: 陸九齡
+born:
+  year: 1132
+died:
+  year: 1180
+gender: male
+birthplace: pl_cbdb_12975
+dynasty_ref: k_beisong
+bio: CBDB ID 20584
+name_en: Lu Jiuling
+sources:
+- CBDB (China Biographical Database)

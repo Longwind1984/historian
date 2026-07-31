@@ -1,0 +1,17 @@
+id: pl_linan_song
+type: Place
+name: 临安
+modern_name: 杭州
+province: 浙江
+latitude: 30.27
+longitude: 120.16
+category: capital
+description: 南宋都城
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集
+aliases:
+- 杭州

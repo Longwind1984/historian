@@ -1,0 +1,15 @@
+id: pl_songzhou
+type: Place
+name: 宋州
+modern_name: 商丘
+province: 河南
+latitude: 34.44
+longitude: 115.65
+category: city
+description: 朱温籍贯
+aliases:
+- 睢阳
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

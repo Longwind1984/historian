@@ -1,0 +1,12 @@
+id: pl_cbdb_12821
+type: Place
+name: 青田
+modern_name: 青田
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.143875
+longitude: 120.288155
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

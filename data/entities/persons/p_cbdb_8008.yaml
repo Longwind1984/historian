@@ -1,0 +1,14 @@
+id: p_cbdb_8008
+type: Person
+name: 秦檜
+born:
+  year: 1090
+died:
+  year: 1155
+gender: male
+birthplace: pl_cbdb_12830
+dynasty_ref: k_beisong
+bio: CBDB ID 8008
+name_en: Qin Gui
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,14 @@
+id: p_cbdb_1521
+type: Person
+name: 孫覺
+born:
+  year: 1028
+died:
+  year: 1090
+gender: male
+birthplace: pl_cbdb_100637
+dynasty_ref: k_beisong
+bio: CBDB ID 1521
+name_en: Sun Jue
+sources:
+- CBDB (China Biographical Database)

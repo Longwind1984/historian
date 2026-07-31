@@ -1,0 +1,19 @@
+id: e_lianmeng_miejin
+type: Event
+name: 联蒙灭金
+date:
+  year: 1233
+category: conquest
+importance: 2
+location: pl_caizhou_wysx
+polities_involved:
+- k_nansong
+- k_yuan
+- k_jin
+description: 蒙古联宋灭金。1233 宋蒙围蔡州。1234 正月城破,金哀宗自缢,金亡。宋收复汴京、洛阳应天三京(端平入洛),旋被蒙军击败。
+impact: 金亡,但宋失去金作缓冲,直接面对蒙古,44 年后南宋亡。
+sources:
+- 宋史·理宗本纪
+end_date:
+  year: 1234
+  month: 2

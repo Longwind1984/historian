@@ -1,0 +1,269 @@
+{
+  "_readme": "交接文档。写给接手的人（或三个月后没有上下文的我）。2026-07-31 由 Codex 滚动校正：v1.4.0 朋友分享版以《安史之乱》九幕受限 Demo 为公开入口，稳定 URL 为 #route=explore&demo=anshi；公开前端与 EdgeOne 云函数均关闭无账户隔离的 Prompt / 上传接口，本地 scripts/dev.sh 继续开放。普通移动端补齐阅读/论证/时空/证据（问题工作区为范围），切换工作区会回到合理默认页；论证节点回到受限锚点后会展开章节级来源说明并可复制公开定位，不下发原文或私有 locator。可重建的 external_data 上游原始包不进入公开 GitHub，实际本机文件保留。公开源码目标为 https://github.com/Longwind1984/historian；EdgeOne 现网仍是 v1.3.0 / 52b2f002，本轮没有获得或执行线上部署授权。Chrome Companion 仍只连接 127.0.0.1:5173 的 unpacked 本地 beta。真实 LLM、账户级持久化、PDF/OCR、通用公开投影与正式库晋升仍未实现。更老叙事见 WORKLOG.md 与 docs/。",
+  "generated_at": "2026-07-31",
+  "repo": "/Users/rick/ZCodeProject/history-kb",
+  "branch_state": {
+    "active_branch": "main（本地完整历史）＋ GitHub main（v1.4.0 公开首发的干净根历史）；精确提交与 remote 状态见 git log -1 / git remote -v。",
+    "main_head": "本地 main 已含探索 v10、Chrome Companion、本轮朋友分享门禁、移动四视图、公开锚点来源说明与 v1.4.0 版本文件。公开 GitHub 不包含 external_data 上游原始包和旧历史里的超大 blob；本机原始文件仍保留且被忽略。EdgeOne Production 仍是 v1.3.0 / 52b2f002，部署 ID dpmr9bplyfcq，本轮未更新线上站。用户维护的未跟踪 AGENTS.md 不纳入提交。",
+    "v31_commits": {
+      "d27a83c": "M11 点选即锚定",
+      "fce825c": "补抓 10 幅图集瓦片（1720 片）",
+      "e8c08ce": "M12 时间轴粒度下探到月/日",
+      "3b4e194": "M13 Wikidata 对齐：439 图像 + 696 外链"
+    },
+    "old_branches": "历史 v2/v3/v3.1 工作线均已并入 main；2026-07-22 实测 refs/heads 仅 main，git branch --no-merged main 为空，git worktree list 仅仓库本体；.claude/worktrees/ 是空目录，不是已注册 worktree。"
+  },
+  "project": {
+    "what": "中国通史互动知识库：既有时间柱、可播放地图与谱系星图；探索模块现在可从历史问题或私人书籍进入，把范围合同、连续阅读、作者论证、Scene、地图与关系化证据放进同一个可逆探索",
+    "stack": "Vue3 + Pinia + Vite + MapLibre GL 4.7 / FastAPI / YAML 数据源（无数据库）",
+    "scale": "entities=7396, relations=10277（validate errors=0 warnings=19201；孤儿实体 82）",
+    "atlas": "谭其骧图集「古」底图按年换幅：年代表 28 幅（汉两期/三国/西晋/东晋/前秦/北魏/西魏/北周北齐陈/隋/唐三期/五代/北宋辽/金南宋两期/明两期/清两期 + 史前至秦 7 幅），自托管瓦片 z2-z6；当前 29 个目录 / 5023 PNG，签名扫描全通过；元与新莽显式兜底「该年代图幅待补」"
+  },
+  "how_to_run": {
+    "preview_一体化": "cd frontend && npm run dev —— vite 插件 backend-autostart 探测 proxy 目标，无后端时经 scripts/run-backend.sh 拉起；环境顺序固定为 backend/.venv → 根 .venv → requirements.txt 约束的 uv 隔离环境，绝不借父项目 venv。SIGTERM 级联退出。",
+    "manual_backend": "scripts/run-backend.sh --host 127.0.0.1 --port 8002",
+    "backend_gotcha": "scripts/run-backend.sh 自动把 DATA_DIR/SCHEMA_DIR 指向仓库 data/schema，并依次使用 backend/.venv、根 .venv、requirements.txt 约束的 uv 隔离环境；绕过脚本直接起 uvicorn 时必须显式设置这两个路径，否则容器默认值 /app/data 会让本地 API 静默为空。后台常驻时还应妥善处理 stdout/stderr，避免管道无人读取。",
+    "e2e": "cd frontend && npm run test:e2e。Playwright webServer 冷启动 backend :8002 + frontend :5174，reuseExistingServer=false，超时 120s，结束自动回收；系统 Chrome，无需下载浏览器。",
+    "test": "uv run --with-requirements backend/requirements-dev.txt python -m pytest backend/tests -q（runtime 与 test 依赖分离；pytest/httpx 精确锁定）",
+    "validate": "uv run --with-requirements backend/requirements.txt python scripts/validate_data.py → errors=0（系统 python3 不保证安装 yaml/pydantic，要走 uv 或仓库 venv）",
+    "exploration_v4_production": "朋友分享用 http://127.0.0.1:5173/#route=explore&demo=anshi；生产构建默认直接进入受限 Demo，前端不显示 Prompt/上传，EdgeOne 云函数不注册 /explorations/*。本地 scripts/dev.sh 显式开放私人能力，#route=explore 仍从历史 Prompt 或 TXT/Markdown/EPUB 真空入口开始；后端会话只在当前进程内，重启即清除。Chrome Companion 继续以 chrome://extensions 手动加载 extensions/weread-companion，仅供本地伴读。",
+    "exploration_v4_prototype": "cd prototypes/exploration-v4 && npm run dev -- --host 127.0.0.1 --port 4173 --strictPort；构建用 npm run build，Sites 包装合同用 npm run test:sites。此目录是隔离 React/Vite 产品原型，不是生产 frontend。",
+    "build": "根目录 npm run build：先运行 validate_data.py（errors 必须为 0），再构建完整前端并生成 edgeone-dist/；发布产物可重建且不入 Git。仅构建前端可用 cd frontend && npm run build。",
+    "build_safe": "根目录 npm run build:safe：生成独立 edgeone-dist-safe/，排除 chgis_*.geojson、tiles/atlas 与“古”底图能力；前端 marker 与 Python profile 双向校验，错配即失败。根 edgeone.json 仍默认 full；safe 只按预构建成品直接上传，未验证平台源码构建的多 profile 选择，且本命令不发布。",
+    "container": "scripts/up.sh —— 使用 docker compose 或 legacy docker-compose 构建生产镜像；后端只读挂 data/schema，health gate 后启动 Nginx 前端，并以 bounded HTTP smoke 验证 stats/schema/entities、同源 /api 与 /tiles。无 Compose 时清晰失败。",
+    "tile_fetch": "uv run python3 scripts/fetch_atlas_tiles.py --sheets <id,逗号分隔>（幂等；--probe <sid> 拼 z5 预览图认图；单 URL 不重试，8s 超时并按主机熔断）。2026-07-22 计划内 15 幅均补齐 z2-z6；mp03db/mp03dd/mp0503/mp053d/mp053e 本轮标准 BBOX 计划各 172/172，另保留 7 个边缘扩展瓦片，所以本地各 179。幂等复跑标准计划 860 skipped / 0 failed。外部 tile.osgeo.cn 可用性不可控，失败时保留已有文件并择机再跑，不绕过熔断。抓取后直接请求目标瓦片核验；若旧进程 404，先核对其 DATA_DIR、代码与挂载。"
+  },
+  "verified_baselines": {
+    "pytest": "223 passed + 1 skipped / 11.50s（2026-07-31；含 EdgeOne 公开运行时、构建 marker 双门禁与前后端版本一致性回归）",
+    "validate": "entities=7396 / relations=10277 / errors=0 / warnings=19201 / 8.37s（2026-07-31 v1.4.0 最终构建；孤儿实体 82；未删除、隐藏或降级既有 warning）",
+    "vite_build": "v1.4.0 full（Vite 6.4.3）：220 modules / 1.72s，ExplorationView 55.00 kB / gzip 18.73 kB，ExploreMapPanel 16.43 kB / gzip 5.82 kB；npm audit 为 0 vulnerabilities，既有 seed / maplibre-gl 大 chunk warning 未变化。full EdgeOne 5129 files / 134.30 MB；safe 88 files / 5.42 MB / atlas 0。生产 marker 强制 private_explorations_enabled=false。",
+    "docker": "部署定稿 9b5b38f；等价隔离拓扑真实 build/run 通过：frontend Node22 production build 197 modules / 2.67s，backend stats=7396/10266，schema/entities、nginx -t、同源 API、瓦片 PNG、只读挂载与无 reload 合同均通过；临时资源已清理。本机 CLI 29.6.1/server 29.5.2，无 Compose/buildx，故 scripts/up.sh 本机按设计清晰失败。",
+    "e2e": "v1.4.0 全站 Playwright：123 passed + 2 skipped / 12.5m；生产 demo-only 专项 1/1，safe profile 专项 1/1。Chrome Companion Node 12/12。一体化浏览器复验桌面与 390px 移动阅读/论证/证据无横向溢出，API 与地图瓦片 200，console error/warning=0。",
+    "edgeone_profiles": "full：34 GeoJSON、18 个 CHGIS 文件、5023 atlas PNG、5129 files / 134.30 MB；safe：16 GeoJSON、0 CHGIS、0 atlas、88 files / 5.42 MB。两者前端 marker 均要求 private_explorations_enabled=false；云函数不注册私人探索路由。",
+    "production": "v1.3.0 / 52b2f002，EdgeOne Production 部署 dpmr9bplyfcq。2026-07-23 复验：首页、release.json、API 7396/10277、真实古地图瓦片 26056 bytes 均通过；浏览器实看来源署名、地图播放 0/169→64/169 与 710 年唐隆政变简介联动、图谱/星云/时空柱三态均正常，console error=0。",
+    "browser_limit": "Chrome 单元素高度上限实测 33,554,428px（2^25），scrollTop=12,000,000 精确生效——日档内高 12,057,172px 有 2.8 倍余量",
+    "day_zoom_perf": "日档 k=2922 下滚动 62fps、DOM 119 节点（虚拟化照常）"
+  },
+  "m6_landed": {
+    "spec": "docs/prd-frontend-interaction.html（A/B/C/D 四批 19 条 + 附录，Rick 全批）",
+    "A批_P0": "星图CTA 调错 store 抛 TypeError→修复；两处「地图定位」空操作→locateRequest{id,type,nonce} 通道；「关系图展开」死旗标→兑现并删 pathHighlight；#year URL 恢复失效→修复+hashchange 监听+entity 升级 id:Type；底图双源→ui.basemap 单源+进URL/localStorage",
+    "B批_P1": "搜索选中→repYear→柱平滑滚动+lens 脉冲；星云/时空柱响应外部选中（selectEntity 第三参 origin 防环）；在世 chips ⇄ 柱生命条双向 hover 高亮",
+    "C批_P2": "全局快捷键（/ ←→ Space播放 g跳年 1/2/3 t Esc ?）+ HotkeyHelp/YearJump；SearchBar 重写（键盘/类型chips/今名徽章/空态）+ 后端 modern_name 入搜索（rank 5/6）；顶部朝代 chips 并入 gutter；WebGraph Space→f",
+    "D批_P2": "文案三层规则（content-spec §8）；年谱生于bug修复+life_events 渲染位；territory-label 标注层落地；EmptyState 统一全站空态；两套档案卡合并 shared/EntityProfile.vue；WebGraph 路径输入→联想选择器；死代码死样式清扫",
+    "E批_P3": "响应式已落地：≤720px 为时间柱主屏 + 地图/在世人物底部抽屉；新手引导仍未做"
+  },
+  "m7_landed": "时间柱人物区可读性重构（roadmap-v3 §3-M7，方向甲拍板）：laneCount 全史常数 97 → min(可见窗并发数, floor(区宽/10px)) 双自适应；区宽 PERSON_RIGHT 0.30→0.47、地板 pxA+44→+88；超容人物并入聚合溢出道（+N 徽标/hover 名单/click 锚定放大，窗内并发下降自然回列）；ResizeObserver 接上 viewW 拖 SplitPane 实时重算；年代窗按 100 年桶量化自适应（跨帧稳定）；选中聚光（非选中条 CSS 淡出 0.25）+ 关系连线改 laneX px 几何（旧百分比残留连线曾错落到事件卡区）；提升集自保：选中+在世 chips 必占车道不入聚合（useAlivePeople 单源）。e2e 4 钉。",
+  "m8_landed": "事件溢出可见性（§3-M8）：184 枚同 x 叠放刻度按 y 距 16px 分桶 →「+N」计数徽标（族色取桶内 importance 最要者）；AggPopList.vue 统一可点选清单（事件桶与 M7 人物聚合道同组件，条目走 selectEntity）；click 桶按「区间图定理」精确反推所需放大倍率（邻域全列回列，×1.15 余量封顶 K_MAX，只放大不缩小）；柱缘 90 桶密度指示条（7px 贴右缘，刷年掠过响应，点击跳年）。顺手修两个真 bug：zoomAt 钳高度（L0 直跳 L2 镜头飞到年 -1939，rAF 复核补设）+ 回列反推改区间图容量条件。e2e 5 钉。",
+  "m9_landed": "图集补全（§3-M9，内容工程）：「古」source maxzoom 10→6（zoom 7+ 变 z6 栅格过采样，不再 404 退避说假话）；fetch_atlas_tiles.py 加 --sheets/--probe；年代表 14→28 幅——西汉 mp0324/东汉 mp0334/三国 mp0346/西晋 mp035a（勘察误判西汉重复幅，亲读图例太康二年翻案）/东晋 mp0375/北周北齐陈 mp0394/唐三期 mp03db(669)/mp03dc(741)/mp03dd(820)/北宋辽 mp0503/金南宋两期 mp053d(1142)/mp053e(1208)/明两期 mp0589(1433)/mp058a(1582)/清两期 mp05c1(1820)/mp05d1(1908)；mp051b 实定为西夏区域图移出年代表；mp0500 定谳五代后晋天福八年(943)；mp0393 西魏收窄 535-557；元全图勘察穷尽不存在 → 1280-1367 与新莽 9-24 显式兜底「该年代图幅待补」；351-580 区域政权图界面注明。e2e 17 钉（图例跳年换幅）。认图依据全部亲读图例纪年行（≥2 地名），三处勘察结论被实测推翻后更正。",
+  "m10_landed": "收版集成：m8+merge m9 → v3/release（WORKLOG 双追加按时间序解，唯一冲突）。集成逮到两个真 bug 并修复：①MapPanel activeSheet/appliedSheetId 声明在 immediate watch 之后撞 TDZ（M9 引入，默认年 750 直开图例永落兜底）；②直开 #year=<非默认年>&basemap=古 先铺默认年 750 的唐图再自愈（settledYear 180ms 消抖滞后 URL 恢复）→ onMounted 改按即时 store.year 取幅，6/6 直开首发即正确图幅。勘误：瓦片 404 不触发退避（maplibre 视为无数据静默），缺片年份=空白底图+正确图例+疆域叠加，不造假。全量回归 52/52、截图自证 8 张、文档终审（README/handoff/roadmap 状态行/WORKLOG M10 段）。",
+  "resolved_this_session": [
+    "本轮 Codex 连续优化已完成并纳入本地 checkpoint：启动/依赖/E2E 自包含、关系分页、CHGIS 按年中性展示与缓存性能、时间精确导航、星图与内容审计、首批行军路线；最终 pytest 86/86、e2e 81/81、validate errors=0、build 通过",
+    "本轮非部署成果本地 checkpoint → 6d1be95（Complete post-M14 hardening wave；806 files，含 708 PNG；明确排除 6 个待决部署草案与用户 AGENTS.md；未 push）",
+    "部署 A → 9b5b38f（Finalize container deployment；Rick 已确认保留并提交，未 push/未发布）。生产镜像去除源码 bind mount 与 reload，data/schema 只读，backend health gate 后启动 frontend；Node20 engine 冲突据真实构建提升到 Node22；宿主路径不适用的旧 smoke 改为 bounded 真实 HTTP。等价隔离拓扑实测 stats=7396/10266、schema/entities、nginx -t、API/PNG 代理通过，临时资源已清理",
+    "移动端方案一 → 落地（≤720px 时间柱为主屏；此刻读数、真实地图与在世人物进入底部抽屉；点击、键盘、pointer 拖拽通过；移动地图保持当年中国概览，不被默认李白定位带离；桌面双栏不变）",
+    "EdgeOne 混合部署源码 → 收口（根构建强制 data errors=0；编译 JSON 缺包/计数错 fail-fast；无 PyYAML 隔离运行包 stats=7396/10266；edgeone-dist 可重建不入 Git；来源弹层补键盘焦点约束与 CHGIS 固定署名）",
+    "M14 已合 main 并发布 v1.2.1：先秦接入谭其骧古底图、修复直开先秦年份的旧请求覆盖竞态；本轮进一步纠正秦郡抽取语义，不再把 10 条府级行政建置记录冒充秦疆域",
+    "next_task「tiles-topup」→ 全部关闭（计划内 15 幅均补齐 z2-z6；本轮末 5 幅标准 BBOX 各 172/172，另各有 7 个边缘扩展、本地各 179；幂等复跑标准计划 860 skipped / 0 failed；全库 5023 PNG 签名扫描全通过）",
+    "known_defect「15 幅新注册图幅瓦片不完整」→ 关闭",
+    "known_defect「月/日档方向键仍按年步进、YearJump 不认月」→ 关闭（方向键按年/月/轴日 LOD 各步进一格；YearJump 支持 755年七月 / 755-07 / 前221，4 条新增 E2E 覆盖）",
+    "open_question「地图按年过滤 feature」→ 关闭（按 CHGIS 记录 beg_yr/end_yr 过滤并有界缓存，MapPanel 随 settledYear 重绘；后端测试覆盖）",
+    "known_defect「时空柱柱外年份误显示扫描环」→ 关闭（柱外隐藏扫描环并显示范围提示；E2E B7 覆盖 -2100 与恢复）",
+    "关键非原生控件键盘不可达 → 关闭（时间柱、聚合、在世人物、搜索、地图图例补齐 button/slider/combobox 语义与焦点环；新增 E2E 4 条）",
+    "行军路线首屏偶发不绘制 → 关闭（MapPanel 异步挂载补消费当前选中，locateSeq 丢弃旧定位，styledata + 有界重检替代不可靠 idle；路线 repeat 5/5、全量 E2E 80/80）",
+    "刘承祐—郭威—后周农历月份链 → 关闭（《资治通鉴》卷289/290口径：950年十一月刘承祐遇害、十二月郭威监国、951年正月即位建后周；实体、政权、关系与两条回归测试统一）",
+    "关系页提及图抢占首屏与扫描热点 → 关闭（角标不再 eager 构建；首次打开链接 tab 才加载；RLock single-flight 防并发重复冷建；字符 trie 替代 6745 万次 str.find；PyYAML 6.0.2 在有 LibYAML 时走 CSafeLoader、无则安全回退。7425 YAML 全量等价，单冷 5.970s→1.04s，图构建 3.46s→0.02s）",
+    "内容审计不可行动 → 关闭（审计报告现列出缺字段实体 ID；新增黄巢两都阶段路线并对抗复核，撤回时间倒置、同年弱因果和未经证实地望，审计数字不靠弱边清零）",
+    "内容审计第二轮 → 完成（空 source 实体 ID 可定位并由 2→0；楚/韩/魏/赵/郑补入年代与地点都可成立的代表都城，缺口 22→17；隋征高句丽与隋末起义只记同期、唐灭东突厥只记贞观时期从属，0 条弱因果）",
+    "内容审计最终端点终审 → 完成（第一五年计划与社会主义改造只记1953—1956并行交叠；其余11项缺精确端点不落边。桂陵、马陵地望及黄天荡单一胜方均确认应留空，马陵说明改为明确『具体地望有多说』）",
+    "Wikidata 官方消歧 9/9 → 收口（9 例均转 MANUAL，当前 0 AMBIG / 25 NONE；711 个 wikidata_id、705 个 wikipedia_zh、439 份既有合规媒体。只写 QID/中文条目，P18 缺 Commons 许可与作者链者不新增图片）",
+    "需求「点选事件后右侧锚定时间跟随」→ 落地（M11，方案二）",
+    "需求「时间轴最细粒度下探到月/日」→ 落地（M12；并推翻了「日档不可行」的未实测推断）",
+    "需求「用开源途径补真实历史图像 + 维基之外的外链」→ 落地（M13：439 图像 + 696 外链；外链站点选维基百科/Wikidata，百度百科按求真原则排除）",
+    "高密度界面优化 → f0b88fd 落地并于本轮完成视觉验收：hover 只做互高亮、显式激活才换档案；时间尺度/人物类型/地图图层默认折叠；地图默认古且控件不再遮挡；澄/夜跟随系统；Lucide 图标统一；星云/时空柱填满剩余视口。新增 hover 不换档案与地图展开 SVG 合同；27 条定向、full 96 passed + 1 skipped、safe 专项 1/1，证据见 docs/design-qa.md",
+    "3D 星图异步卸载竞态 → 关闭：NebulaView/ColumnView 在 dynamic import、mount await 与 ready 回调各阶段核验实例存活；晚到控制器立即 dispose，Column 的异步 watcher 与调试采样 timer 显式停止，Nebula 的联想/blur/connect 异步写入也受卸载守卫。受控路由门闩真实复现后星云/时空柱均触发 late-dispose、无晚到 ready、无残留 canvas；graph 10/10，竞态 repeat 3/3，前端生产构建 174 modules / 1.34s",
+    "Lucide 构建解析开销 → 6 个组件的 barrel import 已改为单图标深导入；full build 从 1961 modules / 1.73s 降到 225 modules / 1.47s，交互行为与产物大小基本不变",
+    "谱系星图首载边界 → 已把 inkPalette 的 Three Color 适配拆到 threePalette；默认 WebGraph 只加载 1.41 kB 纯数据色板，静态 JS 闭包 724.26→201.94 kB、gzip 211.83→79.08 kB，Three 只在首次进入星云/时空柱后请求。graph 定向回归 9/9，full/safe 根构建均通过",
+    "Axios 依赖面 → 已关闭：全站唯一 Axios import 与全部只读 GET 调用已迁到原生 fetch 适配器，保留 api.get、data、params 与错误 response 合同；移除 27 个 lock 节点，full E2E 92 passed + 1 skipped、safe 专项 1/1、api-client 合同回归 1/1。此项只证明依赖与行为收口，不代表 npm advisory 已清零",
+    "移动地图首载边界 → 已关闭：104px 收起态继续显示此刻读数摘要，但 MapPanel 与 MapLibre 直到点击、键盘或向上拖拽首次展开才请求；收起再展开不新增资源且始终只有一个地图实例。移动定向 4/4、full E2E 93 passed + 1 skipped、safe 专项 1/1，full/safe 根构建均通过",
+    "行军路线第三轮 → 高置信批次完成：黄巢洛阳—长安路线从九年父事件迁到 880 年具体阶段，宋灭南唐新增江陵—采石矶—金陵两段；当前 11 个实体 / 15 段且全部带出处。真实地图专项 3/3、pytest 92/92、full E2E 95 passed + 1 skipped、safe 专项 1/1、full/safe 根构建均通过",
+    "行军路线第四轮 → 潮陽—崖山最后一程落地：CBDB 100447 提供宋元潮阳县坐标，《宋史纪事本末·卷一百八·二王之立》限定张弘范由潮阳港入海至崖山的最后一程；当前 12 个实体 / 16 段，余 99 项。真实地图专项 4/4、pytest 100/100、full E2E 96 passed + 1 skipped、safe 专项 1/1、full/safe 根构建均通过",
+    "数据校验器内嵌引用漏计 → 关闭：有效 location/capital 等顶层外键与 march 的 owner/target 现均计作关系参与者，march 坏结构、悬空端点、非 Place 端点改为硬错误；9 条合同测试覆盖正反例，孤儿实体从误报的 1159 收敛到 167，总 warning 20278→19286，未删除或降级任何检查",
+    "高置信内容缺链最小批次 → 关闭：7 个明确属于中国的现代事件补 k_prc，刘义隆/拓跋焘补权威政权归属，8 条人物—事件与 3 条人物关系按本地正文和官方机构页面落地；新增关系全部有实质 note 与机构·标题格式出处，关系 10266→10277，孤儿 167→147，source-format suspect 保持 1613 未新增债务，20 条 API 合同覆盖",
+    "第二批本地证据引用 → 关闭：3 个中国主办文化事件补 k_prc；60 位孤立帝王按自身 ext.regime、在位期与正史 sources 补 dynasty_ref，排除 4 个待合并重复；巨鹿之战从张角籍贯地点改指专用战场；另落 4 个正文已明确的军事阶段，总 march 16 实体 / 20 段。易州/益州反例写入迁移和 API 护栏。迁移首跑 68 文件、二跑 no-op；孤儿 147→83，69 条新增 API、pytest 190/190、march E2E 8/8、full 101+1、safe 1/1、full/safe 构建全绿",
+    "展开地图历史播放 → 完整闭环：仅在地图主体态显示播放/暂停/上下条；169 条清单逐条具备 location 或完整 march。关键人物 life_events 不带地点，故只纳入同时满足结构化关系、同年与事件全名命中的 6 条，focus 指向事件而非籍贯。地图相机、左轴、实体档案与 aria-live 简介卡同步；拖图、手动改选、收起或卸载均暂停，旧 Space 逐年播放先停。pytest 194/194，新 E2E 2/2、相邻地图/时间轴回归 20/20，最终前端 build 181 modules / 1.36s",
+    "金太宗重复人物 → 已合并：保留已有关系使用的 p_wanyanwuqimai，将 p_wanyan_sheng 的在位期、帝王角色、重要度、补充事迹、来源、Q5070 与 Commons 许可字段完整合入；旧实体与对齐双记录删除，旧帝王迁移和当前政权迁移均改用稳定 ID。政权迁移首跑只补 1 个 dynasty_ref、二跑 no-op；data 全域旧 ID 为 0，pytest 196/196，validate 7396/10277/errors=0",
+    "完整版发布许可决策 → 已关闭项目阻塞：Rick 明确将本站定位为非商业个人研究与作品展示，接受当前未核实到 CHGIS/谭图单独书面公网再分发授权的现状并要求发布 full；v1.3.0 Production 已上线且完成机器与浏览器复验。该决定不是授权证明，固定署名、来源说明与可逆 safe profile 继续保留",
+    "v4 书籍探索首个生产切片 → 已完成：Explore 路由、共享 Scene 状态、可调三栏与移动三视图、TXT/Markdown 段落锚点、有界进程内后端会话、revision 冲突保护、无地点诚实空态、论证回跳、地图内播放和 composer 记录均已落地；full 用 1908 历史图层，safe 构建期剔除；材料 hub 到地点的连续柔性 fan-out 不表达移动。pytest 205、full E2E 106+1、探索 3/3、safe 1/1、validate errors=0、full/safe build 与浏览器多视口 QA 通过；未发布。",
+    "探索 v5 双入口与 EPUB → 已完成：默认真空入口可从历史 Prompt 或 TXT/Markdown/EPUB 开始；Prompt 建立可编辑范围合同但不伪装已调用模型，EPUB 安全解析章节/段落/locator 并以 revision 串行同步阅读进度，微信读书只做按需 iframe 与手动桥接。《红太阳》内置示例以本机私有 EPUB 的结构验证为基础，公开代码只保留五条作者判断主线、六幕平台编排与证据缺口，不含原书、路径或长引文；可复用 workflow + Schema 已落盘。pytest 214+1 skip、真实 EPUB opt-in 1/1、探索专项 7/7、validate errors=0、full build 和多视口 QA 通过；未发布。",
+    "探索 v6 入口与动态工作区 → 已完成：两张等权入口卡收敛为单一问题输入区，上传本地书籍以显式按钮打开专用弹层；入口和示例工作台删除无意义的“不含原书”状态短句。Brief、论证与地图新增两条横向 SplitPane，支持拖拽、键盘、记忆与双击复位，地图最小 240px；Scene 标题 17px→12px。探索专项 7/7、共享 SplitPane 回归 4/4、build 213 modules / 1.46s、1280×720 并排 QA 通过；未发布。",
+    "探索 v7 微信读书网页栏 → 已完成：删除无操作价值的来源头、状态条与 iframe 跨域说明；“在原站打开”移入阅读窗口，“同步阅读位置”默认折叠并以 ARIA disclosure 展开真实手动 bridge。网页阅读专项 4/4、build 212 modules / 1.62s、1195×719 默认 / 展开态 QA 通过；未发布。",
+    "探索 v8 顶部控件与网页阅读高度 → 已完成：问号 / 感叹号圆钮重绘为键盘 / 资料库 Lucide，澄 / 夜色块合并为单一状态按钮；微信读书网页窗口默认占满左栏，展开同步后出现可拖动、可键盘调整并记忆的水平分隔，折叠不重挂 iframe。专项 9/9、build 214 modules / 1.43s、1195×719 满高 / 展开态 QA 通过；未发布。",
+    "探索 v9《安史之乱》公开受限 Demo → 已完成：私有 EPUB 只读分析收敛为九幕时空叙事；公开层只有稳定锚点、原创衍生摘要、已核地点与权利状态，0/10 页通过审查时不下发正文。论证节点回跳、Scene/年份/地图/证据/播放共用 store；无可靠坐标的两幕不继承旧高亮。EPUB 压缩体上限 16 MiB，真实样本 opt-in 通过。pytest 217+1 skip、探索专项 7/7、validate errors=0、build 215 modules / 1.50s、1280×720 同视口 QA 通过；未发布。",
+    "微信读书跨站登录恢复 → 已完成：原站打开提升为可靠主入口，iframe 降为显式实验性预览；文档 load 只记未验证尝试，不再冒充登录成功。嵌入态常备登录卡住、重载、原站打开、退出四个动作，并可直接切换到手动位置桥接。专项 4/4、build 217 modules / 1.67s、1280×720 夜间主题 QA 通过；未发布。",
+    "探索 v10 全局脉络与论证合同 → 已完成：地图默认全览 7 个可核地点、9 幕清单与非路线叙事曲线，点选后聚焦；时间 tab 为 755—763 Scene / 仓库实体双轨；九幕各有六类论证节点、七条显式关系和来源边界，后端 queue 生成 needs_model/not_called Prompt 合同但不调用模型；无联动 Brief 主题按钮删除，返回与微信读书标签收敛。聚焦 pytest 23+1 skip、联合 E2E 13/13、build 218 modules / 1.45s、1195×719 三态 QA 通过；未发布。",
+    "Chrome Companion 本地 beta → 已完成：跨站微信读书 iframe 正式退出；MV3 Side Panel 只连接 127.0.0.1:5173，用户两次主动操作后才把最多 2,000 字选区写入当前 revision。权限仅 sidePanel + weread.qq.com；消息有 source/origin/字段/ACK 白名单、防重放与清理合同，私人会话只持久化 ID。Extension 12/12、Companion + 探索 v5 E2E 9/9、build 通过；真实 Chrome 420×800 论证/时空/出处 QA 通过。扩展安装仍需用户在 chrome://extensions 手动执行；未发布。"
+  ],
+  "next_task": {
+    "id": "exploration-v4-llm-persistence",
+    "title": "把诚实基础版接上真实编织与可恢复探索",
+    "state": "v1.4.0 公开朋友分享层已经建立：稳定 Demo URL、移动端论证与动态范围/证据、可展开的受限来源说明、生产前后端 demo-only 双门禁均可运行。GitHub 公开仓库采用不含 external_data 与旧超大 blob 的干净首发历史；EdgeOne 现网仍停在 v1.3.0。后端私人会话仍只存在单进程内存，deep analysis 只生成 needs_model/not_called 合同，不调用模型，也没有账户级恢复；因此这些能力只在 scripts/dev.sh 本地模式开放。Companion 线上版在固定扩展 ID、生产 origin/frame-ancestors、账户隔离和隐私披露前保持关闭。",
+    "then": [
+      "下一轮为真实 LLM 增加分批拆解、渐进骨架、引用审计、取消/重试与成本状态，并把探索快照持久化到明确的私人存储边界；模型和存储选型属于会产生费用或隐私差异的产品/技术决策，实施前提供可预览状态和实际成本边界",
+      "随后补 EPUB CFI/版本/页码绑定、按章按需服务和外部材料核对；PDF/OCR、微信读书官方同步能力与正式库晋升继续保持后置",
+      "内容完整性维护继续沿用高置信证据口径，不以清零指标为目标，不猜人物地点、不制造弱关系",
+      "needs-verification：若要补北宋/金政治边界，需另找权威分国矢量源或人工数字化谭图。已核 CHGIS DBF 无 polity 字段，3,062 条记录只能按年中性展示，不能诚实导出分国边界；当前「古」底图已有谭其骧栅格展示"
+    ]
+  },
+  "open_questions_for_rick": [
+    {
+      "q": "行军路线是否要扩大到需要新增争议地点或概括长期战争的范围？当前已按保守口径继续：A 类只落史载明确起讫，B 类只落独立阶段，C 类与地点不足项明确留空。",
+      "default_if_silent": "继续当前口径；不为清零 111 候选而猜起点、借错时代地点或把多年战争压成一根箭头"
+    },
+    {
+      "q": "（沿旧）地名历时性合分？",
+      "default_if_silent": "未动（前置着 Place 关系面 4054 条迁移）"
+    }
+  ],
+  "known_defects": [
+    {
+      "what": "Chrome Companion 目前只是 unpacked 本地 beta，不能直接公开分发",
+      "detail": "当前扩展只连接 127.0.0.1:5173，生产网页在未配置 VITE_WEREAD_COMPANION_ORIGIN 时安全禁用桥。公开发布前必须固定扩展 ID、为站点配置精确 frame-ancestors 并实机核验、补 Web Store 隐私披露；线上私人 Exploration 还需要账户/会话隔离。自动化不能替用户执行 chrome://extensions 的加载动作。",
+      "severity": "medium"
+    },
+    {
+      "what": "本地私人 Exploration 只在单个后端进程内存中保存，尚不可跨重启或跨 worker 恢复",
+      "detail": "当前有 64 会话容量、6 小时 TTL、旧会话淘汰、revision 乐观并发与显式 DELETE；这些边界可以避免无界内存和误覆盖，但不是持久化。公开构建已完全关闭相关 UI 与 API；未来若要对外开放，必须先接入明确的私人存储、身份与会话隔离。",
+      "severity": "medium"
+    },
+    {
+      "what": "探索 compose / deep analysis 仍不调用真实 LLM",
+      "detail": "问题仍标记 recorded_no_llm；deep analysis 现在会生成 book_argument_graph.v1 的 needs_model/not_called Prompt 合同，包含 locator、认识论层级、guardrails 和输出 Schema，但 candidate_output 仍为空。真实模型运行、引用审计、取消/重试和成本状态仍待实现。",
+      "severity": "medium"
+    },
+    {
+      "what": "曾观察到旧 :8000 进程 404、同路径新 :8002 进程 200（根因未定）",
+      "detail": "旧观察本身成立，但原归因『StaticFiles 缓存新增子目录』与当前 Starlette 0.38.6 源码矛盾：每次请求都会 lookup_path + os.stat。现不能复现为框架缺陷；再遇到时应对比进程 DATA_DIR、代码版本与挂载后取证，不把『重启有效』当根因。",
+      "severity": "informational"
+    },
+    {
+      "what": "事件/战役/政权尚未配图；25 例人物未匹配",
+      "detail": "「赤壁之战该配哪张画」是编辑判断不是检索问题，自动化易张冠李戴，与「求真高于中性」冲突，故未做。人物侧 9 例官方实体级消歧已全部转为 MANUAL，当前 0 AMBIG；25 例 NONE（多为上古/传说人物，Wikidata 未标 P31=Q5）继续留空。本轮新见 P18 缺 Commons 许可与作者链，故只补 QID/中文条目，不新增图片。",
+      "severity": "low"
+    },
+    {
+      "what": "元全图不存在（永久兜底态）",
+      "detail": "mp05xx 段勘察穷尽，图集无元时期全图（只有分省/宣政院区域图）。1280-1367 与新莽 9-24 显式兜底 mp0302 +「该年代图幅待补」，不说假话",
+      "severity": "low（已显式注明，属内容缺位非缺陷）"
+    },
+    {
+      "what": "needs-verification：北宋/金政治边界尚无可信矢量源",
+      "detail": "CHGIS DBF 不含 polity 字段，3,062 条府级行政建置记录只能按年中性展示，不能诚实导出分国边界。当前「古」底图已有谭其骧栅格展示；若要可交互政治边界，需另找权威分国矢量源或人工数字化并审校。",
+      "severity": "medium"
+    },
+    {
+      "what": "Place 关系面 99% 是 inline 字段",
+      "detail": "约 4054 条新增关系待迁移，前置于「地名历时性」未决项",
+      "severity": "medium"
+    },
+    {
+      "what": "默认李白/碎叶视口的图集西缘缺 7 个 tile 坐标",
+      "detail": "真实 UI 取证为 4/10/{5,6}、5/21/{11,12}、6/43/{22,23,24}；29 个图幅目录均缺，UI 使用 28 幅对应最多 196 个文件。现有五幅各 7 个额外文件位于南缘 z5/x22-28/y15，与此无关。远端首探 3 秒 SSL 超时后已按主机熔断，标 needs-verification，未重试；本地 5023 PNG 签名全通过。",
+      "severity": "low"
+    },
+    {
+      "what": "关系页首次主动打开仍需一次约 1.04 秒独立进程冷加载",
+      "detail": "字符 trie 将 graph build 从 3.46 秒降至约 0.02 秒，CSafeLoader 又把完整单冷从 2.433 秒降至约 1.04 秒；首屏与普通实体切换不触发，后端常驻后复用。进一步合并目录签名上限不足 10% 且增加失效耦合，已否决。",
+      "severity": "low（性能已显著改善，保留事实基线）"
+    },
+    {
+      "what": "三组 seed/CBDB 人物疑似重复仍待逐组审校",
+      "detail": "拓跋嗣/31006、耶律璟/43095、耶律宗真/43157 需要先核对身份字段、关系使用与 CBDB 来源，再按稳定 ID 迁关系并合并；用户已授权对证据闭合的同人实体自主去重，但名字相似本身不足以执行。",
+      "severity": "medium"
+    }
+  ],
+  "decided_not_to_do": [
+    {
+      "what": "z7/z8 瓦片补抓",
+      "why": "Rick 拍板：收 maxzoom=6 零成本（T9.0）；z7 +5712 片/+112MB、z8 +21252 片/+415MB 成本不成比例。zoom 7+ 过采样实测可读小字"
+    },
+    {
+      "what": "新手引导（E 批剩余用户可见方向）",
+      "why": "响应式布局已由 4306544 落地为移动端时间柱主屏 + 底部地图抽屉，不再属于待办；新手引导仍未定交互方向，未经用户确认不擅自定稿，也不把它误写成永久否决"
+    },
+    {
+      "what": "351-580 找东晋/南朝视角幅",
+      "why": "拍板维持单政权视角 + 界面注明（「· 区域政权图」后缀）"
+    },
+    {
+      "what": "URL 恢复的 basemap 写回 localStorage",
+      "why": "分享链接不该覆盖对方本地偏好（有意偏差）"
+    },
+    {
+      "what": "星云外部选中对 Event/Battle 自动飞行",
+      "why": "8 秒强制爬升对每次搜索太吵；只接 Person 的「跟随一生」（有意偏差）"
+    },
+    {
+      "what": "（沿旧）Polity nature/is_period 分类、删 k_nanbeichao、CBDB 地点去重、Place year 过滤、year_month 写死农历、加农历公历不符检查、territory 缓存目录签名",
+      "why": "旧 handoff 均有实测否决理由，结论沿用：不要重提"
+    }
+  ],
+  "hard_won_lessons": [
+    "（M12）浏览器把 scrollTop 量化成整像素：750 年在 L1（k=2.245）下期望 6398.234px 实存 6398，反算得 749.896——误差 0.104 年。原先的 Math.round 一直在掩盖它，改 floor 首屏即错一年。解法是按 0.75 像素容差就近归格（snapIdx），同一条规则同时管年界与月界。这类误差不是浮点 eps 能救的，量级差五个数量级。",
+    "（M12）标注「需实测」的数字，用之前必须真去测：调研判定「日档需 1206 万 px 内高、不可行」，实测 Chrome 上限是 33,554,428px，余量 2.8 倍。一句未经实测的推断差点砍掉整个需求。",
+    "（M12）保护窗要挂在对的信号上：锚定落定后的保护窗最初挂 lastProgScroll，连 zoomAt 一起挡住，「点桶放大」的镜头年份偏了 503 年。改成只对 external 锚定生效（anchorPinUntil）。",
+    "（M13）逐文件调 Commons API 跑到第 100 条即 429。MediaWiki API 单请求收 50 个 titles，439 张图从 439 个请求降到 9 个。且失败条目不可记为 done——记了续跑就永远补不上。",
+    "（M13）WDQS 的标签匹配必须写成带语言标签的字面量（\"李白\"@zh）。用 FILTER(STR(?x)=...) 会全表扫 zh 标签，实测 60s 超时；改后秒回。",
+    "（M13）CBDB 曾被批量导入 Wikidata，留下一批只有 P497 的空壳条目（班超命中 Q65818188，无中文条目无图，且该 id 只此一个候选）。P497 匹配必须对「命中即空壳」的情形回落到名字匹配，否则拿到的 QID 对配图和外链两个目的都没用。",
+    "（M13）改 YAML 不要用 yaml.dump：会重排键序、丢注释、把中文转义成 \\uXXXX，整个 data/ 的 diff 变成没法审的噪声。逐键改写时注意老值可能是折行标量（含空格的裸 URL），只换首行会把续行孤零零留下、文件当场语法错。",
+    "（诊断）报故障原因前先看证据：本次「瓦片 404」第一反应是抓取失败，实测发现盘上 172 片俱全、:8002 返 200 而 :8000 返 404——真因是陈旧后端进程。",
+    "（M10）immediate watch 回调同步执行：回调里引用的响应式声明必须先于 watch 声明，否则 TDZ 被 Vue 错误通道吞掉，默认场景下永不再触发——M9 的 750 图例兜底 bug 就是这么藏过一个里程碑的。",
+    "（M10）maplibre 瓦片 404 ≠ error 事件：404 被当作「无数据」静默（探针 68 个 404 / 6 秒 0 error），退避机制只对非 404 网络错误生效。写「404 触发退避」的机制描述前要先实测。",
+    "（M10）消抖/落定值（settledYear 180ms）不能用于一次性初取：URL 恢复在 App setup 已完成（即时 year 就位），onMounted 初取按即时 year，消抖只管刷年节流。",
+    "（M8）回列反推不能只数桶内：邻段已列卡同样占容量；区间图定理（任何 cols+1 件年距 ≥ 行距）才是精确容量条件。超过最大缩放容量的紧密簇本就回列不尽，那是容量上限不是缺陷。",
+    "（M8）同步设 scrollTop 时 DOM 内高未随 zoom flush 会被浏览器钳住（L0→L2 镜头飞 -1939）：rAF 复核补设。",
+    "（M7）瞬态断言的窗口要比主线程饱和期更长：滚动动画 650ms 主线程占满时，350ms 脉冲断言必错过——脉冲挂 900ms + 车道窗桶量化 + 虚拟化 + dim 走 CSS 类开关。",
+    "（M7）hover 劫持：滚动动画落定后 Chrome 补发 mouseenter，hover 预览会把刚选中的档案顶掉——动画期 + 落定后 400ms 尾窗内柱内 hover-in 一律忽略。",
+    "（M7）并行施工合并后必须真跑 e2e：M9 未跑 e2e（端口归 M8），TDZ bug 直达 M10 才暴露；「写好未跑」的钉子不算钉子。",
+    "（沿旧）后台 spawn 的 uvicorn 必须 stdio:'ignore' 或重定向文件；多代理并行时静态巡检必须排在 DOM 变更之后；0 或异常值先怀疑探针；证据优先禁止套用现成解释；提交按路径显式 add（worktree 符号链接）。"
+  ],
+  "key_files": {
+    "docs/product-spec-exploration-v4.md": "v4「探索」定稿 Product Spec：问题/书籍两条入口、单一书籍探索工作台、页内编织/播放、证据关系、微信读书边界、曲线地图生产方案、状态矩阵与 G/W/P/B 开发标注",
+    "prototypes/exploration-v4/": "隔离 React/Vite 高保真原型；不属于生产 frontend。两行顶栏、可调三栏、正文/锚点/事件柱、逻辑回跳、地图次级播放与 + composer 已完成；阅读、论证、地图 Scene 与证据共用一个 Exploration，柔性曲线/稀疏珠点两种地图关联可比较；design-qa.md 记录最终验收",
+    "frontend/src/views/ExplorationView.vue": "生产探索工作台：真空入口、Prompt/书籍共用布局、桌面可调三栏与 Brief/论证/地图纵向分区；普通移动端为阅读/时空/出处，companion 窄栏为论证/时空/出处",
+    "frontend/src/components/exploration/ExplorationEntry.vue": "单一历史 Prompt 主入口；显式“上传本地书籍”按钮打开 TXT/Markdown/EPUB 专用弹层，并展示可继续探索与《安史之乱》公开受限示例",
+    "frontend/src/data/anshiPublicDemo.js": "《安史之乱》公开投影：9 个 Scene 与 9 个稳定 restricted 锚点；只含原创衍生摘要、已核地点与权利状态，不含原文、私有 locator 或本机信息",
+    "frontend/src/stores/useExplorationStore.js": "问题、示例与私人导入共用的 Exploration/Scene 状态；负责范围合同、章节索引、revision 串行进度、播放、手动桥与 companion selection 写入/ID 恢复",
+    "frontend/src/composables/useWereadCompanionBridge.js": "严格的 Side Panel postMessage 接收器：companion query、origin/source、字段长度、ACK 白名单与有界防重放",
+    "extensions/weread-companion/": "Chrome MV3 Side Panel 本地 beta：精确单域权限、用户主动选区捕获、内存预览、二次确认、sandbox/CSP 和协议测试",
+    "contracts/weread-companion/v1-example.json": "扩展生产者与网页消费者共用的 v1 消息合同 fixture",
+    "frontend/src/components/exploration/ExploreMapPanel.vue": "探索地图：1908 历史参考层、无地点清理、中性材料 hub 到地点的连续 GeoJSON Bézier fan-out、主题与手动暂停",
+    "backend/app/services/exploration_service.py": "Prompt/TXT/Markdown/EPUB 的有界进程内会话、安全 EPUB 解析、段落 locator、TTL/容量、revision 并发和认识论状态边界",
+    "backend/app/api/explorations.py": "Exploration from-prompt/import/get/delete/compose/mutations API",
+    "frontend/e2e/exploration.spec.js": "深度衍生示例、私人导入、材料 fan-out、逻辑回跳、播放与移动三视图合同",
+    "frontend/e2e/exploration-v5.spec.js": "真空入口、Prompt hydration/失败草案、EPUB 二进制 adapter/章节窗口、微信读书顶层打开与手动桥兜底",
+    "frontend/e2e/weread-companion.spec.js": "companion origin/source/长度、无工作区、sample local-only、窄栏论证、私人 revision/恢复/防重放与 404 合同",
+    "docs/workflows/book-to-exploration.md": "面向外部用户的书到探索 workflow：来源、作者判断、事实候选、Scene、关系、反证/缺口、人工复核和公开投影",
+    "docs/workflows/book-to-exploration.schema.json": "Prompt/书籍互斥、生命周期、来源集合、对象引用、发布检查与隐私边界的 Draft 2020-12 JSON Schema",
+    "docs/roadmap-v3.md": "v3.0 方案与验收（状态：已落地；§1 完成定义逐条核对见 WORKLOG M10 段）",
+    "frontend/src/components/timeline/TimeColumn.vue": "M7/M8 主战场：车道双自适应 + 聚合溢出道 + 事件分桶徽标 + 密度条（hook: window.__hkbTimeline）",
+    "frontend/src/components/timeline/AggPopList.vue": "M8 新增：事件桶与人物聚合道共用的可点选迷你清单",
+    "frontend/src/composables/useAlivePeople.js": "M7 新增：在世名单单源（MomentPanel 与 TimeColumn 共用）",
+    "frontend/src/components/map/MapPanel.vue": "ATLAS_SHEETS 28 幅年代表 + sourceMaxzoom=6 + applyAtlasSheet（M10 TDZ/初取竞态两修复现场）",
+    "frontend/e2e/atlas-sheets.spec.js": "M9 图幅年代表 17 钉（跳年看图例）",
+    "frontend/e2e/m7-person-lanes.spec.js": "M7 人物区 4 钉（道距/拖栏重算/聚光/连线几何）",
+    "frontend/e2e/m8-event-overflow.spec.js": "M8 事件溢出 5 钉（徽标/清单/click 回列/密度条）",
+    "scripts/fetch_atlas_tiles.py": "图集瓦片抓取（--sheets/--probe，幂等）",
+    "frontend/src/components/shared/EntityProfile.vue": "D2 合并后的唯一档案卡，两路由共用",
+    "frontend/vite.config.js": "backend-autostart 插件：npm run dev 一体化",
+    "frontend/src/stores/useUIStore.js": "loadFromUrl（URL 恢复，App setup 期执行）",
+    "frontend/src/stores/useTimeStore.js": "year（即时）vs settledYear（180ms 消抖）——一次性初取用前者，刷年节流用后者",
+    "scripts/align_wikidata.py": "M13 Wikidata 对齐流水线（query/verify/apply/report 四段，断点续跑）",
+    "data/_align/": "M13 对账物：wikidata_align.jsonl（逐条结果）+ .csv（供抽样复核）+ wikidata_media.jsonl（许可）",
+    "frontend/e2e/m11-event-anchor.spec.js": "M11 点选锚定 5 钉",
+    "frontend/e2e/m12-sub-year.spec.js": "M12 月日粒度 6 钉",
+    "frontend/src/styles/palettes.js": "年份格式化 + M12 历法口径（fmtYM/fmtMD/isGregorian/GREGORIAN_FROM）"
+  },
+  "m11_landed": "点选即锚定：柱上点事件/人物 → 轴整体滚动把它送到锚定线（scrollToYear 令 scrollTop=(y+ORIGIN)*k，该年恰落在 lens 的 TOP=240 处）。统一走 store.setYear/external 通道，与 SearchBar 的 B1 搜索闭环同源。接入 8 处（事件卡×2/人物条/帝王条/两处聚合清单/年谱三钉）。人物锚生命段起点，与 utils/repYear 同源。anchorTo 显式清零 lastProgScroll 破守卫②。e2e 5 钉。",
+  "m12_landed": "时间轴粒度下探到月/日：缩放三级→五级，K_MAX 12→2922 px/年（8px/日）。kFromLevel 改分段指数，lv∈[0,2] 段原样保留（M7 车道容量与 M8 回列反推都标定在那三个 px/年 上）。几何走新增 tYear 小数年，year 保持整数（URL/地图/在世名单/干支/eventYears 全靠它）。小数年只存组件本地 exactYear ref，不进 store（进了会每帧写 URL）。历法口径按 1912 分野，原载不换算，字形区分 + 常驻注记。顺手兑现旧死角：同年多事件年距曾恒为 0 导致「永远回不了列」，改 tYear 后有月份者可回列。e2e 6 钉。",
+  "m13_landed": "Wikidata 对齐：新增 scripts/align_wikidata.py 四段式（query/verify/apply/report）。原始 M13 commit 记录为 439 图像 + 696 外链；后续 9 例官方实体级人工消歧已全部转 MANUAL，当前 0 AMBIG / 25 NONE，711 个 wikidata_id、705 个 wikipedia_zh、439 份既有合规媒体。新见 P18 因缺 Commons 许可与作者链，只写 QID/中文条目、不新增图片。schema/person.yaml 的五个 optional 字段与前端史料分节沿用。"
+}

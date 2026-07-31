@@ -1,0 +1,12 @@
+id: pl_cbdb_12268
+type: Place
+name: 正平
+modern_name: 正平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.616409
+longitude: 111.216148
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

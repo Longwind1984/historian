@@ -1,0 +1,12 @@
+id: pl_cbdb_11242
+type: Place
+name: 徐州
+modern_name: 徐州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.019436
+longitude: 115.657387
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

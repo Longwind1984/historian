@@ -1,0 +1,20 @@
+id: b_beijing_bao_wei
+type: Battle
+name: 北京保卫战
+date:
+  year: 1449
+  month: 10
+category: battle
+importance: 2
+location: pl_beijing_qing
+combatants:
+- k_ming
+- k_waci
+commanders:
+- p_yuqian
+victor: k_ming
+victor_commander: p_yuqian
+description: 土木堡后于谦力主抗战,拥立景泰帝,固守北京。瓦剌攻城不克,退。
+significance: 保住明朝。
+sources:
+- 明史·于谦传

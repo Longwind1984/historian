@@ -1,0 +1,12 @@
+id: pl_cbdb_14755
+type: Place
+name: 宋城
+modern_name: 宋城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.447662
+longitude: 115.646072
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Xian

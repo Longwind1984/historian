@@ -1,0 +1,12 @@
+id: pl_cbdb_101125
+type: Place
+name: 建州
+modern_name: 建州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.038864136
+longitude: 118.32378387
+first_year: 960
+last_year: 1162
+description: CBDB 行政类型:Zhou

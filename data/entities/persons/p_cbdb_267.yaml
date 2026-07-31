@@ -1,0 +1,14 @@
+id: p_cbdb_267
+type: Person
+name: 張保雍
+born:
+  year: 975
+died:
+  year: 1033
+gender: male
+birthplace: pl_cbdb_11486
+dynasty_ref: k_beisong
+bio: CBDB ID 267
+name_en: Zhang Baoyong
+sources:
+- CBDB (China Biographical Database)

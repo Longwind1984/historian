@@ -1,0 +1,21 @@
+id: p_chen_geng
+type: Person
+name: 陈赓
+gender: male
+born:
+  year: 1903
+died:
+  year: 1961
+roles:
+- general
+importance: 2
+bio: 湖南湘乡人。黄埔一期，东征时救蒋介石于险。曾在上海主持中共特科情报工作。抗战任八路军 386 旅旅长。解放战争率陈谢兵团挺进豫西，后入第二野战军，参与淮海、渡江、西南诸役。抗美援朝任志愿军副司令员。1952 年创办哈尔滨军事工程学院并任院长。1955 年授大将。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q697686"
+wikipedia_zh: "陈赓"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Chengeng.jpg"
+image_license: "Public domain"
+image_credit: "已处于公有领域"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chengeng.jpg"

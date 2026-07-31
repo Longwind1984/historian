@@ -1,0 +1,14 @@
+id: pl_kunming_wu
+type: Place
+name: 昆明
+modern_name: 昆明
+province: 云南
+latitude: 25.04
+longitude: 102.71
+category: city
+description: 三藩之乱吴三桂都
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

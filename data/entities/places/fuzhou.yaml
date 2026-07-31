@@ -1,0 +1,15 @@
+id: pl_fuzhou
+type: Place
+name: 福州
+modern_name: 福州
+province: 福建
+latitude: 26.08
+longitude: 119.3
+category: capital
+description: 闽都城
+aliases:
+- 长乐
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

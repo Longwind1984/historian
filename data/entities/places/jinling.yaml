@@ -1,0 +1,17 @@
+id: pl_jinling
+type: Place
+name: 金陵
+modern_name: 南京
+province: 江苏
+latitude: 32.04
+longitude: 118.78
+category: capital
+description: 杨吴/南唐都城
+aliases:
+- 建康
+- 江宁
+- 建邺
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

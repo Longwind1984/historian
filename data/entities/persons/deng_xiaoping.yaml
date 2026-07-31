@@ -1,0 +1,18 @@
+id: p_deng_xiaoping
+name: 邓小平
+type: Person
+born: {year: 1904}
+died: {year: 1997}
+roles:
+  - civil_official
+importance: 1
+bio: 四川广安人。改革开放的主要决策者,1978年起主导国家改革开放政策,曾任中央军委主席、中顾委主任等职。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q16977"
+wikipedia_zh: "邓小平"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Deng_Xiaoping_and_Jimmy_Carter_at_the_arrival_ceremony_for_the_Vice_Premier_of_China._-_NARA_-_183157-restored%28cropped%29.jpg/500px-Deng_Xiaoping_and_Jimmy_Carter_at_the_arrival_ceremony_for_the_Vice_Premier_of_China._-_NARA_-_183157-restored%28cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Deng_Xiaoping_and_Jimmy_Carter_at_the_arrival_ceremony_for_the_Vice_Premier_of_China._-_NARA_-_183157-restored(cropped).jpg"

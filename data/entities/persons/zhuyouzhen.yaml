@@ -1,0 +1,32 @@
+id: p_zhuyouzhen
+type: Person
+name: 朱友贞
+alias:
+- 朱锽
+- 后梁末帝
+born:
+  year: 888
+died:
+  year: 923
+  month: 11
+gender: male
+birthplace: pl_kaifeng
+bio: 后梁末帝。朱温第四子。913 年诛杀兄长友珪即位。在位期间与晋(后唐)长期征战,国势日蹙。923 年后唐军攻入汴梁,自杀,后梁亡。
+sources:
+- 旧五代史·梁末帝纪
+- 资治通鉴·卷269-272
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 913
+reign_end:
+  year: 923
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后梁末帝
+  regime: 后梁
+wikidata_id: "Q1319637"
+wikipedia_zh: "朱友貞"

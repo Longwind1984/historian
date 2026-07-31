@@ -1,0 +1,14 @@
+id: e_wanbi_guizhao
+type: Event
+name: 完璧归赵
+date:
+  year: -283
+category: diplomacy
+polities_involved:
+- k_qin_state
+- k_zhao_state
+importance: 3
+description: 赵惠文王得楚和氏璧，秦昭王愿以十五城易之。蔺相如奉璧入秦，察秦王无意偿城，使从者怀璧间道归赵，自请待罪，秦终未夺璧。后前279年渑池之会，相如随赵王赴会，秦王请赵王鼓瑟，相如以颈血溅秦王，迫秦王击缶，折秦气焰。归国拜上卿，位在老将廉颇之上，廉颇负荆请罪，二人结刎颈之交，是为"将相和"。
+sources:
+- 史记·廉颇蔺相如列传
+- 战国策·赵策

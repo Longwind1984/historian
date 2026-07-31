@@ -1,0 +1,32 @@
+id: p_li_yu_daizong
+type: Person
+name: 李豫
+alias:
+- 唐代宗
+- 代宗
+born:
+  year: 726
+died:
+  year: 779
+reign_start:
+  year: 762
+reign_end:
+  year: 779
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 肃宗子。763年史朝义死、安史之乱平；然吐蕃陷长安、藩镇割据成局，宦官程元振鱼朝恩相继专权。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐代宗
+  regime: 唐
+wikidata_id: "Q9753"
+wikipedia_zh: "唐代宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tang_Daizong.jpg"
+image_license: "Public domain"
+image_credit: "Because the artists have died over 100 years, so unknown."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tang_Daizong.jpg"

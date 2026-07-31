@@ -1,0 +1,15 @@
+id: e_jianyan_nandu
+type: Event
+name: 建炎南渡
+date:
+  year: 1127
+  month: 5
+category: territory
+importance: 2
+location: pl_yingtianfu
+polities_involved:
+- k_nansong
+description: 1127 五月徽宗第九子康王赵构在南京应天府即位,改元建炎,是为高宗,南宋始。1138 定都临安。
+impact: 开启南宋偏安一百五十余年局面。
+sources:
+- 宋史·高宗本纪

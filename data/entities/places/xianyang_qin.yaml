@@ -1,0 +1,14 @@
+id: pl_xianyang_qin
+type: Place
+name: 咸阳
+modern_name: 咸阳
+province: 陕西
+latitude: 34.34
+longitude: 108.71
+category: capital
+description: 秦都
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

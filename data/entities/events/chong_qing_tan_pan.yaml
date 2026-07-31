@@ -1,0 +1,22 @@
+id: e_chong_qing_tan_pan
+type: Event
+name: 重庆谈判
+date:
+  year: 1945
+  month: 8
+  day: 29
+end_date:
+  year: 1945
+  month: 10
+  day: 10
+category: diplomacy
+polities_involved:
+- k_minguo
+importance: 2
+description: 1945 年 8 月日本投降后，蒋介石三次电邀毛泽东赴渝谈判。8 月 28 日毛泽东偕周恩来、王若飞抵重庆，29 日起与国民党代表张群、王世杰等谈判。10
+  月 10 日双方签署《政府与中共代表会谈纪要》(双十协定)，确认和平建国方针，同意召开政治协商会议，中共承认蒋介石领导地位，但在军队国家化与政权组成上分歧未解。
+impact: 暂时缓和国共矛盾，但根本分歧未消，为翌年全面内战爆发埋下伏笔。
+sources:
+- 中华民国史·第三编
+- 中国共产党历史·第一卷
+- 中央档案馆·重庆谈判纪实

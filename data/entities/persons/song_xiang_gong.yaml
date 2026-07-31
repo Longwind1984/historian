@@ -1,0 +1,32 @@
+id: p_song_xiang_gong
+type: Person
+name: 子兹甫
+alias:
+- 宋襄公
+- 兹甫
+- 襄公
+gender: male
+roles:
+- monarch
+importance: 3
+reign_start:
+  year: -650
+reign_end:
+  year: -637
+bio: 宋襄公，子姓，名兹甫(一作兹父)，宋国国君，桓公之子。齐桓公卒后图霸，前639年盂之会为楚所执，旋释。前638年伐郑，楚救郑，战于泓水，襄公拘守"不鼓不成列"之古礼，待楚军渡河列阵方战，大败伤股，次年伤重而卒。其拘守旧军礼而败，反映商周"结日定战"旧战礼之尾声。
+life_events:
+- year: -650
+  event: 即位
+  source: 史记·宋微子世家
+- year: -639
+  event: 盂之会为楚所执
+  source: 左传·僖公二十一年
+- year: -638
+  event: 泓水之败伤股
+  source: 左传·僖公二十二年
+- year: -637
+  event: 伤重卒
+  source: 左传·僖公二十三年
+sources:
+- 史记·宋微子世家
+- 左传·僖公

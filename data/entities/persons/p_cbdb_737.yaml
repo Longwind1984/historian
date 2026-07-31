@@ -1,0 +1,14 @@
+id: p_cbdb_737
+type: Person
+name: 辛仲甫
+born:
+  year: 927
+died:
+  year: 1000
+gender: male
+birthplace: pl_cbdb_100599
+dynasty_ref: k_beisong
+bio: CBDB ID 737
+name_en: Xin Zhongfu
+sources:
+- CBDB (China Biographical Database)

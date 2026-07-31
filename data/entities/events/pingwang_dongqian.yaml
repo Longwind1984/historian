@@ -1,0 +1,16 @@
+id: e_pingwang_dongqian
+type: Event
+name: 平王东迁
+date:
+  year: -770
+category: territory
+polities_involved:
+- k_xizhou
+- k_dongzhou
+importance: 1
+description: 前771年犬戎破镐京、幽王被杀，前770年平王迁都洛邑，史称东周。王室东迁，王畿日蹙，天子威信大衰，诸侯力政，霸政由此兴起，开春秋之局。
+impact: 周室由盛转衰，天子共主地位名存实亡，齐楚晋秦相继争霸，春秋战国格局自此始。
+sources:
+- 史记·周本纪
+- 左传·隐公
+- 史记·十二诸侯年表

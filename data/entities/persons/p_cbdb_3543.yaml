@@ -1,0 +1,14 @@
+id: p_cbdb_3543
+type: Person
+name: 李端懿
+born:
+  year: 1013
+died:
+  year: 1060
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 3543
+name_en: Li Duanyi
+sources:
+- CBDB (China Biographical Database)

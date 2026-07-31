@@ -1,0 +1,14 @@
+id: p_cbdb_131602
+type: Person
+name: 傅習
+born:
+  year: 1462
+died:
+  year: 1528
+gender: male
+birthplace: pl_cbdb_303422
+dynasty_ref: k_ming
+bio: CBDB ID 131602
+name_en: Fu Xi
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,19 @@
+id: e_zhenguan_zhizhi
+type: Event
+name: 贞观之治
+date:
+  year: 627
+category: prosperity
+importance: 1
+location: pl_daxing
+polities_involved:
+- k_tang
+description: 627-649 唐太宗在位期间。虚心纳谏(魏征)、轻徭薄赋、完善三省六部制与科举、平东突厥(630)、灭吐谷浑(634)、和亲吐蕃(文成公主,641)、玄奘西行(629-645)。
+impact: 中国历史上著名的治世典范,唐朝进入全盛期。
+sources:
+- 旧唐书·太宗本纪
+- 贞观政要
+- 资治通鉴·卷192-198
+end_date:
+  year: 649
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Reign of Zhenguan.jpg

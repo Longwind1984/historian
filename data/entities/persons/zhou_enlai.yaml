@@ -1,0 +1,18 @@
+id: p_zhou_enlai
+name: 周恩来
+type: Person
+born: {year: 1898}
+died: {year: 1976}
+roles:
+  - civil_official
+importance: 1
+bio: 江苏淮安人。1949-1976年任国务院总理(政务院总理),长期兼任外交部长,主持政府与外交工作。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q17410"
+wikipedia_zh: "周恩来"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/47/Zhou_Enlai_MeiyuanXincun17_Nanjing_1946.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhou_Enlai_MeiyuanXincun17_Nanjing_1946.jpg"

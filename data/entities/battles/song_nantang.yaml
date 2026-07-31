@@ -1,0 +1,32 @@
+id: b_song_nantang
+type: Battle
+name: 宋灭南唐
+date:
+  year: 974
+  month: 9
+importance: 3
+location: pl_jinling
+march:
+- from: pl_jiangling
+  to: pl_caishiji
+  note: 宋军自荆南顺流而东，继而驻军采石矶；此段记曹彬大军沿江进至采石矶的阶段。《宋史·曹彬传》
+- from: pl_caishiji
+  to: pl_jinling
+  note: 宋军自采石矶渡江后师进次秦淮，金陵受围；此段记采石矶至南唐都城的进军阶段。《宋史·曹彬传》
+combatants:
+- k_song
+- k_nantang
+commanders:
+- p_zhaokuangyin
+- p_liyu
+victor: k_song
+victor_commander: p_zhaokuangyin
+description: 曹彬、潘美率十万大军,自荆南沿江东下。975 年破金陵,李煜降。曹彬不杀一人入城。
+significance: 南方最大政权归宋,统一大势定。
+sources:
+- 续资治通鉴长编·卷14-17
+- 宋史·曹彬传
+end_date:
+  year: 976
+  month: 1
+category: conquest

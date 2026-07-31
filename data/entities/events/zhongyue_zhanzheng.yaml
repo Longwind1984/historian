@@ -1,0 +1,19 @@
+id: e_zhongyue_zhanzheng
+type: Event
+name: 中越战争
+date:
+  year: 1979
+  month: 2
+end_date:
+  year: 1979
+  month: 3
+category: war
+polities_involved:
+- k_prc
+importance: 2
+description: 1979 年 2 月 17 日中国出兵越南北部，称"对越自卫还击战"。起因包括越南 1978 年底出兵柬埔寨推翻红色高棉、越苏结盟、边境冲突与排华。中方于
+  3 月 5 日宣布达成目的开始撤军，16 日撤完。双方伤亡均重，各自宣称获胜。此后两国在老山、者阴山一线对峙至 1980 年代末。
+impact: 中苏对抗的延伸。1991 年中越关系正常化，2009 年完成陆地边界勘定。
+sources:
+- 当代中国史
+- 中华人民共和国史

@@ -1,0 +1,15 @@
+id: pl_lizhou
+type: Place
+name: 潞州
+modern_name: 长治
+province: 山西
+latitude: 36.2
+longitude: 113.12
+category: battlefield
+description: 朱梁vs晋 长期争夺
+aliases:
+- 上党
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

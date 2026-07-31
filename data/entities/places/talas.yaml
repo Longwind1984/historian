@@ -1,0 +1,13 @@
+id: pl_talas
+type: Place
+name: 怛罗斯
+modern_name: 塔拉兹
+province: 哈萨克斯坦
+latitude: 42.9
+longitude: 71.0
+category: battlefield
+description: 754 怛罗斯之战
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

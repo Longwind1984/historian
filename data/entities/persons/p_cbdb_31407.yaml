@@ -1,0 +1,14 @@
+id: p_cbdb_31407
+type: Person
+name: 張說
+born:
+  year: 667
+died:
+  year: 731
+gender: male
+birthplace: pl_cbdb_14693
+dynasty_ref: k_tang
+bio: CBDB ID 31407
+name_en: Zhang Yue
+sources:
+- CBDB (China Biographical Database)

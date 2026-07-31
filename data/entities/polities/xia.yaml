@@ -1,0 +1,18 @@
+id: k_xia
+type: Polity
+name: 夏
+name_en: Xia
+color: '#8e44ad'
+founded:
+  year: -2070
+ended:
+  year: -1600
+founder: p_dayu
+ended_by: k_shang
+description: 夏政权。约前2070年禹受舜禅让建国，相传都阳城；传十四世十七王至桀，鸣条之战败于商汤而亡。半信史，年代模糊。
+sources:
+- 史记·夏本纪
+- 竹书纪年·夏纪
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true

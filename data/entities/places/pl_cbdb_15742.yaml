@@ -1,0 +1,12 @@
+id: pl_cbdb_15742
+type: Place
+name: 丹徒
+modern_name: 丹徒
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.20649
+longitude: 119.44429
+first_year: 624
+last_year: 959
+description: CBDB 行政类型:Xian

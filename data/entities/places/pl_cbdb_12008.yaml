@@ -1,0 +1,12 @@
+id: pl_cbdb_12008
+type: Place
+name: 慶陽府
+modern_name: 慶陽府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.0051651
+longitude: 107.87602234
+first_year: 1125
+last_year: 1126
+description: CBDB 行政类型:Fu

@@ -1,0 +1,12 @@
+id: pl_cbdb_7528
+type: Place
+name: 嘉定
+modern_name: 嘉定
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.385845184
+longitude: 121.24902344
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

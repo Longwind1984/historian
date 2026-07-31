@@ -1,0 +1,17 @@
+id: pl_yiling
+type: Place
+name: 夷陵
+modern_name: 宜昌
+province: 湖北
+latitude: 30.7
+longitude: 111.32
+category: battlefield
+description: 222 夷陵之战
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集
+aliases:
+- 猇亭

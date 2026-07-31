@@ -1,0 +1,20 @@
+id: e_yi_er_ba_shi_bian
+type: Event
+name: 一二八事变
+date:
+  year: 1932
+  month: 1
+  day: 28
+end_date:
+  year: 1932
+  month: 3
+category: war
+polities_involved:
+- k_minguo
+importance: 3
+description: 1932 年 1 月 28 日，日本以日僧事件为借口，向上海闸北中国驻军发动进攻。驻沪第十九路军(蔡廷锴、蒋光鼐)与随后增援的第五军(张治中)奋起抵抗，血战月余。3
+  月在英国调停下停战，5 月签订《淞沪停战协定》，中国军队撤出上海，日军留驻上海。
+impact: 打破日军"四小时占领上海"的设想，鼓舞全国抗日士气；上海主权进一步受限。
+sources:
+- 中华民国史·第三编
+- 中国抗日战争史·上卷

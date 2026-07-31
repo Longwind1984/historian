@@ -1,0 +1,37 @@
+id: p_dayu
+type: Person
+name: 禹
+alias:
+- 大禹
+- 夏禹
+- 姒禹
+gender: male
+roles:
+- emperor
+- imperial_kin
+importance: 1
+reign_start:
+  year: -2070
+bio: 夏后氏，姒姓，名文命，鲧之子。奉舜命治水十三年，疏导九河、划分九州，因功受舜禅让，约前2070年建国号夏。涂山之会诸侯，又收九州之金铸九鼎。传说与半信史人物，年代模糊。
+life_events:
+- year: -2100
+  event: 奉舜命治水，疏导九河、划定九州
+  source: 尚书·禹贡
+- year: -2070
+  event: 受舜禅让，建立夏朝
+  source: 史记·夏本纪
+- year: -2070
+  event: 涂山之会，诸侯执玉帛者万国
+  source: 左传·哀公七年
+- year: -2060
+  event: 东巡狩，崩于会稽(传说)
+  source: 史记·夏本纪
+sources:
+- 史记·夏本纪
+- 尚书·禹贡
+- 竹书纪年·夏纪
+- 左传·宣公三年
+ext:
+  disputed: true
+  title: 禹
+  regime: 夏

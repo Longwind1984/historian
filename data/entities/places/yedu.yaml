@@ -1,0 +1,15 @@
+id: pl_yedu
+type: Place
+name: 邺都
+modern_name: 临漳
+province: 河北
+latitude: 36.21
+longitude: 114.62
+category: capital
+description: 东魏北齐都
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

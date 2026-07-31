@@ -1,0 +1,14 @@
+id: p_cbdb_65735
+type: Person
+name: 李善蘭
+born:
+  year: 1810
+died:
+  year: 1884
+gender: male
+birthplace: pl_cbdb_7604
+dynasty_ref: k_qing
+bio: CBDB ID 65735
+name_en: Li Shanlan
+sources:
+- CBDB (China Biographical Database)

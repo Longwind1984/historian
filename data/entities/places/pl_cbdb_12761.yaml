@@ -1,0 +1,12 @@
+id: pl_cbdb_12761
+type: Place
+name: 餘姚
+modern_name: 餘姚
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.049067
+longitude: 121.152763
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

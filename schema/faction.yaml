@@ -1,0 +1,72 @@
+type: Faction
+label: 派系/集团
+label_en: Faction
+icon: 🏛️
+color: '#9b59b6'
+description: 非政权但有重要历史影响的群体(军事集团、政治派系、学术流派、地域集团、部族集团、宗教派别等)
+fields:
+  name:
+    type: string
+    required: true
+    label: 名称
+  nature:
+    type: enum
+    options:
+    - military_clan
+    - political
+    - scholarly
+    - regional
+    - ethnic
+    - religious
+    - eunuch
+    - merchant
+    label: 性质
+  founded:
+    type: year_month
+    optional: true
+    label: 形成时间
+  dissolved:
+    type: year_month
+    optional: true
+    label: 解体/式微时间
+  core_region:
+    type: ref
+    to: Place
+    optional: true
+    label: 核心区域
+  description:
+    type: text
+    required: true
+    label: 描述
+  significance:
+    type: text
+    optional: true
+    label: 历史意义
+  # core_members 已删除(2026-07-16)。成员是「人与集团的关系」,归 relations
+  # (member_of / leader_of),不是 Faction 的属性 —— 与 person.birthplace 同理。
+  # 原字段存的是人名字符串而非 id:不受校验,且 123 个名字里 32 个查无此人而库自己不知道,
+  # 前端还把人名当 id 渲染成死链。新增成员一律写 member_of/leader_of 关系。
+  peak_period:
+    type: string
+    optional: true
+    label: 鼎盛期
+  sources:
+    type: array
+    items: string
+    label: 史料出处
+  image:
+    type: url
+    optional: true
+    label: 配图
+ext: allow
+relations:
+  outgoing:
+  - rival_of
+  - allied_with
+  - evolved_into
+  - succeeded_by
+  incoming:
+  - member_of
+  - leader_of
+  - rival_of
+  - allied_with

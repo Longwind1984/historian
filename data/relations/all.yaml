@@ -1,0 +1,1336 @@
+- from: p_zhuwen
+  to: p_zhuyougui
+  type: father_of
+  since:
+    year: 888
+  until:
+    year: 912
+    month: 7
+  note: 第三子
+- from: p_zhuwen
+  to: p_zhuyouzhen
+  type: father_of
+  since:
+    year: 888
+  until:
+    year: 912
+    month: 7
+  note: 第四子
+- from: p_zhuyougui
+  to: p_zhuwen
+  type: killed
+  since:
+    year: 912
+    month: 7
+  note: 弑父篡位
+- from: p_zhuyouzhen
+  to: p_zhuyougui
+  type: killed
+  since:
+    year: 913
+    month: 2
+  note: 诛友珪自立
+- from: p_zhuwen
+  to: k_houliang
+  type: founded
+  since:
+    year: 907
+    month: 4
+  note: 篡唐建梁
+- from: p_zhuwen
+  to: k_tang
+  type: usurped
+  since:
+    year: 907
+    month: 4
+  note: 唐哀帝禅让
+- from: p_zhuwen
+  to: pl_songzhou
+  type: born_in
+  note: 籍贯
+- from: p_zhuwen
+  to: pl_kaifeng
+  type: born_in
+  since:
+    year: 907
+    month: 4
+  until:
+    year: 912
+    month: 7
+  note: 定都
+- from: k_houliang
+  to: pl_kaifeng
+  type: capital_at
+  note: 以汴州为东都开封府
+  since:
+    year: 907
+    month: 4
+  until:
+    year: 923
+    month: 11
+- from: k_houliang
+  to: k_tang
+  type: supplanted
+  since:
+    year: 907
+    month: 4
+  note: 取代唐朝
+- from: p_zhuyougui
+  to: k_houliang
+  type: succeeded_by
+  since:
+    year: 912
+    month: 7
+  until:
+    year: 913
+    month: 2
+  note: 郢王
+- from: p_zhuyouzhen
+  to: k_houliang
+  type: succeeded_by
+  since:
+    year: 913
+    month: 2
+  until:
+    year: 923
+    month: 11
+  note: 末帝
+- from: k_houliang
+  to: k_houdong
+  type: destroyed_by
+  since:
+    year: 923
+    month: 11
+  note: 为后唐所灭
+- from: p_zhuwen
+  to: p_likaiqu
+  type: rival_of
+  since:
+    year: 884
+  until:
+    year: 912
+    month: 7
+  note: 梁晋长期争霸
+- from: p_zhuwen
+  to: f_zhuwen_group
+  type: leader_of
+  note: 宣武节度使集团,梁之基业
+  since:
+    year: 880
+  until:
+    year: 912
+    month: 7
+- from: p_likaiqu
+  to: p_licunxu
+  type: father_of
+  since:
+    year: 885
+    month: 12
+  until:
+    year: 908
+    month: 1
+- from: p_licunxu
+  to: p_lisiyuan
+  type: served_under
+  since:
+    year: 913
+  until:
+    year: 926
+    month: 5
+  note: 庄宗养子关系;后为明宗
+- from: p_likaiqu
+  to: k_houdong
+  type: founded
+  since:
+    year: 923
+    month: 4
+  note: 灭梁建唐(子存勖完成)
+- from: p_likaiqu
+  to: f_shatuo
+  type: leader_of
+  note: 沙陀酋长,唐赐李姓,据河东
+  since:
+    year: 880
+  until:
+    year: 908
+    month: 1
+- from: p_licunxu
+  to: f_shatuo
+  type: leader_of
+  note: 灭梁建后唐,庄宗
+  since:
+    year: 908
+    month: 1
+  until:
+    year: 926
+    month: 5
+- from: p_licunxu
+  to: k_houdong
+  type: founded
+  since:
+    year: 923
+    month: 4
+  note: 庄宗灭梁即位
+- from: p_licunxu
+  to: p_guocongqian
+  type: served_under
+  since:
+    year: 923
+  until:
+    year: 926
+    month: 5
+  note: 伶人
+- from: p_guocongqian
+  to: p_licunxu
+  type: killed
+  since:
+    year: 926
+    month: 5
+  note: 兴教门之变
+- from: p_lisiyuan
+  to: k_houdong
+  type: succeeded_by
+  since:
+    year: 926
+    month: 5
+  until:
+    year: 933
+    month: 12
+  note: 明宗
+- from: p_liconghou
+  to: k_houdong
+  type: succeeded_by
+  since:
+    year: 933
+    month: 12
+  until:
+    year: 934
+    month: 4
+  note: 闵帝
+- from: p_licongke
+  to: k_houdong
+  type: succeeded_by
+  since:
+    year: 934
+    month: 4
+  until:
+    year: 936
+    month: 11
+  note: 末帝
+- from: p_licongke
+  to: p_liconghou
+  type: usurped
+  since:
+    year: 934
+    month: 4
+  note: 废闵帝
+- from: k_houdong
+  to: pl_luoyang
+  type: capital_at
+  note: 923年灭梁后都洛阳
+  since:
+    year: 923
+    month: 4
+  until:
+    year: 936
+    month: 11
+- from: k_houdong
+  to: k_houjin
+  type: destroyed_by
+  since:
+    year: 936
+    month: 11
+  note: 石敬瑭借契丹兵所灭
+- from: p_licongke
+  to: p_shijingtan
+  type: rival_of
+  since:
+    year: 936
+    month: 1
+  until:
+    year: 936
+    month: 11
+  note: 末帝 vs 石敬瑭
+- from: p_lisiyuan
+  to: p_shijingtan
+  type: father_of
+  note: 翁婿(实为养女之夫)
+- from: p_lisiyuan
+  to: f_shatuo
+  type: leader_of
+  note: 后唐明宗,沙陀名将
+  since:
+    year: 926
+    month: 5
+  until:
+    year: 933
+    month: 12
+- from: p_shijingtan
+  to: p_lisiyuan
+  type: served_under
+  until:
+    year: 936
+    month: 11
+  note: 李嗣源女婿
+- from: p_shijingtan
+  to: k_houjin
+  type: founded
+  since:
+    year: 936
+    month: 11
+  note: 借契丹兵灭唐建晋
+- from: p_shijingtan
+  to: p_yeludeguang
+  type: served_under
+  since:
+    year: 936
+    month: 11
+  until:
+    year: 942
+    month: 6
+  note: 儿皇帝,称臣于契丹
+- from: p_shijingtan
+  to: k_liao
+  type: served_under
+  since:
+    year: 936
+    month: 11
+  until:
+    year: 942
+    month: 6
+  note: 自称儿皇帝
+- from: p_shijingtan
+  to: k_houdong
+  type: usurped
+  since:
+    year: 936
+    month: 11
+  note: 灭后唐
+- from: p_shijingtan
+  to: p_shizhonggui
+  type: uncle_of
+  note: 叔侄(石敬瑭兄子)
+- from: p_shizhonggui
+  to: k_houjin
+  type: succeeded_by
+  since:
+    year: 942
+    month: 6
+  until:
+    year: 947
+    month: 1
+  note: 出帝
+- from: p_shizhonggui
+  to: k_liao
+  type: rival_of
+  since:
+    year: 944
+  until:
+    year: 947
+    month: 1
+  note: 称孙不称臣,引发战争
+- from: p_yeludeguang
+  to: p_shizhonggui
+  type: killed
+  since:
+    year: 947
+    month: 1
+  note: 俘出帝于汴梁
+- from: k_houjin
+  to: pl_kaifeng
+  type: capital_at
+  note: 937年迁都汴州开封
+  since:
+    year: 937
+    month: 3
+  until:
+    year: 947
+    month: 1
+- from: k_houjin
+  to: k_liao
+  type: destroyed_by
+  since:
+    year: 947
+    month: 1
+  note: 为契丹所灭
+- from: p_shijingtan
+  to: f_shatuo
+  type: member_of
+  note: 沙陀人,李嗣源女婿
+- from: p_liuzhiyuan
+  to: p_shijingtan
+  type: served_under
+  until:
+    year: 942
+    month: 6
+  note: 后晋重臣
+- from: p_liuzhiyuan
+  to: k_houhan
+  type: founded
+  since:
+    year: 947
+    month: 2
+  note: 契丹北撤后建国
+- from: p_liuchengyou
+  to: k_houhan
+  type: succeeded_by
+  since:
+    year: 948
+    month: 1
+  until:
+    year: 950
+    month: 11
+  note: 隐帝
+- from: p_liuzhiyuan
+  to: p_liuchengyou
+  type: father_of
+  since:
+    year: 931
+- from: p_liuchengyou
+  to: p_guowei
+  type: rival_of
+  since:
+    year: 950
+    month: 11
+  until:
+    year: 950
+    month: 11
+  note: 诛郭威家属并下诏杀郭威，反激其起兵
+- from: p_liuchengyou
+  to: e_guo_weizhou
+  type: participated_in
+  since:
+    year: 950
+    month: 11
+  note: 诛辅政大臣及郭威家属并出兵拒郭威，兵败后被杀
+- from: k_houhan
+  to: pl_kaifeng
+  type: capital_at
+  note: 都汴州开封
+  since:
+    year: 947
+    month: 2
+  until:
+    year: 951
+    month: 1
+- from: k_houhan
+  to: k_houzhou
+  type: destroyed_by
+  since:
+    year: 951
+    month: 1
+  note: 郭威正月即位，代汉建周
+- from: p_liuzhiyuan
+  to: p_liuchong
+  type: sibling_of
+  note: 兄弟
+- from: p_liuzhiyuan
+  to: f_shatuo
+  type: member_of
+  note: 沙陀人,后晋重臣
+- from: p_guowei
+  to: k_houzhou
+  type: founded
+  since:
+    year: 951
+    month: 1
+  note: 代汉建周
+- from: p_guowei
+  to: k_houhan
+  type: usurped
+  note: 十二月澶州军变后监国，次年正月即位建周
+  since:
+    year: 951
+    month: 1
+- from: p_guowei
+  to: p_chairong
+  type: father_of
+  until:
+    year: 954
+    month: 2
+  note: 养子(柴氏子,从柴姓)
+- from: p_chairong
+  to: k_houzhou
+  type: succeeded_by
+  since:
+    year: 954
+    month: 2
+  until:
+    year: 959
+    month: 7
+  note: 世宗
+- from: p_chairong
+  to: p_chaizongxun
+  type: father_of
+  since:
+    year: 953
+    month: 9
+- from: p_chaizongxun
+  to: k_houzhou
+  type: succeeded_by
+  since:
+    year: 959
+    month: 7
+  until:
+    year: 960
+    month: 2
+  note: 恭帝,7岁即位
+- from: p_zhaokuangyin
+  to: p_chaizongxun
+  type: usurped
+  since:
+    year: 960
+    month: 2
+  note: 陈桥兵变
+- from: p_zhaokuangyin
+  to: k_song
+  type: founded
+  since:
+    year: 960
+    month: 2
+  note: 代周建宋
+- from: p_zhaokuangyin
+  to: p_chairong
+  type: served_under
+  since:
+    year: 954
+  until:
+    year: 959
+    month: 7
+  note: 殿前都点检
+- from: k_houzhou
+  to: pl_kaifeng
+  type: capital_at
+  note: 都汴州开封
+  since:
+    year: 951
+    month: 1
+  until:
+    year: 960
+    month: 2
+- from: k_houzhou
+  to: k_song
+  type: destroyed_by
+  since:
+    year: 960
+    month: 2
+  note: 陈桥兵变
+- from: p_chairong
+  to: p_liuchong
+  type: rival_of
+  since:
+    year: 954
+    month: 3
+  until:
+    year: 959
+    month: 7
+  note: 高平之战
+- from: p_chairong
+  to: b_gaoping
+  type: led
+  since:
+    year: 954
+    month: 3
+  note: 亲自督战
+- from: p_chairong
+  to: b_houzhou_nantang
+  type: led
+  since:
+    year: 956
+    month: 2
+  note: 三征南唐
+- from: p_chairong
+  to: b_houzhou_liao
+  type: led
+  since:
+    year: 959
+    month: 4
+  note: 北伐辽
+- from: p_chairong
+  to: e_zhou_reform
+  type: participated_in
+  since:
+    year: 955
+  until:
+    year: 959
+    month: 7
+  note: 主导
+- from: p_chairong
+  to: e_zhou_buddhism
+  type: participated_in
+  since:
+    year: 955
+  note: 主导灭佛
+- from: p_zhaokuangyin
+  to: b_song_jingnan
+  type: led
+  since:
+    year: 963
+    month: 1
+  note: 策动
+- from: p_zhaokuangyin
+  to: b_song_houshu
+  type: led
+  since:
+    year: 964
+    month: 11
+  note: 策动
+- from: p_zhaokuangyin
+  to: b_song_nanhan
+  type: led
+  since:
+    year: 970
+    month: 9
+  note: 策动
+- from: p_zhaokuangyin
+  to: b_song_nantang
+  type: led
+  since:
+    year: 974
+    month: 9
+  note: 策动
+- from: k_song
+  to: pl_kaifeng
+  type: capital_at
+  note: 东京开封府
+  since:
+    year: 960
+    month: 2
+- from: p_wangjian
+  to: k_qianshu
+  type: founded
+  note: 唐蜀王,907年称帝
+  since:
+    year: 907
+    month: 9
+- from: p_wangyan
+  to: k_qianshu
+  type: succeeded_by
+  since:
+    year: 918
+    month: 6
+  until:
+    year: 925
+    month: 11
+  note: 后主
+- from: p_wangjian
+  to: p_wangyan
+  type: father_of
+  since:
+    year: 899
+  note: 第十一子
+- from: k_qianshu
+  to: pl_chengdu
+  type: capital_at
+  note: 都成都
+  since:
+    year: 907
+    month: 9
+  until:
+    year: 925
+    month: 11
+- from: k_qianshu
+  to: k_houdong
+  type: destroyed_by
+  since:
+    year: 925
+    month: 11
+  note: 郭崇韬统兵灭之
+- from: p_guoweiwei
+  to: k_qianshu
+  type: destroyed_by
+  since:
+    year: 925
+    month: 11
+  note: 925年统兵灭前蜀
+- from: p_mengzhixiang
+  to: k_houshu
+  type: founded
+  note: 后唐封蜀王,934年称帝
+  since:
+    year: 934
+    month: 1
+- from: p_mengchang
+  to: k_houshu
+  type: succeeded_by
+  since:
+    year: 934
+    month: 8
+  until:
+    year: 965
+    month: 2
+  note: 后主
+- from: p_mengzhixiang
+  to: p_mengchang
+  type: father_of
+  since:
+    year: 919
+- from: k_houshu
+  to: pl_chengdu
+  type: capital_at
+  note: 都成都
+  since:
+    year: 934
+    month: 1
+  until:
+    year: 965
+    month: 2
+- from: k_houshu
+  to: k_song
+  type: destroyed_by
+  note: 宋太祖遣王全斌灭蜀
+  since:
+    year: 965
+    month: 2
+- from: p_yanghangmi
+  to: k_yangwu
+  type: founded
+  since:
+    year: 902
+    month: 4
+  note: 唐封吴王
+- from: p_yangpu
+  to: k_yangwu
+  type: succeeded_by
+  since:
+    year: 920
+  until:
+    year: 937
+    month: 10
+  note: 睿帝
+- from: k_yangwu
+  to: pl_jinling
+  type: capital_at
+  since:
+    year: 937
+  until:
+    year: 937
+    month: 10
+  note: 迁都金陵(杨溥时)
+- from: p_li_bian
+  to: k_nantang
+  type: founded
+  since:
+    year: 937
+    month: 10
+  note: 代吴建齐→唐
+- from: p_lijing
+  to: k_nantang
+  type: succeeded_by
+  since:
+    year: 943
+    month: 3
+  until:
+    year: 961
+    month: 8
+  note: 元宗
+- from: p_liyu
+  to: k_nantang
+  type: succeeded_by
+  since:
+    year: 961
+    month: 8
+  until:
+    year: 975
+    month: 11
+  note: 后主
+- from: p_lijing
+  to: p_liyu
+  type: father_of
+  since:
+    year: 937
+    month: 7
+  note: 第六子
+- from: k_nantang
+  to: pl_jinling
+  type: capital_at
+  note: 937年迁都金陵
+  since:
+    year: 937
+    month: 10
+  until:
+    year: 975
+    month: 11
+- from: k_nantang
+  to: k_min
+  type: destroyed_by
+  since:
+    year: 945
+    month: 11
+  note: 灭闽
+- from: k_nantang
+  to: k_chu
+  type: destroyed_by
+  since:
+    year: 951
+    month: 11
+  note: 灭楚
+- from: k_nantang
+  to: k_song
+  type: destroyed_by
+  since:
+    year: 975
+    month: 11
+  note: 宋灭南唐
+- from: p_lijing
+  to: f_nantang_faction
+  type: member_of
+  note: 南唐元宗,词人
+  since:
+    year: 943
+  until:
+    year: 961
+    month: 8
+- from: p_liyu
+  to: f_nantang_faction
+  type: member_of
+  note: 南唐后主,词中之帝
+  since:
+    year: 961
+  until:
+    year: 975
+    month: 11
+- from: p_liyu
+  to: b_song_nantang
+  type: participated_in
+  since:
+    year: 974
+    month: 9
+  until:
+    year: 976
+    month: 1
+  note: 被围金陵
+- from: p_qianliu
+  to: k_wuyue
+  type: founded
+  since:
+    year: 907
+    month: 5
+  note: 后梁封吴越王
+- from: p_qianyuanguan
+  to: k_wuyue
+  type: succeeded_by
+  since:
+    year: 932
+    month: 3
+  until:
+    year: 941
+    month: 9
+  note: 文穆王
+- from: p_qianhongzuo
+  to: k_wuyue
+  type: succeeded_by
+  since:
+    year: 941
+    month: 9
+  until:
+    year: 947
+    month: 6
+  note: 忠献王
+- from: p_qianhongchu
+  to: k_wuyue
+  type: succeeded_by
+  since:
+    year: 948
+    month: 8
+  until:
+    year: 978
+    month: 5
+  note: 忠懿王
+- from: p_qianliu
+  to: p_qianyuanguan
+  type: father_of
+  since:
+    year: 887
+  note: 第七子
+- from: p_qianyuanguan
+  to: p_qianhongzuo
+  type: father_of
+  since:
+    year: 928
+- from: p_qianyuanguan
+  to: p_qianhongchu
+  type: father_of
+  since:
+    year: 929
+    month: 8
+  note: 第九子
+- from: p_qianliu
+  to: f_qian_group
+  type: leader_of
+  note: 镇海镇东节度使,据两浙
+  since:
+    year: 875
+  until:
+    year: 932
+    month: 3
+- from: k_wuyue
+  to: pl_hangzhou
+  type: capital_at
+  note: 都杭州,号西府
+  since:
+    year: 907
+    month: 5
+  until:
+    year: 978
+    month: 5
+- from: k_wuyue
+  to: k_song
+  type: destroyed_by
+  since:
+    year: 978
+    month: 5
+  note: 纳土归宋
+- from: p_qianhongchu
+  to: e_jingnan_peace
+  type: participated_in
+  since:
+    year: 978
+    month: 5
+  note: 纳土归宋
+- from: p_qianhongchu
+  to: k_song
+  type: served_under
+  since:
+    year: 978
+    month: 5
+  note: 归宋
+- from: p_wangshenzhi
+  to: k_min
+  type: founded
+  since:
+    year: 909
+    month: 4
+  note: 后梁封闽王
+- from: p_wangyanjun
+  to: k_min
+  type: succeeded_by
+  since:
+    year: 927
+  until:
+    year: 935
+    month: 10
+  note: 太宗
+- from: p_wangyanxi
+  to: k_min
+  type: succeeded_by
+  since:
+    year: 939
+  until:
+    year: 944
+    month: 3
+  note: 景宗
+- from: p_wangshenzhi
+  to: p_wangyanjun
+  type: father_of
+  note: 次子
+- from: p_wangshenzhi
+  to: p_wangyanxi
+  type: father_of
+- from: k_min
+  to: pl_fuzhou
+  type: capital_at
+  note: 都长乐府(福州)
+  since:
+    year: 909
+    month: 4
+  until:
+    year: 945
+    month: 11
+- from: k_min
+  to: k_nantang
+  type: destroyed_by
+  note: 945年为南唐所灭
+  since:
+    year: 945
+    month: 11
+- from: p_mayin
+  to: k_chu
+  type: founded
+  since:
+    year: 907
+    month: 4
+  note: 后梁封楚王
+- from: p_maxifan
+  to: k_chu
+  type: succeeded_by
+  since:
+    year: 930
+  until:
+    year: 947
+    month: 5
+  note: 文昭王
+- from: p_mayin
+  to: p_maxifan
+  type: father_of
+  since:
+    year: 899
+  note: 次子
+- from: k_chu
+  to: pl_changsha
+  type: capital_at
+  note: 都长沙
+  since:
+    year: 907
+    month: 4
+  until:
+    year: 951
+    month: 11
+- from: k_chu
+  to: k_nantang
+  type: destroyed_by
+  note: 951年为南唐所灭
+  since:
+    year: 951
+    month: 11
+- from: p_liuyan
+  to: k_nanhan
+  type: founded
+  since:
+    year: 917
+    month: 8
+  note: 称帝于广州
+- from: p_liuchang
+  to: k_nanhan
+  type: succeeded_by
+  since:
+    year: 958
+  until:
+    year: 971
+    month: 3
+  note: 后主
+- from: p_liuyan
+  to: p_liuchang
+  type: grandfather_of
+  note: 经刘晟,南汉后主刘鋹
+- from: k_nanhan
+  to: pl_guangzhou
+  type: capital_at
+  note: 都兴王府(广州)
+  since:
+    year: 917
+    month: 8
+  until:
+    year: 971
+    month: 3
+- from: k_nanhan
+  to: k_song
+  type: destroyed_by
+  note: 971年宋灭南汉
+  since:
+    year: 971
+    month: 3
+- from: p_liuchang
+  to: b_song_nanhan
+  type: participated_in
+  since:
+    year: 970
+    month: 9
+  until:
+    year: 971
+    month: 2
+  note: 败降
+- from: p_gaojixing
+  to: k_jingnan
+  type: founded
+  since:
+    year: 924
+    month: 3
+  note: 后唐封南平王
+- from: p_gaobaorong
+  to: k_jingnan
+  type: succeeded_by
+  since:
+    year: 948
+  until:
+    year: 960
+    month: 8
+  note: 贞懿王
+- from: k_jingnan
+  to: pl_jiangling
+  type: capital_at
+  note: 都江陵
+  since:
+    year: 924
+    month: 3
+  until:
+    year: 963
+    month: 3
+- from: k_jingnan
+  to: k_song
+  type: destroyed_by
+  note: 963年宋平荆南
+  since:
+    year: 963
+    month: 3
+- from: p_liuchong
+  to: k_beihan
+  type: founded
+  since:
+    year: 951
+    month: 2
+  note: 后周代汉,刘崇据太原称帝
+- from: p_liuchong
+  to: k_liao
+  type: served_under
+  since:
+    year: 951
+    month: 2
+  until:
+    year: 954
+    month: 11
+  note: 称侄于契丹
+- from: p_liuchong
+  to: b_gaoping
+  type: led
+  since:
+    year: 954
+    month: 3
+  note: 联合契丹南下
+- from: p_liujiyuan
+  to: k_beihan
+  type: succeeded_by
+  since:
+    year: 968
+  until:
+    year: 979
+    month: 6
+  note: 末代君主
+- from: p_liuchong
+  to: p_liujiyuan
+  type: grandfather_of
+  note: 经刘承钧养子,北汉末帝刘继元
+- from: k_beihan
+  to: pl_taiyuan
+  type: capital_at
+  note: 都晋阳(太原)
+  since:
+    year: 951
+    month: 2
+  until:
+    year: 979
+    month: 6
+- from: k_beihan
+  to: k_song
+  type: destroyed_by
+  since:
+    year: 979
+    month: 6
+  note: 宋太宗亲征
+- from: p_liujiyuan
+  to: b_song_beihan
+  type: participated_in
+  since:
+    year: 979
+    month: 2
+  until:
+    year: 979
+    month: 6
+  note: 坚守至粮尽降
+- from: p_yeluabaoji
+  to: k_liao
+  type: founded
+  note: 统一契丹八部,916年称帝
+  since:
+    year: 916
+    month: 1
+- from: p_yeludeguang
+  to: k_liao
+  type: succeeded_by
+  since:
+    year: 926
+    month: 11
+  until:
+    year: 947
+    month: 5
+  note: 辽太宗
+- from: p_yeluabaoji
+  to: p_yeludeguang
+  type: father_of
+  since:
+    year: 902
+  note: 次子
+- from: k_liao
+  to: pl_liaoshangjing
+  type: capital_at
+  note: 都上京临潢府
+  since:
+    year: 916
+    month: 1
+- from: p_yeludeguang
+  to: b_yanzhou_liao
+  type: led
+  since:
+    year: 946
+    month: 12
+  note: 亲征灭晋
+- from: p_yeludeguang
+  to: e_liao_kingdom
+  type: participated_in
+  since:
+    year: 947
+  note: 改国号辽
+- from: k_houjin
+  to: p_yeludeguang
+  type: destroyed_by
+  note: 耶律德光南下灭晋
+  since:
+    year: 947
+    month: 1
+- from: p_yuwentai
+  to: f_guanlong
+  type: leader_of
+  since:
+    year: 530
+  until:
+    year: 556
+  note: 创立者
+- from: p_yangjian
+  to: f_guanlong
+  type: member_of
+  note: 关陇贵族,杨忠之子,代周建隋
+  since:
+    year: 541
+    month: 7
+  until:
+    year: 604
+    month: 8
+- from: p_yuwentai
+  to: p_yangjian
+  type: predecessor_of
+  note: 杨坚承袭关陇政治遗产
+- from: p_yangjian
+  to: pl_wuyang
+  type: born_in
+  note: 生于冯翊般若寺
+- from: p_yuwentai
+  to: pl_wuchuan
+  type: born_in
+  note: 武川镇人,六镇出身
+- from: p_fengdao
+  to: f_literati_5d
+  type: leader_of
+  since:
+    year: 900
+  until:
+    year: 954
+    month: 4
+  note: 历仕四朝十帝
+- from: p_fengdao
+  to: k_houdong
+  type: served_under
+  note: 翰林学士,后唐重臣
+  since:
+    year: 923
+    month: 11
+  until:
+    year: 936
+    month: 11
+- from: p_fengdao
+  to: k_houjin
+  type: served_under
+  note: 宰相,奉表称臣于契丹
+  since:
+    year: 936
+    month: 11
+  until:
+    year: 947
+    month: 1
+- from: p_fengdao
+  to: k_liao
+  type: served_under
+  since:
+    year: 947
+    month: 1
+  until:
+    year: 947
+    month: 4
+  note: 事契丹辽太宗
+- from: p_fengdao
+  to: k_houhan
+  type: served_under
+  note: 后汉太师
+  since:
+    year: 947
+    month: 4
+  until:
+    year: 950
+    month: 12
+- from: p_fengdao
+  to: k_houzhou
+  type: served_under
+  note: 后周太师,954年卒
+  since:
+    year: 951
+    month: 1
+  until:
+    year: 954
+    month: 4
+- from: f_shatuo
+  to: f_heshuo
+  type: rival_of
+  since:
+    year: 880
+  until:
+    year: 929
+  note: 沙陀集团崛起过程中兼并河朔
+- from: f_shatuo
+  to: f_zhuwen_group
+  type: rival_of
+  since:
+    year: 880
+  until:
+    year: 923
+    month: 11
+  note: 晋梁争霸
+- from: f_zhuwen_group
+  to: f_heshuo
+  type: rival_of
+  note: 梁与河朔三镇争霸中原
+  since:
+    year: 880
+  until:
+    year: 923
+- from: f_khitan
+  to: f_shatuo
+  type: rival_of
+  since:
+    year: 916
+  until:
+    year: 979
+  note: 契丹 vs 沙陀集团
+- from: k_houliang
+  to: k_houdong
+  type: succeeded_by
+  since:
+    year: 923
+    month: 11
+  note: 灭梁
+- from: k_houdong
+  to: k_houjin
+  type: succeeded_by
+  since:
+    year: 936
+    month: 11
+  note: 灭唐
+- from: k_houjin
+  to: k_houhan
+  type: succeeded_by
+  since:
+    year: 947
+    month: 2
+  note: 晋亡后汉立
+- from: k_houhan
+  to: k_houzhou
+  type: succeeded_by
+  since:
+    year: 951
+    month: 1
+  note: 郭威正月即位，代汉建周
+- from: k_houzhou
+  to: k_song
+  type: succeeded_by
+  since:
+    year: 960
+    month: 2
+  note: 陈桥兵变

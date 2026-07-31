@@ -1,0 +1,15 @@
+id: pl_karaktuokuo
+type: Place
+name: 和林
+modern_name: 哈尔和林
+province: 蒙古
+latitude: 47.3
+longitude: 102.83
+category: capital
+description: 窝阔台建
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

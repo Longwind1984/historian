@@ -1,0 +1,21 @@
+id: b_yancheng
+type: Battle
+name: 郾城大捷
+date:
+  year: 1140
+  month: 7
+category: battle
+importance: 3
+location: pl_yancheng
+combatants:
+- k_nansong
+- k_jin
+commanders:
+- p_yuefei
+- p_wanyanwuzhu
+victor: k_nansong
+victor_commander: p_yuefei
+description: 岳飞北伐,驻郾城。金兀术率铁浮图、拐子马。岳飞命岳云、杨再兴迎战,以麻扎刀、大斧专砍马腿,大破金军。颍昌再捷。
+significance: 南宋抗金最大胜利之一。然高宗、秦桧连下十二金牌召岳飞班师。
+sources:
+- 宋史·岳飞传

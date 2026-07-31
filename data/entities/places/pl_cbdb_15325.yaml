@@ -1,0 +1,12 @@
+id: pl_cbdb_15325
+type: Place
+name: 北平
+modern_name: 北平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.833225
+longitude: 115.123581
+first_year: 705
+last_year: 931
+description: CBDB 行政类型:Xian

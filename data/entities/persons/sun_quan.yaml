@@ -1,0 +1,34 @@
+id: p_sun_quan
+type: Person
+name: 孙权
+alias:
+- 孙仲谋
+- 吴大帝
+courtesy_name: 仲谋
+born:
+  year: 182
+died:
+  year: 252
+  month: 4
+reign_start:
+  year: 222
+reign_end:
+  year: 252
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_fuchun_sunjian
+bio: 东吴建立者。孙策弟。200 继兄位。208 联刘备破曹操于赤壁。219 取荆州,杀关羽。222 称吴王,229 称帝,都建业。252 病卒。
+sources:
+- 三国志·吴书·吴主传
+- 资治通鉴·卷63-75
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Sun_Quan_Tang.jpg/500px-Sun_Quan_Tang.jpg"
+ext:
+  title: 孙权
+  regime: 东吴
+wikidata_id: "Q313327"
+wikipedia_zh: "孙权"
+image_license: "Public domain"
+image_credit: "Yan Liben"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sun_Quan_Tang.jpg"

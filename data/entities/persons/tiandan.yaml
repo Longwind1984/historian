@@ -1,0 +1,24 @@
+id: p_tiandan
+type: Person
+name: 田单
+gender: male
+floruit_start:
+  year: -279
+floruit_end:
+  year: -265
+roles:
+- general
+importance: 3
+bio: 田单，齐国宗室远支。乐毅下齐七十余城，唯莒、即墨未下，田单率族人奔即墨，即墨大夫战死，被推为将。前279年燕昭王卒，惠王以骑劫代乐毅，田单先施反间去毅，复以"火牛阵"破敌——束兵刃于牛角、灌脂苇于牛尾，夜纵火燃之，壮士五千随之冲燕军——大破骑劫于即墨城下，追亡逐北，尽复齐七十余城，迎襄王于莒，封安平君。后相齐，入赵为相(号都平君)，卒。生卒无载，战国中期人。
+life_events:
+- year: -279
+  event: 即墨火牛阵大破燕军，复齐七十余城
+  source: 史记·田单列传
+sources:
+- 史记·田单列传
+- 战国策·齐策
+ext:
+  disputed: true
+  note: 即墨火牛阵复齐(前279)至相齐。生卒无考
+wikidata_id: "Q3274709"
+wikipedia_zh: "田單"

@@ -1,0 +1,23 @@
+id: p_dong_zhuo
+type: Person
+name: 董卓
+alias:
+- 董仲颖
+courtesy_name: 仲颖
+died:
+  year: 192
+  month: 5
+gender: male
+birthplace: pl_lintao_dongzhuo
+bio: 东汉末权臣。陇西临洮人,凉州军阀。189 入洛阳,废少帝,立献帝,自任太师,残暴。190 关东诸侯讨之,挟献帝迁都长安,焚洛阳。192 为司徒王允与吕布所杀。
+ext:
+  significance: 汉末军阀混战的开启者。
+sources:
+- 后汉书·董卓传
+- 三国志·魏书·董卓传
+wikidata_id: "Q334081"
+wikipedia_zh: "董卓"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dong_Zhuo_Portrait.jpg"
+image_license: "Public domain"
+image_credit: "The original uploader was Plastictv at English Wikipedia ."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Dong_Zhuo_Portrait.jpg"

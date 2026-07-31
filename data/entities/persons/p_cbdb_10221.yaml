@@ -1,0 +1,14 @@
+id: p_cbdb_10221
+type: Person
+name: 張唐英
+born:
+  year: 1029
+died:
+  year: 1071
+gender: male
+birthplace: pl_cbdb_13313
+dynasty_ref: k_beisong
+bio: CBDB ID 10221
+name_en: Zhang Tangying
+sources:
+- CBDB (China Biographical Database)

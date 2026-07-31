@@ -1,0 +1,12 @@
+id: pl_cbdb_11182
+type: Place
+name: 淄川
+modern_name: 淄川
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.635994
+longitude: 117.960956
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

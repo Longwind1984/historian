@@ -1,0 +1,12 @@
+id: pl_cbdb_12723
+type: Place
+name: 武進
+modern_name: 武進
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.782784
+longitude: 119.952301
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

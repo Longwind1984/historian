@@ -1,0 +1,19 @@
+id: k_bei_zhou
+type: Polity
+name: 北周
+name_en: Northern Zhou
+color: '#9b59b6'
+founded:
+  year: 557
+  month: 1
+ended:
+  year: 581
+  month: 2
+capital: pl_chang_an_xiwei
+description: 宇文觉代西魏建。577 灭北齐统一北方。581 为杨坚所代。
+sources:
+- 周书
+- 北史
+founder: p_yuwen_jue
+supplanted: k_xi_wei
+ended_by: k_sui

@@ -1,0 +1,17 @@
+id: e_huihe_pohuai
+type: Event
+name: 回鹘汗国灭亡
+date:
+  year: 840
+category: conquest
+importance: 2
+location: pl_menggu_hh
+polities_involved:
+- k_tang
+description: 840 年黠戛斯破回鹘汗国,回鹘崩溃。部众西迁(高昌回鹘/河西回鹘/葱岭西回鹘)。武宗朝助唐平定回鹘残部。
+impact: 中亚与北亚政治格局大变。中国北方威胁从回鹘转为契丹。
+sources:
+- 旧唐书·回纥传
+- 新唐书·回鹘传
+end_date:
+  year: 846

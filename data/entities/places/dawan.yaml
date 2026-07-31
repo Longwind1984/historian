@@ -1,0 +1,14 @@
+id: pl_dawan
+type: Place
+name: 大宛
+modern_name: 费尔干纳
+province: 乌兹别克斯坦
+latitude: 40.99
+longitude: 71.0
+category: city
+description: 汉攻大宛,汗血马
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

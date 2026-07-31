@@ -1,0 +1,14 @@
+id: pl_penglai
+type: Place
+name: 蓬莱
+modern_name: 蓬莱
+province: 山东
+latitude: 37.81
+longitude: 120.76
+category: city
+description: 徐福出海
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

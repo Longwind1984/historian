@@ -1,0 +1,17 @@
+id: p_shiwan_sue
+type: Person
+name: 史万岁
+alias:
+- 史京兆
+born:
+  year: 549
+died:
+  year: 600
+  month: 11
+gender: male
+birthplace: pl_dunhuang_sui
+bio: 隋朝名将。屡破突厥。600 年因杨素陷害被隋文帝所杀。
+sources:
+- 隋书·史万岁传
+wikidata_id: "Q6120398"
+wikipedia_zh: "史萬歲"

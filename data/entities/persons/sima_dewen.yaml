@@ -1,0 +1,27 @@
+id: p_sima_dewen
+type: Person
+name: 司马德文
+alias:
+- 晋恭帝
+- 恭帝
+born:
+  year: 386
+died:
+  year: 421
+reign_start:
+  year: 418
+reign_end:
+  year: 420
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 安帝弟。刘裕所立，420年禅位于刘裕，东晋亡，次年被弑。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋恭帝
+  regime: 东晋
+wikidata_id: "Q7404"
+wikipedia_zh: "晋恭帝"

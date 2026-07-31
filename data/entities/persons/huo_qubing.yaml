@@ -1,0 +1,23 @@
+id: p_huo_qubing
+type: Person
+name: 霍去病
+born:
+  year: -140
+died:
+  year: -117
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_pingyang_weiqing
+bio: 西汉名将。卫青外甥。BC121 二次征河西,降匈奴休屠王、浑邪王,取河西四郡(武威、张掖、酒泉、敦煌)。BC119 漠北之战封狼居胥。BC117 病卒,年24。'匈奴未灭,何以家为'。
+ext:
+  significance: 中国军事史上最辉煌的青年统帅。
+sources:
+- 史记·卫将军骠骑列传
+wikidata_id: "Q380583"
+wikipedia_zh: "霍去病"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/%E6%B8%A1%E6%B2%B3%E5%8F%97%E6%AC%BE.jpg/500px-%E6%B8%A1%E6%B2%B3%E5%8F%97%E6%AC%BE.jpg"
+image_license: "Public domain"
+image_credit: "Ma Tai (馬駘; C.E.1885-1937)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B8%A1%E6%B2%B3%E5%8F%97%E6%AC%BE.jpg"

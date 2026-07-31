@@ -1,0 +1,22 @@
+id: p_yao_wenyuan
+type: Person
+name: 姚文元
+gender: male
+born:
+  year: 1931
+died:
+  year: 2005
+roles:
+- civil_official
+- literatus
+importance: 2
+bio: 浙江诸暨人。以文字整人起家。1965 年 11 月《文汇报》发表《评新编历史剧〈海瑞罢官〉》，为文革发动的导火索：将吴晗剧作指为影射彭德怀罢官，由文艺批判转为政治清算。文革中主管舆论宣传，"四人帮"之一。1976 年 10 月被捕，1981 年特别法庭判有期徒刑二十年，1996 年刑满释放。2005 年病死。
+sources:
+- 当代中国史
+- 中华人民共和国史
+wikidata_id: "Q382645"
+wikipedia_zh: "姚文元"
+image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Yao_Wenyuan_%281to1%29.jpg"
+image_license: "Public domain"
+image_credit: "《人民画报》"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yao_Wenyuan_(1to1).jpg"

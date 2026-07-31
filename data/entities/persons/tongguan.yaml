@@ -1,0 +1,14 @@
+id: p_tongguan
+type: Person
+name: 童贯
+born:
+  year: 1054
+died:
+  year: 1126
+gender: male
+birthplace: pl_kaifeng
+bio: 北宋末宦官权臣(六贼之一)。掌兵权二十年。伐夏、平方腊。主持海上之盟联金灭辽,反招金军南下。
+sources:
+- 宋史·宦者传·童贯
+wikidata_id: "Q707756"
+wikipedia_zh: "童貫"

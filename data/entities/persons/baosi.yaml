@@ -1,0 +1,25 @@
+id: p_baosi
+type: Person
+name: 褒姒
+gender: female
+floruit_start:
+  year: -779
+floruit_end:
+  year: -771
+roles:
+- consort
+importance: 3
+bio: 褒国(今陕西汉中西北)女子，姒姓。幽王伐褒，褒人献之；得宠生伯服。幽王废申后与太子宜臼，立褒姒为后、伯服为太子。传统史载"烽火戏诸侯"以褒姒为主角，现代据清华简《系年》质疑其事。其人见于记载，惟相关叙事多有后世建构。
+sources:
+- 史记·周本纪
+- 诗经·小雅
+- 清华简·系年
+ext:
+  disputed: true
+  note: 幽王三年入宫得宠,至前771犬戎破镐京。生卒无考
+wikidata_id: "Q1069735"
+wikipedia_zh: "褒姒"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/df/Bao_Si_-_Bai_Mei_Xin_Yong.JPG"
+image_license: "Public domain"
+image_credit: "Wang Hui 王翙 (1736-1795)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Bao_Si_-_Bai_Mei_Xin_Yong.JPG"

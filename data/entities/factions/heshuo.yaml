@@ -1,0 +1,20 @@
+id: f_heshuo
+type: Faction
+name: 河朔三镇
+nature: military_clan
+founded:
+  year: 763
+dissolved:
+  year: 929
+core_region: pl_hebei
+description: 安史之乱后形成的魏博、成德、卢龙三藩镇割据势力。父死子继、自署官吏、贡赋不入。河朔藩镇模式为五代藩镇割据之滥觞。
+significance: 晚唐'藩镇割据'的典型,深刻影响了五代十国的政治生态。后唐李嗣源即出于此系统。
+peak_period: 代宗-后唐
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论
+- 新唐书
+- 旧唐书

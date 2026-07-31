@@ -1,0 +1,14 @@
+id: p_cbdb_271
+type: Person
+name: 張掞
+born:
+  year: 995
+died:
+  year: 1074
+gender: male
+birthplace: pl_cbdb_11192
+dynasty_ref: k_beisong
+bio: CBDB ID 271
+name_en: Zhang Shan
+sources:
+- CBDB (China Biographical Database)

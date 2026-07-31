@@ -1,0 +1,25 @@
+id: p_yuqian
+type: Person
+name: 于谦
+alias:
+- 于廷益
+courtesy_name: 廷益
+born:
+  year: 1398
+died:
+  year: 1457
+gender: male
+roles:
+- general
+- civil_official
+importance: 1
+birthplace: pl_qiantang_yu
+bio: 明名将、兵部尚书。1449 北京保卫战大败瓦剌。1457 夺门之变后被杀。
+sources:
+- 明史·于谦传
+wikidata_id: "Q706876"
+wikipedia_zh: "于谦"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Yu_Qian.jpg/500px-Yu_Qian.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yu_Qian.jpg"

@@ -1,0 +1,23 @@
+id: p_hanxizai
+type: Person
+name: 韩熙载
+gender: male
+courtesy_name: 叔言
+born:
+  year: 902
+died:
+  year: 970
+roles:
+- civil_official
+- literatus
+importance: 2
+bio: 北人南奔,仕南唐三世。后主欲相之,熙载知国将亡而不欲当其咎,乃纵情声色以自污。后主遣画工顾闳中夜窥其宴,归而图之,即《韩熙载夜宴图》。
+sources:
+- 南唐书·韩熙载传
+- 十国春秋
+wikidata_id: "Q14945020"
+wikipedia_zh: "韩熙载"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-22-%E5%8D%97%E5%94%90%E9%9F%93%E7%86%99%E8%BC%89.jpg/500px-%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-22-%E5%8D%97%E5%94%90%E9%9F%93%E7%86%99%E8%BC%89.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-22-%E5%8D%97%E5%94%90%E9%9F%93%E7%86%99%E8%BC%89.jpg"

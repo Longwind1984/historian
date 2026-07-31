@@ -1,0 +1,39 @@
+id: p_liyu
+type: Person
+name: 李煜
+alias:
+- 南唐后主
+- 李从嘉
+- 钟隐
+courtesy_name: 重光
+born:
+  year: 937
+  month: 7
+died:
+  year: 978
+  month: 7
+reign_start:
+  year: 961
+reign_end:
+  year: 975
+gender: male
+roles:
+- emperor
+- literatus
+importance: 1
+birthplace: pl_jinling
+bio: 南唐后主。李璟第六子。961 年即位,奉宋正朔。文学造诣极高,被誉为'词帝'。975 年宋军破金陵,降。978 年卒于开封,相传被宋太宗鸩杀。
+sources:
+- 新五代史·南唐世家
+- 十国春秋·南唐
+- 南唐书
+- 宋史·南唐世家
+ext:
+  title: 李煜
+  regime: 南唐
+wikidata_id: "Q378528"
+wikipedia_zh: "李煜"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Li_Yu_scth.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi (1529 - 1612)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Yu_scth.jpg"

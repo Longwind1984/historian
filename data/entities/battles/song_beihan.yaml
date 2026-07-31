@@ -1,0 +1,23 @@
+id: b_song_beihan
+type: Battle
+name: 宋灭北汉
+date:
+  year: 979
+  month: 2
+importance: 2
+location: pl_taiyuan
+combatants:
+- k_song
+- k_beihan
+commanders:
+- p_liujiyuan
+victor: k_song
+description: 宋太宗赵光义亲征,击溃契丹援军,围攻太原。刘继元出降,北汉亡。十国最后结束。
+significance: 结束五代十国分裂,基本统一中国本部。
+sources:
+- 续资治通鉴长编·卷20
+- 宋史·太宗本纪
+end_date:
+  year: 979
+  month: 6
+category: conquest

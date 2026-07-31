@@ -1,0 +1,34 @@
+id: p_tianqi
+type: Person
+name: 朱由校
+alias:
+- 明熹宗
+- 天启
+- 天启帝
+born:
+  year: 1605
+died:
+  year: 1627
+gender: male
+birthplace: pl_beiping_zhudi
+bio: 光宗子。好木工,魏忠贤与客氏专权,东林党人惨遭迫害。辽东连失,努尔哈赤崛起。
+sources:
+- 明史·熹宗本纪
+- 明史
+- 明实录
+reign_start:
+  year: 1620
+reign_end:
+  year: 1627
+roles:
+- emperor
+ext:
+  title: 天启帝
+  regime: 明
+importance: 3
+wikidata_id: "Q10066"
+wikipedia_zh: "明熹宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/29/%E6%98%8E%E7%86%B9%E5%AE%97%E5%83%8F.jpg"
+image_license: "Public domain"
+image_credit: "明朝画师"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%86%B9%E5%AE%97%E5%83%8F.jpg"

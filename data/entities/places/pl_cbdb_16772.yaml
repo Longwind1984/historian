@@ -1,0 +1,12 @@
+id: pl_cbdb_16772
+type: Place
+name: 安西都護府
+modern_name: 安西都護府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 41.7175
+longitude: 82.9727
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Duhufu

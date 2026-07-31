@@ -1,0 +1,31 @@
+id: p_khoshila
+type: Person
+name: 和世㻋
+alias:
+- 元明宗
+- 忽都笃汗
+born:
+  year: 1300
+died:
+  year: 1329
+reign_start:
+  year: 1329
+reign_end:
+  year: 1329
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 武宗子。1329年自漠北南还即位,四月与文宗会于王忽察都,暴卒,史多疑为文宗、燕铁木儿所鸩。
+ext:
+  title: 元明宗
+  regime: 元
+sources:
+- 元史
+- 新元史
+wikidata_id: "Q8659"
+wikipedia_zh: "元明宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/39/Khutughtu_Khan_Kusala.jpg"
+image_license: "CC BY-SA 4.0"
+image_credit: "唐吉訶德的侍從"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Khutughtu_Khan_Kusala.jpg"

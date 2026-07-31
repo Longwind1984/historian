@@ -1,0 +1,12 @@
+id: pl_cbdb_5060
+type: Place
+name: 項城
+modern_name: 項城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.209309
+longitude: 114.832886
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

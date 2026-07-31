@@ -1,0 +1,27 @@
+id: p_sima_yao
+type: Person
+name: 司马曜
+alias:
+- 晋孝武帝
+- 孝武帝
+born:
+  year: 362
+died:
+  year: 396
+reign_start:
+  year: 372
+reign_end:
+  year: 396
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 简文帝子。383年淝水之战大破前秦；后耽于酒色，为张贵人所弑。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋孝武帝
+  regime: 东晋
+wikidata_id: "Q7402"
+wikipedia_zh: "晋孝武帝"

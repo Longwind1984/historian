@@ -1,0 +1,15 @@
+id: pl_luoyang_beiwei
+type: Place
+name: 洛阳(北魏)
+modern_name: 洛阳
+province: 河南
+latitude: 34.62
+longitude: 112.45
+category: capital
+description: 北魏孝文帝迁都
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

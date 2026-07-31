@@ -1,0 +1,12 @@
+id: pl_cbdb_100370
+type: Place
+name: 武昌
+modern_name: 武昌
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.402718
+longitude: 114.879906
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

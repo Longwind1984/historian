@@ -1,0 +1,17 @@
+id: d_sui
+type: Dynasty
+name: 隋
+name_en: Sui
+founded:
+  year: 581
+  month: 3
+ended:
+  year: 618
+  month: 5
+last_capital: pl_chang_an
+description: 隋朝。581 年杨坚代周建隋,589 年灭陈统一。开皇之治。604 炀帝继位,大兴土木,致乱。618 亡。
+period_label: 隋
+sources:
+- 隋书
+- 北史·隋本纪
+founder: p_yangjian

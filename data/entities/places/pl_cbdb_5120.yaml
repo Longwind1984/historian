@@ -1,0 +1,12 @@
+id: pl_cbdb_5120
+type: Place
+name: 唐縣
+modern_name: 唐縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.697708
+longitude: 112.832519
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

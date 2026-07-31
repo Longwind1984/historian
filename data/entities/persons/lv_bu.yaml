@@ -1,0 +1,21 @@
+id: p_lv_bu
+type: Person
+name: 吕布
+alias:
+- 吕奉先
+courtesy_name: 奉先
+died:
+  year: 199
+  month: 2
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_jiuyuan_lvbu
+bio: 汉末骁将。五原九原人。先从丁原,杀丁原投董卓,与王允杀董卓。后投袁绍、张杨、刘备。198 为曹操所擒,白门楼缢杀。
+ext:
+  significance: '''三姓家奴''。'
+sources:
+- 后汉书·吕布传
+- 三国志·魏书·吕布传
+wikidata_id: "Q65847641"

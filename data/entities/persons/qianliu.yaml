@@ -1,0 +1,39 @@
+id: p_qianliu
+type: Person
+name: 钱镠
+alias:
+- 钱婆留
+- 吴越武肃王
+courtesy_name: 具美
+born:
+  year: 852
+  month: 3
+died:
+  year: 932
+  month: 3
+gender: male
+birthplace: pl_hangzhou
+bio: 吴越建立者。唐末两浙枭雄。907 年后梁封吴越王,923 年封吴越国王。修海塘、兴水利。886 年筑杭州城。'陌上花开'典出其诗。
+sources:
+- 新五代史·吴越世家
+- 十国春秋·吴越
+- 吴越备史
+- 十国春秋
+- 新五代史
+- 资治通鉴
+roles:
+- monarch
+reign_start:
+  year: 907
+reign_end:
+  year: 932
+ext:
+  title: 钱镠
+  regime: 吴越
+importance: 3
+wikidata_id: "Q1074727"
+wikipedia_zh: "钱镠"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Qian_Liu_%28King_Wusu_of_Wuyue%29.jpg/500px-Qian_Liu_%28King_Wusu_of_Wuyue%29.jpg"
+image_license: "CC BY-SA 4.0"
+image_credit: "Ming dynasty Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qian_Liu_(King_Wusu_of_Wuyue).jpg"

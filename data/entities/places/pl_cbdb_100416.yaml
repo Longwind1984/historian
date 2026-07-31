@@ -1,0 +1,12 @@
+id: pl_cbdb_100416
+type: Place
+name: 海陵
+modern_name: 海陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.495872
+longitude: 119.91124
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

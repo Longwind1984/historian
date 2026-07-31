@@ -1,0 +1,12 @@
+id: pl_cbdb_100007
+type: Place
+name: 上高
+modern_name: 上高
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.241369
+longitude: 114.92675
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

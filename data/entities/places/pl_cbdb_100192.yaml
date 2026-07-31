@@ -1,0 +1,12 @@
+id: pl_cbdb_100192
+type: Place
+name: 德安
+modern_name: 德安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.330564
+longitude: 115.745026
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

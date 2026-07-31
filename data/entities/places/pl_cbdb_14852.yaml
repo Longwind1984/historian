@@ -1,0 +1,12 @@
+id: pl_cbdb_14852
+type: Place
+name: 汝南
+modern_name: 汝南
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.99333
+longitude: 114.217966
+first_year: 633
+last_year: 817
+description: CBDB 行政类型:Xian

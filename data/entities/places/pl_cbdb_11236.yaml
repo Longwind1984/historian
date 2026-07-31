@@ -1,0 +1,12 @@
+id: pl_cbdb_11236
+type: Place
+name: 曲阜
+modern_name: 曲阜
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.597553
+longitude: 116.986059
+first_year: 960
+last_year: 1011
+description: CBDB 行政类型:Xian

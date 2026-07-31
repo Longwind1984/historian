@@ -1,0 +1,14 @@
+id: k_shuhan_pre
+type: Polity
+name: 刘备集团
+name_en: Liu Bei's Faction
+color: '#c0654a'
+founded:
+  year: 194
+ended:
+  year: 221
+  month: 4
+description: 194 刘备领徐州牧起,辗转依吕布、曹操、袁绍、刘表。208 赤壁后取荆南、入益州,219 进位汉中王。221 称帝建汉(史称蜀汉),此集团转为蜀汉政权。
+sources:
+- 三国志·蜀书·先主传
+founder: p_liu_bei

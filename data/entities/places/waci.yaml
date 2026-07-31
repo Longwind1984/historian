@@ -1,0 +1,14 @@
+id: pl_waci
+type: Place
+name: 瓦剌
+modern_name: 蒙古高原
+province: 蒙古
+latitude: 47.92
+longitude: 106.92
+category: region
+description: 瓦剌蒙古
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

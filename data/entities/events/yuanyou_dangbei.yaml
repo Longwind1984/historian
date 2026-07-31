@@ -1,0 +1,14 @@
+id: e_yuanyou_dangbei
+type: Event
+name: 元祐党人碑
+date:
+  year: 1102
+category: purge
+importance: 3
+location: pl_kaifeng
+polities_involved:
+- k_beisong
+description: 崇宁元年(1102)蔡京立'元祐党人碑',刻司马光、文彦博、苏轼、苏辙、黄庭坚、秦观、程颐等 309 人,禁其子孙仕宦。
+impact: 北宋党争顶峰,文化压制。
+sources:
+- 宋史·徽宗本纪

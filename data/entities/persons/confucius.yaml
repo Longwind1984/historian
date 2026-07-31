@@ -1,0 +1,44 @@
+id: p_confucius
+type: Person
+name: 孔丘
+courtesy_name: 仲尼
+alias:
+- 孔子
+- 仲尼
+- 尼父
+gender: male
+roles:
+- scholar
+- civil_official
+importance: 1
+born:
+  year: -551
+died:
+  year: -479
+bio: 孔子，子姓，孔氏，名丘，字仲尼，鲁国陬邑人。早年贫贱，为委吏、乘田；相传尝至周问礼于老子。中年仕鲁，由中都宰升司寇，摄相事。前497年去鲁周游列国十四年，历卫、曹、宋、郑、陈、蔡、楚，终不见用。晚年归鲁，删诗书、定礼乐、修《春秋》，聚徒讲学，相传弟子三千、贤者七十二。以"仁"为核心，述而不作，开儒家学派。前479年卒。
+life_events:
+- year: -551
+  event: 生于鲁国陬邑
+  source: 史记·孔子世家
+- year: -501
+  event: 任鲁中都宰，迁司寇
+  source: 史记·孔子世家
+- year: -497
+  event: 去鲁周游列国
+  source: 左传·定公十三年
+- year: -484
+  event: 归鲁，删诗书、修春秋
+  source: 史记·孔子世家
+- year: -479
+  event: 卒
+  source: 左传·哀公十六年
+sources:
+- 史记·孔子世家
+- 左传·哀公
+- 论语·为政
+wikidata_id: "Q4604"
+wikipedia_zh: "孔子"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Confucius%2C_fresco_from_a_Western_Han_tomb_of_Dongping_County%2C_Shandong_province%2C_China.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Chinese painter of the Western Han period"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Confucius,_fresco_from_a_Western_Han_tomb_of_Dongping_County,_Shandong_province,_China.jpg"

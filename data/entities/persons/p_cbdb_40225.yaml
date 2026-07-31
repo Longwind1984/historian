@@ -1,0 +1,14 @@
+id: p_cbdb_40225
+type: Person
+name: 趙復
+born:
+  year: 1098
+died:
+  year: 1157
+gender: male
+birthplace: pl_cbdb_11247
+dynasty_ref: k_beisong
+bio: CBDB ID 40225
+name_en: Zhao Fu
+sources:
+- CBDB (China Biographical Database)

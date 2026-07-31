@@ -1,0 +1,30 @@
+id: p_jiang_zemin
+type: Person
+name: 江泽民
+born:
+  year: 1926
+died:
+  year: 2022
+gender: male
+roles:
+- civil_official
+importance: 1
+bio: 江苏扬州人。1989至2002年任中共中央总书记，1993至2003年任国家主席，1989至2004年任中央军委主席。任内提出'三个代表'重要思想，2001年中国加入世界贸易组织。
+life_events:
+- year: 1989
+  event: 任中共中央总书记
+- year: 1993
+  event: 任国家主席
+- year: 2001
+  event: 任内中国加入世界贸易组织
+- year: 2022
+  event: 逝世
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q16597"
+wikipedia_zh: "江泽民"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Jiang_Zemin1.png"
+image_license: "CC BY 4.0"
+image_credit: "Presidential Press and Information Office"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jiang_Zemin1.png"

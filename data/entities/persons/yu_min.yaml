@@ -1,0 +1,21 @@
+id: p_yu_min
+type: Person
+name: 于敏
+born:
+  year: 1926
+died:
+  year: 2019
+gender: male
+roles:
+- scholar
+importance: 2
+bio: 河北宁河人。核物理学家，中国氢弹研制的主要理论奠基者之一，'两弹一星'功勋奖章及国家最高科学技术奖获得者。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q8059948"
+wikipedia_zh: "于敏"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/48/%E4%BA%8E%E6%95%8F%E5%A4%AB%E5%A9%A6%E8%88%8A%E7%85%A7%E7%89%87_%28cropped%29.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E4%BA%8E%E6%95%8F%E5%A4%AB%E5%A9%A6%E8%88%8A%E7%85%A7%E7%89%87_(cropped).png"

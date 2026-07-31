@@ -1,0 +1,16 @@
+id: p_songjiang
+type: Person
+name: 宋江
+died:
+  year: 1122
+gender: male
+birthplace: pl_liangshan_song
+bio: 北宋末农民起义首领。约 1119 起义于河北、山东。约 1121 被张叔夜招降。《水浒传》原型。
+sources:
+- 宋史·张叔夜传
+wikidata_id: "Q716237"
+wikipedia_zh: "宋江"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/%E6%B0%B4%E6%BB%B8%E5%82%B3%E8%B1%AA%E5%82%91%E7%99%BE%E5%85%AB%E4%BA%BA_%E2%80%94_%E5%A4%A9%E7%BD%A1%E6%98%9F%E5%A3%B9.png"
+image_license: "Public domain"
+image_credit: "Utagawa Kuniyoshi (Q317736)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E6%BB%B8%E5%82%B3%E8%B1%AA%E5%82%91%E7%99%BE%E5%85%AB%E4%BA%BA_%E2%80%94_%E5%A4%A9%E7%BD%A1%E6%98%9F%E5%A3%B9.png"

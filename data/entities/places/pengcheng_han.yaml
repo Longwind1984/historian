@@ -1,0 +1,14 @@
+id: pl_pengcheng_han
+type: Place
+name: 彭城
+modern_name: 徐州
+province: 江苏
+latitude: 34.26
+longitude: 117.18
+category: city
+description: 项羽都
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

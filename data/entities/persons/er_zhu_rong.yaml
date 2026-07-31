@@ -1,0 +1,22 @@
+id: p_er_zhu_rong
+type: Person
+name: 尔朱荣
+born:
+  year: 493
+died:
+  year: 530
+  month: 9
+gender: male
+birthplace: pl_xiurong_erzhurong
+bio: 北魏末权臣。契胡族。528 胡太后毒杀孝明帝,尔朱荣起兵入洛阳,立孝庄帝,在河阴屠杀百官二千余(河阴之变)。530 为孝庄帝诱杀。
+ext:
+  significance: 北魏分裂的导火索。
+sources:
+- 魏书·尔朱荣传
+- 资治通鉴·卷152-154
+wikidata_id: "Q1074744"
+wikipedia_zh: "尔朱荣"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E5%B0%94%E6%9C%B1%E6%A6%AE%EF%BC%88%E5%8C%97%E5%8F%B2%E6%BC%94%E7%BE%A9%EF%BC%89.jpg/500px-%E5%A4%AA%E5%8E%9F%E7%8E%8B%E5%B0%94%E6%9C%B1%E6%A6%AE%EF%BC%88%E5%8C%97%E5%8F%B2%E6%BC%94%E7%BE%A9%EF%BC%89.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%A4%AA%E5%8E%9F%E7%8E%8B%E5%B0%94%E6%9C%B1%E6%A6%AE%EF%BC%88%E5%8C%97%E5%8F%B2%E6%BC%94%E7%BE%A9%EF%BC%89.jpg"

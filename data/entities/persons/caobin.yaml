@@ -1,0 +1,19 @@
+id: p_caobin
+type: Person
+name: 曹彬
+courtesy_name: 国华
+born:
+  year: 931
+died:
+  year: 999
+gender: male
+birthplace: pl_lingyi_caobin
+bio: 北宋开国名将。灭后蜀(964-965)、灭南唐(974-975)主帅。雍熙北伐东路主帅(986),败。
+sources:
+- 宋史·曹彬传
+wikidata_id: "Q5034290"
+wikipedia_zh: "曹彬"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Cao_Bin_scth.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi (1529 - 1612)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Cao_Bin_scth.jpg"

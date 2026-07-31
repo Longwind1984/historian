@@ -1,0 +1,14 @@
+id: p_cbdb_128543
+type: Person
+name: 邵陛
+born:
+  year: 1535
+died:
+  year: 1594
+gender: male
+birthplace: pl_cbdb_5401
+dynasty_ref: k_ming
+bio: CBDB ID 128543
+name_en: Shao Bi
+sources:
+- CBDB (China Biographical Database)

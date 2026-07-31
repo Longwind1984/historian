@@ -1,0 +1,14 @@
+id: p_cbdb_22000
+type: Person
+name: 王居正
+born:
+  year: 1087
+died:
+  year: 1151
+gender: male
+birthplace: pl_cbdb_12435
+dynasty_ref: k_beisong
+bio: CBDB ID 22000
+name_en: Wang Juzheng (2)
+sources:
+- CBDB (China Biographical Database)

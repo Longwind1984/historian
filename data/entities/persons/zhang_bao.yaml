@@ -1,0 +1,14 @@
+id: p_zhang_bao
+type: Person
+name: 张宝
+alias:
+- 地公将军
+died:
+  year: 184
+gender: male
+birthplace: pl_ju_lu_zhangjiao
+bio: 黄巾起义首领。张角次弟。184 战死于下曲阳。
+sources:
+- 后汉书·皇甫嵩传
+wikidata_id: "Q197157"
+wikipedia_zh: "张宝"

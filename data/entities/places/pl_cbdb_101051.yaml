@@ -1,0 +1,12 @@
+id: pl_cbdb_101051
+type: Place
+name: 昌化軍
+modern_name: 昌化軍
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 19.748701
+longitude: 109.341635
+first_year: 1073
+last_year: 1279
+description: CBDB 行政类型:Jun

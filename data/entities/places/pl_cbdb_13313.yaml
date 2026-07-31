@@ -1,0 +1,12 @@
+id: pl_cbdb_13313
+type: Place
+name: 新津
+modern_name: 新津
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.423536
+longitude: 103.810936
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

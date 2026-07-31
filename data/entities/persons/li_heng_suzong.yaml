@@ -1,0 +1,32 @@
+id: p_li_heng_suzong
+type: Person
+name: 李亨
+alias:
+- 唐肃宗
+- 肃宗
+born:
+  year: 711
+died:
+  year: 762
+reign_start:
+  year: 756
+reign_end:
+  year: 762
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 玄宗子。安史之乱中于灵武即位，遥尊玄宗为太上皇，倚郭子仪、李光弼收复两京。宠信宦官李辅国，宦官典兵自此始。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐肃宗
+  regime: 唐
+wikidata_id: "Q9749"
+wikipedia_zh: "唐肅宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Tang_Suzong.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tang_Suzong.jpg"

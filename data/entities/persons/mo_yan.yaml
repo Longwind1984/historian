@@ -1,0 +1,20 @@
+id: p_mo_yan
+type: Person
+name: 莫言
+born:
+  year: 1955
+gender: male
+roles:
+- literatus
+importance: 2
+bio: 本名管谟业，山东高密人。作家，著有《红高粱家族》《生死疲劳》《蛙》等。2012年获诺贝尔文学奖。
+sources:
+- 中华人民共和国史
+- 当代中国史
+- 诺贝尔奖官方资料
+wikidata_id: "Q8998"
+wikipedia_zh: "莫言"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/MoYan_Hamburg_2008.jpg/500px-MoYan_Hamburg_2008.jpg"
+image_license: "CC BY-SA 3.0"
+image_credit: "Johannes Kolfhaus, Gymn. Marienthal"
+image_source_page: "https://commons.wikimedia.org/wiki/File:MoYan_Hamburg_2008.jpg"

@@ -1,0 +1,17 @@
+id: e_shenlong_geming
+type: Event
+name: 神龙革命
+date:
+  year: 705
+  month: 1
+category: coup
+importance: 2
+location: pl_luoyang_sui
+polities_involved:
+- k_wu_zhou
+- k_tang
+description: 705 年正月宰相张柬之、崔玄𬀩等率羽林军发动政变,逼武则天退位,迎中宗李显复位,唐复国。
+impact: 武周终结,李唐复辟。
+sources:
+- 旧唐书·中宗本纪
+- 资治通鉴·卷207

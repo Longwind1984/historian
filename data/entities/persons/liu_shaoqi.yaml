@@ -1,0 +1,18 @@
+id: p_liu_shaoqi
+name: 刘少奇
+type: Person
+born: {year: 1898}
+died: {year: 1969}
+roles:
+  - civil_official
+importance: 2
+bio: 湖南宁乡人。1959-1968年任中华人民共和国主席。文化大革命中被打倒,1969年病逝,1980年平反。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q16988"
+wikipedia_zh: "刘少奇"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Liu_Shaoqi_%28cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Shaoqi_(cropped).jpg"

@@ -1,0 +1,27 @@
+id: p_cao_rui
+type: Person
+name: 曹叡
+alias:
+- 曹元仲
+- 魏明帝
+courtesy_name: 元仲
+born:
+  year: 204
+died:
+  year: 239
+  month: 1
+gender: male
+bio: 曹魏第二任皇帝。226-239 在位。抵御诸葛亮北伐。
+sources:
+- 三国志·魏书·明帝纪
+reign_start:
+  year: 226
+reign_end:
+  year: 239
+roles:
+- emperor
+ext:
+  title: 曹叡
+  regime: 曹魏
+wikidata_id: "Q378470"
+wikipedia_zh: "曹叡"

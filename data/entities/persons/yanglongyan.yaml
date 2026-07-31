@@ -1,0 +1,20 @@
+id: p_yanglongyan
+type: Person
+name: 杨隆演
+alias:
+- 杨渭
+- 吴高祖
+- 杨溥兄
+born:
+  year: 897
+died:
+  year: 920
+  month: 6
+gender: male
+birthplace: pl_jinling
+bio: 杨吴第三主。杨行密次子。908 年兄杨渥被杀后继位,实为徐温傀儡。919 年即吴王位,920 年卒。
+sources:
+- 新五代史·吴世家
+- 十国春秋·吴
+wikidata_id: "Q842237"
+wikipedia_zh: "楊隆演"

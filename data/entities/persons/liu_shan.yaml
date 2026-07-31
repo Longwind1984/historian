@@ -1,0 +1,29 @@
+id: p_liu_shan
+type: Person
+name: 刘禅
+alias:
+- 阿斗
+- 后主
+born:
+  year: 207
+died:
+  year: 271
+gender: male
+bio: 蜀汉后主。刘备子。223-263 在位。诸葛亮辅政。263 魏将邓艾入成都,降。'乐不思蜀'。
+sources:
+- 三国志·蜀书·后主传
+reign_start:
+  year: 223
+reign_end:
+  year: 263
+roles:
+- emperor
+ext:
+  title: 刘禅
+  regime: 蜀汉
+wikidata_id: "Q468780"
+wikipedia_zh: "刘禅"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Liu_Shan.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Shan.jpg"

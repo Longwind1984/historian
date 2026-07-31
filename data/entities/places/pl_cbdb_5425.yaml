@@ -1,0 +1,12 @@
+id: pl_cbdb_5425
+type: Place
+name: 樂清
+modern_name: 樂清
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.130676
+longitude: 120.957687
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

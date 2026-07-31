@@ -1,0 +1,14 @@
+id: p_cbdb_971
+type: Person
+name: 李常
+born:
+  year: 1027
+died:
+  year: 1090
+gender: male
+birthplace: pl_cbdb_100185
+dynasty_ref: k_beisong
+bio: CBDB ID 971
+name_en: Li Chang
+sources:
+- CBDB (China Biographical Database)

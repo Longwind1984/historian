@@ -1,0 +1,13 @@
+id: pl_guanzhong
+type: Place
+name: 关中
+modern_name: 关中
+province: 陕西
+latitude: 34.3
+longitude: 108.5
+category: region
+description: 关陇集团故地
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

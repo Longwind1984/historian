@@ -1,0 +1,31 @@
+id: p_liu_hong_lingdi
+type: Person
+name: 刘宏
+alias:
+- 汉灵帝
+- 灵帝
+born:
+  year: 156
+died:
+  year: 189
+reign_start:
+  year: 168
+reign_end:
+  year: 189
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 章帝玄孙。第二次党锢之祸、公开卖官鬻爵，黄巾起义爆发，东汉土崩自此不可收。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉灵帝
+  regime: 东汉
+wikidata_id: "Q7299"
+wikipedia_zh: "汉灵帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/0/06/%E6%B1%89%E7%81%B5%E5%B8%9D_%28cropped%29.png"
+image_license: "Public domain"
+image_credit: "刘锡永 等"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B1%89%E7%81%B5%E5%B8%9D_(cropped).png"

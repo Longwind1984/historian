@@ -1,0 +1,21 @@
+id: p_xu_xiangqian
+type: Person
+name: 徐向前
+gender: male
+born:
+  year: 1901
+died:
+  year: 1990
+roles:
+- general
+importance: 2
+bio: 山西五台人。黄埔一期。红四方面军总指挥，与张国焘共事，鄂豫皖、川陕根据地主要军事领导人。长征中随左路军南下受挫，西路军兵败河西走廊。抗战任八路军 129 师副师长。解放战争任华北军区第一副司令员，指挥临汾、晋中、太原战役。1955 年授元帅。文革中受冲击，1978 年后任国防部长。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q702194"
+wikipedia_zh: "徐向前"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Xu_Xiangqian.jpg/500px-Xu_Xiangqian.jpg"
+image_license: "Public domain"
+image_credit: "​《 新华社 》记者 齐观山"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xu_Xiangqian.jpg"

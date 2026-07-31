@@ -1,0 +1,23 @@
+id: p_guxiancheng
+type: Person
+name: 顾宪成
+gender: male
+courtesy_name: 叔时
+born:
+  year: 1550
+died:
+  year: 1612
+roles:
+- scholar
+- civil_official
+importance: 3
+bio: 无锡人。1594 削籍归里,与弟允成修复东林书院讲学,议论朝政人物,天下士大夫遥相应和,「东林党」之名由是起。其讲堂联「风声雨声读书声声声入耳,家事国事天下事事事关心」。
+sources:
+- 明史·顾宪成传
+- 东林书院志
+wikidata_id: "Q6121590"
+wikipedia_zh: "顧憲成"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/%E9%A1%A7%E6%86%B2%E6%88%90.jpg/500px-%E9%A1%A7%E6%86%B2%E6%88%90.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%A1%A7%E6%86%B2%E6%88%90.jpg"

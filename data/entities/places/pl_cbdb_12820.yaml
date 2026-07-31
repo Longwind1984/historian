@@ -1,0 +1,12 @@
+id: pl_cbdb_12820
+type: Place
+name: 縉雲
+modern_name: 縉雲
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.648392
+longitude: 120.058441
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

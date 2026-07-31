@@ -1,0 +1,14 @@
+id: p_cbdb_15744
+type: Person
+name: 孫甫
+born:
+  year: 998
+died:
+  year: 1057
+gender: male
+birthplace: pl_cbdb_100610
+dynasty_ref: k_beisong
+bio: CBDB ID 15744
+name_en: Sun Fu
+sources:
+- CBDB (China Biographical Database)

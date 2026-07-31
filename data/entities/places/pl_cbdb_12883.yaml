@@ -1,0 +1,12 @@
+id: pl_cbdb_12883
+type: Place
+name: 信州
+modern_name: 信州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.450691223
+longitude: 117.96488953
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

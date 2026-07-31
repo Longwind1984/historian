@@ -1,0 +1,22 @@
+id: p_gao_huan
+type: Person
+name: 高欢
+alias:
+- 贺六浑
+born:
+  year: 496
+died:
+  year: 547
+  month: 2
+gender: male
+roles:
+- civil_official
+- general
+importance: 2
+birthplace: pl_hejian_gaohuan
+bio: 东魏实际建立者。渤海蓨人,生于怀朔镇(六镇之一)。532 入洛阳立孝武帝,534 孝武帝西奔,欢另立孝静帝,迁都邺,东魏始。547 病卒。子洋代魏建北齐。
+sources:
+- 北齐书·神武纪
+- 魏书·献武王传
+wikidata_id: "Q718249"
+wikipedia_zh: "高欢"

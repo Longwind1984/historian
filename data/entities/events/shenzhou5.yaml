@@ -1,0 +1,14 @@
+id: e_shenzhou5
+name: 神舟五号载人航天
+type: Event
+date:
+  year: 2003
+category: science
+importance: 2
+polities_involved:
+- k_prc
+description: 2003年10月15日,航天员杨利伟乘神舟五号飞船进入太空,成为中国首次载人航天飞行。
+impact: 中国成为第三个独立掌握载人航天技术的国家。
+sources:
+- 中华人民共和国史
+- 当代中国史

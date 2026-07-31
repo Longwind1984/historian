@@ -1,0 +1,12 @@
+id: pl_cbdb_100424
+type: Place
+name: 清江
+modern_name: 清江
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.015566
+longitude: 115.398987
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

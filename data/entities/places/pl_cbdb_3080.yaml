@@ -1,0 +1,12 @@
+id: pl_cbdb_3080
+type: Place
+name: 祥符
+modern_name: 祥符
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.785477
+longitude: 114.34333
+first_year: 1140
+last_year: 1234
+description: CBDB 行政类型:Xian

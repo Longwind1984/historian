@@ -1,0 +1,27 @@
+id: p_sima_yue_kangdi
+type: Person
+name: 司马岳
+alias:
+- 晋康帝
+- 康帝
+born:
+  year: 322
+died:
+  year: 344
+reign_start:
+  year: 342
+reign_end:
+  year: 344
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 成帝弟。在位二年而崩。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋康帝
+  regime: 东晋
+wikidata_id: "Q7395"
+wikipedia_zh: "晉康帝"

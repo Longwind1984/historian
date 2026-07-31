@@ -1,0 +1,31 @@
+id: k_houliang
+type: Polity
+name: 后梁
+name_en: Later Liang
+color: '#c0392b'
+founded:
+  year: 907
+  month: 4
+ended:
+  year: 923
+  month: 11
+capital: pl_kaifeng
+description: 五代之首。朱温(朱全忠)907 年篡唐所建,都开封(汴梁)。与河东李克用、李存勖父子长期对峙,923 年为后唐所灭。
+sources:
+- 旧五代史·梁书
+- 新五代史·梁本纪
+- 资治通鉴·卷266-272
+founder: p_zhuwen
+ended_by: k_houdong
+territory:
+- valid_from:
+    year: 907
+  valid_to:
+    year: 923
+  geojson_file: houliang_peak.geojson
+- valid_from:
+    year: 907
+  valid_to:
+    year: 923
+  geojson_file: chgis_wudai.geojson
+  note: CHGIS V5 府级多边形(整个五代时期)

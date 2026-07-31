@@ -1,0 +1,15 @@
+id: pl_haizhou
+type: Place
+name: 海州
+modern_name: 连云港
+province: 江苏
+latitude: 34.6
+longitude: 119.22
+category: city
+description: 李昪籍贯
+aliases:
+- 东海
+sources:
+- 旧五代史
+- 新五代史
+- 中国历史地图集

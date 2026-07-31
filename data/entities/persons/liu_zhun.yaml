@@ -1,0 +1,28 @@
+id: p_liu_zhun
+type: Person
+name: 刘准
+alias:
+- 宋顺帝
+born:
+  year: 467
+died:
+  year: 479
+reign_start:
+  year: 477
+reign_end:
+  year: 479
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_liusong
+bio: 明帝子。萧道成所立。479年禅位于萧道成,刘宋亡,旋被杀。
+ext:
+  title: 宋顺帝
+  regime: 刘宋
+sources:
+- 宋书
+- 南史
+- 资治通鉴
+wikidata_id: "Q718210"
+wikipedia_zh: "宋顺帝"

@@ -1,0 +1,12 @@
+id: e_zhongmei_jianjiao
+name: 中美建交
+type: Event
+date:
+  year: 1979
+category: diplomacy
+importance: 2
+description: 1979年1月1日,中华人民共和国与美利坚合众国正式建立外交关系。
+impact: 中美关系正常化。
+sources:
+- 中华人民共和国史
+- 当代中国史

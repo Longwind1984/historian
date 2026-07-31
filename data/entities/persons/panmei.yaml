@@ -1,0 +1,20 @@
+id: p_panmei
+type: Person
+name: 潘美
+courtesy_name: 仲询
+born:
+  year: 925
+died:
+  year: 991
+  month: 8
+gender: male
+birthplace: pl_daming_panmei
+bio: 北宋开国名将。灭南汉(970)主帅。雍熙北伐西路主帅,因护送百姓撤退致杨业孤军战死陈家谷(986),坐贬。
+sources:
+- 宋史·潘美传
+wikidata_id: "Q708470"
+wikipedia_zh: "潘美"
+image: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Panmei_yuyao.jpg"
+image_license: "Public domain"
+image_credit: "Pan Chuanlin (潘傳林) (Life time: This genealogy book is from 120 years ago.)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Panmei_yuyao.jpg"

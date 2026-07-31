@@ -1,0 +1,27 @@
+id: k_caowei
+type: Polity
+name: 曹魏
+name_en: Cao Wei
+color: '#c0392b'
+founded:
+  year: 220
+  month: 12
+ended:
+  year: 266
+  month: 2
+capital: pl_luoyang
+description: 三国之一。曹丕代汉建。司马氏渐夺权,266 为西晋所代。
+sources:
+- 三国志·魏书
+- 晋书
+founder: p_cao_pi
+supplanted: k_donghan
+ended_by: k_xijin
+territory:
+- valid_from:
+    year: 220
+  valid_to:
+    year: 265
+  geojson_file: chgis_caowei.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Cao Wei map.jpg

@@ -1,0 +1,28 @@
+id: p_sima_dan
+type: Person
+name: 司马聃
+alias:
+- 晋穆帝
+- 穆帝
+born:
+  year: 343
+died:
+  year: 361
+reign_start:
+  year: 344
+reign_end:
+  year: 361
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_dongjin
+bio: 康帝子，两岁即位。桓温灭成汉、前两次北伐(354年伐前秦至灞上、356年复洛阳)在其时;第三次北伐(369年枋头之败)实在其身后海西公在位期间。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋穆帝
+  regime: 东晋
+wikidata_id: "Q7396"
+wikipedia_zh: "晉穆帝"

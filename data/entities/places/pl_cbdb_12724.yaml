@@ -1,0 +1,12 @@
+id: pl_cbdb_12724
+type: Place
+name: 無錫
+modern_name: 無錫
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.574614
+longitude: 120.297668
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

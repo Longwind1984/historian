@@ -1,0 +1,15 @@
+id: pl_pingcheng
+type: Place
+name: 平城
+modern_name: 大同
+province: 山西
+latitude: 40.1
+longitude: 113.3
+category: capital
+description: 北魏早期都
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

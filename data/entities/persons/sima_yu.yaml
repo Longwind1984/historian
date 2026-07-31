@@ -1,0 +1,27 @@
+id: p_sima_yu
+type: Person
+name: 司马昱
+alias:
+- 晋简文帝
+- 简文帝
+born:
+  year: 320
+died:
+  year: 372
+reign_start:
+  year: 371
+reign_end:
+  year: 372
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 元帝少子。桓温废海西公后立之，在位八月而崩，政出桓温。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋简文帝
+  regime: 东晋
+wikidata_id: "Q7400"
+wikipedia_zh: "晉簡文帝"

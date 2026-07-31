@@ -1,0 +1,12 @@
+id: pl_cbdb_100637
+type: Place
+name: 高郵
+modern_name: 高郵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.79071
+longitude: 119.437332
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

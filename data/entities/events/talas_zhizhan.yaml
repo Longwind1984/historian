@@ -1,0 +1,16 @@
+id: e_talas_zhizhan
+type: Event
+name: 怛罗斯之战
+date:
+  year: 751
+  month: 7
+category: battle
+importance: 2
+location: pl_talas
+polities_involved:
+- k_tang
+description: 751 年七月安西节度使高仙芝率唐军与黑衣大食(阿拔斯王朝)战于怛罗斯。唐军因葛逻禄部叛变而败。
+impact: 唐朝势力退出中亚。造纸术西传(中国造纸工匠被俘)。
+sources:
+- 旧唐书·西戎传
+- 资治通鉴·卷216

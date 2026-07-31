@@ -1,0 +1,25 @@
+id: p_cai_e
+type: Person
+name: 蔡锷
+alias:
+- 蔡松坡
+courtesy_name: 松坡
+born:
+  year: 1882
+died:
+  year: 1916
+gender: male
+roles:
+- general
+- rebel_leader
+importance: 2
+bio: 湖南邵阳人，近代军事家。1899 年留学日本，1904 年毕业于陆军士官学校。回国后任广西、云南新军教官。1911 年武昌起义后，在昆明领导重九起义，任云南都督。1913 年被袁世凯调京软禁。1915 年袁世凯称帝，蔡锷潜返云南，与唐继尧等通电讨袁，任护国第一军总司令，进兵川南，迫使袁取消帝制。1916 年 11 月病逝于日本福冈，国葬于长沙岳麓山。
+sources:
+- 中华民国史·蔡锷传
+- 谢本书·蔡锷传
+wikidata_id: "Q702808"
+wikipedia_zh: "蔡锷"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/GeneralQaoAoCampa%C3%B1aDeYunnan.jpg/500px-GeneralQaoAoCampa%C3%B1aDeYunnan.jpg"
+image_license: "CC BY-SA 3.0"
+image_credit: "Rowanwindwhistler"
+image_source_page: "https://commons.wikimedia.org/wiki/File:GeneralQaoAoCampa%C3%B1aDeYunnan.jpg"

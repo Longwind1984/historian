@@ -1,0 +1,28 @@
+id: p_yuan_ke
+type: Person
+name: 元恪
+alias:
+- 北魏宣武帝
+born:
+  year: 483
+died:
+  year: 515
+reign_start:
+  year: 499
+reign_end:
+  year: 515
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_beiwei
+bio: 孝文帝子。承汉化之业,取南朝淮西汉中之地。崇佛,龙门石窟大兴。外戚高肇专权。
+ext:
+  title: 北魏宣武帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1194968"
+wikipedia_zh: "魏宣武帝"

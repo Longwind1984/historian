@@ -1,0 +1,16 @@
+id: e_daze_xiang_qiyi
+type: Event
+name: 大泽乡起义
+date:
+  year: -209
+  month: 7
+category: rebellion
+importance: 1
+location: pl_daze_xiang
+polities_involved:
+- k_qin
+description: BC209 七月陈胜、吴广率戍卒 900 人在大泽乡起兵。'王侯将相,宁有种乎'。占领陈,立张楚政权。BC209 败。
+impact: 中国历史上第一次大规模农民起义。
+sources:
+- 史记·陈涉世家
+- 资治通鉴·卷7

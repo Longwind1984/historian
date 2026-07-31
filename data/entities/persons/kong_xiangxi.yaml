@@ -1,0 +1,24 @@
+id: p_kong_xiangxi
+type: Person
+name: 孔祥熙
+alias:
+- 孔庸之
+courtesy_name: 庸之
+born:
+  year: 1880
+died:
+  year: 1967
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 山西太谷人，近代财政、政治人物。早年留学美国欧柏林学院、耶鲁大学。民初办教育、实业。1927 年后历任国民政府工商部长、财政部长、行政院长、中央银行总裁。1933-1944 年长期主掌财政，主持发行法币、战时财政。与蒋介石、宋子文两家联姻，长期居国民政府财经要津。1948 年赴美，1967 年病逝于纽约。
+sources:
+- 中华民国史·孔祥熙传
+- 王松·孔祥熙传
+wikidata_id: "Q631416"
+wikipedia_zh: "孔祥熙"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/HHKung.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:HHKung.jpg"

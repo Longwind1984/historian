@@ -1,0 +1,25 @@
+id: p_fengdao
+type: Person
+name: 冯道
+alias:
+- 冯可道
+- 长乐老
+courtesy_name: 可道
+born:
+  year: 882
+died:
+  year: 954
+  month: 4
+gender: male
+birthplace: pl_jingcheng
+bio: 五代名臣。历仕四朝十帝(桀燕/唐/晋/辽/汉/周),被称为'长乐老'。中国历史上最著名的'不倒翁'式政治家。主持刻九经。政事稳健,但后世欧阳修等以其事夷狄而讥之。
+sources:
+- 新五代史·冯道传
+- 旧五代史·冯道传
+- 资治通鉴
+wikidata_id: "Q1131595"
+wikipedia_zh: "馮道"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Feng_Dao%2C_WuShuangPu_%281694%2C_1996%29.jpg/500px-Feng_Dao%2C_WuShuangPu_%281694%2C_1996%29.jpg"
+image_license: "Public domain"
+image_credit: "Jin Guliang (original 1694)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Feng_Dao,_WuShuangPu_(1694,_1996).jpg"

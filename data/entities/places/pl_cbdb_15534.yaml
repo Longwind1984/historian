@@ -1,0 +1,12 @@
+id: pl_cbdb_15534
+type: Place
+name: 方城
+modern_name: 方城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.260078
+longitude: 112.992508
+first_year: 738
+last_year: 959
+description: CBDB 行政类型:Xian

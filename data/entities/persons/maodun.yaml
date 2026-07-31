@@ -1,0 +1,19 @@
+id: p_maodun
+name: 冒顿单于
+died:
+  year: -174
+gender: male
+roles:
+- monarch
+importance: 2
+bio: 前209 以鸣镝弑父头曼自立。东破东胡、西走月氏、南并楼烦白羊,控弦之士三十余万,匈奴由此臻于极盛。前200 白登之围困刘邦七日。
+sources:
+- 史记·匈奴列传
+- 汉书·匈奴传
+type: Person
+reign_start:
+  year: -209
+reign_end:
+  year: -174
+wikidata_id: "Q382816"
+wikipedia_zh: "冒顿"

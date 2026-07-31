@@ -1,0 +1,12 @@
+id: pl_cbdb_4460
+type: Place
+name: 真定
+modern_name: 真定
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.14011
+longitude: 114.563645
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

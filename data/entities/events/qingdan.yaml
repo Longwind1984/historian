@@ -1,0 +1,11 @@
+id: e_qingdan
+type: Event
+name: 第一颗氢弹爆炸
+date:
+  year: 1967
+category: science
+importance: 3
+description: 1967年6月17日，中国成功进行首次氢弹试验。
+sources:
+- 中华人民共和国史
+- 当代中国史

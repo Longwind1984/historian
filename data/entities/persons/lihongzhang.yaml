@@ -1,0 +1,24 @@
+id: p_lihongzhang
+type: Person
+name: 李鸿章
+alias:
+- 李少荃
+courtesy_name: 少荃
+born:
+  year: 1823
+died:
+  year: 1901
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_hefei_li
+bio: 晚清政治家、洋务派领袖。1862 创淮军。办洋务。1895 马关签约。1901 辛丑签约。
+sources:
+- 清史稿·李鸿章传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Li_Hung_Chang_in_1896.jpg/500px-Li_Hung_Chang_in_1896.jpg"
+wikidata_id: "Q378517"
+wikipedia_zh: "李鴻章"
+image_license: "Public domain"
+image_credit: "Russell &amp; Sons"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Hung_Chang_in_1896.jpg"

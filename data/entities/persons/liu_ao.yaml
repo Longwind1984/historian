@@ -1,0 +1,29 @@
+id: p_liu_ao
+type: Person
+name: 刘骜
+alias:
+- 汉成帝
+born:
+  year: -51
+died:
+  year: -7
+gender: male
+birthplace: pl_chang_an
+bio: 汉成帝。BC33-7 在位。宠赵飞燕、赵合德。外戚王氏专权。
+sources:
+- 汉书·成帝纪
+reign_start:
+  year: -33
+reign_end:
+  year: -7
+roles:
+- emperor
+ext:
+  title: 汉成帝
+  regime: 西汉
+wikidata_id: "Q7234"
+wikipedia_zh: "汉成帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/%E6%8A%98%E6%AA%BB%E5%9C%96_%28%E6%BC%A2%E6%88%90%E5%B8%9Dcropped%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%8A%98%E6%AA%BB%E5%9C%96_(%E6%BC%A2%E6%88%90%E5%B8%9Dcropped).jpg"

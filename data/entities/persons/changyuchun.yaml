@@ -1,0 +1,21 @@
+id: p_changyuchun
+type: Person
+name: 常遇春
+alias:
+- 常伯仁
+courtesy_name: 伯仁
+born:
+  year: 1330
+died:
+  year: 1369
+gender: male
+birthplace: pl_haozhou_xu
+bio: 明开国骁将,鄂国公。1369 北伐卒于军。
+sources:
+- 明史·常遇春传
+wikidata_id: "Q388248"
+wikipedia_zh: "常遇春"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%B8%B8%E9%81%87%E6%98%A5.jpg/500px-%E5%B8%B8%E9%81%87%E6%98%A5.jpg"
+image_license: "Public domain"
+image_credit: "Hannah"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%B8%B8%E9%81%87%E6%98%A5.jpg"

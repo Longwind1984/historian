@@ -1,0 +1,13 @@
+id: pl_nanyang
+type: Place
+name: 南阳
+modern_name: 南阳
+province: 河南
+latitude: 32.99
+longitude: 112.53
+category: city
+description: 韩愈籍贯
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

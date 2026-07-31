@@ -1,0 +1,12 @@
+id: pl_cbdb_14491
+type: Place
+name: 咸寧
+modern_name: 咸寧
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.317987
+longitude: 108.937189
+first_year: 748
+last_year: 757
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_13033
+type: Place
+name: 衡州
+modern_name: 衡州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.90161705
+longitude: 112.59703827
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

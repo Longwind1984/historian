@@ -1,0 +1,25 @@
+id: b_lizhou
+type: Battle
+name: 潞州之战
+date:
+  year: 907
+  month: 5
+importance: 3
+location: pl_lizhou
+combatants:
+- k_houliang
+- k_houdong
+commanders:
+- p_zhuwen
+- p_likaiqu
+victor: k_houdong
+victor_commander: p_licunxu
+description: 朱温篡唐后,围攻晋所据潞州。李克用病死,子存勖继立,设奇兵解围,梁军大败。李存勖初立之胜。
+significance: 确立李存勖威望,稳固晋对潞州的控扼。
+sources:
+- 资治通鉴·卷266-268
+- 旧五代史·武皇纪
+end_date:
+  year: 908
+  month: 5
+category: battle

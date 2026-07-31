@@ -1,0 +1,16 @@
+id: e_yedu_mutiny
+type: Event
+name: 邺都之变 / 兴教门之变
+date:
+  year: 926
+  month: 5
+category: coup
+importance: 3
+location: pl_luoyang
+polities_involved:
+- k_houdong
+description: 926 年邺都兵变,李嗣源被军士拥立。庄宗李存勖自洛阳出征,伶人郭从谦发动兴教门之变,弑庄宗。李嗣源入继,是为明宗。
+impact: 后唐转折。明宗时代为五代少有的治世。
+sources:
+- 资治通鉴·卷274
+- 新五代史·伶官传

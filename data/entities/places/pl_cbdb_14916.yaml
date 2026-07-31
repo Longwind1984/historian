@@ -1,0 +1,12 @@
+id: pl_cbdb_14916
+type: Place
+name: 全節
+modern_name: 全節
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.782
+longitude: 117.266
+first_year: 643
+last_year: 814
+description: CBDB 行政类型:Xian

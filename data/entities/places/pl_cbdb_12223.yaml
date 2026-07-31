@@ -1,0 +1,12 @@
+id: pl_cbdb_12223
+type: Place
+name: 盂縣
+modern_name: 盂縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.090957642
+longitude: 113.4129715
+first_year: 979
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,28 @@
+id: p_yan_zhenqing
+type: Person
+name: 颜真卿
+alias:
+- 颜清臣
+- 颜鲁公
+courtesy_name: 清臣
+born:
+  year: 709
+died:
+  year: 785
+  month: 8
+gender: male
+roles:
+- civil_official
+- literatus
+importance: 2
+birthplace: pl_wanping
+bio: 中唐名臣、书法家。安史之乱起兵讨贼。后任宰相,因不附卢杞被派往宣抚李希烈,785 年为李希烈缢杀。书法为'颜体'。
+sources:
+- 旧唐书·颜真卿传
+- 新唐书·颜真卿传
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-13-%E9%A1%94%E9%AD%AF%E5%85%AC.png"
+wikidata_id: "Q758566"
+wikipedia_zh: "颜真卿"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-13-%E9%A1%94%E9%AD%AF%E5%85%AC.png"

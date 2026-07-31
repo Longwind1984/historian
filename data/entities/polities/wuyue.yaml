@@ -1,0 +1,25 @@
+id: k_wuyue
+type: Polity
+name: 吴越
+name_en: Wuyue
+color: '#2ecc71'
+founded:
+  year: 907
+  month: 5
+ended:
+  year: 978
+  month: 5
+capital: pl_hangzhou
+description: 钱镠所建,都杭州。东南富庶。978 年和平归宋。
+sources:
+- 新五代史·吴越世家
+- 十国春秋·吴越
+- 吴越备史
+founder: p_qianliu
+ended_by: k_song
+territory:
+- valid_from:
+    year: 907
+  valid_to:
+    year: 978
+  geojson_file: wuyue_peak.geojson

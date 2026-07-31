@@ -1,0 +1,531 @@
+- from: p_sun_zhongshan
+  to: k_minguo
+  type: founded
+  since:
+    year: 1912
+    month: 1
+  note: 1912年1月1日就任中华民国临时大总统，缔造共和
+  sources:
+  - 中华民国史·第一编
+  - 孙中山年谱长编
+- from: p_sun_zhongshan
+  to: f_tongmenghui
+  type: leader_of
+  since:
+    year: 1905
+  note: 1905年东京合组同盟会，任总理
+  sources:
+  - 孙中山年谱长编
+  - 辛亥革命史
+- from: p_liao_zhongkai
+  to: p_sun_zhongshan
+  type: served_under
+  since:
+    year: 1905
+  until:
+    year: 1925
+  note: 长期追随孙中山，掌国民党财政，三大政策主要赞助者
+  sources:
+  - 中华民国史·廖仲恺传
+- from: p_sun_zhongshan
+  to: e_xin_hai_ge_ming
+  type: participated_in
+  since:
+    year: 1911
+    month: 10
+  note: 革命领袖，领导辛亥革命推翻帝制
+  sources:
+  - 中华民国史·第一编
+- from: p_huang_xing
+  to: e_xin_hai_ge_ming
+  type: participated_in
+  since:
+    year: 1911
+    month: 10
+  note: 武昌起义后任民军总司令，指挥阳夏保卫战
+  sources:
+  - 黄兴年谱长编
+- from: p_song_jiaoren
+  to: e_xin_hai_ge_ming
+  type: participated_in
+  since:
+    year: 1911
+  note: 同盟会骨干，民国初组国民党，倡责任内阁
+  sources:
+  - 中华民国史·宋教仁传
+- from: p_li_yuanhong
+  to: e_xin_hai_ge_ming
+  type: participated_in
+  since:
+    year: 1911
+    month: 10
+  note: 武昌起义后被推举为湖北军政府都督
+  sources:
+  - 中华民国史·黎元洪传
+- from: p_cai_e
+  to: e_hu_guo_yun_dong
+  type: led
+  since:
+    year: 1915
+    month: 12
+  note: 组建护国军任第一军总司令，入川讨袁
+  sources:
+  - 中华民国史·蔡锷传
+  - 谢本书·护国运动史
+- from: p_liang_qichao
+  to: e_hu_guo_yun_dong
+  type: participated_in
+  since:
+    year: 1915
+    month: 12
+  note: 策划反袁，护国军军务院成立后任政务委员长
+  sources:
+  - 中华民国史·梁启超传
+  - 梁启超年谱长编
+- from: p_chen_duxiu
+  to: e_xin_wen_hua_yun_dong
+  type: led
+  since:
+    year: 1915
+    month: 9
+  note: 1915年创办《青年杂志》，发起运动
+  sources:
+  - 中华民国史·陈独秀传
+  - 彭明·五四运动史
+- from: p_hu_shi
+  to: e_xin_wen_hua_yun_dong
+  type: participated_in
+  since:
+    year: 1917
+    month: 1
+  note: 1917年发《文学改良刍议》，倡白话文
+  sources:
+  - 中华民国史·胡适传
+- from: p_luxun
+  to: e_xin_wen_hua_yun_dong
+  type: participated_in
+  since:
+    year: 1918
+    month: 5
+  note: 1918年发《狂人日记》，新文化运动主将
+  sources:
+  - 鲁迅年谱
+- from: p_cai_yuanpei
+  to: e_wu_si_yun_dong
+  type: participated_in
+  since:
+    year: 1919
+    month: 5
+  note: 北大校长，五四运动中营救被捕学生
+  sources:
+  - 蔡元培年谱长编
+- from: p_li_dazhao
+  to: e_wu_si_yun_dong
+  type: participated_in
+  since:
+    year: 1919
+    month: 5
+  note: 北大图书馆主任，指导学生运动
+  sources:
+  - 中华民国史·李大钊传
+- from: p_chen_duxiu
+  to: e_wu_si_yun_dong
+  type: participated_in
+  since:
+    year: 1919
+    month: 6
+  note: 起草《北京市民宣言》，散发时被捕
+  sources:
+  - 中华民国史·陈独秀传
+- from: p_chen_duxiu
+  to: e_zhong_gong_cheng_li
+  type: participated_in
+  since:
+    year: 1921
+    month: 7
+  note: 中共主要创始人，一大被选为中央局书记
+  sources:
+  - 中国共产党历史·第一卷
+- from: p_li_dazhao
+  to: e_zhong_gong_cheng_li
+  type: participated_in
+  since:
+    year: 1921
+    month: 7
+  note: 南陈北李，北方党组织创建者，中共创始人
+  sources:
+  - 中国共产党历史·第一卷
+- from: p_chen_duxiu
+  to: p_li_dazhao
+  type: allied_with
+  since:
+    year: 1920
+  note: 南陈北李相约建党
+  sources:
+  - 中国共产党历史·第一卷
+- from: p_sun_zhongshan
+  to: e_guo_gong_he_zuo
+  type: led
+  since:
+    year: 1924
+    month: 1
+  note: 国民党一大确立联俄联共扶助农工，第一次国共合作形成
+  sources:
+  - 中华民国史·第二编
+- from: p_jiang_jieshi
+  to: e_bei_fa
+  type: led
+  since:
+    year: 1926
+    month: 7
+  note: 任国民革命军总司令，率师北伐
+  sources:
+  - 中华民国史·第二编
+- from: p_zhang_zuolin
+  to: e_bei_fa
+  type: participated_in
+  since:
+    year: 1926
+    month: 7
+  note: 奉系首领、安国军政府执政者，为北伐主要对象
+  sources:
+  - 中华民国史·张作霖传
+- from: p_jiang_jieshi
+  to: e_si_yi_er_shi_bian
+  type: led
+  since:
+    year: 1927
+    month: 4
+  note: 1927年4月12日在上海发动清党
+  sources:
+  - 中华民国史·第二编
+- from: p_wang_jingwei
+  to: e_si_yi_er_shi_bian
+  type: participated_in
+  since:
+    year: 1927
+    month: 7
+  note: 7月15日武汉政府分共，第一次国共合作全面破裂
+  sources:
+  - 中华民国史·第二编
+- from: p_zhang_xueliang
+  to: e_dong_bei_yi_zhi
+  type: led
+  since:
+    year: 1928
+    month: 12
+  note: 12月29日通电易帜，改悬青天白日旗，服从南京
+  sources:
+  - 张学良年谱
+- from: p_zhang_zuolin
+  to: p_zhang_xueliang
+  type: father_of
+  since:
+    year: 1901
+  note: 长子
+- from: p_zhang_xueliang
+  to: e_jiu_yi_ba_shi_bian
+  type: participated_in
+  since:
+    year: 1931
+    month: 9
+  note: 奉不抵抗令率东北军退入关内，东北沦陷
+  sources:
+  - 中华民国史·第三编
+  - 张学良年谱
+- from: p_zhang_xueliang
+  to: e_xi_an_shi_bian
+  type: led
+  since:
+    year: 1936
+    month: 12
+  note: 与杨虎城扣留蒋介石，通电八项主张
+  sources:
+  - 中华民国史·第三编
+  - 申伯纯·西安事变纪实
+- from: p_jiang_jieshi
+  to: e_xi_an_shi_bian
+  type: participated_in
+  since:
+    year: 1936
+    month: 12
+  note: 被扣留，经谈判接受停止内战、联共抗日
+  sources:
+  - 中华民国史·第三编
+- from: p_jiang_jieshi
+  to: e_qi_qi_shi_bian
+  type: led
+  since:
+    year: 1937
+    month: 7
+  note: 领导全国抗战，任军事委员会委员长
+  sources:
+  - 中国抗日战争史·上卷
+- from: p_tong_linge
+  to: e_qi_qi_shi_bian
+  type: participated_in
+  since:
+    year: 1937
+    month: 7
+  note: 二十九军副军长，南苑抗击日军阵亡
+  sources:
+  - 中国抗日战争史·上卷
+- from: p_li_zongren
+  to: e_tai_er_zhuang_zhi_zhan
+  type: led
+  since:
+    year: 1938
+    month: 3
+  note: 第五战区司令长官，指挥台儿庄战役
+  sources:
+  - 中国抗日战争史·中卷
+- from: p_zhang_zizhong
+  to: e_tai_er_zhuang_zhi_zhan
+  type: participated_in
+  since:
+    year: 1938
+    month: 3
+  note: 率五十九军临沂阻击日军板垣师团，保障台儿庄侧翼
+  sources:
+  - 中国抗日战争史·中卷
+- from: p_xue_yue
+  to: e_qi_qi_shi_bian
+  type: participated_in
+  since:
+    year: 1939
+    month: 9
+  note: 第九战区司令长官，指挥三次长沙会战
+  sources:
+  - 中国抗日战争史·中卷
+- from: p_wei_lihuang
+  to: e_qi_qi_shi_bian
+  type: participated_in
+  since:
+    year: 1943
+  note: 中国远征军司令长官，反攻缅北
+  sources:
+  - 中国抗日战争史·下卷
+- from: p_du_yuming
+  to: e_qi_qi_shi_bian
+  type: participated_in
+  since:
+    year: 1939
+    month: 12
+  note: 率第五军昆仑关战役，后任远征军副长官入缅
+  sources:
+  - 中国抗日战争史·中卷
+- from: p_jiang_jieshi
+  to: e_chong_qing_tan_pan
+  type: participated_in
+  since:
+    year: 1945
+    month: 8
+  note: 三次电邀毛泽东赴渝，主持重庆谈判
+  sources:
+  - 中华民国史·第三编
+- from: p_fu_zuoyi
+  to: e_san_da_zhan_yi
+  type: participated_in
+  since:
+    year: 1949
+    month: 1
+  note: 平津战役中率北平守军接受和平改编
+  sources:
+  - 中华民国史·第三编
+- from: p_du_yuming
+  to: e_san_da_zhan_yi
+  type: participated_in
+  since:
+    year: 1948
+    month: 11
+  note: 淮海战役徐州剿总副总司令，兵败被俘
+  sources:
+  - 中华民国史·第三编
+- from: p_yuanshikai
+  to: p_sun_zhongshan
+  type: rival_of
+  since:
+    year: 1913
+  note: 辛亥后袁氏掌权，宋案后孙中山发动二次革命讨袁
+  sources:
+  - 中华民国史·第二编
+- from: p_duan_qirui
+  to: p_feng_guozhang
+  type: rival_of
+  since:
+    year: 1917
+  note: 皖系段祺瑞与直系冯国璋"府院之争"
+  sources:
+  - 来新夏·北洋军阀史稿
+- from: p_li_zongren
+  to: p_bai_chongxi
+  type: allied_with
+  since:
+    year: 1925
+  note: 新桂系核心，长期合作主政广西
+  sources:
+  - 李宗仁回忆录
+- from: p_wang_jingwei
+  to: p_jiang_jieshi
+  type: rival_of
+  since:
+    year: 1926
+  note: 宁汉对立，争夺国民党领导权
+  sources:
+  - 中华民国史·第二编
+- from: p_sun_zhongshan
+  to: p_huang_xing
+  type: allied_with
+  since:
+    year: 1905
+  note: 同盟会时期孙黄并称，黄兴为仅次于孙中山的核心领袖，共同领导反清革命起义
+  sources:
+  - 黄兴年谱长编
+- from: e_xin_hai_ge_ming
+  to: e_qing_di_tui_wei
+  type: led_to
+  note: 辛亥革命各省响应、南北议和，清廷被迫退位
+  sources:
+  - 中华民国史·第一编
+  - 辛亥革命史
+- from: e_xin_hai_ge_ming
+  to: e_er_ci_ge_ming
+  type: led_to
+  note: 民初袁世凯专权、宋教仁遇刺，孙中山起兵讨袁
+  sources:
+  - 中华民国史·第二编
+- from: e_er_ci_ge_ming
+  to: e_hu_guo_yun_dong
+  type: led_to
+  note: 二次革命后袁氏走向帝制，蔡锷等起兵护国
+  sources:
+  - 中华民国史·第二编
+- from: e_xin_wen_hua_yun_dong
+  to: e_wu_si_yun_dong
+  type: led_to
+  note: 新文化运动思想启蒙，为五四爱国运动准备
+  sources:
+  - 彭明·五四运动史
+- from: e_wu_si_yun_dong
+  to: e_zhong_gong_cheng_li
+  type: led_to
+  note: 五四促进马克思主义传播并与工人运动结合，催生中共
+  sources:
+  - 中国共产党历史·第一卷
+- from: e_guo_gong_he_zuo
+  to: e_bei_fa
+  type: led_to
+  note: 国共合作整党建军，发动北伐战争
+  sources:
+  - 中华民国史·第二编
+- from: e_si_yi_er_shi_bian
+  to: e_chang_zheng
+  type: led_to
+  note: 四一二后国共分裂，中共转入武装斗争，反围剿失败而长征
+  sources:
+  - 中国共产党历史·第一卷
+- from: e_jiu_yi_ba_shi_bian
+  to: e_xi_an_shi_bian
+  type: led_to
+  note: 九一八东北沦陷后张学良促蒋抗日，发动西安事变
+  sources:
+  - 中华民国史·第三编
+- from: e_nan_jing_da_tu_sha
+  to: e_qi_qi_shi_bian
+  type: part_of
+  note: 南京保卫战失利，日军入城后制造大屠杀
+  sources:
+  - 中国抗日战争史·上卷
+- from: e_tai_er_zhuang_zhi_zhan
+  to: e_qi_qi_shi_bian
+  type: part_of
+  note: 徐州会战中的关键战役，全面抗战组成部分
+  sources:
+  - 中国抗日战争史·中卷
+- from: e_chong_qing_tan_pan
+  to: e_san_da_zhan_yi
+  type: led_to
+  note: 重庆谈判未解根本分歧，翌年全面内战，中共发动三大战役
+  sources:
+  - 中华民国史·第三编
+- from: p_sun_jiadong
+  to: e_dongfanghong1
+  type: participated_in
+  note: 作为‘东方红一号’技术负责人之一，参与中国第一颗人造卫星研制。
+  sources:
+  - 中国科学院·孙家栋与中国探月
+  - 国家航天局·孙家栋：从东方红到嫦娥奔月
+- from: p_sun_jiadong
+  to: e_change_tanyue
+  type: participated_in
+  note: 任探月工程总设计师，参与嫦娥探月工程。
+  sources:
+  - 中国科学院·孙家栋与中国探月
+  - 国家航天局·孙家栋：从东方红到嫦娥奔月
+- from: p_deng_jiaxian
+  to: e_diyike_yuanzidan
+  type: participated_in
+  note: 作为中国核武器研制主要组织者之一，参与首颗原子弹研制。
+  sources:
+  - 国家国防科技工业局·百年巨匠——邓稼先
+  - 中华人民共和国国防部·55年前的惊天一爆，让中国人挺起脊梁
+- from: p_yu_min
+  to: e_qingdan
+  type: participated_in
+  note: 中国氢弹研制的主要理论奠基者之一，参与首次氢弹试验所涉研制。
+  sources:
+  - 中国科学院·于敏个人简介
+  - 中国科学院·何祚庥忆于敏：当之无愧的氢弹构型最主要发明者
+- from: p_chen_geng
+  to: e_kang_mei_yuan_chao
+  type: participated_in
+  note: 抗美援朝期间任中国人民志愿军副司令员。
+  sources:
+  - 大余县人民政府·陈赓
+  - 湖南省纪委监委·陈赓：一门五代皆从戎
+- from: p_liu_bocheng
+  to: e_chang_zheng
+  type: participated_in
+  note: 长征中任红军总参谋长。
+  sources:
+  - 中国军网·政治方向有多重要？习近平从这个故事讲起……
+  - 中国军网·长征副刊（2019年2月18日）
+- from: p_kang_sheng
+  to: e_wen_hua_da_ge_ming
+  type: participated_in
+  note: 文化大革命中任中央文革小组顾问。
+  sources:
+  - 人民网·1966年5月28日 中共中央发出关于设立中央文化革命小组的通知
+  - 中共中央·关于建国以来党的若干历史问题的决议(1981)
+- from: p_xu_xiangqian
+  to: e_chang_zheng
+  type: participated_in
+  note: 长征中任红四方面军总指挥，随左路军南下。
+  sources:
+  - 中国军网·红四方面军发展历程中的七大里程碑
+  - 中国军网·政治方向有多重要？习近平从这个故事讲起……
+- from: p_song_qingling
+  to: p_sun_zhongshan
+  type: spouse_of
+  note: 孙中山夫人。
+  sources:
+  - 全国政协·宋庆龄（1893—1981）
+  - 中央政府驻港联络办·宋庆龄与保卫中国同盟
+- from: p_dai_jitao
+  to: p_sun_zhongshan
+  type: served_under
+  note: 民国后任孙中山秘书，长期参与机要。
+  sources:
+  - 中华民国史·戴季陶传
+  - 范小方·戴季陶传
+- from: p_tang_shaoyi
+  to: p_yuanshikai
+  type: served_under
+  since:
+    year: 1885
+  until:
+    year: 1912
+  note: 清末长期在朝鲜协助袁世凯；1912年出任内阁总理后因政见不合辞职，关系止于此。
+  sources:
+  - 中华民国史·唐绍仪传
+  - 张维持·唐绍仪传

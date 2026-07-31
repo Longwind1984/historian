@@ -1,0 +1,14 @@
+id: pl_qiao_cao
+type: Place
+name: 谯
+modern_name: 亳州
+province: 安徽
+latitude: 33.85
+longitude: 115.78
+category: city
+description: 曹操籍贯
+sources:
+- 三国志
+- 晋书
+- 魏书
+- 中国历史地图集

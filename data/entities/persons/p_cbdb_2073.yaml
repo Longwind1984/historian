@@ -1,0 +1,14 @@
+id: p_cbdb_2073
+type: Person
+name: 晏殊
+born:
+  year: 991
+died:
+  year: 1055
+gender: male
+birthplace: pl_cbdb_100610
+dynasty_ref: k_beisong
+bio: CBDB ID 2073
+name_en: Yan Shu
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_12794
+type: Place
+name: 黃巖
+modern_name: 黃巖
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.642613
+longitude: 121.258354
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

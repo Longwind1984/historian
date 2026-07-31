@@ -1,0 +1,19 @@
+id: p_qian_zhongshu
+name: 钱钟书
+type: Person
+born: {year: 1910}
+died: {year: 1998}
+roles:
+  - scholar
+  - literatus
+importance: 2
+bio: 江苏无锡人。学者、作家,著有《围城》《管锥编》等。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q559750"
+wikipedia_zh: "錢鍾書"
+image: "https://upload.wikimedia.org/wikipedia/commons/7/79/Qian_Zhongshu_1940s.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qian_Zhongshu_1940s.jpg"

@@ -1,0 +1,14 @@
+id: p_cbdb_1707
+type: Person
+name: 曾布
+born:
+  year: 1036
+died:
+  year: 1107
+gender: male
+birthplace: pl_cbdb_100011
+dynasty_ref: k_beisong
+bio: CBDB ID 1707
+name_en: Zeng Bu
+sources:
+- CBDB (China Biographical Database)

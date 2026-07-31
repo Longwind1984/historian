@@ -1,0 +1,21 @@
+id: p_mao_yisheng
+type: Person
+name: 茅以升
+gender: male
+born:
+  year: 1896
+died:
+  year: 1989
+roles:
+- scholar
+importance: 2
+bio: 江苏镇江人。桥梁工程学家。1933-1937 年主持修建钱塘江大桥，为中国人自行设计建造的第一座公铁两用现代化大桥；以"射水法""沉箱法""浮运法"解此江潮汐汹涌、流沙深厚之难。1937 年 12 月为阻日军南下，亲手炸毁自己所建之桥，抗战胜利后又主持修复。建国后主持修建武汉长江大桥，任铁道科学研究院院长。
+sources:
+- 当代中国史
+- 中国科学技术史
+wikidata_id: "Q6753608"
+wikipedia_zh: "茅以升"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/32/Mao_Yisheng.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Mao_Yisheng.jpg"

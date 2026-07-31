@@ -1,0 +1,26 @@
+id: p_ouyangxiu
+type: Person
+name: 欧阳修
+courtesy_name: 永叔
+born:
+  year: 1007
+  month: 8
+died:
+  year: 1072
+  month: 9
+gender: male
+roles:
+- literatus
+- scholar
+- civil_official
+importance: 1
+birthplace: pl_luling_wen
+bio: 北宋文学史学大家。古文运动领袖(唐宋八大家)。与宋祁合修《新唐书》,独撰《新五代史》。主持嘉祐二年科举,选拔苏轼、苏辙、曾巩、程颢、张载。
+sources:
+- 宋史·欧阳修传
+image: "https://upload.wikimedia.org/wikipedia/commons/0/09/%E5%AE%8B%E5%8F%82%E6%94%BF%E6%AC%A7%E9%98%B3%E6%96%87%E5%BF%A0%E5%85%AC%E4%BF%AE.jpg"
+wikidata_id: "Q334323"
+wikipedia_zh: "欧阳修"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%8F%82%E6%94%BF%E6%AC%A7%E9%98%B3%E6%96%87%E5%BF%A0%E5%85%AC%E4%BF%AE.jpg"

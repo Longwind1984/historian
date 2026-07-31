@@ -1,0 +1,18 @@
+id: e_houjing_zhiluan
+type: Event
+name: 侯景之乱
+date:
+  year: 548
+  month: 8
+category: war
+importance: 2
+location: pl_jianye_han
+polities_involved:
+- k_nan_liang
+description: 548 年东魏降将侯景叛梁,渡江围台城。549 三月城破,梁武帝萧衍饿死。江南文化经济大破坏。552 王僧辩、陈霸先平之。
+impact: 南朝转折点,江南大衰落。
+sources:
+- 梁书·侯景传
+- 南史·贼臣传
+end_date:
+  year: 552

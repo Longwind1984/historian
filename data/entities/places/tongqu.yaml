@@ -1,0 +1,15 @@
+id: pl_tongqu
+type: Place
+name: 通济渠
+modern_name: 开封
+province: 河南
+latitude: 34.8
+longitude: 114.31
+category: city
+description: 大运河通济渠段
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代
+aliases:
+- 汴州

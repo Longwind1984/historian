@@ -1,0 +1,20 @@
+id: e_haishang_zhimeng
+type: Event
+name: 海上之盟
+date:
+  year: 1120
+category: treaty
+importance: 2
+location: pl_dengzhou
+polities_involved:
+- k_beisong
+- k_jin
+description: 北宋遣使自登州渡海与金相约夹攻辽:金取辽中京、宋取辽燕京;灭辽后宋收回燕云十六州,以原给辽的岁币转给金。但宋军攻燕京失败,请金代取,金遂知宋军虚弱。
+impact: 辽灭亡(1125),金觉察宋腐败,旋即南下,致靖康之变。
+sources:
+- 宋史·徽宗本纪
+- 三朝北盟会编
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 约金夹攻辽以复燕云

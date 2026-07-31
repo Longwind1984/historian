@@ -1,0 +1,23 @@
+id: p_sima_zhao
+type: Person
+name: 司马昭
+alias:
+- 司马子上
+- 晋文帝
+courtesy_name: 子上
+born:
+  year: 211
+died:
+  year: 265
+  month: 9
+gender: male
+birthplace: pl_wen_xianyu
+bio: 司马师弟。兄死继大将军。263 灭蜀。265 病卒,子炎代魏建晋。
+sources:
+- 晋书·文帝纪
+wikidata_id: "Q532884"
+wikipedia_zh: "司马昭"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/SimaZhao.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:SimaZhao.jpg"

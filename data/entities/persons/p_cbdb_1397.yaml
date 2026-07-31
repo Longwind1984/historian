@@ -1,0 +1,14 @@
+id: p_cbdb_1397
+type: Person
+name: 彭乘
+born:
+  year: 985
+died:
+  year: 1049
+gender: male
+birthplace: pl_cbdb_13292
+dynasty_ref: k_beisong
+bio: CBDB ID 1397
+name_en: Peng Cheng
+sources:
+- CBDB (China Biographical Database)

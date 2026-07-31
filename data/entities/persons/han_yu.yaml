@@ -1,0 +1,26 @@
+id: p_han_yu
+type: Person
+name: 韩愈
+alias:
+- 韩退之
+courtesy_name: 退之
+born:
+  year: 768
+died:
+  year: 824
+gender: male
+roles:
+- literatus
+- scholar
+importance: 1
+birthplace: pl_nanyang
+bio: 中唐文学家、思想家。'唐宋八大家'之首。古文运动领袖。819 谏迎佛骨,贬潮州。
+sources:
+- 旧唐书·韩愈传
+- 资治通鉴·卷240
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Han_Yu.jpg/500px-Han_Yu.jpg"
+wikidata_id: "Q318998"
+wikipedia_zh: "韩愈"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Han_Yu.jpg"

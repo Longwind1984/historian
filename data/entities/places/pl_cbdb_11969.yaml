@@ -1,0 +1,12 @@
+id: pl_cbdb_11969
+type: Place
+name: 韓城
+modern_name: 韓城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.465939
+longitude: 110.437637
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,18 @@
+id: e_sanfan_wufan
+type: Event
+name: 三反五反
+date:
+  year: 1951
+  month: 12
+end_date:
+  year: 1952
+  month: 10
+category: purge
+polities_involved:
+- k_prc
+importance: 2
+description: 1951 年 12 月起在党政机关开展"三反"(反贪污、反浪费、反官僚主义)，1952 年 1 月起在私营工商界开展"五反"(反行贿、反偷税漏税、反盗骗国家财产、反偷工减料、反盗窃国家经济情报)。运动以群众检举、坦白交代与定案批斗推行，未经司法程序;工商界人士不堪逼迫自杀者众，上海一地尤甚。
+impact: 私营工商业元气大伤，为 1953 年起的社会主义改造清除了阻力;亦确立了以政治运动而非法律程序处理经济问题的路径。
+sources:
+- 当代中国史
+- 中华人民共和国史

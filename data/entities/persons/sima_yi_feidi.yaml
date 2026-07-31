@@ -1,0 +1,27 @@
+id: p_sima_yi_feidi
+type: Person
+name: 司马奕
+alias:
+- 晋废帝
+- 海西公
+born:
+  year: 342
+died:
+  year: 386
+reign_start:
+  year: 365
+reign_end:
+  year: 371
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 成帝子。371年为桓温所废，贬海西公。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋废帝
+  regime: 东晋
+wikidata_id: "Q7399"
+wikipedia_zh: "晋废帝"

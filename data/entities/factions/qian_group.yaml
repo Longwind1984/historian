@@ -1,0 +1,18 @@
+id: f_qian_group
+type: Faction
+name: 吴越钱氏集团
+nature: military_clan
+founded:
+  year: 875
+dissolved:
+  year: 978
+core_region: pl_hangzhou
+description: 钱镠奠基,以两浙武人+本地士人+海贸商人组成的军政集团。修海塘、兴水利、保境安民。
+significance: 吴越国的政权基础,贡献于东南经济发展。
+peak_period: 唐末-北宋初
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

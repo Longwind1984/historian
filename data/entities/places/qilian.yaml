@@ -1,0 +1,14 @@
+id: pl_qilian
+type: Place
+name: 祁连山
+modern_name: 祁连
+province: 甘肃
+latitude: 38.18
+longitude: 100.25
+category: battlefield
+description: 霍去病征匈奴
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

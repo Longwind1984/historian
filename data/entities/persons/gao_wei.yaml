@@ -1,0 +1,27 @@
+id: p_gao_wei
+type: Person
+name: 高纬
+alias:
+- 北齐后主
+born:
+  year: 556
+died:
+  year: 577
+reign_start:
+  year: 565
+reign_end:
+  year: 577
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 武成帝子。宠冯小怜、诛斛律光与兰陵王高长恭,自毁长城。577年北周破邺,北齐亡,与幼主同被诛。
+ext:
+  title: 北齐后主
+  regime: 北齐
+sources:
+- 北齐书
+- 北史
+- 资治通鉴
+wikidata_id: "Q718181"
+wikipedia_zh: "齐后主"

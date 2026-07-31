@@ -1,0 +1,27 @@
+id: p_xiao_zhaowen
+type: Person
+name: 萧昭文
+alias:
+- 海陵王
+born:
+  year: 480
+died:
+  year: 494
+reign_start:
+  year: 494
+reign_end:
+  year: 494
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 武帝孙。萧鸾所立,在位数月被废,旋遇害。
+ext:
+  title: 齐海陵王
+  regime: 南齐
+sources:
+- 南齐书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1190405"
+wikipedia_zh: "萧昭文"

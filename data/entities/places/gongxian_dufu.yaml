@@ -1,0 +1,13 @@
+id: pl_gongxian_dufu
+type: Place
+name: 巩县
+modern_name: 巩义
+province: 河南
+latitude: 34.75
+longitude: 113.02
+category: city
+description: 杜甫出生地
+sources:
+- 旧唐书
+- 隋书
+- 中国历史地图集

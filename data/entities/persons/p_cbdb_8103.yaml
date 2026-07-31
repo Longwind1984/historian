@@ -1,0 +1,14 @@
+id: p_cbdb_8103
+type: Person
+name: 馬知節
+born:
+  year: 955
+died:
+  year: 1019
+gender: male
+birthplace: pl_cbdb_100669
+dynasty_ref: k_beisong
+bio: CBDB ID 8103
+name_en: Ma Zhijie
+sources:
+- CBDB (China Biographical Database)

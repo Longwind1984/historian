@@ -1,0 +1,12 @@
+id: pl_cbdb_12780
+type: Place
+name: 永嘉
+modern_name: 永嘉
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.018291
+longitude: 120.653221
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

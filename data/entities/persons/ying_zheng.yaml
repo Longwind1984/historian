@@ -1,0 +1,36 @@
+id: p_ying_zheng
+type: Person
+name: 嬴政
+alias:
+- 秦始皇
+- 始皇帝
+- 赵政
+born:
+  year: -259
+died:
+  year: -210
+  month: 7
+reign_start:
+  year: -246
+reign_end:
+  year: -210
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_handan_qin
+bio: 秦朝建立者。BC247 即秦王位(13岁),BC238 亲政。BC230-221 十年灭韩、赵、魏、楚、燕、齐六国,完成统一。自称'始皇帝'。废分封,行郡县,统一文字、货币、度量衡、车轨。BC213
+  焚书,BC212 坑儒。BC214 修长城。BC221-210 在位。BC210 七月东巡途中病卒于沙丘。宦官赵高与李斯篡改遗诏,立胡亥为二世,赐死扶苏。
+ext:
+  significance: 中国历史上第一位完成统一的皇帝。
+  title: 秦始皇
+  regime: 秦
+sources:
+- 史记·秦始皇本纪
+- 资治通鉴·卷6-7
+image: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Qinshihuangdi3.jpg"
+wikidata_id: "Q7192"
+wikipedia_zh: "秦始皇"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qinshihuangdi3.jpg"

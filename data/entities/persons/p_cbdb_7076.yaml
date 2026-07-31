@@ -1,0 +1,14 @@
+id: p_cbdb_7076
+type: Person
+name: 王安國
+born:
+  year: 1028
+died:
+  year: 1074
+gender: male
+birthplace: pl_cbdb_100513
+dynasty_ref: k_beisong
+bio: CBDB ID 7076
+name_en: Wang Anguo
+sources:
+- CBDB (China Biographical Database)

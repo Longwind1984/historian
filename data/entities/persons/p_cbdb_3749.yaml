@@ -1,0 +1,14 @@
+id: p_cbdb_3749
+type: Person
+name: 司馬遵
+born:
+  year: 1160
+died:
+  year: 1203
+gender: male
+birthplace: pl_cbdb_11938
+dynasty_ref: k_beisong
+bio: CBDB ID 3749
+name_en: Sima Zun
+sources:
+- CBDB (China Biographical Database)

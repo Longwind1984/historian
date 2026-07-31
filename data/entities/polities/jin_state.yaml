@@ -1,0 +1,14 @@
+id: k_jin_state
+type: Polity
+name: 晋国
+name_en: Jin (state)
+color: '#8e44ad'
+founded:
+  year: -1033
+ended:
+  year: -376
+description: 晋国。周初成王封弟叔虞于唐(后改晋)，姬姓。晋文公城濮败楚称霸，长期为中原霸主。春秋晚期六卿专权，前453年三家分晋(韩赵魏)，前403年周威烈王册封三家为诸侯，前376年晋静公废，晋君绝祀，晋亡。始封年据史记通说。
+sources:
+- 史记·晋世家
+- 左传·定公
+- 史记·周本纪

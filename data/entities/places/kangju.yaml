@@ -1,0 +1,14 @@
+id: pl_kangju
+type: Place
+name: 康居
+modern_name: 撒马尔罕
+province: 乌兹别克斯坦
+latitude: 39.66
+longitude: 66.97
+category: city
+description: 西域
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

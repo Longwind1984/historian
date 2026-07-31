@@ -1,0 +1,12 @@
+id: pl_cbdb_12718
+type: Place
+name: 長興
+modern_name: 長興
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.013893
+longitude: 119.901375
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_16043
+type: Place
+name: 沙縣
+modern_name: 沙縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.391242
+longitude: 117.822663
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

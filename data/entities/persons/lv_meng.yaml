@@ -1,0 +1,21 @@
+id: p_lv_meng
+type: Person
+name: 吕蒙
+alias:
+- 吕子明
+courtesy_name: 子明
+born:
+  year: 178
+died:
+  year: 220
+gender: male
+birthplace: pl_fupo_lvmeng
+bio: 东吴名将。219 白衣渡江,擒关羽。'士别三日,当刮目相待'。
+sources:
+- 三国志·吴书·吕蒙传
+wikidata_id: "Q470080"
+wikipedia_zh: "吕蒙"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Lu_Meng.jpg"
+image_license: "Public domain"
+image_credit: "不詳 (Unknown)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Lu_Meng.jpg"

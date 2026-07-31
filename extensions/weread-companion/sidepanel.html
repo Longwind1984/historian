@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>纪年图谱 · 微信读书伴读</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">微信读书伴读</p>
+        <h1>纪年图谱</h1>
+      </div>
+      <span class="environment-badge">本地 Beta</span>
+    </header>
+
+    <main>
+      <section class="workbench" aria-label="历史探索工作台">
+        <iframe
+          id="workbenchFrame"
+          title="纪年图谱探索工作台"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+        ></iframe>
+        <div id="frameStatus" class="frame-status" aria-live="polite"></div>
+      </section>
+
+      <section class="selection-dock" aria-labelledby="selectionHeading">
+        <div class="dock-heading">
+          <div>
+            <p class="eyebrow">当前阅读位置</p>
+            <h2 id="selectionHeading">选区桥接</h2>
+          </div>
+          <button id="captureButton" class="secondary" type="button">
+            读取当前选区
+          </button>
+        </div>
+
+        <article id="selectionPreview" class="selection-preview" hidden>
+          <p id="selectionMeta" class="selection-meta"></p>
+          <blockquote id="selectionText"></blockquote>
+        </article>
+
+        <p id="bridgeStatus" class="bridge-status" aria-live="polite">
+          只有点击“读取当前选区”时，扩展才会读取微信读书页面。
+        </p>
+        <button id="sendButton" class="primary" type="button" disabled>
+          加入当前探索
+        </button>
+      </section>
+    </main>
+
+    <script type="module" src="sidepanel.mjs"></script>
+  </body>
+</html>

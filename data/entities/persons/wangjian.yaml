@@ -1,0 +1,32 @@
+id: p_wangjian
+type: Person
+name: 王建
+alias:
+- 前蜀高祖
+courtesy_name: 光图
+born:
+  year: 847
+died:
+  year: 918
+  month: 6
+gender: male
+birthplace: pl_xuzhou
+bio: 前蜀建立者。出身行伍,唐末入蜀,逐步兼并两川。907 年唐亡后称帝于成都。在位期间蜀地安定。918 年卒。
+sources:
+- 新五代史·前蜀世家
+- 十国春秋·前蜀
+- 十国春秋
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 907
+reign_end:
+  year: 918
+importance: 3
+roles:
+- emperor
+ext:
+  title: 王建
+  regime: 前蜀
+wikidata_id: "Q708651"
+wikipedia_zh: "王建 (前蜀)"

@@ -1,0 +1,24 @@
+id: p_yaochang
+name: 姚苌
+courtesy_name: 景茂
+born:
+  year: 330
+died:
+  year: 393
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 羌族,姚弋仲之子。原为前秦将,淝水战后 384 自立,称万年秦王,国号秦(史称后秦)。385 缢杀苻坚于新平。
+sources:
+- 晋书·载记第十六
+- 资治通鉴·卷105-108
+type: Person
+reign_start:
+  year: 384
+  month: 4
+reign_end:
+  year: 393
+  month: 12
+wikidata_id: "Q1147266"
+wikipedia_zh: "姚苌"

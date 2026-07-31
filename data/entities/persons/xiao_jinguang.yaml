@@ -1,0 +1,21 @@
+id: p_xiao_jinguang
+type: Person
+name: 萧劲光
+gender: male
+born:
+  year: 1903
+died:
+  year: 1989
+roles:
+- general
+importance: 3
+bio: 湖南长沙人。早年留苏。1950 年出任中国人民解放军海军首任司令员，任职近三十年，主持海军自无到有的初创。1955 年授大将。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q5966145"
+wikipedia_zh: "萧劲光"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/82/Xiao-jingguang.jpg"
+image_license: "Public domain"
+image_credit: "Chinese government"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xiao-jingguang.jpg"

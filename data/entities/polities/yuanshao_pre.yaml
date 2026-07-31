@@ -1,0 +1,15 @@
+id: k_yuanshao_pre
+type: Polity
+name: 袁绍集团
+name_en: Yuan Shao's Faction
+color: '#7a6a9c'
+founded:
+  year: 191
+ended:
+  year: 207
+  month: 9
+description: 191 袁绍夺冀州,后并青、并、幽,据河北四州,为汉末最强诸侯。200 官渡败于曹操,202 忧愤死。207 曹操定辽东,袁尚袁熙授首,集团覆灭。
+sources:
+- 三国志·魏书·袁绍传
+founder: p_yuan_shao
+ended_by: k_caowei_pre

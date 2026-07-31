@@ -1,0 +1,21 @@
+id: p_fei_xiaotong
+type: Person
+name: 费孝通
+born:
+  year: 1910
+died:
+  year: 2005
+gender: male
+roles:
+- scholar
+importance: 3
+bio: 江苏吴江人。社会学家、人类学家，著有《乡土中国》《江村经济》等，曾任全国人大常委会副委员长、中国民主同盟主席。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q982656"
+wikipedia_zh: "费孝通"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Xiaotong.jpg"
+image_license: "No restrictions"
+image_credit: "LSE library"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xiaotong.jpg"

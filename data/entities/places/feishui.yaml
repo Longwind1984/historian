@@ -1,0 +1,15 @@
+id: pl_feishui
+type: Place
+name: 淝水/寿阳
+modern_name: 寿县
+province: 安徽
+latitude: 32.57
+longitude: 116.78
+category: battlefield
+description: 383 淝水之战
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

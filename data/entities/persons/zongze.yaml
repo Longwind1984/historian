@@ -1,0 +1,21 @@
+id: p_zongze
+type: Person
+name: 宗泽
+courtesy_name: 汝霖
+born:
+  year: 1060
+  month: 1
+died:
+  year: 1128
+  month: 7
+gender: male
+birthplace: pl_yiwu_zong
+bio: 南宋初抗金名将。靖康中镇守磁州。建炎初任东京(开封)留守,招抚义军,联络两河。三呼'过河'而死。岳飞为其部属。
+sources:
+- 宋史·宗泽传
+wikidata_id: "Q5949152"
+wikipedia_zh: "宗澤"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/%E5%AE%97%E6%BE%A4.jpg/500px-%E5%AE%97%E6%BE%A4.jpg"
+image_license: "Public domain"
+image_credit: "清顾沅辑"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%97%E6%BE%A4.jpg"

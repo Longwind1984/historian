@@ -1,0 +1,12 @@
+id: pl_cbdb_101109
+type: Place
+name: 嘉州
+modern_name: 嘉州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.5704
+longitude: 103.7599
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

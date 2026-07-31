@@ -1,0 +1,14 @@
+id: e_kang_mei_yuan_chao
+name: 抗美援朝
+type: Event
+date:
+  year: 1950
+end_date:
+  year: 1953
+category: war
+importance: 2
+description: 1950年10月中国人民志愿军入朝,与朝鲜方面共同对以美国为首的联合国军作战,1953年7月签订《朝鲜停战协定》。
+impact: 朝鲜半岛恢复战前分界线态势。
+sources:
+- 中华人民共和国史
+- 当代中国史

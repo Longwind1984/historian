@@ -1,0 +1,11 @@
+id: pl_menggu_hh
+type: Place
+name: 蒙古高原
+modern_name: 蒙古高原
+province: 蒙古
+latitude: 47.92
+longitude: 106.92
+category: region
+description: 回鹘汗国
+sources:
+- 旧唐书·地理志

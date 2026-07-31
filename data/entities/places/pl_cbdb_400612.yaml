@@ -1,0 +1,12 @@
+id: pl_cbdb_400612
+type: Place
+name: 天水郡
+modern_name: 天水郡
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.9478
+longitude: 105.5689
+first_year: 742
+last_year: 757
+description: CBDB 行政类型:Jun Commandery

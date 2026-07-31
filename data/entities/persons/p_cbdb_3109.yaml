@@ -1,0 +1,14 @@
+id: p_cbdb_3109
+type: Person
+name: 程大昌
+born:
+  year: 1123
+died:
+  year: 1195
+gender: male
+birthplace: pl_cbdb_12853
+dynasty_ref: k_beisong
+bio: CBDB ID 3109
+name_en: Cheng Dachang
+sources:
+- CBDB (China Biographical Database)

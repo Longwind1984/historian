@@ -1,0 +1,13 @@
+id: pl_hedong
+type: Place
+name: 河东
+modern_name: 山西
+province: 山西
+latitude: 37.5
+longitude: 112.3
+category: region
+description: 李克用/沙陀集团基地
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

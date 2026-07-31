@@ -1,0 +1,12 @@
+id: pl_cbdb_15921
+type: Place
+name: 廬陵
+modern_name: 廬陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.103239
+longitude: 114.971275
+first_year: 682
+last_year: 959
+description: CBDB 行政类型:Xian

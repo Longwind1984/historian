@@ -1,0 +1,14 @@
+id: pl_chenggao
+type: Place
+name: 成皋
+modern_name: 荥阳
+province: 河南
+latitude: 34.86
+longitude: 113.39
+category: battlefield
+description: 楚汉
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

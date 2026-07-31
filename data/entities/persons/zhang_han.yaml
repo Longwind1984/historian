@@ -1,0 +1,13 @@
+id: p_zhang_han
+type: Person
+name: 章邯
+died:
+  year: -205
+gender: male
+birthplace: pl_xianyang_qin
+bio: 秦末将领。BC209 率骊山刑徒大破周文军。BC208 杀项梁于定陶。BC207 投降项羽于巨鹿(殷墟)。BC205 三秦王之一,都废丘。BC205 为韩信所破,自杀。
+sources:
+- 史记·秦始皇本纪
+- 资治通鉴·卷9
+wikidata_id: "Q1336683"
+wikipedia_zh: "章邯"

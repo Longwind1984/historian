@@ -1,0 +1,41 @@
+id: p_luxun
+type: Person
+name: 鲁迅
+alias:
+- 周树人
+courtesy_name: 豫才
+born:
+  year: 1881
+died:
+  year: 1936
+gender: male
+roles:
+- literatus
+- scholar
+importance: 1
+bio: 浙江绍兴人，近代文学家、思想家。原名周树人。1902 年留学日本，先学医，后弃医从文。1909 年回国，先后在杭州、绍兴任教，后任职教育部。1918 年在《新青年》发表中国第一篇白话小说《狂人日记》，为新文化运动主将。1920 年起任北京大学、北京女子高等师范学校讲师。1926 年后任教厦门大学、中山大学，旋定居上海专事写作。1930 年发起并领导中国左翼作家联盟。著《呐喊》《彷徨》《野草》等。1936 年病逝于上海。
+life_events:
+- year: 1902
+  event: 留学日本仙台医学专门学校
+  source: 鲁迅年谱
+- year: 1918
+  event: 发表《狂人日记》，为新文化运动主将
+  source: 鲁迅全集·第一卷
+- year: 1921
+  event: 发表《阿Q正传》
+  source: 鲁迅全集·第一卷
+- year: 1930
+  event: 发起中国左翼作家联盟
+  source: 鲁迅年谱
+- year: 1936
+  event: 病逝于上海
+  source: 鲁迅年谱
+sources:
+- 鲁迅全集·第一卷
+- 朱正·鲁迅传
+wikidata_id: "Q23114"
+wikipedia_zh: "鲁迅"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/LuXun1930.jpg/500px-LuXun1930.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:LuXun1930.jpg"

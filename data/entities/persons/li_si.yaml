@@ -1,0 +1,17 @@
+id: p_li_si
+type: Person
+name: 李斯
+died:
+  year: -208
+gender: male
+roles:
+- civil_official
+- scholar
+importance: 1
+birthplace: pl_shang_cai_lisi
+bio: 秦相。楚上蔡人。荀子学生。BC237 上《谏逐客书》。BC221 任丞相,主废分封、行郡县、统一文字。BC210 与赵高矫诏立胡亥。BC208 为赵高诬陷谋反,腰斩于咸阳,夷三族。
+sources:
+- 史记·李斯列传
+- 资治通鉴·卷7
+wikidata_id: "Q152919"
+wikipedia_zh: "李斯"

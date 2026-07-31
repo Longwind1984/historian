@@ -1,0 +1,12 @@
+id: pl_cbdb_100163
+type: Place
+name: 常山
+modern_name: 常山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.903732
+longitude: 118.502663
+first_year: 960
+last_year: 1266
+description: CBDB 行政类型:Xian

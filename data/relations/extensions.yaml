@@ -1,0 +1,209 @@
+- from: d_sui
+  to: d_tang
+  type: succeeded_by
+  note: 李渊代隋建唐
+  since:
+    year: 618
+    month: 5
+- from: d_tang
+  to: d_song
+  type: succeeded_by
+  since:
+    year: 960
+    month: 2
+  note: 中间隔五代十国
+- from: d_song
+  to: d_yuan
+  type: succeeded_by
+  since:
+    year: 1279
+    month: 2
+  note: 崖山海战
+- from: d_liao
+  to: d_jin_jurchen
+  type: succeeded_by
+  since:
+    year: 1125
+    month: 8
+  note: 金灭辽
+- from: d_jin_jurchen
+  to: d_yuan
+  type: succeeded_by
+  since:
+    year: 1234
+    month: 2
+  note: 蒙古灭金
+- from: d_yuan
+  to: d_ming
+  type: succeeded_by
+  since:
+    year: 1368
+    month: 1
+  note: 明军克大都
+- from: d_ming
+  to: d_qing
+  type: succeeded_by
+  since:
+    year: 1644
+    month: 3
+  note: 清兵入关
+- from: d_song
+  to: k_houzhou
+  type: preceded_by
+  since:
+    year: 960
+    month: 2
+  note: 代后周
+- from: p_an_lushan
+  to: f_heshuo
+  type: leader_of
+  since:
+    year: 742
+  until:
+    year: 757
+    month: 1
+  note: 三镇节度使
+- from: p_huangchao
+  to: p_zhuwen
+  type: mentored_by
+  since:
+    year: 877
+  until:
+    year: 882
+    month: 9
+  note: 朱温原为黄巢部将
+- from: p_zhuwen
+  to: p_huangchao
+  type: served_under
+  since:
+    year: 877
+  until:
+    year: 882
+    month: 9
+  note: 黄巢部将
+- from: p_huangchao
+  to: f_zhuwen_group
+  type: predecessor_of
+  note: 朱温集团源自黄巢残部
+- from: p_yuwentai
+  to: f_guanlong
+  type: founded
+  since:
+    year: 530
+  note: 创立者
+- from: p_duguxin
+  to: f_guanlong
+  type: member_of
+  since:
+    year: 530
+  until:
+    year: 557
+    month: 4
+  note: 八柱国之一
+- from: p_lihu
+  to: f_guanlong
+  type: member_of
+  since:
+    year: 530
+  until:
+    year: 551
+  note: 八柱国之一
+- from: p_yangjian
+  to: f_guanlong
+  type: member_of
+  note: 关陇贵族,杨忠之子,代周建隋
+  since:
+    year: 541
+    month: 7
+  until:
+    year: 604
+    month: 8
+- from: p_liyuan
+  to: f_guanlong
+  type: member_of
+  since:
+    year: 566
+    month: 4
+  until:
+    year: 635
+    month: 6
+  note: 关陇集团后裔
+- from: p_duguxin
+  to: p_yangjian
+  type: father_of
+  note: 杨坚岳父(独孤伽罗之父)
+- from: p_lihu
+  to: p_liyuan
+  type: grandfather_of
+  note: 经李昞,唐高祖李渊之祖
+- from: p_liyuan
+  to: d_tang
+  type: founded
+  since:
+    year: 618
+    month: 5
+  note: 代隋建唐
+- from: p_liyuan
+  to: k_tang
+  type: founded
+  note: 起兵太原,代隋建唐
+  since:
+    year: 618
+    month: 5
+- from: p_zhaoguangyi
+  to: k_song
+  type: succeeded_by
+  since:
+    year: 976
+    month: 11
+  until:
+    year: 997
+    month: 3
+  note: 宋太宗
+- from: p_zhaokuangyin
+  to: p_zhaoguangyi
+  type: sibling_of
+  note: 兄弟
+- from: p_zhaoguangyi
+  to: b_song_beihan
+  type: led
+  since:
+    year: 979
+    month: 2
+  note: 亲征
+- from: p_hubilai
+  to: d_yuan
+  type: founded
+  since:
+    year: 1271
+    month: 11
+  note: 定国号元
+- from: p_zhuyuanzhang
+  to: d_ming
+  type: founded
+  note: 驱逐元廷,定都应天
+  since:
+    year: 1368
+    month: 1
+- from: p_zhuyuanzhang
+  to: pl_nanjing_ming
+  type: capital_at
+  since:
+    year: 1368
+    month: 1
+  until:
+    year: 1420
+  note: 初都应天
+- from: p_wanganshi
+  to: p_sima_guang
+  type: rival_of
+  since:
+    year: 1069
+  until:
+    year: 1086
+    month: 5
+  note: 变法 vs 反变法
+- from: p_yuefei
+  to: p_zhaoguangyi
+  type: served_under
+  note: 北宋末将(实际事徽钦高宗三代)

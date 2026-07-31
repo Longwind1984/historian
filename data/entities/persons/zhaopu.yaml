@@ -1,0 +1,20 @@
+id: p_zhaopu
+type: Person
+name: 赵普
+courtesy_name: 则平
+born:
+  year: 922
+died:
+  year: 992
+  month: 8
+gender: male
+birthplace: pl_ji_xian_zhaopu
+bio: 北宋开国谋主。陈桥兵变主要策划者。献'杯酒释兵权'策。太祖、太宗两朝宰相。'半部《论语》治天下'。
+sources:
+- 宋史·赵普传
+wikidata_id: "Q2798287"
+wikipedia_zh: "赵普"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/%E5%AE%8B%E4%B8%9E%E7%9B%B8%E8%B5%B5%E6%99%AE.jpg/500px-%E5%AE%8B%E4%B8%9E%E7%9B%B8%E8%B5%B5%E6%99%AE.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E4%B8%9E%E7%9B%B8%E8%B5%B5%E6%99%AE.jpg"

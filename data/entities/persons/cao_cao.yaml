@@ -1,0 +1,36 @@
+id: p_cao_cao
+type: Person
+name: 曹操
+alias:
+- 曹孟德
+- 魏武帝
+- 曹吉利
+courtesy_name: 孟德
+born:
+  year: 155
+died:
+  year: 220
+  month: 3
+note: 魏武帝为子曹丕代汉后追尊,曹操生前未称帝,无实际在位,reign 留空。
+gender: male
+roles:
+- general
+- emperor
+- literatus
+importance: 1
+birthplace: pl_qiao_cao
+bio: 东汉末年杰出的政治家、军事家、文学家。沛国谯县人。189 起兵讨董卓,196 迎汉献帝都许,'挟天子以令诸侯'。200 官渡之战大破袁绍,统一北方。208
+  赤壁之战败北,三国鼎立成。213 魏公,216 魏王。220 病卒,子丕代汉。
+ext:
+  significance: 中国历史最具争议的人物之一。建安文学领袖。
+  title: 曹操
+  regime: 曹魏
+sources:
+- 三国志·魏书·武帝纪
+- 资治通鉴·卷60-68
+image: "https://upload.wikimedia.org/wikipedia/commons/5/57/Cao_Cao_scth.jpg"
+wikidata_id: "Q204077"
+wikipedia_zh: "曹操"
+image_license: "Public domain"
+image_credit: "Wang Qi"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Cao_Cao_scth.jpg"

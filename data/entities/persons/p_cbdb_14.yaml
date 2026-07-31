@@ -1,0 +1,12 @@
+id: p_cbdb_14
+type: Person
+name: 晁端彥
+born:
+  year: 1035
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 14
+name_en: Chao Duanyan
+sources:
+- CBDB (China Biographical Database)

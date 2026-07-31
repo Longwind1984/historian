@@ -1,0 +1,22 @@
+id: p_songqiqiu
+type: Person
+name: 宋齐丘
+gender: male
+courtesy_name: 超回
+born:
+  year: 887
+died:
+  year: 959
+roles:
+- civil_official
+importance: 3
+bio: 南唐开国谋主,佐李昪代吴。后结党擅权,与孙晟、韩熙载等相攻,是为南唐党争。959 后主李璟数其罪,放归九华山,缢死。
+sources:
+- 南唐书
+- 十国春秋·南唐
+wikidata_id: "Q7561039"
+wikipedia_zh: "宋齊丘"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/8c/%E5%AE%8B%E9%BD%8A%E4%B8%98.jpg"
+image_license: "Public domain"
+image_credit: "像取自1917年修《安徽新安宋氏宗谱》"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E9%BD%8A%E4%B8%98.jpg"

@@ -1,0 +1,16 @@
+id: p_sunsheng
+type: Person
+name: 孙晟
+gender: male
+died:
+  year: 956
+  month: 10
+roles:
+- civil_official
+importance: 3
+bio: 南唐宰相。956 后周世宗攻淮南,晟奉使乞和,被留。世宗问江南虚实,晟不对,曰「臣唐大臣,岂可为陛下谋」,遂见杀。
+sources:
+- 南唐书
+- 新五代史·南唐世家
+wikidata_id: "Q16205409"
+wikipedia_zh: "孙晟"

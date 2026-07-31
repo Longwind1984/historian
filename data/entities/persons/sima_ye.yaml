@@ -1,0 +1,27 @@
+id: p_sima_ye
+type: Person
+name: 司马邺
+alias:
+- 晋愍帝
+- 愍帝
+born:
+  year: 300
+died:
+  year: 318
+reign_start:
+  year: 313
+reign_end:
+  year: 316
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 武帝孙。长安立为帝，316年降于汉赵刘曜，西晋亡，318年遇害。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋愍帝
+  regime: 西晋
+wikidata_id: "Q7382"
+wikipedia_zh: "晋愍帝"

@@ -1,0 +1,12 @@
+id: pl_cbdb_8303
+type: Place
+name: 湘鄉
+modern_name: 湘鄉
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.737247467
+longitude: 112.51874542
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

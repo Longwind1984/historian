@@ -1,0 +1,16 @@
+id: e_mobei_zhizhan
+type: Event
+name: 漠北之战
+date:
+  year: -119
+category: battle
+importance: 2
+location: pl_mobei
+polities_involved:
+- k_xihan
+- k_xiongnu
+description: BC119 卫青、霍去病各率 5 万骑深入漠北。卫青破单于主力,霍去病封狼居胥,大破左贤王。匈奴远遁,漠南无王庭。
+impact: 汉匈百年战争汉朝最大胜利。
+sources:
+- 史记·匈奴列传
+- 资治通鉴·卷19

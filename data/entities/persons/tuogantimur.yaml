@@ -1,0 +1,34 @@
+id: p_tuogantimur
+type: Person
+name: 妥懽帖睦尔
+alias:
+- 元惠宗
+- 元顺帝
+born:
+  year: 1320
+died:
+  year: 1370
+gender: male
+birthplace: pl_dadu_yuan
+bio: 明宗子。在位三十五年,为元在位最久者。伯颜、脱脱相继秉政,脱脱修辽金宋三史、变钞治河。红巾军起,1368年明军逼大都,北走上都,元亡(北元)。
+sources:
+- 元史·顺帝本纪
+- 元史
+- 新元史
+reign_start:
+  year: 1333
+reign_end:
+  year: 1368
+roles:
+- emperor
+ext:
+  title: 元顺帝
+  regime: 元
+  note: 宁宗1332年末崩后,卜答失里太后临朝约七月,1333年顺帝方即位(故1332-1333 帝位空悬)
+importance: 2
+wikidata_id: "Q8666"
+wikipedia_zh: "元順帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Toghon_Temur.png/500px-Toghon_Temur.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Toghon_Temur.png"

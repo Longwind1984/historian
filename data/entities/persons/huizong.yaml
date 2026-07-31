@@ -1,0 +1,34 @@
+id: p_huizong
+type: Person
+name: 赵佶
+alias:
+- 宋徽宗
+born:
+  year: 1082
+  month: 11
+died:
+  year: 1135
+  month: 6
+reign_start:
+  year: 1100
+reign_end:
+  year: 1126
+gender: male
+roles:
+- emperor
+- literatus
+importance: 1
+birthplace: pl_kaifeng
+bio: 宋徽宗。书画天才(瘦金体、院体画),政治昏聩。用蔡京、童贯、朱勔(六贼)。设苏杭应奉局(花石纲)。1120 方腊、宋江起义。1120 海上之盟联金灭辽。1127
+  靖康之变掳北上,1135 囚死五国城。
+sources:
+- 宋史·徽宗本纪
+ext:
+  title: 宋徽宗
+  regime: 北宋
+wikidata_id: "Q7486"
+wikipedia_zh: "宋徽宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/HuizongHui.jpg/500px-HuizongHui.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:HuizongHui.jpg"

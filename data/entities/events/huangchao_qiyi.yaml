@@ -1,0 +1,20 @@
+id: e_huangchao_qiyi
+type: Event
+name: 黄巢起义
+date:
+  year: 875
+  month: 6
+category: rebellion
+importance: 1
+location: pl_junzhou
+polities_involved:
+- k_tang
+description: 875 年王仙芝、黄巢起义。880 年黄巢攻入长安,建国号齐,称帝。883 年退出长安,884 年黄巢在狼虎谷(山东莱芜)兵败,为外甥林言所杀。
+impact: 唐末规模最大的农民起义。彻底摧毁了唐朝根基——朱温(降唐的起义军将领)成为最大军阀,沙陀李克用借平乱崛起,二者成为五代十国两大奠基势力。直接催生五代十国政治格局。
+sources:
+- 旧唐书·黄巢传
+- 新唐书·逆臣传
+- 资治通鉴·卷252-256
+end_date:
+  year: 884
+  month: 6

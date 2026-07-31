@@ -1,0 +1,25 @@
+id: p_li_qianshun
+type: Person
+name: 李乾顺
+alias:
+- 西夏崇宗
+born:
+  year: 1083
+died:
+  year: 1139
+reign_start:
+  year: 1086
+reign_end:
+  year: 1139
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 惠宗子,三岁即位。灭梁氏亲政,附辽抗宋;辽亡后附金。兴汉学、立国学,在位五十三年为西夏最久。
+ext:
+  title: 西夏崇宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事

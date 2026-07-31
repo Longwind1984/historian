@@ -1,0 +1,14 @@
+id: p_cbdb_12334
+type: Person
+name: 謝源
+born:
+  year: 1124
+died:
+  year: 1181
+gender: male
+birthplace: pl_cbdb_100513
+dynasty_ref: k_beisong
+bio: CBDB ID 12334
+name_en: Xie Yuan
+sources:
+- CBDB (China Biographical Database)

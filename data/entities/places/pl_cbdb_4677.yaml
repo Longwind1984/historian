@@ -1,0 +1,12 @@
+id: pl_cbdb_4677
+type: Place
+name: 太平
+modern_name: 太平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.298552
+longitude: 118.123146
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

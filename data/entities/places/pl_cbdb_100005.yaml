@@ -1,0 +1,12 @@
+id: pl_cbdb_100005
+type: Place
+name: 上猶
+modern_name: 上猶
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.796444
+longitude: 114.531746
+first_year: 960
+last_year: 1210
+description: CBDB 行政类型:Xian

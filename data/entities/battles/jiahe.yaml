@@ -1,0 +1,29 @@
+id: b_jiahe
+type: Battle
+name: 夹河之战
+date:
+  year: 917
+  month: null
+importance: 3
+march:
+- from: pl_yunzhou_lsd
+  to: pl_kaifeng
+  note: 923年李存勖从郓州突入，直捣汴梁灭后梁；此段只记夹河长期拉锯末期的郓州至汴梁进军，不概括917—923年全线。《资治通鉴·卷270-272》《新五代史·唐本纪》
+location: pl_weizhou
+combatants:
+- k_houliang
+- k_houdong
+commanders:
+- p_zhuyouzhen
+- p_licunxu
+victor: k_houdong
+victor_commander: p_licunxu
+description: 917-923 年晋梁在黄河两岸的长期拉锯。923 年李存勖从郓州突入,直捣汴梁,后梁亡,后唐立。
+significance: 后唐灭梁的关键阶段,体现李存勖军事天才。
+sources:
+- 资治通鉴·卷270-272
+- 新五代史·唐本纪
+end_date:
+  year: 923
+  month: null
+category: war

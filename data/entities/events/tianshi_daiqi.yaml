@@ -1,0 +1,14 @@
+id: e_tianshi_daiqi
+type: Event
+name: 田氏代齐
+date:
+  year: -386
+category: succession
+polities_involved:
+- k_qi_state
+importance: 2
+description: 齐自陈完(田完)前672年奔齐，田氏世为齐卿，施惠收民，渐代姜姓执政。前481年田常杀齐简公，专齐政。前391年田和迁齐康公于海上，尽有齐国。前386年周安王命田和为诸侯，田氏列为诸侯，姜姓齐国绝祀，史称"田氏代齐"。与三家分晋并称战国初两大政权更替。
+impact: 姜齐亡、田齐立，齐国政权易主而国号不改；与三家分晋共启战国列国争雄之新局。
+sources:
+- 史记·田敬仲完世家
+- 史记·六国年表

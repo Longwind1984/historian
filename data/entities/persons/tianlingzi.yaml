@@ -1,0 +1,15 @@
+id: p_tianlingzi
+type: Person
+name: 田令孜
+gender: male
+died:
+  year: 893
+roles:
+- eunuch
+importance: 3
+bio: 唐僖宗时神策军中尉,僖宗呼为「阿父」,政事一决于其手。880 黄巢入长安,挟僖宗奔蜀。886 又劫僖宗奔宝鸡,天下切齿。后依王建,893 为建所杀。
+sources:
+- 旧唐书·宦官传
+- 资治通鉴·卷253-259
+wikidata_id: "Q7800135"
+wikipedia_zh: "田令孜"

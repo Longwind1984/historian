@@ -1,0 +1,29 @@
+id: p_wuding
+type: Person
+name: 武丁
+alias:
+- 殷高宗
+- 子昭
+gender: male
+roles:
+- emperor
+importance: 2
+reign_start:
+  year: -1250
+reign_end:
+  year: -1192
+bio: 商王，名昭，殷高宗。在位五十九年(断代工程约前1250-前1192)，任傅说于傅险为相，复兴商道，史称"武丁中兴"。其妻妇好多次统兵征伐土方、羌方、巴方，甲骨卜辞记载详备，为商代鼎盛期。年代据断代工程框架。
+sources:
+- 史记·殷本纪
+- 尚书·商书·说命
+- 甲骨文·殷卜辞
+ext:
+  disputed: true
+  title: 武丁
+  regime: 商
+wikidata_id: "Q369159"
+wikipedia_zh: "武丁"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/ba/%E6%AD%A6%E4%B8%81.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qiji of the Ming Dynasty, Wanli engraved \"Three Talents Picture Club\""
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E4%B8%81.jpg"

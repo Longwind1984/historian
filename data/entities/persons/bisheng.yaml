@@ -1,0 +1,21 @@
+id: p_bisheng
+type: Person
+name: 毕昇
+gender: male
+birthplace: pl_yingshan_bi
+born:
+  year: 990
+died:
+  year: 1051
+bio: 北宋发明家。约 1041-1048 发明胶泥活字印刷术,世界最早活字印刷(比古登堡早约 400 年)。仅见于沈括《梦溪笔谈》。
+sources:
+- 梦溪笔谈
+ext:
+  disputed: true
+  note: 生卒均约数;仅见沈括《梦溪笔谈》记其庆历中(1041-1048)造活字
+wikidata_id: "Q200662"
+wikipedia_zh: "毕昇"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mengxi_bitan.jpg/500px-Mengxi_bitan.jpg"
+image_license: "Public domain"
+image_credit: ". The original uploader was Mtiovinelli at Italian Wikipedia"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Mengxi_bitan.jpg"

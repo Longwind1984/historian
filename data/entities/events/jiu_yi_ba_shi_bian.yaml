@@ -1,0 +1,17 @@
+id: e_jiu_yi_ba_shi_bian
+type: Event
+name: 九一八事变
+date:
+  year: 1931
+  month: 9
+  day: 18
+category: war
+polities_involved:
+- k_minguo
+importance: 2
+description: 1931 年 9 月 18 日夜，日本关东军自行炸毁沈阳北郊柳条湖一段南满铁路，反诬中国军队所为，以此为借口进攻沈阳北大营。东北军执行不抵抗方针，未予抵抗，撤入关内。日军数月内占领辽宁、吉林、黑龙江三省，1932
+  年 3 月扶植清废帝溥仪建立伪满洲国。
+impact: 日本开始武装侵占中国东北，中国局部抗战由此开始；国联调查未果，国际绥靖助长日本进一步扩张。
+sources:
+- 中华民国史·第三编
+- 中国抗日战争史·上卷

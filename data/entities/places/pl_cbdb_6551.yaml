@@ -1,0 +1,12 @@
+id: pl_cbdb_6551
+type: Place
+name: 永平
+modern_name: 永平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.463171
+longitude: 99.519341
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

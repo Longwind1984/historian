@@ -1,0 +1,14 @@
+id: p_cbdb_128761
+type: Person
+name: 季本
+born:
+  year: 1485
+died:
+  year: 1563
+gender: male
+birthplace: pl_cbdb_5398
+dynasty_ref: k_ming
+bio: CBDB ID 128761
+name_en: Ji Ben
+sources:
+- CBDB (China Biographical Database)

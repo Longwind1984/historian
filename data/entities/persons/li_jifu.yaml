@@ -1,0 +1,17 @@
+id: p_li_jifu
+type: Person
+name: 李吉甫
+alias:
+- 李宪章
+courtesy_name: 宪章
+born:
+  year: 758
+died:
+  year: 814
+gender: male
+birthplace: pl_zhaojun_li
+bio: 中唐官员,李德裕之父。两度拜相。著《元和郡县图志》。
+sources:
+- 旧唐书·李吉甫传
+wikidata_id: "Q6538877"
+wikipedia_zh: "李吉甫 (唐朝)"

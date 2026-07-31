@@ -1,0 +1,33 @@
+id: p_liuchong
+type: Person
+name: 刘崇
+alias:
+- 刘旻
+- 北汉世祖
+born:
+  year: 895
+died:
+  year: 954
+  month: 11
+gender: male
+birthplace: pl_taiyuan
+bio: 北汉建立者。后汉高祖刘知远弟。951 年后周代汉,崇在太原称帝,国号汉(史称北汉)。依附契丹抗周/宋。954 年高平之战大败,忧愤而卒。
+sources:
+- 新五代史·东汉世家
+- 十国春秋·北汉
+- 资治通鉴·卷290-291
+- 十国春秋
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 951
+reign_end:
+  year: 954
+importance: 3
+roles:
+- emperor
+ext:
+  title: 刘崇
+  regime: 北汉
+wikidata_id: "Q712595"
+wikipedia_zh: "劉旻"

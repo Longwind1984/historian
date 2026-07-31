@@ -1,0 +1,12 @@
+id: pl_cbdb_11671
+type: Place
+name: 清河
+modern_name: 清河
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.067805
+longitude: 115.598726
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

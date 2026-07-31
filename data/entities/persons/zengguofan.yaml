@@ -1,0 +1,26 @@
+id: p_zengguofan
+type: Person
+name: 曾国藩
+alias:
+- 曾伯涵
+- 曾文正
+courtesy_name: 伯涵
+born:
+  year: 1811
+died:
+  year: 1872
+gender: male
+roles:
+- civil_official
+- general
+importance: 1
+birthplace: pl_xiangxiang_zeng
+bio: 晚清政治家、军事家。1853 创湘军。1864 克南京灭太平天国。
+sources:
+- 清史稿·曾国藩传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tseng_Kwo-Fan.tif/lossy-page1-500px-Tseng_Kwo-Fan.tif.jpg"
+wikidata_id: "Q189512"
+wikipedia_zh: "曾国藩"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tseng_Kwo-Fan.tif"

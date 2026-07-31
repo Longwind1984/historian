@@ -1,0 +1,12 @@
+id: pl_cbdb_12739
+type: Place
+name: 遂安
+modern_name: 遂安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.480773
+longitude: 118.738399
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

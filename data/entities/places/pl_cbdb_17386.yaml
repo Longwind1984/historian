@@ -1,0 +1,12 @@
+id: pl_cbdb_17386
+type: Place
+name: 汝寧府
+modern_name: 汝寧府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.007541656
+longitude: 114.34600067
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Fu

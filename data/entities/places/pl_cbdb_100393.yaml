@@ -1,0 +1,12 @@
+id: pl_cbdb_100393
+type: Place
+name: 汝陰
+modern_name: 汝陰
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.903057
+longitude: 115.809013
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

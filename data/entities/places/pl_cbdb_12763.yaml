@@ -1,0 +1,12 @@
+id: pl_cbdb_12763
+type: Place
+name: 蕭山
+modern_name: 蕭山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.161488
+longitude: 120.258934
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

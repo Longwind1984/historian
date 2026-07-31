@@ -1,0 +1,14 @@
+id: p_cbdb_3306
+type: Person
+name: 傅珏
+born:
+  year: 972
+died:
+  year: 1032
+gender: male
+birthplace: pl_cbdb_11206
+dynasty_ref: k_beisong
+bio: CBDB ID 3306
+name_en: Fu Jue
+sources:
+- CBDB (China Biographical Database)

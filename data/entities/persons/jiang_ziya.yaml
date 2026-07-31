@@ -1,0 +1,40 @@
+id: p_jiang_ziya
+type: Person
+name: 姜子牙
+alias:
+- 吕尚
+- 太公望
+- 姜太公
+- 师尚父
+gender: male
+floruit_start:
+  year: -1046
+floruit_end:
+  year: -1015
+roles:
+- general
+- civil_official
+importance: 1
+bio: 姜姓，吕氏，名尚，字子牙。相传垂钓渭水遇文王，拜为师(师尚父)；佐武王牧野灭商，为周军主帅之一。封于齐(营丘)，为齐太公，齐国之始祖。后世兵家、道家、术数皆托名宗之，传《六韬》。生平含传说成分，年代模糊。
+life_events:
+- year: -1100
+  event: 渭水遇文王，拜为师
+  source: 史记·齐太公世家
+- year: -1046
+  event: 佐武王牧野灭商，为师尚父
+  source: 尚书·牧誓
+- year: -1045
+  event: 封于齐，都营丘
+  source: 史记·齐太公世家
+sources:
+- 史记·齐太公世家
+- 尚书·牧誓
+ext:
+  disputed: true
+  note: 佐武王牧野灭商(前1046)至封齐。传世「前1156-前1017」享年139,显系附会
+wikidata_id: "Q701488"
+wikipedia_zh: "姜太公"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jiang_ziya.jpg/500px-Jiang_ziya.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jiang_ziya.jpg"

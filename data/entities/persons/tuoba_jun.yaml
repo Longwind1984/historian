@@ -1,0 +1,28 @@
+id: p_tuoba_jun
+type: Person
+name: 拓跋濬
+alias:
+- 北魏文成帝
+born:
+  year: 440
+died:
+  year: 465
+reign_start:
+  year: 452
+reign_end:
+  year: 465
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_beiwei
+bio: 太武帝孙。即位后复佛法,开凿云冈石窟。
+ext:
+  title: 北魏文成帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1074798"
+wikipedia_zh: "魏文成帝"

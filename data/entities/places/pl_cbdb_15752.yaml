@@ -1,0 +1,12 @@
+id: pl_cbdb_15752
+type: Place
+name: 晉陵
+modern_name: 晉陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.782784
+longitude: 119.952301
+first_year: 624
+last_year: 959
+description: CBDB 行政类型:Xian

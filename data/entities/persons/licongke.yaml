@@ -1,0 +1,33 @@
+id: p_licongke
+type: Person
+name: 李从珂
+alias:
+- 王从珂
+- 后唐末帝
+born:
+  year: 885
+died:
+  year: 936
+  month: 11
+gender: male
+birthplace: pl_zhenzhou3
+bio: 后唐末帝。本姓王,明宗养子。934 年废闵帝自立。936 年石敬瑭借契丹兵入援,兵败后于洛阳自焚,后唐亡。
+sources:
+- 旧五代史·末帝纪
+- 新五代史·唐本纪
+- 资治通鉴·卷279-280
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 934
+reign_end:
+  year: 936
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后唐末帝
+  regime: 后唐
+wikidata_id: "Q713115"
+wikipedia_zh: "李從珂"

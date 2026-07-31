@@ -1,0 +1,155 @@
+type: Person
+label: 人物
+label_en: Person
+icon: 👤
+color: "#3498db"
+description: 历史人物
+fields:
+  name:
+    type: string
+    required: true
+    label: 姓名
+  courtesy_name:
+    type: string
+    label: 字
+  art_name:
+    type: string
+    label: 号
+  alias:
+    type: array
+    items: string
+    label: 别名/曾用名
+  born:
+    type: year_month
+    label: 生年
+  died:
+    type: year_month
+    label: 卒年
+  floruit_start:
+    type: year_month
+    optional: true
+    label: 活跃起
+    description: |
+      活跃年代(floruit)，只给生卒确实不可考者。史学处理无纪年人物的标准手段：
+      不编造生卒，只记其见于史载的活动区间。周公旦、妇好、姜尚、伊尹、共伯和、
+      褒姒、王翦、蔺相如等即此类——传世的「生卒」多系后世附会(如姜尚享年139)，
+      落成 born/died 等于把传说写成事实。
+      有通说生卒者(纵有异说)一律用 born/died + ext.disputed，不用本字段。
+  floruit_end:
+    type: year_month
+    optional: true
+    label: 活跃讫
+  reign_start:
+    type: year_month
+    label: 在位起
+    description: 帝王在位起年(正史通说);非帝王无此字段。约定同 born/died(负=BCE 或 bce 正文标记)。
+  reign_end:
+    type: year_month
+    label: 在位讫
+    description: 帝王在位讫年(禅位/退位/崩年口径见各实体 note);非帝王无此字段。
+  gender:
+    type: enum
+    options: [male, female, unknown]
+    default: male
+  roles:
+    type: array
+    items:
+      type: enum
+      options:
+        - emperor          # 帝王
+        - monarch          # 君主(诸侯国君/列国之君/割据政权君主,非大一统帝王)
+        - imperial_kin     # 宗室
+        - consort          # 后妃
+        - consort_kin      # 外戚
+        - general          # 将领
+        - civil_official   # 文臣
+        - scholar          # 学者
+        - literatus        # 文人
+        - eunuch           # 宦官
+        - rebel_leader     # 起义领袖
+        - clergy           # 僧道
+        - recluse          # 隐逸
+    label: 身份
+  importance:
+    type: int
+    label: 重要性
+    description: 1=核心 2=重要 3=一般（未标注视为 3，M5 CBDB 人物默认档）
+  dynasty_ref:
+    # 人物的朝代归属,值是其所属**政权**(北宋/唐/明…),不是 Dynasty —— 名字有误导性,
+    # 但 4804 个人物在用,改名的代价大于收益。此前从未在此声明,故不受校验,
+    # 悬空了 21 处也没人知道。它是朝代归属的权威来源:年份判不了 1050 年的人是辽是宋
+    # (那取决于他在哪),dynasty_ref 能。
+    type: ref
+    to: Polity
+    optional: true
+    label: 朝代归属(政权)
+  birthplace:
+    type: ref
+    to: Place
+    optional: true
+    label: 籍贯
+  bio:
+    type: text
+    label: 生平
+  image:
+    type: url
+    optional: true
+    label: 画像
+  # 图像出处三件套(M13)。不是可选的礼貌,是许可要求:Commons 上的图混着
+  # PD-old / PD-art / CC0 / CC BY / CC BY-SA,后两者强制署名。三个字段一起由
+  # scripts/align_wikidata.py 从 Commons imageinfo 的 extmetadata 取回并写入,
+  # 手填 image 而不填这三个,等于把合规责任悬空。
+  image_credit:
+    type: string
+    optional: true
+    label: 图像作者
+  image_license:
+    type: string
+    optional: true
+    label: 图像许可
+  image_source_page:
+    type: url
+    optional: true
+    label: 图像出处页
+  # 外部权威标识(M13)。wikidata_id 是稳定锚点(条目改名不影响),
+  # wikipedia_zh 存条目标题而非整条 URL —— 前端拼 https://zh.wikipedia.org/wiki/<title>,
+  # 域名变更时只改一处。两者均由 align_wikidata.py 一次 SPARQL 同时取回。
+  wikidata_id:
+    type: string
+    optional: true
+    label: Wikidata 标识
+  wikipedia_zh:
+    type: string
+    optional: true
+    label: 中文维基条目
+  sources:
+    type: array
+    items: string
+    label: 史料出处
+ext: allow
+relations:
+  outgoing:
+    - father_of           # Person → Person
+    - mother_of
+    - spouse_of           # undirected
+    - sibling_of          # undirected
+    - child_of            # inverse of father_of / mother_of
+    - served_under        # Person → Person (lord) or Polity
+    - mentored_by         # Person → Person
+    - participated_in     # Person → Event/Battle
+    - led                 # Person → Battle
+    - member_of           # Person → Faction
+    - leader_of           # Person → Faction
+    - held_title          # Person → Title
+    - born_in             # Person → Place (alias of birthplace)
+    - usurped             # Person → Polity
+    - founded             # Person → Polity
+    - killed              # Person → Person
+  incoming:
+    - father_of
+    - mother_of
+    - served_under
+    - mentored_by
+    - member_of
+    - leader_of
+    - killed

@@ -1,0 +1,29 @@
+id: p_an_lushan
+type: Person
+name: 安禄山
+alias:
+- 安轧荦山
+born:
+  year: 703
+died:
+  year: 757
+  month: 1
+gender: male
+roles:
+- general
+- rebel_leader
+importance: 2
+birthplace: pl_you_zhou
+bio: 唐代胡人将领。营州柳城人(粟特+突厥血统)。受玄宗宠信,身兼三镇节度使。755 年发动安史之乱,756 年称帝,国号燕。757 年为子安庆绪所杀。
+ext:
+  significance: 安史之乱(755-763)是唐由盛转衰的转折,直接导致藩镇割据、河朔三镇、宦官专权——五代十国的所有病根皆源于此。
+sources:
+- 旧唐书·安禄山传
+- 新唐书·逆臣传
+- 资治通鉴·卷217-220
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_%28page_19_%E5%AE%A0%E5%B9%B8%E7%95%AA%E5%B0%86%29_%28%E5%AE%89%E7%A6%84%E5%B1%B1%29_%28cropped%29.jpg/500px-thumbnail.jpg"
+wikidata_id: "Q360559"
+wikipedia_zh: "安祿山"
+image_license: "CC0"
+image_credit: "书格"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%B8%9D%E9%89%B4%E5%9B%BE%E8%AF%B4.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95%E5%B8%A7%E5%9B%BE.%E5%BD%A9%E7%BB%98%E5%86%8C%E9%A1%B5.%E7%BA%A618%E4%B8%96%E7%BA%AA_(page_19_%E5%AE%A0%E5%B9%B8%E7%95%AA%E5%B0%86)_(%E5%AE%89%E7%A6%84%E5%B1%B1)_(cropped).jpg"

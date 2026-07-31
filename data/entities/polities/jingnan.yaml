@@ -1,0 +1,24 @@
+id: k_jingnan
+type: Polity
+name: 荆南
+name_en: Jingnan
+color: '#34495e'
+founded:
+  year: 924
+  month: 3
+ended:
+  year: 963
+  month: 3
+capital: pl_jiangling
+description: 高季兴所建,都江陵。地小民寡,在列强间求存。963 年为北宋所灭。又称南平。
+sources:
+- 新五代史·南平世家
+- 十国春秋·荆南
+founder: p_gaojixing
+ended_by: k_song
+territory:
+- valid_from:
+    year: 924
+  valid_to:
+    year: 963
+  geojson_file: jingnan_peak.geojson

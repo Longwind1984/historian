@@ -1,0 +1,32 @@
+id: p_li_cui
+type: Person
+name: 李漼
+alias:
+- 唐懿宗
+- 懿宗
+born:
+  year: 833
+died:
+  year: 873
+reign_start:
+  year: 859
+reign_end:
+  year: 873
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 宣宗子。奢靡佞佛（迎佛骨），庞勋之乱起，唐室日蹙。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐懿宗
+  regime: 唐
+wikidata_id: "Q9886"
+wikipedia_zh: "唐懿宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/TangYizong.jpg/500px-TangYizong.jpg"
+image_license: "Public domain"
+image_credit: "Ancient Chinese Artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:TangYizong.jpg"

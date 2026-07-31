@@ -1,0 +1,14 @@
+id: pl_poyanghu
+type: Place
+name: 鄱阳湖
+modern_name: 鄱阳湖
+province: 江西
+latitude: 29.1
+longitude: 116.3
+category: battlefield
+description: 1363 鄱阳湖之战
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

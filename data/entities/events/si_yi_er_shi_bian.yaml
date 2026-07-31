@@ -1,0 +1,17 @@
+id: e_si_yi_er_shi_bian
+type: Event
+name: 四一二事件
+date:
+  year: 1927
+  month: 4
+  day: 12
+category: purge
+polities_involved:
+- k_minguo
+importance: 2
+description: 1927 年 4 月 12 日，蒋介石在上海发动清党，指使青帮武装与驻军袭击上海工人纠察队，解除其武装，大规模搜捕、处决中国共产党人及国民党左派。随后广东、江苏、浙江等地相继"清党"。4
+  月 18 日南京国民政府成立。7 月 15 日汪精卫武汉政府亦分共，第一次国共合作全面破裂。
+impact: 第一次国共合作破裂，国共两党走向长期武装对立；中共此后转向武装起义，开启土地革命战争时期。
+sources:
+- 中华民国史·第二编
+- 中国共产党历史·第一卷

@@ -1,0 +1,14 @@
+id: p_cbdb_8016
+type: Person
+name: 張昪
+born:
+  year: 992
+died:
+  year: 1077
+gender: male
+birthplace: pl_cbdb_11969
+dynasty_ref: k_beisong
+bio: CBDB ID 8016
+name_en: Zhang Bian
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_5321
+type: Place
+name: 永昌衛
+modern_name: 永昌衛
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.246838
+longitude: 101.969654
+first_year: 1382
+last_year: 1643
+description: CBDB 行政类型:Wei

@@ -1,0 +1,25 @@
+id: k_dongjin
+type: Polity
+name: 东晋
+name_en: Eastern Jin
+color: '#9b59b6'
+founded:
+  year: 317
+  month: 3
+ended:
+  year: 420
+  month: 7
+capital: pl_jianye_han
+description: 东晋。317 司马睿在建康称晋王,318 称帝。偏安江南。420 为刘裕所代。
+sources:
+- 晋书·元帝纪
+supplanted: k_xijin
+ended_by: k_liusong
+territory:
+- valid_from:
+    year: 317
+  valid_to:
+    year: 419
+  geojson_file: chgis_dongjin.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Eastern Jin map.jpg

@@ -1,0 +1,15 @@
+id: f_yishe_shixiongdi
+type: Faction
+name: 义社十兄弟
+nature: military_clan
+founded:
+  year: 950
+dissolved:
+  year: 976
+core_region: pl_kaifeng
+description: 后周殿前司中赵匡胤与九位禁军高级将领结拜集团。陈桥兵变的核心力量。宋建立后多数被'杯酒释兵权'。
+significance: 北宋开国军功集团,陈桥兵变的主导力量。
+peak_period: 950s-960s
+sources:
+- 宋史
+- 续资治通鉴长编

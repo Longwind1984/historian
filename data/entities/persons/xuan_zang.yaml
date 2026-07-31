@@ -1,0 +1,28 @@
+id: p_xuan_zang
+type: Person
+name: 玄奘
+alias:
+- 三藏法师
+- 唐僧
+born:
+  year: 602
+died:
+  year: 664
+  month: 2
+gender: male
+roles:
+- clergy
+importance: 1
+birthplace: pl_yanshi_xuanzang
+bio: 唐代高僧、翻译家、旅行家。629-645 西行天竺求法 17 年,经西域、中亚至印度。著《大唐西域记》。译经 75 部 1335 卷。
+ext:
+  significance: 中国佛教史与中外文化交流史最重要人物之一。
+sources:
+- 大慈恩寺三藏法师传
+- 旧唐书·方伎传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Xuanzang_w.jpg/500px-Xuanzang_w.jpg"
+wikidata_id: "Q42063"
+wikipedia_zh: "玄奘"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xuanzang_w.jpg"

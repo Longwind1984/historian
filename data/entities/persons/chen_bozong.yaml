@@ -1,0 +1,33 @@
+id: p_chen_bozong
+type: Person
+name: 陈伯宗
+alias:
+- 陈废帝
+- 临海王
+born:
+  year: 554
+died:
+  year: 570
+reign_start:
+  year: 566
+reign_end:
+  year: 568
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_chen
+bio: 文帝子。568年为叔父陈顼所废,旋遇害。
+ext:
+  title: 陈废帝
+  regime: 陈
+sources:
+- 陈书
+- 南史
+- 资治通鉴
+wikidata_id: "Q718222"
+wikipedia_zh: "陳廢帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chen_Feidi_Tang.jpg/500px-Chen_Feidi_Tang.jpg"
+image_license: "Public domain"
+image_credit: "Yan Li-pen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Feidi_Tang.jpg"

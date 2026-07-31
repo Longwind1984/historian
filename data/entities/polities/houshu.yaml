@@ -1,0 +1,24 @@
+id: k_houshu
+type: Polity
+name: 后蜀
+name_en: Later Shu
+color: '#d35400'
+founded:
+  year: 934
+  month: 1
+ended:
+  year: 965
+  month: 2
+capital: pl_chengdu
+description: 孟知祥在四川所建。965 年为北宋所灭。
+sources:
+- 新五代史·后蜀世家
+- 十国春秋·后蜀
+founder: p_mengzhixiang
+ended_by: k_song
+territory:
+- valid_from:
+    year: 934
+  valid_to:
+    year: 965
+  geojson_file: houshu_peak.geojson

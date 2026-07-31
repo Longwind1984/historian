@@ -1,0 +1,14 @@
+id: p_cbdb_127530
+type: Person
+name: 汪道昆
+born:
+  year: 1525
+died:
+  year: 1593
+gender: male
+birthplace: pl_cbdb_4688
+dynasty_ref: k_ming
+bio: CBDB ID 127530
+name_en: Wang Daokun
+sources:
+- CBDB (China Biographical Database)

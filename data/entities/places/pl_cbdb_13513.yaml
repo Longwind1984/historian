@@ -1,0 +1,12 @@
+id: pl_cbdb_13513
+type: Place
+name: 榮德
+modern_name: 榮德
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.463898
+longitude: 104.420372
+first_year: 1067
+last_year: 1235
+description: CBDB 行政类型:Xian

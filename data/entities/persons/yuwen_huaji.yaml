@@ -1,0 +1,12 @@
+id: p_yuwen_huaji
+type: Person
+name: 宇文化及
+died:
+  year: 619
+gender: male
+birthplace: pl_jiangdu
+bio: 隋权臣宇文述子。618 在江都发动兵变,弑炀帝,立杨浩为傀儡,后废之自立,国号许。619 为窦建德所擒杀。
+sources:
+- 隋书·宇文化及传
+wikidata_id: "Q1066817"
+wikipedia_zh: "宇文化及"

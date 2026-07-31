@@ -1,0 +1,25 @@
+id: p_jiang_qing
+type: Person
+name: 江青
+alias:
+- 李云鹤
+- 蓝苹
+gender: female
+born:
+  year: 1914
+died:
+  year: 1991
+roles:
+- consort
+- civil_official
+importance: 2
+bio: 山东诸城人，本名李云鹤。1930 年代在上海任演员，艺名蓝苹。1938 年与毛泽东结婚。文革中任中央文革小组副组长，为运动的主要推手之一：以"样板戏"垄断文艺，指使批斗，罗织罪名迫害刘少奇、彭德怀、贺龙等大批干部与文化人。与张春桥、姚文元、王洪文结为"四人帮"。1976 年 10 月被捕。1981 年最高人民法院特别法庭以反革命集团罪判处死刑缓期二年执行，后改无期。1991 年在保外就医期间自缢死。
+sources:
+- 当代中国史
+- 中华人民共和国史
+wikidata_id: "Q236017"
+wikipedia_zh: "江青"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Jiang_Qing_1976.jpg/500px-Jiang_Qing_1976.jpg"
+image_license: "CC BY-SA 3.0 nl"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jiang_Qing_1976.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_100122
+type: Place
+name: 安陸
+modern_name: 安陸
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.263714
+longitude: 113.688919
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

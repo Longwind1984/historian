@@ -1,0 +1,30 @@
+id: p_simayi
+type: Person
+name: 司马懿
+alias:
+- 司马仲达
+- 晋宣帝
+courtesy_name: 仲达
+born:
+  year: 179
+died:
+  year: 251
+  month: 9
+gender: male
+roles:
+- civil_official
+- general
+importance: 2
+birthplace: pl_wen_xianyu
+bio: 曹魏权臣。河内温县人。历仕曹操、丕、叡、芳四代。249 高平陵之变诛曹爽,掌握魏国大权。子师、昭继之,孙炎代魏建晋。
+ext:
+  significance: 晋朝奠基者。
+sources:
+- 三国志·魏书·司马懿传
+- 晋书·宣帝纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/%E9%AD%8F%C2%B7%E5%A4%AA%E5%82%85_%E5%8F%B8%E9%A6%AC%E6%87%BF.jpg/500px-%E9%AD%8F%C2%B7%E5%A4%AA%E5%82%85_%E5%8F%B8%E9%A6%AC%E6%87%BF.jpg"
+wikidata_id: "Q353698"
+wikipedia_zh: "司马懿"
+image_license: "Public domain"
+image_credit: "Ming Zhu Tianran"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%AD%8F%C2%B7%E5%A4%AA%E5%82%85_%E5%8F%B8%E9%A6%AC%E6%87%BF.jpg"

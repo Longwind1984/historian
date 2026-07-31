@@ -1,0 +1,16 @@
+id: p_zhao_gao
+type: Person
+name: 赵高
+died:
+  year: -207
+  month: 9
+gender: male
+roles:
+- eunuch
+importance: 1
+birthplace: pl_xianyang_qin
+bio: 秦宦官。BC210 始皇崩,与李斯矫诏立胡亥,赐死扶苏、蒙恬。BC207 逼杀二世,立子婴。子婴设计诛之。
+sources:
+- 史记·秦始皇本纪
+wikidata_id: "Q197436"
+wikipedia_zh: "赵高"

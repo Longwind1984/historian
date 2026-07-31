@@ -1,0 +1,30 @@
+id: p_han_xin
+type: Person
+name: 韩信
+alias:
+- 韩重言
+- 淮阴侯
+- 齐王
+- 楚王
+courtesy_name: 重言
+born:
+  year: -231
+died:
+  year: -196
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_huaiyin
+bio: 汉初三杰之一。淮阴人。'国士无双'。初投项梁、项羽,后归刘邦。BC206 拜大将军。'明修栈道,暗渡陈仓'。BC204 破赵,BC203 灭齐。BC202
+  垓下之战指挥全军灭项羽。BC201 贬淮阴侯。BC196 为吕后所杀。
+ext:
+  significance: 中国军事史'兵仙'。
+sources:
+- 史记·淮阴侯列传
+wikidata_id: "Q574498"
+wikipedia_zh: "韩信"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/56/H%C3%A1n_X%C3%ACn.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:H%C3%A1n_X%C3%ACn.jpg"

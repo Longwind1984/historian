@@ -1,0 +1,12 @@
+id: pl_cbdb_11232
+type: Place
+name: 奉符
+modern_name: 奉符
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.182097
+longitude: 117.126519
+first_year: 1008
+last_year: 1126
+description: CBDB 行政类型:Xian

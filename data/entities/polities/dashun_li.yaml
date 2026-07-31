@@ -1,0 +1,17 @@
+id: k_dashun_li
+type: Polity
+name: 大顺
+name_en: Da Shun
+color: '#d35400'
+founded:
+  year: 1644
+  month: 3
+ended:
+  year: 1645
+capital: pl_beijing_qing
+description: 李自成 1644.3 入京建大顺。山海关败。
+sources:
+- 明史·流贼传
+founder: p_lizicheng
+supplanted: k_ming
+ended_by: k_qing

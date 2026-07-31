@@ -1,0 +1,15 @@
+id: pl_yuezhou_wsw
+type: Place
+name: 越州/山阴
+modern_name: 绍兴
+province: 浙江
+latitude: 30.0
+longitude: 120.58
+category: city
+description: 王叔文籍贯
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴
+aliases:
+- 绍兴

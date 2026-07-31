@@ -1,0 +1,23 @@
+id: p_kang_sheng
+type: Person
+name: 康生
+alias:
+- 张宗可
+gender: male
+born:
+  year: 1898
+died:
+  year: 1975
+roles:
+- civil_official
+importance: 2
+bio: 山东诸城人。长期主管中共情报与审干。1942-1945 年延安整风中主持"抢救失足者"运动，以逼供信大规模制造特务假案。文革中任中央文革小组顾问，罗织罪名迫害刘少奇、彭真等大批干部，据其死后中央审查所认定，经其手陷害者甚众。1975 年病死，享哀荣。1980 年中共中央决定开除其党籍、撤销悼词。
+sources:
+- 当代中国史
+- 中华人民共和国史
+wikidata_id: "Q544432"
+wikipedia_zh: "康生"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/40/Kang_Seng_in_Yan%27an.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Kang_Seng_in_Yan%27an.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_100352
+type: Place
+name: 桐廬
+modern_name: 桐廬
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.802457809
+longitude: 119.66493988
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

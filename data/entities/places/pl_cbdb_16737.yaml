@@ -1,0 +1,12 @@
+id: pl_cbdb_16737
+type: Place
+name: 狄道
+modern_name: 狄道
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.379147
+longitude: 103.857941
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_101011
+type: Place
+name: 陳州
+modern_name: 陳州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.73398
+longitude: 114.8824
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

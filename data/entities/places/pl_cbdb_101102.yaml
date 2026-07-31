@@ -1,0 +1,12 @@
+id: pl_cbdb_101102
+type: Place
+name: 興國軍
+modern_name: 興國軍
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.83013
+longitude: 115.209625
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Jun

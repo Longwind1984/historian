@@ -1,0 +1,25 @@
+id: b_nantang_min
+type: Battle
+name: 南唐灭闽之战(建州之战)
+date:
+  year: 945
+  month: 8
+category: conquest
+importance: 3
+location: pl_jianou
+combatants:
+- k_nantang
+- k_min
+commanders:
+- p_lijing
+- p_wangyanxi
+victor: k_nantang
+victor_commander: p_lijing
+strength: 数万
+description: 闽国王氏宗室内乱,943年王延政于建州自立为帝,国号'殷'。945年南唐中主李璟趁乱派查文徽、边镐南下攻建州。八月建州陷落,王延政出降,闽国核心区域灭亡。
+significance: 南唐借此役大幅扩张版图。但福州被吴越趁机夺取,福建一分为三;南唐连年用兵亦耗损国力。
+ext:
+  scale: 重要
+sources:
+- 新五代史·闽世家
+- 资治通鉴·卷284-285

@@ -1,0 +1,12 @@
+id: pl_cbdb_13601
+type: Place
+name: 閬中
+modern_name: 閬中
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.58316
+longitude: 105.967034
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

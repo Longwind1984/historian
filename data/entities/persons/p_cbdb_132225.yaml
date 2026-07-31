@@ -1,0 +1,14 @@
+id: p_cbdb_132225
+type: Person
+name: 趙賢
+born:
+  year: 1534
+died:
+  year: 1606
+gender: male
+birthplace: pl_cbdb_5142
+dynasty_ref: k_ming
+bio: CBDB ID 132225
+name_en: Zhao Xian
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,15 @@
+id: k_britain
+type: Polity
+name: 英国
+name_en: United Kingdom
+color: '#4a6a9c'
+founded:
+  year: 1801
+  month: 1
+ended:
+  year: 1922
+  month: 12
+description: 大不列颠及爱尔兰联合王国。1840 以鸦片贸易受阻为由发动战争,迫清签《南京条约》割香港、开五口,为近代不平等条约体系之始;1856 偕法国再启第二次鸦片战争,1860 焚圆明园。
+sources:
+- 清史稿·邦交志一·英吉利
+- 筹办夷务始末

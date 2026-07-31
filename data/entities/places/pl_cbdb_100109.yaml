@@ -1,0 +1,12 @@
+id: pl_cbdb_100109
+type: Place
+name: 夷陵
+modern_name: 夷陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.704227
+longitude: 111.287125
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

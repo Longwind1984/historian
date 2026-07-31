@@ -1,0 +1,12 @@
+id: pl_cbdb_101033
+type: Place
+name: 荊門軍
+modern_name: 荊門軍
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.028728
+longitude: 112.198418
+first_year: 972
+last_year: 1279
+description: CBDB 行政类型:Jun

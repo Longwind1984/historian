@@ -1,0 +1,14 @@
+id: p_cbdb_34579
+type: Person
+name: 王鏊
+born:
+  year: 1450
+died:
+  year: 1524
+gender: male
+birthplace: pl_cbdb_4593
+dynasty_ref: k_ming
+bio: CBDB ID 34579
+name_en: Wang Ao
+sources:
+- CBDB (China Biographical Database)

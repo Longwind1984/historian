@@ -1,0 +1,22 @@
+id: p_ma_yuan_dong
+type: Person
+name: 马援
+alias:
+- 马文渊
+- 伏波将军
+courtesy_name: 文渊
+born:
+  year: 14
+died:
+  year: 49
+gender: male
+birthplace: pl_maying_machao
+bio: 东汉名将。'伏波将军'。平定交趾。'男儿要当死于边野,以马革裹尸还葬耳'。
+sources:
+- 后汉书·马援传
+wikidata_id: "Q953191"
+wikipedia_zh: "马援"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/%E4%BC%8F%E6%B3%A2%E5%B1%B1.JPG/500px-%E4%BC%8F%E6%B3%A2%E5%B1%B1.JPG"
+image_license: "CC BY-SA 3.0"
+image_credit: "Gisling"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E4%BC%8F%E6%B3%A2%E5%B1%B1.JPG"

@@ -1,0 +1,30 @@
+id: p_simazhong
+type: Person
+name: 司马衷
+alias:
+- 晋惠帝
+- 惠帝
+born:
+  year: 259
+died:
+  year: 307
+  month: 1
+gender: male
+birthplace: pl_luoyang
+bio: 西晋第二任皇帝。武帝子。'何不食肉糜'者。290-307 在位。291-306 八王之乱。307 食饼中毒卒(传)。
+sources:
+- 晋书·惠帝纪
+- 晋书
+- 资治通鉴
+reign_start:
+  year: 290
+reign_end:
+  year: 307
+roles:
+- emperor
+ext:
+  title: 晋惠帝
+  regime: 西晋
+importance: 2
+wikidata_id: "Q7357"
+wikipedia_zh: "晉惠帝"

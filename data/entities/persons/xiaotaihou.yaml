@@ -1,0 +1,26 @@
+id: p_xiaotaihou
+type: Person
+name: 萧绰
+alias:
+- 萧太后
+- 萧燕燕
+- 承天太后
+born:
+  year: 953
+died:
+  year: 1009
+  month: 12
+gender: female
+roles:
+- consort
+importance: 2
+birthplace: pl_beijing_xiao
+bio: 辽景宗皇后、圣宗生母。982 临朝称制 27 年。重用耶律休哥、韩德让。1004 亲率军南下,澶渊之盟。辽鼎盛期。
+sources:
+- 辽史·后妃传
+wikidata_id: "Q777372"
+wikipedia_zh: "萧绰"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Empress_Dowager_Xiao_1892.jpg"
+image_license: "Public domain"
+image_credit: "熊大木"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Empress_Dowager_Xiao_1892.jpg"

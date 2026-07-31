@@ -1,0 +1,17 @@
+id: e_kaiyuan_shengshi
+type: Event
+name: 开元盛世
+date:
+  year: 713
+category: prosperity
+importance: 1
+location: pl_daxing
+polities_involved:
+- k_tang
+description: 713-741 年玄宗开元年间。任姚崇、宋璟为相。整顿吏治、发展经济、兴修水利。疆域最大,人口至 800 万户。文化达高峰(李白、杜甫、王维等)。
+impact: 唐朝全盛,中国古典时代顶点。
+sources:
+- 旧唐书·玄宗本纪
+- 资治通鉴·卷211-215
+end_date:
+  year: 741

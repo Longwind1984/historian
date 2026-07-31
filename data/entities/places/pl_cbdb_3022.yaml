@@ -1,0 +1,12 @@
+id: pl_cbdb_3022
+type: Place
+name: 通州
+modern_name: 通州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.905921936
+longitude: 116.65880585
+first_year: 1151
+last_year: 1234
+description: CBDB 行政类型:Zhou

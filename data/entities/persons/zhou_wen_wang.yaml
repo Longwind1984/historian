@@ -1,0 +1,44 @@
+id: p_zhou_wen_wang
+type: Person
+name: 姬昌
+alias:
+- 周文王
+- 西伯昌
+- 文王
+gender: male
+floruit_start:
+  year: -1099
+floruit_end:
+  year: -1050
+roles:
+- imperial_kin
+- civil_official
+importance: 1
+bio: 周族首领，姬姓，名昌，季历之子。继为商西伯，被纣囚于羑里，演《易》；阴修德政、翦商拓土，"三分天下有其二以服事殷"，为灭商奠基。在世未称王，武王灭商后追尊为文王。年代据断代工程重建，属模糊纪年。
+life_events:
+- year: -1100
+  event: 被纣囚于羑里，演《周易》
+  source: 史记·周本纪
+- year: -1090
+  event: 释归，受命为西伯，得专征伐
+  source: 史记·殷本纪
+- year: -1060
+  event: 迁都于丰
+  source: 史记·周本纪
+- year: -1056
+  event: 薨，子武王发继
+  source: 史记·周本纪
+sources:
+- 史记·周本纪
+- 周易·系辞
+- 诗经·大雅
+- 论语·泰伯
+ext:
+  disputed: true
+  note: 商西伯,受命称王至卒。据夏商周断代工程;传世「享年97」系后世附会
+wikidata_id: "Q698909"
+wikipedia_zh: "周文王"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/King_Wen_of_Zhou_%28cropped%29.jpg/500px-King_Wen_of_Zhou_%28cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:King_Wen_of_Zhou_(cropped).jpg"

@@ -1,0 +1,19 @@
+id: b_hongshui
+type: Battle
+name: 泓水之战
+date:
+  year: -638
+category: battle
+importance: 3
+location: pl_hongshui
+combatants:
+- k_song_state
+- k_chu_state
+commanders:
+- p_song_xiang_gong
+victor: k_chu_state
+description: 前638年宋襄公伐郑，楚成王救郑伐宋。十一月战于泓水。楚军半渡，宋大司马固请击之，襄公以"不鼓不成列"之古礼不从；待楚军渡毕列阵，宋军大败，襄公伤股。宋国由此衰，楚势益张。
+significance: 标志商周以来"结日定战"旧军礼之瓦解，兵不厌诈之新型战争观渐起；宋襄公图霸彻底失败。
+sources:
+- 左传·僖公二十二年
+- 史记·宋微子世家

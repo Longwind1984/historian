@@ -1,0 +1,12 @@
+id: pl_cbdb_14748
+type: Place
+name: 開封
+modern_name: 開封
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.785477
+longitude: 114.34333
+first_year: 712
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,36 @@
+id: p_chairong
+type: Person
+name: 柴荣
+alias:
+- 郭荣
+- 后周世宗
+born:
+  year: 921
+  month: 10
+died:
+  year: 959
+  month: 7
+reign_start:
+  year: 954
+reign_end:
+  year: 959
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_xingtai
+bio: 后周世宗。郭威养子(柴氏子)。954-959 在位,高平之战大败北汉,西败后蜀,南征南唐取江北十四州,北伐辽取瀛、莫。政治军事经济大改,奠北宋统一基础。959
+  年北伐途中病卒。
+sources:
+- 旧五代史·周世宗纪
+- 新五代史·周本纪
+- 资治通鉴·卷291-294
+ext:
+  title: 柴荣
+  regime: 后周
+wikidata_id: "Q1319646"
+wikipedia_zh: "周世宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Chai_Rong_%28Zhou_Shizong%29.jpg/500px-Chai_Rong_%28Zhou_Shizong%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chai_Rong_(Zhou_Shizong).jpg"

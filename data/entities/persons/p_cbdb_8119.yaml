@@ -1,0 +1,14 @@
+id: p_cbdb_8119
+type: Person
+name: 宋庠
+born:
+  year: 997
+died:
+  year: 1066
+gender: male
+birthplace: pl_cbdb_11032
+dynasty_ref: k_beisong
+bio: CBDB ID 8119
+name_en: Song Xiang
+sources:
+- CBDB (China Biographical Database)

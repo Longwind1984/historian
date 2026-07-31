@@ -1,0 +1,16 @@
+id: pl_zhenzhou3
+type: Place
+name: 镇州
+modern_name: 正定
+province: 河北
+latitude: 38.15
+longitude: 114.57
+category: garrison
+description: 李宝臣/王武俊治所
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴
+aliases:
+- 成德
+- 真定

@@ -1,0 +1,16 @@
+id: d_yuan
+type: Dynasty
+name: 元
+name_en: Yuan
+founded:
+  year: 1271
+  month: 11
+ended:
+  year: 1368
+  month: 8
+last_capital: pl_dadu_yuan
+description: 元朝。1206 年成吉思汗建蒙古国,1271 年忽必烈定国号元,1279 灭南宋统一。1368 明军克大都,元廷北遁(北元)。
+period_label: 元
+sources:
+- 元史
+- 新元史

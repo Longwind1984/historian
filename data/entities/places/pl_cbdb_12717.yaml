@@ -1,0 +1,12 @@
+id: pl_cbdb_12717
+type: Place
+name: 安吉
+modern_name: 安吉
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.744599
+longitude: 119.738226
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,17 @@
+id: p_suwei
+type: Person
+name: 苏威
+alias:
+- 苏无畏
+courtesy_name: 无畏
+born:
+  year: 542
+died:
+  year: 623
+gender: male
+birthplace: pl_wuwei_sui
+bio: 隋朝宰相。历仕隋文帝、炀帝、唐高祖。'关陇集团'重要成员。
+sources:
+- 隋书·苏威传
+wikidata_id: "Q1079606"
+wikipedia_zh: "苏威"

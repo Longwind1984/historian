@@ -1,0 +1,12 @@
+id: pl_cbdb_16725
+type: Place
+name: 臨潭
+modern_name: 臨潭
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.671243
+longitude: 103.556438
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

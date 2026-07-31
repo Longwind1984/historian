@@ -1,0 +1,21 @@
+id: b_haoshuigu
+type: Battle
+name: 好水川之战
+date:
+  year: 1041
+  month: 3
+category: battle
+importance: 3
+location: pl_ningxia_haoshui
+combatants:
+- k_beisong
+- k_xixia
+commanders:
+- p_hanqi
+- p_liyuanhao
+victor: k_xixia
+victor_commander: p_liyuanhao
+description: 韩琦命任福率军追击,好水川遭夏军伏击,任福父子战死,宋军丧万余人。
+significance: 宋史·夏国传
+sources:
+- 宋夏

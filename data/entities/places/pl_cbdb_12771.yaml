@@ -1,0 +1,12 @@
+id: pl_cbdb_12771
+type: Place
+name: 慈溪
+modern_name: 慈溪
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.979195
+longitude: 121.444199
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

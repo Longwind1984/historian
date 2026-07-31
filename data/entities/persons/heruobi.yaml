@@ -1,0 +1,15 @@
+id: p_heruobi
+type: Person
+name: 贺若弼
+alias:
+- 贺若辅伯
+courtesy_name: 辅伯
+born:
+  year: 544
+died:
+  year: 607
+gender: male
+birthplace: pl_luoyang_sui
+bio: 隋朝名将。588 年伐陈,从广陵渡江。'比韩擒虎先入建康'。炀帝即位后被杀。
+sources:
+- 隋书·贺若弼传

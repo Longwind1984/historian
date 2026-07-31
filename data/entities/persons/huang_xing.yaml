@@ -1,0 +1,25 @@
+id: p_huang_xing
+type: Person
+name: 黄兴
+alias:
+- 黄克强
+courtesy_name: 克强
+born:
+  year: 1874
+died:
+  year: 1916
+gender: male
+roles:
+- general
+- rebel_leader
+importance: 2
+bio: 湖南善化(今长沙)人，近代民主革命家。1902 年留学日本，1903 年 11 月 4 日发起筹备、1904 年 2 月 15 日在长沙与宋教仁等正式创立华兴会(任会长)。1905 年同盟会成立，任执行部庶务，成为仅次于孙中山的领袖，世称"孙黄"。先后指挥钦州防城、镇南关、黄花岗等起义。武昌起义后任民军总司令。1913 年二次革命任江苏讨袁军总司令，事败去日本、美国。1916 年病逝于上海。
+sources:
+- 中华民国史·黄兴传
+- 毛注青·黄兴年谱长编
+wikidata_id: "Q706842"
+wikipedia_zh: "黄兴"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Huang_Xing.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Huang_Xing.jpg"

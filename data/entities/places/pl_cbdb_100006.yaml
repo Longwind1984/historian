@@ -1,0 +1,12 @@
+id: pl_cbdb_100006
+type: Place
+name: 上饒
+modern_name: 上饒
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.450691
+longitude: 117.96489
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

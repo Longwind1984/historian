@@ -1,0 +1,15 @@
+id: pl_liangshan_song
+type: Place
+name: 梁山泺
+modern_name: 梁山
+province: 山东
+latitude: 35.8
+longitude: 116.1
+category: battlefield
+description: 宋江活动地
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

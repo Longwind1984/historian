@@ -1,0 +1,14 @@
+id: p_cbdb_31322
+type: Person
+name: 陳子昂
+born:
+  year: 661
+died:
+  year: 702
+gender: male
+birthplace: pl_cbdb_16267
+dynasty_ref: k_tang
+bio: CBDB ID 31322
+name_en: Chen Ziang
+sources:
+- CBDB (China Biographical Database)

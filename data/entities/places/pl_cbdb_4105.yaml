@@ -1,0 +1,12 @@
+id: pl_cbdb_4105
+type: Place
+name: 五國
+modern_name: 五國
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 45.87506
+longitude: 132.16431
+first_year: 907
+last_year: 1121
+description: CBDB 行政类型:Tribal Federation

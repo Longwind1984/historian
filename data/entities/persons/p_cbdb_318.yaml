@@ -1,0 +1,14 @@
+id: p_cbdb_318
+type: Person
+name: 張昷之
+born:
+  year: 985
+died:
+  year: 1062
+gender: male
+birthplace: pl_cbdb_12441
+dynasty_ref: k_beisong
+bio: CBDB ID 318
+name_en: Zhang Wenzhi
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,23 @@
+id: b_song_jingnan
+type: Battle
+name: 宋平荆南
+date:
+  year: 963
+  month: 1
+importance: 3
+location: pl_jiangling
+combatants:
+- k_song
+- k_jingnan
+commanders:
+- p_zhaokuangyin
+victor: k_song
+victor_commander: p_zhaokuangyin
+description: 北宋慕容延钊、李处耘率军假道灭荆南。荆南高继冲降。
+significance: 宋统一战争序幕。
+sources:
+- 续资治通鉴长编·卷4
+end_date:
+  year: 963
+  month: 3
+category: conquest

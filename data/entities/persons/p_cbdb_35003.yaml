@@ -1,0 +1,14 @@
+id: p_cbdb_35003
+type: Person
+name: 董其昌
+born:
+  year: 1555
+died:
+  year: 1636
+gender: male
+birthplace: pl_cbdb_5252
+dynasty_ref: k_ming
+bio: CBDB ID 35003
+name_en: Dong Qichang
+sources:
+- CBDB (China Biographical Database)

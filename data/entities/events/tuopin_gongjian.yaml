@@ -1,0 +1,16 @@
+id: e_tuopin_gongjian
+type: Event
+name: 脱贫攻坚
+date:
+  year: 2013
+end_date:
+  year: 2021
+category: reform
+importance: 2
+polities_involved:
+- k_prc
+description: 2013年提出精准扶贫，2020年底宣布现行标准下农村贫困人口全部脱贫，2021年官方宣布脱贫攻坚战"取得全面胜利"。
+impact: 按官方统计口径，现行标准下9899万农村贫困人口脱贫、832个贫困县摘帽；此后政策转入巩固拓展脱贫攻坚成果并与乡村振兴有效衔接的阶段。
+sources:
+- 国家统计局·什么是贫困标准和贫困发生率
+- 中共中央、国务院·关于实现巩固拓展脱贫攻坚成果同乡村振兴有效衔接的意见

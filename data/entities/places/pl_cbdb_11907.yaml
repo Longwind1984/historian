@@ -1,0 +1,12 @@
+id: pl_cbdb_11907
+type: Place
+name: 藍田
+modern_name: 藍田
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.153698
+longitude: 109.321556
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

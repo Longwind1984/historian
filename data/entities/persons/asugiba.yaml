@@ -1,0 +1,28 @@
+id: p_asugiba
+type: Person
+name: 阿速吉八
+alias:
+- 元天顺帝
+- 天顺帝
+born:
+  year: 1320
+died:
+  year: 1328
+reign_start:
+  year: 1328
+reign_end:
+  year: 1328
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_yuan
+bio: 泰定帝子。1328年泰定帝崩于上都,倒剌沙等拥立于上都,改元天顺;同时燕铁木儿在大都拥立图帖睦尔(文宗),史称两都之战。上都兵败,阿速吉八下落不明,在位仅月余。
+ext:
+  title: 元天顺帝
+  regime: 元
+sources:
+- 元史
+- 新元史
+wikidata_id: "Q8653"
+wikipedia_zh: "天顺帝 (元朝)"

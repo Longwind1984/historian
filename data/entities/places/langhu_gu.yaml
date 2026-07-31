@@ -1,0 +1,13 @@
+id: pl_langhu_gu
+type: Place
+name: 狼虎谷
+modern_name: 莱芜
+province: 山东
+latitude: 36.34
+longitude: 117.67
+category: battlefield
+description: 884 黄巢兵败地
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

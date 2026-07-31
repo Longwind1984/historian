@@ -1,0 +1,14 @@
+id: p_cbdb_14299
+type: Person
+name: 李廌
+born:
+  year: 1059
+died:
+  year: 1109
+gender: male
+birthplace: pl_cbdb_100585
+dynasty_ref: k_beisong
+bio: CBDB ID 14299
+name_en: Li Zhi
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,15 @@
+id: f_zhuzhan_touxiang
+type: Faction
+name: 南宋主战派 vs 投降派
+nature: political
+founded:
+  year: 1127
+dissolved:
+  year: 1279
+core_region: pl_linan_song
+description: 南宋政治长期在抗金/抗蒙与求和偏安间拉锯。主战派:李纲、宗泽、岳飞、韩世忠、张浚、辛弃疾、陆游;主和派:秦桧、贾似道。
+significance: 影响南宋对金、对蒙政策的根本路线之争。
+peak_period: 1127-1279
+sources:
+- 宋史
+- 续资治通鉴长编

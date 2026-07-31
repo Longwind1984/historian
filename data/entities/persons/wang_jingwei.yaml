@@ -1,0 +1,24 @@
+id: p_wang_jingwei
+type: Person
+name: 汪精卫
+alias:
+- 汪兆铭
+courtesy_name: 季新
+born:
+  year: 1883
+died:
+  year: 1944
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 原籍浙江绍兴，生于广东三水，近代政治人物。早年留学日本，1905 年加入同盟会，任《民报》主编。1910 年谋刺摄政王载沣入狱。民国后为国民党元老，历任中央执行委员、国民政府主席、行政院长。1938 年底自重庆出走，1940 年在南京另立国民政府(史称汪伪政权，亦称汪精卫政权)，任主席。1944 年病死于日本名古屋。
+sources:
+- 中华民国史·汪精卫传
+- 蔡德金·汪精卫评传
+wikidata_id: "Q22303"
+wikipedia_zh: "汪精卫"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/%E6%B1%AA%E7%B2%BE%E8%A1%9B%E7%85%A7%E7%89%87.jpg/500px-%E6%B1%AA%E7%B2%BE%E8%A1%9B%E7%85%A7%E7%89%87.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B1%AA%E7%B2%BE%E8%A1%9B%E7%85%A7%E7%89%87.jpg"

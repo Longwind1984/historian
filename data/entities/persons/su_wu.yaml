@@ -1,0 +1,26 @@
+id: p_su_wu
+type: Person
+name: 苏武
+alias:
+- 苏子卿
+courtesy_name: 子卿
+born:
+  year: -140
+died:
+  year: -60
+gender: male
+roles:
+- civil_official
+importance: 2
+birthplace: pl_duqu_duhui
+bio: 西汉名臣。BC100 出使匈奴被扣留,牧羊北海(贝加尔湖)19 年,持节不屈。BC81 还朝。
+ext:
+  significance: 中国忠贞不屈的象征。
+sources:
+- 汉书·苏武传
+wikidata_id: "Q1280148"
+wikipedia_zh: "苏武"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Su_Wu.jpg/500px-Su_Wu.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Su_Wu.jpg"

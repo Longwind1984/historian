@@ -1,0 +1,41 @@
+id: p_jiang_jieshi
+type: Person
+name: 蒋介石
+alias:
+- 蒋中正
+courtesy_name: 介石
+born:
+  year: 1887
+died:
+  year: 1975
+gender: male
+roles:
+- general
+- civil_official
+importance: 1
+bio: 浙江奉化人，近代政治、军事人物。早年就学保定陆军速成学堂，1908 年留学日本入振武学校，期间加入同盟会。1924 年任黄埔军校校长。1926 年任国民革命军总司令，率师北伐。1928 年东北易帜后形式上完成统一。此后主政国民政府，与各地方实力派及中共多次冲突。1937 年全面抗战爆发后任国防最高委员会委员长，领导抗战。1949 年国民政府败退台湾，1950 年起任台湾当局领导人。1975 年病逝于台北。
+life_events:
+- year: 1924
+  event: 任黄埔军校校长
+  source: 中华民国史·蒋介石传
+- year: 1926
+  event: 任国民革命军总司令，领导北伐
+  source: 中华民国史·第二编
+- year: 1928
+  event: 东北易帜后形式上统一全国
+  source: 中华民国史·第二编
+- year: 1937
+  event: 全面抗战爆发，领导抗战
+  source: 中国抗日战争史·上卷
+- year: 1949
+  event: 国民政府迁台
+  source: 中华民国史·第三编
+sources:
+- 中华民国史·蒋介石传
+- 杨天石·找寻真实的蒋介石
+wikidata_id: "Q16574"
+wikipedia_zh: "蔣中正"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%E8%94%A3%E4%B8%AD%E6%AD%A3%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7.png/500px-%E8%94%A3%E4%B8%AD%E6%AD%A3%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7.png"
+image_license: "Attribution"
+image_credit: "Unknown photographer"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%94%A3%E4%B8%AD%E6%AD%A3%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7.png"

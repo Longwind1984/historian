@@ -1,0 +1,14 @@
+id: p_cbdb_55
+type: Person
+name: 陳繹
+born:
+  year: 1021
+died:
+  year: 1088
+gender: male
+birthplace: pl_cbdb_100409
+dynasty_ref: k_beisong
+bio: CBDB ID 55
+name_en: Chen Yi
+sources:
+- CBDB (China Biographical Database)

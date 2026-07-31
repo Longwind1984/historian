@@ -1,0 +1,23 @@
+id: p_chenghao
+type: Person
+name: 程颢
+courtesy_name: 伯淳
+born:
+  year: 1032
+died:
+  year: 1085
+  month: 7
+gender: male
+roles:
+- scholar
+importance: 2
+birthplace: pl_luoyang
+bio: 北宋理学奠基人(与弟程颐并称'二程')。提出'天理'为核心。心学渊源。
+sources:
+- 宋史·道学传·程颢
+wikidata_id: "Q558192"
+wikipedia_zh: "程顥"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/27/Chenghao.jpg"
+image_license: "FAL"
+image_credit: "anonymous"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chenghao.jpg"

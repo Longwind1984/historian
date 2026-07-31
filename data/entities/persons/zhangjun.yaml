@@ -1,0 +1,20 @@
+id: p_zhangjun
+type: Person
+name: 张俊
+courtesy_name: 伯英
+born:
+  year: 1086
+died:
+  year: 1154
+  month: 8
+gender: male
+birthplace: pl_tianshui_zhang
+bio: 南宋将领(中兴四将之一)。明受之变勤王。但晚节不保,附秦桧,参与陷害岳飞。岳飞墓前铁跪像之一。
+sources:
+- 宋史·张俊传
+wikidata_id: "Q11068072"
+wikipedia_zh: "張俊"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/d2/%E5%BC%B5%E4%BF%8A.jpg"
+image_license: "Public domain"
+image_credit: "劉松年繪"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%BC%B5%E4%BF%8A.jpg"

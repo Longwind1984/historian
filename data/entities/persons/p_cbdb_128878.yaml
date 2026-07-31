@@ -1,0 +1,14 @@
+id: p_cbdb_128878
+type: Person
+name: 周詠
+born:
+  year: 1533
+died:
+  year: 1595
+gender: male
+birthplace: pl_cbdb_5042
+dynasty_ref: k_ming
+bio: CBDB ID 128878
+name_en: Zhou Yong
+sources:
+- CBDB (China Biographical Database)

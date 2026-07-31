@@ -1,0 +1,13 @@
+id: pl_liaodong_sui
+type: Place
+name: 辽东城
+modern_name: 辽阳
+province: 辽宁
+latitude: 41.27
+longitude: 123.18
+category: battlefield
+description: 隋征高句丽
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

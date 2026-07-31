@@ -1,0 +1,14 @@
+id: p_cbdb_3652
+type: Person
+name: 呂大器
+born:
+  year: 1113
+died:
+  year: 1172
+gender: male
+birthplace: pl_cbdb_12785
+dynasty_ref: k_beisong
+bio: CBDB ID 3652
+name_en: Lü Daqi
+sources:
+- CBDB (China Biographical Database)

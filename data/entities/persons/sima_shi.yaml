@@ -1,0 +1,23 @@
+id: p_sima_shi
+type: Person
+name: 司马师
+alias:
+- 司马子元
+- 晋景帝
+courtesy_name: 子元
+born:
+  year: 208
+died:
+  year: 255
+  month: 3
+gender: male
+birthplace: pl_wen_xianyu
+bio: 司马懿长子。251 继父执政。254 废魏帝曹芳。255 病卒。
+sources:
+- 晋书·景帝纪
+wikidata_id: "Q707808"
+wikipedia_zh: "司馬師"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Sima_Shi_Qing_dynasty_portrait.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sima_Shi_Qing_dynasty_portrait.jpg"

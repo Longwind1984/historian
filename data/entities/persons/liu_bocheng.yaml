@@ -1,0 +1,23 @@
+id: p_liu_bocheng
+type: Person
+name: 刘伯承
+alias:
+- 刘明昭
+gender: male
+born:
+  year: 1892
+died:
+  year: 1986
+roles:
+- general
+importance: 2
+bio: 四川开县人。早年参加护国、护法战争，1916 年攻丰都时右眼中弹失明，时称"独眼将军"。1926 年入中共，参与南昌起义。留学苏联伏龙芝军事学院，长征中任红军总参谋长。抗战任八路军 129 师师长，与政委邓小平搭档，世称"刘邓"。解放战争率晋冀鲁豫野战军千里跃进大别山，后为第二野战军司令员。1955 年授元帅。1950 年代主持南京军事学院，1958 年"反教条主义"运动中被批。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q701507"
+wikipedia_zh: "刘伯承"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Liu_Bocheng.jpg/500px-Liu_Bocheng.jpg"
+image_license: "Public domain"
+image_credit: "​《 解放军画报 》 记者 柳成行"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Bocheng.jpg"

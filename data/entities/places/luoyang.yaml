@@ -1,0 +1,17 @@
+id: pl_luoyang
+type: Place
+name: 洛阳
+modern_name: 洛阳
+province: 河南
+latitude: 34.62
+longitude: 112.45
+category: capital
+description: 后唐都城
+aliases:
+- 洛京
+- 西京
+- 河南府
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

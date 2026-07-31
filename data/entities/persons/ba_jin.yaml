@@ -1,0 +1,18 @@
+id: p_ba_jin
+name: 巴金
+type: Person
+born: {year: 1904}
+died: {year: 2005}
+roles:
+  - literatus
+importance: 2
+bio: 四川成都人。作家,著有《家》《春》《秋》等,曾任中国作家协会主席。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q13005"
+wikipedia_zh: "巴金"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/58/%E5%B7%B4%E9%87%911938.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%B7%B4%E9%87%911938.jpg"

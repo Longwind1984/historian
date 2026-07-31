@@ -1,0 +1,15 @@
+id: e_tui_en_ling
+type: Event
+name: 推恩令
+date:
+  year: -127
+category: institution
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_xihan
+description: BC127 武帝采主父偃策,令诸侯王分封子弟为列侯,使王国越分越小。
+impact: 兵不血刃解决诸侯王问题。
+sources:
+- 史记·平津侯主父列传
+- 汉书·武帝纪

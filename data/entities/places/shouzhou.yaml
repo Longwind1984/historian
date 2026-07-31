@@ -1,0 +1,13 @@
+id: pl_shouzhou
+type: Place
+name: 寿州
+modern_name: 寿县
+province: 安徽
+latitude: 32.57
+longitude: 116.78
+category: battlefield
+description: 后周攻南唐关键战场
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

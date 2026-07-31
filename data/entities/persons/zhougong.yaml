@@ -1,0 +1,46 @@
+id: p_zhougong
+type: Person
+name: 周公旦
+alias:
+- 周公
+- 姬旦
+- 叔旦
+gender: male
+floruit_start:
+  year: -1042
+floruit_end:
+  year: -1035
+roles:
+- imperial_kin
+- civil_official
+importance: 1
+bio: 文王第四子，姬姓，名旦，武王之弟。辅武王灭商；武王崩、成王幼，周公摄政。东征平三监与武庚之乱，营建东都洛邑，制礼作乐、定宗法分封之制，奠周室八百年根基。七年还政成王。年代据断代工程重建，属模糊纪年。
+life_events:
+- year: -1046
+  event: 辅武王牧野灭商
+  source: 史记·周本纪
+- year: -1042
+  event: 摄政，东征平三监之乱
+  source: 尚书·大诰
+- year: -1040
+  event: 营建东都洛邑
+  source: 尚书·洛诰
+- year: -1038
+  event: 制礼作乐，定宗法
+  source: 左传·文公十八年
+- year: -1036
+  event: 还政成王
+  source: 史记·鲁周公世家
+sources:
+- 史记·鲁周公世家
+- 尚书·周书
+- 诗经·豳风
+ext:
+  disputed: true
+  note: 武王崩后摄政七年,东征平三监、营洛邑、制礼作乐。生卒无考
+wikidata_id: "Q468747"
+wikipedia_zh: "周公旦"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Zhou_gong.jpg/500px-Zhou_gong.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhou_gong.jpg"

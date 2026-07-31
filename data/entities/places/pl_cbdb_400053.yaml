@@ -1,0 +1,12 @@
+id: pl_cbdb_400053
+type: Place
+name: 山陰
+modern_name: 山陰
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.004514694
+longitude: 120.57826233
+first_year: 618
+last_year: 907
+description: CBDB 行政类型:Xian

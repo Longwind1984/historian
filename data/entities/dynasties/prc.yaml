@@ -1,0 +1,15 @@
+id: d_prc
+type: Dynasty
+name: 中华人民共和国
+name_en: People's Republic of China
+founded:
+  year: 1949
+  month: 10
+ended:
+  year: 2026
+last_capital: pl_beijing_qing
+description: 中华人民共和国。1949 年 10 月 1 日建立,社会主义国家,延续至今（本库以 2026 年为通史时间轴上限）。
+period_label: 共和国
+sources:
+- 中华人民共和国史
+- 当代中国史

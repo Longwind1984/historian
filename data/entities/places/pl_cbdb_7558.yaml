@@ -1,0 +1,12 @@
+id: pl_cbdb_7558
+type: Place
+name: 上元
+modern_name: 上元
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.052562714
+longitude: 118.76898956
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

@@ -1,0 +1,19 @@
+id: b_dingchuanzhai
+type: Battle
+name: 定川寨之战
+date:
+  year: 1042
+category: battle
+importance: 3
+location: pl_dingchuanzhai
+combatants:
+- k_beisong
+- k_xixia
+commanders:
+- p_liyuanhao
+victor: k_xixia
+victor_commander: p_liyuanhao
+description: 西夏大举攻镇戎军,宋将葛怀敏轻敌中伏全军覆没。三川口、好水川、定川寨合称'陕西三大败'。
+significance: 促庆历和议
+sources:
+- 宋史·夏国传

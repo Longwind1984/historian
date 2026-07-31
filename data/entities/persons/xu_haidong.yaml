@@ -1,0 +1,21 @@
+id: p_xu_haidong
+type: Person
+name: 徐海东
+gender: male
+born:
+  year: 1900
+died:
+  year: 1970
+roles:
+- general
+importance: 3
+bio: 湖北黄陂人。窑工出身。红二十五军军长，率部先期到达陕北，中央红军长征抵陕时借粮款五千大洋以济急，毛泽东称其"对中国革命有大功"。作战屡负重伤，1940 年后长期养病，未与闻建国后军事。1955 年授大将。文革中遭冲击，1970 年病逝于郑州。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q838060"
+wikipedia_zh: "徐海东"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Xu_Haidong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xu_Haidong.jpg"

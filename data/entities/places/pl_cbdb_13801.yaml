@@ -1,0 +1,12 @@
+id: pl_cbdb_13801
+type: Place
+name: 安義
+modern_name: 安義
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.01159
+longitude: 108.82509
+first_year: 1071
+last_year: 1074
+description: CBDB 行政类型:Xian

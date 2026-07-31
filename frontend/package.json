@@ -1,0 +1,26 @@
+{
+  "name": "history-kb-frontend",
+  "private": true,
+  "version": "1.4.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host --port 8080",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.25.0",
+    "d3-force": "^3.0.0",
+    "d3-force-3d": "^3.0.6",
+    "maplibre-gl": "^4.7.0",
+    "pinia": "^2.2.0",
+    "three": "^0.185.1",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "vite": "^6.4.3"
+  }
+}

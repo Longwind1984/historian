@@ -1,0 +1,14 @@
+id: p_cbdb_272
+type: Person
+name: 張商英
+born:
+  year: 1043
+died:
+  year: 1121
+gender: male
+birthplace: pl_cbdb_13313
+dynasty_ref: k_beisong
+bio: CBDB ID 272
+name_en: Zhang Shangying
+sources:
+- CBDB (China Biographical Database)

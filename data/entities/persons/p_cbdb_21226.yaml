@@ -1,0 +1,14 @@
+id: p_cbdb_21226
+type: Person
+name: 司馬京
+born:
+  year: 1012
+died:
+  year: 1079
+gender: male
+birthplace: pl_cbdb_11938
+dynasty_ref: k_beisong
+bio: CBDB ID 21226
+name_en: Sima Jing
+sources:
+- CBDB (China Biographical Database)

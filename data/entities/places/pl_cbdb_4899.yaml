@@ -1,0 +1,12 @@
+id: pl_cbdb_4899
+type: Place
+name: 汶上
+modern_name: 汶上
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.728807
+longitude: 116.484373
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

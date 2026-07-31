@@ -1,0 +1,12 @@
+id: pl_cbdb_11780
+type: Place
+name: 洺州
+modern_name: 洺州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.701031
+longitude: 114.723068
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

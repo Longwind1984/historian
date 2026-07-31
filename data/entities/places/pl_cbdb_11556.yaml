@@ -1,0 +1,12 @@
+id: pl_cbdb_11556
+type: Place
+name: 內黃
+modern_name: 內黃
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.921836
+longitude: 114.745884
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

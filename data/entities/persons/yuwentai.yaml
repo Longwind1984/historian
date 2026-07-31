@@ -1,0 +1,25 @@
+id: p_yuwentai
+type: Person
+name: 宇文泰
+alias:
+- 宇文黑獭
+born:
+  year: 507
+died:
+  year: 556
+gender: male
+roles:
+- civil_official
+importance: 2
+birthplace: pl_wuchuan
+bio: 西魏实际统治者,关陇集团核心。创建府兵制,立八柱国十二大将军体系,奠基北周、隋、唐三代皇室基础。
+sources:
+- 周书·文帝纪
+- 北史·周本纪
+- 陈寅恪·唐代政治史述论稿
+wikidata_id: "Q1071587"
+wikipedia_zh: "宇文泰"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Yuwen_Tai.jpg/500px-Yuwen_Tai.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yuwen_Tai.jpg"

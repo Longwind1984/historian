@@ -1,0 +1,38 @@
+id: p_licheng_tang
+type: Person
+name: 李忱
+alias:
+- 唐宣宗
+- 李怡
+- 宣宗
+born:
+  year: 810
+died:
+  year: 859
+  month: 8
+gender: male
+birthplace: pl_chang_an
+bio: 唐宣宗。846-859 在位。推翻会昌毁佛,平反牛党。整顿吏治,击败吐蕃收复河西(851 张义潮归唐)。史称'大中之治'/'小太宗'。
+ext:
+  significance: 晚唐最后一个治世。
+  title: 唐宣宗
+  regime: 唐
+sources:
+- 旧唐书·宣宗纪
+- 资治通鉴·卷248-249
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 846
+reign_end:
+  year: 859
+roles:
+- emperor
+importance: 3
+wikidata_id: "Q9825"
+wikipedia_zh: "唐宣宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Tangxuanzong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tangxuanzong.jpg"

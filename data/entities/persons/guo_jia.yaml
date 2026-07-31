@@ -1,0 +1,21 @@
+id: p_guo_jia
+type: Person
+name: 郭嘉
+alias:
+- 郭奉孝
+courtesy_name: 奉孝
+born:
+  year: 170
+died:
+  year: 207
+gender: male
+birthplace: pl_yangzhai_guojia
+bio: 曹操谋士。颍川阳翟人。'十胜十败'论。207 病卒于征乌丸途中。
+sources:
+- 三国志·魏书·郭嘉传
+wikidata_id: "Q1207750"
+wikipedia_zh: "郭嘉"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/GuoJia.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:GuoJia.jpg"

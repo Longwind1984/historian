@@ -1,0 +1,12 @@
+id: pl_cbdb_5215
+type: Place
+name: 富平
+modern_name: 富平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.754429
+longitude: 109.161568
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

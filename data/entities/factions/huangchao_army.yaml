@@ -1,0 +1,18 @@
+id: f_huangchao_army
+type: Faction
+name: 黄巢起义军
+nature: military_clan
+founded:
+  year: 875
+dissolved:
+  year: 884
+core_region: pl_caizhou2
+description: 唐末最大农民起义军。875 年王仙芝、黄巢起兵,880 年黄巢入长安称帝建齐。884 年黄巢败死。残部尚让等降朱温。
+significance: 彻底摧毁唐朝根基。朱温(降唐的黄巢部将)成为最大军阀,沙陀李克用因平叛崛起——五代十国两大主导势力皆源于此。
+peak_period: 僖宗朝
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新唐书
+- 旧唐书
+- 毛汉光·中国中古政治史论
+- 谷川道雄·隋唐帝国形成史论

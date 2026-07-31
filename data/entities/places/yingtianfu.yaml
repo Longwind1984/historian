@@ -1,0 +1,15 @@
+id: pl_yingtianfu
+type: Place
+name: 南京应天府
+modern_name: 商丘
+province: 河南
+latitude: 34.44
+longitude: 115.65
+category: city
+description: 南宋初立都
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

@@ -1,0 +1,32 @@
+id: p_chaizongxun
+type: Person
+name: 柴宗训
+alias:
+- 郭宗训
+- 后周恭帝
+born:
+  year: 953
+  month: 9
+died:
+  year: 973
+gender: male
+birthplace: pl_kaifeng
+bio: 后周恭帝。柴荣子。959 年七岁即位。960 年赵匡胤陈桥兵变代之,降封郑王。后周亡。
+sources:
+- 旧五代史·恭帝纪
+- 宋史·太祖本纪
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 959
+reign_end:
+  year: 960
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后周恭帝
+  regime: 后周
+wikidata_id: "Q1195669"
+wikipedia_zh: "周恭帝"

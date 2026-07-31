@@ -1,0 +1,248 @@
+/* === 配色系统:默认值由 palettes.js 动态注入,这里只给 fallback ===
+   设计语言:古籍/卷轴/印章。强调色专一(只用于品牌+交互+当前年)。
+   2 套配色:澄(暖纸)/夜(深色) */
+:root {
+  /* fallback — 澜(默认) */
+  --paper: #f2ebdd;
+  --paper-el: #f9f3e7;
+  --line: #e2d9c6;
+  --hair: #ece3d0;
+  --ink: #2c2721;
+  --ink-mid: #4a4539;
+  --ink-soft: #8b8270;
+  --ink-faint: #a9a08b;
+  --accent: #c24a32;
+  --accent-text: #f9f3e7;
+  --accent-glow: rgba(194, 74, 50, 0.4);
+  --hero1: #f6f1e6;
+  --hero2: #ece3cf;
+  --grid: #d8cdb4;
+  --edge: #cdc0a4;
+  --caption: rgba(249, 243, 231, 0.92);
+  --chip: #f1e8d6;
+  --field: #ece3d0;
+  --hover: rgba(0, 0, 0, 0.045);
+  --label-ink: #4a4539;
+  --on-cat: #f7f2e6;
+  --cat-person: #4a6f88;
+  --cat-polity: #9c5a4a;
+  --cat-faction: #78597a;
+  --cat-event: #5a7d5f;
+  --cat-battle: #a9743c;
+  --cat-place: #4e7f7a;
+  --cat-title: #8a7a3f;
+  --cat-dynasty: #6d6555;
+  /* 事件 5 族色(默认=澄);applyPalette 会按配色覆写 */
+  --fam-military: #94714c;
+  --fam-governance: #70944c;
+  --fam-external: #4c948d;
+  --fam-civilization: #4c5294;
+  --fam-power: #8f4c94;
+  --fam-other: #6d6555;
+  /* 兼容旧变量名 */
+  --bg: var(--paper);
+  --bg-elevated: var(--paper-el);
+  --bg-card: var(--chip);
+  --border: var(--line);
+  --text: var(--ink);
+  --text-dim: var(--ink-soft);
+  --accent-dim: var(--accent);
+  --link: var(--accent);
+  --polity: var(--cat-polity);
+  --person: var(--cat-person);
+  --faction: var(--cat-faction);
+  --event: var(--cat-event);
+  --battle: var(--cat-battle);
+  --place: var(--cat-place);
+  --title: var(--cat-title);
+  --success: #5a7d5f;
+  --warning: #a9743c;
+  --danger: #c24a32;
+  --serif: 'Noto Serif SC', 'Source Han Serif SC', 'STSong', serif;
+  --sans: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;
+  --transition-theme: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #app {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 14px;
+  transition: var(--transition-theme);
+}
+
+button {
+  font-family: inherit;
+  background: var(--paper-el);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background 0.15s, border-color 0.15s;
+}
+button:hover { background: var(--bg-card); border-color: var(--accent-dim); }
+button.primary { background: var(--accent-dim); color: #fff; border-color: var(--accent); }
+button.primary:hover { background: var(--accent); }
+button.active { border-color: var(--accent); background: rgba(212,168,67,0.15); }
+
+input, select {
+  font-family: inherit;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+input:focus, select:focus { outline: none; border-color: var(--accent); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* NOTE: App layout 现在由 App.vue 的 scoped CSS 控制,不在全局定义 .app grid。
+   下面只保留全局基础样式(被各组件 scoped 覆盖)。 */
+
+/* EntityDetail 详情面板(模板类名 .graph-detail,见 components/graph/EntityDetail.vue) */
+.graph-detail {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  max-height: 45%;
+  /* flex 子项默认 min-height:auto(=内容高)会推翻 max-height,必须置 0 才能让
+     详情面板被限制在 45%/50% 内并触发内部滚动,而非撑满挤掉画布。 */
+  min-height: 0;
+  flex-shrink: 0;
+  overflow-y: auto;
+  padding: 0.85rem 1rem;
+}
+
+.panel-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.85rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-card);
+  font-size: 0.85em;
+  flex-shrink: 0;
+}
+.panel-toolbar h3 {
+  font-family: var(--serif);
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
+}
+
+/* Entity detail card */
+.entity-card .entity-name {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.2rem;
+}
+.entity-card .entity-meta {
+  color: var(--text-dim);
+  font-size: 0.85em;
+  margin-bottom: 0.6rem;
+}
+.entity-card .entity-section {
+  margin-top: 0.6rem;
+  font-size: 0.88em;
+  line-height: 1.55;
+}
+.entity-card .entity-section h4 {
+  color: var(--text-dim);
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+.entity-card .bio {
+  font-family: var(--serif);
+  white-space: pre-wrap;
+}
+.entity-card .sources {
+  font-size: 0.78em;
+  color: var(--text-dim);
+}
+.entity-card .tag {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  font-size: 0.78em;
+  margin: 0.1rem;
+}
+
+/* Map(.map-overlay 全局块已删:硬编码深色遗产,MapPanel.vue scoped 自带浮层样式) */
+#map-container { position: absolute; inset: 0; }
+
+/* Timeline */
+#timeline-container { height: 100%; }
+.timeline-panel h3 { font-family: var(--serif); color: var(--accent); margin-bottom: 0.2rem; font-size: 0.9rem; }
+
+/* Search dropdown */
+.search-bar { position: relative; }
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  max-height: 320px;
+  overflow-y: auto;
+  z-index: 10;
+  border-radius: 0 0 4px 4px;
+}
+.search-results .item {
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.search-results .item:hover { background: var(--bg-elevated); }
+.search-results .item .icon { font-size: 1.1em; }
+.search-results .item .meta { color: var(--text-dim); font-size: 0.78em; }
+
+/* MapLibre popups */
+.maplibregl-popup-content {
+  background: var(--bg-card) !important;
+  color: var(--text) !important;
+  font-family: var(--sans) !important;
+  border: 1px solid var(--accent-dim) !important;
+}
+.maplibregl-popup-tip { border-top-color: var(--accent-dim) !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-dim); }
+
+/* Loading splash */
+.splash {
+  position: fixed; inset: 0;
+  background: var(--bg);
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column;
+  z-index: 100;
+}
+.splash .title {
+  font-family: var(--serif);
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.splash .subtitle { color: var(--text-dim); }
+.splash .err { color: var(--danger); margin-top: 1rem; max-width: 480px; font-family: monospace; font-size: 0.85em; }

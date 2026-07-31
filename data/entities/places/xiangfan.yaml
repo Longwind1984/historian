@@ -1,0 +1,15 @@
+id: pl_xiangfan
+type: Place
+name: 襄樊
+modern_name: 襄阳
+province: 湖北
+latitude: 32.04
+longitude: 112.12
+category: battlefield
+description: 1267-1273 襄樊之战
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

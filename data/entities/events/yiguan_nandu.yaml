@@ -1,0 +1,16 @@
+id: e_yiguan_nandu
+type: Event
+name: 衣冠南渡
+date:
+  year: 317
+  month: 3
+category: territory
+importance: 1
+location: pl_jianye_han
+polities_involved:
+- k_xijin
+- k_dongjin
+description: 317 年司马睿在王导辅佐下,于建康称晋王,318 称帝,东晋建立。中原士族大批南迁(衣冠南渡)。
+impact: 江南开发的关键转折,中国政治经济文化重心开始南移。
+sources:
+- 晋书·元帝纪

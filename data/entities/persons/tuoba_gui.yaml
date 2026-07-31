@@ -1,0 +1,26 @@
+id: p_tuoba_gui
+type: Person
+name: 拓跋珪
+alias:
+- 魏道武帝
+born:
+  year: 371
+died:
+  year: 409
+gender: male
+birthplace: pl_sheng_le_tuobagui
+bio: 北魏建立者。鲜卑拓跋部。386 复国代,改国号魏。398 都平城(大同)。
+sources:
+- 魏书·太祖纪
+- 北史·魏本纪
+reign_start:
+  year: 386
+reign_end:
+  year: 409
+roles:
+- emperor
+ext:
+  title: 北魏道武帝
+  regime: 北魏
+wikidata_id: "Q1149178"
+wikipedia_zh: "魏道武帝"

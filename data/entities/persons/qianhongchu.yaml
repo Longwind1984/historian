@@ -1,0 +1,21 @@
+id: p_qianhongchu
+type: Person
+name: 钱弘俶
+alias:
+- 钱俶
+- 吴越忠懿王
+courtesy_name: 文德
+born:
+  year: 929
+  month: 8
+died:
+  year: 988
+  month: 10
+gender: male
+birthplace: pl_hangzhou
+bio: 吴越末代国王。钱元瓘第九子。948 年继位。978 年纳土归宋,避免战争。在中国佛教史上有重要地位(造八万四千阿育王塔)。988 年卒。
+sources:
+- 十国春秋·吴越
+- 宋史·吴越钱氏
+wikidata_id: "Q1036789"
+wikipedia_zh: "钱俶"

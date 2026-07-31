@@ -1,0 +1,27 @@
+id: p_sima_chi
+type: Person
+name: 司马炽
+alias:
+- 晋怀帝
+- 怀帝
+born:
+  year: 284
+died:
+  year: 313
+reign_start:
+  year: 307
+reign_end:
+  year: 313
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 武帝子。311年永嘉之乱，洛阳陷于汉赵，被掳，313年遇害。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋怀帝
+  regime: 西晋
+wikidata_id: "Q7361"
+wikipedia_zh: "晋怀帝"

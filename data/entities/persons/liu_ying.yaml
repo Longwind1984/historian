@@ -1,0 +1,28 @@
+id: p_liu_ying
+type: Person
+name: 刘盈
+alias:
+- 汉惠帝
+- 惠帝
+born:
+  year: -210
+died:
+  year: -188
+reign_start:
+  year: -195
+reign_end:
+  year: -188
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 高祖与吕后之子。在位七年，政令多出吕后；行宽政、除挟书律。年二十三崩，此后吕后临朝称制。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 汉惠帝
+  regime: 西汉
+wikidata_id: "Q48934469"
+wikipedia_zh: "刘盈 (南北朝)"

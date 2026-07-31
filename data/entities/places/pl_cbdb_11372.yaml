@@ -1,0 +1,12 @@
+id: pl_cbdb_11372
+type: Place
+name: 河南府
+modern_name: 河南府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.665275574
+longitude: 112.38262939
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Fu

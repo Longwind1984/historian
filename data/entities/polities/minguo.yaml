@@ -1,0 +1,18 @@
+id: k_minguo
+type: Polity
+name: 中华民国
+name_en: Republic of China
+color: '#3498db'
+founded:
+  year: 1912
+  month: 1
+ended:
+  year: 1949
+  month: 9
+capital: pl_nanjing_minguo
+description: 1912 年 1 月 1 日孙中山就任临时大总统,中华民国建立。1949 年国民政府迁台。
+sources:
+- 孙中山全集
+- 中华民国史
+founder: p_sun_zhongshan
+supplanted: k_qing

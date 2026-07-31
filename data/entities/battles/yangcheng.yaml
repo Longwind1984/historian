@@ -1,0 +1,25 @@
+id: b_yangcheng
+type: Battle
+name: 阳城之战(白团卫村之战)
+date:
+  year: 945
+  month: 3
+category: battle
+importance: 3
+location: pl_yangcheng_1945
+combatants:
+- k_houjin
+- k_liao
+commanders:
+- p_shizhonggui
+- p_yeludeguang
+victor: k_houjin
+victor_commander: p_shizhonggui
+strength: 数万 vs 契丹大军
+description: 契丹第三次大举攻晋,晋军被围于白团卫村,顺风纵火围攻。晋军在绝境中反突击,符彦卿等率军借风沙反扑,大破契丹铁鹞子重骑。耶律德光乘骆驼仓皇北逃。
+significance: 契丹惨败一度北撤,延缓其灭晋进程。但后晋未能巩固战果,终在946年中渡桥之降中灭亡。
+ext:
+  scale: 重大
+sources:
+- 旧五代史·晋书·少帝纪
+- 资治通鉴·卷284-285

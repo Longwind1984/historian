@@ -1,0 +1,14 @@
+id: p_cbdb_3965
+type: Person
+name: 王貫之
+born:
+  year: 967
+died:
+  year: 1028
+gender: male
+birthplace: pl_cbdb_100513
+dynasty_ref: k_beisong
+bio: CBDB ID 3965
+name_en: Wang Guanzhi
+sources:
+- CBDB (China Biographical Database)

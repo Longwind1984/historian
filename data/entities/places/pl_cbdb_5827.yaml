@@ -1,0 +1,12 @@
+id: pl_cbdb_5827
+type: Place
+name: 華陽
+modern_name: 華陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.650385
+longitude: 104.077995
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

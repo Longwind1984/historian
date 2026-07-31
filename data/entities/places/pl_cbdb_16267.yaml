@@ -1,0 +1,12 @@
+id: pl_cbdb_16267
+type: Place
+name: 射洪
+modern_name: 射洪
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.989159
+longitude: 105.276024
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

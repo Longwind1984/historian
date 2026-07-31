@@ -1,0 +1,33 @@
+id: p_liuchengyou
+type: Person
+name: 刘承祐
+alias:
+- 后汉隐帝
+born:
+  year: 931
+died:
+  year: 950
+  month: 11
+gender: male
+birthplace: pl_kaifeng
+bio: 后汉隐帝。刘知远次子。948 年即位。乾祐三年十一月诛杀辅政大臣并欲杀枢密使郭威，反激郭威起兵；同月兵败，被乱兵所杀。
+sources:
+- 旧五代史·隐帝纪
+- 新五代史·汉本纪
+- 资治通鉴·卷288-289
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 948
+reign_end:
+  year: 950
+  month: 11
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后汉隐帝
+  regime: 后汉
+wikidata_id: "Q713108"
+wikipedia_zh: "汉隐帝"

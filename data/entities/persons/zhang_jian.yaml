@@ -1,0 +1,25 @@
+id: p_zhang_jian
+type: Person
+name: 张謇
+alias:
+- 张季直
+courtesy_name: 季直
+born:
+  year: 1853
+died:
+  year: 1926
+gender: male
+roles:
+- civil_official
+- scholar
+importance: 2
+bio: 江苏通州海门(今南通)人，近代实业家、教育家。1894 年状元，授翰林院修撰。甲午后弃官从商，倡"实业救国""教育救国"。1899 年创办大生纱厂，其后在南通兴办垦牧、航运、盐业等企业，并建师范、小学、博物苑等，使南通成为近代模范县。曾任北洋政府农商总长。1926 年病逝。
+sources:
+- 中华民国史·张謇传
+- 章开沅·张謇传
+wikidata_id: "Q706685"
+wikipedia_zh: "张謇"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Zhang_Jian.jpg/500px-Zhang_Jian.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhang_Jian.jpg"

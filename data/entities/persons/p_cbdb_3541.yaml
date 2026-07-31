@@ -1,0 +1,14 @@
+id: p_cbdb_3541
+type: Person
+name: 李宗諤
+born:
+  year: 965
+died:
+  year: 1013
+gender: male
+birthplace: pl_cbdb_11795
+dynasty_ref: k_beisong
+bio: CBDB ID 3541
+name_en: Li Zonge
+sources:
+- CBDB (China Biographical Database)

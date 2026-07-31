@@ -1,0 +1,12 @@
+id: pl_cbdb_15372
+type: Place
+name: 幽都
+modern_name: 幽都
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.95344
+longitude: 116.34811
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,28 @@
+id: p_gao_heng
+type: Person
+name: 高恒
+alias:
+- 北齐幼主
+born:
+  year: 570
+died:
+  year: 577
+reign_start:
+  year: 577
+reign_end:
+  year: 577
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_bei_qi
+bio: 后主子,八岁受禅,在位月余。齐亡被诛。
+ext:
+  title: 北齐幼主
+  regime: 北齐
+sources:
+- 北齐书
+- 北史
+- 资治通鉴
+wikidata_id: "Q288135"
+wikipedia_zh: "齊幼主"

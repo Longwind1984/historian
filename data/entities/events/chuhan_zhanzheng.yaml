@@ -1,0 +1,21 @@
+id: e_chuhan_zhanzheng
+type: Event
+name: 楚汉战争
+date:
+  year: -206
+  month: 8
+category: war
+importance: 1
+location: pl_xingyang
+polities_involved:
+- k_chu_xiang
+- k_xihan
+description: BC206 项羽封刘邦为汉王,都南郑。BC206 八月刘邦还定三秦。BC205-202 四年楚汉对峙,荥阳、成皋长期争夺。BC202 垓下之战,韩信指挥,灭项羽。
+impact: 刘邦战胜项羽,奠定汉朝。
+sources:
+- 史记·项羽本纪·高祖本纪
+- 资治通鉴·卷9-11
+end_date:
+  year: -202
+  month: 12
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Chu-Han Contention.jpg

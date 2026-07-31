@@ -1,0 +1,14 @@
+id: p_cbdb_10283
+type: Person
+name: 邊恢
+born:
+  year: 1160
+died:
+  year: 1197
+gender: male
+birthplace: pl_cbdb_100584
+dynasty_ref: k_beisong
+bio: CBDB ID 10283
+name_en: Bian Hui
+sources:
+- CBDB (China Biographical Database)

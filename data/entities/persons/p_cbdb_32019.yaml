@@ -1,0 +1,14 @@
+id: p_cbdb_32019
+type: Person
+name: 張弘靖
+born:
+  year: 760
+died:
+  year: 824
+gender: male
+birthplace: pl_cbdb_15006
+dynasty_ref: k_tang
+bio: CBDB ID 32019
+name_en: Zhang Hongjing
+sources:
+- CBDB (China Biographical Database)

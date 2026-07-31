@@ -1,0 +1,12 @@
+id: pl_cbdb_5527
+type: Place
+name: 京山
+modern_name: 京山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.024815
+longitude: 113.116852
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

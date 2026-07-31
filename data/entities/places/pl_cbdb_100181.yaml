@@ -1,0 +1,12 @@
+id: pl_cbdb_100181
+type: Place
+name: 建安
+modern_name: 建安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.038864
+longitude: 118.323784
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_12709
+type: Place
+name: 嘉興
+modern_name: 嘉興
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.767469
+longitude: 120.753204
+first_year: 960
+last_year: 1275
+description: CBDB 行政类型:Xian

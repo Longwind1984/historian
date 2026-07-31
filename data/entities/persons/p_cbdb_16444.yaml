@@ -1,0 +1,14 @@
+id: p_cbdb_16444
+type: Person
+name: 狄栗
+born:
+  year: 990
+died:
+  year: 1045
+gender: male
+birthplace: pl_cbdb_100597
+dynasty_ref: k_beisong
+bio: CBDB ID 16444
+name_en: Di Li
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,16 @@
+id: p_guocongqian
+type: Person
+name: 郭从谦
+alias:
+- 郭门高
+died:
+  year: 926
+  month: 5
+gender: male
+birthplace: pl_luoyang
+bio: 后唐庄宗时伶人。指挥亲军。926 年发动兴教门之变,弑庄宗。
+sources:
+- 新五代史·伶官传
+- 资治通鉴·卷274
+wikidata_id: "Q10558676"
+wikipedia_zh: "郭从谦"

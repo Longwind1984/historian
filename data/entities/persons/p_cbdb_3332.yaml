@@ -1,0 +1,14 @@
+id: p_cbdb_3332
+type: Person
+name: 韓愈
+born:
+  year: 768
+died:
+  year: 825
+gender: male
+birthplace: pl_cbdb_15255
+dynasty_ref: k_tang
+bio: CBDB ID 3332
+name_en: Han Yu
+sources:
+- CBDB (China Biographical Database)

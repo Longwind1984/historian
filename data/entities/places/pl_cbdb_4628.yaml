@@ -1,0 +1,12 @@
+id: pl_cbdb_4628
+type: Place
+name: 高郵州
+modern_name: 高郵州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.790710449
+longitude: 119.43733215
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,23 @@
+id: p_wanyan_chenglin
+type: Person
+name: 完颜承麟
+alias:
+- 金末帝
+died:
+  year: 1234
+reign_start:
+  year: 1234
+reign_end:
+  year: 1234
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 哀宗仓促传位,受禅未及半日,蔡州城破,死于乱军,在位为中国历代最短者之一。
+ext:
+  title: 金末帝
+  regime: 金
+sources:
+- 金史
+wikidata_id: "Q5069"
+wikipedia_zh: "金末帝"

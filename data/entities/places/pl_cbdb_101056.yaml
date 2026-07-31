@@ -1,0 +1,12 @@
+id: pl_cbdb_101056
+type: Place
+name: 齊州
+modern_name: 齊州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.6646
+longitude: 116.9969
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Zhou

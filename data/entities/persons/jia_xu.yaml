@@ -1,0 +1,21 @@
+id: p_jia_xu
+type: Person
+name: 贾诩
+alias:
+- 贾文和
+courtesy_name: 文和
+born:
+  year: 147
+died:
+  year: 223
+gender: male
+birthplace: pl_weiyuan_jiaxu
+bio: 曹操谋士。原董卓、张绣部下。'算无遗策'。
+sources:
+- 三国志·魏书·贾诩传
+wikidata_id: "Q559700"
+wikipedia_zh: "贾诩"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Jia_Xu2.jpg"
+image_license: "Public domain"
+image_credit: "Qing Dynasty"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jia_Xu2.jpg"

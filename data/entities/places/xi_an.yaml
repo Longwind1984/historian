@@ -1,0 +1,15 @@
+id: pl_xi_an
+type: Place
+name: 西安(西夏相关)
+modern_name: 银川
+province: 宁夏
+latitude: 38.49
+longitude: 106.23
+category: city
+description: 庆历和议
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

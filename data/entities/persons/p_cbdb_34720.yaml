@@ -1,0 +1,14 @@
+id: p_cbdb_34720
+type: Person
+name: 王樵
+born:
+  year: 1521
+died:
+  year: 1599
+gender: male
+birthplace: pl_cbdb_4621
+dynasty_ref: k_ming
+bio: CBDB ID 34720
+name_en: Wang Qiao
+sources:
+- CBDB (China Biographical Database)

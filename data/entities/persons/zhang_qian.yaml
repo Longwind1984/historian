@@ -1,0 +1,16 @@
+id: p_zhang_qian
+type: Person
+name: 张骞
+alias:
+- 张博望
+died:
+  year: -114
+gender: male
+birthplace: pl_hanzhong_zhangqian
+bio: 西汉外交家。汉中人。BC138 武帝派其出使大月氏,欲联合夹击匈奴。被匈奴扣留 10 年。BC126 还朝。BC119 二次出使乌孙。'凿空西域'。
+ext:
+  significance: 丝绸之路的开拓者。
+sources:
+- 史记·大宛列传
+- 汉书·张骞传
+wikidata_id: "Q45692180"

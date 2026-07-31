@@ -1,0 +1,25 @@
+id: p_likaiqu
+type: Person
+name: 李克用
+alias:
+- 李鸦儿
+- 独眼龙
+- 晋王
+born:
+  year: 856
+died:
+  year: 908
+  month: 1
+gender: male
+birthplace: pl_shenzhou_yanjiao
+bio: 沙陀首领。唐末镇压黄巢有功,任河东节度使,封晋王。一生与朱温长期对峙,奠定后唐基业。908 年卒,子存勖继立。
+sources:
+- 旧五代史·武皇纪
+- 新五代史·唐本纪
+- 资治通鉴·卷257-266
+wikidata_id: "Q714164"
+wikipedia_zh: "李克用"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Li_Keyong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Li_Keyong.jpg"

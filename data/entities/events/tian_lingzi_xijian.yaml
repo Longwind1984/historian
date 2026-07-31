@@ -1,0 +1,17 @@
+id: e_tian_lingzi_xijian
+type: Event
+name: 田令孜乱政 / 僖宗再幸
+date:
+  year: 885
+category: coup
+importance: 3
+location: pl_chang_an
+polities_involved:
+- k_tang
+description: 885 年宦官田令孜与王重荣争安邑、解县两池盐利,田令孜引邠宁朱玫、凤翔李昌符攻王重荣。王重荣与李克用入京,田令孜挟僖宗再幸凤翔、兴元。
+impact: 晚唐宦官专权之极致,皇帝再次逃亡。
+sources:
+- 旧唐书·僖宗纪
+- 资治通鉴·卷256
+end_date:
+  year: 886

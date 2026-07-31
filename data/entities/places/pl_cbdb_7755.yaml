@@ -1,0 +1,12 @@
+id: pl_cbdb_7755
+type: Place
+name: 歙縣
+modern_name: 歙縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.86577034
+longitude: 118.4339447
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

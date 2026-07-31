@@ -1,0 +1,14 @@
+id: p_cbdb_3700
+type: Person
+name: 龐元魯
+born:
+  year: 1016
+died:
+  year: 1047
+gender: male
+birthplace: pl_cbdb_11270
+dynasty_ref: k_beisong
+bio: CBDB ID 3700
+name_en: Pang Yuanlu
+sources:
+- CBDB (China Biographical Database)

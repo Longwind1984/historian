@@ -1,0 +1,14 @@
+id: pl_rib
+type: Place
+name: 日本
+modern_name: 东京
+province: 日本
+latitude: 35.68
+longitude: 139.76
+category: region
+description: 明治日本
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

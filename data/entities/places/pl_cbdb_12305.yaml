@@ -1,0 +1,12 @@
+id: pl_cbdb_12305
+type: Place
+name: 晉城
+modern_name: 晉城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.504318
+longitude: 112.839157
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

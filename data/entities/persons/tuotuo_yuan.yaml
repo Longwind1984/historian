@@ -1,0 +1,17 @@
+id: p_tuotuo_yuan
+type: Person
+name: 脱脱
+alias:
+- 脱脱大用
+courtesy_name: 大用
+born:
+  year: 1314
+died:
+  year: 1356
+gender: male
+birthplace: pl_dadu_yuan
+bio: 元末权臣。1340 至正更化,主政改革。1344 主修辽金宋三史。后贬死。
+sources:
+- 元史·脱脱传
+wikidata_id: "Q11321170"
+wikipedia_zh: "脱脱 (札剌亦儿人)"

@@ -1,0 +1,27 @@
+id: p_gao_yan
+type: Person
+name: 高演
+alias:
+- 北齐孝昭帝
+born:
+  year: 535
+died:
+  year: 561
+reign_start:
+  year: 560
+reign_end:
+  year: 561
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 高欢六子。废侄自立。留心政务,颇有治绩,在位一年坠马而崩。
+ext:
+  title: 北齐孝昭帝
+  regime: 北齐
+sources:
+- 北齐书
+- 北史
+- 资治通鉴
+wikidata_id: "Q708325"
+wikipedia_zh: "齐孝昭帝"

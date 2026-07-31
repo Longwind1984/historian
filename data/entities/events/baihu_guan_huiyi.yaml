@@ -1,0 +1,14 @@
+id: e_baihu_guan_huiyi
+type: Event
+name: 白虎观会议
+date:
+  year: 79
+category: culture
+importance: 2
+location: pl_luoyang
+polities_involved:
+- k_donghan
+description: 79 章帝召集群臣于白虎观讨论五经异同。班固记录为《白虎通义》。
+impact: 东汉经学集大成,儒家国教化。
+sources:
+- 后汉书·章帝纪

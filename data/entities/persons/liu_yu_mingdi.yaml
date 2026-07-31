@@ -1,0 +1,27 @@
+id: p_liu_yu_mingdi
+type: Person
+name: 刘彧
+alias:
+- 宋明帝
+born:
+  year: 439
+died:
+  year: 472
+reign_start:
+  year: 465
+reign_end:
+  year: 472
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 文帝十一子。弑前废帝自立。大杀宗室,淮北四州尽失于魏。
+ext:
+  title: 宋明帝
+  regime: 刘宋
+sources:
+- 宋书
+- 南史
+- 资治通鉴
+wikidata_id: "Q718195"
+wikipedia_zh: "宋明帝"

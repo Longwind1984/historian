@@ -1,0 +1,16 @@
+id: k_chu_xiang
+type: Polity
+name: 西楚
+name_en: Xi Chu
+color: '#8e44ad'
+founded:
+  year: -206
+  month: 2
+ended:
+  year: -202
+capital: pl_pengcheng_han
+description: 项羽所建,仅四年。BC202 垓下之战为汉所灭。
+sources:
+- 史记·项羽本纪
+founder: p_xiang_yu
+ended_by: k_xihan

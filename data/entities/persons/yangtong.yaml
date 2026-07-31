@@ -1,0 +1,16 @@
+id: p_yangtong
+type: Person
+name: 杨侗
+alias:
+- 皇泰主
+born:
+  year: 605
+died:
+  year: 619
+gender: male
+birthplace: pl_luoyang_sui
+bio: 隋皇泰主。炀帝孙。618 年洛阳群臣立之为帝,改元皇泰。619 年为王世充所废杀。
+sources:
+- 隋书·皇泰主传
+wikidata_id: "Q7422"
+wikipedia_zh: "杨侗"

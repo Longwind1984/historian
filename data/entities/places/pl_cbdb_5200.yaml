@@ -1,0 +1,12 @@
+id: pl_cbdb_5200
+type: Place
+name: 朝邑
+modern_name: 朝邑
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.789036
+longitude: 110.122513
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

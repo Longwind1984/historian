@@ -1,0 +1,12 @@
+id: pl_cbdb_14715
+type: Place
+name: 溫縣
+modern_name: 溫縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.938118
+longitude: 113.075463
+first_year: 657
+last_year: 842
+description: CBDB 行政类型:Xian

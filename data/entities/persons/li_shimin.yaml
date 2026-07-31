@@ -1,0 +1,32 @@
+id: p_li_shimin
+type: Person
+name: 李世民
+alias:
+- 唐太宗
+- 太宗
+born:
+  year: 598
+died:
+  year: 649
+reign_start:
+  year: 626
+reign_end:
+  year: 649
+gender: male
+roles:
+- emperor
+importance: 1
+bio: 高祖次子。晋阳起兵首谋，破薛举、刘武周、王世充、窦建德，功盖诸王。626年玄武门之变杀太子建成、齐王元吉，旋即位。任魏征、房玄龄、杜如晦，纳谏轻赋、修《氏族志》、置安西都护府，破东突厥被尊'天可汗'，史称'贞观之治'。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐太宗
+  regime: 唐
+wikidata_id: "Q9701"
+wikipedia_zh: "唐太宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/TangTaizong.jpg/500px-TangTaizong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:TangTaizong.jpg"

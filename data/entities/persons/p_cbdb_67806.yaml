@@ -1,0 +1,14 @@
+id: p_cbdb_67806
+type: Person
+name: 張昇
+born:
+  year: 1379
+died:
+  year: 1441
+gender: male
+birthplace: pl_cbdb_5050
+dynasty_ref: k_ming
+bio: CBDB ID 67806
+name_en: Zhang Sheng
+sources:
+- CBDB (China Biographical Database)

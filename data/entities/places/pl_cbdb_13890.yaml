@@ -1,0 +1,12 @@
+id: pl_cbdb_13890
+type: Place
+name: 建陽
+modern_name: 建陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.33988
+longitude: 118.10537
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,16 @@
+id: e_zhuwen_tang
+type: Event
+name: 朱温代唐
+date:
+  year: 907
+  month: 4
+category: succession
+importance: 1
+location: pl_kaifeng
+polities_involved:
+- k_houliang
+description: 907 年朱温逼唐哀帝禅让,建国号梁。唐亡。中国进入五代十国时期。
+impact: 五代十国之始,标志唐朝正式结束。
+sources:
+- 旧五代史·梁太祖纪
+- 资治通鉴·卷266

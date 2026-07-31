@@ -1,0 +1,14 @@
+id: e_diyike_yuanzidan
+type: Event
+name: 第一颗原子弹爆炸
+date:
+  year: 1964
+category: science
+importance: 2
+polities_involved:
+- k_prc
+description: 1964年10月16日，中国在新疆罗布泊成功爆炸第一颗原子弹。
+impact: 中国成为第五个拥有核武器的国家。
+sources:
+- 中华人民共和国史
+- 当代中国史

@@ -1,0 +1,19 @@
+id: e_qishan_beifa
+type: Event
+name: 诸葛亮北伐
+date:
+  year: 227
+  month: 3
+category: war
+importance: 2
+location: pl_qishan
+polities_involved:
+- k_shuhan
+- k_caowei
+description: 227-234 年诸葛亮五次北伐曹魏。228 街亭之败(马谡)。234 五丈原,病逝。'鞠躬尽瘁,死而后已'。
+impact: 蜀汉后期国策。耗损蜀国国力,但延缓曹魏灭蜀。
+sources:
+- 三国志·蜀书·诸葛亮传
+end_date:
+  year: 234
+  month: 8

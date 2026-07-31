@@ -1,0 +1,11 @@
+id: pl_jiangnan
+type: Place
+name: 江南
+modern_name: 长江下游以南地区
+province: 江苏/浙江/江西/安徽
+latitude: 30.5
+longitude: 119.5
+category: region
+description: 长江下游以南。宋室南渡后为经济文化重心,理学诸派(闽学、江西心学、浙东)皆兴于此。
+sources:
+- 宋史·地理志

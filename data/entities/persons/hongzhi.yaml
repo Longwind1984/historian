@@ -1,0 +1,33 @@
+id: p_hongzhi
+type: Person
+name: 朱祐樘
+alias:
+- 明孝宗
+- 弘治帝
+born:
+  year: 1470
+died:
+  year: 1505
+gender: male
+birthplace: pl_beiping_zhudi
+bio: 宪宗子。勤政纳谏、驱逐奸佞、更定《问刑条例》,史称'弘治中兴'。一生仅一后无妃。
+sources:
+- 明史·孝宗本纪
+- 明史
+- 明实录
+reign_start:
+  year: 1487
+reign_end:
+  year: 1505
+roles:
+- emperor
+ext:
+  title: 弘治帝
+  regime: 明
+importance: 2
+wikidata_id: "Q9994"
+wikipedia_zh: "明孝宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/92/%E6%98%8E%E5%AD%9D%E5%AE%97.jpg"
+image_license: "Public domain"
+image_credit: "Palace Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E5%AD%9D%E5%AE%97.jpg"

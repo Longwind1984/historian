@@ -1,0 +1,12 @@
+id: pl_cbdb_15691
+type: Place
+name: 揚州
+modern_name: 揚州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.39127
+longitude: 119.437187
+first_year: 626
+last_year: 959
+description: CBDB 行政类型:Zhou

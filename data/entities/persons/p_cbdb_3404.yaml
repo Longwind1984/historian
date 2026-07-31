@@ -1,0 +1,14 @@
+id: p_cbdb_3404
+type: Person
+name: 胡瑗
+born:
+  year: 993
+died:
+  year: 1059
+gender: male
+birthplace: pl_cbdb_12509
+dynasty_ref: k_beisong
+bio: CBDB ID 3404
+name_en: Hu Yuan
+sources:
+- CBDB (China Biographical Database)

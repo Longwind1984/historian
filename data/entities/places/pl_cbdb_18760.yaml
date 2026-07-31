@@ -1,0 +1,12 @@
+id: pl_cbdb_18760
+type: Place
+name: 瀏陽州
+modern_name: 瀏陽州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.149572372
+longitude: 113.62143707
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Zhou

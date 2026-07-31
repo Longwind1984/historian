@@ -1,0 +1,21 @@
+id: p_wang_dao
+type: Person
+name: 王导
+alias:
+- 王茂弘
+courtesy_name: 茂弘
+born:
+  year: 276
+died:
+  year: 339
+gender: male
+birthplace: pl_linyi_wangdao
+bio: 东晋开国元勋。琅琊临沂人。317 与从兄王敦辅司马睿建东晋。'王与马,共天下'。
+sources:
+- 晋书·王导传
+wikidata_id: "Q3274914"
+wikipedia_zh: "王導"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/NAJDA-290-0047_%E5%8F%A4%E8%81%96%E8%B3%A2%E5%83%8F%E4%BC%9D%E7%95%A55_%28%E7%8E%8B%E5%B0%8E%29.jpg/500px-NAJDA-290-0047_%E5%8F%A4%E8%81%96%E8%B3%A2%E5%83%8F%E4%BC%9D%E7%95%A55_%28%E7%8E%8B%E5%B0%8E%29.jpg"
+image_license: "Public domain"
+image_credit: "著者:顧沅（清）"
+image_source_page: "https://commons.wikimedia.org/wiki/File:NAJDA-290-0047_%E5%8F%A4%E8%81%96%E8%B3%A2%E5%83%8F%E4%BC%9D%E7%95%A55_(%E7%8E%8B%E5%B0%8E).jpg"

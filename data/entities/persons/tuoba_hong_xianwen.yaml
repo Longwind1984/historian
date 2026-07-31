@@ -1,0 +1,28 @@
+id: p_tuoba_hong_xianwen
+type: Person
+name: 拓跋弘
+alias:
+- 北魏献文帝
+born:
+  year: 454
+died:
+  year: 476
+reign_start:
+  year: 465
+reign_end:
+  year: 471
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_beiwei
+bio: 文成帝子。471年禅位于五岁之子(孝文帝),自为太上皇仍秉政。476年暴崩,史疑为冯太后所鸩。
+ext:
+  title: 北魏献文帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1071582"
+wikipedia_zh: "魏献文帝"

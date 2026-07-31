@@ -1,0 +1,25 @@
+id: p_li_yuanhong
+type: Person
+name: 黎元洪
+alias:
+- 黎宋卿
+courtesy_name: 宋卿
+born:
+  year: 1864
+died:
+  year: 1928
+gender: male
+roles:
+- general
+- civil_official
+importance: 2
+bio: 湖北黄陂人，近代政治人物。北洋水师学堂毕业，曾参加甲午海战。后任湖北新军第二十一混成协统领。1911 年武昌起义后被起义军推举为湖北军政府都督。民国后于 1916 年袁世凯死后继任大总统，1917 年因与段祺瑞"府院之争"及张勋复辟去职。1922 年直奉战争后复任大总统，次年又被驱走。1928 年病逝于天津。
+sources:
+- 中华民国史·黎元洪传
+- 贺觉非·辛亥武昌首义人物传
+wikidata_id: "Q716136"
+wikipedia_zh: "黎元洪"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/31/RetartoDeLiYuanhongLibroDePutnamWeale_%289to12%29.jpg"
+image_license: "Public domain"
+image_credit: "Putnam Weale, B. L. (Bertram Lenox), 1877-1930"
+image_source_page: "https://commons.wikimedia.org/wiki/File:RetartoDeLiYuanhongLibroDePutnamWeale_(9to12).jpg"

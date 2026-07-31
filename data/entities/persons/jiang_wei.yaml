@@ -1,0 +1,21 @@
+id: p_jiang_wei
+type: Person
+name: 姜维
+alias:
+- 姜伯约
+courtesy_name: 伯约
+born:
+  year: 202
+died:
+  year: 264
+gender: male
+birthplace: pl_jixian_jiangwei
+bio: 蜀汉后期大将。天水冀县人。诸葛亮传人。247-262 九伐中原。263 蜀亡,降钟会后图谋反叛复国,失败被杀。
+sources:
+- 三国志·蜀书·姜维传
+wikidata_id: "Q280866"
+wikipedia_zh: "姜维"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/JiangWei.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:JiangWei.jpg"

@@ -1,0 +1,24 @@
+id: k_houjin
+type: Polity
+name: 后晋
+name_en: Later Jin (Five Dynasties)
+color: '#8e44ad'
+founded:
+  year: 936
+ended:
+  year: 947
+  month: 1
+capital: pl_kaifeng
+description: 五代后晋。936 石敬瑭借契丹兵灭后唐所建,都汴梁,割燕云十六州予契丹(自称儿皇帝)。947 为契丹所灭。
+sources:
+- 旧五代史·晋书
+- 新五代史·晋本纪
+founder: p_shijingtan
+ended_by: k_liao
+territory:
+- valid_from:
+    year: 936
+  valid_to:
+    year: 947
+  geojson_file: chgis_wudai.geojson
+  note: CHGIS V5 府级多边形(整个五代时期)

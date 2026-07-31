@@ -1,0 +1,29 @@
+id: p_zhou_xuan_wang
+type: Person
+name: 周宣王
+alias:
+- 宣王
+- 姬静
+- 姬靖
+gender: male
+roles:
+- emperor
+importance: 2
+reign_start:
+  year: -827
+reign_end:
+  year: -782
+bio: 厉王之子，姬姓，名静(一作靖)。共和行政后即位，任召穆公、尹吉甫等，中兴周室，败玁狁、征淮夷徐戎，史称"宣王中兴"。晚年废籍田礼("不籍千亩")，千亩之战败于姜氏之戎，又丧南国之师，料民于太原，国势复衰。在位年据《史记·十二诸侯年表》，属精确纪年。
+sources:
+- 史记·周本纪
+- 史记·十二诸侯年表
+- 诗经·小雅
+ext:
+  title: 周宣王
+  regime: 西周
+wikidata_id: "Q55247"
+wikipedia_zh: "周宣王"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4a/King_Xuan_of_Zhou.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:King_Xuan_of_Zhou.jpg"

@@ -1,0 +1,37 @@
+id: p_liu_bei
+type: Person
+name: 刘备
+alias:
+- 刘玄德
+- 刘先主
+- 汉昭烈帝
+courtesy_name: 玄德
+born:
+  year: 161
+died:
+  year: 223
+  month: 4
+reign_start:
+  year: 221
+reign_end:
+  year: 223
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_youzhou_sanguo
+bio: 蜀汉建立者。涿郡涿县人。汉中山靖王之后(自称)。早年颠沛。207 三顾茅庐,得诸葛亮。208 赤壁之战后据荆州。214 取益州。219 取汉中,自立汉中王。221
+  称帝,国号汉(蜀),都成都。222 夷陵之战大败于陆逊。223 病卒于白帝城,托孤诸葛亮。
+ext:
+  significance: 三国时代最传奇的开国者。
+  title: 刘备
+  regime: 蜀汉
+sources:
+- 三国志·蜀书·先主传
+- 资治通鉴·卷60-70
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Liu_Bei_Tang.jpg/500px-Liu_Bei_Tang.jpg"
+wikidata_id: "Q245315"
+wikipedia_zh: "刘备"
+image_license: "Public domain"
+image_credit: "Yan Liben (閻立本)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Bei_Tang.jpg"

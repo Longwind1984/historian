@@ -1,0 +1,15 @@
+id: f_taiping
+type: Faction
+name: 太平天国
+nature: military_clan
+founded:
+  year: 1851
+dissolved:
+  year: 1864
+core_region: pl_tianjing_taiping
+description: 1851 金田起义,建号太平天国。洪秀全为天王,杨秀清(东王)、萧朝贵(西王)、冯云山(南王)、韦昌辉(北王)、石达开(翼王)并立。1856 天京事变内讧。1864 湘军破南京。
+significance: 中国历史上规模最大的农民战争。
+peak_period: 1851-1864
+sources:
+- 明史
+- 清史稿

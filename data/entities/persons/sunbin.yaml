@@ -1,0 +1,32 @@
+id: p_sunbin
+type: Person
+name: 孙膑
+gender: male
+born:
+  year: -382
+died:
+  year: -316
+roles:
+- general
+- scholar
+importance: 2
+bio: 孙膑，相传为孙武后裔，齐国人。早年与庞涓俱学兵法，涓为魏将，忌膑之才，召之至魏，处以膑刑(去膝盖骨)并黥面，故世称孙膑。齐使阴载之归齐，田忌荐于齐威王，以为军师。前353年桂陵之战献"围魏救赵"之计，大败魏军；前341年马陵之战用"减灶"诱敌，杀庞涓，虏魏太子申。后不知所终。生卒无载，战国中期人。《孙膑兵法》旧题孙膑撰，久佚，1972年山东临沂银雀山汉墓出土竹简残本，学界考为孙膑及其后学所辑，非尽出其手。
+life_events:
+- year: -353
+  event: 桂陵之战，献围魏救赵之计
+  source: 史记·孙子吴起列传
+- year: -341
+  event: 马陵之战，减灶诱杀庞涓
+  source: 史记·孙子吴起列传
+sources:
+- 史记·孙子吴起列传
+- 战国策·齐策
+ext:
+  note: 生卒均约数;《史记》只记桂陵(前353)、马陵(前341)二役
+  disputed: true
+wikidata_id: "Q334090"
+wikipedia_zh: "孙膑"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sun_Bin.jpg/500px-Sun_Bin.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sun_Bin.jpg"

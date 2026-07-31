@@ -1,0 +1,15 @@
+id: pl_qinghua
+type: Place
+name: 青化/瓦岗
+modern_name: 滑县
+province: 河南
+latitude: 35.58
+longitude: 114.52
+category: battlefield
+description: 瓦岗寨起义地
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代
+aliases:
+- 瓦岗

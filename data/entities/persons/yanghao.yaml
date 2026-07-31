@@ -1,0 +1,16 @@
+id: p_yanghao
+name: 杨镐
+died:
+  year: 1629
+gender: male
+roles:
+- civil_official
+- general
+importance: 3
+bio: 明辽东经略。1619 萨尔浒之战以四路分兵进剿后金,努尔哈赤「凭尔几路来,我只一路去」各个击破,明军三路覆没。下狱十年,1629 伏诛。
+sources:
+- 明史·杨镐传
+- 明神宗实录
+type: Person
+wikidata_id: "Q1131612"
+wikipedia_zh: "楊鎬"

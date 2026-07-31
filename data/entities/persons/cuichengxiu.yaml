@@ -1,0 +1,15 @@
+id: p_cuichengxiu
+type: Person
+name: 崔呈秀
+gender: male
+died:
+  year: 1627
+  month: 11
+roles:
+- civil_official
+importance: 3
+bio: 阉党「五虎」之首,魏忠贤谋主。因贪贿被劾,投魏忠贤为养子得免,遂力劝魏兴大狱杀东林诸人。1627 崇祯即位,魏忠贤失势,呈秀自缢,戮尸。
+sources:
+- 明史·崔呈秀传
+wikidata_id: "Q11053449"
+wikipedia_zh: "崔呈秀"

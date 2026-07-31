@@ -1,0 +1,34 @@
+id: p_tuoba_hong
+type: Person
+name: 拓跋宏
+alias:
+- 元宏
+- 魏孝文帝
+born:
+  year: 467
+died:
+  year: 499
+  month: 4
+reign_start:
+  year: 471
+reign_end:
+  year: 499
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_pingcheng
+bio: 北魏孝文帝。471-499 在位。493-494 自平城迁都洛阳,改姓元,推行汉化:穿汉服、说汉语、与汉人通婚、用汉制。499 病卒于南征途中。
+ext:
+  significance: 中国民族融合史上的关键人物。
+  title: 北魏孝文帝
+  regime: 北魏
+sources:
+- 魏书·高祖纪
+- 资治通鉴·卷138-142
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Emperor_Xiaowen_of_Northern_Wei.jpg"
+wikidata_id: "Q1327614"
+wikipedia_zh: "魏孝文帝"
+image_license: "Public domain"
+image_credit: "Original uploader was Jason22 at zh.wikipedia"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Emperor_Xiaowen_of_Northern_Wei.jpg"

@@ -1,0 +1,32 @@
+id: p_wangyan
+type: Person
+name: 王衍
+alias:
+- 前蜀后主
+- 王宗衍
+born:
+  year: 899
+died:
+  year: 926
+  month: 4
+gender: male
+birthplace: pl_chengdu
+bio: 前蜀后主。王建第十一子。919 年即位,荒淫无道。925 年后唐大军伐蜀,投降。926 年被杀于长安。
+sources:
+- 新五代史·前蜀世家
+- 十国春秋·前蜀
+- 十国春秋
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 918
+reign_end:
+  year: 925
+importance: 3
+roles:
+- emperor
+ext:
+  title: 王衍
+  regime: 前蜀
+wikidata_id: "Q15886837"
+wikipedia_zh: "王衍 (西晋)"

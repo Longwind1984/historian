@@ -1,0 +1,13 @@
+id: pl_huangmei
+type: Place
+name: 黄梅
+modern_name: 黄梅
+province: 湖北
+latitude: 30.09
+longitude: 115.93
+category: battlefield
+description: 878 王仙芝战死
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

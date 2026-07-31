@@ -1,0 +1,25 @@
+id: p_rinchinbal
+type: Person
+name: 懿璘质班
+alias:
+- 元宁宗
+born:
+  year: 1326
+died:
+  year: 1332
+reign_start:
+  year: 1332
+reign_end:
+  year: 1332
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_yuan
+bio: 明宗子,七岁即位,在位五十三日而崩。
+ext:
+  title: 元宁宗
+  regime: 元
+sources:
+- 元史
+- 新元史

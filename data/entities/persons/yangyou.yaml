@@ -1,0 +1,28 @@
+id: p_yangyou
+type: Person
+name: 杨侑
+alias:
+- 隋恭帝
+born:
+  year: 605
+died:
+  year: 619
+gender: male
+birthplace: pl_daxing
+bio: 隋恭帝。炀帝孙,元德太子之子。617 年李渊入长安立之为帝,改元义宁,遥尊炀帝为太上皇。618 年禅让李渊,隋亡。619 年卒。
+sources:
+- 隋书·恭帝纪
+- 隋书
+- 资治通鉴
+reign_start:
+  year: 617
+reign_end:
+  year: 618
+roles:
+- emperor
+ext:
+  title: 隋恭帝
+  regime: 隋
+importance: 3
+wikidata_id: "Q7420"
+wikipedia_zh: "隋恭帝"

@@ -1,0 +1,14 @@
+id: e_hufu_qishe
+type: Event
+name: 胡服骑射
+date:
+  year: -307
+category: reform
+polities_involved:
+- k_zhao_state
+importance: 2
+description: 前307年赵武灵王力排群臣异议，改革服制与军制：改中原宽袍博带为胡人短衣束袖(胡服)，废传统车战、习骑射，募建骑兵。赵军机动大增，连年北伐，破林胡、楼烦，置云中、雁门、代郡，拓地千里。
+impact: 赵军力骤强，跃为战国后期唯一能与秦抗衡之强国；然武灵王后因废长立幼致沙丘之乱(前295)困死沙丘，赵势盛而未久。
+sources:
+- 史记·赵世家
+- 战国策·赵策

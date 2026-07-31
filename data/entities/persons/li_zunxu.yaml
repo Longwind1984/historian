@@ -1,0 +1,27 @@
+id: p_li_zunxu
+type: Person
+name: 李遵顼
+alias:
+- 西夏神宗
+born:
+  year: 1163
+died:
+  year: 1226
+reign_start:
+  year: 1211
+reign_end:
+  year: 1223
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 废襄宗自立。西夏唯一状元出身之帝。附蒙攻金不已,民疲国竭。1223年传位自称太上皇。
+ext:
+  title: 西夏神宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q7457"
+wikipedia_zh: "夏神宗"

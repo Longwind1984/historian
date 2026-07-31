@@ -1,0 +1,29 @@
+id: p_yelulongxu
+type: Person
+name: 耶律隆绪
+alias:
+- 辽圣宗
+born:
+  year: 972
+died:
+  year: 1031
+  month: 6
+gender: male
+birthplace: pl_beijing_xiao
+bio: 辽圣宗。在位 49 年(辽最长)。萧太后临朝及亲政后推行汉化改革。1004 澶州之战,1005 澶渊之盟。辽全盛期。
+sources:
+- 辽史·圣宗本纪
+- 辽史
+- 资治通鉴
+reign_start:
+  year: 982
+reign_end:
+  year: 1031
+importance: 2
+roles:
+- emperor
+ext:
+  title: 辽圣宗
+  regime: 辽
+wikidata_id: "Q5000"
+wikipedia_zh: "辽圣宗"

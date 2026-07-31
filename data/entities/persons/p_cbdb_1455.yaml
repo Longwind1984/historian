@@ -1,0 +1,14 @@
+id: p_cbdb_1455
+type: Person
+name: 沈邈
+born:
+  year: 1002
+died:
+  year: 1047
+gender: male
+birthplace: pl_cbdb_12887
+dynasty_ref: k_beisong
+bio: CBDB ID 1455
+name_en: Shen Miao
+sources:
+- CBDB (China Biographical Database)

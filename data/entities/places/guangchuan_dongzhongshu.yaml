@@ -1,0 +1,14 @@
+id: pl_guangchuan_dongzhongshu
+type: Place
+name: 广川
+modern_name: 景县
+province: 河北
+latitude: 37.69
+longitude: 116.27
+category: city
+description: 董仲舒籍贯
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

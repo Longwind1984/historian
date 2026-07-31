@@ -1,0 +1,12 @@
+id: pl_cbdb_6066
+type: Place
+name: 南海
+modern_name: 南海
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 23.134624
+longitude: 113.256066
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

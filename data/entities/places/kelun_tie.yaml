@@ -1,0 +1,15 @@
+id: pl_kelun_tie
+type: Place
+name: 斡难河
+modern_name: 鄂嫩河
+province: 蒙古
+latitude: 49.4
+longitude: 109.3
+category: city
+description: 成吉思汗发源地
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

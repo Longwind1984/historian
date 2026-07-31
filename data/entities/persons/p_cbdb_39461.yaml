@@ -1,0 +1,14 @@
+id: p_cbdb_39461
+type: Person
+name: 王昇
+born:
+  year: 1054
+died:
+  year: 1132
+gender: male
+birthplace: pl_cbdb_101093
+dynasty_ref: k_beisong
+bio: CBDB ID 39461
+name_en: Wang Sheng
+sources:
+- CBDB (China Biographical Database)

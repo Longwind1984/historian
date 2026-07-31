@@ -1,0 +1,14 @@
+id: p_cbdb_27005
+type: Person
+name: 張牧
+born:
+  year: 937
+died:
+  year: 1004
+gender: male
+birthplace: pl_cbdb_11574
+dynasty_ref: k_beisong
+bio: CBDB ID 27005
+name_en: Zhang Mu (4)
+sources:
+- CBDB (China Biographical Database)

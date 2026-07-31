@@ -1,0 +1,14 @@
+id: pl_kunyang
+type: Place
+name: 昆阳
+modern_name: 叶县
+province: 河南
+latitude: 33.62
+longitude: 113.36
+category: battlefield
+description: 23 昆阳之战
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

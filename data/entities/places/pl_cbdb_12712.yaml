@@ -1,0 +1,12 @@
+id: pl_cbdb_12712
+type: Place
+name: 崇德
+modern_name: 崇德
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.530447
+longitude: 120.418739
+first_year: 960
+last_year: 1275
+description: CBDB 行政类型:Xian

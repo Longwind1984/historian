@@ -1,0 +1,12 @@
+id: pl_cbdb_11268
+type: Place
+name: 單父
+modern_name: 單父
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.797901
+longitude: 116.079254
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

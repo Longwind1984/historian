@@ -1,0 +1,13 @@
+id: pl_liaodong_shiji
+type: Place
+name: 辽东
+modern_name: 辽阳
+province: 辽宁
+latitude: 41.27
+longitude: 123.18
+category: city
+description: 李世勣籍贯(祖籍)
+sources:
+- 旧唐书
+- 隋书
+- 中国历史地图集

@@ -1,0 +1,12 @@
+id: pl_cbdb_100216
+type: Place
+name: 新會
+modern_name: 新會
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 22.526581
+longitude: 113.038399
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

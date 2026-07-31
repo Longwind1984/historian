@@ -1,0 +1,12 @@
+id: pl_cbdb_4416
+type: Place
+name: 安肅
+modern_name: 安肅
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.019436
+longitude: 115.657387
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

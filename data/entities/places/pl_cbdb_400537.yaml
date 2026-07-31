@@ -1,0 +1,12 @@
+id: pl_cbdb_400537
+type: Place
+name: 北市
+modern_name: 北市
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.66528
+longitude: 112.3826
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:market

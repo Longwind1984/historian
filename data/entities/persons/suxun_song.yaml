@@ -1,0 +1,20 @@
+id: p_suxun_song
+type: Person
+name: 苏洵
+courtesy_name: 明允
+born:
+  year: 1009
+died:
+  year: 1066
+  month: 5
+gender: male
+birthplace: pl_meishan_song
+bio: 苏轼、苏辙之父,唐宋八大家之一。27 岁发愤读书。著《权书》《衡论》。
+sources:
+- 宋史·苏洵传
+wikidata_id: "Q947039"
+wikipedia_zh: "苏洵"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/%E5%AE%8B%E5%A4%AA%E5%B8%B8%E7%BC%96%E6%A0%A1%E8%8B%8F%E6%B4%B5.jpg/500px-%E5%AE%8B%E5%A4%AA%E5%B8%B8%E7%BC%96%E6%A0%A1%E8%8B%8F%E6%B4%B5.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%A4%AA%E5%B8%B8%E7%BC%96%E6%A0%A1%E8%8B%8F%E6%B4%B5.jpg"

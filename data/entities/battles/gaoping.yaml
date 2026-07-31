@@ -1,0 +1,25 @@
+id: b_gaoping
+type: Battle
+name: 高平之战
+date:
+  year: 954
+  month: 3
+importance: 3
+location: pl_gaoping
+combatants:
+- k_houzhou
+- k_beihan
+commanders:
+- p_chairong
+- p_liuchong
+victor: k_houzhou
+victor_commander: p_chairong
+description: 后周世宗柴荣即位之初,北汉刘崇联合契丹南下。柴荣亲征,在高平大败北汉。柴荣临阵督战,樊爱能、何徽临阵脱逃被斩。
+significance: 巩固后周世宗地位,提振后周军威。世宗改革军制、整顿禁军的起点。
+sources:
+- 资治通鉴·卷291
+- 旧五代史·周世宗纪
+end_date:
+  year: 954
+  month: 5
+category: battle

@@ -1,0 +1,493 @@
+- from: p_yanghangmi
+  to: p_yangwo
+  type: father_of
+  since:
+    year: 880
+  until:
+    year: 908
+    month: 6
+  note: 长子
+- from: p_yanghangmi
+  to: p_yanglongyan
+  type: father_of
+  since:
+    year: 897
+  note: 次子
+- from: p_yanghangmi
+  to: p_yangpu
+  type: father_of
+  since:
+    year: 900
+  note: 第四子
+- from: p_yangwo
+  to: k_yangwu
+  type: succeeded_by
+  since:
+    year: 905
+    month: 11
+  until:
+    year: 908
+    month: 6
+  note: 弘农郡王
+- from: p_yanglongyan
+  to: k_yangwu
+  type: succeeded_by
+  since:
+    year: 908
+    month: 6
+  until:
+    year: 920
+    month: 6
+  note: 吴王
+- from: p_yangpu
+  to: k_yangwu
+  type: succeeded_by
+  since:
+    year: 920
+    month: 6
+  until:
+    year: 937
+    month: 10
+  note: 睿帝(927 称帝)
+- from: p_li_bian
+  to: p_yangpu
+  type: usurped
+  since:
+    year: 937
+    month: 10
+  note: 受禅
+- from: p_wangshenzhi
+  to: p_wangyanhan
+  type: father_of
+  note: 长子
+- from: p_wangshenzhi
+  to: p_wangyanjun
+  type: father_of
+  note: 次子
+- from: p_wangshenzhi
+  to: p_wangyanxi
+  type: father_of
+- from: p_wangshenzhi
+  to: p_wangyanzheng
+  type: father_of
+- from: p_wangyanhan
+  to: k_min
+  type: succeeded_by
+  since:
+    year: 925
+    month: 12
+  until:
+    year: 927
+    month: 1
+  note: 嗣王
+- from: p_wangyanjun
+  to: p_wangyanhan
+  type: killed
+  since:
+    year: 927
+    month: 1
+  note: 与王延禀联手
+- from: p_wangyanxi
+  to: k_min
+  type: succeeded_by
+  since:
+    year: 939
+  until:
+    year: 944
+    month: 3
+  note: 景宗
+- from: p_wangyanzheng
+  to: k_min
+  type: succeeded_by
+  since:
+    year: 943
+  until:
+    year: 945
+    month: 8
+  note: 殷帝→闽帝
+- from: p_mayin
+  to: p_maxisheng
+  type: father_of
+  since:
+    year: 898
+- from: p_mayin
+  to: p_maxifan
+  type: father_of
+  since:
+    year: 899
+- from: p_mayin
+  to: p_maxiguang
+  type: father_of
+- from: p_mayin
+  to: p_maxie
+  type: father_of
+- from: p_maxisheng
+  to: k_chu
+  type: succeeded_by
+  since:
+    year: 930
+  until:
+    year: 932
+    month: 8
+  note: 衡阳王
+- from: p_maxifan
+  to: k_chu
+  type: succeeded_by
+  since:
+    year: 932
+    month: 8
+  until:
+    year: 947
+    month: 5
+  note: 文昭王
+- from: p_maxiguang
+  to: k_chu
+  type: succeeded_by
+  since:
+    year: 947
+    month: 5
+  until:
+    year: 950
+    month: 12
+  note: 废王
+- from: p_maxie
+  to: k_chu
+  type: succeeded_by
+  since:
+    year: 950
+    month: 12
+  until:
+    year: 951
+    month: 11
+  note: 恭孝王
+- from: p_maxie
+  to: p_maxiguang
+  type: killed
+  since:
+    year: 950
+    month: 12
+  note: 起兵杀兄
+- from: p_liuyan
+  to: p_liubin
+  type: father_of
+  since:
+    year: 920
+- from: p_liuyan
+  to: p_liusheng
+  type: father_of
+  since:
+    year: 920
+- from: p_liubin
+  to: k_nanhan
+  type: succeeded_by
+  since:
+    year: 942
+    month: 5
+  until:
+    year: 943
+    month: 4
+  note: 殇帝
+- from: p_liusheng
+  to: k_nanhan
+  type: succeeded_by
+  since:
+    year: 943
+    month: 4
+  until:
+    year: 958
+    month: 8
+  note: 中宗
+- from: p_liusheng
+  to: p_liubin
+  type: killed
+  since:
+    year: 943
+    month: 4
+  note: 杀兄篡位
+- from: p_liusheng
+  to: p_liuchang
+  type: father_of
+  since:
+    year: 942
+- from: p_gaojixing
+  to: p_gaoconghui
+  type: father_of
+  since:
+    year: 891
+- from: p_gaoconghui
+  to: p_gaobaorong
+  type: father_of
+  since:
+    year: 920
+  note: 第三子
+- from: p_gaoconghui
+  to: p_gaobaoxy
+  type: father_of
+  since:
+    year: 924
+- from: p_gaoconghui
+  to: k_jingnan
+  type: succeeded_by
+  since:
+    year: 929
+    month: 5
+  until:
+    year: 948
+    month: 11
+  note: 文献王
+- from: p_gaobaorong
+  to: k_jingnan
+  type: succeeded_by
+  since:
+    year: 948
+    month: 11
+  until:
+    year: 960
+    month: 8
+  note: 贞懿王
+- from: p_gaobaoxy
+  to: k_jingnan
+  type: succeeded_by
+  since:
+    year: 960
+    month: 8
+  until:
+    year: 962
+    month: 11
+  note: 贞安王
+- from: p_gaojichong
+  to: k_jingnan
+  type: succeeded_by
+  since:
+    year: 962
+    month: 11
+  until:
+    year: 963
+    month: 3
+  note: 末代
+- from: p_gaojichong
+  to: b_song_jingnan
+  type: participated_in
+  since:
+    year: 963
+    month: 1
+  until:
+    year: 963
+    month: 3
+  note: 降宋
+- from: p_liuchong
+  to: p_liuchengjun
+  type: father_of
+  since:
+    year: 926
+- from: p_liuchong
+  to: p_liujiyuan
+  type: grandfather_of
+  note: 经刘承钧养子,北汉末帝刘继元
+- from: p_liuchengjun
+  to: p_liujien
+  type: father_of
+  note: 养子
+- from: p_liuchengjun
+  to: p_liujiyuan
+  type: father_of
+  note: 养子
+- from: p_liuchengjun
+  to: k_beihan
+  type: succeeded_by
+  since:
+    year: 954
+    month: 11
+  until:
+    year: 968
+    month: 7
+  note: 睿宗
+- from: p_liujien
+  to: k_beihan
+  type: succeeded_by
+  since:
+    year: 968
+    month: 7
+  until:
+    year: 968
+    month: 9
+  note: 在位60余日
+- from: p_liujiyuan
+  to: k_beihan
+  type: succeeded_by
+  since:
+    year: 968
+    month: 9
+  until:
+    year: 979
+    month: 6
+  note: 英武帝
+- from: p_qianyuanguan
+  to: p_qianhongzong
+  type: father_of
+  since:
+    year: 929
+    month: 8
+  note: 第七子
+- from: p_qianyuanguan
+  to: p_qianhongchu
+  type: father_of
+  since:
+    year: 929
+    month: 8
+  note: 第九子
+- from: p_qianhongzuo
+  to: k_wuyue
+  type: succeeded_by
+  since:
+    year: 941
+    month: 9
+  until:
+    year: 947
+    month: 6
+  note: 忠献王
+- from: p_qianhongzong
+  to: k_wuyue
+  type: succeeded_by
+  since:
+    year: 947
+    month: 6
+  until:
+    year: 947
+    month: 12
+  note: 忠逊王(被废)
+- from: p_qianhongzong
+  to: p_qianhongchu
+  type: sibling_of
+  note: 兄弟
+- from: p_yeluabaoji
+  to: b_youzhou917
+  type: led
+  since:
+    year: 917
+    month: 3
+  note: 亲征围幽州
+- from: p_likaiqu
+  to: b_youzhou917
+  type: led
+  since:
+    year: 917
+    month: 3
+  note: 晋方主师(实际李嗣源等驰援)
+- from: p_shizhonggui
+  to: b_yangcheng
+  type: led
+  since:
+    year: 945
+    month: 3
+  note: 晋方主师
+- from: p_yeludeguang
+  to: b_yangcheng
+  type: led
+  since:
+    year: 945
+    month: 3
+  note: 亲征
+- from: p_zhaokuangyin
+  to: b_liuhe
+  type: led
+  since:
+    year: 956
+    month: 2
+  note: 2000 兵破南唐
+- from: p_lijing
+  to: b_nantang_min
+  type: led
+  since:
+    year: 945
+    month: 8
+  note: 策动
+- from: p_lijing
+  to: b_nantang_chu
+  type: led
+  since:
+    year: 951
+    month: 10
+  note: 策动
+- from: p_wangyanxi
+  to: b_nantang_min
+  type: participated_in
+  since:
+    year: 945
+    month: 8
+  note: 出降
+- from: p_maxie
+  to: b_nantang_chu
+  type: participated_in
+  since:
+    year: 951
+    month: 10
+  note: 出降
+- from: p_huangchao
+  to: e_huangchao_qiyi
+  type: participated_in
+  since:
+    year: 875
+    month: 6
+  until:
+    year: 884
+    month: 6
+  note: 领袖
+- from: p_zhuwen
+  to: e_huangchao_qiyi
+  type: participated_in
+  since:
+    year: 877
+  until:
+    year: 882
+    month: 9
+  note: 黄巢部将
+- from: p_zhuwen
+  to: e_baima_yi
+  type: participated_in
+  since:
+    year: 905
+    month: 6
+  note: 执行者
+- from: p_an_lushan
+  to: e_an_lushan_rebellion
+  type: participated_in
+  since:
+    year: 755
+    month: 12
+  until:
+    year: 757
+    month: 1
+  note: 发动者
+- from: p_licunxu
+  to: e_lingren
+  type: participated_in
+  since:
+    year: 923
+  until:
+    year: 926
+    month: 5
+  note: 纵容者,后被杀
+- from: p_guocongqian
+  to: e_lingren
+  type: participated_in
+  since:
+    year: 926
+    month: 5
+  note: 发动者
+- from: e_baima_yi
+  to: e_zhuwen_tang
+  type: led_to
+  note: 白马驿之祸摧毁唐士族,为代唐扫清障碍
+- from: e_an_lushan_rebellion
+  to: e_huangchao_qiyi
+  type: led_to
+  note: 中晚唐藩镇之祸演化
+- from: e_an_lushan_rebellion
+  to: f_heshuo
+  type: includes
+  note: 安史之乱后形成河朔三镇
+- from: e_shumiyuan
+  to: e_zhou_reform
+  type: led_to
+  note: 枢密院在五代成型

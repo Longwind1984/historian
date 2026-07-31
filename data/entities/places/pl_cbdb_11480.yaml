@@ -1,0 +1,12 @@
+id: pl_cbdb_11480
+type: Place
+name: 濟源
+modern_name: 濟源
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.092437744
+longitude: 112.58267212
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

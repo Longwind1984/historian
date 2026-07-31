@@ -1,0 +1,21 @@
+id: p_xun_you
+type: Person
+name: 荀攸
+alias:
+- 荀公达
+courtesy_name: 公达
+born:
+  year: 157
+died:
+  year: 214
+gender: male
+birthplace: pl_yingchuan_xunyu
+bio: 曹操谋士。荀彧侄。
+sources:
+- 三国志·魏书·荀攸传
+wikidata_id: "Q1325053"
+wikipedia_zh: "荀攸"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%E8%8D%80%E6%94%B8_%28cropped%29.jpg/500px-%E8%8D%80%E6%94%B8_%28cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "[China] : Wei jing tang, [Qing Shunzhi jia shen, 1 nian, 1644]"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%8D%80%E6%94%B8_(cropped).jpg"

@@ -1,0 +1,24 @@
+id: p_wei_lihuang
+type: Person
+name: 卫立煌
+alias:
+- 卫俊如
+courtesy_name: 俊如
+born:
+  year: 1897
+died:
+  year: 1960
+gender: male
+roles:
+- general
+importance: 2
+bio: 安徽合肥人，抗日将领。早年投身行伍，追随孙中山。北伐、中原大战中为蒋嫡系将领。抗战时任第十四集团军总司令、第二战区副司令长官，参加忻口战役。1943 年任中国远征军司令长官，反攻缅北。1948 年任东北"剿总"总司令。1949 年赴香港，1955 年回到中国大陆。1960 年病逝于北京。
+sources:
+- 中国抗日战争史·卫立煌传
+- 中华民国史·人物传·卫立煌
+wikidata_id: "Q716429"
+wikipedia_zh: "卫立煌"
+image: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Wei_Lihuang.jpg"
+image_license: "Public domain"
+image_credit: "Unknown; scanned by 天竺鼠 ( talk ) 10:51, 18 August 2009 (UTC)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wei_Lihuang.jpg"

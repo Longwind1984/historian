@@ -1,0 +1,12 @@
+id: p_li_zongmin
+type: Person
+name: 李宗闵
+died:
+  year: 846
+gender: male
+birthplace: pl_chang_an
+bio: 中唐官员,牛党核心。821 年与牛僧孺科举讽政被贬。历穆、文、武朝起伏。与李德裕长期互相倾轧。
+sources:
+- 旧唐书·李宗闵传
+wikidata_id: "Q6539357"
+wikipedia_zh: "李宗閔"

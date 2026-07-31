@@ -1,0 +1,14 @@
+id: pl_changshan
+type: Place
+name: 常山
+modern_name: 正定
+province: 河北
+latitude: 38.15
+longitude: 114.57
+category: city
+description: 赵佗封地
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

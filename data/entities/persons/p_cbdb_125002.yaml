@@ -1,0 +1,14 @@
+id: p_cbdb_125002
+type: Person
+name: 吳兌
+born:
+  year: 1525
+died:
+  year: 1596
+gender: male
+birthplace: pl_cbdb_4808
+dynasty_ref: k_ming
+bio: CBDB ID 125002
+name_en: Wu Dui
+sources:
+- CBDB (China Biographical Database)

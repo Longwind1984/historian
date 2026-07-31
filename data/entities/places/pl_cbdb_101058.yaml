@@ -1,0 +1,12 @@
+id: pl_cbdb_101058
+type: Place
+name: 應天府
+modern_name: 應天府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.447662354
+longitude: 115.64607239
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Fu

@@ -1,0 +1,14 @@
+id: p_chenyouliang
+type: Person
+name: 陈友谅
+born:
+  year: 1320
+died:
+  year: 1363
+gender: male
+birthplace: pl_qishui_chen
+bio: 元末群雄。1360 杀徐寿辉称帝(汉)。1363 鄱阳湖之战中箭死。
+sources:
+- 明史·陈友谅传
+wikidata_id: "Q1336609"
+wikipedia_zh: "陈友谅"

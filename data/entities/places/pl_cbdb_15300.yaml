@@ -1,0 +1,12 @@
+id: pl_cbdb_15300
+type: Place
+name: 平原
+modern_name: 平原
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.156743
+longitude: 116.427864
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Xian

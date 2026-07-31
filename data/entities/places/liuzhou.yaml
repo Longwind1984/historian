@@ -1,0 +1,13 @@
+id: pl_liuzhou
+type: Place
+name: 柳州
+modern_name: 柳州
+province: 广西
+latitude: 24.33
+longitude: 109.43
+category: city
+description: 柳宗元贬所
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴

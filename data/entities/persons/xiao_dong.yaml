@@ -1,0 +1,26 @@
+id: p_xiao_dong
+type: Person
+name: 萧栋
+alias:
+- 豫章王
+died:
+  year: 552
+reign_start:
+  year: 551
+reign_end:
+  year: 552
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_liang
+bio: 昭明太子孙。侯景废简文帝立之,旋自代之。侯景败后被杀。
+ext:
+  title: 梁豫章王
+  regime: 梁
+sources:
+- 梁书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1059882"
+wikipedia_zh: "萧栋"

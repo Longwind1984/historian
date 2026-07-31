@@ -1,0 +1,16 @@
+id: p_lijixun
+type: Person
+name: 李继勋
+gender: male
+born:
+  year: 916
+died:
+  year: 977
+roles:
+- general
+importance: 3
+bio: 义社十兄弟中年最长者,后周时官位在赵匡胤之上。宋初为安国军节度使,伐北汉屡为前驱。
+sources:
+- 宋史·李继勋传
+wikidata_id: "Q11097777"
+wikipedia_zh: "李继勋 (宋朝)"

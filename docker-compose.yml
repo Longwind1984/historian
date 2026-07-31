@@ -1,0 +1,36 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: hkb-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATA_DIR=/app/data
+      - SCHEMA_DIR=/app/schema
+      - CORS_ORIGINS=http://localhost:8080,http://127.0.0.1:8080
+    volumes:
+      - ./data:/app/data:ro
+      - ./schema:/app/schema:ro
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/meta/stats', timeout=3).read()"
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: hkb-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy

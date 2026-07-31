@@ -1,0 +1,42 @@
+id: p_qi_huan_gong
+type: Person
+name: 姜小白
+alias:
+- 齐桓公
+- 小白
+- 桓公
+gender: male
+roles:
+- monarch
+importance: 1
+reign_start:
+  year: -685
+reign_end:
+  year: -643
+bio: 齐桓公，姜姓，名小白，齐襄公之弟。前685年自莒归国即位，用管仲为相，改革内政、作内政而寄军令，通渔盐之利，尊王攘夷。前651年葵丘会盟受周襄王赐胙，为春秋首霸。晚年管仲卒，信用易牙、竖刁，身死诸子争立，霸业骤衰。
+life_events:
+- year: -685
+  event: 自莒归即位，任管仲为相
+  source: 左传·庄公九年
+- year: -679
+  event: 诸侯盟于鄄，齐始霸
+  source: 史记·齐太公世家
+- year: -663
+  event: 伐山戎救燕
+  source: 左传·庄公三十一年
+- year: -651
+  event: 葵丘之会受周赐胙，霸业极盛
+  source: 左传·僖公九年
+- year: -643
+  event: 卒，诸子争立
+  source: 左传·僖公十七年
+sources:
+- 史记·齐太公世家
+- 左传·僖公
+- 国语·齐语
+wikidata_id: "Q470108"
+wikipedia_zh: "齐桓公"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/92/Qihuangongguanzhong.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qihuangongguanzhong.jpg"

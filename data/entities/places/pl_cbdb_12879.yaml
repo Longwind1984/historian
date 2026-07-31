@@ -1,0 +1,12 @@
+id: pl_cbdb_12879
+type: Place
+name: 浮梁
+modern_name: 浮梁
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.382742
+longitude: 117.236359
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

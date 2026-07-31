@@ -1,0 +1,12 @@
+id: pl_cbdb_8305
+type: Place
+name: 益陽
+modern_name: 益陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.597808838
+longitude: 112.335289
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

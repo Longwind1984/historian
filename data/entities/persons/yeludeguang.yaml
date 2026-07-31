@@ -1,0 +1,32 @@
+id: p_yeludeguang
+type: Person
+name: 耶律德光
+alias:
+- 辽太宗
+courtesy_name: 德谨
+born:
+  year: 902
+died:
+  year: 947
+  month: 5
+gender: male
+birthplace: pl_liaoshangjing
+bio: 契丹第二代君主。947 年南下灭后晋,改国号辽,于汴梁登基。不久北返,途中卒于栾城杀胡林。
+sources:
+- 辽史·太宗纪
+- 资治通鉴·卷286-287
+- 辽史
+- 资治通鉴
+reign_start:
+  year: 927
+reign_end:
+  year: 947
+importance: 2
+roles:
+- emperor
+ext:
+  title: 辽太宗
+  regime: 辽
+  note: 926年阿保机崩于扶余后,述律太后(断腕太后)称制近一年、诛异己并改立次子,927年十一月德光方即位,故926-927帝位空悬
+wikidata_id: "Q4991"
+wikipedia_zh: "辽太宗"

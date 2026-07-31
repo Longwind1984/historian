@@ -1,0 +1,28 @@
+id: p_yuan_ziyou
+type: Person
+name: 元子攸
+alias:
+- 北魏孝庄帝
+born:
+  year: 507
+died:
+  year: 531
+reign_start:
+  year: 528
+reign_end:
+  year: 530
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_beiwei
+bio: 尔朱荣所立。河阴之变后受制于尔朱荣,530年伏杀尔朱荣于明光殿,旋为尔朱兆所执缢杀。
+ext:
+  title: 北魏孝庄帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1074789"
+wikipedia_zh: "魏孝庄帝"

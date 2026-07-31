@@ -1,0 +1,19 @@
+id: p_liusheng
+type: Person
+name: 刘晟
+alias:
+- 刘弘熙
+- 南汉中宗
+born:
+  year: 920
+died:
+  year: 958
+  month: 8
+gender: male
+birthplace: pl_guangzhou
+bio: 南汉第三主。刘龑子。943 年杀兄刘玢自立。在位期间屡兴大狱,尽杀诸弟。958 年卒。
+sources:
+- 新五代史·南汉世家
+- 十国春秋·南汉
+wikidata_id: "Q6149021"
+wikipedia_zh: "劉晟 (南漢)"

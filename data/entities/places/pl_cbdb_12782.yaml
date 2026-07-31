@@ -1,0 +1,12 @@
+id: pl_cbdb_12782
+type: Place
+name: 瑞安
+modern_name: 瑞安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.790512
+longitude: 120.630691
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

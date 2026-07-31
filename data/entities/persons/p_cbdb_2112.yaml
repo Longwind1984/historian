@@ -1,0 +1,14 @@
+id: p_cbdb_2112
+type: Person
+name: 元絳
+born:
+  year: 1008
+died:
+  year: 1083
+gender: male
+birthplace: pl_cbdb_12690
+dynasty_ref: k_beisong
+bio: CBDB ID 2112
+name_en: Yuan Jiang
+sources:
+- CBDB (China Biographical Database)

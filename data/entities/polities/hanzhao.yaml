@@ -1,0 +1,16 @@
+id: k_hanzhao
+type: Polity
+name: 汉赵/前赵
+name_en: Han-Zhao
+color: '#7f8c8d'
+founded:
+  year: 304
+  month: 10
+ended:
+  year: 329
+capital: pl_zuo_han_liuyuan
+description: 十六国之一。匈奴。304 刘渊建国,318 分裂为前赵、后赵。329 后赵灭前赵。
+sources:
+- 晋书·载记
+founder: p_liu_yuan
+ended_by: k_houzhao

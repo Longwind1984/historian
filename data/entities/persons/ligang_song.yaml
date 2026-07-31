@@ -1,0 +1,17 @@
+id: p_ligang_song
+type: Person
+name: 李纲
+courtesy_name: 伯纪
+born:
+  year: 1083
+  month: 7
+died:
+  year: 1140
+  month: 2
+gender: male
+birthplace: pl_shaowu_li
+bio: 两宋之际主战派名臣。1126 金军围开封,组织开封保卫战。旋被罢。建炎初拜相(75 天),力主抗金,排挤去职。
+sources:
+- 宋史·李纲传
+wikidata_id: "Q11097717"
+wikipedia_zh: "李綱 (天順進士)"

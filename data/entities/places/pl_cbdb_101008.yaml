@@ -1,0 +1,12 @@
+id: pl_cbdb_101008
+type: Place
+name: 潁昌府
+modern_name: 潁昌府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.031391144
+longitude: 113.81974792
+first_year: 1080
+last_year: 1126
+description: CBDB 行政类型:Fu

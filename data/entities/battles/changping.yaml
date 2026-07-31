@@ -1,0 +1,21 @@
+id: b_changping
+type: Battle
+name: 长平之战
+date:
+  year: -260
+category: battle
+location: pl_gaoping
+combatants:
+- k_qin_state
+- k_zhao_state
+commanders:
+- p_baiqi
+victor: k_qin_state
+victor_commander: p_baiqi
+importance: 1
+description: 前262年秦伐韩，取上党，上党郡守冯亭降赵，秦赵遂大战于长平(今山西高平)。赵初以廉颇坚壁固守三年，秦不能克。前260年秦施反间计，赵孝成王以赵括代廉颇；秦则阴命白起为将。赵括改守为攻，被白起分割包围，四十六日粮绝，赵括战死，四十万赵卒降。白起恐降卒为乱，尽坑杀之，仅释幼弱二百四十人归赵。
+significance: 战国规模最大、最惨烈之决战，赵之壮丁尽丧，六国再无抗秦主力，秦统一之势已成；"纸上谈兵"之典出于赵括。
+sources:
+- 史记·白起王翦列传
+- 史记·赵世家
+- 战国策·赵策

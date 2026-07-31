@@ -1,0 +1,31 @@
+id: p_lizong
+type: Person
+name: 赵昀
+alias:
+- 宋理宗
+born:
+  year: 1205
+  month: 1
+died:
+  year: 1264
+  month: 11
+gender: male
+birthplace: pl_linan_song
+bio: 宋理宗。1224 史弥远拥立。1233 亲政(端平更化),尊崇理学。1234 联蒙灭金。端平入洛失败,宋蒙战争爆发。后期怠政,宠贾似道。
+sources:
+- 宋史·理宗本纪
+roles:
+- emperor
+ext:
+  title: 宋理宗
+  regime: 南宋
+reign_start:
+  year: 1224
+reign_end:
+  year: 1264
+wikidata_id: "Q7497"
+wikipedia_zh: "宋理宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Song_Lizong.jpg/500px-Song_Lizong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Song_Lizong.jpg"

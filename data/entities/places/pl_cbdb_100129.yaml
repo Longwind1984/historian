@@ -1,0 +1,12 @@
+id: pl_cbdb_100129
+type: Place
+name: 定陶
+modern_name: 定陶
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.089468
+longitude: 115.552425
+first_year: 979
+last_year: 1126
+description: CBDB 行政类型:Xian

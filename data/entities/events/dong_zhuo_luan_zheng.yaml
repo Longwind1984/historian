@@ -1,0 +1,16 @@
+id: e_dong_zhuo_luan_zheng
+type: Event
+name: 董卓乱政
+date:
+  year: 189
+  month: 8
+category: coup
+importance: 2
+location: pl_luoyang
+polities_involved:
+- k_donghan
+description: 189 年汉灵帝崩,大将军何进召董卓入京诛宦官。董卓废少帝,立献帝,自任太师,残暴。190 各地诸侯联合讨董,卓挟献帝迁都长安,焚洛阳。
+impact: 汉末军阀混战开始。
+sources:
+- 后汉书·董卓传
+- 三国志·魏书·董卓传

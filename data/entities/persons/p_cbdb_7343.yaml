@@ -1,0 +1,14 @@
+id: p_cbdb_7343
+type: Person
+name: 孫覿
+born:
+  year: 1081
+died:
+  year: 1169
+gender: male
+birthplace: pl_cbdb_12723
+dynasty_ref: k_beisong
+bio: CBDB ID 7343
+name_en: Sun Di
+sources:
+- CBDB (China Biographical Database)

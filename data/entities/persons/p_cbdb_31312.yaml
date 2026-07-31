@@ -1,0 +1,14 @@
+id: p_cbdb_31312
+type: Person
+name: 李靖
+born:
+  year: 570
+died:
+  year: 649
+gender: male
+birthplace: pl_cbdb_14498
+dynasty_ref: k_tang
+bio: CBDB ID 31312
+name_en: Li Jing
+sources:
+- CBDB (China Biographical Database)

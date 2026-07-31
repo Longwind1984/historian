@@ -1,0 +1,14 @@
+id: p_cbdb_10706
+type: Person
+name: 王柏
+born:
+  year: 1197
+died:
+  year: 1274
+gender: male
+birthplace: pl_cbdb_12785
+dynasty_ref: k_beisong
+bio: CBDB ID 10706
+name_en: Wang Bo
+sources:
+- CBDB (China Biographical Database)

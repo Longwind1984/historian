@@ -1,0 +1,37 @@
+id: p_lisiyuan
+type: Person
+name: 李嗣源
+alias:
+- 李亶
+- 后唐明宗
+born:
+  year: 867
+died:
+  year: 933
+  month: 12
+gender: male
+birthplace: pl_weizhou
+bio: 后唐明宗。李克用养子,沙陀人。庄宗死后被拥立。在位七年,励精图治,五代少有的治世。晚年诸子争位,933 年病卒。
+sources:
+- 旧五代史·明宗纪
+- 新五代史·唐本纪
+- 资治通鉴·卷274-278
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 926
+reign_end:
+  year: 933
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后唐明宗
+  regime: 后唐
+wikidata_id: "Q703646"
+wikipedia_zh: "唐明宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/%E5%94%90%E6%98%8E%E5%AE%97.jpg/500px-%E5%94%90%E6%98%8E%E5%AE%97.jpg"
+image_license: "Public domain"
+image_credit: "清善成堂刻本"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%94%90%E6%98%8E%E5%AE%97.jpg"

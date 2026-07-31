@@ -1,0 +1,12 @@
+id: pl_cbdb_13946
+type: Place
+name: 建寧
+modern_name: 建寧
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.832491
+longitude: 116.832527
+first_year: 980
+last_year: 1279
+description: CBDB 行政类型:Xian

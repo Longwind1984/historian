@@ -1,0 +1,18 @@
+id: e_shangshan_xiaxiang
+type: Event
+name: 上山下乡
+date:
+  year: 1968
+  month: 12
+end_date:
+  year: 1978
+category: territory
+polities_involved:
+- k_prc
+importance: 2
+description: 1968 年 12 月毛泽东指示"知识青年到农村去，接受贫下中农的再教育"，此后十年约 1,700 万城镇青年赴农村与边疆。其直接起因之一是文革中大中学校停课、红卫兵已无处安置，城镇就业无力承接。1978
+  年末云南知青请愿罢工，次年政策松动，绝大多数陆续返城。
+impact: 20 世纪中国规模最大的人口迁徙之一。一代人失学，其后 1977 年恢复高考时积压十年的考生同场竞争。
+sources:
+- 当代中国史
+- 中华人民共和国史

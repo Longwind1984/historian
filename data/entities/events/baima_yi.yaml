@@ -1,0 +1,17 @@
+id: e_baima_yi
+type: Event
+name: 白马驿之祸
+date:
+  year: 905
+  month: 6
+category: purge
+importance: 2
+location: pl_baima_yi
+polities_involved:
+- k_tang
+- k_tang
+description: 905 年朱温在亲信李振、柳璨等人怂恿下,于滑州白马驿(今河南滑县)将裴枢、独孤损、崔远、陆扆、王溥等三十余位唐朝名臣大臣集中杀害,投尸黄河。李振称之为'此辈自谓清流,宜投于浊流'。
+impact: 唐代士族阶层遭受毁灭性打击,标志'清流'政治的终结。陈寅恪、毛汉光等学者视之为关陇集团与士族政治终结的标志性事件,为五代'武人政治'全面取代'贵族/士族政治'扫清道路。
+sources:
+- 旧五代史·梁书·太祖纪
+- 资治通鉴·卷265

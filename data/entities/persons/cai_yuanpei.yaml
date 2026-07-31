@@ -1,0 +1,25 @@
+id: p_cai_yuanpei
+type: Person
+name: 蔡元培
+alias:
+- 蔡孑民
+courtesy_name: 鹤卿
+born:
+  year: 1868
+died:
+  year: 1940
+gender: male
+roles:
+- scholar
+- civil_official
+importance: 2
+bio: 浙江绍兴人，近代教育家、思想家。清光绪进士，入翰林院。1904 年参与创立光复会，任会长，次年主要成员(含本人)以个人身份加入同盟会，光复会组织本身并未正式并入。1912 年任中华民国首任教育总长。1917 年起任北京大学校长，倡"兼容并包、思想自由"，延揽陈独秀、胡适、鲁迅等任教，使北大成为新文化运动中心。五四运动中营救被捕学生。1928 年任中央研究院院长。1940 年病逝于香港。
+sources:
+- 中华民国史·蔡元培传
+- 高平叔·蔡元培年谱长编
+wikidata_id: "Q19796"
+wikipedia_zh: "蔡元培"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cai_Yuanpei-loc-nodate-crop.jpg/500px-Cai_Yuanpei-loc-nodate-crop.jpg"
+image_license: "Public domain"
+image_credit: "The Library of Congress"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Cai_Yuanpei-loc-nodate-crop.jpg"

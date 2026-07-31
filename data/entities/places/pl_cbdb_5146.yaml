@@ -1,0 +1,12 @@
+id: pl_cbdb_5146
+type: Place
+name: 新蔡
+modern_name: 新蔡
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.751263
+longitude: 114.973915
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

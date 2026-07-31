@@ -1,0 +1,19 @@
+id: p_qianhongzong
+type: Person
+name: 钱弘倧
+alias:
+- 钱倧
+- 吴越忠逊王
+born:
+  year: 929
+  month: 8
+died:
+  year: 975
+gender: male
+birthplace: pl_hangzhou
+bio: 吴越第四任国王。钱元瓘七子。947 年继位,同年为将领胡进思所废,在位仅数月。弟钱弘俶继位。
+sources:
+- 十国春秋·吴越
+- 吴越备史
+wikidata_id: "Q5359565"
+wikipedia_zh: "錢弘倧"

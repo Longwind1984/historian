@@ -1,0 +1,20 @@
+id: e_longxing_beifa
+type: Event
+name: 隆兴北伐(符离之溃)
+date:
+  year: 1163
+  month: 5
+category: war
+importance: 3
+location: pl_xiaoxian
+polities_involved:
+- k_nansong
+- k_jin
+description: 孝宗起用张浚主持北伐。宋军三路出师。李显忠、邵宏渊失和,符离大溃,丧师十余万。次年隆兴和议(叔侄之国,岁币减)。
+impact: 符离溃败使孝宗即位初年的恢复行动中止，次年隆兴和议改定宋金名分并减少岁币，但南宋未能收复中原。
+sources:
+- 宋史·孝宗本纪
+- 宋史·张浚传
+end_date:
+  year: 1163
+  month: 7

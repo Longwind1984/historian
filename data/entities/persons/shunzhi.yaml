@@ -1,0 +1,34 @@
+id: p_shunzhi
+type: Person
+name: 福临
+alias:
+- 清世祖
+- 顺治
+- 顺治帝
+born:
+  year: 1638
+died:
+  year: 1661
+gender: male
+birthplace: pl_shenyang_qing
+bio: 皇太极子,六岁即位,多尔衮摄政。1644年入关定鼎北京。亲政后整饬吏治、优礼汉官。1661年崩(一说出家)。
+sources:
+- 清史稿·世祖本纪
+- 清史稿
+- 清实录
+reign_start:
+  year: 1643
+reign_end:
+  year: 1661
+roles:
+- emperor
+ext:
+  title: 顺治帝
+  regime: 清
+importance: 2
+wikidata_id: "Q310453"
+wikipedia_zh: "顺治帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E4%B8%96%E7%A5%96%E9%A1%BA%E6%B2%BB%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg/500px-%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E4%B8%96%E7%A5%96%E9%A1%BA%E6%B2%BB%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E4%B8%96%E7%A5%96%E9%A1%BA%E6%B2%BB%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"

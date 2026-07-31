@@ -1,0 +1,32 @@
+id: p_lisong
+type: Person
+name: 李诵
+alias:
+- 唐顺宗
+- 顺宗
+born:
+  year: 761
+died:
+  year: 806
+gender: male
+birthplace: pl_chang_an
+bio: 唐顺宗。805 年即位,任用王叔文、王伾推行永贞革新。中风失语,在位仅八月即被宦官逼迫退位,传位宪宗。永贞内禅。
+sources:
+- 旧唐书·顺宗纪
+- 新唐书·顺宗本纪
+- 资治通鉴·卷236
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 805
+reign_end:
+  year: 805
+roles:
+- emperor
+ext:
+  title: 唐顺宗
+  regime: 唐
+importance: 3
+wikidata_id: "Q9760"
+wikipedia_zh: "唐顺宗"

@@ -1,0 +1,12 @@
+id: pl_cbdb_12781
+type: Place
+name: 平陽
+modern_name: 平陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.675718
+longitude: 120.556442
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

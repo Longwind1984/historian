@@ -1,0 +1,35 @@
+id: p_zhaoguangyi
+type: Person
+name: 赵光义
+alias:
+- 赵炅
+- 宋太宗
+courtesy_name: 廷宜
+born:
+  year: 939
+died:
+  year: 997
+  month: 3
+reign_start:
+  year: 976
+reign_end:
+  year: 997
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_kaifeng
+bio: 宋太宗。赵匡胤亲弟。976 年继位(烛影斧声疑案)。979 年灭北汉,完成局部统一。两度伐辽皆败(高梁河之战、雍熙北伐)。大兴文治,扩大科举。
+ext:
+  significance: 完成宋统一(本部),确立崇文抑武国策。
+  title: 宋太宗
+  regime: 北宋
+sources:
+- 宋史·太宗本纪
+- 续资治通鉴长编·卷17-41
+wikidata_id: "Q7473"
+wikipedia_zh: "宋太宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Taizong_of_Song.jpg/500px-Taizong_of_Song.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Taizong_of_Song.jpg"

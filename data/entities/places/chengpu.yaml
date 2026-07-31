@@ -1,0 +1,12 @@
+id: pl_chengpu
+type: Place
+name: 城濮
+modern_name: 山东鄄城西南
+province: 山东
+latitude: 35.59
+longitude: 115.53
+category: battlefield
+description: 前632年晋楚城濮之战所在(地望一说在河南范县一带)。晋文公退避三舍，会秦、齐之师大败楚军于此，旋践土会盟称霸。
+sources:
+- 左传·僖公二十八年
+- 史记·晋世家

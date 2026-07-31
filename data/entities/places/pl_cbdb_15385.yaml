@@ -1,0 +1,12 @@
+id: pl_cbdb_15385
+type: Place
+name: 范陽
+modern_name: 范陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.487221
+longitude: 115.968147
+first_year: 769
+last_year: 959
+description: CBDB 行政类型:Xian

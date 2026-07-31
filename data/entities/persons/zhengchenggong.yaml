@@ -1,0 +1,23 @@
+id: p_zhengchenggong
+type: Person
+name: 郑成功
+alias:
+- 国姓爷
+born:
+  year: 1624
+died:
+  year: 1662
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_nan_an_zheng
+bio: 南明延平郡王。1661-1662 收复台湾。
+sources:
+- 清史稿·郑成功传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/The_Portrait_of_Koxinga.jpg/500px-The_Portrait_of_Koxinga.jpg"
+wikidata_id: "Q197615"
+wikipedia_zh: "鄭成功"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:The_Portrait_of_Koxinga.jpg"

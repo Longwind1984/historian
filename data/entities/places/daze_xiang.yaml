@@ -1,0 +1,14 @@
+id: pl_daze_xiang
+type: Place
+name: 大泽乡
+modern_name: 宿州
+province: 安徽
+latitude: 33.64
+longitude: 116.95
+category: battlefield
+description: BC209 大泽乡起义
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

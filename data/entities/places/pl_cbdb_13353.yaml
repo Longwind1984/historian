@@ -1,0 +1,12 @@
+id: pl_cbdb_13353
+type: Place
+name: 犍為
+modern_name: 犍為
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.209244
+longitude: 103.943123
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

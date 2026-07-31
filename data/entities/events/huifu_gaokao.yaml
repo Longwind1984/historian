@@ -1,0 +1,16 @@
+id: e_huifu_gaokao
+type: Event
+name: 恢复高考
+date:
+  year: 1977
+  month: 10
+category: institution
+polities_involved:
+- k_prc
+importance: 2
+description: 高考自 1966 年文革起废止，改行"推荐上大学"(工农兵学员)，出身与政治表现取代考试。1977 年 8 月邓小平复出后主持科教座谈会，拍板当年即恢复;10
+  月中央批准，12 月开考。积压十年的考生同场，报考约 570 万，录取约 27 万，录取率不足百分之五。
+impact: 以考试取代出身与推荐，是文革后最早的制度性拨乱反正之一，亦为其后的改革开放储备了人才。
+sources:
+- 当代中国史
+- 中华人民共和国史

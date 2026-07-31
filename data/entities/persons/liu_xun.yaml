@@ -1,0 +1,30 @@
+id: p_liu_xun
+type: Person
+name: 刘询
+alias:
+- 汉宣帝
+- 刘病已
+born:
+  year: -91
+died:
+  year: -48
+gender: male
+birthplace: pl_chang_an
+bio: 汉宣帝。武帝曾孙,戾太子刘据孙。BC74-49 在位。霍光辅政至 BC66。'昭宣中兴'。
+sources:
+- 汉书·宣帝纪
+reign_start:
+  year: -74
+reign_end:
+  year: -48
+roles:
+- emperor
+ext:
+  title: 汉宣帝
+  regime: 西汉
+wikidata_id: "Q7230"
+wikipedia_zh: "汉宣帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Liu_Xun_%28Emperor_Xuan_of_Han%29.png/500px-Liu_Xun_%28Emperor_Xuan_of_Han%29.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Xun_(Emperor_Xuan_of_Han).png"

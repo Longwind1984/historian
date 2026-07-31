@@ -1,0 +1,12 @@
+id: pl_cbdb_100440
+type: Place
+name: 滎陽
+modern_name: 滎陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.783107758
+longitude: 113.34739685
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

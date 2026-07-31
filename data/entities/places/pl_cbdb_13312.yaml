@@ -1,0 +1,12 @@
+id: pl_cbdb_13312
+type: Place
+name: 晉原
+modern_name: 晉原
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.636564
+longitude: 103.672607
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

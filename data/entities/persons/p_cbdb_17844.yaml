@@ -1,0 +1,14 @@
+id: p_cbdb_17844
+type: Person
+name: 王從
+born:
+  year: 1143
+died:
+  year: 1203
+gender: male
+birthplace: pl_cbdb_100584
+dynasty_ref: k_beisong
+bio: CBDB ID 17844
+name_en: Wang Cong
+sources:
+- CBDB (China Biographical Database)

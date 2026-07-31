@@ -1,0 +1,15 @@
+id: p_cbdb_563091
+type: Person
+name: 辛鞬
+born:
+  year: 1172
+died:
+  year: 1209
+note: born/died 疑似调换,依 CBDB index_year 推断,2026-07-11
+gender: male
+birthplace: pl_cbdb_12889
+dynasty_ref: k_beisong
+bio: CBDB ID 563091
+name_en: Xin Jian
+sources:
+- CBDB (China Biographical Database)

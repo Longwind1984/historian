@@ -1,0 +1,14 @@
+id: p_cbdb_38258
+type: Person
+name: 王恬
+born:
+  year: 1110
+died:
+  year: 1174
+gender: male
+birthplace: pl_cbdb_12789
+dynasty_ref: k_beisong
+bio: CBDB ID 38258
+name_en: Wang Tian
+sources:
+- CBDB (China Biographical Database)

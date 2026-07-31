@@ -1,0 +1,14 @@
+id: p_cbdb_797
+type: Person
+name: 許元
+born:
+  year: 989
+died:
+  year: 1057
+gender: male
+birthplace: pl_cbdb_12841
+dynasty_ref: k_beisong
+bio: CBDB ID 797
+name_en: Xu Yuan
+sources:
+- CBDB (China Biographical Database)

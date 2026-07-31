@@ -1,0 +1,12 @@
+id: pl_cbdb_6177
+type: Place
+name: 瓊山
+modern_name: 瓊山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 20.008165
+longitude: 110.357941
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

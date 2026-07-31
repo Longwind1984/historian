@@ -1,0 +1,14 @@
+id: p_cbdb_10889
+type: Person
+name: 陳寔
+born:
+  year: 1143
+died:
+  year: 1212
+gender: male
+birthplace: pl_cbdb_100531
+dynasty_ref: k_beisong
+bio: CBDB ID 10889
+name_en: Chen Shi
+sources:
+- CBDB (China Biographical Database)

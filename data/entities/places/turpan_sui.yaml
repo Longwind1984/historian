@@ -1,0 +1,13 @@
+id: pl_turpan_sui
+type: Place
+name: 高昌
+modern_name: 吐鲁番
+province: 新疆
+latitude: 42.95
+longitude: 89.19
+category: city
+description: 西域
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

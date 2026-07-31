@@ -1,0 +1,18 @@
+id: p_niu_sengru
+type: Person
+name: 牛僧孺
+alias:
+- 牛思黯
+courtesy_name: 思黯
+born:
+  year: 779
+died:
+  year: 847
+gender: male
+birthplace: pl_anhui_niu
+bio: 中唐官员。牛党领袖。821 长庆元年,与李宗闵科举时谤时政,得罪李吉甫,埋下党争伏线。后历穆、文、武、宣朝为相。'牛党'由其和李宗闵代表。
+sources:
+- 旧唐书·牛僧孺传
+- 新唐书·牛僧孺传
+wikidata_id: "Q6140203"
+wikipedia_zh: "牛僧孺"

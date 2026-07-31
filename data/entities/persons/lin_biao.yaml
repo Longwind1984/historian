@@ -1,0 +1,18 @@
+id: p_lin_biao
+name: 林彪
+type: Person
+born: {year: 1907}
+died: {year: 1971}
+roles:
+  - general
+importance: 2
+bio: 湖北黄冈人。中华人民共和国元帅。1971年9月13日在外蒙古温都尔汗因飞机失事身亡。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q315475"
+wikipedia_zh: "林彪"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/48/Lin_Biao.jpg"
+image_license: "Public domain"
+image_credit: "​《 解放军画报 》 记者 柳成行"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Lin_Biao.jpg"

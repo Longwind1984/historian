@@ -1,0 +1,16 @@
+id: e_huangchao_deng_zhou_jianliang
+type: Event
+name: 朱温降唐
+date:
+  year: 882
+  month: 9
+category: territory
+importance: 3
+location: pl_tongzhou
+polities_involved:
+- k_tang
+description: 882 年九月黄巢大将朱温见大势已去,以同州降唐,赐名全忠,任河中行营招讨副使。成为唐廷镇压黄巢的主力。
+impact: 朱温转变的关键节点,从农民军成为唐廷藩镇。奠定了后梁立国的基础。
+sources:
+- 旧五代史·梁太祖纪
+- 资治通鉴·卷255

@@ -1,0 +1,12 @@
+id: pl_cbdb_12909
+type: Place
+name: 隆興府
+modern_name: 隆興府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.674896
+longitude: 115.89772
+first_year: 1163
+last_year: 1279
+description: CBDB 行政类型:Fu

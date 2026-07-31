@@ -1,0 +1,14 @@
+id: p_cbdb_130402
+type: Person
+name: 張治
+born:
+  year: 1488
+died:
+  year: 1550
+gender: male
+birthplace: pl_cbdb_300001
+dynasty_ref: k_ming
+bio: CBDB ID 130402
+name_en: Zhang Zhi
+sources:
+- CBDB (China Biographical Database)

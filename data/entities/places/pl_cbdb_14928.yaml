@@ -1,0 +1,12 @@
+id: pl_cbdb_14928
+type: Place
+name: 曹州
+modern_name: 曹州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.07399
+longitude: 115.5666
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Zhou

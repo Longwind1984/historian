@@ -1,0 +1,17 @@
+id: e_yang_wu_yun_dong
+type: Event
+name: 洋务运动
+date:
+  year: 1861
+category: reform
+importance: 2
+location: pl_beijing_qing
+polities_involved:
+- k_qing
+description: 自强求富。曾国藩、李鸿章、左宗棠、张之洞等兴办军工、洋务企业。'中体西用'。
+impact: 晚清现代化初步尝试。甲午一役宣告失败。
+sources:
+- 清史稿
+end_date:
+  year: 1895
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Self-Strengthening Movement.jpg

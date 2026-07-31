@@ -1,0 +1,34 @@
+id: p_daoguang
+type: Person
+name: 旻宁
+alias:
+- 清宣宗
+- 道光
+- 道光帝
+born:
+  year: 1782
+died:
+  year: 1850
+gender: male
+birthplace: pl_beijing_qing
+bio: 嘉庆次子。以俭德著称。1839年遣林则徐禁烟,1840-1842年鸦片战争败,订《南京条约》,近代不平等条约之始。
+sources:
+- 清史稿·宣宗本纪
+- 清史稿
+- 清实录
+reign_start:
+  year: 1820
+reign_end:
+  year: 1850
+roles:
+- emperor
+ext:
+  title: 道光帝
+  regime: 清
+importance: 2
+wikidata_id: "Q334351"
+wikipedia_zh: "道光帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/%E6%B8%85%E4%BA%BA%E7%94%BB%E6%97%BB%E5%AE%81%E6%9C%9D%E6%9C%8D%E5%83%8F%E8%BD%B4.png/500px-%E6%B8%85%E4%BA%BA%E7%94%BB%E6%97%BB%E5%AE%81%E6%9C%9D%E6%9C%8D%E5%83%8F%E8%BD%B4.png"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B8%85%E4%BA%BA%E7%94%BB%E6%97%BB%E5%AE%81%E6%9C%9D%E6%9C%8D%E5%83%8F%E8%BD%B4.png"

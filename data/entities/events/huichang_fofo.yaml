@@ -1,0 +1,15 @@
+id: e_huichang_fofo
+type: Event
+name: 会昌毁佛
+date:
+  year: 845
+category: religion
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_tang
+description: 845 年武宗下令毁佛。废寺 4600 余所、僧尼归俗 26 万。僧尼配田、铜佛铸钱。三武一宗之三。
+impact: 短期充实国库、增加纳税人口。武宗死后宣宗推翻。
+sources:
+- 旧唐书·武宗纪
+- 资治通鉴·卷248

@@ -1,0 +1,20 @@
+id: e_taiping_tian_guo
+type: Event
+name: 太平天国运动
+date:
+  year: 1851
+  month: 1
+category: rebellion
+importance: 1
+location: pl_jintian_taiping
+polities_involved:
+- k_qing
+- k_taiping
+description: 1851.1 洪秀全金田起义,建太平天国。1853 占南京为天京。北伐、西征。1864 湘军曾国荃破南京。
+impact: 中国历史上规模最大的农民战争。
+sources:
+- 清史稿·洪秀全传
+end_date:
+  year: 1864
+  month: 6
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Taiping Rebellion.jpg

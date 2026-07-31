@@ -1,0 +1,12 @@
+id: pl_cbdb_15282
+type: Place
+name: 陸澤
+modern_name: 陸澤
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.011
+longitude: 115.5585
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

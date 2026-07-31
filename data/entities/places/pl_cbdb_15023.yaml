@@ -1,0 +1,12 @@
+id: pl_cbdb_15023
+type: Place
+name: 龍門
+modern_name: 龍門
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.576092
+longitude: 110.662392
+first_year: 620
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_100080
+type: Place
+name: 吉水
+modern_name: 吉水
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.214367
+longitude: 115.132248
+first_year: 984
+last_year: 1279
+description: CBDB 行政类型:Xian

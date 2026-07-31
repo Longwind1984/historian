@@ -1,0 +1,20 @@
+id: p_suzhe
+type: Person
+name: 苏辙
+courtesy_name: 子由
+born:
+  year: 1039
+died:
+  year: 1112
+  month: 10
+gender: male
+birthplace: pl_meishan_song
+bio: 苏轼弟,唐宋八大家之一。嘉祐二年与兄同登第。官至尚书右丞。
+sources:
+- 宋史·苏辙传
+wikidata_id: "Q1155951"
+wikipedia_zh: "苏辙"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/96/%E5%AE%8B%E9%97%A8%E4%B8%8B%E4%BE%8D%E9%83%8E%E8%8B%8F%E6%96%87%E5%AE%9A%E5%85%AC%E8%BE%99.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E9%97%A8%E4%B8%8B%E4%BE%8D%E9%83%8E%E8%8B%8F%E6%96%87%E5%AE%9A%E5%85%AC%E8%BE%99.jpg"

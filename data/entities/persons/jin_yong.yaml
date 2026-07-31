@@ -1,0 +1,21 @@
+id: p_jin_yong
+type: Person
+name: 金庸
+born:
+  year: 1924
+died:
+  year: 2018
+gender: male
+roles:
+- literatus
+importance: 2
+bio: 本名查良镛，浙江海宁人，长期居香港。武侠小说家、《明报》创办人，著有《射雕英雄传》《天龙八部》《笑傲江湖》等，作品多被改编为影视剧。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q180626"
+wikipedia_zh: "金庸"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Jin_Yong%2C_July_2007.jpg/500px-Jin_Yong%2C_July_2007.jpg"
+image_license: "CC BY-SA 3.0"
+image_credit: "user:S19991002"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jin_Yong,_July_2007.jpg"

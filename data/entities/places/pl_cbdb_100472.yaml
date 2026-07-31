@@ -1,0 +1,12 @@
+id: pl_cbdb_100472
+type: Place
+name: 盱眙
+modern_name: 盱眙
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.023403168
+longitude: 118.46811676
+first_year: 960
+last_year: 1270
+description: CBDB 行政类型:Xian

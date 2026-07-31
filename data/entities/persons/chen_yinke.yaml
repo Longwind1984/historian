@@ -1,0 +1,24 @@
+id: p_chen_yinke
+type: Person
+name: 陈寅恪
+alias:
+- 陈鹤寿
+courtesy_name: 鹤寿
+born:
+  year: 1890
+died:
+  year: 1969
+gender: male
+roles:
+- scholar
+importance: 2
+bio: 江西义宁(今修水)人，近代史学家。早年游学日本、欧美多国，通晓多种语言。1925 年任清华国学研究院导师，与王国维、梁启超、赵元任并称"四大导师"。长期任清华、西南联大、岭南大学教授。治学兼通文史，精魏晋南北朝隋唐史、蒙元史，以诗文证史。著《隋唐制度渊源略论稿》《唐代政治史述论稿》《柳如是别传》等。晚年目盲足膑仍口述著述。1969 年病逝于广州。
+sources:
+- 蒋天枢·陈寅恪先生编年事辑
+- 汪荣祖·史家陈寅恪传
+wikidata_id: "Q714824"
+wikipedia_zh: "陈寅恪"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/13/Chen_Yinke.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Yinke.jpg"

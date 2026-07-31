@@ -1,0 +1,27 @@
+id: p_cao_fang
+type: Person
+name: 曹芳
+alias:
+- 齐王
+- 邵陵厉公
+born:
+  year: 232
+died:
+  year: 274
+reign_start:
+  year: 239
+reign_end:
+  year: 254
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 明帝养子,八岁即位,曹爽与司马懿辅政。249年高平陵之变,司马懿诛曹爽,魏权归司马氏。254年为司马师所废。
+ext:
+  title: 曹芳
+  regime: 曹魏
+sources:
+- 三国志
+- 资治通鉴
+wikidata_id: "Q77822"
+wikipedia_zh: "曹芳"

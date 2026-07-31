@@ -1,0 +1,12 @@
+id: pl_cbdb_12880
+type: Place
+name: 樂平
+modern_name: 樂平
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.964994
+longitude: 117.124092
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

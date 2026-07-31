@@ -1,0 +1,27 @@
+id: p_sima_dezong
+type: Person
+name: 司马德宗
+alias:
+- 晋安帝
+- 安帝
+born:
+  year: 382
+died:
+  year: 419
+reign_start:
+  year: 396
+reign_end:
+  year: 418
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 孝武帝子，不辨寒暑。桓玄篡立、孙恩卢循之乱、刘裕崛起皆在其时；418年为刘裕所弑。
+sources:
+- 晋书
+- 资治通鉴
+ext:
+  title: 晋安帝
+  regime: 东晋
+wikidata_id: "Q7403"
+wikipedia_zh: "晋安帝"

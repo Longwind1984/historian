@@ -1,0 +1,14 @@
+id: p_cbdb_344
+type: Person
+name: 章得象
+born:
+  year: 978
+died:
+  year: 1048
+gender: male
+birthplace: pl_cbdb_13892
+dynasty_ref: k_beisong
+bio: CBDB ID 344
+name_en: Zhang Dexiang
+sources:
+- CBDB (China Biographical Database)

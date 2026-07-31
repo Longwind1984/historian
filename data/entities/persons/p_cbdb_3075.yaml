@@ -1,0 +1,14 @@
+id: p_cbdb_3075
+type: Person
+name: 陳亮
+born:
+  year: 1143
+died:
+  year: 1194
+gender: male
+birthplace: pl_cbdb_12789
+dynasty_ref: k_beisong
+bio: CBDB ID 3075
+name_en: Chen Liang
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_12809
+type: Place
+name: 開化
+modern_name: 開化
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.14485
+longitude: 118.404884
+first_year: 981
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,17 @@
+id: p_shijintang
+type: Person
+name: 史建瑭
+alias:
+- 史公琏
+born:
+  year: 875
+died:
+  year: 921
+  month: 1
+gender: male
+birthplace: pl_weizhou
+bio: 后唐骁将。李克用、李存勖帐下,以勇著称。921 年战殁于镇州。
+sources:
+- 旧五代史·史建瑭传
+wikidata_id: "Q30944017"
+wikipedia_zh: "史建瑭"

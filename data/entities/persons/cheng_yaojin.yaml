@@ -1,0 +1,18 @@
+id: p_cheng_yaojin
+type: Person
+name: 程咬金
+alias:
+- 程知节
+- 程义贞
+courtesy_name: 知节
+born:
+  year: 589
+died:
+  year: 665
+gender: male
+birthplace: pl_jining_cheng
+bio: 唐初骁将。瓦岗旧部。凌烟阁之一。
+sources:
+- 旧唐书·程知节传
+wikidata_id: "Q840375"
+wikipedia_zh: "程咬金"

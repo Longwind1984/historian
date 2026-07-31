@@ -1,0 +1,17 @@
+id: p_luoshaowei
+type: Person
+name: 罗绍威
+gender: male
+born:
+  year: 877
+died:
+  year: 910
+roles:
+- general
+importance: 3
+bio: 魏博节度使。魏博牙军骄横,自田承嗣以来废立主帅百余年。907 绍威借朱温兵尽诛牙军八千家,牙军之患遂绝 —— 而魏博自此兵弱,绍威亦悔之,谓「合六州四十三县铁,不能为此错」。
+sources:
+- 旧五代史·罗绍威传
+- 资治通鉴·卷265
+wikidata_id: "Q6704538"
+wikipedia_zh: "罗绍威"

@@ -1,0 +1,15 @@
+id: f_huaijun_bei_yang
+type: Faction
+name: 淮军 → 北洋系
+nature: military_clan
+founded:
+  year: 1862
+dissolved:
+  year: 1928
+core_region: pl_hefei_li
+description: 李鸿章 1862 创淮军。后演化出北洋系:1895 袁世凯小站练兵新建陆军。段祺瑞、冯国璋、王士珍、曹锟。
+significance: 晚清至民国初年的实际军政主宰。
+peak_period: 1862-1928
+sources:
+- 明史
+- 清史稿

@@ -1,0 +1,21 @@
+id: p_li_guangbi
+type: Person
+name: 李光弼
+alias:
+- 李光弼
+born:
+  year: 708
+died:
+  year: 764
+  month: 8
+gender: male
+birthplace: pl_liuzhou
+bio: 中唐名将,契丹族。安史之乱主力平叛者,与郭子仪齐名。常山之战(756)、太原保卫战(757)、河阳之战(759)。封临淮郡王。
+ext:
+  significance: 与郭子仪同为平叛柱石。
+sources:
+- 旧唐书·李光弼传
+- 新唐书·李光弼传
+- 资治通鉴·卷220
+wikidata_id: "Q697728"
+wikipedia_zh: "李光弼"

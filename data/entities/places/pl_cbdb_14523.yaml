@@ -1,0 +1,12 @@
+id: pl_cbdb_14523
+type: Place
+name: 華州
+modern_name: 華州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.519626617
+longitude: 109.7598877
+first_year: 705
+last_year: 959
+description: CBDB 行政类型:Zhou

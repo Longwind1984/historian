@@ -1,0 +1,32 @@
+id: p_liu_xin_aidi
+type: Person
+name: 刘欣
+alias:
+- 汉哀帝
+- 哀帝
+born:
+  year: -25
+died:
+  year: -1
+reign_start:
+  year: -7
+reign_end:
+  year: -1
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 元帝孙。曾行'限田限奴'议而未果；宠幸董贤，'断袖'典出于此。年二十五崩。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 汉哀帝
+  regime: 西汉
+wikidata_id: "Q7237"
+wikipedia_zh: "汉哀帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/7/70/Dong_Xian_%28%E6%B1%89%E5%93%80%E5%B8%9D%29.jpg"
+image_license: "Public domain"
+image_credit: "Chen, Hong Shou (陳洪綬)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Dong_Xian_(%E6%B1%89%E5%93%80%E5%B8%9D).jpg"

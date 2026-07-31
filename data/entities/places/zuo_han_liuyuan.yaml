@@ -1,0 +1,14 @@
+id: pl_zuo_han_liuyuan
+type: Place
+name: 左国城/新兴
+modern_name: 离石
+province: 山西
+latitude: 37.52
+longitude: 111.15
+category: city
+description: 刘渊起兵地
+sources:
+- 三国志
+- 晋书
+- 魏书
+- 中国历史地图集

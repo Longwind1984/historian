@@ -1,0 +1,14 @@
+id: e_gengxu_zhibian
+type: Event
+name: 庚戌之变
+date:
+  year: 1550
+category: war
+importance: 3
+location: pl_beijing_qing
+polities_involved:
+- k_ming
+description: 1550 俺答汗犯京师。明廷许贡。
+impact: 明蒙关系事件。
+sources:
+- 明史·世宗本纪

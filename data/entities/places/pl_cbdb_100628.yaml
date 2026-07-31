@@ -1,0 +1,12 @@
+id: pl_cbdb_100628
+type: Place
+name: 韋城
+modern_name: 韋城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.418397
+longitude: 114.77003
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

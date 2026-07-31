@@ -1,0 +1,24 @@
+id: p_dingruchang
+name: 丁汝昌
+courtesy_name: 禹廷
+born:
+  year: 1836
+died:
+  year: 1895
+  month: 2
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_lujiang_ding
+bio: 北洋水师提督。1894 年九月十七日黄海海战率舰队与日本联合舰队鏖战五小时,负伤不退。1895 年二月威海卫被围,援绝,拒降服毒死。
+sources:
+- 清史稿·丁汝昌传
+- 东方兵事纪略
+type: Person
+wikidata_id: "Q259375"
+wikipedia_zh: "丁汝昌"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Di_Ruchang.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Di_Ruchang.jpg"

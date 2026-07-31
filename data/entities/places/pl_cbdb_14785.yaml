@@ -1,0 +1,12 @@
+id: pl_cbdb_14785
+type: Place
+name: 靈昌
+modern_name: 靈昌
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.397076
+longitude: 114.434503
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:Xian

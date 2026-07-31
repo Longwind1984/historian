@@ -1,0 +1,12 @@
+id: pl_cbdb_13294
+type: Place
+name: 雙流
+modern_name: 雙流
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.579893
+longitude: 103.923309
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

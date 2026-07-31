@@ -1,0 +1,25 @@
+id: p_xie_an
+type: Person
+name: 谢安
+alias:
+- 谢安石
+courtesy_name: 安石
+born:
+  year: 320
+died:
+  year: 385
+  month: 10
+gender: male
+roles:
+- civil_official
+importance: 2
+birthplace: pl_yangxia_xiean
+bio: 东晋政治家。陈郡阳夏人。383 淝水之战主帅,大破前秦苻坚。
+sources:
+- 晋书·谢安传
+image: "https://upload.wikimedia.org/wikipedia/commons/5/54/%E6%99%8B%E5%A4%AA%E4%BF%9D%E5%BB%BA%E6%98%8C%E5%85%AC%E8%B0%A2%E5%AE%89.jpg"
+wikidata_id: "Q836209"
+wikipedia_zh: "谢安"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%99%8B%E5%A4%AA%E4%BF%9D%E5%BB%BA%E6%98%8C%E5%85%AC%E8%B0%A2%E5%AE%89.jpg"

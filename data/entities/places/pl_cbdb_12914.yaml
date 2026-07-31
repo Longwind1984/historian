@@ -1,0 +1,12 @@
+id: pl_cbdb_12914
+type: Place
+name: 新建
+modern_name: 新建
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.674896
+longitude: 115.89772
+first_year: 979
+last_year: 1279
+description: CBDB 行政类型:Xian

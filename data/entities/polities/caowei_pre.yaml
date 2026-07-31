@@ -1,0 +1,14 @@
+id: k_caowei_pre
+type: Polity
+name: 曹操集团
+name_en: Cao Cao's Faction
+color: '#8b5a3c'
+founded:
+  year: 192
+ended:
+  year: 220
+  month: 10
+description: 192 曹操领兖州牧起家,196 迎献帝都许,挟天子以令诸侯。官渡破袁绍、平河北,爵至魏王。终其身奉汉正朔未称帝,220 曹丕代汉建魏,此集团转为曹魏政权。
+sources:
+- 三国志·魏书·武帝纪
+founder: p_cao_cao

@@ -1,0 +1,34 @@
+id: p_li_bian
+type: Person
+name: 李昪
+alias:
+- 南唐烈祖
+- 徐知诰
+- 李弁
+born:
+  year: 889
+died:
+  year: 943
+  month: 3
+reign_start:
+  year: 937
+reign_end:
+  year: 943
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 本名徐知诰,杨吴权臣徐温养子。937年代吴建齐,后复姓李改国号唐(南唐)。息兵安民,江淮富庶。
+ext:
+  title: 李昪
+  regime: 南唐
+sources:
+- 十国春秋
+- 新五代史
+- 资治通鉴
+- 新五代史·南唐世家
+- 十国春秋·南唐
+- 南唐书
+birthplace: pl_haizhou
+wikidata_id: "Q711844"
+wikipedia_zh: "李昪"

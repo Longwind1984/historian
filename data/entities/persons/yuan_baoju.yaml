@@ -1,0 +1,26 @@
+id: p_yuan_baoju
+type: Person
+name: 元宝炬
+alias:
+- 西魏文帝
+born:
+  year: 507
+died:
+  year: 551
+  month: 3
+gender: male
+birthplace: pl_luoyang_beiwei
+bio: 西魏建立者。北魏孝文帝孙。534 与高欢决裂,西奔长安依宇文泰,被立为帝,西魏始。在位 17 年。
+sources:
+- 周书·文帝纪
+reign_start:
+  year: 535
+reign_end:
+  year: 551
+roles:
+- emperor
+ext:
+  title: 西魏文帝
+  regime: 西魏
+wikidata_id: "Q2985487"
+wikipedia_zh: "元宝炬"

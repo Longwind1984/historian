@@ -1,0 +1,27 @@
+id: p_sun_liang
+type: Person
+name: 孙亮
+alias:
+- 会稽王
+born:
+  year: 243
+died:
+  year: 260
+reign_start:
+  year: 252
+reign_end:
+  year: 258
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_dongwu
+bio: 孙权少子,十岁即位,诸葛恪、孙峻、孙綝相继专权。258年为孙綝所废。
+ext:
+  title: 孙亮
+  regime: 东吴
+sources:
+- 三国志
+- 资治通鉴
+wikidata_id: "Q470034"
+wikipedia_zh: "孫亮"

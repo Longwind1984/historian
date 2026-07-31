@@ -1,0 +1,12 @@
+id: pl_hongshui
+type: Place
+name: 泓水
+modern_name: 河南柘城一带
+province: 河南
+latitude: 34.08
+longitude: 115.31
+category: battlefield
+description: 前638年宋楚泓水之战所在。宋襄公伐郑，楚救郑伐宋，战于泓水；襄公拘守"不鼓不成列"之旧军礼，待楚军渡河列阵方战，宋军大败，襄公伤股。
+sources:
+- 左传·僖公二十二年
+- 史记·宋微子世家

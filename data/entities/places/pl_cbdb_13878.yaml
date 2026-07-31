@@ -1,0 +1,12 @@
+id: pl_cbdb_13878
+type: Place
+name: 永福
+modern_name: 永福
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.867622
+longitude: 118.934105
+first_year: 1102
+last_year: 1279
+description: CBDB 行政类型:Xian

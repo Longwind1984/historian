@@ -1,0 +1,14 @@
+id: p_cbdb_7214
+type: Person
+name: 范仲溫
+born:
+  year: 985
+died:
+  year: 1050
+gender: male
+birthplace: pl_cbdb_12690
+dynasty_ref: k_beisong
+bio: CBDB ID 7214
+name_en: Fan Zhongwen
+sources:
+- CBDB (China Biographical Database)

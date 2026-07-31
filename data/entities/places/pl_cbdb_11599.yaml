@@ -1,0 +1,12 @@
+id: pl_cbdb_11599
+type: Place
+name: 無棣
+modern_name: 無棣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.851643
+longitude: 117.401329
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

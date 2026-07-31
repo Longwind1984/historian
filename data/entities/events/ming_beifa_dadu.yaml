@@ -1,0 +1,29 @@
+id: e_ming_beifa_dadu
+type: Event
+name: 明北伐克大都(元亡)
+date:
+  year: 1368
+  month: 8
+category: conquest
+march:
+- from: pl_nanjing_ming
+  to: pl_kaifeng
+  note: 徐达自应天北伐,先取山东撤其屏蔽,旋师河南拔汴梁。《明史·太祖本纪》
+- from: pl_kaifeng
+  to: pl_dadu_yuan
+  note: 既下潼关守其户槛,而后进师大都。《明史·徐达传》
+importance: 1
+location: pl_dadu_yuan
+polities_involved:
+- k_ming
+- k_yuan
+description: 1367 年十月朱元璋命徐达为征虏大将军、常遇春副之,率二十五万众北伐,宋濂草《谕中原檄》,以"驱逐胡虏,恢复中华"为号。明军先定山东、河南,继下潼关,1368 年八月初二克大都。元顺帝妥懽帖睦尔北奔上都,元亡;残部退居漠北,史称北元。
+impact: 元朝(1271-1368)亡。燕云十六州自 936 年石敬瑭割予契丹,至此四百三十二年始复归中原王朝。
+sources:
+- 明史·太祖本纪
+- 明史·徐达传
+- 元史·顺帝本纪
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 徐达克大都,燕云复归,距石敬瑭割让四百三十二年

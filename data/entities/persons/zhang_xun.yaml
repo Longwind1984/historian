@@ -1,0 +1,24 @@
+id: p_zhang_xun
+type: Person
+name: 张巡
+alias:
+- 张巡
+born:
+  year: 709
+died:
+  year: 757
+  month: 11
+gender: male
+birthplace: pl_nanyang
+bio: 安史之乱守城名将。与许远死守睢阳(757)十月,抗击尹子奇十余万军。城破被俘殉国。睢阳之战,挡住叛军南下江淮。
+ext:
+  significance: 睢阳之战保住了唐朝经济命脉江淮。
+sources:
+- 旧唐书·张巡传
+- 资治通鉴·卷220
+wikidata_id: "Q708295"
+wikipedia_zh: "张巡"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/11/Zhang_Xun_%281%29.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhang_Xun_(1).jpg"

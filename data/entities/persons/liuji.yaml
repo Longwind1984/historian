@@ -1,0 +1,21 @@
+id: p_liuji
+type: Person
+name: 刘基
+alias:
+- 刘伯温
+- 诚意伯
+born:
+  year: 1311
+died:
+  year: 1375
+gender: male
+birthplace: pl_qingtian_liu
+bio: 明开国谋臣。'三分天下诸葛亮,一统江山刘伯温'。
+sources:
+- 明史·刘基传
+wikidata_id: "Q699485"
+wikipedia_zh: "刘伯温"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Liu_Ji.jpg/500px-Liu_Ji.jpg"
+image_license: "Public domain"
+image_credit: "Kuan-Shou（官周）"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Ji.jpg"

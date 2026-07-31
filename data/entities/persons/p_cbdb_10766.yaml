@@ -1,0 +1,12 @@
+id: p_cbdb_10766
+type: Person
+name: 包遜
+born:
+  year: 1152
+gender: male
+birthplace: pl_cbdb_100055
+dynasty_ref: k_beisong
+bio: CBDB ID 10766
+name_en: Bao Xun
+sources:
+- CBDB (China Biographical Database)

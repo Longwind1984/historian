@@ -1,0 +1,12 @@
+id: pl_cbdb_11574
+type: Place
+name: 濮陽
+modern_name: 濮陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.650175
+longitude: 115.078057
+first_year: 1049
+last_year: 1052
+description: CBDB 行政类型:Xian

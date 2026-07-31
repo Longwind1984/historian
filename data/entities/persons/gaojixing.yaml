@@ -1,0 +1,33 @@
+id: p_gaojixing
+type: Person
+name: 高季兴
+alias:
+- 高季昌
+- 荆南武信王
+- 南平王
+born:
+  year: 858
+died:
+  year: 929
+  month: 5
+gender: male
+birthplace: pl_kaifeng
+bio: 荆南(南平)建立者。朱温旧部。924 年后唐封南平王。在列强间求存,常掠过境使节,又称'高赖子'。
+sources:
+- 新五代史·南平世家
+- 十国春秋·荆南
+- 十国春秋
+- 新五代史
+- 资治通鉴
+roles:
+- monarch
+reign_start:
+  year: 924
+reign_end:
+  year: 928
+ext:
+  title: 高季兴
+  regime: 荆南
+importance: 3
+wikidata_id: "Q718201"
+wikipedia_zh: "高季興"

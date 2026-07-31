@@ -1,0 +1,15 @@
+id: pl_yanzhou_xixia
+type: Place
+name: 延州
+modern_name: 延安
+province: 陕西
+latitude: 36.6
+longitude: 109.49
+category: battlefield
+description: 三川口之战
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

@@ -1,0 +1,21 @@
+id: p_hanqinhu
+type: Person
+name: 韩擒虎
+alias:
+- 韩子通
+courtesy_name: 子通
+born:
+  year: 538
+died:
+  year: 592
+gender: male
+birthplace: pl_dongyong_sui
+bio: 隋朝名将。588 年伐陈先锋,克建康,俘陈后主。
+sources:
+- 隋书·韩擒虎传
+wikidata_id: "Q11664068"
+wikipedia_zh: "韩擒虎"
+image: "https://upload.wikimedia.org/wikipedia/commons/a/aa/%E9%9F%93%E6%93%92%E8%99%8E.jpeg"
+image_license: "Public domain"
+image_credit: "王圻（明）／編者:王思義（明）"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%9F%93%E6%93%92%E8%99%8E.jpeg"

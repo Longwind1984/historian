@@ -1,0 +1,24 @@
+id: p_wang_wei
+type: Person
+name: 王维
+alias:
+- 王摩诘
+courtesy_name: 摩诘
+born:
+  year: 701
+died:
+  year: 761
+gender: male
+roles:
+- literatus
+importance: 2
+birthplace: pl_qi_wangwei
+bio: 盛唐诗人、画家。'诗佛'。安史之乱中受伪职,乱后定罪获赦。'空山新雨后'。
+sources:
+- 旧唐书·文苑传·王维
+wikidata_id: "Q313605"
+wikipedia_zh: "王维"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Wang_Wei.jpg/500px-Wang_Wei.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wang_Wei.jpg"

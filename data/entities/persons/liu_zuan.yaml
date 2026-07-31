@@ -1,0 +1,28 @@
+id: p_liu_zuan
+type: Person
+name: 刘缵
+alias:
+- 汉质帝
+- 质帝
+born:
+  year: 138
+died:
+  year: 146
+reign_start:
+  year: 145
+reign_end:
+  year: 146
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_donghan
+bio: 章帝玄孙，八岁即位。因当廷称梁冀为'跋扈将军'，为梁冀所鸩杀。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉质帝
+  regime: 东汉
+wikidata_id: "Q7293"
+wikipedia_zh: "汉质帝"

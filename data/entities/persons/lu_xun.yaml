@@ -1,0 +1,21 @@
+id: p_lu_xun
+type: Person
+name: 陆逊
+alias:
+- 陆伯言
+courtesy_name: 伯言
+born:
+  year: 183
+died:
+  year: 245
+gender: male
+birthplace: pl_wu_xian_luxun
+bio: 东吴名将。222 夷陵之战火烧连营,大破刘备。后任丞相。
+sources:
+- 三国志·吴书·陆逊传
+wikidata_id: "Q378492"
+wikipedia_zh: "陸遜"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/de/LuXun.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:LuXun.jpg"

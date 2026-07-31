@@ -1,0 +1,23 @@
+id: k_qin
+type: Polity
+name: 秦朝
+name_en: Qin
+color: '#c0392b'
+founded:
+  year: -221
+ended:
+  year: -207
+capital: pl_xianyang_qin
+description: 中国第一个大一统帝国。BC221 秦始皇完成统一,BC207 子婴降刘邦。
+sources:
+- 史记·秦始皇本纪
+- 汉书
+founder: p_ying_zheng
+ended_by: k_xihan
+territory:
+- valid_from:
+    year: -221
+  valid_to:
+    year: -206
+  geojson_file: chgis_qin.geojson
+  note: CHGIS V5 prefecture polygons

@@ -1,0 +1,31 @@
+id: p_zhuge_liang
+type: Person
+name: 诸葛亮
+alias:
+- 诸葛孔明
+- 卧龙
+- 诸葛武侯
+courtesy_name: 孔明
+born:
+  year: 181
+died:
+  year: 234
+  month: 8
+gender: male
+roles:
+- civil_official
+- general
+importance: 1
+birthplace: pl_yangdu_zhuge
+bio: 蜀汉丞相。琅琊阳都人。207 三顾后出山。'隆中对'。221 任丞相。223 受托孤。225 平南中(七擒孟获)。227-234 五次北伐曹魏。234 病逝于五丈原。'鞠躬尽瘁,死而后已'。
+ext:
+  significance: 中国历史上忠臣与智慧的化身。
+sources:
+- 三国志·蜀书·诸葛亮传
+- 资治通鉴·卷65-72
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/%E8%9C%80%E6%B1%89%E4%B8%9E%E7%9B%B8%E5%BF%A0%E6%AD%A6%E4%BE%AF%E8%AF%B8%E8%91%9B%E4%BA%AE.jpg/500px-%E8%9C%80%E6%B1%89%E4%B8%9E%E7%9B%B8%E5%BF%A0%E6%AD%A6%E4%BE%AF%E8%AF%B8%E8%91%9B%E4%BA%AE.jpg"
+wikidata_id: "Q198211"
+wikipedia_zh: "诸葛亮"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%9C%80%E6%B1%89%E4%B8%9E%E7%9B%B8%E5%BF%A0%E6%AD%A6%E4%BE%AF%E8%AF%B8%E8%91%9B%E4%BA%AE.jpg"

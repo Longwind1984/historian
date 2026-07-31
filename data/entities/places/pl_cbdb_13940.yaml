@@ -1,0 +1,12 @@
+id: pl_cbdb_13940
+type: Place
+name: 邵武軍
+modern_name: 邵武軍
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.337692
+longitude: 117.483398
+first_year: 980
+last_year: 1279
+description: CBDB 行政类型:Jun

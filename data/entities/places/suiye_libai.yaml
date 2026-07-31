@@ -1,0 +1,13 @@
+id: pl_suiye_libai
+type: Place
+name: 碎叶
+modern_name: 托克马克
+province: 吉尔吉斯斯坦
+latitude: 42.84
+longitude: 75.3
+category: city
+description: 李白出生地
+sources:
+- 旧唐书
+- 隋书
+- 中国历史地图集

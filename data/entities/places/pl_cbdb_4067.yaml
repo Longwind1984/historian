@@ -1,0 +1,10 @@
+id: pl_cbdb_4067
+type: Place
+name: 荊州
+modern_name: 荊州
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 908
+last_year: 1121
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,34 @@
+id: p_gaozong
+type: Person
+name: 赵构
+alias:
+- 宋高宗
+courtesy_name: 德基
+born:
+  year: 1107
+  month: 6
+died:
+  year: 1187
+  month: 11
+reign_start:
+  year: 1127
+reign_end:
+  year: 1162
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_kaifeng
+bio: 宋高宗。徽宗第九子,靖康之变中唯一逃脱的近支皇族。1127 南京应天府即位,改元建炎,南渡。1138 定都临安。1140 岳飞郾城大捷后下十二金牌召还。1141
+  绍兴和议称臣于金,杀岳飞。1162 禅位孝宗。81 岁善终。
+sources:
+- 宋史·高宗本纪
+ext:
+  title: 宋高宗
+  regime: 南宋
+wikidata_id: "Q7489"
+wikipedia_zh: "宋高宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Gaozong_Of_Song.jpg/500px-Gaozong_Of_Song.jpg"
+image_license: "Public domain"
+image_credit: "anonymous"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Gaozong_Of_Song.jpg"

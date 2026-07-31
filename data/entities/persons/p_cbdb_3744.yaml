@@ -1,0 +1,14 @@
+id: p_cbdb_3744
+type: Person
+name: 司馬浩
+born:
+  year: 968
+died:
+  year: 1030
+gender: male
+birthplace: pl_cbdb_11938
+dynasty_ref: k_beisong
+bio: CBDB ID 3744
+name_en: Sima Hao
+sources:
+- CBDB (China Biographical Database)

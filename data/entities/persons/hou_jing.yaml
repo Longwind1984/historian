@@ -1,0 +1,21 @@
+id: p_hou_jing
+type: Person
+name: 侯景
+born:
+  year: 503
+died:
+  year: 552
+gender: male
+birthplace: pl_huaixian_houjing
+bio: 朔方人,羯族。原东魏将领,547 叛降梁。548 起兵围台城,549 破之,萧衍饿死。551 自立为帝,国号汉。552 为陈霸先、王僧辩所破,被部下所杀。
+ext:
+  significance: 南朝转折性事件,江南经济文化大破坏。
+sources:
+- 梁书·侯景传
+- 南史·贼臣传
+wikidata_id: "Q890338"
+wikipedia_zh: "侯景"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/%E4%BE%AF%E6%99%AF%EF%BC%88%E5%8D%97%E5%8F%B2%E6%BC%94%E7%BE%A9%EF%BC%89.jpg/500px-%E4%BE%AF%E6%99%AF%EF%BC%88%E5%8D%97%E5%8F%B2%E6%BC%94%E7%BE%A9%EF%BC%89.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E4%BE%AF%E6%99%AF%EF%BC%88%E5%8D%97%E5%8F%B2%E6%BC%94%E7%BE%A9%EF%BC%89.jpg"

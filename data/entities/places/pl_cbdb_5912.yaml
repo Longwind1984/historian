@@ -1,0 +1,12 @@
+id: pl_cbdb_5912
+type: Place
+name: 銅梁
+modern_name: 銅梁
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.852438
+longitude: 106.041748
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

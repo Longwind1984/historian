@@ -1,0 +1,11 @@
+id: pl_tongzhou
+type: Place
+name: 同州
+modern_name: 大荔
+province: 陕西
+latitude: 34.8
+longitude: 109.94
+category: city
+description: 朱温降唐时治所
+sources:
+- 旧唐书·地理志

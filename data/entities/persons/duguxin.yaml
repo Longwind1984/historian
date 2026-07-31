@@ -1,0 +1,25 @@
+id: p_duguxin
+type: Person
+name: 独孤信
+alias:
+- 独孤如愿
+courtesy_name: 期弥头
+born:
+  year: 503
+died:
+  year: 557
+  month: 4
+gender: male
+birthplace: pl_yuncheng_gu
+bio: 西魏八大柱国之一。三女皆为皇后(北周明敬后、隋文献后、唐元贞后),中国历史独一无二。关陇集团核心。
+ext:
+  significance: 关陇集团联姻政治的极致体现。
+sources:
+- 周书·独孤信传
+- 陈寅恪·唐代政治史述论稿
+wikidata_id: "Q6131181"
+wikipedia_zh: "独孤信"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Du_Guxin_epitaph.jpg/500px-Du_Guxin_epitaph.jpg"
+image_license: "Public domain"
+image_credit: "Artist: 7th century artist in China. Photographer: unknown"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Du_Guxin_epitaph.jpg"

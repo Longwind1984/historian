@@ -1,0 +1,35 @@
+id: p_wanyanwuqimai
+type: Person
+name: 完颜吴乞买
+alias:
+- 完颜晟
+- 金太宗
+- 吴乞买
+born:
+  year: 1075
+died:
+  year: 1135
+  month: 2
+reign_start:
+  year: 1123
+reign_end:
+  year: 1135
+gender: male
+birthplace: pl_huining_wya
+roles:
+- emperor
+importance: 2
+dynasty_ref: k_jin
+bio: 金朝第二代。阿骨打弟。1125 灭辽。两度伐宋(1125、1126),1127 灭北宋(靖康之变)。行猛安谋克、迁都之议起。
+ext:
+  title: 金太宗
+  regime: 金
+sources:
+- 金史·太宗本纪
+- 金史
+wikidata_id: "Q5070"
+wikipedia_zh: "金太宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Wanyan_Wuqimai.jpg/500px-Wanyan_Wuqimai.jpg"
+image_license: "CC BY-SA 3.0"
+image_credit: "Slb nsk"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wanyan_Wuqimai.jpg"

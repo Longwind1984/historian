@@ -1,0 +1,20 @@
+id: p_zenggong
+type: Person
+name: 曾巩
+courtesy_name: 子固
+born:
+  year: 1019
+died:
+  year: 1083
+  month: 4
+gender: male
+birthplace: pl_nanfeng_zeng
+bio: 北宋文学家,唐宋八大家之一。欧阳修门生。
+sources:
+- 宋史·曾巩传
+wikidata_id: "Q1275360"
+wikipedia_zh: "曾巩"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Zeng_Gong.jpg/500px-Zeng_Gong.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zeng_Gong.jpg"

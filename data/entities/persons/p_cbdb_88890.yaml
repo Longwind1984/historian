@@ -1,0 +1,13 @@
+id: p_cbdb_88890
+type: Person
+name: 康有為
+born:
+  year: 1858
+died:
+  year: 1927
+gender: male
+birthplace: pl_cbdb_8386
+bio: CBDB ID 88890
+name_en: Kang Youwei
+sources:
+- CBDB (China Biographical Database)

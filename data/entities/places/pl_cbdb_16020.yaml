@@ -1,0 +1,12 @@
+id: pl_cbdb_16020
+type: Place
+name: 福唐
+modern_name: 福唐
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.719851
+longitude: 119.386125
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

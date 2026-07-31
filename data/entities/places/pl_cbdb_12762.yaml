@@ -1,0 +1,12 @@
+id: pl_cbdb_12762
+type: Place
+name: 上虞
+modern_name: 上虞
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.952654
+longitude: 120.973587
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

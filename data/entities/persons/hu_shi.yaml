@@ -1,0 +1,25 @@
+id: p_hu_shi
+type: Person
+name: 胡适
+alias:
+- 胡适之
+courtesy_name: 适之
+born:
+  year: 1891
+died:
+  year: 1962
+gender: male
+roles:
+- scholar
+- literatus
+importance: 2
+bio: 安徽绩溪人，生于上海，近代思想家、学者。1910 年赴美留学，师从杜威习哲学。1917 年回国任北京大学教授，在《新青年》发表《文学改良刍议》，倡白话文，为新文化运动核心人物。1938-1942 年任驻美大使。1946 年任北京大学校长。1949 年赴美，1958 年任台湾"中央研究院"院长。著《中国哲学史大纲》《白话文学史》等。1962 年病逝于台北。
+sources:
+- 中华民国史·胡适传
+- 耿云志·胡适年谱
+wikidata_id: "Q47667"
+wikipedia_zh: "胡適"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Hu_Shih_1960_color.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hu_Shih_1960_color.jpg"

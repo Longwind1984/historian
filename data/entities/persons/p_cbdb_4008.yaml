@@ -1,0 +1,14 @@
+id: p_cbdb_4008
+type: Person
+name: 吳津
+born:
+  year: 1133
+died:
+  year: 1196
+gender: male
+birthplace: pl_cbdb_12798
+dynasty_ref: k_beisong
+bio: CBDB ID 4008
+name_en: Wu Jin
+sources:
+- CBDB (China Biographical Database)

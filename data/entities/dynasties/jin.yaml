@@ -1,0 +1,17 @@
+id: d_jin
+type: Dynasty
+name: 晋
+name_en: Jin
+founded:
+  year: 265
+  month: 12
+ended:
+  year: 420
+  month: 6
+last_capital: pl_jianye
+description: 晋朝。265年司马炎代魏建西晋,都洛阳,280年灭吴一统。316年西晋亡于汉赵(永嘉之乱)。317年司马睿建东晋,都建康。420年刘裕代晋建宋,晋亡。两晋合并计,门阀政治与南北分裂之始。
+period_label: 两晋
+sources:
+- 晋书
+- 资治通鉴
+founder: p_simayan

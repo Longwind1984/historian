@@ -1,0 +1,12 @@
+id: pl_cbdb_15852
+type: Place
+name: 江夏
+modern_name: 江夏
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.57367
+longitude: 114.306655
+first_year: 622
+last_year: 959
+description: CBDB 行政类型:Xian

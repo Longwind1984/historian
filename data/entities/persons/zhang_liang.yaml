@@ -1,0 +1,23 @@
+id: p_zhang_liang
+type: Person
+name: 张良
+alias:
+- 张子房
+- 留侯
+courtesy_name: 子房
+died:
+  year: -189
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_chengliu_zhangliang
+bio: 汉初三杰之一。祖父五代相韩。'运筹帷幄之中,决胜千里之外'。BC218 博浪沙刺秦皇。BC209 从刘邦。BC206 鸿门宴救刘邦。BC202 垓下之战前劝刘邦封韩信为王。功成身退。
+sources:
+- 史记·留侯世家
+wikidata_id: "Q701326"
+wikipedia_zh: "张良"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Zhang_Liang.jpg/500px-Zhang_Liang.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhang_Liang.jpg"

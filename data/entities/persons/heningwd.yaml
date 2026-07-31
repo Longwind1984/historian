@@ -1,0 +1,19 @@
+id: p_heningwd
+type: Person
+name: 和凝
+gender: male
+courtesy_name: 成绩
+born:
+  year: 898
+died:
+  year: 955
+roles:
+- civil_official
+- literatus
+importance: 3
+bio: 历后梁至后周五朝,后晋时同中书门下平章事。少年好为艳词,时号「曲子相公」;又撰《疑狱集》,为中国现存最早的案例法书之一。
+sources:
+- 旧五代史·和凝传
+- 新五代史
+wikidata_id: "Q10921370"
+wikipedia_zh: "和凝"

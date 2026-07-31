@@ -1,0 +1,9 @@
+{
+  "name": "history-kb-edgeone",
+  "private": true,
+  "version": "1.4.0",
+  "scripts": {
+    "build": "python3 scripts/validate_data.py && npm run build --prefix frontend && python3 scripts/build_edgeone.py",
+    "build:safe": "EDGEONE_DISTRIBUTION_PROFILE=safe VITE_RESTRICTED_MAPS=0 npm run build"
+  }
+}

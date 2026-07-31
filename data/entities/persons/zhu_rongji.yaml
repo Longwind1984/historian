@@ -1,0 +1,19 @@
+id: p_zhu_rongji
+type: Person
+name: 朱镕基
+born:
+  year: 1928
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 湖南长沙人。1998至2003年任国务院总理，主持国有企业、分税制、住房与金融体制改革，推动中国加入世界贸易组织的谈判。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q18285"
+wikipedia_zh: "朱镕基"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Zhu_Rongji_1986.jpg/500px-Zhu_Rongji_1986.jpg"
+image_license: "CC BY-SA 2.0"
+image_credit: "World Economic Forum from Cologny, Switzerland"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhu_Rongji_1986.jpg"

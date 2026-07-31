@@ -1,0 +1,16 @@
+id: pl_yangzhou
+type: Place
+name: 扬州
+modern_name: 扬州
+province: 江苏
+latitude: 32.39
+longitude: 119.42
+category: capital
+description: 杨吴旧都
+aliases:
+- 广陵
+- 江都
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

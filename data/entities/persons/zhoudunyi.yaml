@@ -1,0 +1,20 @@
+id: p_zhoudunyi
+type: Person
+name: 周敦颐
+courtesy_name: 茂叔
+born:
+  year: 1017
+died:
+  year: 1073
+  month: 7
+gender: male
+birthplace: pl_daozhou_zhou
+bio: 北宋理学开山。著《太极图说》《通书》,融合儒道,提出'无极而太极'宇宙论,为程朱理学奠基。
+sources:
+- 宋史·道学传·周敦颐
+wikidata_id: "Q197962"
+wikipedia_zh: "周敦颐"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/%E5%AE%8B%E6%8F%90%E5%88%91%E5%91%A8%E6%95%A6%E9%A2%90.jpg/500px-%E5%AE%8B%E6%8F%90%E5%88%91%E5%91%A8%E6%95%A6%E9%A2%90.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E6%8F%90%E5%88%91%E5%91%A8%E6%95%A6%E9%A2%90.jpg"

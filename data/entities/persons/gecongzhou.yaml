@@ -1,0 +1,14 @@
+id: p_gecongzhou
+type: Person
+name: 葛从周
+gender: male
+died:
+  year: 914
+roles:
+- general
+importance: 3
+bio: 朱温麾下第一名将,「山东一条葛」。破朱瑄朱瑾、败李克用、平刘仁恭,为后梁开国之基。晚年病废,得以善终。
+sources:
+- 旧五代史·葛从周传
+wikidata_id: "Q5529417"
+wikipedia_zh: "葛從周"

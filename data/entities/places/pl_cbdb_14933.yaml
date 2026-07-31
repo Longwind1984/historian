@@ -1,0 +1,12 @@
+id: pl_cbdb_14933
+type: Place
+name: 離狐
+modern_name: 離狐
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.376454
+longitude: 115.233656
+first_year: 621
+last_year: 741
+description: CBDB 行政类型:Xian

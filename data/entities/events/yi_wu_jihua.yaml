@@ -1,0 +1,14 @@
+id: e_yi_wu_jihua
+name: 第一个五年计划
+type: Event
+date:
+  year: 1953
+end_date:
+  year: 1957
+category: reform
+importance: 2
+description: 1953-1957年实施的国民经济发展计划,以发展重工业为重点,建设一批工业项目。
+impact: 初步建立起工业化基础。
+sources:
+- 中华人民共和国史
+- 当代中国史

@@ -1,0 +1,19 @@
+id: p_wen_jiabao
+type: Person
+name: 温家宝
+born:
+  year: 1942
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 天津人。2003至2013年任国务院总理，任内应对非典疫情、汶川地震及国际金融危机。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q16628"
+wikipedia_zh: "温家宝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wen_Jiabao_-_Annual_Meeting_of_the_New_Champions_2012.jpg/500px-Wen_Jiabao_-_Annual_Meeting_of_the_New_Champions_2012.jpg"
+image_license: "CC BY-SA 2.0"
+image_credit: "World Economic Forum"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wen_Jiabao_-_Annual_Meeting_of_the_New_Champions_2012.jpg"

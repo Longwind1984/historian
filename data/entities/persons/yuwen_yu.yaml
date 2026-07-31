@@ -1,0 +1,28 @@
+id: p_yuwen_yu
+type: Person
+name: 宇文毓
+alias:
+- 北周明帝
+born:
+  year: 534
+died:
+  year: 560
+reign_start:
+  year: 557
+reign_end:
+  year: 560
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_bei_zhou
+bio: 宇文泰长子。宇文护所立。有识度,护忌之,560年为护所鸩。
+ext:
+  title: 北周明帝
+  regime: 北周
+sources:
+- 周书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1196041"
+wikipedia_zh: "周明帝"

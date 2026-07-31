@@ -1,0 +1,14 @@
+id: p_cbdb_1324
+type: Person
+name: 呂陶
+born:
+  year: 1031
+died:
+  year: 1107
+gender: male
+birthplace: pl_cbdb_13291
+dynasty_ref: k_beisong
+bio: CBDB ID 1324
+name_en: Lü Tao
+sources:
+- CBDB (China Biographical Database)

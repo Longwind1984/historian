@@ -1,0 +1,25 @@
+id: p_liu_hu
+type: Person
+name: 刘祜
+alias:
+- 汉安帝
+- 安帝
+born:
+  year: 94
+died:
+  year: 125
+reign_start:
+  year: 106
+reign_end:
+  year: 125
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 章帝孙。邓太后临朝多年，太后崩后亲政而政事日非，羌乱大起。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉安帝
+  regime: 东汉

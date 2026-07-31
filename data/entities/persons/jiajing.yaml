@@ -1,0 +1,32 @@
+id: p_jiajing
+type: Person
+name: 朱厚熜
+alias:
+- 明世宗
+- 嘉靖
+born:
+  year: 1507
+died:
+  year: 1567
+  month: 1
+reign_start:
+  year: 1521
+reign_end:
+  year: 1567
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_beiping_zhudi
+bio: 明世宗。宪宗孙,兴献王子,正德堂弟。1521 入继大统。1521 大礼议。1550 庚戌之变(俺答犯京)。后期沉迷修道。
+sources:
+- 明史·世宗本纪
+ext:
+  title: 嘉靖帝
+  regime: 明
+wikidata_id: "Q10011"
+wikipedia_zh: "明世宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/0/07/%E6%98%8E%E4%B8%96%E5%AE%97.jpg"
+image_license: "Public domain"
+image_credit: "Imperial Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E4%B8%96%E5%AE%97.jpg"

@@ -1,0 +1,34 @@
+id: p_shizhonggui
+type: Person
+name: 石重贵
+alias:
+- 后晋出帝
+- 石孙
+- 石少保
+- 少帝
+born:
+  year: 914
+died:
+  year: 974
+gender: male
+birthplace: pl_taiyuan
+bio: 后晋出帝。石敬瑭侄。942 年即位,944 年起对契丹称孙不称臣,引发战争。947 年为契丹所俘,后晋亡。后流放辽东,974 年卒。
+sources:
+- 旧五代史·晋少帝纪
+- 新五代史·晋本纪
+- 资治通鉴·卷283-287
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 942
+reign_end:
+  year: 947
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后晋出帝
+  regime: 后晋
+wikidata_id: "Q1319472"
+wikipedia_zh: "石重贵"

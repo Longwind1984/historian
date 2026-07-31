@@ -1,0 +1,17 @@
+id: e_hongjinjun_qiyi
+type: Event
+name: 红巾军起义
+date:
+  year: 1351
+  month: 5
+category: rebellion
+importance: 2
+location: pl_yingzhou_liu
+polities_involved:
+- k_yuan
+description: 1351 五月刘福通、韩山童颍州起义。红巾为号。拥立韩林儿为小明王建宋。各路红巾军遍布全国。
+impact: 元朝崩溃直接原因。朱元璋原系红巾郭子兴部。
+sources:
+- 明史·韩林儿传
+end_date:
+  year: 1368

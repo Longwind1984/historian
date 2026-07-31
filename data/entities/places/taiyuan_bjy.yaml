@@ -1,0 +1,15 @@
+id: pl_taiyuan_bjy
+type: Place
+name: 太原
+modern_name: 太原
+province: 山西
+latitude: 37.77
+longitude: 112.55
+category: city
+description: 白居易祖籍
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴
+aliases:
+- 并州

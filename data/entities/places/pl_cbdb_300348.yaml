@@ -1,0 +1,12 @@
+id: pl_cbdb_300348
+type: Place
+name: 信陽衛
+modern_name: 信陽衛
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.13112
+longitude: 114.06924
+first_year: 1392
+last_year: 1643
+description: CBDB 行政类型:Wei

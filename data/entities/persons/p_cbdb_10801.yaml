@@ -1,0 +1,14 @@
+id: p_cbdb_10801
+type: Person
+name: 虞集
+born:
+  year: 1272
+died:
+  year: 1348
+gender: male
+birthplace: pl_cbdb_18539
+dynasty_ref: k_yuan
+bio: CBDB ID 10801
+name_en: Yu Ji (2)
+sources:
+- CBDB (China Biographical Database)

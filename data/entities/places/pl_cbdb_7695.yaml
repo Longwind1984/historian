@@ -1,0 +1,12 @@
+id: pl_cbdb_7695
+type: Place
+name: 合肥
+modern_name: 合肥
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.864456177
+longitude: 117.27645874
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

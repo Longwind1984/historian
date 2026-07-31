@@ -1,0 +1,12 @@
+id: pl_cbdb_13979
+type: Place
+name: 翁源
+modern_name: 翁源
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.480482
+longitude: 114.085322
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

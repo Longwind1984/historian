@@ -1,0 +1,12 @@
+id: pl_cbdb_16927
+type: Place
+name: 容城
+modern_name: 容城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.051655
+longitude: 115.865715
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Xian

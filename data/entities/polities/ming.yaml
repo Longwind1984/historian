@@ -1,0 +1,26 @@
+id: k_ming
+type: Polity
+name: 明
+name_en: Ming
+color: '#c0392b'
+founded:
+  year: 1368
+  month: 1
+ended:
+  year: 1644
+  month: 3
+capital: pl_beijing_qing
+description: 明朝。朱元璋建。1368 北伐克大都。1644 李自成入京,崇祯自缢。
+sources:
+- 明史
+founder: p_zhuyuanzhang
+supplanted: k_yuan
+ended_by: k_qing
+territory:
+- valid_from:
+    year: 1368
+  valid_to:
+    year: 1644
+  geojson_file: chgis_ming.geojson
+  note: CHGIS V5 prefecture polygons
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Ming Dynasty map.jpg

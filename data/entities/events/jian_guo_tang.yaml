@@ -1,0 +1,20 @@
+id: e_jian_guo_tang
+type: Event
+name: 唐朝建立
+date:
+  year: 618
+  month: 5
+category: founding
+importance: 1
+march:
+- from: pl_taiyuan
+  to: pl_daxing
+  note: 617年李渊自太原起兵，进攻并攻克长安；此段只记晋阳起兵至入长安的建唐前置军事阶段，不把618年受禅建国概括成行军。《旧唐书·高祖本纪》《资治通鉴·卷185》
+location: pl_daxing
+polities_involved:
+- k_tang
+description: 617 年李渊太原起兵,攻克长安,立代王杨侑为帝(隋恭帝)。618 年炀帝被弑,李渊受禅称帝,国号唐,改元武德。
+impact: 唐朝(618-907)开始,中国历史上影响最深远的朝代之一。
+sources:
+- 旧唐书·高祖本纪
+- 资治通鉴·卷185

@@ -1,0 +1,12 @@
+id: pl_cbdb_5500
+type: Place
+name: 分宜
+modern_name: 分宜
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.767023
+longitude: 114.693603
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

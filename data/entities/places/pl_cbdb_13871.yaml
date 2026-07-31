@@ -1,0 +1,12 @@
+id: pl_cbdb_13871
+type: Place
+name: 福清
+modern_name: 福清
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.727917
+longitude: 119.381439
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

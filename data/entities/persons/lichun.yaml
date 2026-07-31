@@ -1,0 +1,34 @@
+id: p_lichun
+type: Person
+name: 李纯
+alias:
+- 唐宪宗
+- 宪宗
+born:
+  year: 778
+died:
+  year: 820
+  month: 2
+gender: male
+birthplace: pl_chang_an
+bio: 唐宪宗。805-820 在位。发动元和削藩(806-819),先后平西川刘辟、镇海李锜、淮西吴元济、淄青李师道,河朔三镇名义归附,史称'元和中兴'。晚年信佛服丹药,为宦官所弑。
+ext:
+  significance: 晚唐最杰出的君主,短暂重建中央权威。
+  title: 唐宪宗
+  regime: 唐
+sources:
+- 旧唐书·宪宗纪
+- 新唐书·宪宗本纪
+- 资治通鉴·卷237-241
+- 旧唐书
+- 新唐书
+- 资治通鉴
+reign_start:
+  year: 805
+reign_end:
+  year: 820
+roles:
+- emperor
+importance: 2
+wikidata_id: "Q9761"
+wikipedia_zh: "唐宪宗"

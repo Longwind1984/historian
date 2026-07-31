@@ -1,0 +1,12 @@
+id: pl_cbdb_4690
+type: Place
+name: 婺源
+modern_name: 婺源
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.244728
+longitude: 117.844589
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

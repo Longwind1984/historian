@@ -1,0 +1,29 @@
+id: p_liu_xiu
+type: Person
+name: 刘秀
+alias:
+- 汉光武帝
+born:
+  year: 5
+died:
+  year: 57
+  month: 3
+reign_start:
+  year: 25
+reign_end:
+  year: 57
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_caiyang_liuxiu
+bio: 东汉建立者。刘邦九世孙。22 起兵反新莽。23 昆阳之战以 8000 破王莽 42 万(天文陨石助之)。25 称帝,建元建武,都洛阳。25-57 在位,平定群雄,统一全国。'光武中兴'。
+ext:
+  significance: 中国历史上'允冠百王'。
+  title: 汉光武帝
+  regime: 东汉
+sources:
+- 后汉书·光武帝纪
+- 资治通鉴·卷38-44
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Emperor Guangwu of Han.jpg
+wikidata_id: "Q45633197"

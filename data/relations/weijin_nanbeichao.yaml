@@ -1,0 +1,582 @@
+- from: p_cao_cao
+  to: p_cao_pi
+  type: father_of
+  since:
+    year: 187
+- from: p_cao_cao
+  to: p_cao_rui
+  type: grandfather_of
+  note: 经曹丕,魏明帝曹叡
+- from: p_cao_cao
+  to: p_caocao_sons
+  type: father_of
+  since:
+    year: 192
+- from: p_cao_pi
+  to: p_cao_rui
+  type: father_of
+- from: p_cao_pi
+  to: k_caowei
+  type: founded
+  since:
+    year: 220
+    month: 12
+  note: 代汉建魏
+- from: p_cao_rui
+  to: k_caowei
+  type: succeeded_by
+  note: 魏明帝,曹丕之子
+  since:
+    year: 226
+    month: 6
+  until:
+    year: 239
+    month: 1
+- from: p_cao_cao
+  to: p_xun_yu
+  type: served_under
+  since:
+    year: 191
+  until:
+    year: 212
+  note: 首席谋臣
+- from: p_xun_you
+  to: p_cao_cao
+  type: served_under
+  note: 军师,从征河北,计斩颜良
+  since:
+    year: 196
+  until:
+    year: 214
+- from: p_guo_jia
+  to: p_cao_cao
+  type: served_under
+  note: 军师祭酒,多奇谋,早卒
+  since:
+    year: 196
+  until:
+    year: 207
+- from: p_jia_xu
+  to: p_cao_cao
+  type: served_under
+  note: 谋士,原从张绣,后归曹
+  since:
+    year: 199
+  until:
+    year: 220
+    month: 3
+- from: p_simayi
+  to: p_cao_cao
+  type: served_under
+  note: 文学掾,佐曹丕,后专魏政
+  since:
+    year: 208
+  until:
+    year: 220
+    month: 3
+- from: p_xiahou_dun
+  to: p_cao_cao
+  type: served_under
+  note: 族弟,镇守后方,官至大将军
+  since:
+    year: 189
+  until:
+    year: 220
+    month: 3
+- from: p_xiahou_yuan
+  to: p_cao_cao
+  type: served_under
+  note: 督关中定凉州,战死定军山
+  since:
+    year: 189
+  until:
+    year: 219
+- from: p_zhang_liao
+  to: p_cao_cao
+  type: served_under
+  note: 降曹后镇合肥,逍遥津破孙权
+  since:
+    year: 199
+  until:
+    year: 220
+    month: 3
+- from: p_xu_huang
+  to: p_cao_cao
+  type: served_under
+  note: 归曹后为名将,樊城败关羽
+  since:
+    year: 196
+  until:
+    year: 220
+    month: 3
+- from: p_cao_cao
+  to: e_guandu_zhizhan
+  type: led
+  since:
+    year: 200
+    month: 2
+  note: 大破袁绍
+- from: p_cao_cao
+  to: e_chibi_zhizhan
+  type: led
+  since:
+    year: 208
+    month: 12
+  note: 战败
+- from: p_simayi
+  to: p_sima_shi
+  type: father_of
+  since:
+    year: 208
+- from: p_simayi
+  to: p_sima_zhao
+  type: father_of
+  since:
+    year: 211
+- from: p_sima_zhao
+  to: p_simayan
+  type: father_of
+  since:
+    year: 236
+- from: p_simayi
+  to: e_sijima_dai_wei
+  type: participated_in
+  since:
+    year: 249
+    month: 2
+  until:
+    year: 251
+    month: 9
+  note: 高平陵之变
+- from: p_sima_shi
+  to: e_sijima_dai_wei
+  type: participated_in
+  note: 废曹芳,立曹髦
+  since:
+    year: 251
+    month: 3
+  until:
+    year: 255
+    month: 3
+- from: p_sima_zhao
+  to: e_sijima_dai_wei
+  type: participated_in
+  note: 弑曹髦,灭蜀,加晋王
+  since:
+    year: 255
+    month: 3
+  until:
+    year: 265
+    month: 9
+- from: p_sima_zhao
+  to: p_liu_shan
+  type: killed
+  note: 灭蜀(263,邓艾)
+- from: p_simayan
+  to: k_xijin
+  type: founded
+  since:
+    year: 266
+    month: 2
+  note: 代魏建晋
+- from: p_simayan
+  to: k_caowei
+  type: usurped
+  note: 代魏建晋,是为晋武帝
+  since:
+    year: 266
+    month: 2
+- from: p_simayan
+  to: p_simazhong
+  type: father_of
+  since:
+    year: 259
+- from: p_liu_bei
+  to: p_liu_shan
+  type: father_of
+  since:
+    year: 207
+- from: p_liu_bei
+  to: k_shuhan
+  type: founded
+  note: 称帝于成都,续汉统
+  since:
+    year: 221
+    month: 4
+- from: p_liu_bei
+  to: p_zhuge_liang
+  type: served_under
+  since:
+    year: 207
+  until:
+    year: 223
+    month: 4
+  note: 托孤
+- from: p_liu_bei
+  to: p_guan_yu
+  type: served_under
+  since:
+    year: 184
+  until:
+    year: 220
+    month: 1
+  note: 桃园
+- from: p_zhang_fei
+  to: p_liu_bei
+  type: served_under
+  note: 情同兄弟,镇守阆中
+  since:
+    year: 184
+  until:
+    year: 221
+- from: p_zhao_yun
+  to: p_liu_bei
+  type: served_under
+  note: 救主于长坂,翊军将军
+  since:
+    year: 200
+  until:
+    year: 223
+    month: 4
+- from: p_liu_bei
+  to: e_yiling_zhizhan
+  type: led
+  since:
+    year: 222
+    month: 8
+  note: 战败
+- from: p_zhuge_liang
+  to: e_qishan_beifa
+  type: led
+  since:
+    year: 227
+    month: 3
+  until:
+    year: 234
+    month: 8
+  note: 五次北伐
+- from: p_liu_shan
+  to: p_zhuge_liang
+  type: served_under
+  since:
+    year: 223
+    month: 4
+  until:
+    year: 234
+    month: 8
+  note: 丞相
+- from: p_jiang_wei
+  to: p_liu_shan
+  type: served_under
+  note: 继志北伐,九伐中原
+  since:
+    year: 234
+    month: 8
+  until:
+    year: 263
+    month: 11
+- from: p_sun_jian
+  to: p_sun_ce
+  type: father_of
+  since:
+    year: 175
+- from: p_sun_jian
+  to: p_sun_quan
+  type: father_of
+  since:
+    year: 182
+- from: p_sun_ce
+  to: p_sun_quan
+  type: sibling_of
+  note: 兄弟
+- from: p_sun_quan
+  to: k_dongwu
+  type: founded
+  since:
+    year: 222
+  note: 222 称王,229 称帝
+- from: p_zhou_yu
+  to: p_sun_quan
+  type: served_under
+  note: 建威中郎将,赤壁破曹,早卒
+  since:
+    year: 200
+    month: 4
+  until:
+    year: 210
+    month: 12
+- from: p_lu_su
+  to: p_sun_quan
+  type: served_under
+  note: 赞军校尉,主孙刘联盟
+  since:
+    year: 200
+    month: 4
+  until:
+    year: 217
+- from: p_lv_meng
+  to: p_sun_quan
+  type: served_under
+  note: 代鲁肃,白衣渡江取荆州
+  until:
+    year: 220
+- from: p_lu_xun
+  to: p_sun_quan
+  type: served_under
+  note: 猇亭破刘备,后任丞相,被逼致死
+  until:
+    year: 245
+- from: p_zhou_yu
+  to: e_chibi_zhizhan
+  type: led
+  since:
+    year: 208
+    month: 12
+  note: 主帅
+- from: p_lu_xun
+  to: e_yiling_zhizhan
+  type: led
+  since:
+    year: 222
+    month: 8
+  note: 火烧连营
+- from: e_guandu_zhizhan
+  to: e_chibi_zhizhan
+  type: led_to
+  note: 北方统一→南下
+- from: e_chibi_zhizhan
+  to: e_yiling_zhizhan
+  type: led_to
+  note: 三国鼎立定型
+- from: p_simazhong
+  to: k_xijin
+  type: succeeded_by
+  since:
+    year: 290
+    month: 5
+  until:
+    year: 307
+    month: 1
+  note: 惠帝
+- from: p_simazhong
+  to: p_jia_nan_feng
+  type: spouse_of
+- from: p_jia_nan_feng
+  to: e_bawang_zhiluan
+  type: participated_in
+  since:
+    year: 291
+    month: 3
+  until:
+    year: 300
+    month: 5
+  note: 祸首
+- from: p_wang_dao
+  to: e_yiguan_nandu
+  type: participated_in
+  since:
+    year: 317
+    month: 3
+  note: 主导
+- from: p_xie_an
+  to: e_feishui_zhizhan
+  type: led
+  since:
+    year: 383
+    month: 11
+  note: 总指挥
+- from: p_liu_yuan
+  to: k_hanzhao
+  type: founded
+  note: 匈奴酋长,称汉王反晋
+  since:
+    year: 304
+    month: 10
+- from: p_shi_le
+  to: k_houzhao
+  type: founded
+  note: 羯人,灭前赵称帝
+  since:
+    year: 319
+    month: 11
+- from: p_fu_jian
+  to: k_qian_qin
+  type: succeeded_by
+  note: 前秦天王,统一北方,淝水败后国亡
+  since:
+    year: 357
+    month: 6
+  until:
+    year: 385
+    month: 10
+- from: p_fu_jian
+  to: e_feishui_zhizhan
+  type: led
+  since:
+    year: 383
+    month: 11
+  note: 战败
+- from: p_liu_yu
+  to: k_liusong
+  type: founded
+  since:
+    year: 420
+    month: 7
+  note: 代晋建宋
+- from: p_liu_yu
+  to: k_dongjin
+  type: usurped
+  note: 代晋建宋,是为宋武帝
+  since:
+    year: 420
+    month: 7
+- from: p_xiao_yan
+  to: k_nan_liang
+  type: founded
+  note: 代齐建梁,是为梁武帝
+  since:
+    year: 502
+    month: 4
+- from: p_xiao_yan
+  to: e_houjing_zhiluan
+  type: participated_in
+  since:
+    year: 548
+    month: 8
+  until:
+    year: 549
+    month: 5
+  note: 被困饿死
+- from: p_hou_jing
+  to: e_houjing_zhiluan
+  type: participated_in
+  since:
+    year: 548
+    month: 8
+  until:
+    year: 552
+  note: 发动者
+- from: p_chen_baxian
+  to: e_houjing_zhiluan
+  type: participated_in
+  since:
+    year: 552
+  note: 平叛
+- from: p_chen_baxian
+  to: k_nan_chen
+  type: founded
+  note: 代梁建陈,是为陈武帝
+  since:
+    year: 557
+    month: 10
+- from: p_chen_shubao
+  to: k_nan_chen
+  type: succeeded_by
+  since:
+    year: 582
+  until:
+    year: 589
+    month: 1
+  note: 末代
+- from: p_tuoba_gui
+  to: k_beiwei
+  type: founded
+  note: 复代国改魏,称道武帝
+  since:
+    year: 386
+    month: 3
+- from: p_tuoba_hong
+  to: e_xiaowendi_hanhua
+  type: participated_in
+  since:
+    year: 494
+  note: 主导
+- from: p_tuoba_hong
+  to: k_beiwei
+  type: succeeded_by
+  since:
+    year: 471
+  until:
+    year: 499
+    month: 4
+  note: 孝文帝
+- from: p_er_zhu_rong
+  to: e_heyin_zhibian
+  type: participated_in
+  since:
+    year: 528
+    month: 4
+  note: 执行者
+- from: p_gao_huan
+  to: e_beiwei_fenlie
+  type: participated_in
+  since:
+    year: 534
+  note: 建东魏
+- from: p_gao_huan
+  to: k_dong_wei
+  type: founded
+  note: 拥孝静帝迁邺,实际掌权
+  since:
+    year: 534
+    month: 10
+- from: p_yuwen_yong
+  to: k_bei_zhou
+  type: succeeded_by
+  since:
+    year: 560
+  until:
+    year: 578
+    month: 6
+  note: 武帝
+- from: p_yuwen_yong
+  to: e_beizhou_mie_beiqi
+  type: led
+  since:
+    year: 577
+  note: 亲征灭齐
+- from: p_yuwen_jue
+  to: k_bei_zhou
+  type: founded
+  since:
+    year: 557
+    month: 1
+  note: 代西魏建周
+- from: e_liuzhen_zhiluan
+  to: f_guanlong
+  type: includes
+  note: 六镇武人是关陇集团前身
+- from: e_liuzhen_zhiluan
+  to: e_heyin_zhibian
+  type: led_to
+  note: 六镇乱→尔朱荣起
+- from: e_beizhou_mie_beiqi
+  to: e_yangjian_dai_zhou
+  type: led_to
+  note: 北周统一北方→杨坚代周
+- from: p_yuwen_jue
+  to: f_guanlong
+  type: member_of
+  note: 宇文泰之子,周孝闵帝
+  since:
+    year: 542
+  until:
+    year: 557
+- from: p_yuwen_yong
+  to: f_guanlong
+  type: member_of
+  note: 周武帝,灭佛,灭北齐
+  since:
+    year: 543
+  until:
+    year: 578
+    month: 6
+- from: p_gao_huan
+  to: f_heshuo
+  type: leader_of
+  since:
+    year: 528
+  until:
+    year: 547
+    month: 2
+  note: 怀朔镇出身,关联河朔系

@@ -1,0 +1,14 @@
+id: p_cbdb_24662
+type: Person
+name: 劉莊
+born:
+  year: 29
+died:
+  year: 76
+gender: male
+birthplace: pl_cbdb_14693
+dynasty_ref: k_donghan
+bio: CBDB ID 24662
+name_en: Liu Zhuang
+sources:
+- CBDB (China Biographical Database)

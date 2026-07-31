@@ -1,0 +1,13 @@
+id: f_daoxue_pai
+type: Faction
+name: 理学(道学)派
+nature: scholarly
+founded:
+  year: 1030
+core_region: pl_jiangnan
+description: 北宋周敦颐、张载、二程奠基;南宋朱熹集大成(闽学/程朱理学)、陆九渊创心学。元后程朱理学成科举定式。
+significance: 主导中国思想六七百年。
+peak_period: 1030-1279
+sources:
+- 宋史
+- 续资治通鉴长编

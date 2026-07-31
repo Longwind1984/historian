@@ -1,0 +1,14 @@
+id: p_cbdb_1094
+type: Person
+name: 李燾
+born:
+  year: 1115
+died:
+  year: 1184
+gender: male
+birthplace: pl_cbdb_13307
+dynasty_ref: k_beisong
+bio: CBDB ID 1094
+name_en: Li Tao
+sources:
+- CBDB (China Biographical Database)

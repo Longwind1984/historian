@@ -1,0 +1,12 @@
+id: pl_cbdb_101019
+type: Place
+name: 海州
+modern_name: 海州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.582214355
+longitude: 119.12601471
+first_year: 960
+last_year: 1250
+description: CBDB 行政类型:Zhou

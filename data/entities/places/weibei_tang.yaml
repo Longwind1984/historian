@@ -1,0 +1,13 @@
+id: pl_weibei_tang
+type: Place
+name: 渭北
+modern_name: 渭南
+province: 陕西
+latitude: 34.5
+longitude: 109.51
+category: city
+description: 李渊起兵地
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

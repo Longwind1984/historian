@@ -1,0 +1,14 @@
+id: pl_ningyuan
+type: Place
+name: 宁远
+modern_name: 兴城
+province: 辽宁
+latitude: 40.6
+longitude: 120.8
+category: battlefield
+description: 1626 宁远之战
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

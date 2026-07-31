@@ -1,0 +1,19 @@
+id: e_change_tanyue
+type: Event
+name: 嫦娥探月
+date:
+  year: 2007
+  month: 10
+end_date:
+  year: 2020
+  month: 12
+category: science
+polities_involved:
+- k_prc
+importance: 2
+description: 探月工程分"绕、落、回"三步。2007 年嫦娥一号绕月;2013 年嫦娥三号携玉兔号月面软着陆;2019 年嫦娥四号经鹊桥中继星实现人类首次月球背面软着陆;2020
+  年嫦娥五号自月面采样 1,731 克返回，为 1976 年苏联月球 24 号之后人类首次月球采样返回。
+impact: 三步走目标完成。月背着陆与采样返回为其中最具首创性者。
+sources:
+- 当代中国史
+- 中国航天年鉴

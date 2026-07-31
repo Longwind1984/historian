@@ -1,0 +1,12 @@
+id: pl_cbdb_14908
+type: Place
+name: 臨淄
+modern_name: 臨淄
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.864015
+longitude: 118.370405
+first_year: 625
+last_year: 959
+description: CBDB 行政类型:Xian

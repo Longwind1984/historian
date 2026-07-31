@@ -1,0 +1,15 @@
+id: p_juwenzhen
+type: Person
+name: 俱文珍
+gender: male
+died:
+  year: 813
+roles:
+- eunuch
+importance: 3
+bio: 唐宦官。805 顺宗中风失语,文珍等胁其内禅太子(永贞内禅),王叔文集团的永贞革新百余日而败,「二王八司马」尽贬。此为宦官废立之权的开端。
+sources:
+- 旧唐书·宦官传
+- 资治通鉴·卷236
+wikidata_id: "Q10888141"
+wikipedia_zh: "俱文珍"

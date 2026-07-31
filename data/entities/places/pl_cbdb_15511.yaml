@@ -1,0 +1,12 @@
+id: pl_cbdb_15511
+type: Place
+name: 鄧州
+modern_name: 鄧州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.25882
+longitude: 104.2259
+first_year: 619
+last_year: 959
+description: CBDB 行政类型:Zhou

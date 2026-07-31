@@ -1,0 +1,12 @@
+id: pl_cbdb_13320
+type: Place
+name: 彭州
+modern_name: 彭州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.99187851
+longitude: 103.94506836
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

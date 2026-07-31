@@ -1,0 +1,20 @@
+id: e_xin_hai_ge_ming
+type: Event
+name: 辛亥革命
+date:
+  year: 1911
+  month: 10
+category: rebellion
+importance: 1
+location: pl_wuchang_xinhai
+polities_involved:
+- k_qing
+- k_minguo
+description: 1911.10.10 武昌起义,各省响应。1912.1.1 孙中山就任临时大总统,中华民国建立。1912.2.12 隆裕太后颁《退位诏书》,清亡,帝制终结。
+impact: 结束两千多年帝制,中国进入共和时代。
+sources:
+- 清史稿·宣统本纪
+- 中华民国史
+end_date:
+  year: 1912
+  month: 2

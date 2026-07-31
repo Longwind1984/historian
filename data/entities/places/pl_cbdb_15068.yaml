@@ -1,0 +1,12 @@
+id: pl_cbdb_15068
+type: Place
+name: 汾州
+modern_name: 汾州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.263405
+longitude: 111.77903
+first_year: 620
+last_year: 959
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,12 @@
+id: pl_cbdb_17395
+type: Place
+name: 沈丘
+modern_name: 沈丘
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.071312
+longitude: 115.25605
+first_year: 1235
+last_year: 1367
+description: CBDB 行政类型:Xian

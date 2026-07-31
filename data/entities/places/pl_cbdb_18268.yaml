@@ -1,0 +1,12 @@
+id: pl_cbdb_18268
+type: Place
+name: 錢塘
+modern_name: 錢塘
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.294125
+longitude: 120.168625
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

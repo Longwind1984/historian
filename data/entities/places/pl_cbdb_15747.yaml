@@ -1,0 +1,12 @@
+id: pl_cbdb_15747
+type: Place
+name: 江寧
+modern_name: 江寧
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.052563
+longitude: 118.76899
+first_year: 635
+last_year: 757
+description: CBDB 行政类型:Xian

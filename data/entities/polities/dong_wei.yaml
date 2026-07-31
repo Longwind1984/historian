@@ -1,0 +1,18 @@
+id: k_dong_wei
+type: Polity
+name: 东魏
+name_en: Eastern Wei
+color: '#16a085'
+founded:
+  year: 534
+  month: 10
+ended:
+  year: 550
+  month: 5
+capital: pl_yedu
+description: 高欢拥立。550 高洋代之建北齐。
+sources:
+- 魏书
+- 北齐书
+supplanted: k_beiwei
+ended_by: k_bei_qi

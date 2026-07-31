@@ -1,0 +1,31 @@
+id: p_zhang_yi
+type: Person
+name: 张仪
+gender: male
+roles:
+- civil_official
+importance: 2
+died:
+  year: -309
+bio: 张仪，魏国贵族后裔。相传与苏秦俱师鬼谷子(年代关系见苏秦条，学界有争议)。后入秦，秦惠文王以为相，行连横之策，说魏、楚等国事秦以破合纵。前328年相秦，以商於六百里诈楚绝齐，致楚背齐，秦旋败楚于丹阳、蓝田(前312)，楚由是大衰。惠文王卒(前311)，武王立，群臣毁之，张仪不为所容，请入魏，相魏一年而卒(前309)。
+life_events:
+- year: -328
+  event: 相秦，行连横
+  source: 史记·张仪列传
+- year: -313
+  event: 诈楚绝齐，许商於之地六百里
+  source: 史记·楚世家
+- year: -312
+  event: 秦败楚于丹阳、蓝田
+  source: 史记·楚世家
+- year: -310
+  event: 出奔魏，相魏
+  source: 史记·张仪列传
+- year: -309
+  event: 卒于魏
+  source: 史记·张仪列传
+sources:
+- 史记·张仪列传
+- 战国策·秦策
+wikidata_id: "Q197323"
+wikipedia_zh: "张仪"

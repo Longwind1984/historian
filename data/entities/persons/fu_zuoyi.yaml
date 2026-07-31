@@ -1,0 +1,24 @@
+id: p_fu_zuoyi
+type: Person
+name: 傅作义
+alias:
+- 傅宜生
+courtesy_name: 宜生
+born:
+  year: 1895
+died:
+  year: 1974
+gender: male
+roles:
+- general
+importance: 2
+bio: 山西荣河(今属临猗)人，晋绥系将领。保定军校毕业，阎锡山部下。1931 年任绥远省主席。1936 年指挥绥远抗战，取得百灵庙大捷。抗战时任第七集团军总司令、第十二战区司令长官，守御绥远、山西。1947 年任华北"剿总"总司令。1949 年 1 月在平津战役中率北平守军接受和平改编，北平免于战火。后任水利部部长。1974 年病逝于北京。
+sources:
+- 中华民国史·傅作义传
+- 董其武·戎马春秋
+wikidata_id: "Q717501"
+wikipedia_zh: "傅作义"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fu_Zuoyi3.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Fu_Zuoyi3.jpg"

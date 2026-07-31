@@ -1,0 +1,12 @@
+id: pl_cbdb_100330
+type: Place
+name: 景陵
+modern_name: 景陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.65625
+longitude: 113.164116
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

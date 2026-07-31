@@ -1,0 +1,17 @@
+id: e_zhougong_zhili
+type: Event
+name: 周公制礼作乐
+date:
+  year: -1038
+category: institution
+polities_involved:
+- k_xizhou
+importance: 2
+description: 周公摄政期间损益前代，制礼作乐，定吉、凶、军、宾、嘉五礼与宗法分封之制，作《周官》《立政》之篇，营洛邑为东都。礼乐制度成为西周统治与教化的核心。
+impact: 礼乐制度为儒家所宗，影响中国数千年礼制与伦理观念。
+sources:
+- 尚书·洛诰
+- 尚书·周书
+- 左传·文公十八年
+ext:
+  disputed: true

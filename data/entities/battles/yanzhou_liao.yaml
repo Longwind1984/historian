@@ -1,0 +1,25 @@
+id: b_yanzhou_liao
+type: Battle
+name: 契丹灭后晋
+date:
+  year: 946
+  month: 12
+importance: 2
+location: pl_kaifeng
+combatants:
+- k_houjin
+- k_liao
+commanders:
+- p_shizhonggui
+- p_yeludeguang
+victor: k_liao
+victor_commander: p_yeludeguang
+description: 946 年契丹太宗耶律德光亲征后晋,在滹沱河之战大败晋军主力。947 年正月入汴梁,俘虏出帝石重贵,后晋亡。耶律德光改国号辽,于汴梁登基。掠掠后北返。
+significance: 五代重大事件。中原首次完全沦于游牧民族之手(短暂)。刺激刘知远建国后汉。
+sources:
+- 资治通鉴·卷285-287
+- 辽史·太宗纪
+end_date:
+  year: 947
+  month: 1
+category: conquest

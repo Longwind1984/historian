@@ -1,0 +1,10 @@
+id: pl_cbdb_2814
+type: Place
+name: 金朝
+modern_name: 金朝
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 1115
+last_year: 1234
+description: CBDB 行政类型:Chaodai

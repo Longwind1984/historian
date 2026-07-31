@@ -1,0 +1,12 @@
+id: pl_cbdb_12716
+type: Place
+name: 歸安
+modern_name: 歸安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.864964
+longitude: 120.099312
+first_year: 982
+last_year: 1279
+description: CBDB 行政类型:Xian

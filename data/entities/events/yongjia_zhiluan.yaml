@@ -1,0 +1,21 @@
+id: e_yongjia_zhiluan
+type: Event
+name: 永嘉之乱
+date:
+  year: 311
+  month: 6
+category: conquest
+importance: 1
+location: pl_luoyang
+polities_involved:
+- k_xijin
+- k_hanzhao
+description: 311 年汉赵刘聪、王弥、石勒攻陷洛阳,俘晋怀帝,杀王公士民三万。313 怀帝被杀,愍帝即位长安。316 长安陷,西晋亡。
+impact: 中国北方进入五胡十六国时代。
+sources:
+- 晋书·怀帝纪、愍帝纪
+- 资治通鉴·卷87
+end_date:
+  year: 316
+  month: 11
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Disaster of Yongjia.jpg

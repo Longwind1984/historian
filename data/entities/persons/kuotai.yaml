@@ -1,0 +1,21 @@
+id: p_kuotai
+type: Person
+name: 窝阔台
+alias:
+- 元太宗
+born:
+  year: 1186
+died:
+  year: 1241
+  month: 12
+gender: male
+birthplace: pl_karaktuokuo
+bio: 成吉思汗第三子、第二代大汗(1229-1241)。1234 联宋灭金。1235 建和林。第二次西征(拔都,征欧洲)。
+sources:
+- 元史·太宗本纪
+wikidata_id: "Q7519"
+wikipedia_zh: "窝阔台"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YuanEmperorAlbumOgedeiPortrait.jpg/500px-YuanEmperorAlbumOgedeiPortrait.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumOgedeiPortrait.jpg"

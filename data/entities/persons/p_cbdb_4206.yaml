@@ -1,0 +1,14 @@
+id: p_cbdb_4206
+type: Person
+name: 吳舉
+born:
+  year: 941
+died:
+  year: 1016
+gender: male
+birthplace: pl_cbdb_13140
+dynasty_ref: k_beisong
+bio: CBDB ID 4206
+name_en: Wu Ju
+sources:
+- CBDB (China Biographical Database)

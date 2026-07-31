@@ -1,0 +1,33 @@
+id: p_zhezong
+type: Person
+name: 赵煦
+alias:
+- 宋哲宗
+born:
+  year: 1077
+died:
+  year: 1100
+  month: 1
+gender: male
+birthplace: pl_kaifeng
+bio: 宋哲宗。1085 9 岁继位,太皇太后高氏垂帘,起司马光废新法(元祐更化)。1093 高氏崩,哲宗亲政复新法(绍圣绍述)。
+sources:
+- 宋史·哲宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1085
+reign_end:
+  year: 1100
+roles:
+- emperor
+ext:
+  title: 宋哲宗
+  regime: 北宋
+importance: 3
+wikidata_id: "Q7484"
+wikipedia_zh: "宋哲宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Zhezong.jpg/500px-Zhezong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhezong.jpg"

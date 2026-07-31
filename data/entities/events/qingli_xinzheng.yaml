@@ -1,0 +1,16 @@
+id: e_qingli_xinzheng
+type: Event
+name: 庆历新政
+date:
+  year: 1043
+category: reform
+importance: 2
+location: pl_kaifeng
+polities_involved:
+- k_beisong
+description: 范仲淹任参知政事,主持'明黜陟、抑侥幸、厚农桑'等十事改革。触犯权贵,一年即罢。
+impact: 北宋首次重大政治改革尝试,为王安石变法前奏。
+sources:
+- 宋史·范仲淹传
+end_date:
+  year: 1045

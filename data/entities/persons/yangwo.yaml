@@ -1,0 +1,21 @@
+id: p_yangwo
+type: Person
+name: 杨渥
+alias:
+- 杨奉天
+- 弘农郡王
+- 景帝
+courtesy_name: 承天
+born:
+  year: 880
+died:
+  year: 908
+  month: 6
+gender: male
+birthplace: pl_hefei
+bio: 杨吴第二主。杨行密长子。905 年继位为弘农郡王,在位期间荒淫无道,大权旁落于权臣张颢、徐温。908 年为张颢、徐温所杀。
+sources:
+- 新五代史·吴世家
+- 十国春秋·吴
+wikidata_id: "Q5195385"
+wikipedia_zh: "楊渥"

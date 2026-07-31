@@ -1,0 +1,16 @@
+id: p_caocan
+type: Person
+name: 曹参
+died:
+  year: 190
+gender: male
+birthplace: pl_pei_xian_xiaohe
+bio: 汉初功臣。萧何后任相国。'萧规曹随'。
+sources:
+- 史记·曹相国世家
+wikidata_id: "Q126832"
+wikipedia_zh: "曹参"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cao_Shen.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi (王圻) and Wang Siyi (王思義) (Life time: Wang Qi died in 1612, Wang Siyi is his son and highly unlikely to have live"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Cao_Shen.jpg"

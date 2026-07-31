@@ -1,0 +1,20 @@
+id: e_qi_qi_shi_bian
+type: Event
+name: 七七事变
+date:
+  year: 1937
+  month: 7
+  day: 7
+end_date:
+  year: 1945
+  month: 8
+category: war
+polities_involved:
+- k_minguo
+importance: 1
+description: 1937 年 7 月 7 日夜，驻丰台日军以演习中一名士兵失踪为由，要求进入宛平城搜查，遭拒后炮击宛平城与卢沟桥，中国驻军第二十九军奋起抵抗，史称"七七事变"(卢沟桥事变)。事变后日本全面侵华，8
+  月 13 日淞沪会战爆发，中国进入全面抗战。1945 年 8 月 15 日日本宣布无条件投降，9 月 2 日正式签署投降书，全面抗战结束。
+impact: 中国全民族抗日战争全面爆发，中国战场成为世界反法西斯战争东方主战场，直至 1945 年日本战败投降。
+sources:
+- 中华民国史·第三编
+- 中国抗日战争史·上卷

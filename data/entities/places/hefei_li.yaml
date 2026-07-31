@@ -1,0 +1,14 @@
+id: pl_hefei_li
+type: Place
+name: 合肥
+modern_name: 合肥
+province: 安徽
+latitude: 31.82
+longitude: 117.27
+category: city
+description: 李鸿章籍贯
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

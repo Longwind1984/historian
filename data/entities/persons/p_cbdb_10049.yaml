@@ -1,0 +1,14 @@
+id: p_cbdb_10049
+type: Person
+name: 蔡元定
+born:
+  year: 1135
+died:
+  year: 1198
+gender: male
+birthplace: pl_cbdb_13890
+dynasty_ref: k_beisong
+bio: CBDB ID 10049
+name_en: Cai Yuanding
+sources:
+- CBDB (China Biographical Database)

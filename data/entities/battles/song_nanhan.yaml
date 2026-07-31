@@ -1,0 +1,24 @@
+id: b_song_nanhan
+type: Battle
+name: 宋灭南汉
+date:
+  year: 970
+  month: 9
+importance: 3
+location: pl_guangzhou
+combatants:
+- k_song
+- k_nanhan
+commanders:
+- p_zhaokuangyin
+- p_liuchang
+victor: k_song
+victor_commander: p_zhaokuangyin
+description: 潘美率军攻南汉,在韶州大破南汉象阵。971 年攻至广州,刘鋹降。
+significance: 岭南归入宋。
+sources:
+- 续资治通鉴长编·卷11-12
+end_date:
+  year: 971
+  month: 2
+category: conquest

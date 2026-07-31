@@ -1,0 +1,12 @@
+id: pl_cbdb_5371
+type: Place
+name: 金華
+modern_name: 金華
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.104712
+longitude: 119.649918
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

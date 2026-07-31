@@ -1,0 +1,12 @@
+id: pl_cbdb_15294
+type: Place
+name: 贊皇
+modern_name: 贊皇
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.662655
+longitude: 114.376983
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

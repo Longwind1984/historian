@@ -1,0 +1,14 @@
+id: e_aomen_huigui
+name: 澳门回归
+type: Event
+date:
+  year: 1999
+category: territory
+importance: 2
+polities_involved:
+- k_prc
+description: 1999年12月20日,中国政府对澳门恢复行使主权,设立澳门特别行政区。
+impact: 结束葡萄牙对澳门的管治。
+sources:
+- 中华人民共和国史
+- 当代中国史

@@ -1,0 +1,17 @@
+id: e_zhou_reform
+type: Event
+name: 周世宗改革
+date:
+  year: 955
+category: reform
+importance: 2
+location: pl_kaifeng
+polities_involved:
+- k_houzhou
+description: 955-959 年周世宗柴荣推行全面改革:整军(高平之战后裁汰老弱)、均田、灭佛(显德二年)、修水利、扩汴京。
+impact: 五代最重要的改革,直接为北宋统一提供物质基础。
+sources:
+- 资治通鉴·卷292-294
+- 旧五代史·周世宗纪
+end_date:
+  year: 959

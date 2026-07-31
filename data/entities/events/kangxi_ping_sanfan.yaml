@@ -1,0 +1,18 @@
+id: e_kangxi_ping_sanfan
+type: Event
+name: 平定三藩
+date:
+  year: 1673
+  month: 12
+category: war
+importance: 2
+location: pl_kunming_wu
+polities_involved:
+- k_qing
+description: 1673 康熙撤藩。吴三桂(平西王,云南)、尚可喜(平南王,广东)、耿精忠(靖南王,福建)叛。1681 平定。
+impact: 清朝统一中国的关键。
+sources:
+- 清史稿·圣祖本纪
+end_date:
+  year: 1681
+  month: 10

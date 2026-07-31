@@ -1,0 +1,14 @@
+id: p_cbdb_7109
+type: Person
+name: 薛儀
+born:
+  year: 998
+died:
+  year: 1048
+gender: male
+birthplace: pl_cbdb_11928
+dynasty_ref: k_beisong
+bio: CBDB ID 7109
+name_en: Xue Yi
+sources:
+- CBDB (China Biographical Database)

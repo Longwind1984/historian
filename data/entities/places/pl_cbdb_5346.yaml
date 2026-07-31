@@ -1,0 +1,12 @@
+id: pl_cbdb_5346
+type: Place
+name: 嘉善
+modern_name: 嘉善
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.843824
+longitude: 120.917221
+first_year: 1430
+last_year: 1643
+description: CBDB 行政类型:Xian

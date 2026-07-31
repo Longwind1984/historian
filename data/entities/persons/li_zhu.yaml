@@ -1,0 +1,29 @@
+id: p_li_zhu
+type: Person
+name: 李柷
+alias:
+- 唐哀帝
+- 哀帝
+- 昭宣帝
+born:
+  year: 892
+died:
+  year: 908
+reign_start:
+  year: 904
+reign_end:
+  year: 907
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 昭宗子，朱温所立。907年禅位于朱温，唐亡，次年被鸩杀。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐哀帝
+  regime: 唐
+wikidata_id: "Q9892"
+wikipedia_zh: "唐哀帝"

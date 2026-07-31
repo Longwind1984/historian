@@ -1,0 +1,17 @@
+id: e_gaixia_zhizhan
+type: Event
+name: 垓下之战
+date:
+  year: -202
+  month: 12
+category: battle
+importance: 3
+location: pl_gaixia
+polities_involved:
+- k_chu_xiang
+- k_xihan
+description: BC202 十二月汉军 30 万围项羽于垓下(韩信为帅)。'四面楚歌',项羽率八百骑突围至乌江,自刎。
+impact: 汉朝建立前奏。
+sources:
+- 史记·项羽本纪
+- 资治通鉴·卷11

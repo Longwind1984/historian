@@ -1,0 +1,24 @@
+id: p_tang_shaoyi
+type: Person
+name: 唐绍仪
+alias:
+- 唐少川
+courtesy_name: 少川
+born:
+  year: 1862
+died:
+  year: 1938
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 广东香山(今中山)人，近代政治人物。1874 年第三批留美幼童，入哥伦比亚大学肄业(中途退学，未毕业)。1881 年回国入天津税务衙门，长期在朝鲜协助袁世凯。民国后 1912 年 3 月任中华民国第一任内阁总理，因与袁世凯政见不合旋即辞职。1916 年被任命为外交总长但未就任，后任中山县长。1938 年在上海被刺身亡。
+sources:
+- 中华民国史·唐绍仪传
+- 张维持·唐绍仪传
+wikidata_id: "Q709890"
+wikipedia_zh: "唐绍仪"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Tang_Shaoyi.jpg/500px-Tang_Shaoyi.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tang_Shaoyi.jpg"

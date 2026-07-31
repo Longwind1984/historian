@@ -1,0 +1,27 @@
+id: p_gao_yang
+type: Person
+name: 高洋
+alias:
+- 北齐文宣帝
+born:
+  year: 526
+died:
+  year: 559
+reign_start:
+  year: 550
+reign_end:
+  year: 559
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 高欢次子。代东魏建北齐。前期励精图治、破柔然突厥、筑长城;后期酗酒暴虐,滥杀宗室。
+ext:
+  title: 北齐文宣帝
+  regime: 北齐
+sources:
+- 北齐书
+- 北史
+- 资治通鉴
+wikidata_id: "Q712338"
+wikipedia_zh: "齐文宣帝"

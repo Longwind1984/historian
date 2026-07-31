@@ -1,0 +1,28 @@
+id: p_yuefei
+type: Person
+name: 岳飞
+alias:
+- 岳鹏举
+courtesy_name: 鹏举
+born:
+  year: 1103
+died:
+  year: 1142
+  month: 1
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_anyang
+bio: 南宋抗金名将。出身行伍。一生抗金,1140 年郾城大捷。为高宗、秦桧以'莫须有'罪名杀害。
+ext:
+  significance: 中国历史上的忠勇象征。1141 年绍兴和议奠定南北对峙。
+sources:
+- 宋史·岳飞传
+- 鄂国金佗稡编
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%E5%B2%B3%E9%A3%9B.jpg/500px-%E5%B2%B3%E9%A3%9B.jpg"
+wikidata_id: "Q334398"
+wikipedia_zh: "岳飞"
+image_license: "CC BY-SA 4.0"
+image_credit: "劉松年繪"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%B2%B3%E9%A3%9B.jpg"

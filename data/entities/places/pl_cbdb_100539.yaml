@@ -1,0 +1,12 @@
+id: pl_cbdb_100539
+type: Place
+name: 蕪湖
+modern_name: 蕪湖
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.334949
+longitude: 118.362618
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

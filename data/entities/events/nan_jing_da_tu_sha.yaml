@@ -1,0 +1,21 @@
+id: e_nan_jing_da_tu_sha
+type: Event
+name: 南京大屠杀
+date:
+  year: 1937
+  month: 12
+  day: 13
+end_date:
+  year: 1938
+  month: 2
+category: disaster
+polities_involved:
+- k_minguo
+importance: 2
+description: 1937 年 12 月 13 日日军攻陷南京后，在城内及郊区对中国平民和战俘进行大规模屠杀、强奸、抢掠，持续约六周。据中国南京国防军事法庭与南京军事法庭战后调查判定，遇难者逾
+  30 万；远东国际军事法庭判决书认定日军在南京屠杀俘虏及平民 20 万人以上(未含被抛入长江或以其他方法处理者)。战后远东国际军事法庭与南京军事法庭对相关责任人进行了审判。
+impact: 近代史上惨痛的战争暴行之一，成为中日关系中长期未愈的历史创伤。
+sources:
+- 远东国际军事法庭·判决书
+- 张宪文·南京大屠杀史料集
+- 中国抗日战争史·上卷

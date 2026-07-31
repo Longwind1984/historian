@@ -1,0 +1,16 @@
+id: e_wang_mang_chuan_han
+type: Event
+name: 王莽篡汉
+date:
+  year: 9
+  month: 1
+category: succession
+importance: 1
+location: pl_chang_an_xin
+polities_involved:
+- k_xihan
+- k_xin
+description: AD9 王莽受孺子婴禅让,改国号新。推行托古改制(王田私属、五均六筦)。失败。
+impact: 中国历史上第一个'和平'篡位。
+sources:
+- 汉书·王莽传

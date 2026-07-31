@@ -1,0 +1,12 @@
+id: p_cbdb_11204
+type: Person
+name: 林豫
+born:
+  year: 1053
+gender: male
+birthplace: pl_cbdb_100022
+dynasty_ref: k_beisong
+bio: CBDB ID 11204
+name_en: Lin Yu
+sources:
+- CBDB (China Biographical Database)

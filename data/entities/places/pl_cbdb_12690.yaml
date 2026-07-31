@@ -1,0 +1,12 @@
+id: pl_cbdb_12690
+type: Place
+name: 吳縣
+modern_name: 吳縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.31271
+longitude: 120.618622
+first_year: 960
+last_year: 1113
+description: CBDB 行政类型:Xian

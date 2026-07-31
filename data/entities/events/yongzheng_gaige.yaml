@@ -1,0 +1,16 @@
+id: e_yongzheng_gaige
+type: Event
+name: 雍正改革
+date:
+  year: 1723
+category: reform
+importance: 2
+location: pl_beijing_qing
+polities_involved:
+- k_qing
+description: 摊丁入亩(丁银并入田赋)。火耗归公(规范地方加派)。改土归流(西南少数民族地区由土司改流官)。1729 设军机处强化皇权。
+impact: 清朝集权与财政改革。
+sources:
+- 清史稿·世宗本纪
+end_date:
+  year: 1735

@@ -1,0 +1,14 @@
+id: p_cbdb_31999
+type: Person
+name: 裴休
+born:
+  year: 791
+died:
+  year: 864
+gender: male
+birthplace: pl_cbdb_15176
+dynasty_ref: k_tang
+bio: CBDB ID 31999
+name_en: Pei Xiu
+sources:
+- CBDB (China Biographical Database)

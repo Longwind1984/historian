@@ -1,0 +1,12 @@
+id: pl_cbdb_11168
+type: Place
+name: 蓬萊
+modern_name: 蓬萊
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.804516
+longitude: 120.740502
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

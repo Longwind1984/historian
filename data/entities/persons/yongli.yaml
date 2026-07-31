@@ -1,0 +1,16 @@
+id: p_yongli
+type: Person
+name: 朱由榔
+alias:
+- 永历帝
+born:
+  year: 1623
+died:
+  year: 1662
+gender: male
+birthplace: pl_zhaoqing_yongli
+bio: 南明末帝。桂王朱由榔。1646-1662 在位。流亡缅甸。1662 缅甸交吴三桂,绞死于昆明。南明亡。
+sources:
+- 明史·桂王传
+wikidata_id: "Q1326844"
+wikipedia_zh: "永历帝"

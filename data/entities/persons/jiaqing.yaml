@@ -1,0 +1,34 @@
+id: p_jiaqing
+type: Person
+name: 颙琰
+alias:
+- 清仁宗
+- 嘉庆
+- 嘉庆帝
+born:
+  year: 1760
+died:
+  year: 1820
+gender: male
+birthplace: pl_beijing_qing
+bio: 乾隆十五子。1796年受禅,1799年乾隆崩后亲政,即诛和珅。白莲教、天理教之乱迭起,清由盛转衰。
+sources:
+- 清史稿·仁宗本纪
+- 清史稿
+- 清实录
+reign_start:
+  year: 1796
+reign_end:
+  year: 1820
+roles:
+- emperor
+ext:
+  title: 嘉庆帝
+  regime: 清
+importance: 3
+wikidata_id: "Q333178"
+wikipedia_zh: "嘉庆帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E4%BB%81%E5%AE%97%E5%98%89%E5%BA%86%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg/500px-%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E4%BB%81%E5%AE%97%E5%98%89%E5%BA%86%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+image_license: "Public domain"
+image_credit: "Annonymous Qing Dynasty Court Painter"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E4%BB%81%E5%AE%97%E5%98%89%E5%BA%86%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"

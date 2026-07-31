@@ -1,0 +1,12 @@
+id: pl_cbdb_15255
+type: Place
+name: 槁城
+modern_name: 槁城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.036713
+longitude: 114.834183
+first_year: 627
+last_year: 959
+description: CBDB 行政类型:Xian

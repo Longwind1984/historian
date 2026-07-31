@@ -1,0 +1,12 @@
+id: pl_cbdb_5485
+type: Place
+name: 萬安
+modern_name: 萬安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.461771
+longitude: 114.779678
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

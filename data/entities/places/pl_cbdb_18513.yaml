@@ -1,0 +1,12 @@
+id: pl_cbdb_18513
+type: Place
+name: 安福州
+modern_name: 安福州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.382461548
+longitude: 114.60845184
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Zhou

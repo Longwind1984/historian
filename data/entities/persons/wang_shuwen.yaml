@@ -1,0 +1,17 @@
+id: p_wang_shuwen
+type: Person
+name: 王叔文
+born:
+  year: 753
+died:
+  year: 806
+gender: male
+birthplace: pl_yuezhou_wsw
+bio: 唐顺宗朝官员。永贞革新主导者。顺宗中风后,他与王伾、刘禹锡、柳宗元等推行改革(罢宫市、放宫女、收宦官兵权)。失败被贬,806 年赐死。
+ext:
+  significance: 永贞革新失败是中晚唐政治转折点。
+sources:
+- 旧唐书·王叔文传
+- 资治通鉴·卷236
+wikidata_id: "Q7967626"
+wikipedia_zh: "王叔文"

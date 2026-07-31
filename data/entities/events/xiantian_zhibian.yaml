@@ -1,0 +1,16 @@
+id: e_xiantian_zhibian
+type: Event
+name: 先天之变
+date:
+  year: 713
+  month: 7
+category: coup
+importance: 3
+location: pl_daxing
+polities_involved:
+- k_tang
+description: 713 年玄宗诛杀姑母太平公主集团,真正亲政。改元开元。
+impact: 开元盛世开启。
+sources:
+- 旧唐书·玄宗本纪
+- 资治通鉴·卷210

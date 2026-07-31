@@ -1,0 +1,12 @@
+id: pl_cbdb_15692
+type: Place
+name: 江都
+modern_name: 江都
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.39127
+longitude: 119.437187
+first_year: 618
+last_year: 907
+description: CBDB 行政类型:Xian

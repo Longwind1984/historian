@@ -1,0 +1,12 @@
+id: pl_cbdb_400539
+type: Place
+name: 芒山
+modern_name: 芒山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.7225
+longitude: 112.4266
+first_year: 618
+last_year: 959
+description: CBDB 行政类型:mountain

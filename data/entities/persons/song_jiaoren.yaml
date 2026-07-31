@@ -1,0 +1,25 @@
+id: p_song_jiaoren
+type: Person
+name: 宋教仁
+alias:
+- 宋钝初
+courtesy_name: 遁初
+born:
+  year: 1882
+died:
+  year: 1913
+gender: male
+roles:
+- civil_official
+- rebel_leader
+importance: 2
+bio: 湖南桃源人，近代民主革命家。1904 年与黄兴创华兴会，同年底因长沙起义事泄流亡日本，研习政法。1905 年加入同盟会，任司法部检事。1912 年同盟会改组为国民党，任代理理事长，主张责任内阁与政党政治，领导国民党在第一届国会选举中获多数。1913 年 3 月 20 日于沪宁火车站遇刺，22 日身亡，引发二次革命。
+sources:
+- 中华民国史·宋教仁传
+- 迟云飞·宋教仁与中国民主宪政
+wikidata_id: "Q532587"
+wikipedia_zh: "宋教仁"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sung_Chiao-jen.jpg/500px-Sung_Chiao-jen.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sung_Chiao-jen.jpg"

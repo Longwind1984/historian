@@ -1,0 +1,42 @@
+id: p_mengzi
+type: Person
+name: 孟轲
+alias:
+- 孟子
+- 子舆
+courtesy_name: 子舆
+gender: male
+roles:
+- scholar
+importance: 1
+born:
+  year: -372
+died:
+  year: -289
+bio: 孟子，姬姓，孟氏，名轲，字子舆(一说子车)，邹(今山东邹城)人。受业于孔子之孙子思的门人，继承发扬儒家，后世尊为"亚圣"，与孔子并称"孔孟"。早年游说齐、魏(梁)、宋、滕诸国，说齐宣王、梁惠王行仁政、王道，言"民为贵，社稷次之，君为轻"，皆不见用。晚年退与弟子万章、公孙丑等著书，作《孟子》七篇。主性善、仁政、义利之辨，距杨墨，辨王霸。生卒约前372-前289。
+life_events:
+- year: -372
+  event: (约)生于邹
+  source: 史记·孟子荀卿列传
+- year: -320
+  event: (约)游梁，见梁惠王
+  source: 孟子·梁惠王上
+- year: -319
+  event: (约)游齐，说齐宣王
+  source: 孟子·梁惠王下
+- year: -289
+  event: (约)退而著书，卒
+  source: 史记·孟子荀卿列传
+sources:
+- 史记·孟子荀卿列传
+- 孟子
+- 汉书·艺文志
+ext:
+  disputed: true
+  note: 生卒年学界有异说(通说约前372-前289，另有前390-前305等说)
+wikidata_id: "Q188903"
+wikipedia_zh: "孟子"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg/500px-Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg"
+image_license: "Public domain"
+image_credit: "anonymous"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_(%E5%AD%9F%E8%BB%BB).jpg"

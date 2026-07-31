@@ -1,0 +1,12 @@
+id: pl_cbdb_13296
+type: Place
+name: 新都
+modern_name: 新都
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.83139
+longitude: 104.160545
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

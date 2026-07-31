@@ -1,0 +1,12 @@
+id: pl_cbdb_14640
+type: Place
+name: 五原
+modern_name: 五原
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.5925
+longitude: 107.6011
+first_year: 628
+last_year: 786
+description: CBDB 行政类型:Xian

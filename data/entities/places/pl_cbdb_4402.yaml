@@ -1,0 +1,12 @@
+id: pl_cbdb_4402
+type: Place
+name: 霸州
+modern_name: 霸州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.101539612
+longitude: 116.39524841
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

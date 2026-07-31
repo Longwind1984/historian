@@ -1,0 +1,28 @@
+id: p_yiyin
+type: Person
+name: 伊尹
+alias:
+- 伊挚
+- 阿衡
+gender: male
+floruit_start:
+  year: -1600
+floruit_end:
+  year: -1580
+roles:
+- civil_official
+importance: 2
+bio: 商初名相，伊氏，名挚。传为有莘氏媵臣，负鼎俎说汤，助汤灭夏。汤崩后历佐外丙、中壬、太甲；太甲暴虐，伊尹放之于桐宫三年，俟其悔过迎回复政(《尚书·太甲》)。《竹书纪年》另有伊尹篡位七年、太甲潜回诛之的异说，存参。
+sources:
+- 史记·殷本纪
+- 尚书·商书
+- 竹书纪年·殷纪
+ext:
+  disputed: true
+  note: 商初,助汤灭夏、历佐外丙中壬至太甲。年代属传说期,无可考编年
+wikidata_id: "Q981363"
+wikipedia_zh: "伊尹"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Portrait_of_Yi_Yin_1607.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi (fl. 1565)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Portrait_of_Yi_Yin_1607.jpg"

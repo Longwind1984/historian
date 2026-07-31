@@ -1,0 +1,33 @@
+id: p_yanghangmi
+type: Person
+name: 杨行密
+alias:
+- 杨愍密
+- 吴太祖
+- 杨行愍
+born:
+  year: 852
+died:
+  year: 905
+  month: 11
+gender: male
+birthplace: pl_hefei
+bio: 庐州人,起自行伍。据淮南,902年受唐封吴王,为杨吴奠基。清口之战破朱温,阻其南下,间接促成南方割据之局。
+sources:
+- 新五代史·吴世家
+- 十国春秋·吴
+- 十国春秋
+- 新五代史
+- 资治通鉴
+roles:
+- monarch
+reign_start:
+  year: 902
+reign_end:
+  year: 905
+ext:
+  title: 杨行密
+  regime: 杨吴
+importance: 3
+wikidata_id: "Q1149150"
+wikipedia_zh: "楊行密"

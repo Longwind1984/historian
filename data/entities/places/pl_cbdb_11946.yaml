@@ -1,0 +1,12 @@
+id: pl_cbdb_11946
+type: Place
+name: 延安府
+modern_name: 延安府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.591808319
+longitude: 109.46990967
+first_year: 1089
+last_year: 1126
+description: CBDB 行政类型:Fu

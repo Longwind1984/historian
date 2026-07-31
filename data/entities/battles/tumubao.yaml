@@ -1,0 +1,22 @@
+id: b_tumubao
+type: Battle
+name: 土木堡之变
+date:
+  year: 1449
+  month: 9
+category: battle
+importance: 2
+location: pl_tumubao
+combatants:
+- k_ming
+- k_waci
+commanders:
+- p_zhengtong
+- p_yexian
+victor: k_waci
+victor_commander: p_yexian
+description: 1449 瓦剌也先犯边。太监王振怂英宗亲征。退兵时绕道,致在土木堡被围。明军 50 万(号)崩溃,英宗被俘,王振死。
+significance: 明初以来最大军事灾难,精锐尽失。
+sources:
+- 明史·英宗本纪
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Tumu Crisis.jpg

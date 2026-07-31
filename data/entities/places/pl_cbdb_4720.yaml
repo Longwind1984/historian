@@ -1,0 +1,12 @@
+id: pl_cbdb_4720
+type: Place
+name: 陵川
+modern_name: 陵川
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.778126
+longitude: 113.277008
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

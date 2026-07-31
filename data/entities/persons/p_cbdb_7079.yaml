@@ -1,0 +1,14 @@
+id: p_cbdb_7079
+type: Person
+name: 王質
+born:
+  year: 1001
+died:
+  year: 1045
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 7079
+name_en: Wang Zhi
+sources:
+- CBDB (China Biographical Database)

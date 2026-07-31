@@ -1,0 +1,18 @@
+id: p_zhang_jiao
+type: Person
+name: 张角
+alias:
+- 张天师
+- 大贤良师
+died:
+  year: 184
+  month: 9
+gender: male
+roles:
+- rebel_leader
+- clergy
+importance: 2
+birthplace: pl_ju_lu_zhangjiao
+bio: 黄巾起义领袖。巨鹿人。太平道创立者。184 二月率徒众数十万起兵,自称'天公将军',弟宝、梁称'地公将军'、'人公将军'。同年病死,起义失败。
+sources:
+- 后汉书·皇甫嵩传

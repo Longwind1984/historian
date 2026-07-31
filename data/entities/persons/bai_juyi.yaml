@@ -1,0 +1,24 @@
+id: p_bai_juyi
+type: Person
+name: 白居易
+alias:
+- 白乐天
+courtesy_name: 乐天
+born:
+  year: 772
+died:
+  year: 846
+gender: male
+roles:
+- literatus
+importance: 1
+birthplace: pl_taiyuan_bjy
+bio: 中唐诗人。新乐府运动领袖。著《长恨歌》《琵琶行》。晚年居洛阳香山,号香山居士。
+sources:
+- 旧唐书·白居易传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-21-%E7%99%BD%E6%A8%82%E5%A4%A9.jpg/500px-%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-21-%E7%99%BD%E6%A8%82%E5%A4%A9.jpg"
+wikidata_id: "Q313324"
+wikipedia_zh: "白居易"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-21-%E7%99%BD%E6%A8%82%E5%A4%A9.jpg"

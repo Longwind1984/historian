@@ -1,0 +1,19 @@
+id: p_xiahou_yuan
+type: Person
+name: 夏侯渊
+alias:
+- 夏侯妙才
+courtesy_name: 妙才
+died:
+  year: 219
+gender: male
+birthplace: pl_qiao_cao
+bio: 曹魏宗将。219 定军山为黄忠所杀。
+sources:
+- 三国志·魏书·夏侯渊传
+wikidata_id: "Q378510"
+wikipedia_zh: "夏侯渊"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Xiahou_Yuan_Portrait.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xiahou_Yuan_Portrait.jpg"

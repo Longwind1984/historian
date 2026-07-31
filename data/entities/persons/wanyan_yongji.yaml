@@ -1,0 +1,24 @@
+id: p_wanyan_yongji
+type: Person
+name: 完颜永济
+alias:
+- 卫绍王
+died:
+  year: 1213
+reign_start:
+  year: 1208
+reign_end:
+  year: 1213
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_jin
+bio: 世宗子。庸懦,遣使令蒙古称臣纳贡,成吉思汗怒而拒之、绝交南侵,野狐岭大败。1213年为胡沙虎所弑。
+ext:
+  title: 卫绍王
+  regime: 金
+sources:
+- 金史
+wikidata_id: "Q5076"
+wikipedia_zh: "完颜永济"

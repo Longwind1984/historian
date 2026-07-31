@@ -1,0 +1,18 @@
+id: p_hua_guofeng
+name: 华国锋
+type: Person
+born: {year: 1921}
+died: {year: 2008}
+roles:
+  - civil_official
+importance: 2
+bio: 山西交城人。1976-1981年间先后任中共中央主席、国务院总理、中央军委主席。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q41570"
+wikipedia_zh: "华国锋"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Hua_Guofeng.jpg/500px-Hua_Guofeng.jpg"
+image_license: "Public domain"
+image_credit: "Bibliothèque de l'Hôtel de Ville - Bibliothèques spécialisées de la Ville de Paris"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hua_Guofeng.jpg"

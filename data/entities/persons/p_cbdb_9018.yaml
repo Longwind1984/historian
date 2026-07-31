@@ -1,0 +1,14 @@
+id: p_cbdb_9018
+type: Person
+name: 趙昺
+born:
+  year: 1271
+died:
+  year: 1279
+gender: male
+birthplace: pl_cbdb_100216
+dynasty_ref: k_yuan
+bio: CBDB ID 9018
+name_en: Zhao Bing
+sources:
+- CBDB (China Biographical Database)

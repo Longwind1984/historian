@@ -1,0 +1,21 @@
+id: p_jiasidao
+type: Person
+name: 贾似道
+courtesy_name: 师宪
+born:
+  year: 1213
+  month: 8
+died:
+  year: 1275
+  month: 8
+gender: male
+birthplace: pl_taizhou_jia
+bio: 南宋末权相。1259 鄂州之战虚报战功,拜相。推行公田法、打算法,扰民。瞒报襄樊被围。1275 丁家洲之战溃败,被贬,途中被郑虎臣所杀。
+sources:
+- 宋史·奸臣传·贾似道
+wikidata_id: "Q706879"
+wikipedia_zh: "贾似道"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Jia_Sidao.1.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jia_Sidao.1.jpg"

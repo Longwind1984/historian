@@ -1,0 +1,16 @@
+id: pl_chengdu
+type: Place
+name: 成都
+modern_name: 成都
+province: 四川
+latitude: 30.67
+longitude: 104.07
+category: capital
+description: 前蜀/后蜀都城
+aliases:
+- 益州
+- 蜀都
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

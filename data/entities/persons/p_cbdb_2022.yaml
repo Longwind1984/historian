@@ -1,0 +1,14 @@
+id: p_cbdb_2022
+type: Person
+name: 楊時
+born:
+  year: 1053
+died:
+  year: 1135
+gender: male
+birthplace: pl_cbdb_100149
+dynasty_ref: k_beisong
+bio: CBDB ID 2022
+name_en: Yang Shi
+sources:
+- CBDB (China Biographical Database)

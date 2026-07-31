@@ -1,0 +1,24 @@
+id: p_zhang_zuolin
+type: Person
+name: 张作霖
+alias:
+- 张雨亭
+courtesy_name: 雨亭
+born:
+  year: 1875
+died:
+  year: 1928
+gender: male
+roles:
+- general
+importance: 2
+bio: 奉天海城(今属辽宁)人，北洋奉系首领。早年投身绿林，后被清廷收编，辛亥之际逐步掌握奉天军权。1916 年任奉天督军，旋兼东三省巡阅使，统一东北，称"东北王"。1924 年第二次直奉战争胜后势力伸入关内，1927 年任陆海军大元帅，组织安国军政府，为北洋政府末代执政者。1928 年国民革命军北伐逼近京津，6 月乘专列退回东北，途经皇姑屯被日军预埋炸药炸死。
+sources:
+- 中华民国史·张作霖传
+- 陈崇桥·奉系军阀全书
+wikidata_id: "Q197358"
+wikipedia_zh: "张作霖"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Zhang_Zuolin3.jpg/500px-Zhang_Zuolin3.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zhang_Zuolin3.jpg"

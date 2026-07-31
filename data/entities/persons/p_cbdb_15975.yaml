@@ -1,0 +1,14 @@
+id: p_cbdb_15975
+type: Person
+name: 趙元偁
+born:
+  year: 981
+died:
+  year: 1014
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 15975
+name_en: Zhao Yuancheng
+sources:
+- CBDB (China Biographical Database)

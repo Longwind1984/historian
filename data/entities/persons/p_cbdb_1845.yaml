@@ -1,0 +1,14 @@
+id: p_cbdb_1845
+type: Person
+name: 王珪
+born:
+  year: 1019
+died:
+  year: 1085
+gender: male
+birthplace: pl_cbdb_100667
+dynasty_ref: k_beisong
+bio: CBDB ID 1845
+name_en: Wang Gui
+sources:
+- CBDB (China Biographical Database)

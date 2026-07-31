@@ -1,0 +1,14 @@
+id: pl_beiping_zhudi
+type: Place
+name: 北平/北京
+modern_name: 北京
+province: 北京
+latitude: 39.91
+longitude: 116.4
+category: capital
+description: 明都
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

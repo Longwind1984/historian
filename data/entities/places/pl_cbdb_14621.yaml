@@ -1,0 +1,12 @@
+id: pl_cbdb_14621
+type: Place
+name: 金城
+modern_name: 金城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 39.56016922
+longitude: 113.18238068
+first_year: 634
+last_year: 741
+description: CBDB 行政类型:Xian

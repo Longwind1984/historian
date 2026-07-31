@@ -1,0 +1,12 @@
+id: pl_cbdb_15769
+type: Place
+name: 臨安
+modern_name: 臨安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.318827
+longitude: 119.71658
+first_year: 688
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: e_jiaru_wto
+name: 加入世界贸易组织
+type: Event
+date:
+  year: 2001
+category: diplomacy
+importance: 2
+description: 2001年12月11日,中国正式加入世界贸易组织(WTO)。
+impact: 进一步融入全球贸易体系。
+sources:
+- 中华人民共和国史
+- 当代中国史

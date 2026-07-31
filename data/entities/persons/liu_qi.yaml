@@ -1,0 +1,23 @@
+id: p_liu_qi
+type: Person
+name: 刘启
+alias:
+- 汉景帝
+born:
+  year: -188
+died:
+  year: -141
+gender: male
+birthplace: pl_chang_an
+bio: 汉景帝。文帝子。BC157-141 在位。BC154 七国之乱,周亚夫平之。'文景之治'完成。
+sources:
+- 史记·孝景本纪
+reign_start:
+  year: -157
+reign_end:
+  year: -141
+roles:
+- emperor
+ext:
+  title: 汉景帝
+  regime: 西汉

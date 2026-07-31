@@ -1,0 +1,16 @@
+id: pl_chang_an
+type: Place
+name: 长安
+modern_name: 西安
+province: 陕西
+latitude: 34.27
+longitude: 108.95
+category: capital
+description: 故唐都城,五代时衰落
+aliases:
+- 京兆府
+- 雍州
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

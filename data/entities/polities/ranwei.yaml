@@ -1,0 +1,17 @@
+id: k_ranwei
+type: Polity
+name: 冉魏
+name_en: Ran Wei
+color: '#9c4a4a'
+founded:
+  year: 350
+  month: 1
+ended:
+  year: 352
+  month: 4
+description: 350 冉闵灭后赵自立,国号魏,都邺。颁杀胡令,邺城胡羯死者以十万计,羯人几近族灭 —— 十六国最惨烈的族群屠杀之一。352 为前燕所灭,立国二年。
+sources:
+- 晋书·载记第七
+- 资治通鉴·卷98-99
+founder: p_ranmin
+capital: pl_yecheng

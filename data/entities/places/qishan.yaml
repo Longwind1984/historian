@@ -1,0 +1,15 @@
+id: pl_qishan
+type: Place
+name: 祁山
+modern_name: 礼县
+province: 甘肃
+latitude: 34.2
+longitude: 105.13
+category: battlefield
+description: 诸葛亮出祁山
+sources:
+- 三国志
+- 晋书
+- 宋书
+- 魏书
+- 中国历史地图集

@@ -1,0 +1,13 @@
+id: e_covid19
+type: Event
+name: COVID-19疫情
+date:
+  year: 2019
+end_date:
+  year: 2023
+category: disaster
+importance: 2
+description: 2019年底新型冠状病毒感染（COVID-19）疫情出现，其后在全球大流行；中国采取大规模防控措施，2023年初调整防控政策。
+sources:
+- 中华人民共和国史
+- 当代中国史

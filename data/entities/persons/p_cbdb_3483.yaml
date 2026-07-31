@@ -1,0 +1,14 @@
+id: p_cbdb_3483
+type: Person
+name: 李建中
+born:
+  year: 945
+died:
+  year: 1013
+gender: male
+birthplace: pl_cbdb_100409
+dynasty_ref: k_beisong
+bio: CBDB ID 3483
+name_en: Li Jianzhong
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,21 @@
+id: p_yangsu
+type: Person
+name: 杨素
+alias:
+- 杨处道
+courtesy_name: 处道
+born:
+  year: 544
+died:
+  year: 606
+gender: male
+birthplace: pl_huayin_sui
+bio: 隋朝名将、权臣。华阴人。助杨广夺嫡。597 平江南叛、599 大破突厥。604 协助杨广即位(疑弑文帝)。后封楚国公。
+sources:
+- 隋书·杨素传
+wikidata_id: "Q1062909"
+wikipedia_zh: "楊素"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%E6%A5%8A%E8%B6%8A%E5%85%AC%EF%BC%88%E8%AA%AA%E5%94%90%E6%BC%94%E7%BE%A9%E5%85%A8%E5%82%B3%EF%BC%89.jpg/500px-%E6%A5%8A%E8%B6%8A%E5%85%AC%EF%BC%88%E8%AA%AA%E5%94%90%E6%BC%94%E7%BE%A9%E5%85%A8%E5%82%B3%EF%BC%89.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%A5%8A%E8%B6%8A%E5%85%AC%EF%BC%88%E8%AA%AA%E5%94%90%E6%BC%94%E7%BE%A9%E5%85%A8%E5%82%B3%EF%BC%89.jpg"

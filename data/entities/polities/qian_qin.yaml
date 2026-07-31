@@ -1,0 +1,14 @@
+id: k_qian_qin
+type: Polity
+name: 前秦
+name_en: Former Qin
+color: '#d35400'
+founded:
+  year: 350
+ended:
+  year: 394
+capital: pl_chang_an_houzhao
+description: 十六国之一。氐族。苻健建。苻坚朝统一北方。383 淝水之战大败,帝国崩溃。
+sources:
+- 晋书·载记·苻坚
+ended_by: k_houqin

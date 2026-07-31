@@ -1,0 +1,12 @@
+id: pl_cbdb_7709
+type: Place
+name: 霍山
+modern_name: 霍山
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.407783508
+longitude: 116.32011414
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

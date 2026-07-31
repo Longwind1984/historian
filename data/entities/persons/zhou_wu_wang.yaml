@@ -1,0 +1,42 @@
+id: p_zhou_wu_wang
+type: Person
+name: 姬发
+alias:
+- 周武王
+- 武王
+gender: male
+roles:
+- emperor
+importance: 1
+reign_start:
+  year: -1046
+reign_end:
+  year: -1043
+bio: 文王之子，姬姓，名发。继西伯位，以姜尚为师、周公旦为辅；孟津观兵后会八百诸侯。前1046年牧野之战灭商，建立周朝，都镐京，行分封。克商后约三年而崩。年代据断代工程。
+life_events:
+- year: -1048
+  event: 孟津观兵，诸侯不期而会者八百
+  source: 史记·周本纪
+- year: -1046
+  event: 牧野之战灭商，建立周朝
+  source: 尚书·牧誓
+- year: -1046
+  event: 都镐京，分封宗亲功臣
+  source: 史记·周本纪
+- year: -1043
+  event: 克商后约三年崩
+  source: 史记·周本纪
+sources:
+- 史记·周本纪
+- 尚书·牧誓
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true
+  title: 周武王
+  regime: 西周
+wikidata_id: "Q1061289"
+wikipedia_zh: "周武王"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/King_Wu_of_Zhou.jpg/500px-King_Wu_of_Zhou.jpg"
+image_license: "Public domain"
+image_credit: "Ma Lin"
+image_source_page: "https://commons.wikimedia.org/wiki/File:King_Wu_of_Zhou.jpg"

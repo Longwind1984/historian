@@ -1,0 +1,12 @@
+id: pl_cbdb_100342
+type: Place
+name: 東莞
+modern_name: 東莞
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 22.545151
+longitude: 113.918579
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

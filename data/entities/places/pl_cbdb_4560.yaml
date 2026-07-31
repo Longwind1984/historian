@@ -1,0 +1,12 @@
+id: pl_cbdb_4560
+type: Place
+name: 全椒
+modern_name: 全椒
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.098347
+longitude: 118.264374
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

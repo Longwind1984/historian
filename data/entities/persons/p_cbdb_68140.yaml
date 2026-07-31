@@ -1,0 +1,14 @@
+id: p_cbdb_68140
+type: Person
+name: 李時
+born:
+  year: 1471
+died:
+  year: 1538
+gender: male
+birthplace: pl_cbdb_4442
+dynasty_ref: k_ming
+bio: CBDB ID 68140
+name_en: Li Shi
+sources:
+- CBDB (China Biographical Database)

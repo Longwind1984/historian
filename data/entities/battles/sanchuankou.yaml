@@ -1,0 +1,19 @@
+id: b_sanchuankou
+type: Battle
+name: 三川口之战
+date:
+  year: 1040
+category: battle
+importance: 3
+location: pl_yanzhou_xixia
+combatants:
+- k_beisong
+- k_xixia
+commanders:
+- p_liyuanhao
+victor: k_xixia
+victor_commander: p_liyuanhao
+description: 西夏元昊围延州,宋军万余援军于三川口遭夏军伏击,全军覆没。
+significance: 宋夏战争宋方首败。促范仲淹、韩琦经略陕西。
+sources:
+- 宋史·夏国传

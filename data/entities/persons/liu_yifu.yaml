@@ -1,0 +1,29 @@
+id: p_liu_yifu
+type: Person
+name: 刘义符
+alias:
+- 宋少帝
+- 营阳王
+born:
+  year: 406
+died:
+  year: 424
+reign_start:
+  year: 422
+reign_end:
+  year: 424
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_liusong
+bio: 武帝长子。居丧无礼、好狎昵,424年为徐羡之等所废杀。
+ext:
+  title: 宋少帝
+  regime: 刘宋
+sources:
+- 宋书
+- 南史
+- 资治通鉴
+wikidata_id: "Q49701"
+wikipedia_zh: "刘义符"

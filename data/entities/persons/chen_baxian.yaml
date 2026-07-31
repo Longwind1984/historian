@@ -1,0 +1,32 @@
+id: p_chen_baxian
+type: Person
+name: 陈霸先
+alias:
+- 陈兴国
+- 陈武帝
+courtesy_name: 兴国
+born:
+  year: 503
+died:
+  year: 559
+  month: 8
+gender: male
+birthplace: pl_changcheng_chenbaxian
+bio: 南朝陈建立者。吴兴长城人。552 平侯景之乱。557 代梁建陈。都建康。
+sources:
+- 陈书·武帝纪
+reign_start:
+  year: 557
+reign_end:
+  year: 559
+roles:
+- emperor
+ext:
+  title: 陈霸先
+  regime: 陈
+wikidata_id: "Q718217"
+wikipedia_zh: "陈霸先"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Emperor_Wu_of_Chen.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Emperor_Wu_of_Chen.jpg"

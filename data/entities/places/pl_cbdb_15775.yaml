@@ -1,0 +1,12 @@
+id: pl_cbdb_15775
+type: Place
+name: 湖州
+modern_name: 湖州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.864964
+longitude: 120.099312
+first_year: 624
+last_year: 959
+description: CBDB 行政类型:Zhou

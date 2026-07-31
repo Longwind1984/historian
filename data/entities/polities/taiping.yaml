@@ -1,0 +1,17 @@
+id: k_taiping
+type: Polity
+name: 太平天国
+name_en: Taiping
+color: '#e74c3c'
+founded:
+  year: 1851
+  month: 1
+ended:
+  year: 1864
+  month: 6
+capital: pl_tianjing_taiping
+description: 1851-1864 洪秀全建。1864 湘军破天京。
+sources:
+- 清史稿·洪秀全传
+founder: p_hongxiuquan
+ended_by: k_qing

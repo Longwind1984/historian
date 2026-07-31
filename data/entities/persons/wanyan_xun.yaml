@@ -1,0 +1,26 @@
+id: p_wanyan_xun
+type: Person
+name: 完颜珣
+alias:
+- 金宣宗
+born:
+  year: 1163
+died:
+  year: 1224
+reign_start:
+  year: 1213
+reign_end:
+  year: 1224
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_jin
+bio: 世宗孙。蒙古逼中都,1214年南迁汴京,失河北。又攻南宋、西夏以自补,三面树敌,金益衰。
+ext:
+  title: 金宣宗
+  regime: 金
+sources:
+- 金史
+wikidata_id: "Q5080"
+wikipedia_zh: "金宣宗"

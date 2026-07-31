@@ -1,0 +1,14 @@
+id: p_cbdb_29001
+type: Person
+name: 劉因
+born:
+  year: 1249
+died:
+  year: 1293
+gender: male
+birthplace: pl_cbdb_16927
+dynasty_ref: k_yuan
+bio: CBDB ID 29001
+name_en: Liu Yin (2)
+sources:
+- CBDB (China Biographical Database)

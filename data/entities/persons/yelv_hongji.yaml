@@ -1,0 +1,27 @@
+id: p_yelv_hongji
+type: Person
+name: 耶律洪基
+alias:
+- 辽道宗
+born:
+  year: 1032
+died:
+  year: 1101
+reign_start:
+  year: 1055
+reign_end:
+  year: 1101
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_liao
+bio: 兴宗子。信用奸佞,重元之乱、耶律乙辛构陷太子等内讧频仍,辽政日坏。崇佛耗财。
+ext:
+  title: 辽道宗
+  regime: 辽
+sources:
+- 辽史
+- 资治通鉴
+wikidata_id: "Q5007"
+wikipedia_zh: "辽道宗"

@@ -1,0 +1,12 @@
+id: pl_cbdb_6408
+type: Place
+name: 安寧州
+modern_name: 安寧州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.918441772
+longitude: 102.47412109
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

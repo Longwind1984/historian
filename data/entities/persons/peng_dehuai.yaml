@@ -1,0 +1,18 @@
+id: p_peng_dehuai
+name: 彭德怀
+type: Person
+born: {year: 1898}
+died: {year: 1974}
+roles:
+  - general
+importance: 2
+bio: 湖南湘潭人。中华人民共和国元帅,抗美援朝时任中国人民志愿军司令员,曾任国防部长。1959年后去职,文革中受迫害,1974年病逝,后平反。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q381823"
+wikipedia_zh: "彭德怀"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/94/General_Peng_Dehuai.jpg"
+image_license: "Public domain"
+image_credit: "​《 新华社 》记者 郑景康"
+image_source_page: "https://commons.wikimedia.org/wiki/File:General_Peng_Dehuai.jpg"

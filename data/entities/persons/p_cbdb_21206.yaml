@@ -1,0 +1,14 @@
+id: p_cbdb_21206
+type: Person
+name: 司馬昭
+born:
+  year: 211
+died:
+  year: 265
+gender: male
+birthplace: pl_cbdb_14715
+dynasty_ref: k_caowei
+bio: CBDB ID 21206
+name_en: Sima Zhao
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_11299
+type: Place
+name: 襄陽
+modern_name: 襄陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.026524
+longitude: 112.158699
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

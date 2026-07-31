@@ -1,0 +1,12 @@
+id: e_jingji_tequ
+name: 经济特区设立
+type: Event
+date:
+  year: 1980
+category: reform
+importance: 2
+description: 1980年,深圳、珠海、汕头、厦门设立经济特区,实行特殊经济政策。
+impact: 成为对外开放的窗口与试验区。
+sources:
+- 中华人民共和国史
+- 当代中国史

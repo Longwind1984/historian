@@ -1,0 +1,14 @@
+id: pl_wuchang_xinhai
+type: Place
+name: 武昌
+modern_name: 武汉
+province: 湖北
+latitude: 30.55
+longitude: 114.3
+category: battlefield
+description: 1911 武昌起义
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

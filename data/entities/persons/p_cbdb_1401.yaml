@@ -1,0 +1,14 @@
+id: p_cbdb_1401
+type: Person
+name: 彭思永
+born:
+  year: 1000
+died:
+  year: 1070
+gender: male
+birthplace: pl_cbdb_100179
+dynasty_ref: k_beisong
+bio: CBDB ID 1401
+name_en: Peng Siyong
+sources:
+- CBDB (China Biographical Database)

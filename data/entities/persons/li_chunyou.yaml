@@ -1,0 +1,27 @@
+id: p_li_chunyou
+type: Person
+name: 李纯祐
+alias:
+- 西夏桓宗
+born:
+  year: 1177
+died:
+  year: 1206
+reign_start:
+  year: 1193
+reign_end:
+  year: 1206
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 仁宗子。1205年蒙古始伐夏。1206年为堂兄李安全所废,旋暴卒。
+ext:
+  title: 西夏桓宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q486234"
+wikipedia_zh: "李純祐 (高麗)"

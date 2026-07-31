@@ -1,0 +1,30 @@
+id: p_hu_hai
+type: Person
+name: 胡亥
+alias:
+- 秦二世
+died:
+  year: -207
+  month: 9
+gender: male
+birthplace: pl_xianyang_qin
+bio: 秦二世。始皇少子。BC210 即位,任赵高为郎中令。BC209 大泽乡起义爆发。BC207 为赵高逼杀。
+sources:
+- 史记·秦始皇本纪
+reign_start:
+  year: -210
+reign_end:
+  year: -207
+roles:
+- emperor
+ext:
+  title: 秦二世
+  regime: 秦
+born:
+  year: -230
+wikidata_id: "Q7196"
+wikipedia_zh: "秦二世"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Qin_Er_Shi.png"
+image_license: "CC BY 4.0"
+image_credit: "Perinbaba"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qin_Er_Shi.png"

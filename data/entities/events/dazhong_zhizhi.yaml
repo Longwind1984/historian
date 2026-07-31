@@ -1,0 +1,17 @@
+id: e_dazhong_zhizhi
+type: Event
+name: 大中之治
+date:
+  year: 846
+category: prosperity
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_tang
+description: 846-859 宣宗李忱在位期间。推翻会昌毁佛、平反牛党、整顿吏治、击败吐蕃收复河西(851 张义潮归唐)、抑制宦官。
+impact: 晚唐最后一个治世。宣宗崩后唐朝迅速崩溃。
+sources:
+- 旧唐书·宣宗纪
+- 资治通鉴·卷248-249
+end_date:
+  year: 859

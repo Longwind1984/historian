@@ -1,0 +1,24 @@
+id: p_duoergun
+type: Person
+name: 多尔衮
+alias:
+- 睿亲王
+born:
+  year: 1612
+died:
+  year: 1650
+gender: male
+roles:
+- imperial_kin
+- civil_official
+importance: 2
+birthplace: pl_hetuala_dor
+bio: 清摄政王。1644 入关定鼎。剃发易服。
+sources:
+- 清史稿·多尔衮传
+wikidata_id: "Q380573"
+wikipedia_zh: "多爾袞"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Dorgon%2C_the_Prince_Rui_%2817th_century%29.jpg/500px-Dorgon%2C_the_Prince_Rui_%2817th_century%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Dorgon,_the_Prince_Rui_(17th_century).jpg"

@@ -1,0 +1,18 @@
+id: p_qian_sanqiang
+name: 钱三强
+type: Person
+born: {year: 1913}
+died: {year: 1992}
+roles:
+  - scholar
+importance: 2
+bio: 浙江湖州人,生于绍兴。核物理学家,'两弹一星'元勋。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q3357687"
+wikipedia_zh: "錢三強"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4a/He_Zehui_3.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:He_Zehui_3.jpg"

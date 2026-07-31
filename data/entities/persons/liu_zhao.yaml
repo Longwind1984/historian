@@ -1,0 +1,31 @@
+id: p_liu_zhao
+type: Person
+name: 刘肇
+alias:
+- 汉和帝
+- 和帝
+born:
+  year: 79
+died:
+  year: 106
+reign_start:
+  year: 88
+reign_end:
+  year: 106
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 章帝子，十岁即位，窦太后临朝。永元四年联宦官诛窦宪亲政；窦宪破北匈奴、蔡伦改进造纸术在其时。外戚宦官交替专权自此始。
+sources:
+- 后汉书
+- 资治通鉴
+ext:
+  title: 汉和帝
+  regime: 东汉
+wikidata_id: "Q7280"
+wikipedia_zh: "汉和帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Emperor_He_of_Han_%28cropped%29.png"
+image_license: "CC BY-SA 4.0"
+image_credit: "Koopinator"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Emperor_He_of_Han_(cropped).png"

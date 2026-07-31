@@ -1,0 +1,8 @@
+id: pl_cbdb_500026
+type: Place
+name: 交州
+modern_name: 交州
+category: city
+sources:
+- CBDB ADDR_CODES
+description: CBDB 行政类型:Independent State

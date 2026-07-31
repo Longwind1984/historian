@@ -1,0 +1,24 @@
+id: p_luyou
+type: Person
+name: 陆游
+courtesy_name: 务观
+born:
+  year: 1125
+  month: 11
+died:
+  year: 1210
+  month: 12
+gender: male
+roles:
+- literatus
+importance: 2
+birthplace: pl_shanyin_lu
+bio: 南宋爱国诗人。现存诗九千余首(宋诗人第一)。力主抗金,屡遭排挤。临终《示儿》。
+sources:
+- 宋史·陆游传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E9%99%B8%E6%B8%B8_%E8%82%96%E5%83%8F.jpg/500px-%E9%99%B8%E6%B8%B8_%E8%82%96%E5%83%8F.jpg"
+wikidata_id: "Q1069914"
+wikipedia_zh: "陸游"
+image_license: "Public domain"
+image_credit: "Unknown ,清人 繪"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%99%B8%E6%B8%B8_%E8%82%96%E5%83%8F.jpg"

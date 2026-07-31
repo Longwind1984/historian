@@ -1,0 +1,15 @@
+id: pl_chanzhou
+type: Place
+name: 澶州
+modern_name: 濮阳
+province: 河南
+latitude: 35.76
+longitude: 115.03
+category: battlefield
+description: 1004-1005 澶渊之战
+sources:
+- 宋史·地理志
+- 辽史·地理志
+- 金史·地理志
+- 元史·地理志
+- 中国历史地图集

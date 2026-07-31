@@ -1,0 +1,12 @@
+id: pl_cbdb_4442
+type: Place
+name: 任邱
+modern_name: 任邱
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.707668304
+longitude: 116.09048462
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

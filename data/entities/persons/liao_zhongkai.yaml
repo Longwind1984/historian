@@ -1,0 +1,24 @@
+id: p_liao_zhongkai
+type: Person
+name: 廖仲恺
+alias:
+- 廖夷白
+courtesy_name: 夷白
+born:
+  year: 1877
+died:
+  year: 1925
+gender: male
+roles:
+- civil_official
+importance: 2
+bio: 广东惠阳人，生于美国旧金山，近代政治人物。1902 年留学日本，1905 年加入同盟会。长期掌国民党财政，历任广东革命政府财政部长。孙中山联俄联共政策的主要赞助者，1924 年国民党改组后任中央执行委员、工人部长、黄埔军校党代表，坚定支持三大政策。1925 年 8 月 20 日在广州国民党中央党部门前遇刺身亡。
+sources:
+- 中华民国史·廖仲恺传
+- 尚明轩·廖仲恺传
+wikidata_id: "Q708753"
+wikipedia_zh: "廖仲恺"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lch.png"
+image_license: "Public domain"
+image_credit: "The original uploader was Peterpan at Chinese Wikipedia ."
+image_source_page: "https://commons.wikimedia.org/wiki/File:Lch.png"

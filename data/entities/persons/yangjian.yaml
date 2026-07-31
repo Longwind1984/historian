@@ -1,0 +1,34 @@
+id: p_yangjian
+type: Person
+name: 杨坚
+alias:
+- 隋文帝
+courtesy_name: 那罗延
+born:
+  year: 541
+  month: 7
+died:
+  year: 604
+  month: 8
+reign_start:
+  year: 581
+reign_end:
+  year: 604
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_wuyang
+bio: 隋朝建立者。关陇集团核心人物。北周外戚,581 年代周建隋,589 年灭陈统一。开皇之治。
+sources:
+- 隋书·高祖纪
+- 北史·隋本纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sui_Wendi_Tang.jpg/500px-Sui_Wendi_Tang.jpg"
+ext:
+  title: 隋文帝
+  regime: 隋
+wikidata_id: "Q7418"
+wikipedia_zh: "隋文帝"
+image_license: "Public domain"
+image_credit: "Yan Li-pen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg"

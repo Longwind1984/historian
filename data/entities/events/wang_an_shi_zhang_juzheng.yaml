@@ -1,0 +1,16 @@
+id: e_wang_an_shi_zhang_juzheng
+type: Event
+name: 张居正改革
+date:
+  year: 1573
+category: reform
+importance: 2
+location: pl_beijing_qing
+polities_involved:
+- k_ming
+description: 1573 考成法(整顿吏治)。1577-1581 测全国土地(《鱼鳞图册》)。1581 一条鞭法(赋役合一,折银)。
+impact: 明朝后期最有力的改革,财政、军备、吏治一度好转。
+sources:
+- 明史·张居正传
+end_date:
+  year: 1582

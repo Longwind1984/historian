@@ -1,0 +1,12 @@
+id: pl_cbdb_100094
+type: Place
+name: 壽安
+modern_name: 壽安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.512718
+longitude: 112.165222
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

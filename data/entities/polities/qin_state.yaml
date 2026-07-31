@@ -1,0 +1,14 @@
+id: k_qin_state
+type: Polity
+name: 秦国
+name_en: Qin (state)
+color: '#c0392b'
+founded:
+  year: -770
+ended:
+  year: -221
+description: 秦国。嬴姓。前770年秦襄公以兵护送平王东迁，平王封为诸侯，赐岐西之地，秦始列为诸侯。经穆公霸西戎、孝公商鞅变法，国力日强，战国后期为最强。前221年秦王政灭六国，称皇帝，秦朝(k_qin)立，秦国入于秦朝。
+sources:
+- 史记·秦本纪
+- 史记·秦始皇本纪
+- 左传·文公

@@ -1,0 +1,42 @@
+id: p_sun_zhongshan
+type: Person
+name: 孙中山
+alias:
+- 孙文
+- 逸仙
+courtesy_name: 帝象
+born:
+  year: 1866
+died:
+  year: 1925
+gender: male
+roles:
+- rebel_leader
+- civil_official
+importance: 1
+bio: 广东香山(今中山)人，近代革命家、政治家，中华民国临时大总统。1894 年于檀香山创立兴中会，1905 年在东京合组同盟会，提出"驱除鞑虏，恢复中华，创立民国，平均地权"纲领与民族、民权、民生的三民主义。1912 年 1 月 1 日就任中华民国临时大总统。此后领导二次革命、护法运动。1924 年改组中国国民党，确立联俄、联共、扶助农工三大政策，创办黄埔军校。1925 年 3 月 12 日病逝于北京。
+life_events:
+- year: 1894
+  event: 檀香山创立兴中会
+  source: 孙中山全集·第一卷
+- year: 1905
+  event: 东京创立同盟会，提出三民主义
+  source: 孙中山全集·第一卷
+- year: 1912
+  event: 就任中华民国临时大总统
+  source: 中华民国史·第一编
+- year: 1924
+  event: 改组国民党，创办黄埔军校
+  source: 中华民国史·第二编
+- year: 1925
+  event: 病逝于北京
+  source: 孙中山年谱长编
+sources:
+- 陈锡祺·孙中山年谱长编
+- 中华民国史·孙中山传
+wikidata_id: "Q8573"
+wikipedia_zh: "孫中山"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg/500px-%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg"
+image_license: "Public domain"
+image_credit: "上海波尔照相馆"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg"

@@ -1,0 +1,16 @@
+id: k_han_chen
+type: Polity
+name: 汉(陈友谅)
+name_en: Han (Chen Youliang)
+color: '#a04a4a'
+founded:
+  year: 1360
+  month: 5
+ended:
+  year: 1364
+  month: 2
+description: 1360 陈友谅弑徐寿辉称帝,国号汉,都江州,据湖广江西,为元末最强割据势力。1363 鄱阳湖决战中箭死,1364 子陈理降朱元璋。
+sources:
+- 明史·陈友谅传
+founder: p_chenyouliang
+ended_by: k_wu_zhu

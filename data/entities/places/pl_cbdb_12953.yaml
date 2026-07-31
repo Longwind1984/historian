@@ -1,0 +1,12 @@
+id: pl_cbdb_12953
+type: Place
+name: 永新
+modern_name: 永新
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.945564
+longitude: 114.23687
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,17 @@
+id: e_guandu_zhizhan
+type: Event
+name: 官渡之战
+date:
+  year: 200
+  month: 2
+category: battle
+importance: 2
+location: pl_guandu
+polities_involved:
+- k_caowei_pre
+- k_yuanshao_pre
+description: 200 年二月袁绍率 11 万南下攻曹操。曹操以 2 万守官渡。十月许攸来降,曹操夜袭乌巢烧绍粮,绍军大溃。绍仅 800 骑北逃。
+impact: 曹操统一北方的决定性战役。
+sources:
+- 三国志·魏书·武帝纪
+- 资治通鉴·卷63

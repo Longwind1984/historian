@@ -1,0 +1,33 @@
+id: p_liu_yu_houfeidi
+type: Person
+name: 刘昱
+alias:
+- 后废帝
+- 苍梧王
+born:
+  year: 463
+died:
+  year: 477
+reign_start:
+  year: 472
+reign_end:
+  year: 477
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_liusong
+bio: 明帝子,十岁即位。暴虐嗜杀,477年为萧道成遣人所弑。
+ext:
+  title: 宋后废帝
+  regime: 刘宋
+sources:
+- 宋书
+- 南史
+- 资治通鉴
+wikidata_id: "Q717946"
+wikipedia_zh: "劉昱"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/84/%E5%AE%8B%E5%BE%8C%E5%BB%A2%E5%B8%9D.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%BE%8C%E5%BB%A2%E5%B8%9D.jpg"

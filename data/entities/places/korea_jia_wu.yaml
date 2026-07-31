@@ -1,0 +1,14 @@
+id: pl_korea_jia_wu
+type: Place
+name: 朝鲜
+modern_name: 首尔
+province: 韩国
+latitude: 37.57
+longitude: 126.98
+category: battlefield
+description: 甲午战争
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

@@ -1,0 +1,26 @@
+id: p_qu_qiubai
+type: Person
+name: 瞿秋白
+alias:
+- 瞿霜
+courtesy_name: 熊伯
+born:
+  year: 1899
+died:
+  year: 1935
+gender: male
+roles:
+- scholar
+- literatus
+- rebel_leader
+importance: 2
+bio: 江苏常州人，近代文人、政治人物。早年考入外交部办的俄文专修馆。1920 年以记者赴苏俄，作《饿乡纪程》《赤都心史》。1922 年加入中国共产党。1927 年八七会议后主持中央工作。1928 年赴莫斯科任中共驻共产国际代表团团长。1931 年起在上海参与左翼文化运动。1934 年到中央苏区任教育人民委员。红军长征后留守，1935 年 2 月在福建长汀被俘，6 月就义。著《多余的话》。
+sources:
+- 中华民国史·瞿秋白传
+- 王铁仙·瞿秋白传
+wikidata_id: "Q552001"
+wikipedia_zh: "瞿秋白"
+image: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Qu_Qiubai.JPG"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qu_Qiubai.JPG"

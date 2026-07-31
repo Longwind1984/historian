@@ -1,0 +1,12 @@
+id: pl_cbdb_4771
+type: Place
+name: 蒲州
+modern_name: 蒲州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 38.682151794
+longitude: 115.91989899
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Zhou

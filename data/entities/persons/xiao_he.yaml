@@ -1,0 +1,19 @@
+id: p_xiao_he
+type: Person
+name: 萧何
+died:
+  year: -193
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_pei_xian_xiaohe
+bio: 汉初三杰之一。沛人。'镇国家,抚百姓'。BC206 入咸阳收秦图书。BC202 任相国。BC196 与吕后诛韩信。
+sources:
+- 史记·萧相国世家
+wikidata_id: "Q1368034"
+wikipedia_zh: "萧何"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/48/%E6%B1%89%E7%9B%B8%E5%9B%BD%E9%85%82%E4%BE%AF%E8%90%A7%E4%BD%95.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B1%89%E7%9B%B8%E5%9B%BD%E9%85%82%E4%BE%AF%E8%90%A7%E4%BD%95.jpg"

@@ -1,0 +1,12 @@
+id: pl_cbdb_100062
+type: Place
+name: 南昌
+modern_name: 南昌
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.674896
+longitude: 115.89772
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

@@ -1,0 +1,15 @@
+id: pl_yunzhou
+type: Place
+name: 云州
+modern_name: 大同
+province: 山西
+latitude: 40.08
+longitude: 113.3
+category: garrison
+description: 燕云十六州之一
+aliases:
+- 云中
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

@@ -1,0 +1,24 @@
+id: p_xu_beihong
+type: Person
+name: 徐悲鸿
+alias:
+- 徐悲鸿
+courtesy_name: 悲鸿
+born:
+  year: 1895
+died:
+  year: 1953
+gender: male
+roles:
+- literatus
+importance: 2
+bio: 江苏宜兴人，近代画家、美术教育家。早年任教上海、北京大学。1919 年赴法留学，入巴黎国立美术学校。1927 年回国，历任中央大学艺术系教授、北平艺专校长。倡"素描为一切造型艺术之基础"，融合中西，工人物、走兽，代表作《田横五百士》《九方皋》《奔马》。1949 年后任中央美术学院院长。1953 年病逝于北京。
+sources:
+- 中华民国史·徐悲鸿传
+- 廖静文·徐悲鸿一生
+wikidata_id: "Q714152"
+wikipedia_zh: "徐悲鸿"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/XuBeihong.jpg/500px-XuBeihong.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:XuBeihong.jpg"

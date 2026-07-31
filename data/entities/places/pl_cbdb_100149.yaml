@@ -1,0 +1,12 @@
+id: pl_cbdb_100149
+type: Place
+name: 將樂
+modern_name: 將樂
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.720821
+longitude: 117.455017
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

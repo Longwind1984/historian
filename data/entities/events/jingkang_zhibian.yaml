@@ -1,0 +1,31 @@
+id: e_jingkang_zhibian
+type: Event
+name: 靖康之变
+date:
+  year: 1127
+  month: 3
+category: conquest
+march:
+- from: pl_yunzhou
+  to: pl_taiyuan
+  side: k_jin
+  note: 金军西路由粘罕自云中趋太原，连陷朔、代后围太原。《宋史纪事本末·卷56·金人南侵》
+- from: pl_beijing_ylcj
+  to: pl_kaifeng
+  side: k_jin
+  note: 金军东路由斡离不自平州入燕山，得郭药师为向导后长驱南下围汴京；平州尚无地点实体，故从史载途中明确占据的燕京起记。《宋史纪事本末·卷56·金人南侵》
+importance: 1
+location: pl_kaifeng
+polities_involved:
+- k_beisong
+- k_jin
+description: 1125 金军分两路南侵。1126 围开封,李纲守御,金军退后又至。1127 正月开封城破。三月金军掳徽宗、钦宗二帝及皇室三千余人北去,掠尽财宝典籍百工。北宋亡。
+impact: 中国历史重大转折,南北分立。'靖康耻'。
+sources:
+- 宋史·钦宗本纪
+- 宋史纪事本末·卷56·金人南侵
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Jingkang Incident.jpg
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 复燕未几,金反南下,北宋亡——收复之图适成亡国之由

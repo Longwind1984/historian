@@ -1,0 +1,14 @@
+id: p_cbdb_1781
+type: Person
+name: 王贄
+born:
+  year: 994
+died:
+  year: 1069
+gender: male
+birthplace: pl_cbdb_12948
+dynasty_ref: k_beisong
+bio: CBDB ID 1781
+name_en: Wang Zhi
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,32 @@
+id: p_zhao_wuling_wang
+type: Person
+name: 赵雍
+alias:
+- 赵武灵王
+- 武灵王
+- 主父
+gender: male
+roles:
+- monarch
+importance: 2
+reign_start:
+  year: -325
+reign_end:
+  year: -299
+bio: 赵武灵王，嬴姓，赵氏，名雍，赵肃侯之子。前325年即位。前307年力排叔父公子成等群臣异议，行胡服骑射，改宽袍车战为短衣骑兵，赵军骤强，北破林胡、楼烦，置云中、雁门、代郡，拓地千里。前299年传位于少子何(惠文王)，自称主父，欲专意军略、谋袭秦。后欲分赵予长子公子章，致章作乱。前295年章败奔沙丘宫，公子成、李兑围沙丘宫三月余，主父饿死其中。
+life_events:
+- year: -325
+  event: 即位
+  source: 史记·赵世家
+- year: -307
+  event: 力排异议，行胡服骑射
+  source: 史记·赵世家
+- year: -299
+  event: 传位少子何，自称主父
+  source: 史记·赵世家
+- year: -295
+  event: 沙丘之乱，饿死宫中
+  source: 史记·赵世家
+sources:
+- 史记·赵世家
+- 战国策·赵策

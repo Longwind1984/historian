@@ -1,0 +1,12 @@
+id: pl_cbdb_11928
+type: Place
+name: 萬泉
+modern_name: 萬泉
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.36078
+longitude: 110.801264
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

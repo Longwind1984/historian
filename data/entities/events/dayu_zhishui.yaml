@@ -1,0 +1,14 @@
+id: e_dayu_zhishui
+type: Event
+name: 大禹治水
+date:
+  year: -2100
+category: science
+importance: 2
+description: 相传禹奉舜命治水十三年，改鲧之"堵"为"疏"，疏导九河、开凿山川，划分九州，平定水患。治水之功为其受禅建夏奠定基础。传说，年代模糊。
+impact: 治水成功使禹获部落拥戴，成为受禅建夏之依据；"九州"观念成为后世地理与政治格局的滥觞。
+sources:
+- 尚书·禹贡
+- 史记·夏本纪
+ext:
+  disputed: true

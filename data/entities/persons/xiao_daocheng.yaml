@@ -1,0 +1,31 @@
+id: p_xiao_daocheng
+type: Person
+name: 萧道成
+alias:
+- 齐高帝
+born:
+  year: 427
+died:
+  year: 482
+reign_start:
+  year: 479
+reign_end:
+  year: 482
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 代宋建齐。行俭约、罢奢费。在位四年而崩。
+ext:
+  title: 齐高帝
+  regime: 南齐
+sources:
+- 南齐书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1194981"
+wikipedia_zh: "蕭道成"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Xiao_Daocheng_%28Qi_Gaodi%29.jpg/500px-Xiao_Daocheng_%28Qi_Gaodi%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xiao_Daocheng_(Qi_Gaodi).jpg"

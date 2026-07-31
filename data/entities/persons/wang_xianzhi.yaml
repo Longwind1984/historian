@@ -1,0 +1,17 @@
+id: p_wang_xianzhi
+type: Person
+name: 王仙芝
+died:
+  year: 878
+  month: 2
+gender: male
+birthplace: pl_puzhou_wxz
+bio: 唐末起义军首领。875 年于长垣起兵,自称天补平均大将军。878 年战死于黄梅。
+ext:
+  significance: 唐末大起义先驱,与黄巢共同揭开唐朝覆灭序幕。
+sources:
+- 旧唐书·僖宗纪
+- 新唐书·逆臣传
+- 资治通鉴·卷252-253
+wikidata_id: "Q4844228"
+wikipedia_zh: "王仙芝"

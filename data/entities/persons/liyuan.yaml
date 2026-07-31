@@ -1,0 +1,36 @@
+id: p_liyuan
+type: Person
+name: 李渊
+alias:
+- 唐高祖
+courtesy_name: 叔德
+born:
+  year: 566
+  month: 4
+died:
+  year: 635
+  month: 6
+reign_start:
+  year: 618
+reign_end:
+  year: 626
+gender: male
+roles:
+- emperor
+importance: 2
+birthplace: pl_chengji
+bio: 唐朝建立者。李虎孙,北周贵族。617 年太原起兵,618 年代隋建唐。在位期间基本统一。626 年玄武门之变后,被世民所迫退位。
+ext:
+  significance: 大唐奠基。
+  title: 唐高祖
+  regime: 唐
+sources:
+- 旧唐书·高祖本纪
+- 新唐书·高祖本纪
+- 资治通鉴·卷184-191
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/TangGaozu.jpg/500px-TangGaozu.jpg"
+wikidata_id: "Q9700"
+wikipedia_zh: "李渊"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:TangGaozu.jpg"

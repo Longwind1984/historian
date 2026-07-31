@@ -1,0 +1,12 @@
+id: pl_cbdb_12181
+type: Place
+name: 隴西
+modern_name: 隴西
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.007137
+longitude: 104.635605
+first_year: 1090
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,27 @@
+id: p_li_dewang
+type: Person
+name: 李德旺
+alias:
+- 西夏献宗
+born:
+  year: 1181
+died:
+  year: 1226
+reign_start:
+  year: 1223
+reign_end:
+  year: 1226
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_xixia
+bio: 神宗子。谋联金抗蒙,蒙古大举伐夏,1226年闻成吉思汗破城忧悸而死。
+ext:
+  title: 西夏献宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q7458"
+wikipedia_zh: "夏献宗"

@@ -1,0 +1,14 @@
+id: d_qing
+type: Dynasty
+name: 清
+name_en: Qing
+founded:
+  year: 1636
+ended:
+  year: 1912
+  month: 2
+last_capital: pl_beijing_qing
+description: 清朝。1616 努尔哈赤建后金,1636 改国号清。1644 入关。1912 逊位,中国帝制结束。
+period_label: 清
+sources:
+- 清史稿

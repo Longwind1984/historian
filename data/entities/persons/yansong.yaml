@@ -1,0 +1,21 @@
+id: p_yansong
+type: Person
+name: 严嵩
+alias:
+- 严惟中
+courtesy_name: 惟中
+born:
+  year: 1480
+died:
+  year: 1567
+gender: male
+birthplace: pl_fenyi_yan
+bio: 明代权奸,首辅。专国二十年。1562 倒台。
+sources:
+- 明史·奸臣传·严嵩
+wikidata_id: "Q698700"
+wikipedia_zh: "严嵩"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Yansong2.jpg/500px-Yansong2.jpg"
+image_license: "Public domain"
+image_credit: "Qing people painted \"Statue of Yan Song\""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yansong2.jpg"

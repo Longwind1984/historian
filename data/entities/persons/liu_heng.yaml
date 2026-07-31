@@ -1,0 +1,29 @@
+id: p_liu_heng
+type: Person
+name: 刘恒
+alias:
+- 汉文帝
+born:
+  year: -203
+died:
+  year: -157
+gender: male
+birthplace: pl_dai_liu_heng
+bio: 汉文帝。高祖第四子。BC180 周勃、陈平诛诸吕,迎立代王恒。BC180-157 在位。轻徭薄赋,与民休息。'文景之治'开启。
+sources:
+- 史记·孝文本纪
+reign_start:
+  year: -180
+reign_end:
+  year: -157
+roles:
+- emperor
+ext:
+  title: 汉文帝
+  regime: 西汉
+wikidata_id: "Q7221"
+wikipedia_zh: "汉文帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Q7221_-_%E4%BA%B2%E5%B0%9D%E6%B1%A4%E8%8D%AF_%28cropped%29.JPG/500px-Q7221_-_%E4%BA%B2%E5%B0%9D%E6%B1%A4%E8%8D%AF_%28cropped%29.JPG"
+image_license: "Public domain"
+image_credit: "Dingar"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Q7221_-_%E4%BA%B2%E5%B0%9D%E6%B1%A4%E8%8D%AF_(cropped).JPG"

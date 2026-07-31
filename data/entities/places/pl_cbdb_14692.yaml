@@ -1,0 +1,12 @@
+id: pl_cbdb_14692
+type: Place
+name: 河南
+modern_name: 河南
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.665276
+longitude: 112.38263
+first_year: 707
+last_year: 959
+description: CBDB 行政类型:Xian

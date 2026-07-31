@@ -1,0 +1,14 @@
+id: pl_hexi_corridor
+type: Place
+name: 河西走廊
+modern_name: 武威
+province: 甘肃
+latitude: 37.93
+longitude: 102.64
+category: city
+description: 河西四郡
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

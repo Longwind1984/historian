@@ -1,0 +1,12 @@
+id: p_cbdb_1878
+type: Person
+name: 王庶
+died:
+  year: 1143
+gender: male
+birthplace: pl_cbdb_12008
+dynasty_ref: k_beisong
+bio: CBDB ID 1878
+name_en: Wang Shu
+sources:
+- CBDB (China Biographical Database)

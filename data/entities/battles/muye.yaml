@@ -1,0 +1,29 @@
+id: b_muye
+type: Battle
+name: 牧野之战
+date:
+  year: -1046
+category: conquest
+march:
+- from: pl_haojing
+  to: pl_muye
+  note: 周武王自镐京东出,会八百诸侯于孟津,进至牧野。《史记·周本纪》
+importance: 1
+location: pl_muye
+combatants:
+- k_xizhou
+- k_shang
+commanders:
+- p_zhou_wu_wang
+- p_jiang_ziya
+- p_di_xin
+victor: k_xizhou
+victor_commander: p_zhou_wu_wang
+description: 周武王会八百诸侯伐纣，师至牧野(商都朝歌南郊)。武王以姜尚为师尚父督战，纣发兵拒之，商军阵前倒戈。纣奔鹿台自焚，商亡，周朝立。利簋铭文记"武王征商，唯甲子朝"，与《尚书·牧誓》合，金文佐证其事。年代据断代工程。
+significance: 周代商而立，西周建立；利簋为武王伐纣提供金文实物佐证。
+sources:
+- 尚书·牧誓
+- 史记·周本纪
+- 利簋铭文
+ext:
+  disputed: true

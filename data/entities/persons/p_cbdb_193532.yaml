@@ -1,0 +1,12 @@
+id: p_cbdb_193532
+type: Person
+name: 田某
+died:
+  year: 800
+gender: male
+birthplace: pl_cbdb_15325
+dynasty_ref: k_tang
+bio: CBDB ID 193532
+name_en: Tian Mou
+sources:
+- CBDB (China Biographical Database)

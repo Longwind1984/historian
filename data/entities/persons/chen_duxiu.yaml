@@ -1,0 +1,26 @@
+id: p_chen_duxiu
+type: Person
+name: 陈独秀
+alias:
+- 陈仲甫
+courtesy_name: 仲甫
+born:
+  year: 1879
+died:
+  year: 1942
+gender: male
+roles:
+- scholar
+- rebel_leader
+- literatus
+importance: 2
+bio: 安徽怀宁(今安庆)人，近代思想家。早年留学日本。1915 年创办《青年杂志》(次年改《新青年》)，发起新文化运动，倡民主与科学。1917 年任北京大学文科学长。1920 年与李大钊酝酿建党，在上海发起马克思主义研究会，1921 年中国共产党成立，任中央局书记，连任五届最高负责人。1927 年大革命失败后被解除领导职务，1929 年被开除党籍。晚年居四川江津，1942 年病逝。
+sources:
+- 中华民国史·陈独秀传
+- 唐宝林·陈独秀全传
+wikidata_id: "Q369681"
+wikipedia_zh: "陈独秀"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chen_Duxiu4.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chen_Duxiu4.jpg"

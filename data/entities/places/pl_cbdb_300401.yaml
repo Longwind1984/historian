@@ -1,0 +1,12 @@
+id: pl_cbdb_300401
+type: Place
+name: 鎮海衛
+modern_name: 鎮海衛
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.254719
+longitude: 118.09714
+first_year: 1388
+last_year: 1643
+description: CBDB 行政类型:Wei

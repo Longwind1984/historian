@@ -1,0 +1,18 @@
+id: k_shuhan
+type: Polity
+name: 蜀汉
+name_en: Shu Han
+color: '#27ae60'
+founded:
+  year: 221
+  month: 4
+ended:
+  year: 263
+  month: 11
+capital: pl_chengdu
+description: 三国之一。刘备建,都成都。263 为魏将邓艾所灭。
+sources:
+- 三国志·蜀书
+founder: p_liu_bei
+ended_by: k_caowei
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Shu Han map.jpg

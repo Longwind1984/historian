@@ -1,0 +1,31 @@
+id: p_yongzheng
+type: Person
+name: 胤禛
+alias:
+- 清世宗
+- 雍正
+born:
+  year: 1678
+died:
+  year: 1735
+reign_start:
+  year: 1722
+reign_end:
+  year: 1735
+gender: male
+roles:
+- emperor
+importance: 1
+birthplace: pl_beijing_qing
+bio: 清世宗。摊丁入亩、火耗归公、改土归流。1729 设军机处。即位合法性争议(学界主流认为合法)。
+sources:
+- 清史稿·世宗本纪
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Emperor_Yongzheng.PNG/500px-Emperor_Yongzheng.PNG"
+ext:
+  title: 雍正帝
+  regime: 清
+wikidata_id: "Q317839"
+wikipedia_zh: "雍正帝"
+image_license: "Public domain"
+image_credit: "anonymous"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Emperor_Yongzheng.PNG"

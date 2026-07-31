@@ -1,0 +1,26 @@
+id: p_baozheng
+type: Person
+name: 包拯
+alias:
+- 包希仁
+- 包青天
+courtesy_name: 希仁
+born:
+  year: 999
+died:
+  year: 1062
+  month: 5
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_hefei_li
+bio: 北宋名臣,以清廉刚直著称。权御史中丞、权知开封府。'包青天'形象原型。
+sources:
+- 宋史·包拯传
+wikidata_id: "Q337805"
+wikipedia_zh: "包拯"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bao_Zheng_scth.jpg"
+image_license: "Public domain"
+image_credit: "Wang Qi"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Bao_Zheng_scth.jpg"

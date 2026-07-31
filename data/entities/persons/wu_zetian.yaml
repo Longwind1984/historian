@@ -1,0 +1,39 @@
+id: p_wu_zetian
+type: Person
+name: 武曌
+alias:
+- 武则天
+- 武后
+- 圣神皇帝
+born:
+  year: 624
+  month: 2
+died:
+  year: 705
+  month: 12
+reign_start:
+  year: 690
+reign_end:
+  year: 705
+gender: female
+roles:
+- emperor
+- consort
+importance: 1
+birthplace: pl_wenshui_wu
+bio: 中国历史上唯一的女皇帝。并州文水人。唐太宗才人,高宗皇后。655 立为后。660 起与高宗并称'二圣'。高宗崩后临朝称制。690 改国号为周,称帝,都洛阳。705
+  神龙革命中被迫退位,传位中宗,唐复国。同年崩。
+ext:
+  significance: 中国唯一女皇帝。开创武举、殿试。任用酷吏。神龙革命后退位。
+  title: 武则天
+  regime: 武周
+sources:
+- 旧唐书·则天皇后本纪
+- 新唐书·则天皇后本纪
+- 资治通鉴·卷203-208
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png/500px-%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png"
+wikidata_id: "Q9738"
+wikipedia_zh: "武则天"
+image_license: "Public domain"
+image_credit: "Likely to be Zhang Xuan (张萱)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_(%E5%B1%80%E9%83%A8)_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png"

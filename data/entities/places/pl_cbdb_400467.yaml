@@ -1,0 +1,10 @@
+id: pl_cbdb_400467
+type: Place
+name: 趙郡
+modern_name: 趙郡
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 742
+last_year: 757
+description: CBDB 行政类型:Jun Commandery

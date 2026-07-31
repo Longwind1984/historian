@@ -1,0 +1,33 @@
+id: p_jingtai
+type: Person
+name: 朱祁钰
+alias:
+- 明代宗
+- 景泰帝
+born:
+  year: 1428
+died:
+  year: 1457
+gender: male
+birthplace: pl_beiping_zhudi
+bio: 明代宗。宣宗次子,英宗弟。1449 英宗被俘后即位。1449 北京保卫战(于谦)。1457 夺门之变英宗复辟,被废郕王。
+sources:
+- 明史·景帝纪
+- 明史
+- 明实录
+reign_start:
+  year: 1449
+reign_end:
+  year: 1457
+roles:
+- emperor
+ext:
+  title: 景泰帝
+  regime: 明
+importance: 3
+wikidata_id: "Q9988"
+wikipedia_zh: "景泰帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Jingtai.jpg"
+image_license: "Public domain"
+image_credit: "Unknown artist"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Jingtai.jpg"

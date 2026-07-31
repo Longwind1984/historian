@@ -1,0 +1,14 @@
+id: p_tian_yue
+type: Person
+name: 田悦
+born:
+  year: 751
+died:
+  year: 784
+gender: male
+birthplace: pl_weizhou
+bio: 魏博节度使(779-784)。田承嗣侄。781 年与成德李惟岳、淄青李纳、山南梁崇义起兵反抗唐廷(四镇之乱)。后为堂弟田绪所杀。
+sources:
+- 旧唐书·田悦传
+wikidata_id: "Q7800149"
+wikipedia_zh: "田悦"

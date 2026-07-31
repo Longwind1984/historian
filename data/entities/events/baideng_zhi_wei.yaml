@@ -1,0 +1,18 @@
+id: e_baideng_zhi_wei
+type: Event
+name: 白登之围
+date:
+  year: -200
+  month: 12
+category: battle
+importance: 3
+location: pl_baideng
+polities_involved:
+- k_xihan
+- k_xiongnu
+description: BC200 汉高祖率 32 万亲征匈奴冒顿单于 40 万骑,被围于平城白登山七日七夜。陈平贿赂阏氏解围。
+impact: 汉朝对匈奴转入和亲政策。
+sources:
+- 史记·匈奴列传
+- 资治通鉴·卷11
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Battle of Baideng.jpg

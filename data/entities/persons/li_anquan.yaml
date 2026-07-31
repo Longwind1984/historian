@@ -1,0 +1,26 @@
+id: p_li_anquan
+type: Person
+name: 李安全
+alias:
+- 西夏襄宗
+born:
+  year: 1170
+died:
+  year: 1211
+reign_start:
+  year: 1206
+reign_end:
+  year: 1211
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 废桓宗自立。附蒙攻金,国力大耗。1211年被废,旋死。
+ext:
+  title: 西夏襄宗
+  regime: 西夏
+sources:
+- 宋史·夏国传
+- 西夏书事
+wikidata_id: "Q7456"
+wikipedia_zh: "夏襄宗"

@@ -1,0 +1,27 @@
+id: b_nantang_chu
+type: Battle
+name: 南唐灭楚之战(潭州之战)
+date:
+  year: 951
+  month: 10
+importance: 3
+location: pl_changsha
+combatants:
+- k_nantang
+- k_chu
+commanders:
+- p_lijing
+victor: k_nantang
+victor_commander: p_lijing
+strength: 规模不大
+description: 楚国王室马氏兄弟争位('群驹争槽'),国中大乱。951年秋南唐趁楚内乱派边镐率军入湖南,兵不血刃进入潭州,马希崇等出降,楚国灭亡。
+significance: 楚国灭亡,湖南尽失。但南唐统治不善,不久刘言、王逵、周行逢相继起兵,湖南实际上重归割据。南唐得而复失,徒耗国力。
+ext:
+  scale: 重要
+sources:
+- 新五代史·楚世家
+- 资治通鉴·卷290
+end_date:
+  year: 951
+  month: 11
+category: conquest

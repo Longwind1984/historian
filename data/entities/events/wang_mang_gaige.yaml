@@ -1,0 +1,16 @@
+id: e_wang_mang_gaige
+type: Event
+name: 王莽改制
+date:
+  year: 9
+category: reform
+importance: 2
+location: pl_chang_an_xin
+polities_involved:
+- k_xin
+description: 9-22 王莽推行全面改制:王田制(土地国有)、私属(废除奴隶)、五均六筦(国家控制工商业)、改官名地名币制。
+impact: 脱离实际,引发大乱。新朝覆灭主因。
+sources:
+- 汉书·王莽传
+end_date:
+  year: 22

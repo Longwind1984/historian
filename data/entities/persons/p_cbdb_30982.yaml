@@ -1,0 +1,14 @@
+id: p_cbdb_30982
+type: Person
+name: 王勃
+born:
+  year: 650
+died:
+  year: 676
+gender: male
+birthplace: pl_cbdb_15023
+dynasty_ref: k_tang
+bio: CBDB ID 30982
+name_en: Wang Bo
+sources:
+- CBDB (China Biographical Database)

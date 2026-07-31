@@ -1,0 +1,14 @@
+id: pl_xiangfu_shi
+type: Place
+name: 祥符
+modern_name: 开封
+province: 河南
+latitude: 34.8
+longitude: 114.31
+category: city
+description: 史可法籍贯
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

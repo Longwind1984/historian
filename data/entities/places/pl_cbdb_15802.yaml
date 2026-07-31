@@ -1,0 +1,12 @@
+id: pl_cbdb_15802
+type: Place
+name: 婺州
+modern_name: 婺州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.104712
+longitude: 119.649918
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Zhou

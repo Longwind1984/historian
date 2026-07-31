@@ -1,0 +1,33 @@
+id: p_wang_mang
+type: Person
+name: 王莽
+alias:
+- 王巨君
+courtesy_name: 巨君
+born:
+  year: -45
+died:
+  year: 23
+  month: 10
+gender: male
+roles:
+- emperor
+- consort_kin
+importance: 1
+birthplace: pl_chang_an_xin
+bio: 新朝建立者。魏郡元城人,汉元帝王皇后之侄。BC1 任大司马。AD6 摄政(居摄)。AD9 受孺子婴禅让,改国号'新'。推行托古改制(王田私属、五均六筦)。改官名、地名。失败,引发赤眉绿林起义。AD23
+  为商人杜吴所杀,新亡。
+ext:
+  significance: 以外戚身份代汉建新,行托古改制;历代评价分歧甚大(《汉书》斥为篡逆,近代亦有视其为改革者)。
+  title: 王莽
+  regime: 新
+sources:
+- 汉书·王莽传
+- 资治通鉴·卷36-39
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Wang Mang.jpg
+reign_start:
+  year: 9
+reign_end:
+  year: 23
+wikidata_id: "Q7250"
+wikipedia_zh: "王莽"

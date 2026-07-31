@@ -1,0 +1,14 @@
+id: p_cbdb_11800
+type: Person
+name: 劉宰
+born:
+  year: 1166
+died:
+  year: 1239
+gender: male
+birthplace: pl_cbdb_12706
+dynasty_ref: k_beisong
+bio: CBDB ID 11800
+name_en: Liu Zai
+sources:
+- CBDB (China Biographical Database)

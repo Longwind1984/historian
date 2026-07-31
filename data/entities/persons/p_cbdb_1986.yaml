@@ -1,0 +1,12 @@
+id: p_cbdb_1986
+type: Person
+name: 吳遵路
+died:
+  year: 1043
+gender: male
+birthplace: pl_cbdb_12704
+dynasty_ref: k_beisong
+bio: CBDB ID 1986
+name_en: Wu Zunlu
+sources:
+- CBDB (China Biographical Database)

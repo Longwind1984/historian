@@ -1,0 +1,14 @@
+id: p_cbdb_130176
+type: Person
+name: 郭造卿
+born:
+  year: 1532
+died:
+  year: 1593
+gender: male
+birthplace: pl_cbdb_5991
+dynasty_ref: k_ming
+bio: CBDB ID 130176
+name_en: Guo Zaoqing
+sources:
+- CBDB (China Biographical Database)

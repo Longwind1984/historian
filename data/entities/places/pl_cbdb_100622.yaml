@@ -1,0 +1,12 @@
+id: pl_cbdb_100622
+type: Place
+name: 青城
+modern_name: 青城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.8309
+longitude: 103.6697
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

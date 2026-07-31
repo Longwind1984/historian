@@ -1,0 +1,31 @@
+id: k_houzhou
+type: Polity
+name: 后周
+name_en: Later Zhou
+color: '#16a085'
+founded:
+  year: 951
+  month: 1
+ended:
+  year: 960
+  month: 2
+capital: pl_kaifeng
+description: 郭威建国。世宗柴荣南征北讨、改革内政,奠北宋统一基础。960 年赵匡胤陈桥兵变代之。
+sources:
+- 旧五代史·周书
+- 新五代史·周本纪
+- 资治通鉴·卷290-294
+founder: p_guowei
+ended_by: k_song
+territory:
+- valid_from:
+    year: 951
+  valid_to:
+    year: 960
+  geojson_file: houzhou_peak.geojson
+- valid_from:
+    year: 951
+  valid_to:
+    year: 960
+  geojson_file: chgis_wudai.geojson
+  note: CHGIS V5 府级多边形(整个五代时期)

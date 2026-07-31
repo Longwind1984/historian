@@ -1,0 +1,21 @@
+id: p_wang_hongwen
+type: Person
+name: 王洪文
+gender: male
+born:
+  year: 1935
+died:
+  year: 1992
+roles:
+- civil_official
+importance: 2
+bio: 吉林长春人。上海国棉十七厂保卫干事。1966 年组织"上海工人革命造反总司令部"，1967 年一月夺权中为主力，藉造反骤起。1973 年中共十大擢为中央委员会副主席，时年 38 岁，位列毛泽东、周恩来之后，是所谓"火箭式提拔"。"四人帮"之一，四人中最年轻。1976 年 10 月被捕，1981 年特别法庭判无期徒刑。1992 年病死于狱中。
+sources:
+- 当代中国史
+- 中华人民共和国史
+wikidata_id: "Q455583"
+wikipedia_zh: "王洪文"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Wang_Hongwen_at_trial_in_November_1980.jpg"
+image_license: "Public domain"
+image_credit: "China Publications Centre"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Wang_Hongwen_at_trial_in_November_1980.jpg"

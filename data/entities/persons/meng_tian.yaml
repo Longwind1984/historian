@@ -1,0 +1,15 @@
+id: p_meng_tian
+type: Person
+name: 蒙恬
+died:
+  year: -210
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_qi_mengtian
+bio: 秦名将。BC215 率三十万却匈奴,收河南地。修筑长城。BC210 始皇崩,胡亥矫诏赐死。
+sources:
+- 史记·蒙恬列传
+wikidata_id: "Q1151702"
+wikipedia_zh: "蒙恬"

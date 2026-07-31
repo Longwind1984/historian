@@ -1,0 +1,18 @@
+id: k_liusong
+type: Polity
+name: 刘宋
+name_en: Liu Song
+color: '#8e44ad'
+founded:
+  year: 420
+  month: 7
+ended:
+  year: 479
+  month: 4
+capital: pl_jianye_han
+description: 南朝宋。刘裕建。
+sources:
+- 宋书
+founder: p_liu_yu
+supplanted: k_dongjin
+ended_by: k_nan_qi

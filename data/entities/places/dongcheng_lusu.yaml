@@ -1,0 +1,14 @@
+id: pl_dongcheng_lusu
+type: Place
+name: 东城
+modern_name: 定远
+province: 安徽
+latitude: 32.53
+longitude: 117.68
+category: city
+description: 鲁肃籍贯
+sources:
+- 三国志
+- 晋书
+- 魏书
+- 中国历史地图集

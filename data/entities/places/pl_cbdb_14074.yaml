@@ -1,0 +1,12 @@
+id: pl_cbdb_14074
+type: Place
+name: 歸善
+modern_name: 歸善
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 23.089792
+longitude: 114.414981
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

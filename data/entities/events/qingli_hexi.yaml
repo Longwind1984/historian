@@ -1,0 +1,16 @@
+id: e_qingli_hexi
+type: Event
+name: 庆历和议
+date:
+  year: 1044
+  month: 10
+category: treaty
+importance: 3
+location: pl_xi_an
+polities_involved:
+- k_beisong
+- k_xixia
+description: 西夏三败宋军后宋夏议和。元昊名义向宋称臣(受封夏国主),宋每年赐银 7.2 万两、绢 15.3 万匹、茶 3 万斤。
+impact: 宋夏西北边境相对稳定约 20 年。
+sources:
+- 宋史·夏国传

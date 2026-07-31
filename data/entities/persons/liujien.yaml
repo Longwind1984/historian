@@ -1,0 +1,15 @@
+id: p_liujien
+type: Person
+name: 刘继恩
+alias:
+- 北汉少主
+died:
+  year: 968
+  month: 9
+gender: male
+birthplace: pl_taiyuan
+bio: 北汉第三主。刘承钧养子。968 年 7 月继位,在位仅 60 余日为侯霸荣所杀。
+sources:
+- 十国春秋·北汉
+wikidata_id: "Q10900291"
+wikipedia_zh: "劉繼恩"

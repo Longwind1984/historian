@@ -1,0 +1,15 @@
+id: e_siwu_yundong
+type: Event
+name: 四五运动
+date:
+  year: 1976
+  month: 4
+category: rebellion
+polities_involved:
+- k_prc
+importance: 2
+description: 1976 年 1 月周恩来逝世，清明前后北京群众自发聚集天安门广场献花圈、贴诗文悼念，并借悼周指斥"四人帮"。4 月 5 日当局出动民兵、警察与卫戍部队清场抓人。中共中央随即定性为"反革命政治事件"，并以此为由撤销邓小平党内外一切职务。
+impact: 1978 年 11 月中共北京市委宣布此事为"完全的革命行动"，予以平反。此次自发抗议是文革末年民意的公开表达，与同年 10 月粉碎"四人帮"相呼应。
+sources:
+- 当代中国史
+- 中华人民共和国史

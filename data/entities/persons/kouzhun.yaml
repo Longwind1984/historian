@@ -1,0 +1,23 @@
+id: p_kouzhun
+type: Person
+name: 寇准
+courtesy_name: 平仲
+born:
+  year: 961
+died:
+  year: 1023
+  month: 10
+gender: male
+roles:
+- civil_official
+importance: 2
+birthplace: pl_xiagui_kouzhun
+bio: 北宋名相。1004 辽军南下,力主真宗亲征澶州,促成澶渊之盟。后遭王钦若排挤,贬死雷州。
+sources:
+- 宋史·寇准传
+wikidata_id: "Q3274619"
+wikipedia_zh: "寇準"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/20/Kou_Zhun.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Kou_Zhun.jpg"

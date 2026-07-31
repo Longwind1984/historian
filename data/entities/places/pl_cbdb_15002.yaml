@@ -1,0 +1,12 @@
+id: pl_cbdb_15002
+type: Place
+name: 河西
+modern_name: 河西
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.217004
+longitude: 110.144776
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

@@ -1,0 +1,38 @@
+id: p_wangshenzhi
+type: Person
+name: 王审知
+alias:
+- 王信伯
+- 闽太祖
+- 白马三郎
+- 忠懿王
+born:
+  year: 862
+died:
+  year: 925
+  month: 12
+gender: male
+birthplace: pl_guting
+bio: 闽建立者。光州固始人,与其兄王潮入闽。897 年继王潮任威武军节度使。909 年后梁封闽王。开发福建,有功于民。
+sources:
+- 新五代史·闽世家
+- 十国春秋·闽
+- 十国春秋
+- 新五代史
+- 资治通鉴
+roles:
+- monarch
+reign_start:
+  year: 909
+reign_end:
+  year: 925
+ext:
+  title: 王审知
+  regime: 闽
+importance: 3
+wikidata_id: "Q708354"
+wikipedia_zh: "王審知"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Uong_Sing-di.JPG/500px-Uong_Sing-di.JPG"
+image_license: "CC BY-SA 3.0"
+image_credit: "LuHungnguong"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Uong_Sing-di.JPG"

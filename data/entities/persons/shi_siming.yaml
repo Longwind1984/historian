@@ -1,0 +1,20 @@
+id: p_shi_siming
+type: Person
+name: 史思明
+alias:
+- 史窣干
+born:
+  year: 703
+died:
+  year: 761
+  month: 4
+gender: male
+birthplace: pl_you_zhou
+bio: 安史之乱主要首领之一。突厥血统,安禄山旧友。安庆绪杀安禄山后,史思明继领叛军。759 年称帝。761 年为子史朝义所杀。
+ext:
+  significance: 与安禄山并称'安史',深度塑造中晚唐格局。
+sources:
+- 旧唐书·史思明传
+- 资治通鉴·卷221-222
+wikidata_id: "Q1328480"
+wikipedia_zh: "史思明"

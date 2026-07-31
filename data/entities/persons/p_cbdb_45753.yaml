@@ -1,0 +1,14 @@
+id: p_cbdb_45753
+type: Person
+name: 張谷
+born:
+  year: 995
+died:
+  year: 1053
+gender: male
+birthplace: pl_cbdb_100664
+dynasty_ref: k_beisong
+bio: CBDB ID 45753
+name_en: Zhang Gu
+sources:
+- CBDB (China Biographical Database)

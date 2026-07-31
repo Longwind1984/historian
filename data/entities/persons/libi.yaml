@@ -1,0 +1,17 @@
+id: p_libi
+type: Person
+name: 李弼
+gender: male
+born:
+  year: 494
+died:
+  year: 557
+roles:
+- general
+importance: 3
+bio: 西魏八柱国之一,赐姓徒何氏。沙苑之战为宇文泰破东魏高欢军。曾孙即隋末瓦岗军首领李密。
+sources:
+- 周书·李弼传
+- 北史
+wikidata_id: "Q6130920"
+wikipedia_zh: "李弼 (赵国公)"

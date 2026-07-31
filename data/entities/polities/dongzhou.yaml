@@ -1,0 +1,17 @@
+id: k_dongzhou
+type: Polity
+name: 东周
+name_en: Eastern Zhou
+color: '#27ae60'
+founded:
+  year: -770
+ended:
+  year: -256
+founder: p_zhou_ping_wang
+capital: pl_luoyi
+ended_by: k_qin_state
+description: 东周政权。前770年平王东迁洛邑始，至前256年赧王降秦亡。王室东迁后威信陵夷、王畿日蹙，天子徒拥共主虚名；诸侯力政，霸政迭兴(春秋)，继而三家分晋、田氏代齐，入战国。前256年秦昭襄王灭东周，九鼎入秦。
+sources:
+- 史记·周本纪
+- 史记·十二诸侯年表
+- 左传·隐公

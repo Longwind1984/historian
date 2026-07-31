@@ -1,0 +1,10 @@
+id: pl_cbdb_26018
+type: Place
+name: 奉化郡
+modern_name: 奉化郡
+category: city
+sources:
+- CBDB ADDR_CODES
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Fengjun

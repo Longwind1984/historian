@@ -1,0 +1,23 @@
+id: p_sun_ce
+type: Person
+name: 孙策
+alias:
+- 孙伯符
+- 小霸王
+courtesy_name: 伯符
+born:
+  year: 175
+died:
+  year: 200
+  month: 4
+gender: male
+birthplace: pl_fuchun_sunjian
+bio: 东吴奠基者。孙坚子。194-200 平定江东。200 为刺客所伤卒,弟权继。
+sources:
+- 三国志·吴书·孙策传
+wikidata_id: "Q380598"
+wikipedia_zh: "孙策"
+image: "https://upload.wikimedia.org/wikipedia/commons/6/69/Sun_Ce_Portrait.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sun_Ce_Portrait.jpg"

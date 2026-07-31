@@ -1,0 +1,24 @@
+id: p_gaopanlong
+type: Person
+name: 高攀龙
+gender: male
+courtesy_name: 存之
+born:
+  year: 1562
+died:
+  year: 1626
+  month: 3
+roles:
+- civil_official
+- scholar
+importance: 3
+bio: 无锡人,东林书院与顾宪成并称「顾高」。1626 阉党缉捕东林诸人,攀龙夜赋绝命词后投池自尽。
+sources:
+- 明史·高攀龙传
+- 东林书院志
+wikidata_id: "Q14942746"
+wikipedia_zh: "高攀龙"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%E9%AB%98%E6%94%80%E9%BE%8D.jpg/500px-%E9%AB%98%E6%94%80%E9%BE%8D.jpg"
+image_license: "Public domain"
+image_credit: "不詳"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E6%94%80%E9%BE%8D.jpg"

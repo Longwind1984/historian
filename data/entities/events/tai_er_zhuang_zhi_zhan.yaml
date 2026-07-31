@@ -1,0 +1,18 @@
+id: e_tai_er_zhuang_zhi_zhan
+type: Event
+name: 台儿庄战役
+date:
+  year: 1938
+  month: 3
+end_date:
+  year: 1938
+  month: 4
+category: battle
+polities_involved:
+- k_minguo
+importance: 3
+description: 1938 年 3-4 月徐州会战期间，日军矶谷廉介第十师团南下进攻山东南部台儿庄。第五战区司令长官李宗仁指挥，以孙连仲第二集团军坚守台儿庄正面，汤恩伯第二十军团侧击。经半月激战，中国军队歼灭日军濑谷支队主力，取得台儿庄大捷。
+impact: 抗战正面战场首次重大胜利，歼敌万余人，鼓舞全国抗战信心。
+sources:
+- 中国抗日战争史·中卷
+- 中华民国史·第三编

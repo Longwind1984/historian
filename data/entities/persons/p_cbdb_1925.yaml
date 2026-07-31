@@ -1,0 +1,14 @@
+id: p_cbdb_1925
+type: Person
+name: 王炎
+born:
+  year: 1115
+died:
+  year: 1178
+gender: male
+birthplace: pl_cbdb_100179
+dynasty_ref: k_beisong
+bio: CBDB ID 1925
+name_en: Wang Yan
+sources:
+- CBDB (China Biographical Database)

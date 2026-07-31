@@ -1,0 +1,21 @@
+id: p_zhao_yun
+type: Person
+name: 赵云
+alias:
+- 赵子龙
+courtesy_name: 子龙
+died:
+  year: 229
+gender: male
+birthplace: pl_zhending_zhaoyun
+bio: 蜀汉骁将。常山真定人。长坂坡救阿斗。
+sources:
+- 三国志·蜀书·赵云传
+roles:
+- general
+wikidata_id: "Q197481"
+wikipedia_zh: "赵云"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/bf/ZhaoYun.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:ZhaoYun.jpg"

@@ -1,0 +1,14 @@
+id: k_xiongnu
+type: Polity
+name: 匈奴
+name_en: Xiongnu
+color: '#8c7a4a'
+founded:
+  year: -209
+ended:
+  year: 48
+description: 前209 冒顿单于弑父自立,控弦三十余万,与汉相持百余年。前200 白登之围后汉行和亲;武帝三伐(河南、河西、漠北)后匈奴远遁。48 分裂为南北匈奴:南匈奴附汉,北匈奴 91 年为汉所破而西迁。此处起止取其作为统一政权的存续期。
+sources:
+- 史记·匈奴列传
+- 汉书·匈奴传
+founder: p_maodun

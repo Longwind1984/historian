@@ -1,0 +1,12 @@
+id: pl_cbdb_12649
+type: Place
+name: 仙居
+modern_name: 仙居
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.078388
+longitude: 114.653473
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

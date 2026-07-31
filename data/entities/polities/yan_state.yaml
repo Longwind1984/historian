@@ -1,0 +1,15 @@
+id: k_yan_state
+type: Polity
+name: 燕国
+name_en: Yan (state)
+color: '#34495e'
+founded:
+  year: -1044
+ended:
+  year: -222
+ended_by: k_qin_state
+description: 燕国。姬姓，周初封召公奭之后于燕，都蓟。地处北陲，与齐赵相邻。战国时燕昭王筑台招贤，乐毅下齐七十余城，盛极一时。前227年荆轲刺秦王不果，前222年秦将王贲拔辽东，虏燕王喜，燕亡。始封年据史记通说。
+sources:
+- 史记·燕召公世家
+- 史记·秦始皇本纪
+- 左传·昭公

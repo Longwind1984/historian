@@ -1,0 +1,15 @@
+id: e_zhenbaodao
+type: Event
+name: 珍宝岛事件
+date:
+  year: 1969
+  month: 3
+category: battle
+polities_involved:
+- k_prc
+importance: 2
+description: 1969 年 3 月 2 日、15 日，中苏两军在乌苏里江珍宝岛(苏方称达曼斯基岛)两度交火，双方均有伤亡。此前中苏论战已历十年，边界摩擦不断。事后苏联在远东大举增兵，并向外试探对中国核设施动武的可能。
+impact: 中苏由分歧转为军事对峙，中国转而寻求对美缓和，为 1971 年基辛格秘访、1972 年尼克松访华的战略转向铺路。1991 年中苏协定确认珍宝岛属中国。
+sources:
+- 当代中国史
+- 中华人民共和国史

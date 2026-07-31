@@ -1,0 +1,12 @@
+id: pl_cbdb_11247
+type: Place
+name: 豐縣
+modern_name: 豐縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.703617
+longitude: 116.584183
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

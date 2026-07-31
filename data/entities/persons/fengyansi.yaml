@@ -1,0 +1,19 @@
+id: p_fengyansi
+type: Person
+name: 冯延巳
+gender: male
+courtesy_name: 正中
+born:
+  year: 903
+died:
+  year: 960
+roles:
+- civil_official
+- literatus
+importance: 3
+bio: 南唐宰相,宋齐丘党。为相无善状,而词冠五代 ——「风乍起,吹皱一池春水」,上承温韦、下启晏欧,王国维谓其「开北宋一代风气」。
+sources:
+- 南唐书
+- 阳春集
+wikidata_id: "Q10895343"
+wikipedia_zh: "冯延巳"

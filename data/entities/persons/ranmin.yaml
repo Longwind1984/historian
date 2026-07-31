@@ -1,0 +1,23 @@
+id: p_ranmin
+name: 冉闵
+died:
+  year: 352
+  month: 5
+gender: male
+roles:
+- emperor
+- general
+importance: 3
+bio: 后赵石虎养孙。350 灭后赵自立,国号魏(史称冉魏),颁杀胡令,邺城胡羯死者以十万计。352 为前燕慕容恪所擒,斩于遏陉山。
+sources:
+- 晋书·载记第七
+- 资治通鉴·卷98-99
+type: Person
+reign_start:
+  year: 350
+  month: 1
+reign_end:
+  year: 352
+  month: 4
+wikidata_id: "Q836256"
+wikipedia_zh: "冉闵"

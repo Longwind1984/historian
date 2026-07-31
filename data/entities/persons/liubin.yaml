@@ -1,0 +1,19 @@
+id: p_liubin
+type: Person
+name: 刘玢
+alias:
+- 刘弘度
+- 南汉殇帝
+born:
+  year: 920
+died:
+  year: 943
+  month: 4
+gender: male
+birthplace: pl_guangzhou
+bio: 南汉第二主。刘龑子。942 年继位,荒淫。943 年为弟刘晟所杀。
+sources:
+- 新五代史·南汉世家
+- 十国春秋·南汉
+wikidata_id: "Q10900161"
+wikipedia_zh: "劉玢"

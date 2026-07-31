@@ -1,0 +1,14 @@
+id: p_cbdb_21345
+type: Person
+name: 孫適
+born:
+  year: 1028
+died:
+  year: 1055
+gender: male
+birthplace: pl_cbdb_12857
+dynasty_ref: k_beisong
+bio: CBDB ID 21345
+name_en: Sun Shi
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,12 @@
+id: pl_cbdb_14512
+type: Place
+name: 華原
+modern_name: 華原
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.9129
+longitude: 108.9805
+first_year: 705
+last_year: 959
+description: CBDB 行政类型:Xian

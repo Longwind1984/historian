@@ -1,0 +1,24 @@
+id: p_cai_lun
+type: Person
+name: 蔡伦
+born:
+  year: 62
+died:
+  year: 121
+gender: male
+roles:
+- eunuch
+- scholar
+importance: 2
+birthplace: pl_guiyang_cailun
+bio: 东汉宦官。改进造纸术(105)。后汉蔡侯纸。
+ext:
+  significance: 中国四大发明之一造纸术的关键改进者。
+sources:
+- 后汉书·宦者传·蔡伦
+image: "https://upload.wikimedia.org/wikipedia/commons/b/be/Cai-lun.jpg"
+wikidata_id: "Q229235"
+wikipedia_zh: "蔡伦"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Cai-lun.jpg"

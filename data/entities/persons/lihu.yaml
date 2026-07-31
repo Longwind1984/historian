@@ -1,0 +1,16 @@
+id: p_lihu
+type: Person
+name: 李虎
+alias:
+- 李文彬
+died:
+  year: 551
+gender: male
+birthplace: pl_chengji
+bio: 西魏八大柱国之一,唐太祖李渊祖父。李唐皇室的源头。
+ext:
+  significance: 李唐皇室祖先,关陇集团核心。
+sources:
+- 旧唐书·高祖本纪
+wikidata_id: "Q5370334"
+wikipedia_zh: "李虎"

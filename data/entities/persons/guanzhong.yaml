@@ -1,0 +1,40 @@
+id: p_guanzhong
+type: Person
+name: 管夷吾
+alias:
+- 管仲
+- 管子
+- 夷吾
+gender: male
+roles:
+- civil_official
+importance: 1
+died:
+  year: -645
+bio: 管仲，名夷吾，字仲，颍上人。初事公子纠，乾时之败后经鲍叔牙荐于齐桓公，任为相。主"尊王攘夷"，改革内政，通轻重、兴鱼盐之利，佐桓公九合诸侯、一匡天下，为春秋首霸第一功臣。孔子称"微管仲，吾其被发左衽矣"。前645年卒。
+life_events:
+- year: -685
+  event: 经鲍叔牙荐，相齐桓公
+  source: 史记·管晏列传
+- year: -679
+  event: 佐桓公盟鄄始霸
+  source: 国语·齐语
+- year: -656
+  event: 佐桓公召陵责楚
+  source: 左传·僖公四年
+- year: -651
+  event: 葵丘之会佐桓公主盟
+  source: 左传·僖公九年
+- year: -645
+  event: 卒
+  source: 左传·僖公十五年
+sources:
+- 史记·管晏列传
+- 左传·僖公
+- 国语·齐语
+wikidata_id: "Q457972"
+wikipedia_zh: "管仲"
+image: "https://upload.wikimedia.org/wikipedia/commons/9/92/Qihuangongguanzhong.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qihuangongguanzhong.jpg"

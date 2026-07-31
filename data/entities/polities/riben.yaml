@@ -1,0 +1,15 @@
+id: k_riben
+type: Polity
+name: 日本
+name_en: Empire of Japan
+color: '#a0616a'
+founded:
+  year: 1868
+ended:
+  year: 1947
+  month: 5
+capital: pl_dongjing_tongmeng
+description: 明治维新后的近代日本国家。1894 甲午战争败清、割台湾,1905 日俄战争后据南满,1910 并朝鲜,1931 侵占东北,1937 全面侵华。1945 战败,1947 新宪法施行。
+sources:
+- 清史稿·邦交志三·日本
+- 日本国志(黄遵宪)

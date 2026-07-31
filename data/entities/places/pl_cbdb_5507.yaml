@@ -1,0 +1,12 @@
+id: pl_cbdb_5507
+type: Place
+name: 興國
+modern_name: 興國
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 26.321701
+longitude: 115.342766
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

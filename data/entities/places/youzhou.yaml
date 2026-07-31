@@ -1,0 +1,16 @@
+id: pl_youzhou
+type: Place
+name: 幽州
+modern_name: 北京
+province: 北京
+latitude: 39.91
+longitude: 116.4
+category: garrison
+description: 北方军事重镇,燕云十六州核心
+aliases:
+- 范阳
+- 析津
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

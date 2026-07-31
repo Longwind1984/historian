@@ -1,0 +1,29 @@
+id: p_zhou_you_wang
+type: Person
+name: 周幽王
+alias:
+- 幽王
+- 姬宫湦
+- 姬宫涅
+gender: male
+roles:
+- emperor
+importance: 2
+reign_start:
+  year: -781
+reign_end:
+  year: -771
+bio: 宣王之子，姬姓，名宫湦(一作宫涅)。宠褒姒，废申后与太子宜臼，改立褒姒之子伯服。传统史载有"烽火戏诸侯"事，现代据清华简《系年》质疑其真；而幽王废嫡致申侯联犬戎攻周则较为信实。前771年犬戎破镐京，杀幽王于骊山下，西周亡。在位年据《史记·十二诸侯年表》。
+sources:
+- 史记·周本纪
+- 史记·十二诸侯年表
+- 清华简·系年
+ext:
+  title: 周幽王
+  regime: 西周
+wikidata_id: "Q1193397"
+wikipedia_zh: "周幽王"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/History_of_King_Yu.jpg/500px-History_of_King_Yu.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:History_of_King_Yu.jpg"

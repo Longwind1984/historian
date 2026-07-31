@@ -1,0 +1,16 @@
+id: e_fenshu_kengru
+type: Event
+name: 焚书坑儒
+date:
+  year: -213
+category: purge
+importance: 2
+location: pl_xianyang_qin
+polities_involved:
+- k_qin
+description: BC213 李斯建议焚毁民间所藏诗书百家语。BC212 坑杀犯禁者 460 余人于咸阳。
+impact: 中国文化史上重大事件。
+sources:
+- 史记·秦始皇本纪
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Burning of books and burying
+  of scholars.jpg

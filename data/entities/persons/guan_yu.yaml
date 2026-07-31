@@ -1,0 +1,26 @@
+id: p_guan_yu
+type: Person
+name: 关羽
+alias:
+- 关云长
+- 关公
+courtesy_name: 云长
+died:
+  year: 220
+  month: 1
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_xie_xianguanyu
+bio: 蜀汉骁将。河东解良人。桃园结义(演义)。200 斩颜良。219 水淹七军,擒于禁斩庞德,威震华夏。后为吕蒙偷袭,败走麦城被杀。
+ext:
+  significance: 中国武勇与忠义的象征,后世封'关圣帝君'。
+sources:
+- 三国志·蜀书·关羽传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Guanyu.jpg/500px-Guanyu.jpg"
+wikidata_id: "Q222797"
+wikipedia_zh: "关羽"
+image_license: "Public domain"
+image_credit: "Utagawa Kuniyoshi"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Guanyu.jpg"

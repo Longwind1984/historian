@@ -1,0 +1,28 @@
+id: p_xiao_gang
+type: Person
+name: 萧纲
+alias:
+- 梁简文帝
+born:
+  year: 503
+died:
+  year: 551
+reign_start:
+  year: 549
+reign_end:
+  year: 551
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_nan_liang
+bio: 武帝子。侯景所立,为傀儡,551年为侯景所弑。工宫体诗。
+ext:
+  title: 梁简文帝
+  regime: 梁
+sources:
+- 梁书
+- 南史
+- 资治通鉴
+wikidata_id: "Q1140994"
+wikipedia_zh: "梁简文帝"

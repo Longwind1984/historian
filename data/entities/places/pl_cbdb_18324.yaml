@@ -1,0 +1,12 @@
+id: pl_cbdb_18324
+type: Place
+name: 鄞縣
+modern_name: 鄞縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.866316
+longitude: 121.542656
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Xian

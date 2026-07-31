@@ -1,0 +1,12 @@
+id: pl_cbdb_12624
+type: Place
+name: 歷陽
+modern_name: 歷陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.714224
+longitude: 118.361122
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

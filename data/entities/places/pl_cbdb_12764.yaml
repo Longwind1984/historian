@@ -1,0 +1,12 @@
+id: pl_cbdb_12764
+type: Place
+name: 新昌
+modern_name: 新昌
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.494654
+longitude: 120.902107
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

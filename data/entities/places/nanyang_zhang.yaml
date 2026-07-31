@@ -1,0 +1,15 @@
+id: pl_nanyang_zhang
+type: Place
+name: 邓州/南阳
+modern_name: 南阳
+province: 河南
+latitude: 32.99
+longitude: 112.53
+category: battlefield
+description: 张巡守睢阳(今商丘南)
+sources:
+- 旧唐书·地理志
+- 新唐书·地理志
+- 资治通鉴
+aliases:
+- 睢阳

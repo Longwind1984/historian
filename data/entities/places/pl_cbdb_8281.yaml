@@ -1,0 +1,12 @@
+id: pl_cbdb_8281
+type: Place
+name: 恩始
+modern_name: 恩始
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.272258759
+longitude: 109.47861481
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Xian

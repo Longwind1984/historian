@@ -1,0 +1,12 @@
+id: pl_cbdb_12876
+type: Place
+name: 鄱陽
+modern_name: 鄱陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.994167
+longitude: 116.663833
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

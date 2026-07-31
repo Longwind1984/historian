@@ -1,0 +1,18 @@
+id: p_zhuneng
+type: Person
+name: 朱能
+gender: male
+courtesy_name: 士弘
+born:
+  year: 1370
+died:
+  year: 1406
+  month: 10
+roles:
+- general
+importance: 3
+bio: 靖难功臣,与张玉同为燕军柱石。张玉死后独当大任,白沟河、灵璧皆有功,封成国公。1406 征安南,道卒于军。
+sources:
+- 明史·朱能传
+wikidata_id: "Q11094669"
+wikipedia_zh: "朱能 (明朝)"

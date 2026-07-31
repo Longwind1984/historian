@@ -1,0 +1,19 @@
+id: e_hu_guo_yun_dong
+type: Event
+name: 护国运动
+date:
+  year: 1915
+  month: 12
+end_date:
+  year: 1916
+  month: 6
+category: war
+polities_involved:
+- k_minguo
+importance: 2
+description: 1915 年 12 月袁世凯宣布恢复帝制、改元洪宪。25 日蔡锷、唐继尧、李烈钧在云南宣布独立，组织护国军讨袁，蔡锷任第一军总司令入川南作战。贵州、广西、广东、浙江等省相继独立。1916
+  年 3 月袁被迫取消帝制，6 月 6 日袁世凯病逝，护国运动结束。
+impact: 袁世凯帝制复辟失败，共和形式得以恢复；北洋集团由此分裂，进入军阀割据时期。
+sources:
+- 中华民国史·第二编
+- 谢本书·护国运动史

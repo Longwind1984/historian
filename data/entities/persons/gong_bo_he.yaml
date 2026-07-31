@@ -1,0 +1,25 @@
+id: p_gong_bo_he
+type: Person
+name: 共伯和
+alias:
+- 共伯
+- 伯和
+gender: male
+floruit_start:
+  year: -841
+floruit_end:
+  year: -828
+roles:
+- imperial_kin
+- civil_official
+importance: 3
+bio: 共国(今河南辉县)君主，名和，姬姓。一说厉王出奔后诸侯奉共伯和摄天子事十四年(前841-前828)，称"共和行政"；另一说(《史记》)为周公、召公二相共和摄政，不立共伯和其人。两说并存，迄无定论。故其摄政在位之说不作帝王在位年填注。
+sources:
+- 史记·周本纪
+- 竹书纪年·周纪
+- 古本竹书纪年辑校
+ext:
+  disputed: true
+  note: 共和行政十四年。其人本身即因这一段而入史,生卒无考
+wikidata_id: "Q10893753"
+wikipedia_zh: "共伯和"

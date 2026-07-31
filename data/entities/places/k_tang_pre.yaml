@@ -1,0 +1,12 @@
+id: pl_k_tang_pre
+type: Place
+name: 唐朝
+modern_name: 西安
+province: 陕西
+latitude: 34.27
+longitude: 108.95
+category: region
+description: 前置政权标识(仅为事件锚点)
+sources:
+- 资治通鉴
+- 中国历史地图集

@@ -1,0 +1,12 @@
+id: pl_cbdb_16374
+type: Place
+name: 廣州
+modern_name: 廣州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 23.134624
+longitude: 113.256066
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Zhou

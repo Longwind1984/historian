@@ -1,0 +1,36 @@
+id: p_shenzong
+type: Person
+name: 赵顼
+alias:
+- 宋神宗
+courtesy_name: 仲鍼
+born:
+  year: 1048
+  month: 5
+died:
+  year: 1085
+  month: 3
+gender: male
+birthplace: pl_kaifeng
+bio: 宋神宗。1067 20 岁继位,锐意富强。1069 起王安石推行熙宁变法。1080-1082 元丰改制。两度伐夏皆败。
+ext:
+  significance: 北宋变法的政治推手。
+  title: 宋神宗
+  regime: 北宋
+sources:
+- 宋史·神宗本纪
+- 宋史
+- 续资治通鉴
+reign_start:
+  year: 1067
+reign_end:
+  year: 1085
+roles:
+- emperor
+importance: 2
+wikidata_id: "Q7483"
+wikipedia_zh: "宋神宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shenzong.jpg/500px-Shenzong.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Shenzong.jpg"

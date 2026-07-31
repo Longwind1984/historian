@@ -1,0 +1,12 @@
+id: pl_cbdb_11180
+type: Place
+name: 昌樂
+modern_name: 昌樂
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.703575
+longitude: 118.836708
+first_year: 965
+last_year: 1126
+description: CBDB 行政类型:Xian

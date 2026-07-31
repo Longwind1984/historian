@@ -1,0 +1,18 @@
+id: f_shatuo
+type: Faction
+name: 沙陀军事集团
+nature: military_clan
+founded:
+  year: 860
+dissolved:
+  year: 960
+core_region: pl_hedong
+description: 突厥沙陀部族(处月部)内附后形成的军事集团。从蔚州、朔州振起到河东节度使李克用为标志,以代北武人(沙陀+汉化胡人+边地汉将)为核心,五代中之唐、晋、汉、周(晋汉周)及北汉皆其分支所建。
+significance: 五代中原政权的统治核心。沙陀集团把持中原达半个多世纪,深刻塑造了10世纪北方政治格局。
+peak_period: 880s-960s
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

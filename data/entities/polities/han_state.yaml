@@ -1,0 +1,16 @@
+id: k_han_state
+type: Polity
+name: 韩国
+name_en: Han (state)
+color: '#27ae60'
+founded:
+  year: -403
+ended:
+  year: -230
+ended_by: k_qin_state
+capital: pl_xian_qin
+description: 韩国。姬姓，韩氏，与赵、魏分晋而立。前403年周威烈王命韩虔为诸侯，韩始立国。地处中原(今河南中部)，介于秦、楚、魏之间，四面受敌，疆狭势弱。前351年申不害相韩昭侯行术治改革，国治兵强一时。申子卒后韩国复衰，长年遭秦蚕食。前230年秦内史腾攻韩，虏韩王安，灭其国，韩为六国中首亡者。
+sources:
+- 史记·韩世家
+- 史记·六国年表
+- 战国策·韩策

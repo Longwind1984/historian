@@ -1,0 +1,12 @@
+id: pl_cbdb_12677
+type: Place
+name: 富陽
+modern_name: 富陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.053434
+longitude: 119.947754
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

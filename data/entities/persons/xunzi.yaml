@@ -1,0 +1,42 @@
+id: p_xunzi
+type: Person
+name: 荀况
+alias:
+- 荀子
+- 孙卿
+courtesy_name: 卿
+gender: male
+roles:
+- scholar
+importance: 2
+born:
+  year: -313
+died:
+  year: -238
+bio: 荀子，名况，字卿，赵国人，汉人避宣帝(刘询)讳又作孙卿。年十五(《史记》一作"年五十")始游学于齐，三为稷下学宫祭酒，最为老师。后适楚，春申君用为兰陵令；春申君死(前238)，荀子废，家于兰陵，著书数万言而卒。其学出入儒法，主性恶、隆礼重法、天行有常、明于天人之分，韩非、李斯皆其弟子。今存《荀子》三十二篇，多出其手，少数后学所补。生卒约前313-前238。
+life_events:
+- year: -313
+  event: (约)生于赵
+  source: 史记·孟子荀卿列传
+- year: -298
+  event: (约)游齐稷下，三为祭酒
+  source: 史记·孟子荀卿列传
+- year: -255
+  event: (约)适楚，为兰陵令
+  source: 史记·孟子荀卿列传
+- year: -238
+  event: 春申君死，废居兰陵，著书卒
+  source: 史记·孟子荀卿列传
+sources:
+- 史记·孟子荀卿列传
+- 荀子
+- 汉书·艺文志
+ext:
+  disputed: true
+  note: 生卒年有异说(通说约前313-前238，另有前340-前245等说)
+wikidata_id: "Q216072"
+wikipedia_zh: "荀子"
+image: "https://upload.wikimedia.org/wikipedia/commons/5/56/Portrait_of_Xun_Zi.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Portrait_of_Xun_Zi.jpg"

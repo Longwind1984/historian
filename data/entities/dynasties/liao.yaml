@@ -1,0 +1,17 @@
+id: d_liao
+type: Dynasty
+name: 辽
+name_en: Liao
+founded:
+  year: 916
+  month: 1
+ended:
+  year: 1125
+  month: 8
+last_capital: pl_liaoshangjing
+description: 契丹/辽朝。916 年耶律阿保机称帝。947 年改国号辽。占有燕云十六州。1125 年亡于金。
+period_label: 辽宋夏金
+sources:
+- 辽史
+- 契丹国志
+founder: p_yeluabaoji

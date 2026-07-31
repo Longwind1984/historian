@@ -1,0 +1,198 @@
+# 先秦通史·战国关系 (T6.1c)
+# 约定：年份负=BCE；战国段为精确纪年，个别生卒异说标 ext.disputed(见苏秦/庄子/荀子/屈原/孟子/韩非条)。
+
+# —— 政权更替：三家分晋 ——
+- from: k_jin_state
+  to: k_han_state
+  type: destroyed_by
+  since:
+    year: -376
+  note: 三家分晋：前403受周命为诸侯，前376晋静公废、晋绝祀，晋地入韩
+- from: k_jin_state
+  to: k_zhao_state
+  type: destroyed_by
+  since:
+    year: -376
+  note: 三家分晋，前376晋亡，晋地入赵
+- from: k_jin_state
+  to: k_wei_state
+  type: destroyed_by
+  since:
+    year: -376
+  note: 三家分晋，前376晋亡，晋地入魏
+- from: k_han_state
+  to: k_qin_state
+  type: destroyed_by
+  since:
+    year: -230
+  note: 前230秦内史腾灭韩，六国首亡
+- from: k_zhao_state
+  to: k_qin_state
+  type: destroyed_by
+  since:
+    year: -222
+  note: 前228秦破邯郸，前222灭代，赵亡
+- from: k_wei_state
+  to: k_qin_state
+  type: destroyed_by
+  since:
+    year: -225
+  note: 前225王贲水灌大梁灭魏
+
+# —— 政权更替：田氏代齐(与三家分晋同期格局) ——
+- from: e_tianshi_daiqi
+  to: e_sanjia_fenjin
+  type: concurrent_with
+  note: 战国初两大政权更替(三家分晋、田氏代齐)，共启列国争雄新局
+
+# —— 变法名将：人物统帅/参与事件·战役 ——
+- from: p_shangyang
+  to: e_shangyang_bianfa
+  type: led
+  since:
+    year: -356
+  note: 相秦孝公，废井田行县制奖耕战，主持变法
+- from: p_zhao_wuling_wang
+  to: e_hufu_qishe
+  type: led
+  since:
+    year: -307
+  note: 力排群臣异议，行胡服骑射军事改革
+- from: p_baiqi
+  to: b_changping
+  type: led
+  since:
+    year: -260
+  note: 秦军主帅，大破赵括，坑赵降卒四十万
+- from: p_sunbin
+  to: b_guiling
+  type: led
+  since:
+    year: -354
+  note: 齐军军师，献围魏救赵之计破魏
+- from: p_sunbin
+  to: b_maling
+  type: led
+  since:
+    year: -341
+  note: 齐军军师，减灶诱敌杀庞涓
+- from: p_lianpo
+  to: b_changping
+  type: fought_in
+  since:
+    year: -260
+  note: 长平前期坚壁固守三年，秦施反间被赵括代换
+
+# —— 纵横：人物参与合纵连横 ——
+- from: p_su_qin
+  to: e_hezong_lianheng
+  type: participated_in
+  since:
+    year: -333
+  note: (史记通说)约六国合纵佩六国相印；其年代有学术争议，见人物条
+- from: p_zhang_yi
+  to: e_hezong_lianheng
+  type: participated_in
+  since:
+    year: -328
+  note: 相秦行连横，说魏楚事秦以破纵
+
+# —— 将相和 ——
+- from: p_lianpo
+  to: p_linxiangru
+  type: rival_of
+  since:
+    year: -279
+  note: 初争位列其下，相如避让，颇负荆请罪，结刎颈之交(将相和)
+
+# —— 师承·同门 ——
+- from: p_hanfei
+  to: p_xunzi
+  type: mentored_by
+  note: 与李斯俱师事荀子，斯自以为不如
+- from: p_sunbin
+  to: p_pangjuan
+  type: rival_of
+  note: 同学兵法，涓忌膑才，召至魏施膑刑；后马陵之战涓兵败自杀
+
+# —— 刺秦 ——
+- from: p_jingke
+  to: e_jingke_ci_qin
+  type: participated_in
+  since:
+    year: -227
+  note: 奉燕太子丹命刺秦王，图穷匕见，事败被杀
+
+# —— 君臣效力 ——
+- from: p_limu
+  to: k_zhao_state
+  type: served_under
+  note: 赵北疆名将，守雁门破匈奴，入朝却秦封武安君
+- from: p_yueyi
+  to: k_yan_state
+  type: served_under
+  since:
+    year: -284
+  note: 燕昭王任亚卿，率五国之师伐齐下七十余城
+- from: p_tiandan
+  to: k_qi_state
+  type: served_under
+  since:
+    year: -279
+  note: 即墨火牛阵破燕，尽复齐七十余城
+- from: p_quyuan
+  to: k_chu_state
+  type: served_under
+  since:
+    year: -319
+  note: 楚左徒、三闾大夫，主联齐抗秦，遭谗放逐
+- from: p_xinlingjun
+  to: k_wei_state
+  type: served_under
+  since:
+    year: -257
+  note: 魏安釐王异母弟，窃符救赵却秦存赵
+- from: p_mengchangjun
+  to: k_qi_state
+  type: served_under
+  since:
+    year: -298
+  note: 齐相，门客三千，率齐韩魏破秦函谷关
+
+# —— 诸子参与百家争鸣 ——
+- from: p_quyuan
+  to: e_baijia_zhengming
+  type: participated_in
+  note: 楚辞开辞赋一脉
+- from: p_mengzi
+  to: e_baijia_zhengming
+  type: participated_in
+  note: 儒家代表，主性善仁政，距杨墨辩王霸
+- from: p_zhuangzi
+  to: e_baijia_zhengming
+  type: participated_in
+  note: 道家代表，主齐物逍遥，与老子并称老庄
+- from: p_xunzi
+  to: e_baijia_zhengming
+  type: participated_in
+  note: 稷下祭酒，出入儒法，主性恶隆礼重法
+
+# —— 事件因果 ——
+- from: e_sanjia_fenjin
+  to: e_shangyang_bianfa
+  type: led_to
+  since:
+    year: -403
+  note: 三家分晋后列国竞争加剧，各国相继变法图强，商鞅变法为其中典型
+- from: e_shangyang_bianfa
+  to: e_qin_mie_liuguo
+  type: led_to
+  since:
+    year: -356
+  note: 变法奠秦富国强兵之基，秦法未废，终成并天下之势
+- from: e_jingke_ci_qin
+  to: e_qin_mie_liuguo
+  type: led_to
+  since:
+    year: -227
+  note: 刺秦未遂，秦旋伐燕，加速六国覆亡

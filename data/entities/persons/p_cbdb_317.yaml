@@ -1,0 +1,14 @@
+id: p_cbdb_317
+type: Person
+name: 張問
+born:
+  year: 1013
+died:
+  year: 1087
+gender: male
+birthplace: pl_cbdb_11299
+dynasty_ref: k_beisong
+bio: CBDB ID 317
+name_en: Zhang Wen
+sources:
+- CBDB (China Biographical Database)

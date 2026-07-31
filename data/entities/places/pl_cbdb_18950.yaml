@@ -1,0 +1,12 @@
+id: pl_cbdb_18950
+type: Place
+name: 九隴
+modern_name: 九隴
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.99187851
+longitude: 103.94506836
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Xian

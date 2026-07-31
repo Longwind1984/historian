@@ -1,0 +1,14 @@
+id: p_cbdb_13077
+type: Person
+name: 黃㽦
+born:
+  year: 1150
+died:
+  year: 1212
+gender: male
+birthplace: pl_cbdb_12917
+dynasty_ref: k_beisong
+bio: CBDB ID 13077
+name_en: Huang Xun
+sources:
+- CBDB (China Biographical Database)

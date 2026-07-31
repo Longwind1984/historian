@@ -1,0 +1,19 @@
+id: e_qiguo_zhiluan
+type: Event
+name: 七国之乱
+date:
+  year: -154
+  month: 1
+category: war
+importance: 2
+location: pl_chang_an
+polities_involved:
+- k_xihan
+description: BC154 景帝采纳晁错削藩策,吴王刘濞联合楚、赵、胶东、胶西、菑川、济南六国叛乱。周亚夫三个月平定。
+impact: 中央集权关键一步,为武帝削藩奠定基础。
+sources:
+- 史记·吴王濞列传
+- 资治通鉴·卷15
+end_date:
+  year: -154
+  month: 3

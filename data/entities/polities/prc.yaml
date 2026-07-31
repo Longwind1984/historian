@@ -1,0 +1,16 @@
+id: k_prc
+type: Polity
+name: 中华人民共和国
+name_en: People's Republic of China
+color: '#c0392b'
+founded:
+  year: 1949
+  month: 10
+ended:
+  year: 2026
+capital: pl_beijing_qing
+description: 中华人民共和国。1949 年 10 月 1 日建立,定都北京,延续至今（本库以 2026 年为通史时间轴上限）。
+sources:
+- 中华人民共和国史
+- 当代中国史
+supplanted: k_minguo

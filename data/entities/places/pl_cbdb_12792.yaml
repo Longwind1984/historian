@@ -1,0 +1,12 @@
+id: pl_cbdb_12792
+type: Place
+name: 台州
+modern_name: 台州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.843132019
+longitude: 121.12059784
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

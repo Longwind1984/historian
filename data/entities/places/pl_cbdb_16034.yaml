@@ -1,0 +1,12 @@
+id: pl_cbdb_16034
+type: Place
+name: 南安
+modern_name: 南安
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.953764
+longitude: 118.537849
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

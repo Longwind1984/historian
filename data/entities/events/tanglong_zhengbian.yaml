@@ -1,0 +1,16 @@
+id: e_tanglong_zhengbian
+type: Event
+name: 唐隆政变
+date:
+  year: 710
+  month: 6
+category: coup
+importance: 3
+location: pl_daxing
+polities_involved:
+- k_tang
+description: 710 年六月临淄王李隆基与姑母太平公主联合发动政变,诛韦后、安乐公主、上官婉儿等,废少帝,迎睿宗李旦复位。
+impact: 为李隆基即位(玄宗)铺路。
+sources:
+- 旧唐书·玄宗本纪
+- 资治通鉴·卷209

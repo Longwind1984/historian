@@ -1,0 +1,21 @@
+id: p_sun_jian
+type: Person
+name: 孙坚
+alias:
+- 孙文台
+courtesy_name: 文台
+born:
+  year: 155
+died:
+  year: 192
+gender: male
+birthplace: pl_fuchun_sunjian
+bio: 东吴奠基者。吴郡富春人。长沙太守。192 攻刘表部将黄祖,中伏死。
+sources:
+- 三国志·吴书·孙坚传
+wikidata_id: "Q334101"
+wikipedia_zh: "孙坚"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/12/Sun_Jian_Qing_dynasty_illustration.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Sun_Jian_Qing_dynasty_illustration.jpg"

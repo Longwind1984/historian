@@ -1,0 +1,18 @@
+id: f_guanlong
+type: Faction
+name: 关陇集团
+nature: regional
+founded:
+  year: 530
+dissolved:
+  year: 755
+core_region: pl_guanzhong
+description: 北魏末六镇之乱后,以宇文泰为首、武川镇军人集团为核心的军政势力。以八柱国十二大将军体系为骨架,通过府兵制和赐姓胡化(及汉化)联结胡汉,出过北周、隋、唐三代皇室,主导中国近三百年。
+significance: 陈寅恪所谓'关陇集团',是中国中古史最具决定性的政治军事集团之一。其影响在唐代衰落,五代时仅余残绪。
+peak_period: 西魏-隋-唐盛期
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

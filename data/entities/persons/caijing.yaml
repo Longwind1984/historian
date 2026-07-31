@@ -1,0 +1,19 @@
+id: p_caijing
+type: Person
+name: 蔡京
+born:
+  year: 1047
+died:
+  year: 1126
+  month: 8
+gender: male
+birthplace: pl_xianyou_cai
+bio: 北宋末权臣。徽宗朝四度拜相。借新法之名聚敛,推行'六贼'乱政(花石纲)。靖康时贬死潭州。
+sources:
+- 宋史·奸臣传·蔡京
+wikidata_id: "Q1146610"
+wikipedia_zh: "蔡京"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/%E8%81%BD%E7%90%B4%E5%9C%96_%28%E8%94%A1%E4%BA%AC_cropped%29.jpg/500px-%E8%81%BD%E7%90%B4%E5%9C%96_%28%E8%94%A1%E4%BA%AC_cropped%29.jpg"
+image_license: "Public domain"
+image_credit: "Emperor Huizong of Song"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%81%BD%E7%90%B4%E5%9C%96_(%E8%94%A1%E4%BA%AC_cropped).jpg"

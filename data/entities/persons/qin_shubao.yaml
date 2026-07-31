@@ -1,0 +1,19 @@
+id: p_qin_shubao
+type: Person
+name: 秦叔宝
+alias:
+- 秦琼
+courtesy_name: 叔宝
+died:
+  year: 638
+gender: male
+birthplace: pl_laiyang_qin
+bio: 唐初骁将。玄武门之变参与者。凌烟阁之一。'门神'。
+sources:
+- 旧唐书·秦叔宝传
+wikidata_id: "Q1285831"
+wikipedia_zh: "秦琼"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Chinese-new-year-symbols-gods-of-gate.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chinese-new-year-symbols-gods-of-gate.jpg"

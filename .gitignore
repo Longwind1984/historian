@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Env
+.env
+.env.local
+
+# 可重建的上游原始数据（CBDB / CHGIS）。本地保留，不进入公开 GitHub 仓库；
+# 运行站点只依赖 data/ 下已处理并带来源的数据。
+external_data/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Superpowers brainstorm
+.superpowers/
+
+# GLM worker 运行日志（scripts/glm/run-task.sh 产出）
+.glm-logs/
+
+# 会话临时/本地工具
+.tmp/
+.claude/
+
+# Playwright / 浏览器验证产物 —— 截图快照日志，验证用不入库
+# (data/geo/atlas_tiles/ 的瓦片是资产，不在此列)
+.playwright-mcp/
+preqin-timeline.png
+shang.png
+atlas_shang.png
+
+# Playwright 失败用例的截图/trace,本地产物不入库
+test-results/
+
+# Tencent Cloud EdgeOne
+.env
+.edgeone/
+.tef_dist/
+edgeone-dist/
+edgeone-dist-safe/

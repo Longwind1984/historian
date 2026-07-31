@@ -1,0 +1,18 @@
+id: p_weichanghui
+type: Person
+name: 韦昌辉
+gender: male
+born:
+  year: 1823
+died:
+  year: 1856
+  month: 11
+roles:
+- rebel_leader
+importance: 2
+bio: 太平天国北王。1856 奉洪秀全密诏诛东王杨秀清,遂纵兵屠杨氏部属两万余人于天京,累日不止 —— 天京事变是太平天国由盛转衰的转折,精锐与人心俱尽于自相残杀。旋因滥杀失众,为洪秀全所杀。
+sources:
+- 李秀成自述
+- 太平天国史
+wikidata_id: "Q3109831"
+wikipedia_zh: "韦昌辉"

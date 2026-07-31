@@ -1,0 +1,12 @@
+id: pl_cbdb_11177
+type: Place
+name: 濰州
+modern_name: 濰州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.702705
+longitude: 119.106499
+first_year: 965
+last_year: 1126
+description: CBDB 行政类型:Zhou

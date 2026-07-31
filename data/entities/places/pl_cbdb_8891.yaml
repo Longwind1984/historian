@@ -1,0 +1,12 @@
+id: pl_cbdb_8891
+type: Place
+name: 獨山州
+modern_name: 獨山州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 25.829072952
+longitude: 107.5427475
+first_year: 1644
+last_year: 1911
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,12 @@
+id: pl_cbdb_5837
+type: Place
+name: 資縣
+modern_name: 資縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.784748
+longitude: 104.848358
+first_year: 1371
+last_year: 1643
+description: CBDB 行政类型:Xian

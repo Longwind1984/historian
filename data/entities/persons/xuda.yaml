@@ -1,0 +1,24 @@
+id: p_xuda
+type: Person
+name: 徐达
+alias:
+- 徐天德
+courtesy_name: 天德
+born:
+  year: 1332
+died:
+  year: 1385
+gender: male
+roles:
+- general
+importance: 2
+birthplace: pl_haozhou_xu
+bio: 明开国第一功臣,右丞相、魏国公。1367 平张士诚。1368 北伐克大都。
+sources:
+- 明史·徐达传
+wikidata_id: "Q1355886"
+wikipedia_zh: "徐達"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Xu_Da.jpg/500px-Xu_Da.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xu_Da.jpg"

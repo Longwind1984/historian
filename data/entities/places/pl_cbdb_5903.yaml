@@ -1,0 +1,12 @@
+id: pl_cbdb_5903
+type: Place
+name: 長壽
+modern_name: 長壽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.169826508
+longitude: 112.58925629
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

@@ -1,0 +1,12 @@
+id: pl_cbdb_13341
+type: Place
+name: 漢州
+modern_name: 漢州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.981309891
+longitude: 104.2830658
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,19 @@
+id: b_maling
+type: Battle
+name: 马陵之战
+date:
+  year: -341
+category: battle
+combatants:
+- k_wei_state
+- k_qi_state
+commanders:
+- p_sunbin
+victor: k_qi_state
+victor_commander: p_sunbin
+importance: 3
+description: 前341年魏伐韩，齐以田忌为将、孙膑为师救韩。孙膑用"减灶"之计，逐日减齐军炊灶以示弱，诱魏将庞涓轻骑追击；于马陵狭谷设伏（具体地望有多说），万弩齐发，魏军大溃，庞涓自杀(一说出战死)，太子申被虏。
+significance: 魏自此元气大伤，失中原霸权，齐威王称雄东方；孙膑名扬天下，"减灶诱敌"成军事谋略典范。
+sources:
+- 史记·孙子吴起列传
+- 战国策·齐策

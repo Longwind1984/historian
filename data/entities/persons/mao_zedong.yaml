@@ -1,0 +1,18 @@
+id: p_mao_zedong
+name: 毛泽东
+type: Person
+born: {year: 1893}
+died: {year: 1976}
+roles:
+  - civil_official
+importance: 1
+bio: 湖南湘潭人。中国共产党主要领导人，中华人民共和国主要缔造者。1945-1976年任中共中央主席，1949-1954年任中央人民政府主席，1954-1959年任国家主席。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q5816"
+wikipedia_zh: "毛泽东"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mao_Tse_Tung.jpg/500px-Mao_Tse_Tung.jpg"
+image_license: "Public domain"
+image_credit: "Chen Zhengqing (1917–1966)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Mao_Tse_Tung.jpg"

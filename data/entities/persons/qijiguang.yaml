@@ -1,0 +1,24 @@
+id: p_qijiguang
+type: Person
+name: 戚继光
+alias:
+- 戚元敬
+courtesy_name: 元敬
+born:
+  year: 1528
+died:
+  year: 1588
+gender: male
+roles:
+- general
+importance: 1
+birthplace: pl_dengzhou
+bio: 明代抗倭名将。1561 台州大捷。后镇蓟门。
+sources:
+- 明史·戚继光传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Qi_Jiguang_Portrait.jpg/500px-Qi_Jiguang_Portrait.jpg"
+wikidata_id: "Q439768"
+wikipedia_zh: "戚继光"
+image_license: "Public domain"
+image_credit: "Thomas Chen"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Qi_Jiguang_Portrait.jpg"

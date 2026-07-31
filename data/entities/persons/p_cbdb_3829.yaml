@@ -1,0 +1,14 @@
+id: p_cbdb_3829
+type: Person
+name: 唐拱
+born:
+  year: 977
+died:
+  year: 1022
+gender: male
+birthplace: pl_cbdb_100395
+dynasty_ref: k_beisong
+bio: CBDB ID 3829
+name_en: Tang Gong
+sources:
+- CBDB (China Biographical Database)

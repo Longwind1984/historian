@@ -1,0 +1,12 @@
+id: pl_cbdb_12449
+type: Place
+name: 蒙城
+modern_name: 蒙城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 33.268639
+longitude: 116.555748
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

@@ -1,0 +1,20 @@
+id: p_zhangshi_song
+type: Person
+name: 张栻
+courtesy_name: 敬夫
+born:
+  year: 1133
+died:
+  year: 1180
+  month: 8
+gender: male
+birthplace: pl_mianzhu_zhang
+bio: 南宋理学家(湖湘学派)。张浚子。主持岳麓书院。与朱熹、吕祖谦并称'东南三贤'。
+sources:
+- 宋史·张栻传
+wikidata_id: "Q708644"
+wikipedia_zh: "張栻"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/%E5%AE%8B%E5%8F%B3%E6%96%87%E6%AE%BF%E4%BF%AE%E6%92%B0%E5%BC%A0%E6%A0%BB.jpg/500px-%E5%AE%8B%E5%8F%B3%E6%96%87%E6%AE%BF%E4%BF%AE%E6%92%B0%E5%BC%A0%E6%A0%BB.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AE%8B%E5%8F%B3%E6%96%87%E6%AE%BF%E4%BF%AE%E6%92%B0%E5%BC%A0%E6%A0%BB.jpg"

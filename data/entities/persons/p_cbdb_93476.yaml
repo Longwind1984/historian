@@ -1,0 +1,14 @@
+id: p_cbdb_93476
+type: Person
+name: 張祜
+born:
+  year: 792
+died:
+  year: 853
+gender: male
+birthplace: pl_cbdb_15513
+dynasty_ref: k_tang
+bio: CBDB ID 93476
+name_en: Zhang Hu
+sources:
+- CBDB (China Biographical Database)

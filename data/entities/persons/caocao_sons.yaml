@@ -1,0 +1,27 @@
+id: p_caocao_sons
+type: Person
+name: 曹植
+alias:
+- 曹子建
+- 陈思王
+courtesy_name: 子建
+born:
+  year: 192
+died:
+  year: 232
+  month: 12
+gender: male
+roles:
+- imperial_kin
+- literatus
+importance: 2
+birthplace: pl_qiao_cao
+bio: 曹操子,曹丕弟。建安文学代表。'七步成诗'。
+sources:
+- 三国志·魏书·陈思王传
+wikidata_id: "Q698890"
+wikipedia_zh: "曹植"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Portrait_Cao_Zhi.jpg"
+image_license: "Public domain"
+image_credit: "顧愷之"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Portrait_Cao_Zhi.jpg"

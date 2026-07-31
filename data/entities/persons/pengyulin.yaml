@@ -1,0 +1,22 @@
+id: p_pengyulin
+type: Person
+name: 彭玉麟
+gender: male
+courtesy_name: 雪琴
+born:
+  year: 1816
+died:
+  year: 1890
+  month: 4
+roles:
+- general
+importance: 3
+bio: 湘军水师创建者,与曾国藩、左宗棠并称。历官兵部尚书而屡辞不就,前后辞谢督抚之命六次。1884 中法战争时年近七十,仍赴广东督师。
+sources:
+- 清史稿·彭玉麟传
+wikidata_id: "Q11069920"
+wikipedia_zh: "彭玉麟"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pengyulin_house20170211_04.jpg/500px-Pengyulin_house20170211_04.jpg"
+image_license: "CC BY-SA 4.0"
+image_credit: "凡尔礼"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Pengyulin_house20170211_04.jpg"

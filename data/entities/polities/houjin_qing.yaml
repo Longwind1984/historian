@@ -1,0 +1,15 @@
+id: k_houjin_qing
+type: Polity
+name: 后金
+name_en: Later Jin (Qing precursor)
+color: '#8e44ad'
+founded:
+  year: 1616
+ended:
+  year: 1636
+capital: pl_hetuala_dor
+description: 清前身。努尔哈赤 1616 统一女真诸部后称汗建国,都赫图阿拉。1636 皇太极改国号清。
+sources:
+- 清史稿·太祖本纪
+founder: p_nuerhaci
+ended_by: k_qing

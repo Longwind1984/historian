@@ -1,0 +1,21 @@
+id: p_zhang_heng
+type: Person
+name: 张衡
+alias:
+- 张平子
+courtesy_name: 平子
+born:
+  year: 78
+died:
+  year: 139
+gender: male
+roles:
+- scholar
+importance: 2
+birthplace: pl_nanyang_zhangheng
+bio: 东汉科学家、文学家。发明浑天仪、地动仪。著《二京赋》《归田赋》。
+sources:
+- 后汉书·张衡传
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Zhang Heng.jpg
+wikidata_id: "Q197206"
+wikipedia_zh: "张衡"

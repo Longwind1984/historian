@@ -1,0 +1,22 @@
+id: e_chibi_zhizhan
+type: Event
+name: 赤壁之战
+date:
+  year: 208
+  month: 12
+category: battle
+march:
+- from: pl_jiangling
+  to: pl_chibi
+  note: 曹操取江陵后顺江东下,与孙刘联军遇于赤壁。《三国志·武帝纪》
+importance: 2
+location: pl_chibi
+polities_involved:
+- k_caowei_pre
+- k_shuhan_pre
+- k_dongwu_pre
+description: 208 年曹操南下,刘备、孙权联军抗曹。周瑜为东吴主帅,以 5 万联军大破曹军 20 余万。曹操北撤,三国鼎立局面形成。
+impact: 中国历史上以少胜多的经典战例,决定三国鼎立。
+sources:
+- 三国志·吴书·周瑜传
+- 资治通鉴·卷65

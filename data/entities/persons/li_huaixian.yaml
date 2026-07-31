@@ -1,0 +1,12 @@
+id: p_li_huaixian
+type: Person
+name: 李怀仙
+died:
+  year: 768
+gender: male
+birthplace: pl_youzhou
+bio: 卢龙节度使(763-768)。柳城胡人,安史旧部。河朔三镇之一。被部下朱希彩所杀。
+sources:
+- 旧唐书·李怀仙传
+wikidata_id: "Q6538837"
+wikipedia_zh: "李懷仙"

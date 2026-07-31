@@ -1,0 +1,12 @@
+id: pl_cbdb_100480
+type: Place
+name: 磐石
+modern_name: 磐石
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.784748
+longitude: 104.848358
+first_year: 960
+last_year: 1242
+description: CBDB 行政类型:Xian

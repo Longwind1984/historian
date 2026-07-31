@@ -1,0 +1,12 @@
+id: pl_cbdb_303340
+type: Place
+name: 長治
+modern_name: 長治
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.1829
+longitude: 113.1128
+first_year: 1529
+last_year: 1643
+description: CBDB 行政类型:Xian

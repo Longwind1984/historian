@@ -1,0 +1,12 @@
+id: pl_cbdb_9072
+type: Place
+name: 臺灣省
+modern_name: 臺灣省
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 24.142379761
+longitude: 120.67119598
+first_year: 1885
+last_year: 1895
+description: CBDB 行政类型:Sheng

@@ -1,0 +1,13 @@
+id: pl_yiwu_sui
+type: Place
+name: 伊吾
+modern_name: 哈密
+province: 新疆
+latitude: 42.83
+longitude: 93.51
+category: city
+description: 西域门户
+sources:
+- 隋书·地理志
+- 旧唐书·地理志
+- 中国历史地图集·隋唐五代

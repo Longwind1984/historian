@@ -1,0 +1,14 @@
+id: p_cbdb_5108
+type: Person
+name: 王弗
+born:
+  year: 1039
+died:
+  year: 1065
+gender: female
+birthplace: pl_cbdb_13308
+dynasty_ref: k_beisong
+bio: CBDB ID 5108
+name_en: Wang Fu
+sources:
+- CBDB (China Biographical Database)

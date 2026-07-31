@@ -1,0 +1,14 @@
+id: p_cbdb_16255
+type: Person
+name: 楊琪
+born:
+  year: 980
+died:
+  year: 1050
+gender: male
+birthplace: pl_cbdb_12264
+dynasty_ref: k_beisong
+bio: CBDB ID 16255
+name_en: Yang Qi
+sources:
+- CBDB (China Biographical Database)

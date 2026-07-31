@@ -1,0 +1,12 @@
+id: pl_cbdb_101099
+type: Place
+name: 洪州
+modern_name: 洪州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.67489624
+longitude: 115.89772034
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

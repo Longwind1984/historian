@@ -1,0 +1,19 @@
+id: p_sun_jiadong
+type: Person
+name: 孙家栋
+born:
+  year: 1929
+gender: male
+roles:
+- scholar
+importance: 2
+bio: 辽宁复县人。航天技术专家，中国第一颗人造卫星'东方红一号'技术负责人之一，北斗导航与探月工程总设计师，'两弹一星'功勋奖章获得者。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q986597"
+wikipedia_zh: "孙家栋"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%E5%AD%99%E5%AE%B6%E6%A0%8B%E9%99%A2%E5%A3%AB.jpg/500px-%E5%AD%99%E5%AE%B6%E6%A0%8B%E9%99%A2%E5%A3%AB.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E5%AE%B6%E6%A0%8B%E9%99%A2%E5%A3%AB.jpg"

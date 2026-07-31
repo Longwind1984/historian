@@ -1,0 +1,22 @@
+id: p_yexian
+name: 也先
+alias:
+- 額森
+died:
+  year: 1454
+gender: male
+roles:
+- monarch
+- general
+importance: 2
+bio: 瓦剌太师,脱欢之子。1449 土木堡之变俘明英宗,进围北京为于谦所败。1453 自立为大元天圣大可汗 —— 非成吉思汗黄金家族而称汗,故诸部不服。1454 为部下阿剌知院所杀。
+sources:
+- 明史·瓦剌传
+- 明英宗实录
+type: Person
+reign_start:
+  year: 1453
+reign_end:
+  year: 1454
+wikidata_id: "Q9263"
+wikipedia_zh: "也先"

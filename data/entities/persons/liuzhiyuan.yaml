@@ -1,0 +1,38 @@
+id: p_liuzhiyuan
+type: Person
+name: 刘知远
+alias:
+- 刘暠
+- 后汉高祖
+born:
+  year: 895
+  month: 2
+died:
+  year: 948
+  month: 1
+gender: male
+birthplace: pl_taiyuan
+bio: 后汉建立者。沙陀人。原为后晋重臣,947 年契丹灭后晋北撤,在太原称帝,建国号汉,都开封。948 年病死。
+sources:
+- 旧五代史·汉高祖纪
+- 新五代史·汉本纪
+- 资治通鉴·卷286-287
+- 旧五代史
+- 新五代史
+- 资治通鉴
+reign_start:
+  year: 947
+reign_end:
+  year: 948
+importance: 3
+roles:
+- emperor
+ext:
+  title: 后汉高祖
+  regime: 后汉
+wikidata_id: "Q708522"
+wikipedia_zh: "劉知遠"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Liu_Zhiyuan_%28Han_Gaozu%29.jpg/500px-Liu_Zhiyuan_%28Han_Gaozu%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Zhiyuan_(Han_Gaozu).jpg"

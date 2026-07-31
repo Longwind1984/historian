@@ -1,0 +1,25 @@
+id: p_duan_qirui
+type: Person
+name: 段祺瑞
+alias:
+- 段芝泉
+courtesy_name: 芝泉
+born:
+  year: 1865
+died:
+  year: 1936
+gender: male
+roles:
+- general
+- civil_official
+importance: 2
+bio: 安徽合肥人，北洋军阀皖系首领。天津武备学堂毕业，曾留学德国。袁世凯小站练兵时为其幕僚，与冯国璋、王士珍并称"北洋三杰"。民国后历任陆军总长、国务总理。1916 年起长期主政，主张对德宣战，引发府院之争与张勋复辟前后再度执政。1924 年任临时执政。1926 年三一八惨案后通电下野，退居天津。1936 年病逝。
+sources:
+- 中华民国史·段祺瑞传
+- 来新夏·北洋军阀史稿
+wikidata_id: "Q706172"
+wikipedia_zh: "段祺瑞"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/DuanQirui.jpg/500px-DuanQirui.jpg"
+image_license: "Public domain"
+image_credit: "Unknown photographer"
+image_source_page: "https://commons.wikimedia.org/wiki/File:DuanQirui.jpg"

@@ -1,0 +1,34 @@
+id: p_fuchai
+type: Person
+name: 夫差
+alias:
+- 吴王夫差
+- 夫差
+gender: male
+roles:
+- monarch
+importance: 3
+reign_start:
+  year: -495
+reign_end:
+  year: -473
+bio: 吴王夫差，阖闾之子。前495年嗣位，誓报越仇，前494年夫椒大败越军，围勾践于会稽。许越求和后，北上争霸，凿邗沟、伐齐，前482年黄池之会与晋争长。越乘虚伐吴，几经反复，前473年越破吴都，夫差求为附庸不得，自刎，吴亡。
+life_events:
+- year: -495
+  event: 嗣位，誓报越仇
+  source: 史记·吴太伯世家
+- year: -494
+  event: 夫椒败越，困勾践于会稽
+  source: 左传·哀公元年
+- year: -482
+  event: 黄池之会与晋争长
+  source: 左传·哀公十三年
+- year: -473
+  event: 越破吴，自刎，吴亡
+  source: 史记·吴太伯世家
+sources:
+- 史记·吴太伯世家
+- 左传·哀公
+- 国语·吴语
+wikidata_id: "Q1269349"
+wikipedia_zh: "夫差"

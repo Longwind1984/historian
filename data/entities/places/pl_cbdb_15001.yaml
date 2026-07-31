@@ -1,0 +1,12 @@
+id: pl_cbdb_15001
+type: Place
+name: 河中府
+modern_name: 河中府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.835128784
+longitude: 110.33230591
+first_year: 760
+last_year: 959
+description: CBDB 行政类型:Fu

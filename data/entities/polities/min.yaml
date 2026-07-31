@@ -1,0 +1,24 @@
+id: k_min
+type: Polity
+name: 闽
+name_en: Min
+color: '#c0392b'
+founded:
+  year: 909
+  month: 4
+ended:
+  year: 945
+  month: 11
+capital: pl_fuzhou
+description: 王审知所建,都福州。945 年为南唐所灭。
+sources:
+- 新五代史·闽世家
+- 十国春秋·闽
+founder: p_wangshenzhi
+ended_by: k_nantang
+territory:
+- valid_from:
+    year: 909
+  valid_to:
+    year: 945
+  geojson_file: min_peak.geojson

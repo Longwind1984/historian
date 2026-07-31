@@ -1,0 +1,19 @@
+id: p_chou_shiliang
+type: Person
+name: 仇士良
+born:
+  year: 781
+died:
+  year: 843
+gender: male
+roles:
+- eunuch
+importance: 2
+bio: 晚唐权阉。826-840 间掌握神策军,历经文宗、武宗。甘露之变(835)后大杀朝臣,二王八司马等。'天子当使其畏,不当使其骄'。
+ext:
+  significance: 晚唐宦官专权的极致代表。
+sources:
+- 旧唐书·宦官传·仇士良
+- 资治通鉴·卷245-247
+wikidata_id: "Q7267954"
+wikipedia_zh: "仇士良"

@@ -1,0 +1,1312 @@
+{
+  "schema_version": "history-kb.exploration.v5",
+  "exploration_id": "exploration_private_red_sun_structure",
+  "revision": 2,
+  "lifecycle_state": "analysis_proposed",
+  "input": {
+    "mode": "book",
+    "book_ref": {
+      "document_id": "doc_private_red_sun",
+      "format": "epub",
+      "title": "红太阳是怎样升起的：延安整风运动的来龙去脉",
+      "author": "高华",
+      "edition_label": null,
+      "storage": "local_only",
+      "content_embedded": false
+    }
+  },
+  "privacy": {
+    "raw_source_retention": "local_only",
+    "raw_source_in_artifact": false,
+    "model_send_policy": "selected_passages_only",
+    "prompt_send_policy": "not_sent",
+    "public_export_default": "derivative_only",
+    "credentials_stored": false
+  },
+  "research_scope": {
+    "status": "confirmed",
+    "question": "这本书怎样把权力重组、解释权、组织与教育技术、审干与抢救、1945 年制度化收束编织成一条关于延安整风的作者论证？",
+    "time_range": {
+      "label": "1935—1945（以目录和章节标题为范围提示，待段落级核对）",
+      "start_year": 1935,
+      "end_year": 1945,
+      "precision": "approximate"
+    },
+    "geographies": [
+      "延安",
+      "莫斯科",
+      "武汉",
+      "各根据地"
+    ],
+    "focus_entities": [
+      "毛泽东",
+      "王明",
+      "周恩来",
+      "张闻天",
+      "刘少奇"
+    ],
+    "threads": [
+      "核心层权力与联盟重组",
+      "意识形态解释权",
+      "组织与教育技术",
+      "审干、反奸与抢救",
+      "1945 年制度化收束"
+    ],
+    "allowed_source_sets": [
+      "original_text"
+    ],
+    "include": [
+      "全书目录与章节级结构",
+      "五条章节级作者论证候选",
+      "待核事实与时空 Scene 候选",
+      "缺口和人工复核队列"
+    ],
+    "exclude": [
+      "正文或长引文入库",
+      "把作者判断升格为史实",
+      "无独立来源的多源互证",
+      "公开发布"
+    ]
+  },
+  "corpus": {
+    "sources": [
+      {
+        "id": "source_private_red_sun",
+        "origin_class": "original_text",
+        "title": "红太阳是怎样升起的：延安整风运动的来龙去脉",
+        "creator": "高华",
+        "access_scope": "private",
+        "locator_capability": "record_id",
+        "rights_status": "private_use_only",
+        "citation": "本机私有 EPUB；包内语言 zh，spine 45 项；当前只使用章节级内部记录定位，未绑定可核验纸书版次、页码或段落 CFI。"
+      }
+    ]
+  },
+  "document_structure": {
+    "structure_kind": "book",
+    "chapters": [
+      {
+        "id": "ch_01",
+        "ordinal": 1,
+        "title": "第一章 毛泽东与原中共中央历史上分歧的由来",
+        "section_count": 6,
+        "content_unit_count": 2,
+        "visible_char_count": 59851,
+        "paragraph_count": 459,
+        "anchor_ids": []
+      },
+      {
+        "id": "ch_02",
+        "ordinal": 2,
+        "title": "第二章 遵义会议后毛泽东的权力扩张和来自莫斯科的政策干预",
+        "section_count": 4,
+        "content_unit_count": 2,
+        "visible_char_count": 31971,
+        "paragraph_count": 197,
+        "anchor_ids": [
+          "anchor_ch_02"
+        ]
+      },
+      {
+        "id": "ch_03",
+        "ordinal": 3,
+        "title": "第三章 王明返国前后中共核心层的争论与力量重组",
+        "section_count": 4,
+        "content_unit_count": 2,
+        "visible_char_count": 30160,
+        "paragraph_count": 220,
+        "anchor_ids": [
+          "anchor_ch_03"
+        ]
+      },
+      {
+        "id": "ch_04",
+        "ordinal": 4,
+        "title": "第四章 毛泽东对王明的重大胜利",
+        "section_count": 4,
+        "content_unit_count": 2,
+        "visible_char_count": 19381,
+        "paragraph_count": 126,
+        "anchor_ids": [
+          "anchor_ch_04"
+        ]
+      },
+      {
+        "id": "ch_05",
+        "ordinal": 5,
+        "title": "第五章 夺取意识形态的「解释权」",
+        "section_count": 3,
+        "content_unit_count": 2,
+        "visible_char_count": 18494,
+        "paragraph_count": 121,
+        "anchor_ids": [
+          "anchor_ch_05"
+        ]
+      },
+      {
+        "id": "ch_06",
+        "ordinal": 6,
+        "title": "第六章 整风运动前夕中共的内外环境与毛泽东的强势地位",
+        "section_count": 7,
+        "content_unit_count": 2,
+        "visible_char_count": 38114,
+        "paragraph_count": 225,
+        "anchor_ids": [
+          "anchor_ch_06"
+        ]
+      },
+      {
+        "id": "ch_07",
+        "ordinal": 7,
+        "title": "第七章 上层革命的开始：毛泽东与王明的首次公开交锋",
+        "section_count": 3,
+        "content_unit_count": 2,
+        "visible_char_count": 29226,
+        "paragraph_count": 180,
+        "anchor_ids": []
+      },
+      {
+        "id": "ch_08",
+        "ordinal": 8,
+        "title": "第八章 革命转入中下层：全面整风的发韧",
+        "section_count": 2,
+        "content_unit_count": 2,
+        "visible_char_count": 10088,
+        "paragraph_count": 89,
+        "anchor_ids": [
+          "anchor_ch_08"
+        ]
+      },
+      {
+        "id": "ch_09",
+        "ordinal": 9,
+        "title": "第九章 从「延安之春」到斗争王实味",
+        "section_count": 5,
+        "content_unit_count": 2,
+        "visible_char_count": 39976,
+        "paragraph_count": 239,
+        "anchor_ids": []
+      },
+      {
+        "id": "ch_10",
+        "ordinal": 10,
+        "title": "第十章 革命在深入：宣传和干部教育系统的重建",
+        "section_count": 4,
+        "content_unit_count": 2,
+        "visible_char_count": 21159,
+        "paragraph_count": 128,
+        "anchor_ids": [
+          "anchor_ch_10"
+        ]
+      },
+      {
+        "id": "ch_11",
+        "ordinal": 11,
+        "title": "第十一章 锻造「新人」：从整风到审干",
+        "section_count": 7,
+        "content_unit_count": 2,
+        "visible_char_count": 33300,
+        "paragraph_count": 291,
+        "anchor_ids": [
+          "anchor_ch_11"
+        ]
+      },
+      {
+        "id": "ch_12",
+        "ordinal": 12,
+        "title": "第十二章 革命向最高阶段发展：审干、反奸与抢救运动",
+        "section_count": 7,
+        "content_unit_count": 2,
+        "visible_char_count": 46197,
+        "paragraph_count": 351,
+        "anchor_ids": [
+          "anchor_ch_12"
+        ]
+      },
+      {
+        "id": "ch_13",
+        "ordinal": 13,
+        "title": "第十三章 「抢救」风暴下的延安和各根据地",
+        "section_count": 10,
+        "content_unit_count": 2,
+        "visible_char_count": 58343,
+        "paragraph_count": 435,
+        "anchor_ids": [
+          "anchor_ch_13"
+        ]
+      },
+      {
+        "id": "ch_14",
+        "ordinal": 14,
+        "title": "第十四章 进两步，退一步：「抢救」的落潮",
+        "section_count": 4,
+        "content_unit_count": 2,
+        "visible_char_count": 21058,
+        "paragraph_count": 163,
+        "anchor_ids": [
+          "anchor_ch_14"
+        ]
+      },
+      {
+        "id": "ch_15",
+        "ordinal": 15,
+        "title": "第十五章 「毛主席万岁」——延安整风的完成",
+        "section_count": 6,
+        "content_unit_count": 2,
+        "visible_char_count": 30376,
+        "paragraph_count": 204,
+        "anchor_ids": [
+          "anchor_ch_15"
+        ]
+      }
+    ],
+    "source_packets": [],
+    "anchors": [
+      {
+        "id": "anchor_ch_02",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_02",
+        "ordinal": 2,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_008.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_03",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_03",
+        "ordinal": 3,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_010.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_04",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_04",
+        "ordinal": 4,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_012.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_05",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_05",
+        "ordinal": 5,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_014.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_06",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_06",
+        "ordinal": 6,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_016.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_08",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_08",
+        "ordinal": 8,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_020.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_10",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_10",
+        "ordinal": 10,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_024.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_11",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_11",
+        "ordinal": 11,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_026.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_12",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_12",
+        "ordinal": 12,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_028.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_13",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_13",
+        "ordinal": 13,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_030.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_14",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_14",
+        "ordinal": 14,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_032.html"
+        },
+        "text_storage": "source_resolved"
+      },
+      {
+        "id": "anchor_ch_15",
+        "source_id": "source_private_red_sun",
+        "unit_type": "chapter",
+        "chapter_id": "ch_15",
+        "ordinal": 15,
+        "locator": {
+          "kind": "record_id",
+          "value": "epub:index_split_034.html"
+        },
+        "text_storage": "source_resolved"
+      }
+    ],
+    "parse_warnings": [
+      "包内 dc:date 为转换包元数据，不能据此声称纸书版次。",
+      "当前统计只覆盖 15 个正文章节子树：共 76 个目录小节、30 个内容单元、487694 个去空白可见字符、3428 个段落标签。",
+      "当前五条作者论证主线仅绑定章节级内部记录；段落级 CFI、页码与短摘录仍待本地解析器生成。",
+      "所有作者判断、平台综合、事实候选和 Scene 均为待人工复核，不代表平台史实。"
+    ]
+  },
+  "analysis_plan": {
+    "selected_unit_ids": [
+      "ch_01",
+      "ch_02",
+      "ch_03",
+      "ch_04",
+      "ch_05",
+      "ch_06",
+      "ch_07",
+      "ch_08",
+      "ch_09",
+      "ch_10",
+      "ch_11",
+      "ch_12",
+      "ch_13",
+      "ch_14",
+      "ch_15"
+    ],
+    "passes": [
+      {
+        "id": "pass_structure",
+        "input_unit": "chapter",
+        "output_types": [
+          "review_queue"
+        ],
+        "status": "complete"
+      },
+      {
+        "id": "pass_anchor",
+        "input_unit": "section",
+        "output_types": [
+          "claims",
+          "review_queue"
+        ],
+        "status": "running"
+      },
+      {
+        "id": "pass_claims",
+        "input_unit": "paragraph_batch",
+        "output_types": [
+          "claims",
+          "fact_candidates",
+          "entities",
+          "time_refs",
+          "location_refs"
+        ],
+        "status": "complete"
+      },
+      {
+        "id": "pass_scenes",
+        "input_unit": "claim_set",
+        "output_types": [
+          "scenes",
+          "evidence_relations"
+        ],
+        "status": "complete"
+      },
+      {
+        "id": "pass_audit",
+        "input_unit": "scene_set",
+        "output_types": [
+          "gaps",
+          "review_queue"
+        ],
+        "status": "complete"
+      }
+    ]
+  },
+  "artifacts": {
+    "claims": [
+      {
+        "id": "claim_power_reorganization",
+        "statement": "作者把遵义会议后至中共六届六中全会前后的政治过程，组织为毛泽东逐步扩大军权与党权、调整核心层联盟和力量配置的过程。",
+        "kind": "author_judgment",
+        "speaker": {
+          "role": "author",
+          "name": "高华"
+        },
+        "anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_03",
+          "anchor_ch_04"
+        ],
+        "derived_from_claim_ids": [],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "evidence_status": "single_source",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "claim_explanatory_authority",
+        "statement": "作者把理论话语、党史叙述和干部起用放进同一分析框架，视为重建意识形态解释权的重要环节。",
+        "kind": "author_judgment",
+        "speaker": {
+          "role": "author",
+          "name": "高华"
+        },
+        "anchor_ids": [
+          "anchor_ch_04",
+          "anchor_ch_05"
+        ],
+        "derived_from_claim_ids": [],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "evidence_status": "single_source",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "claim_organizational_education",
+        "statement": "作者把学习、宣传、干部教育和组织生活连接成整风由上层向中下层推进、重塑组织成员的实践技术。",
+        "kind": "author_judgment",
+        "speaker": {
+          "role": "author",
+          "name": "高华"
+        },
+        "anchor_ids": [
+          "anchor_ch_08",
+          "anchor_ch_10",
+          "anchor_ch_11"
+        ],
+        "derived_from_claim_ids": [],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "evidence_status": "single_source",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "claim_cadre_rescue_escalation",
+        "statement": "作者把审干、反奸与抢救运动描述为整风在组织审查和群众动员层面的升级，并追踪其扩张、外溢与回落。",
+        "kind": "author_judgment",
+        "speaker": {
+          "role": "author",
+          "name": "高华"
+        },
+        "anchor_ids": [
+          "anchor_ch_11",
+          "anchor_ch_12",
+          "anchor_ch_13",
+          "anchor_ch_14"
+        ],
+        "derived_from_claim_ids": [],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "evidence_status": "single_source",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "claim_1945_closure",
+        "statement": "作者把 1945 年前后的领袖地位、党史结论与组织秩序视为延安整风完成并获得制度化收束的表现。",
+        "kind": "author_judgment",
+        "speaker": {
+          "role": "author",
+          "name": "高华"
+        },
+        "anchor_ids": [
+          "anchor_ch_15"
+        ],
+        "derived_from_claim_ids": [],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "evidence_status": "single_source",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "claim_platform_five_thread_weave",
+        "statement": "平台提议把五条作者论证按权力基础、解释框架、组织技术、审查升级与制度化收束编成可播放主线；该顺序是分析结构，不是作者明示的五阶段模型。",
+        "kind": "platform_inference",
+        "speaker": {
+          "role": "platform",
+          "name": "history-kb"
+        },
+        "anchor_ids": [],
+        "derived_from_claim_ids": [
+          "claim_power_reorganization",
+          "claim_explanatory_authority",
+          "claim_organizational_education",
+          "claim_cadre_rescue_escalation",
+          "claim_1945_closure"
+        ],
+        "source_ids": [],
+        "evidence_status": "evidence_gap",
+        "review_status": "pending_review"
+      }
+    ],
+    "fact_candidates": [
+      {
+        "id": "fact_power_reorganization",
+        "statement": "1935 年后中共核心层的权力与联盟配置发生持续重组。",
+        "claim_ids": [
+          "claim_power_reorganization"
+        ],
+        "time_ref_ids": [
+          "time_power_reorganization"
+        ],
+        "location_ref_ids": [
+          "location_moscow",
+          "location_wuhan"
+        ],
+        "entity_ids": [
+          "entity_mao_zedong",
+          "entity_wang_ming",
+          "entity_zhou_enlai",
+          "entity_zhang_wentian",
+          "entity_liu_shaoqi"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "fact_explanatory_authority",
+        "statement": "党史叙述、理论宣传与干部配置在整风前后共同参与了统一解释框架的形成。",
+        "claim_ids": [
+          "claim_explanatory_authority"
+        ],
+        "time_ref_ids": [
+          "time_explanatory_authority"
+        ],
+        "location_ref_ids": [
+          "location_yanan"
+        ],
+        "entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "fact_organizational_education",
+        "statement": "学习、宣传、干部教育和组织生活构成整风向中下层推进的一组组织实践。",
+        "claim_ids": [
+          "claim_organizational_education"
+        ],
+        "time_ref_ids": [
+          "time_organizational_education"
+        ],
+        "location_ref_ids": [
+          "location_yanan"
+        ],
+        "entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "fact_cadre_rescue_escalation",
+        "statement": "审干、反奸与抢救运动构成整风期间组织审查和动员的升级，并影响延安以外的根据地。",
+        "claim_ids": [
+          "claim_cadre_rescue_escalation"
+        ],
+        "time_ref_ids": [
+          "time_cadre_rescue"
+        ],
+        "location_ref_ids": [
+          "location_yanan",
+          "location_base_areas"
+        ],
+        "entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "fact_1945_closure",
+        "statement": "1945 年前后，整风形成了阶段性的组织、领袖与党史叙述收束。",
+        "claim_ids": [
+          "claim_1945_closure"
+        ],
+        "time_ref_ids": [
+          "time_1945_closure"
+        ],
+        "location_ref_ids": [
+          "location_yanan"
+        ],
+        "entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "review_status": "pending_review"
+      }
+    ],
+    "entities": [
+      {
+        "id": "entity_mao_zedong",
+        "entity_type": "person",
+        "label": "毛泽东",
+        "identity_status": "candidate_match",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_03",
+          "anchor_ch_04",
+          "anchor_ch_05",
+          "anchor_ch_06",
+          "anchor_ch_15"
+        ]
+      },
+      {
+        "id": "entity_wang_ming",
+        "entity_type": "person",
+        "label": "王明",
+        "identity_status": "candidate_match",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_03",
+          "anchor_ch_04"
+        ]
+      },
+      {
+        "id": "entity_zhou_enlai",
+        "entity_type": "person",
+        "label": "周恩来",
+        "identity_status": "candidate_match",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_03"
+        ]
+      },
+      {
+        "id": "entity_zhang_wentian",
+        "entity_type": "person",
+        "label": "张闻天",
+        "identity_status": "candidate_match",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_03"
+        ]
+      },
+      {
+        "id": "entity_liu_shaoqi",
+        "entity_type": "person",
+        "label": "刘少奇",
+        "identity_status": "candidate_match",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_06"
+        ]
+      },
+      {
+        "id": "entity_yanan",
+        "entity_type": "place",
+        "label": "延安",
+        "identity_status": "linked_exact",
+        "official_entity_id": "pl_yan'an_han",
+        "source_anchor_ids": [
+          "anchor_ch_06",
+          "anchor_ch_08",
+          "anchor_ch_10",
+          "anchor_ch_11",
+          "anchor_ch_12",
+          "anchor_ch_13",
+          "anchor_ch_14",
+          "anchor_ch_15"
+        ]
+      },
+      {
+        "id": "entity_moscow",
+        "entity_type": "place",
+        "label": "莫斯科",
+        "identity_status": "unresolved",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_06"
+        ]
+      },
+      {
+        "id": "entity_wuhan",
+        "entity_type": "place",
+        "label": "武汉",
+        "identity_status": "unresolved",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_03"
+        ]
+      },
+      {
+        "id": "entity_base_areas",
+        "entity_type": "place",
+        "label": "各根据地",
+        "identity_status": "new_exploration_only",
+        "official_entity_id": null,
+        "source_anchor_ids": [
+          "anchor_ch_13"
+        ]
+      }
+    ],
+    "time_refs": [
+      {
+        "id": "time_power_reorganization",
+        "label": "1935—1938（章节级候选）",
+        "start": "1935",
+        "end": "1938",
+        "precision": "range",
+        "source_anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_03",
+          "anchor_ch_04"
+        ]
+      },
+      {
+        "id": "time_explanatory_authority",
+        "label": "1938—1941（章节级候选）",
+        "start": "1938",
+        "end": "1941",
+        "precision": "approximate",
+        "source_anchor_ids": [
+          "anchor_ch_04",
+          "anchor_ch_05",
+          "anchor_ch_06"
+        ]
+      },
+      {
+        "id": "time_organizational_education",
+        "label": "1942（章节级候选）",
+        "start": "1942",
+        "end": "1942",
+        "precision": "year",
+        "source_anchor_ids": [
+          "anchor_ch_08",
+          "anchor_ch_10",
+          "anchor_ch_11"
+        ]
+      },
+      {
+        "id": "time_cadre_rescue",
+        "label": "1942—1944（章节级候选）",
+        "start": "1942",
+        "end": "1944",
+        "precision": "range",
+        "source_anchor_ids": [
+          "anchor_ch_11",
+          "anchor_ch_12",
+          "anchor_ch_13",
+          "anchor_ch_14"
+        ]
+      },
+      {
+        "id": "time_1945_closure",
+        "label": "1945（章节级候选）",
+        "start": "1945",
+        "end": "1945",
+        "precision": "year",
+        "source_anchor_ids": [
+          "anchor_ch_15"
+        ]
+      }
+    ],
+    "location_refs": [
+      {
+        "id": "location_yanan",
+        "label": "延安",
+        "place_entity_id": "entity_yanan",
+        "geometry_status": "verified",
+        "longitude": 109.49,
+        "latitude": 36.6,
+        "source_anchor_ids": [
+          "anchor_ch_06",
+          "anchor_ch_08",
+          "anchor_ch_10",
+          "anchor_ch_11",
+          "anchor_ch_12",
+          "anchor_ch_13",
+          "anchor_ch_14",
+          "anchor_ch_15"
+        ]
+      },
+      {
+        "id": "location_moscow",
+        "label": "莫斯科",
+        "place_entity_id": "entity_moscow",
+        "geometry_status": "none",
+        "longitude": null,
+        "latitude": null,
+        "source_anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_06"
+        ]
+      },
+      {
+        "id": "location_wuhan",
+        "label": "武汉",
+        "place_entity_id": "entity_wuhan",
+        "geometry_status": "none",
+        "longitude": null,
+        "latitude": null,
+        "source_anchor_ids": [
+          "anchor_ch_03"
+        ]
+      },
+      {
+        "id": "location_base_areas",
+        "label": "各根据地",
+        "place_entity_id": "entity_base_areas",
+        "geometry_status": "ambiguous",
+        "longitude": null,
+        "latitude": null,
+        "source_anchor_ids": [
+          "anchor_ch_13"
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene_power_reorganization",
+        "title": "核心层权力与联盟重组",
+        "summary": "以章节级作者判断为线索，呈现遵义会议后核心层权力、联盟与外部政策干预的重组；具体事件仍待段落与外部来源核对。",
+        "claim_ids": [
+          "claim_power_reorganization"
+        ],
+        "fact_candidate_ids": [
+          "fact_power_reorganization"
+        ],
+        "time_ref_ids": [
+          "time_power_reorganization"
+        ],
+        "location_ref_ids": [
+          "location_moscow",
+          "location_wuhan"
+        ],
+        "person_entity_ids": [
+          "entity_mao_zedong",
+          "entity_wang_ming",
+          "entity_zhou_enlai",
+          "entity_zhang_wentian",
+          "entity_liu_shaoqi"
+        ],
+        "evidence_relation_ids": [
+          "relation_author_power"
+        ],
+        "map_state": "no_location",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "scene_explanatory_authority",
+        "title": "解释权的形成",
+        "summary": "把作者关于理论话语、党史叙述与干部配置的分析并置，作为解释权主线的候选 Scene。",
+        "claim_ids": [
+          "claim_explanatory_authority"
+        ],
+        "fact_candidate_ids": [
+          "fact_explanatory_authority"
+        ],
+        "time_ref_ids": [
+          "time_explanatory_authority"
+        ],
+        "location_ref_ids": [
+          "location_yanan"
+        ],
+        "person_entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "evidence_relation_ids": [
+          "relation_author_explanatory"
+        ],
+        "map_state": "partial",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "scene_organizational_education",
+        "title": "组织与教育技术下沉",
+        "summary": "把学习、宣传、干部教育和组织生活视为由上至下推进整风的作者分析候选，不把它自动认定为单一因果链。",
+        "claim_ids": [
+          "claim_organizational_education"
+        ],
+        "fact_candidate_ids": [
+          "fact_organizational_education"
+        ],
+        "time_ref_ids": [
+          "time_organizational_education"
+        ],
+        "location_ref_ids": [
+          "location_yanan"
+        ],
+        "person_entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "evidence_relation_ids": [
+          "relation_author_education"
+        ],
+        "map_state": "partial",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "scene_cadre_rescue",
+        "title": "审干、反奸与抢救的升级和回落",
+        "summary": "沿作者章节结构观察组织审查、群众动员及其向根据地外溢的过程；范围、规模和因果仍需独立材料。",
+        "claim_ids": [
+          "claim_cadre_rescue_escalation"
+        ],
+        "fact_candidate_ids": [
+          "fact_cadre_rescue_escalation"
+        ],
+        "time_ref_ids": [
+          "time_cadre_rescue"
+        ],
+        "location_ref_ids": [
+          "location_yanan",
+          "location_base_areas"
+        ],
+        "person_entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "evidence_relation_ids": [
+          "relation_author_rescue"
+        ],
+        "map_state": "partial",
+        "review_status": "pending_review"
+      },
+      {
+        "id": "scene_1945_closure",
+        "title": "1945 年的制度化收束",
+        "summary": "把作者对整风完成、领袖地位、党史结论与组织秩序的讨论组织为收束 Scene，仍保持作者判断身份。",
+        "claim_ids": [
+          "claim_1945_closure"
+        ],
+        "fact_candidate_ids": [
+          "fact_1945_closure"
+        ],
+        "time_ref_ids": [
+          "time_1945_closure"
+        ],
+        "location_ref_ids": [
+          "location_yanan"
+        ],
+        "person_entity_ids": [
+          "entity_mao_zedong"
+        ],
+        "evidence_relation_ids": [
+          "relation_author_closure"
+        ],
+        "map_state": "partial",
+        "review_status": "pending_review"
+      }
+    ],
+    "evidence_relations": [
+      {
+        "id": "relation_author_power",
+        "from_id": "claim_power_reorganization",
+        "to_id": "fact_power_reorganization",
+        "relation_type": "author_interprets",
+        "provenance_kind": "author_judgment",
+        "anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_03",
+          "anchor_ch_04"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_author_explanatory",
+        "from_id": "claim_explanatory_authority",
+        "to_id": "fact_explanatory_authority",
+        "relation_type": "author_interprets",
+        "provenance_kind": "author_judgment",
+        "anchor_ids": [
+          "anchor_ch_04",
+          "anchor_ch_05"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_author_education",
+        "from_id": "claim_organizational_education",
+        "to_id": "fact_organizational_education",
+        "relation_type": "author_interprets",
+        "provenance_kind": "author_judgment",
+        "anchor_ids": [
+          "anchor_ch_08",
+          "anchor_ch_10",
+          "anchor_ch_11"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_author_rescue",
+        "from_id": "claim_cadre_rescue_escalation",
+        "to_id": "fact_cadre_rescue_escalation",
+        "relation_type": "author_interprets",
+        "provenance_kind": "author_judgment",
+        "anchor_ids": [
+          "anchor_ch_11",
+          "anchor_ch_12",
+          "anchor_ch_13",
+          "anchor_ch_14"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_author_closure",
+        "from_id": "claim_1945_closure",
+        "to_id": "fact_1945_closure",
+        "relation_type": "author_interprets",
+        "provenance_kind": "author_judgment",
+        "anchor_ids": [
+          "anchor_ch_15"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_scene_power_to_explanatory",
+        "from_id": "scene_power_reorganization",
+        "to_id": "scene_explanatory_authority",
+        "relation_type": "chronology",
+        "provenance_kind": "platform_inference",
+        "anchor_ids": [
+          "anchor_ch_02",
+          "anchor_ch_03",
+          "anchor_ch_04",
+          "anchor_ch_05"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_scene_explanatory_to_education",
+        "from_id": "scene_explanatory_authority",
+        "to_id": "scene_organizational_education",
+        "relation_type": "causal_proposal",
+        "provenance_kind": "platform_inference",
+        "anchor_ids": [
+          "anchor_ch_05",
+          "anchor_ch_08",
+          "anchor_ch_10"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_scene_education_to_rescue",
+        "from_id": "scene_organizational_education",
+        "to_id": "scene_cadre_rescue",
+        "relation_type": "chronology",
+        "provenance_kind": "platform_inference",
+        "anchor_ids": [
+          "anchor_ch_10",
+          "anchor_ch_11",
+          "anchor_ch_12"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      },
+      {
+        "id": "relation_scene_rescue_to_closure",
+        "from_id": "scene_cadre_rescue",
+        "to_id": "scene_1945_closure",
+        "relation_type": "chronology",
+        "provenance_kind": "platform_inference",
+        "anchor_ids": [
+          "anchor_ch_14",
+          "anchor_ch_15"
+        ],
+        "source_ids": [
+          "source_private_red_sun"
+        ],
+        "review_status": "pending_review"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "gap_paragraph_locators",
+        "kind": "missing_locator",
+        "target_type": "claim",
+        "target_id": "claim_platform_five_thread_weave",
+        "description": "五条主线当前只绑定章节级内部记录；逐条作者判断仍需段落 CFI 或页码定位。",
+        "blocking": true,
+        "status": "open"
+      },
+      {
+        "id": "gap_external_power",
+        "kind": "missing_source",
+        "target_type": "fact_candidate",
+        "target_id": "fact_power_reorganization",
+        "description": "核心层权力与联盟重组尚未绑定独立档案、会议记录或其他研究。",
+        "blocking": true,
+        "status": "open"
+      },
+      {
+        "id": "gap_external_explanatory",
+        "kind": "missing_source",
+        "target_type": "fact_candidate",
+        "target_id": "fact_explanatory_authority",
+        "description": "解释权主线尚未用独立来源核对理论宣传、党史编纂与干部配置之间的关系。",
+        "blocking": true,
+        "status": "open"
+      },
+      {
+        "id": "gap_external_education",
+        "kind": "missing_source",
+        "target_type": "fact_candidate",
+        "target_id": "fact_organizational_education",
+        "description": "组织与教育技术主线尚缺独立材料确认其具体制度、对象和实施范围。",
+        "blocking": true,
+        "status": "open"
+      },
+      {
+        "id": "gap_external_rescue",
+        "kind": "missing_source",
+        "target_type": "fact_candidate",
+        "target_id": "fact_cadre_rescue_escalation",
+        "description": "审干、反奸与抢救的时间、规模和向根据地外溢范围尚需独立来源。",
+        "blocking": true,
+        "status": "open"
+      },
+      {
+        "id": "gap_external_closure",
+        "kind": "missing_source",
+        "target_type": "fact_candidate",
+        "target_id": "fact_1945_closure",
+        "description": "1945 年制度化收束仍是作者判断候选，尚未与会议文件、组织决议和其他研究互证。",
+        "blocking": true,
+        "status": "open"
+      },
+      {
+        "id": "gap_scene_locations",
+        "kind": "place_ambiguity",
+        "target_type": "scene",
+        "target_id": "scene_power_reorganization",
+        "description": "权力重组横跨多地且当前只有章节级地点提示，不能生成单一精确地图焦点。",
+        "blocking": false,
+        "status": "open"
+      },
+      {
+        "id": "gap_base_area_geometry",
+        "kind": "place_ambiguity",
+        "target_type": "scene",
+        "target_id": "scene_cadre_rescue",
+        "description": "「各根据地」是范围概念，不得绘制为单点或未经来源的传播路线。",
+        "blocking": false,
+        "status": "open"
+      },
+      {
+        "id": "gap_counterevidence",
+        "kind": "counterevidence_not_found",
+        "target_type": "claim",
+        "target_id": "claim_platform_five_thread_weave",
+        "description": "本轮只做原书章节级深度结构，没有执行外部反证检索；因此不展示机械生成的反方观点。",
+        "blocking": true,
+        "status": "open"
+      }
+    ]
+  },
+  "review": {
+    "status": "not_started",
+    "events": []
+  },
+  "reader_bridge": {
+    "provider": "none",
+    "state": "unopened",
+    "cross_origin_dom_access": false,
+    "selection_sync": "none",
+    "credentials_stored": false,
+    "progress": null
+  },
+  "release_projection": {
+    "status": "private_ready",
+    "include_ids": [],
+    "exclude_ids": [
+      "doc_private_red_sun",
+      "source_private_red_sun"
+    ],
+    "checks": {
+      "no_raw_source": "pass",
+      "no_private_locator": "unknown",
+      "no_credentials": "pass",
+      "no_reconstructive_summary": "unknown",
+      "external_rights_recorded": "not_applicable",
+      "human_approved": "unknown"
+    }
+  }
+}

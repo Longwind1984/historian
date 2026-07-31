@@ -1,0 +1,25 @@
+id: p_mao_dun
+type: Person
+name: 茅盾
+alias:
+- 沈雁冰
+- 沈德鸿
+courtesy_name: 雁冰
+born:
+  year: 1896
+died:
+  year: 1981
+gender: male
+roles:
+- literatus
+importance: 2
+bio: 浙江桐乡人，近代作家。原名沈德鸿，字雁冰。1916 年入商务印书馆。1920 年参加《小说月报》革新，1921 年与郑振铎等发起文学研究会，同年加入中国共产党。1927-1928 年在上海作《蚀》三部曲，1928 年东渡日本。1933 年发表长篇小说《子夜》。抗战时任文艺界抗敌协会理事。1949 年后任文化部部长。1981 年病逝于北京。
+sources:
+- 中华民国史·茅盾传
+- 钟桂松·茅盾传
+wikidata_id: "Q358494"
+wikipedia_zh: "茅盾"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%E8%8C%85%E7%9B%BE%E6%B2%88%E9%9B%81%E5%86%B0.jpg/500px-%E8%8C%85%E7%9B%BE%E6%B2%88%E9%9B%81%E5%86%B0.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E8%8C%85%E7%9B%BE%E6%B2%88%E9%9B%81%E5%86%B0.jpg"

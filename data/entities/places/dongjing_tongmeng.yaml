@@ -1,0 +1,14 @@
+id: pl_dongjing_tongmeng
+type: Place
+name: 东京
+modern_name: 东京
+province: 日本
+latitude: 35.68
+longitude: 139.76
+category: city
+description: 同盟会成立
+sources:
+- 明史·地理志
+- 清史稿·地理志
+- 元史·地理志
+- 中国历史地图集

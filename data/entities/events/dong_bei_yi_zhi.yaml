@@ -1,0 +1,17 @@
+id: e_dong_bei_yi_zhi
+type: Event
+name: 东北易帜
+date:
+  year: 1928
+  month: 12
+  day: 29
+category: territory
+polities_involved:
+- k_minguo
+importance: 2
+description: 1928 年 6 月张作霖在皇姑屯被日军炸死，张学良继任东三省保安总司令。在国民政府与日本之间权衡后，张学良决定服从南京。12 月 29
+  日通电全国，宣布遵守三民主义、服从国民政府，改悬青天白日旗；奉、吉、黑、热四省同时易帜，接受南京国民政府管辖。此前国民政府任命张学良为东北边防军司令长官。
+impact: 北伐在形式上完成全国统一，南京国民政府名义上统辖全国；但东北日军势力未除，三年后酿成九一八事变。
+sources:
+- 中华民国史·第二编
+- 张友坤·张学良年谱

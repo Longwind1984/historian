@@ -1,0 +1,14 @@
+id: p_cbdb_4001
+type: Person
+name: 魏了翁
+born:
+  year: 1178
+died:
+  year: 1237
+gender: male
+birthplace: pl_cbdb_13363
+dynasty_ref: k_beisong
+bio: CBDB ID 4001
+name_en: Wei Liaoweng
+sources:
+- CBDB (China Biographical Database)

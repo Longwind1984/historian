@@ -1,0 +1,14 @@
+id: pl_shang_jun
+type: Place
+name: 上郡
+modern_name: 榆林
+province: 陕西
+latitude: 38.3
+longitude: 109.78
+category: garrison
+description: 扶苏监军地
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

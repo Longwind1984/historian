@@ -1,0 +1,12 @@
+id: pl_cbdb_5546
+type: Place
+name: 崇陽
+modern_name: 崇陽
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.548801
+longitude: 114.043838
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

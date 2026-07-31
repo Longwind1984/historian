@@ -1,0 +1,15 @@
+id: e_mibing_zhihui
+type: Event
+name: 弭兵之会
+date:
+  year: -546
+category: treaty
+polities_involved:
+- k_jin_state
+- k_chu_state
+importance: 2
+description: 前546年宋大夫向戌倡弭兵，合晋国、楚国及诸侯大夫会于宋。盟约定晋楚之从交相见(各属国同朝晋楚)，齐秦除外。中原数十年战事暂息。
+impact: 晋楚共霸，中原得数十年相对和平；小国贡赋加重，然列国争霸暂缓。
+sources:
+- 左传·襄公二十七年
+- 史记·十二诸侯年表

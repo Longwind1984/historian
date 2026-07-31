@@ -1,0 +1,14 @@
+id: p_cbdb_9008
+type: Person
+name: 趙佶
+born:
+  year: 1082
+died:
+  year: 1135
+gender: male
+birthplace: pl_cbdb_4105
+dynasty_ref: k_beisong
+bio: CBDB ID 9008
+name_en: Zhao Ji
+sources:
+- CBDB (China Biographical Database)

@@ -1,0 +1,16 @@
+id: k_lu_state
+type: Polity
+name: 鲁国
+name_en: Lu (state)
+color: '#e67e22'
+founded:
+  year: -1043
+ended:
+  year: -256
+founder: p_zhougong
+ended_by: k_chu_state
+description: 鲁国。周初封周公旦于鲁，其子伯禽就国，姬姓，都曲阜。为周礼保存最完备之国，"周礼尽在鲁矣"。春秋时鲁隐公以下纪事详于《春秋》《左传》，三桓专政。楚考烈王时取鲁、迁鲁君于莒，鲁绝祀(灭年有前256/前249二说)。始封年据史记通说。
+sources:
+- 史记·鲁周公世家
+- 左传·隐公
+- 史记·六国年表

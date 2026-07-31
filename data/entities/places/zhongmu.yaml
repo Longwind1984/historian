@@ -1,0 +1,14 @@
+id: pl_zhongmu
+type: Place
+name: 官渡/中牟
+modern_name: 中牟
+province: 河南
+latitude: 34.34
+longitude: 114.07
+category: battlefield
+description: 200 官渡之战
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

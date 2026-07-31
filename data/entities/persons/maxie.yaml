@@ -1,0 +1,15 @@
+id: p_maxie
+type: Person
+name: 马希萼
+alias:
+- 楚恭孝王
+died:
+  year: 951
+gender: male
+birthplace: pl_changsha
+bio: 楚第五主。马殷子。950 年起兵杀兄马希广自立。951 年南唐来伐,降。楚国亡。
+sources:
+- 新五代史·楚世家
+- 十国春秋·楚
+wikidata_id: "Q6146232"
+wikipedia_zh: "馬希萼"

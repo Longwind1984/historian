@@ -1,0 +1,19 @@
+id: e_wu_xu_bian_fa
+type: Event
+name: 戊戌变法
+date:
+  year: 1898
+  month: 6
+category: reform
+importance: 2
+location: pl_beijing_qing
+polities_involved:
+- k_qing
+description: 1898.6.11 明定国是诏始。康有为、梁启超、谭嗣同等推动新政。9.21 慈禧政变,光绪囚,六君子(谭嗣同等)杀,变法止。
+impact: 近代政治改革尝试。
+sources:
+- 清史稿·德宗本纪
+end_date:
+  year: 1898
+  month: 9
+image: https://commons.wikimedia.org/wiki/Special:FilePath/Hundred Days Reform.jpg

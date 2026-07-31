@@ -1,0 +1,12 @@
+id: pl_cbdb_5433
+type: Place
+name: 進賢
+modern_name: 進賢
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 28.364485
+longitude: 116.259071
+first_year: 1368
+last_year: 1643
+description: CBDB 行政类型:Xian

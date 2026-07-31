@@ -1,0 +1,16 @@
+id: k_wu_zhu
+type: Polity
+name: 吴(朱元璋)
+name_en: Wu (Zhu Yuanzhang)
+color: '#b08a3c'
+founded:
+  year: 1356
+  month: 3
+ended:
+  year: 1368
+  month: 1
+description: 1356 朱元璋取集庆改应天府,奉韩林儿龙凤年号,1361 封吴国公,1364 自立吴王(史称西吴,以别于张士诚之东吴)。1363 鄱阳湖灭陈友谅,1367 灭张士诚,1368 称帝建明。
+sources:
+- 明史·太祖本纪
+founder: p_zhuyuanzhang
+capital: pl_nanjing_ming

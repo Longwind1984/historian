@@ -1,0 +1,14 @@
+id: p_cbdb_46094
+type: Person
+name: 胡某
+born:
+  year: 977
+died:
+  year: 1047
+gender: male
+birthplace: pl_cbdb_100655
+dynasty_ref: k_beisong
+bio: CBDB ID 46094
+name_en: Hu Mou
+sources:
+- CBDB (China Biographical Database)

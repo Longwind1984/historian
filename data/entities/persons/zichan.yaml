@@ -1,0 +1,40 @@
+id: p_zichan
+type: Person
+name: 公孙侨
+courtesy_name: 子产
+alias:
+- 子产
+- 公孙侨
+- 乔
+gender: male
+born:
+  year: -580
+died:
+  year: -522
+roles:
+- civil_official
+importance: 3
+bio: 子产，姬姓，公孙氏，名侨，一字子美，郑穆公之孙。郑简公、定公时为执政卿。内政宽猛相济，作丘赋、铸刑书(前536)，将法律铸于鼎公之于众，为中国成文法之先。外御晋楚，周旋大国之间，保郑小国之安。孔子称其"惠人也"。
+life_events:
+- year: -543
+  event: 为郑执政卿
+  source: 左传·襄公三十年
+- year: -536
+  event: 铸刑书，公布成文法
+  source: 左传·昭公六年
+- year: -522
+  event: 卒，孔子涕之
+  source: 左传·昭公二十年
+sources:
+- 左传·昭公
+- 左传·襄公
+- 史记·郑世家
+ext:
+  disputed: true
+  note: 卒年确(前522,《左传》昭公二十年);生年系推估
+wikidata_id: "Q1184340"
+wikipedia_zh: "子产"
+image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Zi_Chan.jpg"
+image_license: "Public domain"
+image_credit: "《三才圖會》，王圻及王思義撰寫"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zi_Chan.jpg"

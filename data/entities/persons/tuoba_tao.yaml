@@ -1,0 +1,28 @@
+id: p_tuoba_tao
+type: Person
+name: 拓跋焘
+alias:
+- 北魏太武帝
+born:
+  year: 408
+died:
+  year: 452
+reign_start:
+  year: 423
+reign_end:
+  year: 452
+gender: male
+roles:
+- emperor
+importance: 2
+dynasty_ref: k_beiwei
+bio: 明元帝子。灭夏、北燕、北凉,439年统一北方,结束十六国。太平真君年间灭佛(三武灭佛之首)。452年为宦官宗爱所弑。
+ext:
+  title: 北魏太武帝
+  regime: 北魏
+sources:
+- 魏书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1194963"
+wikipedia_zh: "魏太武帝"

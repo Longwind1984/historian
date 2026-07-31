@@ -1,0 +1,23 @@
+id: k_xin
+type: Polity
+name: 新
+name_en: Xin
+color: '#34495e'
+founded:
+  year: 9
+ended:
+  year: 23
+capital: pl_chang_an_xin
+description: 王莽所建。改制失败,23 年为绿林军所灭。
+sources:
+- 汉书·王莽传
+founder: p_wang_mang
+supplanted: k_xihan
+ended_by: k_donghan
+territory:
+- valid_from:
+    year: 9
+  valid_to:
+    year: 23
+  geojson_file: chgis_xin.geojson
+  note: CHGIS V5 prefecture polygons

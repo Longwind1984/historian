@@ -1,0 +1,21 @@
+id: p_he_long
+type: Person
+name: 贺龙
+born:
+  year: 1896
+died:
+  year: 1969
+gender: male
+roles:
+- general
+importance: 2
+bio: 湖南桑植人。中华人民共和国元帅，南昌起义总指挥，中国人民解放军创建人之一，曾任国务院副总理、国家体委主任。文化大革命中受迫害，1969年逝世，后平反。
+sources:
+- 中华人民共和国史
+- 当代中国史
+wikidata_id: "Q700713"
+wikipedia_zh: "贺龙"
+image: "https://upload.wikimedia.org/wikipedia/commons/b/bf/He_Long.jpg"
+image_license: "Public domain"
+image_credit: "​《 解放军画报 》记者 林扬"
+image_source_page: "https://commons.wikimedia.org/wiki/File:He_Long.jpg"

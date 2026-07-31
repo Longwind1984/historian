@@ -1,0 +1,14 @@
+id: p_cbdb_1722
+type: Person
+name: 杜杞
+born:
+  year: 1005
+died:
+  year: 1050
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 1722
+name_en: Du Qi
+sources:
+- CBDB (China Biographical Database)

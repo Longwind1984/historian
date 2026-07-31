@@ -1,0 +1,17 @@
+id: e_sui_mo_qiyi
+type: Event
+name: 隋末农民起义
+date:
+  year: 611
+category: rebellion
+importance: 2
+location: pl_qinghua
+polities_involved:
+- k_sui
+description: 611 王薄在长白山(山东章丘)首义。613 杨玄感起兵。616 后翟让瓦岗军、窦建德、杜伏威等遍布山东、河北、河南、江淮。隋廷失控。618 隋亡。
+impact: 彻底摧毁隋朝,各路群雄演化为唐初群雄(李世民逐一平定)。
+sources:
+- 隋书·炀帝纪
+- 资治通鉴·卷181-189
+end_date:
+  year: 624

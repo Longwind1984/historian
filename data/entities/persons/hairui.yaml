@@ -1,0 +1,24 @@
+id: p_hairui
+type: Person
+name: 海瑞
+alias:
+- 海刚峰
+courtesy_name: 汝贤
+born:
+  year: 1514
+died:
+  year: 1587
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_qiongshan_hai
+bio: 明代清官。1566 上《治安疏》骂嘉靖,几乎处死。
+sources:
+- 明史·海瑞传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/%E6%B5%B7%E7%91%9E.jpg/500px-%E6%B5%B7%E7%91%9E.jpg"
+wikidata_id: "Q934891"
+wikipedia_zh: "海瑞"
+image_license: "Public domain"
+image_credit: "冷枚繪"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E7%91%9E.jpg"

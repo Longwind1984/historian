@@ -1,0 +1,27 @@
+id: p_tiemur
+type: Person
+name: 铁穆耳
+alias:
+- 元成宗
+- 完泽笃汗
+born:
+  year: 1265
+died:
+  year: 1307
+gender: male
+birthplace: pl_dadu_yuan
+bio: 忽必烈孙。守成之君,罢征日本安南,停止对外扩张,与西北诸王议和。晚年多病,皇后卜鲁罕预政。
+sources:
+- 元史·成宗本纪
+- 元史
+- 新元史
+reign_start:
+  year: 1294
+reign_end:
+  year: 1307
+roles:
+- emperor
+ext:
+  title: 元成宗
+  regime: 元
+importance: 3

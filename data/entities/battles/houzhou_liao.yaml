@@ -1,0 +1,28 @@
+id: b_houzhou_liao
+type: Battle
+name: 后周北伐辽
+date:
+  year: 959
+  month: 4
+importance: 2
+location: pl_youzhou
+combatants:
+- k_houzhou
+- k_liao
+commanders:
+- p_chairong
+victor: k_houzhou
+victor_commander: p_chairong
+description: 959 年柴荣亲征辽,水陆并进,在宁州、莫州、瀛州连胜,收复瀛、莫、易三州及瓦桥、益津、淤口三关。五月欲取幽州,中途病重班师,六月卒。
+significance: 几乎收复燕云十六州。世宗之死使北伐中止,是中国古代史一大转折。
+sources:
+- 资治通鉴·卷294
+- 旧五代史·周世宗纪
+end_date:
+  year: 959
+  month: 6
+category: war
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 周世宗亲征,取三关三州而崩,复燕之始

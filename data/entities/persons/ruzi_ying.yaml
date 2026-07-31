@@ -1,0 +1,27 @@
+id: p_ruzi_ying
+type: Person
+name: 刘婴
+alias:
+- 孺子婴
+born:
+  year: 5
+died:
+  year: 25
+reign_start:
+  year: 6
+reign_end:
+  year: 9
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 宣帝玄孙。平帝崩后王莽立为皇太子，称'孺子'，王莽居摄。公元9年王莽代汉，刘婴被废。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 孺子婴
+  regime: 西汉
+wikidata_id: "Q7247"
+wikipedia_zh: "孺子婴"

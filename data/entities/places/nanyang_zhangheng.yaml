@@ -1,0 +1,14 @@
+id: pl_nanyang_zhangheng
+type: Place
+name: 南阳西鄂
+modern_name: 南阳
+province: 河南
+latitude: 32.99
+longitude: 112.53
+category: city
+description: 张衡籍贯
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

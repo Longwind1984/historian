@@ -1,0 +1,12 @@
+id: pl_cbdb_100169
+type: Place
+name: 平晉
+modern_name: 平晉
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 37.83778
+longitude: 112.5187
+first_year: 979
+last_year: 1126
+description: CBDB 行政类型:Xian

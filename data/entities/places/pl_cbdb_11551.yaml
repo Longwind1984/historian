@@ -1,0 +1,12 @@
+id: pl_cbdb_11551
+type: Place
+name: 元城
+modern_name: 元城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.275528
+longitude: 115.146522
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

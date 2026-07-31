@@ -1,0 +1,12 @@
+id: pl_cbdb_18535
+type: Place
+name: 新喻州
+modern_name: 新喻州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 27.80408
+longitude: 114.9311
+first_year: 1280
+last_year: 1367
+description: CBDB 行政类型:Zhou

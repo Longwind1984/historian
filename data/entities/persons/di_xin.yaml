@@ -1,0 +1,39 @@
+id: p_di_xin
+type: Person
+name: 帝辛
+alias:
+- 纣
+- 商纣王
+- 受
+- 子受
+gender: male
+roles:
+- emperor
+importance: 1
+reign_end:
+  year: -1046
+bio: 商末王，名受，谥纣。才力过人，曾征东夷拓疆；然传统史载其宠妲己、造酒池肉林、设炮烙之刑，杀比干、囚文王。牧野之战(前1046)兵败自焚于鹿台，商亡。现代学界指出其暴君形象部分为周人及后世累积建构，当审辨。亡年据断代工程。
+life_events:
+- year: -1050
+  event: 囚周文王于羑里
+  source: 史记·周本纪
+- year: -1047
+  event: 剖比干之心
+  source: 史记·殷本纪
+- year: -1046
+  event: 牧野之战兵败，自焚鹿台，商亡
+  source: 史记·周本纪
+sources:
+- 史记·殷本纪
+- 尚书·牧誓
+- 竹书纪年·殷纪
+ext:
+  disputed: true
+  title: 商纣王
+  regime: 商
+wikidata_id: "Q470072"
+wikipedia_zh: "帝辛"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/eb/%E7%B5%B5%E6%9C%AC%E4%B8%89%E5%9B%BD%E5%A6%96%E5%A9%A6%E4%BC%9D_%E6%AE%B7%E7%B4%82%E7%8E%8B.jpg"
+image_license: "Public domain"
+image_credit: "高井 伴寛、蹄斎 北馬 (Hiroshi Takai, Hossai Hokuma)"
+image_source_page: "https://commons.wikimedia.org/wiki/File:%E7%B5%B5%E6%9C%AC%E4%B8%89%E5%9B%BD%E5%A6%96%E5%A9%A6%E4%BC%9D_%E6%AE%B7%E7%B4%82%E7%8E%8B.jpg"

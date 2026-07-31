@@ -1,0 +1,13 @@
+id: p_hou_jun_ji
+type: Person
+name: 侯君集
+died:
+  year: 643
+  month: 4
+gender: male
+birthplace: pl_sanyuan_jing
+bio: 唐初功臣。凌烟阁之一。640 灭高昌。643 因太子承乾案被诛。
+sources:
+- 旧唐书·侯君集传
+wikidata_id: "Q1038892"
+wikipedia_zh: "侯君集"

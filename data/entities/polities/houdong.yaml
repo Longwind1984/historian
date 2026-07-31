@@ -1,0 +1,25 @@
+id: k_houdong
+type: Polity
+name: 后唐
+name_en: Later Tang
+color: '#27ae60'
+founded:
+  year: 923
+  month: 4
+ended:
+  year: 936
+  month: 11
+capital: pl_luoyang
+description: 沙陀李存勖灭后梁所建,都洛阳。庄宗、明宗两朝强盛,末为石敬瑭借契丹兵所灭。三代四帝。
+sources:
+- 旧五代史·唐书
+- 新五代史·唐本纪
+- 资治通鉴·卷272-280
+founder: p_licunxu
+ended_by: k_houjin
+territory:
+- valid_from:
+    year: 923
+  valid_to:
+    year: 936
+  geojson_file: houdong_peak.geojson

@@ -1,0 +1,14 @@
+id: pl_longmen_simaqian
+type: Place
+name: 龙门
+modern_name: 韩城
+province: 陕西
+latitude: 35.47
+longitude: 110.43
+category: city
+description: 司马迁籍贯
+sources:
+- 史记
+- 汉书
+- 后汉书
+- 中国历史地图集

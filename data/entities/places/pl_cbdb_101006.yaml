@@ -1,0 +1,12 @@
+id: pl_cbdb_101006
+type: Place
+name: 隨州
+modern_name: 隨州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 31.715110779
+longitude: 113.36981964
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

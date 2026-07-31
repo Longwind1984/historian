@@ -1,0 +1,12 @@
+id: pl_cbdb_15782
+type: Place
+name: 睦州
+modern_name: 睦州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.544481
+longitude: 119.498856
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,18 @@
+id: p_qian_xuesen
+name: 钱学森
+type: Person
+born: {year: 1911}
+died: {year: 2009}
+roles:
+  - scholar
+importance: 1
+bio: 浙江杭州人。空气动力学家,中国航天事业奠基人之一,'两弹一星'元勋。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q333500"
+wikipedia_zh: "钱学森"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tsien_Hsue-shen.jpg/500px-Tsien_Hsue-shen.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tsien_Hsue-shen.jpg"

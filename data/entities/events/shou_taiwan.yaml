@@ -1,0 +1,14 @@
+id: e_shou_taiwan
+type: Event
+name: 收复台湾
+date:
+  year: 1683
+category: territory
+importance: 2
+location: pl_taiwan_qing
+polities_involved:
+- k_qing
+description: 1683 施琅率福建水师克澎湖,郑克塽降。清朝收台湾,设台湾府。
+impact: 清朝版图扩展。
+sources:
+- 清史稿·圣祖本纪

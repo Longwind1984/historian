@@ -1,0 +1,12 @@
+id: pl_cbdb_14490
+type: Place
+name: 京兆府
+modern_name: 京兆府
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.24642
+longitude: 108.907
+first_year: 713
+last_year: 959
+description: CBDB 行政类型:Fu

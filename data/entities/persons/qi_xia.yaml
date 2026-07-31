@@ -1,0 +1,22 @@
+id: p_qi_xia
+type: Person
+name: 启
+alias:
+- 夏启
+- 姒启
+gender: male
+roles:
+- emperor
+- imperial_kin
+importance: 2
+reign_start:
+  year: -2060
+bio: 禹之子，姒姓。禹原定益继位，启(一说)因部落拥戴得位，遂废禅让行世袭，开"家天下"之端；甘之战灭有扈氏，巩固世袭。半信史人物，年代模糊。
+sources:
+- 史记·夏本纪
+- 竹书纪年·夏纪
+- 尚书·甘誓
+ext:
+  disputed: true
+  title: 启
+  regime: 夏

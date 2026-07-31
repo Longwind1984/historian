@@ -1,0 +1,26 @@
+id: p_weizheng
+type: Person
+name: 魏征
+alias:
+- 魏玄成
+courtesy_name: 玄成
+born:
+  year: 580
+died:
+  year: 643
+  month: 2
+gender: male
+roles:
+- civil_official
+importance: 1
+birthplace: pl_jinzhao_weizheng
+bio: 唐初名臣。先仕李密、窦建德,后归唐。太宗朝为谏议大夫,以直言著称。'贞观之治'重要推手。太宗谓'以铜为镜...'。
+sources:
+- 旧唐书·魏征传
+- 贞观政要
+wikidata_id: "Q378356"
+wikipedia_zh: "魏徵"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WeiZheng.jpg/500px-WeiZheng.jpg"
+image_license: "CC BY 2.5"
+image_credit: "Taken by Fanghong"
+image_source_page: "https://commons.wikimedia.org/wiki/File:WeiZheng.jpg"

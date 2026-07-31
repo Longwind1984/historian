@@ -1,0 +1,37 @@
+id: p_liu_yu
+type: Person
+name: 刘裕
+alias:
+- 刘德舆
+- 宋武帝
+- 刘寄奴
+courtesy_name: 德舆
+born:
+  year: 363
+died:
+  year: 422
+  month: 6
+reign_start:
+  year: 420
+reign_end:
+  year: 422
+gender: male
+roles:
+- emperor
+- general
+importance: 2
+birthplace: pl_pengcheng_han
+bio: 南朝宋建立者。彭城人,生于京口。北府兵出身。402 破桓玄。409-410 灭南燕。417 灭后秦,收复洛阳、长安。420 代晋建宋。'气吞万里如虎'。
+ext:
+  significance: 南朝最杰出的君主。
+  title: 刘裕
+  regime: 刘宋
+sources:
+- 宋书·武帝纪
+- 资治通鉴·卷113-119
+wikidata_id: "Q49699"
+wikipedia_zh: "宋武帝"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Liu_Yu_%28Song_Wudi%29.jpg/500px-Liu_Yu_%28Song_Wudi%29.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Liu_Yu_(Song_Wudi).jpg"

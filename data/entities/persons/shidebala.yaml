@@ -1,0 +1,26 @@
+id: p_shidebala
+type: Person
+name: 硕德八剌
+alias:
+- 元英宗
+- 格坚汗
+born:
+  year: 1303
+died:
+  year: 1323
+reign_start:
+  year: 1320
+reign_end:
+  year: 1323
+gender: male
+roles:
+- emperor
+importance: 3
+dynasty_ref: k_yuan
+bio: 仁宗子。用拜住行新政、颁《大元通制》。1323年南坡之变为铁失等所弑。
+ext:
+  title: 元英宗
+  regime: 元
+sources:
+- 元史
+- 新元史

@@ -1,0 +1,17 @@
+id: e_zhang_qian_xiyu
+type: Event
+name: 张骞通西域
+date:
+  year: -138
+category: diplomacy
+importance: 2
+location: pl_hexi_corridor
+polities_involved:
+- k_xihan
+description: BC138 张骞首次出使大月氏,BC126 还。BC119 二次出使乌孙。'凿空'西域。丝绸之路开启。
+impact: 东西方文明交流的开端。
+sources:
+- 史记·大宛列传
+- 资治通鉴·卷18
+end_date:
+  year: -115

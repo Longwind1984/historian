@@ -1,0 +1,12 @@
+id: pl_cbdb_400514
+type: Place
+name: 平陵
+modern_name: 平陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.37203
+longitude: 108.52646
+first_year: 713
+last_year: 959
+description: CBDB 行政类型:Xian

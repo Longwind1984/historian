@@ -1,0 +1,18 @@
+id: f_yangwu_group
+type: Faction
+name: 杨吴集团
+nature: military_clan
+founded:
+  year: 880
+dissolved:
+  year: 937
+core_region: pl_jianghuai
+description: 杨行密奠基的江淮军政集团。以庐州系武人+扬州文官为核心,平定孙儒、田頵等势力,统领淮南、江西。后由徐温、徐知诰(李昪)接掌,转化为南唐。
+significance: 杨吴-南唐政权的政权基础,五代南方最大势力之一。
+peak_period: 唐末-杨吴
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

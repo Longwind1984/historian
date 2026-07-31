@@ -1,0 +1,14 @@
+id: p_cbdb_984
+type: Person
+name: 李崇矩
+born:
+  year: 924
+died:
+  year: 988
+gender: male
+birthplace: pl_cbdb_100658
+dynasty_ref: k_beisong
+bio: CBDB ID 984
+name_en: Li Chongju
+sources:
+- CBDB (China Biographical Database)

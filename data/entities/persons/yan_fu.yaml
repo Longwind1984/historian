@@ -1,0 +1,25 @@
+id: p_yan_fu
+type: Person
+name: 严复
+alias:
+- 严几道
+courtesy_name: 几道
+born:
+  year: 1854
+died:
+  year: 1921
+gender: male
+roles:
+- scholar
+- literatus
+importance: 2
+bio: 福建侯官(今福州)人，近代思想家、翻译家。福州船政学堂、英国格林威治皇家海军学院毕业。北洋水师学堂总教习、总办。1895 年甲午战败后译赫胥黎《天演论》，以"物竞天择，适者生存"警醒国人，并倡"信、达、雅"译事标准。后译《原富》《群学肄言》《法意》等，系统引入西方近代社会科学。1912 年任北京大学首任校长。晚年倾向保守。1921 年病逝于福州。
+sources:
+- 中华民国史·严复传
+- 王栻·严复传
+wikidata_id: "Q559957"
+wikipedia_zh: "嚴復"
+image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Yan_fu.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Yan_fu.jpg"

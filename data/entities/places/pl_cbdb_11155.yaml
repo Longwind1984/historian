@@ -1,0 +1,12 @@
+id: pl_cbdb_11155
+type: Place
+name: 莒縣
+modern_name: 莒縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 35.581886
+longitude: 118.834419
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

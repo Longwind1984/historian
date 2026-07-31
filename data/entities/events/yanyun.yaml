@@ -1,0 +1,21 @@
+id: e_yanyun
+type: Event
+name: 割燕云十六州
+date:
+  year: 936
+  month: 11
+category: territory
+importance: 1
+location: pl_youzhou
+polities_involved:
+- k_houjin
+- k_liao
+description: 936 年石敬瑭割让燕云十六州(幽、蓟、瀛、莫、涿、檀、顺、新、妫、儒、武、云、应、寰、朔、蔚)予契丹。中原北方屏障尽失,直到明初(1368)才由徐达、常遇春收复。
+impact: 中国古代史最大地缘事件之一,影响 400 余年。
+sources:
+- 资治通鉴·卷280
+- 辽史·地理志
+ext:
+  threads:
+  - name: 燕云十六州
+    role: 十六州入契丹,中原失长城之险

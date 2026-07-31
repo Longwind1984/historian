@@ -1,0 +1,18 @@
+id: f_khitan
+type: Faction
+name: 契丹(辽)势力
+nature: ethnic
+founded:
+  year: 900
+dissolved:
+  year: 979
+core_region: pl_liaoshangjing
+description: 耶律阿保机统一的草原帝国,深度介入中原事务。947 年灭后晋,长期占有燕云十六州。
+significance: 10 世纪中国北方最大的外部势力,与五代政权深度纠缠。
+peak_period: 五代全期
+sources:
+- 陈寅恪·唐代政治史述论稿
+- 新五代史
+- 旧五代史
+- 谷川道雄·隋唐帝国形成史论
+- 毛汉光·中国中古政治史论

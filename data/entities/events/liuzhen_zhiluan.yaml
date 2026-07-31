@@ -1,0 +1,17 @@
+id: e_liuzhen_zhiluan
+type: Event
+name: 六镇之乱
+date:
+  year: 523
+category: rebellion
+importance: 2
+location: pl_wuchuan_6zhen
+polities_involved:
+- k_beiwei
+description: 523-525 年北魏北方六镇(沃野、怀朔、武川、抚冥、柔玄、怀荒)军户起义。被尔朱荣镇压。但六镇武人集团从此走上政治舞台。
+impact: 孕育了关陇集团(宇文泰)和高欢集团,直接导致北魏分裂。
+sources:
+- 魏书·肃宗纪
+- 北史·魏本纪
+end_date:
+  year: 525

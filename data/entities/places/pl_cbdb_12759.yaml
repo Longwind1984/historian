@@ -1,0 +1,12 @@
+id: pl_cbdb_12759
+type: Place
+name: 嵊縣
+modern_name: 嵊縣
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.58749
+longitude: 120.815277
+first_year: 1121
+last_year: 1279
+description: CBDB 行政类型:Xian

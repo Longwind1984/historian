@@ -1,0 +1,27 @@
+id: p_yuwen_chan
+type: Person
+name: 宇文阐
+alias:
+- 北周静帝
+born:
+  year: 573
+died:
+  year: 581
+reign_start:
+  year: 579
+reign_end:
+  year: 581
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 宣帝子,七岁即位,杨坚辅政。581年禅位于杨坚,北周亡,旋被害。
+ext:
+  title: 北周静帝
+  regime: 北周
+sources:
+- 周书
+- 北史
+- 资治通鉴
+wikidata_id: "Q1149124"
+wikipedia_zh: "周静帝"

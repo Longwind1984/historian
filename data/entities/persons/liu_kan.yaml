@@ -1,0 +1,28 @@
+id: p_liu_kan
+type: Person
+name: 刘衎
+alias:
+- 汉平帝
+- 平帝
+born:
+  year: -9
+died:
+  year: 6
+reign_start:
+  year: -1
+reign_end:
+  year: 6
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 元帝孙，九岁即位，王莽秉政。公元6年崩，年十四，一说为王莽所鸩。
+sources:
+- 汉书
+- 史记
+- 资治通鉴
+ext:
+  title: 汉平帝
+  regime: 西汉
+wikidata_id: "Q7244"
+wikipedia_zh: "汉平帝"

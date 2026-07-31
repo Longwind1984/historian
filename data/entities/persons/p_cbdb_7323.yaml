@@ -1,0 +1,14 @@
+id: p_cbdb_7323
+type: Person
+name: 沈周
+born:
+  year: 978
+died:
+  year: 1051
+gender: male
+birthplace: pl_cbdb_12672
+dynasty_ref: k_beisong
+bio: CBDB ID 7323
+name_en: Shen Zhou
+sources:
+- CBDB (China Biographical Database)

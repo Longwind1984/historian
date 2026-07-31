@@ -1,0 +1,26 @@
+id: p_fuhao
+type: Person
+name: 妇好
+gender: female
+floruit_start:
+  year: -1250
+floruit_end:
+  year: -1192
+roles:
+- consort
+- general
+importance: 2
+bio: 商王武丁之后，子姓。甲骨卜辞记载其多次受命统兵征伐土方、羌方、巴方等，一次用兵达一万三千人，为已知中国最早见诸记载的女将。1976年殷墟妇好墓出土大量青铜礼器与玉器(含"妇好"铭文)，印证其存在与地位。生平属武丁时期(约前13世纪)，其存在有甲骨文与考古实物双重佐证，惟绝对年代模糊。
+sources:
+- 甲骨文·殷卜辞
+- 殷墟妇好墓·考古报告
+- 史记·殷本纪
+ext:
+  disputed: true
+  note: 武丁之后。年代随武丁在位(断代工程框架前1250-前1192);卜辞不记生卒
+wikidata_id: "Q270018"
+wikipedia_zh: "妇好"
+image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Fu_Hao.jpg"
+image_license: "CC BY 2.5"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Fu_Hao.jpg"

@@ -1,0 +1,17 @@
+id: e_jingnan_peace
+type: Event
+name: 吴越纳土归宋
+date:
+  year: 978
+  month: 5
+category: territory
+importance: 2
+location: pl_hangzhou
+polities_involved:
+- k_wuyue
+- k_song
+description: 978 年吴越国王钱弘俶献两浙十三州一军八十六县于宋,和平归附。避免一场大战。
+impact: 中国和平统一的早期范例。
+sources:
+- 续资治通鉴长编·卷19
+- 宋史·吴越钱氏

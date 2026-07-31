@@ -1,0 +1,19 @@
+id: k_shang
+type: Polity
+name: 商
+name_en: Shang
+color: '#c0392b'
+founded:
+  year: -1600
+ended:
+  year: -1046
+founder: p_shangtang
+capital: pl_yin
+ended_by: k_xizhou
+description: 商政权，亦称殷商。约前1600年汤灭夏建国，初都亳，屡迁；盘庚迁殷后定都殷(今安阳)，甲骨文可证。传至帝辛，牧野之战败于周而亡。年代据断代工程框架。
+sources:
+- 史记·殷本纪
+- 竹书纪年·殷纪
+- 夏商周断代工程·阶段成果报告
+ext:
+  disputed: true

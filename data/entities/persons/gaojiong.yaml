@@ -1,0 +1,17 @@
+id: p_gaojiong
+type: Person
+name: 高颎
+alias:
+- 高昭玄
+courtesy_name: 昭玄
+born:
+  year: 541
+died:
+  year: 607
+gender: male
+birthplace: pl_daxing
+bio: 隋朝开国首席谋臣。渤海蓨县人。助杨坚代周、平尉迟迥、灭陈。'仆射二十年'。炀帝即位后被杀。
+sources:
+- 隋书·高颎传
+wikidata_id: "Q711652"
+wikipedia_zh: "高熲"

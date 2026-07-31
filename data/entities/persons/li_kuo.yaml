@@ -1,0 +1,32 @@
+id: p_li_kuo
+type: Person
+name: 李适
+alias:
+- 唐德宗
+- 德宗
+born:
+  year: 742
+died:
+  year: 805
+reign_start:
+  year: 779
+reign_end:
+  year: 805
+gender: male
+roles:
+- emperor
+importance: 3
+bio: 代宗子。行两税法（杨炎），改租庸调为按资产征税；削藩引发泾原兵变、出奔奉天，此后姑息藩镇、信用宦官掌神策军。
+sources:
+- 旧唐书
+- 新唐书
+- 资治通鉴
+ext:
+  title: 唐德宗
+  regime: 唐
+wikidata_id: "Q9755"
+wikipedia_zh: "唐德宗"
+image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Tang_Dezong.jpg"
+image_license: "Public domain"
+image_credit: "Anonymous Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Tang_Dezong.jpg"

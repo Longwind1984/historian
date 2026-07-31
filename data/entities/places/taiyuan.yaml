@@ -1,0 +1,17 @@
+id: pl_taiyuan
+type: Place
+name: 晋阳
+modern_name: 太原
+province: 山西
+latitude: 37.77
+longitude: 112.55
+category: capital
+description: 李克用/李存勖基地,北汉都城
+aliases:
+- 太原府
+- 北都
+- 北京
+sources:
+- 旧五代史·郡县志
+- 新五代史·职方考
+- 中国历史地图集·隋唐五代十国

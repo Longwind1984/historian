@@ -1,0 +1,12 @@
+id: pl_cbdb_11175
+type: Place
+name: 膠水
+modern_name: 膠水
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 36.788235
+longitude: 119.94828
+first_year: 960
+last_year: 1126
+description: CBDB 行政类型:Xian

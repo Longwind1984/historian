@@ -1,0 +1,21 @@
+id: p_ma_chao
+type: Person
+name: 马超
+alias:
+- 马孟起
+courtesy_name: 孟起
+born:
+  year: 176
+died:
+  year: 222
+gender: male
+birthplace: pl_maying_machao
+bio: 蜀汉骁将。扶风茂陵人。父马腾。凉州军阀。215 投刘备。
+sources:
+- 三国志·蜀书·马超传
+wikidata_id: "Q468743"
+wikipedia_zh: "马超"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/dd/MaChao.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:MaChao.jpg"

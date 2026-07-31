@@ -1,0 +1,12 @@
+id: pl_cbdb_101191
+type: Place
+name: 江州
+modern_name: 江州
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 29.722364426
+longitude: 115.98567963
+first_year: 960
+last_year: 1279
+description: CBDB 行政类型:Zhou

@@ -1,0 +1,20 @@
+id: p_lujiuyuan
+type: Person
+name: 陆九渊
+courtesy_name: 子静
+born:
+  year: 1139
+died:
+  year: 1193
+  month: 1
+gender: male
+birthplace: pl_jinxi_fuzhou
+bio: 南宋心学开创者。提出'心即理'。1175 鹅湖之会与朱熹辩论(朱陆之辩)。
+sources:
+- 宋史·陆九渊传
+wikidata_id: "Q2466384"
+wikipedia_zh: "陸九淵"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chiu_Yuan.jpg/500px-Chiu_Yuan.jpg"
+image_license: "Public domain"
+image_credit: ""
+image_source_page: "https://commons.wikimedia.org/wiki/File:Chiu_Yuan.jpg"

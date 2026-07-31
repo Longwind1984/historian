@@ -1,0 +1,21 @@
+id: p_li_zongren
+type: Person
+name: 李宗仁
+alias:
+- 李德邻
+courtesy_name: 德邻
+born:
+  year: 1891
+died:
+  year: 1969
+gender: male
+roles:
+- general
+- civil_official
+importance: 2
+bio: 广西临桂(今属桂林)人，桂系首领。广西陆军速成学堂毕业。1920 年代统一广西，与白崇禧、黄绍竑并称新桂系三巨头。北伐时任国民革命军第七军军长。抗战时期任第五战区司令长官，1938 年指挥台儿庄战役。1948 年当选副总统，1949 年蒋介石下野后代行总统职权。同年赴美，1965 年回到中国大陆，1969 年病逝于北京。
+sources:
+- 中华民国史·李宗仁传
+- 唐德刚·李宗仁回忆录
+wikidata_id: "Q20297"
+wikipedia_zh: "李宗仁"

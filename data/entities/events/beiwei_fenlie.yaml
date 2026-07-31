@@ -1,0 +1,17 @@
+id: e_beiwei_fenlie
+type: Event
+name: 北魏分裂
+date:
+  year: 534
+category: conquest
+importance: 2
+location: pl_yedu
+polities_involved:
+- k_beiwei
+- k_dong_wei
+- k_xi_wei
+description: 534 年高欢拥立孝静帝迁都邺,东魏;宇文泰拥立文帝都长安,西魏。北魏分裂。
+impact: 北朝进入东西对立,演化为北齐(高欢子)vs 北周(宇文泰子)。
+sources:
+- 魏书·孝静纪
+- 周书·文帝纪

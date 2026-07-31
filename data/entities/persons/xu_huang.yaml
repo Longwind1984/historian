@@ -1,0 +1,19 @@
+id: p_xu_huang
+type: Person
+name: 徐晃
+alias:
+- 徐公明
+courtesy_name: 公明
+died:
+  year: 227
+gender: male
+birthplace: pl_yangping_xuhuang
+bio: 曹魏骁将。219 破关羽于樊城。
+sources:
+- 三国志·魏书·徐晃传
+wikidata_id: "Q468763"
+wikipedia_zh: "徐晃"
+image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Xu_Huang_Portrait.jpg"
+image_license: "Public domain"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Xu_Huang_Portrait.jpg"

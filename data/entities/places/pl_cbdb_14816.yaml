@@ -1,0 +1,12 @@
+id: pl_cbdb_14816
+type: Place
+name: 彭城
+modern_name: 彭城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 34.269634
+longitude: 117.187683
+first_year: 621
+last_year: 959
+description: CBDB 行政类型:Xian

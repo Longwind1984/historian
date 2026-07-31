@@ -1,0 +1,25 @@
+id: p_zuozongtang
+type: Person
+name: 左宗棠
+alias:
+- 左季高
+courtesy_name: 季高
+born:
+  year: 1812
+died:
+  year: 1885
+gender: male
+roles:
+- general
+- civil_official
+importance: 1
+birthplace: pl_xiangyin_zuo
+bio: 晚清名将。1876-1878 收复新疆。
+sources:
+- 清史稿·左宗棠传
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Zuo_Zongtang_1875.jpg/500px-Zuo_Zongtang_1875.jpg"
+wikidata_id: "Q230200"
+wikipedia_zh: "左宗棠"
+image_license: "Public domain"
+image_credit: "Boiarskii, Adolf-Nikolay Erazmovich"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Zuo_Zongtang_1875.jpg"

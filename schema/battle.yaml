@@ -1,0 +1,102 @@
+type: Battle
+label: 战役
+label_en: Battle
+icon: ⚔️
+color: '#e67e22'
+description: 战役/会战
+fields:
+  name:
+    type: string
+    required: true
+    label: 名称
+  date:
+    type: year_month
+    label: 时间
+  end_date:
+    type: year_month
+    optional: true
+    label: 结束时间
+  category:
+    type: enum
+    # 与 event.yaml 的军事族同枚举:Battle 实体与 category=battle 的 Event 在轴上
+    # 共用一套族色/字形,此处让二者的语义也对齐(否则 41 个 Battle 实体全被当成单次战役)。
+    # battle 战役(单次) / war 战争(跨年多役) / conquest 灭国·分合 / rebellion 民变·起义
+    options:
+    - battle
+    - war
+    - conquest
+    - rebellion
+    label: 类别
+  march:
+    type: array
+    optional: true
+    label: 进军
+    description: |
+      行军路线，逐段记 from→to（皆为 Place ref），供地图画箭头。
+      只填史载明确的起讫；无可考起讫者留空 —— 没有数据而画箭头即是编造方向。
+      一场战役可有多段（如明北伐先定山东、继下潼关、再克大都），亦可多方各有其箭头。
+      字段：from(Place) / to(Place) / side(Polity，可选，用于着色) / note(一句所据)
+    items:
+      type: object
+  location:
+    type: ref
+    to: Place
+    label: 地点
+  combatants:
+    type: array
+    items:
+      type: ref
+      to: Polity
+    label: 参战方
+  commanders:
+    type: array
+    items:
+      type: ref
+      to: Person
+    label: 主帅
+  victor:
+    type: ref
+    to: Polity
+    optional: true
+    label: 胜方
+  victor_commander:
+    type: ref
+    to: Person
+    optional: true
+    label: 胜方主将
+  strength:
+    type: string
+    optional: true
+    label: 兵力
+  casualties:
+    type: string
+    optional: true
+    label: 伤亡
+  importance:
+    type: int
+    label: 重要性
+    description: 1=核心 2=重要 3=一般（未标注视为 3）。判据同 schema/event.yaml。
+  description:
+    type: text
+    required: true
+    label: 经过
+  significance:
+    type: text
+    optional: true
+    label: 历史意义
+  sources:
+    type: array
+    items: string
+    label: 史料出处
+  image:
+    type: url
+    optional: true
+    label: 配图
+ext: allow
+relations:
+  outgoing:
+  - part_of
+  incoming:
+  - led
+  - fought_in
+  - took_place_at

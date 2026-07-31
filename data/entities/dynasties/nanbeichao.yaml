@@ -1,0 +1,18 @@
+id: d_nanbeichao
+type: Dynasty
+name: 南北朝
+name_en: Southern and Northern Dynasties
+founded:
+  year: 420
+  month: 6
+ended:
+  year: 589
+  month: 1
+description: 南北朝。420年刘裕代晋建宋,南朝始(宋齐梁陈,都建康);北朝自386年北魏统一北方,后分裂东魏西魏、继之北齐北周。589年隋灭陈,南北一统。南北对峙近一百七十年,民族融合与佛教鼎盛。南北多都,故 last_capital 留空。
+period_label: 南北朝
+sources:
+- 宋书
+- 南史
+- 北史
+- 资治通鉴
+founder: p_liu_yu

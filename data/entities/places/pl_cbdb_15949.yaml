@@ -1,0 +1,12 @@
+id: pl_cbdb_15949
+type: Place
+name: 宣城
+modern_name: 宣城
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 30.946941
+longitude: 118.7425
+first_year: 741
+last_year: 959
+description: CBDB 行政类型:Xian

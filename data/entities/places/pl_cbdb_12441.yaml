@@ -1,0 +1,12 @@
+id: pl_cbdb_12441
+type: Place
+name: 廣陵
+modern_name: 廣陵
+category: city
+sources:
+- CBDB ADDR_CODES
+latitude: 32.39127
+longitude: 119.437187
+first_year: 960
+last_year: 1071
+description: CBDB 行政类型:Xian

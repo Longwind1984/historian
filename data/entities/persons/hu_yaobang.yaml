@@ -1,0 +1,18 @@
+id: p_hu_yaobang
+name: 胡耀邦
+type: Person
+born: {year: 1915}
+died: {year: 1989}
+roles:
+  - civil_official
+importance: 2
+bio: 湖南浏阳人。1980年2月起任中共中央总书记(时党设主席)，1981年6月至1982年9月任中共中央主席，1982年9月十二大撤销主席制后至1987年1月任总书记。1989年病逝。
+sources:
+  - 中华人民共和国史
+  - 当代中国史
+wikidata_id: "Q99850"
+wikipedia_zh: "胡耀邦"
+image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hu_Yaobang_%28cropped%29.jpg"
+image_license: "CC BY-SA 4.0"
+image_credit: "Unknown author"
+image_source_page: "https://commons.wikimedia.org/wiki/File:Hu_Yaobang_(cropped).jpg"

@@ -51,3 +51,11 @@ test-results/
 .tef_dist/
 edgeone-dist/
 edgeone-dist-safe/
+
+# Secrets, local DBs, and raw PDFs/OCR dumps
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.pdf

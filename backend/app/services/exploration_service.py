@@ -1,8 +1,8 @@
-"""Process-local exploration parsing and mutation service.
+"""Private exploration parsing plus the durable compatibility service.
 
-Private source bytes and parsed paragraphs live only in this bounded in-memory
-store. Nothing here writes imported material to the repository, a database, or
-logs. EPUBs are treated as untrusted ZIP containers and are never extracted.
+EPUBs are parsed as untrusted ZIP containers and are never extracted. Original
+source bytes and complete parser snapshots are persisted only in the private
+vault; SQLite carries redacted control metadata and workflow state.
 """
 from __future__ import annotations
 
@@ -13,9 +13,12 @@ from datetime import datetime, timezone
 import hashlib
 from html.parser import HTMLParser
 import io
+import json
 from pathlib import PurePosixPath
 import posixpath
 import re
+from pathlib import Path
+import tempfile
 import threading
 import time
 from urllib.parse import unquote, urlsplit
@@ -23,8 +26,25 @@ from uuid import uuid4
 import xml.etree.ElementTree as ElementTree
 import zipfile
 
+from ..core.config import settings
+from ..exploration.control_plane import (
+    AnalysisReviewRequest,
+    AnalysisRunResult,
+    ExplorationControlPlane,
+    SnapshotRevisionConflict,
+)
+from ..exploration.model_gateway import (
+    ModelGateway,
+    build_configured_model_gateway,
+)
+from ..exploration.storage import (
+    ExplorationRepository,
+    WorkspaceNotFound,
+)
 from ..prompts.book_argument_graph import build_book_argument_prompt_contract
 from ..schemas.exploration import (
+    AnalysisRunList,
+    AnalysisRunStatus,
     AnalysisQueueItem,
     Claim,
     ComposeRequest,
@@ -42,7 +62,11 @@ from ..schemas.exploration import (
     ExternalReadingBridge,
     ImportExplorationRequest,
     MapState,
+    OcrState,
     ParagraphAnchor,
+    PdfOcrMetadata,
+    PdfOcrPageInput,
+    PdfOcrPageMetadata,
     PrivateDocument,
     PromptExplorationRequest,
     ReadingProgress,
@@ -79,6 +103,7 @@ MAX_EPUB_MARKUP_BYTES = 4 * 1024 * 1024
 MAX_EPUB_SPINE_ITEMS = 2_000
 MAX_EPUB_TEXT_CHARS = 1_500_000
 DEFAULT_MAX_TOTAL_SOURCE_CHARS = 8_000_000
+MAX_PARAGRAPH_ANCHOR_CHARS = 12_000
 _ALLOWED_ZIP_COMPRESSION = {zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED}
 _XML_FORBIDDEN_MARKERS = (b"<!doctype", b"<!entity")
 _EPUB_DOCUMENT_MEDIA_TYPES = {"application/xhtml+xml", "text/html"}
@@ -136,6 +161,29 @@ def _progression(global_ordinal: int, paragraph_count: int) -> float:
     return round((global_ordinal / (paragraph_count - 1)) * 100, 4)
 
 
+def _chunk_readable_text(text: str) -> list[str]:
+    """Bound one source anchor without losing or inventing source characters."""
+
+    remaining = text.strip()
+    chunks: list[str] = []
+    while len(remaining) > MAX_PARAGRAPH_ANCHOR_CHARS:
+        window = remaining[:MAX_PARAGRAPH_ANCHOR_CHARS]
+        minimum = int(MAX_PARAGRAPH_ANCHOR_CHARS * 0.65)
+        cut = max(
+            (
+                window.rfind(marker, minimum) + len(marker)
+                for marker in ("。", "！", "？", "；", "\n")
+                if window.rfind(marker, minimum) >= minimum
+            ),
+            default=MAX_PARAGRAPH_ANCHOR_CHARS,
+        )
+        chunks.append(remaining[:cut].strip())
+        remaining = remaining[cut:].strip()
+    if remaining:
+        chunks.append(remaining)
+    return chunks
+
+
 def _build_section(
     title: str,
     level: int,
@@ -144,7 +192,12 @@ def _build_section(
     source_format: SourceFormat,
 ) -> DocumentSection | None:
     paragraphs = []
-    for paragraph_ordinal, paragraph_text in enumerate(paragraph_texts):
+    bounded_paragraphs = [
+        chunk
+        for paragraph_text in paragraph_texts
+        for chunk in _chunk_readable_text(paragraph_text)
+    ]
+    for paragraph_ordinal, paragraph_text in enumerate(bounded_paragraphs):
         cleaned = paragraph_text.strip()
         if not cleaned:
             continue
@@ -247,8 +300,11 @@ def _parse_sections(
 
 
 def _parse_text_document(request: ImportExplorationRequest) -> PrivateDocument:
-    if request.source_format == SourceFormat.EPUB:
-        raise InvalidPrivateText("Use the EPUB import endpoint for EPUB bytes")
+    if request.source_format in {SourceFormat.EPUB, SourceFormat.PDF_OCR}:
+        raise InvalidPrivateText(
+            "Use the format-specific import contract for binary-derived sources"
+        )
+    assert request.content is not None
     content = _normalise_content(request.content)
     if not content:
         raise InvalidPrivateText("Imported private text has no readable content")
@@ -273,6 +329,126 @@ def _parse_text_document(request: ImportExplorationRequest) -> PrivateDocument:
         section_count=len(sections),
         paragraph_count=paragraph_count,
         sections=sections,
+    )
+
+
+def _pdf_ocr_source_bytes(request: ImportExplorationRequest) -> bytes:
+    """Canonical private OCR payload; contains no local or image path."""
+
+    assert request.source_format is SourceFormat.PDF_OCR
+    assert request.pdf_checksum_sha256 is not None
+    assert request.pdf_pages is not None
+    ordered_pages = sorted(request.pdf_pages, key=lambda page: page.pdf_page_index)
+    canonical_pages = []
+    for page in ordered_pages:
+        payload = page.model_dump(mode="json")
+        payload["content"] = _normalise_content(page.content)
+        canonical_pages.append(payload)
+    payload = {
+        "contract": "pdf_ocr_source.v1",
+        "pdf_checksum_sha256": request.pdf_checksum_sha256,
+        "pages": canonical_pages,
+    }
+    return json.dumps(
+        payload, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+    ).encode("utf-8")
+
+
+def _parse_pdf_ocr_document(request: ImportExplorationRequest) -> PrivateDocument:
+    if request.source_format is not SourceFormat.PDF_OCR:
+        raise InvalidPrivateText("PDF/OCR parser requires source_format=pdf_ocr")
+    assert request.pdf_checksum_sha256 is not None
+    assert request.pdf_pages is not None
+
+    ordered_pages = sorted(request.pdf_pages, key=lambda page: page.pdf_page_index)
+    page_paragraphs: list[tuple[PdfOcrPageInput, list[str]]] = []
+    for page in ordered_pages:
+        normalised = _normalise_content(page.content)
+        paragraphs = [
+            chunk
+            for raw in re.split(r"\n\s*\n", normalised)
+            if raw.strip()
+            for chunk in _chunk_readable_text(raw)
+        ]
+        page_paragraphs.append((page, paragraphs))
+
+    paragraph_count = sum(len(paragraphs) for _, paragraphs in page_paragraphs)
+    if not paragraph_count:
+        raise InvalidPrivateText("PDF/OCR import has no readable OCR paragraphs")
+
+    sections: list[DocumentSection] = []
+    page_metadata: list[PdfOcrPageMetadata] = []
+    global_ordinal = 0
+    character_count = 0
+    for page, bounded_paragraphs in page_paragraphs:
+        section_ordinal = len(sections)
+        section_id = f"section_{section_ordinal}"
+        anchors: list[ParagraphAnchor] = []
+        for paragraph_ordinal, text in enumerate(bounded_paragraphs):
+            character_count += len(text)
+            anchor = ParagraphAnchor(
+                id=_anchor_id(section_ordinal, paragraph_ordinal, text),
+                section_id=section_id,
+                ordinal=paragraph_ordinal,
+                text=text,
+                locator=DocumentLocator(
+                    source_format=SourceFormat.PDF_OCR,
+                    section_index=section_ordinal,
+                    paragraph_index=paragraph_ordinal,
+                    pdf_page_index=page.pdf_page_index,
+                    printed_page_label=page.printed_page_label,
+                    ocr_state=page.ocr_state,
+                    ocr_confidence=page.ocr_confidence,
+                    progression_percent=_progression(
+                        global_ordinal, paragraph_count
+                    ),
+                ),
+            )
+            anchors.append(anchor)
+            global_ordinal += 1
+
+        if anchors:
+            page_title = (
+                f"PDF {page.printed_page_label}"
+                if page.printed_page_label
+                else f"PDF 第 {page.pdf_page_index + 1} 页"
+            )
+            sections.append(
+                DocumentSection(
+                    id=section_id,
+                    title=page_title,
+                    level=0,
+                    ordinal=section_ordinal,
+                    paragraphs=anchors,
+                )
+            )
+        page_metadata.append(
+            PdfOcrPageMetadata(
+                pdf_page_index=page.pdf_page_index,
+                printed_page_label=page.printed_page_label,
+                ocr_state=page.ocr_state,
+                ocr_confidence=page.ocr_confidence,
+                paragraph_anchor_ids=[anchor.id for anchor in anchors],
+            )
+        )
+
+    source_bytes = _pdf_ocr_source_bytes(request)
+    return PrivateDocument(
+        id=_new_id("doc"),
+        title=(request.title or "未命名 PDF/OCR").strip(),
+        author=request.author.strip() if request.author else None,
+        version_label=request.version_label.strip() if request.version_label else None,
+        source_format=SourceFormat.PDF_OCR,
+        checksum_sha256=hashlib.sha256(source_bytes).hexdigest(),
+        char_count=character_count,
+        section_count=len(sections),
+        paragraph_count=paragraph_count,
+        sections=sections,
+        pdf_ocr_metadata=PdfOcrMetadata(
+            pdf_checksum_sha256=request.pdf_checksum_sha256,
+            page_count=len(ordered_pages),
+            pages=page_metadata,
+        ),
     )
 
 
@@ -686,7 +862,15 @@ def _parse_epub_document(request: EpubImportRequest) -> PrivateDocument:
                 )
             )
 
-        paragraph_count = sum(len(section.paragraphs) for section in raw_sections)
+        bounded_by_section = [
+            [
+                chunk
+                for text in section.paragraphs
+                for chunk in _chunk_readable_text(text)
+            ]
+            for section in raw_sections
+        ]
+        paragraph_count = sum(len(paragraphs) for paragraphs in bounded_by_section)
         if not paragraph_count:
             raise InvalidPrivateText("EPUB spine has no readable paragraphs")
         total_text_chars = sum(
@@ -701,10 +885,12 @@ def _parse_epub_document(request: EpubImportRequest) -> PrivateDocument:
 
         sections: list[DocumentSection] = []
         global_ordinal = 0
-        for section_ordinal, raw_section in enumerate(raw_sections):
+        for section_ordinal, (raw_section, bounded_paragraphs) in enumerate(
+            zip(raw_sections, bounded_by_section)
+        ):
             section_id = f"section_{section_ordinal}"
             paragraphs = []
-            for paragraph_ordinal, text in enumerate(raw_section.paragraphs):
+            for paragraph_ordinal, text in enumerate(bounded_paragraphs):
                 paragraphs.append(
                     ParagraphAnchor(
                         id=_anchor_id(section_ordinal, paragraph_ordinal, text),
@@ -798,13 +984,17 @@ class _SessionRecord:
 
 
 class ExplorationStore:
-    """Thread-safe, bounded in-memory store for private explorations."""
+    """Thread-safe facade over durable control metadata and a private vault."""
 
     def __init__(
         self,
         max_sessions: int = 64,
         ttl_seconds: float = 6 * 60 * 60,
         max_total_source_chars: int = DEFAULT_MAX_TOTAL_SOURCE_CHARS,
+        *,
+        repository: ExplorationRepository | None = None,
+        state_dir: str | Path | None = None,
+        model_gateway: ModelGateway | None = None,
     ):
         if max_sessions < 1:
             raise ValueError("max_sessions must be positive")
@@ -817,6 +1007,26 @@ class ExplorationStore:
         self._max_total_source_chars = max_total_source_chars
         self._records: dict[str, _SessionRecord] = {}
         self._lock = threading.RLock()
+        self._temporary_state: tempfile.TemporaryDirectory[str] | None = None
+        if repository is not None and state_dir is not None:
+            raise ValueError("repository and state_dir are mutually exclusive")
+        if repository is None:
+            if state_dir is None:
+                self._temporary_state = tempfile.TemporaryDirectory(
+                    prefix="history-kb-explorations-"
+                )
+                state_root = Path(self._temporary_state.name)
+            else:
+                state_root = Path(state_dir)
+            repository = ExplorationRepository(
+                state_root / "explorations.sqlite3",
+                state_root / "vault",
+            )
+        self.repository = repository
+        self.model_gateway = model_gateway
+        self.control_plane = ExplorationControlPlane(
+            repository, model_gateway=model_gateway
+        )
 
     def _purge_expired(self, now: float) -> None:
         expired = [
@@ -853,11 +1063,7 @@ class ExplorationStore:
             del self._records[oldest_id]
 
     def _boundary(self) -> SessionBoundary:
-        return SessionBoundary(
-            ttl_seconds=self._ttl_seconds,
-            max_sessions=self._max_sessions,
-            max_total_source_chars=self._max_total_source_chars,
-        )
+        return SessionBoundary()
 
     def _evict_if_full(self) -> None:
         """Backward-compatible helper retained for callers outside this module."""
@@ -873,14 +1079,23 @@ class ExplorationStore:
 
     def _record(self, exploration_id: str) -> _SessionRecord:
         now = time.monotonic()
-        self._purge_expired(now)
-        record = self._records.get(exploration_id)
-        if record is None:
-            raise ExplorationNotFound(f"Exploration {exploration_id} not found")
-        record.last_access_monotonic = now
+        try:
+            snapshot = self.control_plane.load_snapshot(exploration_id)
+        except WorkspaceNotFound as error:
+            raise ExplorationNotFound(
+                f"Exploration {exploration_id} not found"
+            ) from error
+        record = _SessionRecord(snapshot=snapshot, last_access_monotonic=now)
+        self._records[exploration_id] = record
         return record
 
-    def _save_new(self, snapshot: ExplorationSnapshot) -> ExplorationSnapshot:
+    def _save_new(
+        self,
+        snapshot: ExplorationSnapshot,
+        *,
+        source_bytes: bytes,
+        media_type: str,
+    ) -> ExplorationSnapshot:
         with self._lock:
             monotonic_now = time.monotonic()
             self._purge_expired(monotonic_now)
@@ -890,11 +1105,16 @@ class ExplorationStore:
                     "Imported source exceeds this process store's character budget"
                 )
             self._evict_for(incoming_source_chars)
+            persisted = self.control_plane.register_exploration(
+                snapshot,
+                source_bytes=source_bytes,
+                media_type=media_type,
+            )
             self._records[snapshot.id] = _SessionRecord(
                 snapshot=snapshot,
                 last_access_monotonic=monotonic_now,
             )
-            return self._copy(snapshot)
+            return self._copy(persisted)
 
     @staticmethod
     def _copy(snapshot: ExplorationSnapshot) -> ExplorationSnapshot:
@@ -916,13 +1136,46 @@ class ExplorationStore:
         }
 
     def create(self, request: ImportExplorationRequest) -> ExplorationSnapshot:
-        return self._create_book(_parse_text_document(request), request.brief)
+        if request.source_format is SourceFormat.PDF_OCR:
+            document = _parse_pdf_ocr_document(request)
+            source_bytes = _pdf_ocr_source_bytes(request)
+            media_type = "application/vnd.history-kb.pdf-ocr+json"
+        else:
+            document = _parse_text_document(request)
+            assert request.content is not None
+            source_bytes = request.content.encode("utf-8")
+            media_type = (
+                "text/markdown; charset=utf-8"
+                if request.source_format == SourceFormat.MARKDOWN
+                else "text/plain; charset=utf-8"
+            )
+        return self._create_book(
+            document,
+            request.brief,
+            source_bytes=source_bytes,
+            media_type=media_type,
+        )
 
     def create_epub(self, request: EpubImportRequest) -> ExplorationSnapshot:
-        return self._create_book(_parse_epub_document(request), request.brief)
+        document = _parse_epub_document(request)
+        try:
+            epub_bytes = base64.b64decode(request.content_base64, validate=True)
+        except (binascii.Error, ValueError) as error:
+            raise InvalidPrivateText("EPUB content_base64 is not valid base64") from error
+        return self._create_book(
+            document,
+            request.brief,
+            source_bytes=epub_bytes,
+            media_type="application/epub+zip",
+        )
 
     def _create_book(
-        self, document: PrivateDocument, brief: ExplorationBrief
+        self,
+        document: PrivateDocument,
+        brief: ExplorationBrief,
+        *,
+        source_bytes: bytes,
+        media_type: str,
     ) -> ExplorationSnapshot:
         now = _utc_now()
         first_anchor = document.sections[0].paragraphs[0]
@@ -943,7 +1196,9 @@ class ExplorationStore:
                 updated_at=now,
             ),
         )
-        return self._save_new(snapshot)
+        return self._save_new(
+            snapshot, source_bytes=source_bytes, media_type=media_type
+        )
 
     def create_from_prompt(
         self, request: PromptExplorationRequest
@@ -997,7 +1252,12 @@ class ExplorationStore:
                 )
             ],
         )
-        return self._save_new(snapshot)
+        private_request = request.model_dump_json().encode("utf-8")
+        return self._save_new(
+            snapshot,
+            source_bytes=private_request,
+            media_type="application/vnd.history-kb.prompt+json",
+        )
 
     def get(self, exploration_id: str) -> ExplorationSnapshot:
         with self._lock:
@@ -1006,7 +1266,8 @@ class ExplorationStore:
     def delete(self, exploration_id: str) -> None:
         with self._lock:
             self._record(exploration_id)
-            del self._records[exploration_id]
+            self.control_plane.delete_exploration(exploration_id)
+            self._records.pop(exploration_id, None)
 
     def compose(
         self,
@@ -1131,10 +1392,18 @@ class ExplorationStore:
 
             snapshot.revision += 1
             snapshot.updated_at = _utc_now()
+            try:
+                persisted = self.control_plane.save_snapshot(
+                    snapshot, expected_revision=request.base_revision
+                )
+            except SnapshotRevisionConflict as error:
+                self._records.pop(exploration_id, None)
+                raise RevisionConflict(error.expected, error.actual) from error
+            record.snapshot = persisted
             return ComposerMutationResult(
                 mutation_id=mutation_id,
                 outcome=outcome,
-                snapshot=self._copy(snapshot),
+                snapshot=self._copy(persisted),
             )
 
     def mutate(
@@ -1237,12 +1506,103 @@ class ExplorationStore:
 
             snapshot.revision += 1
             snapshot.updated_at = _utc_now()
-            return self._copy(snapshot)
+            try:
+                persisted = self.control_plane.save_snapshot(
+                    snapshot, expected_revision=mutation.base_revision
+                )
+            except SnapshotRevisionConflict as error:
+                self._records.pop(exploration_id, None)
+                raise RevisionConflict(error.expected, error.actual) from error
+            record.snapshot = persisted
+            return self._copy(persisted)
+
+    def create_analysis_run(
+        self, exploration_id: str, *, base_revision: int
+    ) -> AnalysisRunStatus:
+        with self._lock:
+            try:
+                return self.control_plane.create_analysis_run(
+                    exploration_id, expected_revision=base_revision
+                )
+            except WorkspaceNotFound as error:
+                raise ExplorationNotFound(
+                    f"Exploration {exploration_id} not found"
+                ) from error
+            except SnapshotRevisionConflict as error:
+                raise RevisionConflict(error.expected, error.actual) from error
+
+    def list_analysis_runs(self, exploration_id: str) -> AnalysisRunList:
+        with self._lock:
+            try:
+                return self.control_plane.list_analysis_runs(exploration_id)
+            except WorkspaceNotFound as error:
+                raise ExplorationNotFound(
+                    f"Exploration {exploration_id} not found"
+                ) from error
+
+    def get_analysis_run(
+        self, exploration_id: str, run_id: str
+    ) -> AnalysisRunStatus:
+        with self._lock:
+            try:
+                return self.control_plane.get_analysis_run(exploration_id, run_id)
+            except WorkspaceNotFound as error:
+                raise ExplorationNotFound(
+                    f"Exploration {exploration_id} not found"
+                ) from error
+
+    def cancel_analysis_run(
+        self, exploration_id: str, run_id: str
+    ) -> AnalysisRunStatus:
+        with self._lock:
+            return self.control_plane.cancel_analysis_run(exploration_id, run_id)
+
+    def resume_analysis_run(
+        self, exploration_id: str, run_id: str
+    ) -> AnalysisRunStatus:
+        with self._lock:
+            return self.control_plane.resume_analysis_run(exploration_id, run_id)
+
+    def get_analysis_result(
+        self, exploration_id: str, run_id: str
+    ) -> AnalysisRunResult:
+        with self._lock:
+            try:
+                return self.control_plane.get_analysis_result(exploration_id, run_id)
+            except WorkspaceNotFound as error:
+                raise ExplorationNotFound(
+                    f"Exploration {exploration_id} not found"
+                ) from error
+
+    def submit_analysis_review(
+        self,
+        exploration_id: str,
+        run_id: str,
+        request: AnalysisReviewRequest,
+    ) -> AnalysisRunResult:
+        with self._lock:
+            return self.control_plane.submit_analysis_review(
+                exploration_id, run_id, request
+            )
 
     def clear(self) -> None:
-        """Clear process-local sessions; intended for tests and process shutdown."""
+        """Clear durable private workspaces; intended only for isolated tests."""
         with self._lock:
+            self.control_plane.clear()
             self._records.clear()
 
+    def close(self) -> None:
+        with self._lock:
+            self.repository.close()
+            close_gateway = getattr(self.model_gateway, "close", None)
+            if callable(close_gateway):
+                close_gateway()
+            if self._temporary_state is not None:
+                self._temporary_state.cleanup()
+                self._temporary_state = None
 
-exploration_store = ExplorationStore()
+
+exploration_store = ExplorationStore(
+    state_dir=settings.exploration_state_dir,
+    model_gateway=build_configured_model_gateway(settings),
+)

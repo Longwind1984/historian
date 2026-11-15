@@ -88,7 +88,7 @@ def _graph_payload() -> dict:
     }
 
 
-def test_argument_graph_requires_all_six_node_types_and_resolvable_edges():
+def test_argument_graph_requires_a_limitation_and_resolvable_edges_without_forcing_templates():
     graph = ArgumentGraph.model_validate(_graph_payload())
     assert {node.node_type.value for node in graph.nodes} == {
         "question",
@@ -99,13 +99,27 @@ def test_argument_graph_requires_all_six_node_types_and_resolvable_edges():
         "limitation",
     }
 
+    compact_graph = _graph_payload()
+    compact_graph["nodes"] = [compact_graph["nodes"][1], compact_graph["nodes"][-1]]
+    compact_graph["edges"] = [
+        {
+            "id": "edge_limitation_observation",
+            "from_node_id": "node_limitation",
+            "to_node_id": "node_material_observation",
+            "relation": "qualifies",
+            "label": "限制外推",
+            "source_anchor_ids": ["anchor_1"],
+        }
+    ]
+    assert len(ArgumentGraph.model_validate(compact_graph).nodes) == 2
+
     missing_limitation = _graph_payload()
     missing_limitation["nodes"][-1] = {
         **missing_limitation["nodes"][-1],
         "id": "node_question_duplicate_kind",
         "node_type": "question",
     }
-    with pytest.raises(ValidationError, match="missing required node types"):
+    with pytest.raises(ValidationError, match="missing required safety node types"):
         ArgumentGraph.model_validate(missing_limitation)
 
     dangling_edge = _graph_payload()

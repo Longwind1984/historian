@@ -3324,3 +3324,209 @@ scripts/dev.sh
 - 版本与依赖：`package.json`、`frontend/package.json`、`frontend/package-lock.json`。
 - 公开仓库边界：`.gitignore` 与已停止跟踪但仍保留本机的 `external_data/`。
 - 常新文档：`README.md`、`handoff.json`、`WORKLOG.md`。
+
+## 2026-08-01 · v6 后端 Agent 架构与长文本可靠性设计
+
+### 做了什么（结果）
+
+完成后端 v6 的开发级架构设计。先审计当前 EPUB 解析、进程内 Exploration、v5 Artifact、`book_argument_graph.v1` 和公开发布闸门，再对照 GraphRAG、LangGraph、Temporal、RAPTOR、Docling、BookNLP、HeidelTime、FActScore / SAFE、RAGChecker、DSPy、W3C PROV 与 OpenTelemetry 的官方资料和论文，明确哪些方法直接采用、哪些只借鉴、哪些暂不引入。
+
+新设计把“拿到一本书”拆成三套正交状态机和一条可恢复流水线：Source 负责解析可靠性，Run 负责执行 / 重试 / 暂停，Artifact 负责证据与发布成熟度；BookProfile 以多维画像识别事件叙事、论证专著、传记 / 微观史、制度 / 主题史、史料集、工具书和混合型，再由规则编译器生成不同 AnalysisPlan。各 worker 只产出带来源锚点的候选，Scene、论证、时间、地图与洞见都改为通过闸门后的派生投影。
+
+### 关键决策与被否决的备选
+
+- 选择“确定性 Supervisor + 有界专业 worker + typed artifact”，否决一个总 Agent 读取整本书并自由召唤子 Agent；后者不可恢复、难归因，也更容易把作者判断和模型常识混合。
+- 推荐 LangGraph 作为首版编排运行时，借鉴 Temporal 的幂等与恢复语义，但暂不引入独立 Temporal 服务；只有出现多日等待、高并发和跨服务补偿时再迁移。
+- 借鉴 RAPTOR / GraphRAG 的分层综合，但任何高层摘要必须保留 `derived_from_ids`，不使用摘要替代底层证据，也不默认运行昂贵的全量 GraphRAG。
+- 正式 YAML / GeoJSON 继续是公开历史真相源；未来 SQLite / PostgreSQL 只保存私人 workspace、run、checkpoint 和 provenance，不直接写回正式库。
+- 独立审稿按 atomic claims 找支持并把错误归因到 retrieval / extraction / resolution / synthesis / projection；否决用单一总分或模型自报 confidence 代表可靠性。
+- 外证按 source policy 和高价值 claim 选择性运行，不为填满界面强造正反观点。
+
+### 当前状态：现在能跑什么、怎么跑
+
+本轮只交付架构与实施规格，没有接入真实模型、数据库、依赖或部署。当前 v1.4.0 行为不变：本地 `scripts/dev.sh` 可导入私人文本并建立 `needs_model / not_called` 合同；公开构建仍是《安史之乱》 derivative-only Demo，私人探索 API 关闭。
+
+后续实现按文档 Phase A 开始：先修合同债务，加入 BookProfile / AnalysisPlan / Run / WorkItem / Attempt / Provenance 与 SQLite checkpoint，用 deterministic fake 证明 crash / resume / idempotency，再接模型。实现前不需要再重新讨论总体架构。
+
+### 未尽事项与已知问题
+
+- 当前 `ArgumentGraph` 仍强制六类节点，v5 Schema 的 `entityCandidate` 仍有地点字段条件块复制残留；设计已指出，代码尚未修改。
+- 当前后端仍是进程内 TTL store，没有真实 executor、跨章综合、外证、gold set 或运行观测。
+- 托管版原书保留周期、第一批模型 provider / 单本预算、是否默认允许公网外证会影响费用和隐私；进入相应实施阶段时应带真实 benchmark 再请求产品决策，当前默认本机、fake model、外证关闭。
+- 本轮没有改 CI、部署配置，没有提交、push 或发布；用户维护的未跟踪根 `AGENTS.md` 保持不动。
+
+### 文件级变更清单
+
+- 后端架构：`docs/backend-agent-architecture.md`。
+- 常新项目说明：`README.md`。
+- 工作日志：`WORKLOG.md`。
+
+## 2026-08-01 · v6 可恢复拆书后端与人工复核闭环
+
+### 做了什么（结果）
+
+把上一轮开发级方案实现为可运行的本地后端骨架。TXT / Markdown / EPUB 先生成稳定锚点和不含历史结论的全书形态信号，再形成七类 BookProfile 与可审计 AnalysisPlan；计划由独立 worker 领取，不在 FastAPI 请求里执行长任务。SQLite 保存 workspace、run、work item、attempt、租约、checkpoint、幂等、脱敏 artifact 与复核状态，原文件和完整解析快照只进入本机 private vault。
+
+模型层新增 schema-first gateway，明确区分 `none`、deterministic fixture 与 OpenAI-compatible provider。默认 `none` 时，每个需要模型的 pass 形成 `model_not_called` Gap；缺配置、超时或结构错误不会静默回退成伪历史。局部 worker 只读取获准 anchor packet：单段最多 12,000 字，批次最多 24 个 anchor / 36,000 字，运行时 packet 再以 40,000 字硬闸门兜底。模型裸坐标永不采信；地点只有唯一命中正式已审 Place 名称 / 今名 / 别名时才晋升。
+
+前端接通 run 创建、状态轮询、取消、恢复、质量门、证据缺口和逐项人工复核。每个 Claim / Event 都必须显式接受或拒绝，派生 Claim 与 Event 的父 Claim 未接受时不能提交；`waiting_review` 是 SQLite 持久停点，提交后仍由独立 worker 生成 reviewed-only 的论证、时间、地图与洞见投影。零候选 NoModel 轮次也必须点击“确认无候选并继续”，不会自动采纳。
+
+补齐两张常新图：整体技术架构说明 private vault、SQLite、独立 worker、模型与正式 KB 的数据边界；产品流程图说明导入、书型路由、Agent Team、质量门、人工复核与四类投影。开发脚本同步启动 backend + worker，并把私人 API 从 `0.0.0.0` 收紧到 `127.0.0.1`。
+
+### 关键决策与被否决的备选
+
+- 选择“FastAPI 控制面 + SQLite runtime + 独立 worker”，否决在 HTTP 请求或 `BackgroundTasks` 里跑整本书；长任务可跨进程恢复，API 仍保持短请求。
+- 选择 typed candidate + 硬质量门 + 逐项人工决定，否决模型直接发布、默认接受和用自报 confidence 代替证据链。
+- 选择确定性 BookProfile / DAG 编译器，否决一个总 Agent 自由读取整本书并无限召唤下级 Agent；不同书型有不同 pass，但并发、来源和输入都受合同约束。
+- 选择显式 NoModel / Gap，否决在未配置真实 provider 时沿用 deterministic 输出冒充模型结果。
+- LangGraph typed-state / SqliteSaver 壳保留并通过 checkpoint 安全测试，但当前主执行路径是更贴合领域合同的 `ExplorationRuntime + pipeline`；否决仅因安装了框架就宣称生产已经使用。
+- 外证继续由 SourcePolicy 默认关闭；否决为了填满界面给每个观点强造“反方”。正式 YAML / GeoJSON 保持只读，不由探索产物自动晋升。
+- 私人原文继续与控制数据分存；否决把完整 snapshot、source packet、prompt 或异常正文写进 SQLite artifact、日志或 API 列表。
+
+### 当前状态：现在能跑什么、怎么跑
+
+```bash
+scripts/dev.sh
+# 本地探索：http://127.0.0.1:5173/#route=explore
+
+# 分开运行时，两个进程必须共享 EXPLORATION_STATE_DIR
+scripts/run-backend.sh --host 127.0.0.1 --port 8000 --reload
+scripts/run-exploration-worker.sh
+```
+
+默认 `EXPLORATION_MODEL_PROVIDER=none`，可完整演示计划、运行、Gap、人工空复核与投影状态，不会调用外部模型。真实 provider 必须显式配置 base URL、API key 与 extract / synthesis / judge 三条模型路由；外部世界不响应时由连接与总超时结束，不无限等待。
+
+最终验证：
+
+- 后端全量：`271 passed, 1 skipped / 12.61s`。
+- 本机已授权《安史之乱》EPUB：不输出正文地通过解析 → 全书形态信号 → BookProfile → AnalysisPlan；每个 anchor batch 均满足数量与字符预算。
+- 跨进程 live smoke：10 个 work item；`waiting_review → 提交空决定 → completed`；`model_not_called=2`；显式删除 204。
+- 数据：`7,396 entities / 10,277 relations / errors=0 / warnings=19,201 / 4.02s`，未隐藏、删除或降级既有 warning。
+- 前端生产构建：Vite 6.4.3，`221 modules / 1.77s`；ExplorationView 按需 chunk `64.32 kB / gzip 21.70 kB`，无新增前端依赖；既有 seed / MapLibre 大 chunk warning 未变化。
+- 全站 E2E：`125 passed, 2 skipped / 12.6m`；包含取消 / 恢复、待复核、逐项接受 / 拒绝、NoModel 空候选和发布投影。
+- Schema JSON、shell syntax、`git diff --check` 与私有本机 EPUB 路径扫描通过。
+
+### 未尽事项与已知问题
+
+- 真实 provider 尚未用 gold set 做内容质量、成本与延迟 benchmark；当前完成的是可靠性与人工把关骨架，不是“历史洞见质量已验收”。
+- 跨章综合、人物指代、史料边界、reference / table / figure 等专属领域产物仍需扩充；当前四类投影能接 reviewed candidate，但不会凭骨架自动达到《安史之乱》手工九幕的内容深度。
+- 从纯 Prompt 开始的历史研究目前只有范围合同，尚未接入本书分析 worker；界面必须继续诚实显示尚无材料 / 尚无证据。
+- 当前是本机单 workspace 形态，没有 auth / tenant、加密对象存储、配额、删除回执、PDF / OCR 或获授权公网外证；因此公开构建继续关闭私人 API。
+- ExplorationView 新增复核闭环后按需 JS chunk 增加约 16 kB（gzip 增加约 3 kB）；未影响主入口，但下一轮继续扩展前应把复核明细拆成独立懒加载组件。
+- 数据校验仍有 19,201 条内容工程 warning；本轮没有用后端架构改造掩盖正式历史库的既有内容欠账。
+- 本轮没有修改 CI / 部署配置，没有发布、push 或部署；用户维护的未跟踪根 `AGENTS.md` 保持不动。
+
+### 文件级变更清单
+
+- 配置与运行：`.env.example`、`backend/app/core/config.py`、`backend/requirements.txt`、`scripts/dev.sh`、`scripts/run-exploration-worker.sh`。
+- v6 后端：`backend/app/exploration/` 全部模块。
+- API 与兼容层：`backend/app/api/explorations.py`、`backend/app/schemas/exploration.py`、`backend/app/services/exploration_service.py`。
+- 前端闭环：`frontend/src/api/client.js`、`frontend/src/stores/useExplorationStore.js`、`frontend/src/components/exploration/ExplorationEvidence.vue`、`frontend/src/views/ExplorationView.vue`。
+- 自动验证：`backend/tests/test_api_explorations.py`、`backend/tests/test_exploration_*.py`、`frontend/e2e/exploration-v5.spec.js`。
+- 合同与文档：`docs/workflows/book-to-exploration.schema.json`、`docs/backend-agent-architecture.md`、`docs/backend-system-flow.md`、`README.md`、`handoff.json`、`WORKLOG.md`。
+
+## 2026-08-01 · 《中华人民共和国史》真实书籍后端验收
+
+### 做了什么（结果）
+
+把沈志华等人参与编著、香港中文大学出版社出版的多卷本《中华人民共和国史（1949—1981）》确定为后端长期黄金用例，并以沈志华第三卷《思考与选择——从知识分子会议到反右派运动（1956—1957）》执行第一轮真实来源验收。书系身份、分卷目录、第三卷作者、出版信息和官方样阅入口均由出版社页面核验；本机没有找到合法本地副本，因此只获取出版社公开的 9 页内页样本。原图、OCR 原文和临时路径均未写入仓库。
+
+样阅经过繁体中文 OCR 后形成 5,863 个可评分词元，平均置信度 88.65%，其中 321 个低于 60（5.48%）。后端真实跑过导入、稳定锚点、画像、AnalysisPlan、进程重开恢复、同进程 worker 边界、`waiting_review`、空复核、reviewed-only 投影、完成后无可领取运行与显式删除。控制面 7/7 检查通过：SQLite 未发现逐段非重叠的 16—32 字来源抽样片段或本机状态目录，删除后对应 private vault 消失。跨进程 worker 与重复入队幂等本轮明确未验收。
+
+验收总判定为“有条件通过”，没有把控制面成功包装成内容理解成功。9 页 OCR 样本被画像为 `event_narrative`（置信度 0.653955），`argumentative_monograph` 得分仅 0.145044，并因主类型路由跳过 `argument_extraction`；这与样本实际承担的复杂作者论证不符。本轮 runner 强制 NoModel，运行产生 18 个 `model_not_called`、0 主张、0 事件和 0 发布投影，内容质量明确为未运行。
+
+交付了可复跑的 source-safe acceptance runner、自动测试和自包含 HTML 执行报告。报告内嵌机器可读 JSON，只包含摘要哈希、计数、时长、状态与缺口；不含来源原文。
+
+### 关键决策与被否决的备选
+
+- 选择出版社官方公开样阅作为本轮输入，否决把搜索不到本机 EPUB 或微信读书工具升级失败解释为“书不存在”，也没有绕过授权下载非公开全文。
+- 选择真实 `NoModel` 运行检验控制面，否决用 deterministic fixture 冒充模型对本书的真实分析。没有模型时 0 主张是安全正确的结果，不是内容质量通过。
+- 把《中华人民共和国史》定位为多卷、跨时期、强论证、来源复杂的长期黄金用例，否决继续只用单卷事件叙事验证后端；它更能暴露跨卷综合、作者判断归因与来源层级问题。
+- 把类型错路由列为验收失败，否决用整体分类置信度掩盖 `close_type_scores` 和被跳过的论证 Pass。下一版在不确定时应多路执行，而不是删除能力。
+- 外部资源获取、OCR、后端和 Agent 审计分别记录。一次复用的审计 Agent 误执行旧的一次性通知任务；幂等标记阻止了重复外部动作，但本轮审计结果无效，已从关键路径移除。以后跨任务 worker 使用无历史上下文的新任务，并验证第一个 checkpoint 的 run_id。
+
+### 当前状态：现在能跑什么、怎么跑
+
+```bash
+uv run --with-requirements backend/requirements.txt \
+  python scripts/run-book-backend-acceptance.py \
+  --page-text-dir <包含 page-*.txt、可选 page-*.tsv 的目录> \
+  --output docs/reports/book-backend-acceptance.html
+
+uv run --with-requirements backend/requirements-dev.txt \
+  python -m pytest backend/tests/test_book_backend_acceptance.py -q
+```
+
+当前执行报告为 `docs/reports/prc-history-backend-acceptance.html`。专项自动测试 3 passed / 0.15s，覆盖成功路径、失败判定、worker 异常清理与第二阶段无法重开时的来源清理；后端全量回归 274 passed、1 skipped / 11.78s。真实公开样阅运行的状态序列为 `queued → waiting_review → completed`，本地后端阶段约 45 ms。9 个浏览器公开图片资产打包约 2,475 秒，OCR 约 11 秒，证明外部采集而非后端是本轮最大性能风险。采集与 OCR 时长是运行者提供的观测值，机器记录不会把它们伪装成后端自动测量。
+
+### 未尽事项与已知问题
+
+- 来源合同尚无 `rendered / ocr_unverified / ocr_reviewed` 状态，也不能把页图和 OCR 段落绑定为可回看锚点；当前 OCR 只能作为外部预处理输入。
+- BookProfile 仍主要依赖正文形态信号；短样本、目录缺失和 OCR 噪声会让日期密度压过论证密度。需要加入书目元数据先验，并在 `close_type_scores` 时多路执行论证与叙事 Pass。
+- 当前 workspace 是单文档模型，没有 Series / Volume / Chapter / Page / Passage 层级，也没有跨卷综合与跨卷来源归因。
+- 真实 provider、人工金标、内容准确率、成本、延迟与幻觉率均未验收；没有用户明确的数据出境与费用边界前保持未配置。
+- 微信读书 Skill 要求从 1.0.3 升级到 1.0.4，但两次官方 CDN 下载授权均超时；本轮没有继续重试，也没有把该环境状态当作书籍可用性的证据。
+- 本轮没有修改 CI / 部署配置，没有提交、push 或发布；用户已有工作区改动和未跟踪根 `AGENTS.md` 保持不动。
+
+### 文件级变更清单
+
+- 可复跑验收：`backend/app/exploration/acceptance.py`、`scripts/run-book-backend-acceptance.py`。
+- 自动测试：`backend/tests/test_book_backend_acceptance.py`。
+- 执行报告：`docs/reports/prc-history-backend-acceptance.html`。
+- 常新文档：`README.md`、`WORKLOG.md`。
+
+## 2026-08-03 · 《中华人民共和国史》第三卷完整 PDF 后端验收重跑
+
+### 做了什么（结果）
+
+废止“9 页公开样阅可以代表这本书”的验收口径，改用用户提供的 845 页扫描 PDF 作为唯一书源重新执行。先确认 PDF 未加密且没有正文文本层，再用繁体中文、英文和俄文 OCR 完成 845/845 页；841 页得到正文，4 个无正文页（物理页 26、92、316、788）保留为 `rendered`，没有生成伪段落。OCR 产物、逐页置信度、manifest、checkpoint 和运行状态全部留在仓库外。
+
+后端新增 PDF/OCR 来源合同：保存 PDF 指纹、物理页索引、印刷页标签、OCR 状态与置信度；来源正文只进入 private vault，SQLite 与 HTML 报告不保存正文或绝对路径。完整验收实际导入 845 页、841 个页节、6,032 段和 803,306 个规范化字符；关闭导入进程后恢复同一来源指纹与页锚点，再由两个独立 worker 分别推进到 `waiting_review` 和 `completed`。复核闸门、页级 locator、SQLite 来源隔离和删除均通过。
+
+整体结论严格保持 `blocked`。本机没有配置真实模型 provider，本轮强制 `none`，最终产物为 0 主张、0 事件、0 论证节点、0 时间轴项目；这是拒绝编造的安全结果，不是内容验收通过。Codex Agent Team 另按 10 章各 2 页抽查 20/845 页，形成来源安全的金标与 5 条候选跨章洞见，但明确标为 `codex_agent_external_harness`，不计作生产 model gateway 或全书拆解。
+
+### 关键决策与被否决的备选
+
+- 选择完整 PDF 指纹 + 845 对 TXT/TSV + 页级状态作为来源完整性证据，否决继续把 9 张图片、9 页文字或搜索摘要称为全书验收。
+- 选择 `rendered / ocr_unverified / ocr_reviewed` 三态，否决为空白页生成正文，也否决把未经人工校勘的 OCR 当作可靠引文。
+- 选择两次真实跨进程 worker 与明确空复核，否决进程内 harness 冒充恢复能力；NoModel 运行成功时 runner 固定退出码 3 / `blocked`，不能升级为通过。
+- 选择 20 页跨章抽查只做金标风险线索，否决把 Agent 外部阅读替代生产模型网关或声称 845 页已经语义拆解。
+- 确定性书型路由实际把本书判为 `event_narrative`，同时报告 `close_type_scores` 并跳过 `argument_extraction`。这只能证明路由执行，不能证明分类正确；真实 provider 与人工金标接入前保持未验收。
+- 第一次控制链启动被 `/private/tmp/inspect.py` 抢占 Python 标准库；保留该无关文件，从隔离脚本目录重启。随后一次命令繁简体文件名误写在读取前被拒绝，状态目录未消费；两次输入问题均未计入后端通过证据。
+
+### 当前状态：现在能跑什么、怎么跑
+
+```bash
+# 扫描 PDF OCR；输出目录必须在仓库外
+uv run --with-requirements backend/requirements.txt \
+  python scripts/ocr-scan-pdf.py \
+  --pdf <私人扫描 PDF> \
+  --output-dir <仓库外空目录>
+
+# 完整来源与控制面验收；无真实 provider 时预期退出码 3 / blocked
+uv run --with-requirements backend/requirements.txt \
+  python scripts/run-full-pdf-backend-acceptance.py \
+  --pdf <私人 PDF> \
+  --ocr-dir <完整 OCR 目录> \
+  --state-dir <仓库外空目录> \
+  --output docs/reports/prc-history-volume3-full-pdf-backend-acceptance.html
+```
+
+当前 HTML 报告为 `docs/reports/prc-history-volume3-full-pdf-backend-acceptance.html`。本次 OCR 用时约 18.2 分钟，平均置信度 87.4261，低置信词元率 7.0501%；最终完整验收重跑用时约 36.7 秒。专项 PDF/OCR 与 runner 测试 12 passed / 0.34s；后端全量 286 passed、1 skipped / 11.85s；`git diff --check` 通过。
+
+### 未尽事项与已知问题
+
+- 真实模型内容质量没有运行；需要配置可用 provider 后，用人工金标验收作者判断归因、书中材料、Agent 推断、事件时序、实体消歧、地图定位、跨章综合、成本与延迟。当前不能宣称系统已经理解本书。
+- 书型路由对这本强论证历史著作仍偏向事件叙事，并因此跳过论证提取；应在 `close_type_scores` 时并行运行论证专著 / 事件叙事 / 混合型最小 Pass，再由有来源的证据决定收敛。
+- OCR 尚未逐页图像校勘。繁体字、俄文、脚注、数字单位、人名和跨页断句有明显风险；正式引文、精确数字和实体写入前必须回看 PDF 图像。
+- 当前 PDF 入口是后端专用 CLI，不在公开产品上传界面；加入产品入口前仍需定义账户隔离、私有文件保留期、费用与数据出境边界。
+- 页级 locator 已稳定；增量地把同一页从 `rendered` 更新成 OCR 时，段落 ordinal / anchor ID 仍可能变化。当前全书是在 OCR 完成后一次导入，不受此问题影响。
+- 本轮没有提交、push、发布或修改 CI / 部署配置；工作区原有未提交改动继续保留。
+
+### 文件级变更清单
+
+- PDF/OCR 来源合同：`backend/app/schemas/exploration.py`、`backend/app/services/exploration_service.py`、`backend/app/api/explorations.py`、`docs/backend-system-flow.md`。
+- OCR 与完整验收：`scripts/ocr-scan-pdf.py`、`scripts/run-full-pdf-backend-acceptance.py`。
+- 自动验证：`backend/tests/test_exploration_pdf_ocr.py`、`backend/tests/test_scan_pdf_ocr_cli.py`、`backend/tests/test_full_pdf_backend_acceptance.py`。
+- 执行报告：`docs/reports/prc-history-volume3-full-pdf-backend-acceptance.html`。
+- 常新文档：`README.md`、`WORKLOG.md`。

@@ -25,7 +25,7 @@ cd .. && scripts/dev.sh
 
 首次运行需要 Node 18+、Python 3.11+ 与 [`uv`](https://docs.astral.sh/uv/)；`scripts/dev.sh` 会用 `uv` 按仓库锁定的 requirements 启动隔离后端，不会借用父目录环境。
 
-公开构建默认直接进入 Demo，并关闭 Prompt、私人书籍上传与进程内探索会话；本地 `scripts/dev.sh` 保留这些私人研究能力。Chrome Companion 仍是本地 beta，需要手动加载 `extensions/weread-companion/`，不应当作朋友首次试玩的前置步骤。
+公开构建默认直接进入 Demo，并关闭 Prompt、私人书籍上传与整组私人探索 API；本地 `scripts/dev.sh` 保留这些私人研究能力。Chrome Companion 仍是本地 beta，需要手动加载 `extensions/weread-companion/`，不应当作朋友首次试玩的前置步骤。
 
 `history.ricksi.com` 目前仍是较早的 v1.3.0 正式站，不包含本轮探索模块；在另行确认 EdgeOne 发布前，请分享 GitHub 与本地入口，不要把旧线上站当成本版本验收地址。
 
@@ -45,7 +45,7 @@ cd .. && scripts/dev.sh
 
 **地图叙事取舍 · 可定位才播放**：地图放大为主体后可按年代播放事件与关键人物生平节点，镜头、左时间轴和档案共用同一状态。事件必须已有 `location` 或完整 `march`；人物生平节点只有在“人物与可定位事件有结构化关系、同年、且生平文本明确写出完整事件名”三项同时成立时才借该事件定位。没有地点的生平不拿出生地、籍贯或文本猜坐标。
 
-**历史探索取舍 · 先保真，再编织**：本地开发的 `探索` 路由从真实空状态开始。用户可以直接提出一段历史问题，确认时间、空间与叙事主线；也可以上传私人 TXT / Markdown / EPUB，建立章节、段落锚点与连续阅读进度。阅读、论证链、Scene、地图与关系化证据共享同一工作台。私人正文只保存在有界后端进程内，重启即清除；Prompt 和分析请求目前只建立范围或排队，不调用模型。公开构建则默认进入受限 Demo，不开放这套无账户隔离的私人会话。没有可靠时间、地点或关系时，界面保持“尚未结构化”，不会沿用公开 Demo 的时空、论点或作者判断。正式 YAML / GeoJSON 仍是只读底座，探索层不会自动写回。
+**历史探索取舍 · 先保真，再编织**：本地开发的 `探索` 路由从真实空状态开始。用户可以直接提出一段历史问题，确认时间、空间与叙事主线；也可以上传私人 TXT / Markdown / EPUB，建立章节、段落锚点与连续阅读进度。书籍导入后，确定性画像会在七类书型之间选择主类型并编译有界 AnalysisPlan；独立 worker 按来源锚点执行专业 pass，经过 claim 级质量门和逐项人工接受 / 拒绝后，才生成论证、时间、地图和洞见四类发布投影。私人原文件和完整解析快照只写入本机 private vault，SQLite 只保存控制状态、脱敏元数据、checkpoint 与来源 ID；重启可以恢复，明确删除才清除。模型 provider 默认为 `none`，此时系统保留 `model_not_called` Gap，绝不伪造完成结果。公开构建仍默认进入受限 Demo，并关闭无账户隔离的私人 API。正式 YAML / GeoJSON 仍是只读历史底座，探索层不会自动写回。
 
 **外部阅读取舍 · 第一方阅读，主动桥接**：微信读书不再嵌入 history-kb。它保持为 Chrome 顶层、正常登录的第一方页面；本地 Companion Extension 在 Side Panel 打开探索工作台。扩展只有在用户点击“读取当前选区”时才读取当前标题、URL、定位与最多 2,000 字选区，再经“加入当前探索”二次确认写入当前 revision。它不读取 Cookie、书架或后台全文。当前交付是仅连接 `127.0.0.1:5173` 的 unpacked 本地 beta；线上版必须先固定扩展 ID、配置精确 origin 白名单与 `frame-ancestors`，并完成隐私披露。
 
@@ -55,28 +55,9 @@ cd .. && scripts/dev.sh
 
 ## 架构
 
-```
-浏览器
-  Vue 3 + Vite
-  ├── MapLibre GL    · 疆域 / 地点地图
-  ├── d3-force + Canvas · 2D 关系图
-  ├── 时间轴          · 年份切片（在世人物 + 疆域）
-  ├── 历史探索        · Prompt / EPUB / 阅读 / 论证 / Scene / 证据
-  └── Pinia           · 状态 / 跨视图联动
-        │  REST + JSON（vite 代理 /api → 127.0.0.1:8000）
-        ▼
-FastAPI 后端 (:8000)
-  ├── api/            · 薄路由（参数校验 + 调 service）
-  ├── services/       · entity / graph / territory / timeline / exploration
-  ├── exploration     · Prompt 范围与私人文本的有界进程内会话（非持久化）
-  └── core/data.py    · 启动时构建内存索引（EntityIndex + RelationIndex）
-        │  查询 O(1) / O(log N)，无外部数据库
-        ▼
-唯一真相源
-  data/**/*.yaml      · 实体 + 关系（关系带 since / until）
-  data/geo/*.geojson  · 各朝代疆域多边形
-  schema/*.yaml       · 类型注册表（通用元数据数据驱动；专属交互仍需代码）
-```
+浏览器仍由 Vue 3 / Pinia 统一阅读、论证、时间、地图与复核状态；FastAPI 只做导入、控制面和结果查询，不在 HTTP 请求内跑长任务。`scripts/dev.sh` 会同时启动独立 exploration worker：它从 SQLite 领取可运行 work item，只读取本次获准的 source packet，通过模型网关或确定性 pass 产生 typed candidate，再交给验证器与人工复核。原文只在 private vault 与 worker 的短时内存中出现；artifact、日志和 SQLite 控制表禁止保存原文。正式 YAML / GeoJSON 与探索产物继续分层。
+
+完整技术架构、失败恢复和产品状态流见 [`docs/backend-system-flow.md`](docs/backend-system-flow.md)；书型路由、Agent 职责、合同与质量门见 [`docs/backend-agent-architecture.md`](docs/backend-agent-architecture.md)。
 
 前端 API 客户端统一使用浏览器原生 `fetch`，不再携带 Axios 运行依赖。
 
@@ -110,7 +91,7 @@ python3 ~/.codex/skills/release-history-kb/scripts/release.py verify --base-url 
 scripts/dev.sh                 # 同时拉起后端 :8000 + 前端 :5173，Ctrl-C 一次全停
 ```
 
-`dev.sh` 默认检查 8000 / 5173 端口，被占则报错退出。后端依次使用 `backend/.venv`、仓库根 `.venv`，都不存在时由 `uv` 严格按 `backend/requirements.txt` 启动隔离环境；绝不借父项目 venv。路径仍可用 `VENV_PATH` 显式覆盖，数据 / schema 可用 `DATA_DIR` / `SCHEMA_DIR` 覆盖。也支持 `--backend-only` / `--frontend-only`。
+`dev.sh` 默认检查 8000 / 5173 端口，被占则报错退出，并让独立 analysis worker 与后端共同启停。后端依次使用 `backend/.venv`、仓库根 `.venv`，都不存在时由 `uv` 严格按 `backend/requirements.txt` 启动隔离环境；绝不借父项目 venv。路径仍可用 `VENV_PATH` 显式覆盖，数据 / schema 可用 `DATA_DIR` / `SCHEMA_DIR` 覆盖。也支持 `--backend-only` / `--frontend-only`。
 
 历史探索入口：<http://127.0.0.1:5173/#route=explore>。默认页以一个历史问题输入区为主；“上传本地书籍”是同一区域内始终可见的次级动作，打开专用弹层后支持 EPUB / TXT / Markdown，不再与对话路径割裂成两张等权卡片。进入工作台后，桌面端可确认 Prompt 范围、连续阅读、联动段落锚点，并分别拖动 Brief / 论证 / 地图的纵向边界；移动端仍以阅读、Scene 与出处为主，不提供复杂导入和编排。
 
@@ -120,9 +101,12 @@ scripts/dev.sh                 # 同时拉起后端 :8000 + 前端 :5173，Ctrl-
 
 ```bash
 scripts/run-backend.sh --host 127.0.0.1 --port 8000 --reload
+scripts/run-exploration-worker.sh
 ```
 
-脚本会设置本地数据路径并选择仓库虚拟环境；没有可用虚拟环境时，回退到 `uv` + `backend/requirements.txt`。若绕过脚本直接执行 Uvicorn，必须显式设置 `DATA_DIR` / `SCHEMA_DIR`，否则容器默认路径 `/app/data` 会让本地 API 静默为空。API 文档：<http://127.0.0.1:8000/docs>。
+两个脚本必须指向同一个 `EXPLORATION_STATE_DIR`；默认均使用仓库外部资料目录下的本机持久目录。脚本会设置本地数据路径并选择仓库虚拟环境；没有可用虚拟环境时，回退到 `uv` + `backend/requirements.txt`。若绕过脚本直接执行 Uvicorn，必须显式设置 `DATA_DIR` / `SCHEMA_DIR`，否则容器默认路径 `/app/data` 会让本地 API 静默为空。API 文档：<http://127.0.0.1:8000/docs>。
+
+模型默认关闭：`EXPLORATION_MODEL_PROVIDER=none`。可重复测试可用 `deterministic` fixture provider；`openai_compatible` 只有在同时配置 endpoint、model 和 API key 后才会发起有连接和总时限的请求。未配置或调用失败都会落为可见 Gap，不会静默退回伪结果。外部证据 pass 默认关闭。
 
 ### 前端（手动）
 
@@ -154,9 +138,12 @@ curl http://127.0.0.1:8000/api/meta/stats
 
 | 工具 | 命令 | 说明 |
 |---|---|---|
-| 后端单测 | `uv run --with-requirements backend/requirements-dev.txt python -m pytest backend/tests -q` | 223 项通过、1 项按预期跳过；测试依赖精确锁定，`conftest.py` 自动设数据路径 |
+| 后端单测 | `uv run --with-requirements backend/requirements-dev.txt python -m pytest backend/tests -q` | 286 项通过、1 项按预期跳过；覆盖持久化、恢复、模型网关、review gate、独立 worker、PDF/OCR 来源合同、完整书籍验收与 API；`conftest.py` 自动设数据路径 |
+| 扫描 PDF OCR | `uv run --with-requirements backend/requirements.txt python scripts/ocr-scan-pdf.py --pdf <私人扫描 PDF> --output-dir <仓库外空目录>` | Tesseract 全页 OCR，逐页原子 checkpoint，可恢复；输出 TXT / TSV / manifest，强制写在仓库外，不把私人正文纳入 Git |
+| 完整 PDF 后端验收 | `uv run --with-requirements backend/requirements.txt python scripts/run-full-pdf-backend-acceptance.py --pdf <私人 PDF> --ocr-dir <OCR 目录> --state-dir <仓库外空目录> --output <HTML>` | 校验 PDF 指纹与 100% 页覆盖，真实执行两次跨进程 worker、复核闸门、来源隔离与删除；未配置真实模型时固定返回 `blocked` / 退出码 3，不把控制面成功写成内容验收通过 |
+| 分页文本验收（旧入口） | `uv run --with-requirements backend/requirements.txt python scripts/run-book-backend-acceptance.py --page-text-dir <逐页 OCR 目录> --output docs/reports/book-backend-acceptance.html` | 保留给小型分页 fixture；不能代替完整 PDF 来源验收 |
 | 数据校验 | `uv run --with-requirements backend/requirements.txt python scripts/validate_data.py` | 全量实体 / 关系一致性 + 年份硬伤检查（errors=0 基线）；`--json out.json` 可导出结构化报告 |
-| 前端 E2E | `cd frontend && npm run test:e2e` | v1.4.0 full profile 123 项通过、2 项按条件跳过；公开 demo-only 与 safe profile 另各 1/1 通过；Playwright 以 :8002 / :5174 冷启动隔离前后端，不复用陈旧进程；结束自动回收 |
+| 前端 E2E | `cd frontend && npm run test:e2e` | v1.4.0 full profile 125 项通过、2 项按条件跳过；包含私人分析取消 / 恢复、逐项复核与 NoModel 空候选确认；Playwright 以 :8002 / :5174 冷启动隔离前后端，不复用陈旧进程；结束自动回收 |
 | 安全分发 | `npm run build:safe`；`cd frontend && VITE_RESTRICTED_MAPS=0 npm run test:e2e -- safe-distribution.spec.js` | 生成 `edgeone-dist-safe/`；safe profile 专项 1/1 通过，同时验证时间柱与书籍探索均无受限地图入口、CHGIS 几何或谭图请求 |
 
 ---
@@ -255,7 +242,11 @@ v3.1「看得细」（M11–M13）已落地，见 `WORKLOG.md` 2026-07-20 段：
 
 v5「探索」已补齐正常产品入口：默认不假定已有书籍；Prompt 会真实建立可继续编辑的范围合同，TXT / Markdown / EPUB 会进入独立导入合同并生成可定位段落。桌面工作台包含可调三栏、连续正文 / 锚点 / 时间·事件柱 / 微信读书来源、可展开并回跳来源的论证节点、MapLibre Scene 地图、地图内次级播放，以及 `+ / 输入 / 发送` composer；移动端只承担阅读、Scene 与出处。阅读点击和滚动会以串行 revision 同步进度，避免并发覆盖；EPUB 阅读器只挂载当前章节，避免全书 DOM 线性增长。微信读书跨站 iframe 已被否决：同一 Chrome 的顶层页面能登录，不代表第三方 iframe 能共享 Cookie / Storage，OAuth 回调还可能被 sandbox 拦截。当前可靠路径是 Chrome Companion Extension：微信读书保持顶层页面，history-kb 在 Side Panel 以“论证 / 时空 / 出处”三视图运行；扩展经两次主动操作读取并提交不超过 2,000 字的当前选区。主站仍保留默认收起的手动位置同步作为无扩展兜底。
 
-公开示例现为《安史之乱：历史、宣传与神话》：九幕原创衍生分析联动论证、阅读定位、时间、地图、证据与播放；地图默认以“全览”同时显示 7 个有可靠坐标的 Scene、9 幕顺序和连续柔性叙事曲线，另外 2 幕明确标为未定位，点选节点后才进入聚焦。曲线只表示叙事先后，不声称行军路线。左栏时间 tab 是 755—763 的纵向双轨：主轨为书中 Scene，参照轨只引入仓库已有明确年份字段的事件、人物与帝王，点击参照项会同步现有时间和实体选择。每幕论证不再压成四张概括卡，而是“问题 / 材料观察 / 推理机制 / 行动或转折 / 后果 / 限制”六类可寻址节点和显式关系；后端已建立来源 locator、认识论层级、禁止强造反方与禁止猜地点/因果的模型 Prompt 合同，但仍不实际调用模型。公开代码不包含本机 EPUB、正文、私有路径或可逆推出原文的定位。界面把“最多 10 页”作为待权利审查的产品窗口，而不是法律安全线；当前通过审查的公开正文为 0 页，所有回跳均落在稳定的受限锚点。当前仍不做账户级持久化、不解析 PDF / OCR，也不公开导出私人原书；完整边界与复用合同见 `docs/product-spec-exploration-v4.md` 和 `docs/workflows/book-to-exploration.md`。
+公开示例现为《安史之乱：历史、宣传与神话》：九幕原创衍生分析联动论证、阅读定位、时间、地图、证据与播放；地图默认以“全览”同时显示 7 个有可靠坐标的 Scene、9 幕顺序和连续柔性叙事曲线，另外 2 幕明确标为未定位，点选节点后才进入聚焦。曲线只表示叙事先后，不声称行军路线。左栏时间 tab 是 755—763 的纵向双轨：主轨为书中 Scene，参照轨只引入仓库已有明确年份字段的事件、人物与帝王，点击参照项会同步现有时间和实体选择。每幕论证不再压成四张概括卡，而是“问题 / 材料观察 / 推理机制 / 行动或转折 / 后果 / 限制”六类可寻址节点和显式关系；后端已建立来源 locator、认识论层级、禁止强造反方与禁止猜地点/因果的模型 Prompt 合同，但仍不实际调用模型。公开代码不包含本机 EPUB、正文、私有路径或可逆推出原文的定位。界面把“最多 10 页”作为待权利审查的产品窗口，而不是法律安全线；当前通过审查的公开正文为 0 页，所有回跳均落在稳定的受限锚点。产品上传界面仍只开放 EPUB / TXT / Markdown；扫描 PDF 目前走仓库外 OCR CLI 与后端专用导入合同，不公开导出私人原书。完整边界与复用合同见 `docs/product-spec-exploration-v4.md` 和 `docs/workflows/book-to-exploration.md`。
+
+v6 后端骨架已经编码并打通本地闭环：稳定来源锚点与无模型书型画像会编译成可审计 DAG；SQLite runtime 提供 claim、租约、attempt、checkpoint、暂停 / 恢复 / 取消与幂等；独立 worker 运行有界专业 pass；模型网关实行 schema-first 输出、总时限和显式 provider；候选必须经过引用、认识论、时间地点与依赖闸门，再由用户逐项接受 / 拒绝，最后生成论证、时间、地图、洞见投影。Scene 只是投影，正式 YAML / GeoJSON 继续是公开历史真相源。当前已接通的是 candidate → review → projection 骨架；跨章深综合、丰富人物指代 / 史料边界投影、真实 provider benchmark 与公网外证仍是明确下一阶段，不能把 `NoModel` Gap 当成分析结果。完整实现边界见 `docs/backend-agent-architecture.md` 与 `docs/backend-system-flow.md`。
+
+《中华人民共和国史》第三卷现在使用用户提供的完整 845 页扫描 PDF 做真实来源压力测试，不再用 9 页样阅冒充全书。全页 OCR 完成 845/845，841 个可读页均有 PDF 页锚点，4 个无正文页只标 `rendered`；完整导入后关闭进程，两次独立 worker 分别停在人工复核与完成状态，SQLite 来源隔离和删除也通过。真实 provider 仍为 `none`，因此内容质量严格保持 `blocked`：0 主张、0 事件、0 发布投影。外部 Codex Agent 只抽查 20/845 页，用来生成金标风险线索，不计作生产模型验收。确定性路由把本书判为 `event_narrative`，同时出现 `close_type_scores` 并跳过 `argument_extraction`；这项分类尚未验收，下一步必须用真实 provider + 人工金标验证混合书型多路路由。完整证据见 `docs/reports/prc-history-volume3-full-pdf-backend-acceptance.html`。
 
 ### 文档索引
 
@@ -270,6 +261,10 @@ v5「探索」已补齐正常产品入口：默认不假定已有书籍；Prompt
 | `docs/product-spec-exploration-v4.md` | v4「探索」Product Spec、交互状态、书籍接入、地图生产方案与开发标注 |
 | `docs/workflows/book-to-exploration.md` | v5 Prompt / 私人书籍到可复核时空探索的执行流程、隐私边界与验收矩阵 |
 | `docs/workflows/book-to-exploration.schema.json` | 可暂停、可复核、可做公开投影的 Exploration Artifact 合同 |
+| `docs/backend-agent-architecture.md` | v6 后端 Agent 架构：书型画像、工作流编译器、专业 worker、持久化、溯源、质量评测与实施顺序 |
+| `docs/backend-system-flow.md` | 当前已实现的技术架构、私有数据边界、运行恢复与产品流程图 |
+| `docs/reports/prc-history-backend-acceptance.html` | 《中华人民共和国史》第三卷官方公开样阅的真实后端验收执行报告；含运行指标、失败项、流程监控与机器可读记录，不含原文 |
+| `docs/reports/prc-history-volume3-full-pdf-backend-acceptance.html` | 用户提供的《中华人民共和国史》第三卷完整 845 页扫描 PDF 后端验收；明确区分来源 / 控制面通过、20 页外部抽查与真实模型未运行 |
 | `extensions/weread-companion/README.md` | Chrome Side Panel 本地伴读扩展的安装、权限、消息协议与发布闸门 |
 | `docs/design-qa.md` | 高密度界面 8 项优化的同视口视觉验收与证据 |
 | `docs/march-routes.md` | **进军箭头专项**：军事族 111 条事件里哪些该画箭头、哪些不该，怎么写；当前总计 16 个实体 / 20 段，其中 15 个属于军事候选池 |

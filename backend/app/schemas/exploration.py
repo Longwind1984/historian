@@ -1,8 +1,9 @@
 """Contracts for prompt-led and private, session-scoped explorations.
 
 Imported text is deliberately kept separate from the repository's reviewed
-YAML/GeoJSON truth sources. TXT, Markdown, and EPUB paragraph anchors are
-locators, not trustworthy printed page numbers.
+YAML/GeoJSON truth sources. TXT, Markdown, and EPUB anchors do not claim
+printed pagination. PDF/OCR anchors carry only page-safe locator metadata;
+original PDF bytes, image paths, and OCR text remain in the private vault.
 """
 from __future__ import annotations
 
@@ -10,7 +11,14 @@ from datetime import datetime
 from enum import Enum
 from typing import Annotated, Any, Literal
 
-from pydantic import AnyHttpUrl, BaseModel, Field, StringConstraints, model_validator
+from pydantic import (
+    AnyHttpUrl,
+    BaseModel,
+    ConfigDict,
+    Field,
+    StringConstraints,
+    model_validator,
+)
 
 
 NonEmptyText = Annotated[str, StringConstraints(strip_whitespace=True, min_length=1)]
@@ -21,6 +29,13 @@ class SourceFormat(str, Enum):
     TEXT = "text"
     MARKDOWN = "markdown"
     EPUB = "epub"
+    PDF_OCR = "pdf_ocr"
+
+
+class OcrState(str, Enum):
+    RENDERED = "rendered"
+    OCR_UNVERIFIED = "ocr_unverified"
+    OCR_REVIEWED = "ocr_reviewed"
 
 
 class EvidenceLevel(str, Enum):
@@ -104,8 +119,39 @@ class PromptExplorationRequest(BaseModel):
     user_supplied_threads: list[str] = Field(default_factory=list, max_length=10)
 
 
+class PdfOcrPageInput(BaseModel):
+    """One page of local OCR; never accepts a filesystem or image locator."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    pdf_page_index: int = Field(ge=0)
+    printed_page_label: str | None = Field(default=None, max_length=50)
+    ocr_state: OcrState
+    ocr_confidence: float | None = Field(
+        default=None,
+        ge=0,
+        le=100,
+        description="Page-level OCR confidence on a 0-100 percentage scale.",
+    )
+    content: str = Field(default="", max_length=100_000)
+
+    @model_validator(mode="after")
+    def _validate_ocr_state(self) -> PdfOcrPageInput:
+        readable = bool(self.content.strip())
+        if self.ocr_state is OcrState.RENDERED:
+            if readable or self.ocr_confidence is not None:
+                raise ValueError(
+                    "rendered PDF pages cannot carry OCR text or confidence"
+                )
+        elif not readable or self.ocr_confidence is None:
+            raise ValueError(
+                "OCR pages require readable content and ocr_confidence"
+            )
+        return self
+
+
 class ImportExplorationRequest(BaseModel):
-    content: str = Field(min_length=1, max_length=2_000_000)
+    content: str | None = Field(default=None, max_length=2_000_000)
     source_format: SourceFormat
     title: str | None = Field(default=None, max_length=300)
     author: str | None = Field(default=None, max_length=200)
@@ -114,7 +160,30 @@ class ImportExplorationRequest(BaseModel):
         max_length=300,
         description="User-supplied edition label; never inferred from the text.",
     )
+    pdf_checksum_sha256: Annotated[
+        str, StringConstraints(pattern=r"^[a-f0-9]{64}$")
+    ] | None = None
+    pdf_pages: list[PdfOcrPageInput] | None = Field(default=None, max_length=5_000)
     brief: ExplorationBrief = Field(default_factory=ExplorationBrief)
+
+    @model_validator(mode="after")
+    def _validate_source_payload(self) -> ImportExplorationRequest:
+        if self.source_format is SourceFormat.PDF_OCR:
+            if self.content is not None:
+                raise ValueError("PDF/OCR import uses pdf_pages instead of content")
+            if not self.pdf_checksum_sha256 or not self.pdf_pages:
+                raise ValueError(
+                    "PDF/OCR import requires pdf_checksum_sha256 and pdf_pages"
+                )
+            indices = [page.pdf_page_index for page in self.pdf_pages]
+            if len(indices) != len(set(indices)):
+                raise ValueError("PDF/OCR pdf_page_index values must be unique")
+        else:
+            if not self.content or not self.content.strip():
+                raise ValueError("Text and Markdown imports require readable content")
+            if self.pdf_checksum_sha256 is not None or self.pdf_pages is not None:
+                raise ValueError("PDF/OCR metadata is only valid for pdf_ocr imports")
+        return self
 
 
 class EpubImportRequest(BaseModel):
@@ -125,7 +194,7 @@ class EpubImportRequest(BaseModel):
         max_length=22_369_624,
         description=(
             "Base64 EPUB bytes for at most 16 MiB compressed input; decoded "
-            "bytes are kept in process memory only."
+            "bytes are written only to the local private source vault."
         ),
     )
     filename: str | None = Field(
@@ -144,12 +213,46 @@ class EpubImportRequest(BaseModel):
 
 
 class DocumentLocator(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
     source_format: SourceFormat
     section_index: int = Field(ge=0)
     paragraph_index: int = Field(ge=0)
     spine_index: int | None = Field(default=None, ge=0)
     href: str | None = Field(default=None, max_length=1000)
+    pdf_page_index: int | None = Field(default=None, ge=0)
+    printed_page_label: str | None = Field(default=None, max_length=50)
+    ocr_state: OcrState | None = None
+    ocr_confidence: float | None = Field(
+        default=None,
+        ge=0,
+        le=100,
+        description="Page-level OCR confidence on a 0-100 percentage scale.",
+    )
     progression_percent: float = Field(ge=0, le=100)
+
+    @model_validator(mode="after")
+    def _validate_format_locator(self) -> DocumentLocator:
+        pdf_values = (
+            self.pdf_page_index,
+            self.printed_page_label,
+            self.ocr_state,
+            self.ocr_confidence,
+        )
+        if self.source_format is SourceFormat.PDF_OCR:
+            if self.pdf_page_index is None or self.ocr_state is None:
+                raise ValueError(
+                    "PDF/OCR locators require pdf_page_index and ocr_state"
+                )
+            if self.ocr_state is OcrState.RENDERED:
+                raise ValueError("Paragraph anchors require completed OCR")
+            if self.ocr_confidence is None:
+                raise ValueError("OCR paragraph locators require ocr_confidence")
+            if self.spine_index is not None or self.href is not None:
+                raise ValueError("PDF/OCR locators cannot carry EPUB or path locators")
+        elif any(value is not None for value in pdf_values):
+            raise ValueError("PDF/OCR locator fields require source_format=pdf_ocr")
+        return self
 
 
 class ParagraphAnchor(BaseModel):
@@ -158,11 +261,16 @@ class ParagraphAnchor(BaseModel):
     ordinal: int = Field(ge=0)
     text: str
     anchor_kind: Literal["paragraph"] = "paragraph"
-    page_label: None = Field(
-        default=None,
-        description="No verified printed-page mapping exists; this stays null.",
-    )
+    page_label: str | None = Field(default=None, max_length=50)
     locator: DocumentLocator
+
+    @model_validator(mode="after")
+    def _mirror_printed_page_label(self) -> ParagraphAnchor:
+        expected = self.locator.printed_page_label
+        if self.page_label is not None and self.page_label != expected:
+            raise ValueError("page_label must match locator.printed_page_label")
+        self.page_label = expected
+        return self
 
 
 class DocumentSection(BaseModel):
@@ -182,6 +290,57 @@ class EpubMetadata(BaseModel):
     metadata_provenance: Literal["epub_opf"] = "epub_opf"
 
 
+class PdfOcrPageMetadata(BaseModel):
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    pdf_page_index: int = Field(ge=0)
+    printed_page_label: str | None = Field(default=None, max_length=50)
+    ocr_state: OcrState
+    ocr_confidence: float | None = Field(
+        default=None,
+        ge=0,
+        le=100,
+        description="Page-level OCR confidence on a 0-100 percentage scale.",
+    )
+    paragraph_anchor_ids: list[str] = Field(default_factory=list)
+
+    @model_validator(mode="after")
+    def _validate_page_state(self) -> PdfOcrPageMetadata:
+        if len(self.paragraph_anchor_ids) != len(set(self.paragraph_anchor_ids)):
+            raise ValueError("PDF/OCR paragraph_anchor_ids must be unique")
+        if self.ocr_state is OcrState.RENDERED:
+            if self.ocr_confidence is not None or self.paragraph_anchor_ids:
+                raise ValueError(
+                    "rendered PDF page metadata cannot reference OCR anchors"
+                )
+        elif self.ocr_confidence is None or not self.paragraph_anchor_ids:
+            raise ValueError(
+                "OCR page metadata requires confidence and paragraph anchors"
+            )
+        return self
+
+
+class PdfOcrMetadata(BaseModel):
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    pdf_checksum_sha256: Annotated[
+        str, StringConstraints(pattern=r"^[a-f0-9]{64}$")
+    ]
+    page_count: int = Field(ge=1)
+    pages: list[PdfOcrPageMetadata] = Field(min_length=1)
+
+    @model_validator(mode="after")
+    def _validate_pages(self) -> PdfOcrMetadata:
+        indices = [page.pdf_page_index for page in self.pages]
+        if self.page_count != len(self.pages):
+            raise ValueError("PDF/OCR page_count must match pages")
+        if len(indices) != len(set(indices)):
+            raise ValueError("PDF/OCR page metadata indices must be unique")
+        if indices != sorted(indices):
+            raise ValueError("PDF/OCR page metadata must be ordered by page index")
+        return self
+
+
 class PrivateDocument(BaseModel):
     id: str
     title: str
@@ -192,18 +351,67 @@ class PrivateDocument(BaseModel):
     char_count: int = Field(ge=1)
     section_count: int = Field(ge=1)
     paragraph_count: int = Field(ge=1)
-    retention: Literal["process_memory"] = "process_memory"
-    ephemeral: Literal[True] = True
+    retention: Literal["private_source_vault"] = "private_source_vault"
+    ephemeral: Literal[False] = False
     sections: list[DocumentSection]
     epub_metadata: EpubMetadata | None = None
+    pdf_ocr_metadata: PdfOcrMetadata | None = None
+
+    @model_validator(mode="after")
+    def _validate_format_metadata(self) -> PrivateDocument:
+        if self.source_format is SourceFormat.EPUB:
+            if self.epub_metadata is None or self.pdf_ocr_metadata is not None:
+                raise ValueError("EPUB documents require only epub_metadata")
+        elif self.source_format is SourceFormat.PDF_OCR:
+            if self.pdf_ocr_metadata is None or self.epub_metadata is not None:
+                raise ValueError("PDF/OCR documents require only pdf_ocr_metadata")
+        elif self.epub_metadata is not None or self.pdf_ocr_metadata is not None:
+            raise ValueError("Text documents cannot carry binary source metadata")
+        if self.source_format is SourceFormat.PDF_OCR:
+            assert self.pdf_ocr_metadata is not None
+            anchors = {
+                paragraph.id: paragraph
+                for section in self.sections
+                for paragraph in section.paragraphs
+            }
+            metadata_anchor_ids = [
+                anchor_id
+                for page in self.pdf_ocr_metadata.pages
+                for anchor_id in page.paragraph_anchor_ids
+            ]
+            if len(metadata_anchor_ids) != len(set(metadata_anchor_ids)):
+                raise ValueError("PDF/OCR metadata anchor IDs must be globally unique")
+            if set(metadata_anchor_ids) != set(anchors):
+                raise ValueError("PDF/OCR metadata must cover every paragraph anchor")
+            for page in self.pdf_ocr_metadata.pages:
+                for anchor_id in page.paragraph_anchor_ids:
+                    locator = anchors[anchor_id].locator
+                    if (
+                        locator.pdf_page_index != page.pdf_page_index
+                        or locator.printed_page_label != page.printed_page_label
+                        or locator.ocr_state != page.ocr_state
+                        or locator.ocr_confidence != page.ocr_confidence
+                    ):
+                        raise ValueError(
+                            "PDF/OCR page metadata does not match paragraph locator"
+                        )
+        return self
 
 
 class SourceLocator(BaseModel):
     document_id: str
     section_id: str
     paragraph_id: str
-    page_label: None = None
+    page_label: str | None = Field(default=None, max_length=50)
     document_locator: DocumentLocator
+
+    @model_validator(mode="after")
+    def _mirror_printed_page_label(self) -> SourceLocator:
+        expected = self.document_locator.printed_page_label
+        if self.page_label is not None and self.page_label != expected:
+            raise ValueError("page_label must match document_locator.printed_page_label")
+        self.page_label = expected
+        return self
 
 
 class Evidence(BaseModel):
@@ -251,8 +459,8 @@ class ArgumentGraph(BaseModel):
     id: NonEmptyText = Field(max_length=120)
     question: NonEmptyText = Field(max_length=2_000)
     scene_id: str | None = Field(default=None, max_length=120)
-    nodes: list[ArgumentGraphNode] = Field(min_length=6, max_length=24)
-    edges: list[ArgumentGraphEdge] = Field(min_length=5, max_length=60)
+    nodes: list[ArgumentGraphNode] = Field(min_length=2, max_length=24)
+    edges: list[ArgumentGraphEdge] = Field(min_length=1, max_length=60)
     review_status: ReviewStatus = ReviewStatus.PENDING
 
     @model_validator(mode="after")
@@ -264,12 +472,18 @@ class ArgumentGraph(BaseModel):
         if len(set(edge_ids)) != len(edge_ids):
             raise ValueError("Argument graph edge ids must be unique")
 
-        required_types = set(ArgumentNodeType)
+        # Different books expose different structures. Event narratives often
+        # need actions and consequences, while argumentative monographs may
+        # contain only observations, mechanisms, and qualifications. Requiring
+        # every visual node kind incentivised the model to fabricate missing
+        # steps. A limitation remains mandatory so every graph states its
+        # evidence boundary; source anchors are mandatory on every node.
+        required_types = {ArgumentNodeType.LIMITATION}
         present_types = {node.node_type for node in self.nodes}
         missing = sorted(item.value for item in required_types - present_types)
         if missing:
             raise ValueError(
-                f"Argument graph is missing required node types: {', '.join(missing)}"
+                f"Argument graph is missing required safety node types: {', '.join(missing)}"
             )
 
         known_nodes = set(node_ids)
@@ -420,11 +634,12 @@ class ExternalReadingBridge(BaseModel):
 
 
 class SessionBoundary(BaseModel):
-    storage: Literal["process_memory"] = "process_memory"
-    ttl_seconds: float = Field(gt=0)
-    max_sessions: int = Field(ge=1)
-    max_total_source_chars: int = Field(ge=1)
-    restart_clears_session: Literal[True] = True
+    storage: Literal["sqlite_control_plane_private_vault"] = (
+        "sqlite_control_plane_private_vault"
+    )
+    private_source_in_database: Literal[False] = False
+    restart_clears_session: Literal[False] = False
+    explicit_delete_required: Literal[True] = True
 
 
 class ExplorationSnapshot(BaseModel):
@@ -432,10 +647,10 @@ class ExplorationSnapshot(BaseModel):
     revision: int = Field(ge=1)
     created_at: datetime
     updated_at: datetime
-    retention: Literal["process_memory"] = "process_memory"
+    retention: Literal["private_source_vault"] = "private_source_vault"
     persistence_warning: Literal[
-        "Process restart clears this private exploration."
-    ] = "Process restart clears this private exploration."
+        "Stored locally until this exploration is explicitly deleted."
+    ] = "Stored locally until this exploration is explicitly deleted."
     session_boundary: SessionBoundary
     entry_mode: Literal["prompt", "book"]
     document: PrivateDocument | None = None
@@ -451,6 +666,57 @@ class ExplorationSnapshot(BaseModel):
     argument_graphs: list[ArgumentGraph] = Field(default_factory=list)
     composer_entries: list[ComposerEntry] = Field(default_factory=list)
     analysis_queue: list[AnalysisQueueItem] = Field(default_factory=list)
+
+
+class AnalysisRunCreateRequest(BaseModel):
+    """Create a durable plan; workers are dispatched outside the HTTP request."""
+
+    base_revision: int = Field(ge=1)
+
+
+class AnalysisWorkItemStatus(BaseModel):
+    id: str
+    pass_type: str
+    state: Literal[
+        "queued",
+        "running",
+        "retry_wait",
+        "succeeded",
+        "failed",
+        "cancelled",
+    ]
+    attempt_count: int = Field(ge=0)
+    max_attempts: int = Field(ge=1)
+    last_error_code: str | None = None
+
+
+class AnalysisRunStatus(BaseModel):
+    id: str
+    exploration_id: str
+    plan_id: str
+    plan_revision: int = Field(ge=1)
+    primary_book_type: str
+    state: Literal[
+        "planned",
+        "queued",
+        "running",
+        "retry_wait",
+        "paused",
+        "waiting_review",
+        "waiting_input",
+        "failed",
+        "cancelled",
+        "completed",
+    ]
+    cancel_requested: bool
+    dispatch: Literal["external_worker_required"] = "external_worker_required"
+    created_at: datetime
+    updated_at: datetime
+    work_items: list[AnalysisWorkItemStatus] = Field(default_factory=list)
+
+
+class AnalysisRunList(BaseModel):
+    items: list[AnalysisRunStatus] = Field(default_factory=list)
 
 
 class ComposeRequest(BaseModel):

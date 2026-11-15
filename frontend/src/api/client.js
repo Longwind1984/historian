@@ -133,7 +133,7 @@ export async function getMapStory(fromYear, toYear, limit = 1000) {
   return data
 }
 
-// === 私人书籍探索（进程内临时保存，不写入历史事实库）===
+// === 私人书籍探索（独立工作区，不写入历史事实库）===
 export function importExploration(payload) {
   return sendJson('/explorations/import', { body: payload })
 }
@@ -162,6 +162,39 @@ export function mutateExploration(id, payload) {
 
 export function deleteExploration(id) {
   return sendJson(`/explorations/${id}`, { method: 'DELETE' })
+}
+
+export function createExplorationAnalysisRun(id, baseRevision) {
+  return sendJson(`/explorations/${id}/analysis-runs`, {
+    body: { base_revision: baseRevision },
+  })
+}
+
+export async function listExplorationAnalysisRuns(id) {
+  const { data } = await api.get(`/explorations/${id}/analysis-runs`)
+  return data
+}
+
+export async function getExplorationAnalysisRun(id, runId) {
+  const { data } = await api.get(`/explorations/${id}/analysis-runs/${runId}`)
+  return data
+}
+
+export async function getExplorationAnalysisResult(id, runId) {
+  const { data } = await api.get(`/explorations/${id}/analysis-runs/${runId}/result`)
+  return data
+}
+
+export function submitExplorationAnalysisReview(id, runId, payload) {
+  return sendJson(`/explorations/${id}/analysis-runs/${runId}/review`, { body: payload })
+}
+
+export function cancelExplorationAnalysisRun(id, runId) {
+  return sendJson(`/explorations/${id}/analysis-runs/${runId}/cancel`)
+}
+
+export function resumeExplorationAnalysisRun(id, runId) {
+  return sendJson(`/explorations/${id}/analysis-runs/${runId}/resume`)
 }
 
 // === Wiki-style links ===

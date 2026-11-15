@@ -11,6 +11,7 @@ def _env_flag(name: str, default: bool = False) -> bool:
 
 
 class Settings:
+    repo_root: Path = Path(__file__).resolve().parents[3]
     data_dir: Path = Path(os.getenv("DATA_DIR", "/app/data"))
     schema_dir: Path = Path(os.getenv("SCHEMA_DIR", "/app/schema"))
     compiled_data_required: bool = _env_flag("COMPILED_DATA_REQUIRED")
@@ -26,6 +27,39 @@ class Settings:
         ).split(",")
         if o.strip()
     ]
+    exploration_state_dir: Path = Path(
+        os.getenv(
+            "EXPLORATION_STATE_DIR",
+            str(repo_root / "external_data" / "explorations"),
+        )
+    )
+    exploration_model_provider: str = os.getenv(
+        "EXPLORATION_MODEL_PROVIDER", "none"
+    ).strip()
+    exploration_model_base_url: str | None = (
+        os.getenv("EXPLORATION_MODEL_BASE_URL", "").strip() or None
+    )
+    exploration_model_api_key: str | None = (
+        os.getenv("EXPLORATION_MODEL_API_KEY", "").strip() or None
+    )
+    exploration_extract_model: str | None = (
+        os.getenv("EXPLORATION_EXTRACT_MODEL", "").strip() or None
+    )
+    exploration_synthesis_model: str | None = (
+        os.getenv("EXPLORATION_SYNTHESIS_MODEL", "").strip() or None
+    )
+    exploration_judge_model: str | None = (
+        os.getenv("EXPLORATION_JUDGE_MODEL", "").strip() or None
+    )
+    exploration_model_connect_timeout_seconds: float = float(
+        os.getenv("EXPLORATION_MODEL_CONNECT_TIMEOUT_SECONDS", "5")
+    )
+    exploration_model_total_timeout_seconds: float = float(
+        os.getenv("EXPLORATION_MODEL_TOTAL_TIMEOUT_SECONDS", "45")
+    )
+    exploration_worker_poll_seconds: float = float(
+        os.getenv("EXPLORATION_WORKER_POLL_SECONDS", "1")
+    )
 
 
 settings = Settings()

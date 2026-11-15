@@ -6,18 +6,26 @@ import {
   ANSHI_PUBLIC_SCENES,
 } from '../data/anshiPublicDemo'
 import {
+  cancelExplorationAnalysisRun,
   composeExploration,
+  createExplorationAnalysisRun,
   getExploration,
+  getExplorationAnalysisRun,
+  getExplorationAnalysisResult,
   importExploration,
   importExplorationEpub,
+  listExplorationAnalysisRuns,
   mutateExploration,
+  resumeExplorationAnalysisRun,
   startPromptExploration,
+  submitExplorationAnalysisReview,
 } from '../api/client'
 import { PRIVATE_EXPLORATIONS_ENABLED } from '../config/distribution'
 
 const STORAGE_KEY = 'history-kb-exploration-v1'
 const PLAY_STEP_MS = 2600
 let playbackTimer = 0
+let analysisPollTimer = 0
 let mutationChain = Promise.resolve()
 let paragraphIndexDocumentId = null
 let paragraphIndex = new Map()
@@ -54,8 +62,13 @@ const DEFAULT_SAMPLE_SCENE_INDEX = Math.max(
 const PERSISTED_FIELDS = [
   'workspaceKind', 'sampleDemoId', 'questionPrompt', 'sceneIndex', 'paragraphIndex', 'sourceTab',
   'readerView', 'thread', 'lens', 'selectedEvidenceId', 'rate', 'composerText',
-  'playerOpen', 'readingProgress', 'webProgressLabel', 'privateExplorationId',
+  'playerOpen', 'readingProgress', 'webProgressLabel', 'privateExplorationId', 'activeAnalysisRunId',
 ]
+
+const POLLED_ANALYSIS_STATES = new Set(['planned', 'queued', 'running', 'retry_wait'])
+const CANCELLABLE_ANALYSIS_STATES = new Set([
+  'planned', 'queued', 'running', 'retry_wait', 'paused', 'waiting_review', 'waiting_input',
+])
 
 function exactYear(scene) {
   return scene.year + (scene.month ? (scene.month - 1) / 12 : 0)
@@ -102,6 +115,14 @@ export const useExplorationStore = defineStore('exploration', {
     syncingWeb: false,
     importing: false,
     composing: false,
+    analysisRuns: [],
+    activeAnalysisRunId: null,
+    analysisRefreshing: false,
+    analysisAction: '',
+    analysisError: '',
+    analysisResult: null,
+    analysisReviewDecisions: {},
+    publishedAnalysisView: 'argument',
     apiError: '',
     companionNotice: '',
     hydrated: false,
@@ -116,6 +137,45 @@ export const useExplorationStore = defineStore('exploration', {
       ? EXPLORATION_PARAGRAPHS[state.paragraphIndex]
       : null,
     isPlaying: (state) => state.playbackStatus === 'playing',
+    activeAnalysisRun: (state) => state.analysisRuns.find((run) => run.id === state.activeAnalysisRunId)
+      || state.analysisRuns.at(-1)
+      || null,
+    canCancelAnalysis() {
+      return CANCELLABLE_ANALYSIS_STATES.has(this.activeAnalysisRun?.state)
+        && !this.activeAnalysisRun?.cancel_requested
+    },
+    canResumeAnalysis() {
+      return this.activeAnalysisRun?.state === 'cancelled'
+    },
+    analysisCandidateItems: (state) => [
+      ...(state.analysisResult?.artifacts?.claims || []).map((item) => ({ ...item, artifact_type: 'claim' })),
+      ...(state.analysisResult?.artifacts?.events || []).map((item) => ({ ...item, artifact_type: 'event' })),
+    ],
+    reviewDecisionComplete() {
+      return this.analysisCandidateItems.every((item) =>
+        ['accepted', 'rejected'].includes(this.analysisReviewDecisions[`${item.artifact_type}:${item.id}`]))
+    },
+    reviewDependencyError() {
+      if (!this.reviewDecisionComplete) return ''
+      const acceptedClaims = new Set(this.analysisCandidateItems
+        .filter((item) => item.artifact_type === 'claim'
+          && this.analysisReviewDecisions[`claim:${item.id}`] === 'accepted')
+        .map((item) => item.id))
+      for (const item of this.analysisCandidateItems) {
+        const accepted = this.analysisReviewDecisions[`${item.artifact_type}:${item.id}`] === 'accepted'
+        if (!accepted) continue
+        const parents = item.artifact_type === 'claim' ? item.derived_from_claim_ids : item.claim_ids
+        if ((parents || []).some((id) => !acceptedClaims.has(id))) {
+          return item.artifact_type === 'claim'
+            ? '接受平台推断前，需先接受它依据的 Claim'
+            : '接受事件前，需先接受它引用的 Claim'
+        }
+      }
+      return ''
+    },
+    reviewReady() {
+      return this.reviewDecisionComplete && !this.reviewDependencyError
+    },
     importedSections: (state) => state.snapshot?.document?.sections || [],
     importedParagraphs: (state) => (state.snapshot?.document?.sections || [])
       .flatMap((section) => section.paragraphs || []),
@@ -195,7 +255,9 @@ export const useExplorationStore = defineStore('exploration', {
         this.applyImportedAnchor(snapshot.active_anchor_id || this.firstImportedParagraph?.id || null)
         this.applyReadingProgress(snapshot)
         this.applyExternalReadingBridge(snapshot)
-        this.composerNotice = '已恢复当前后端进程中的私人阅读会话'
+        await this.refreshAnalysisRuns({ silent: true })
+        this.startAnalysisPolling()
+        this.composerNotice = '已恢复私人阅读会话'
         return true
       } catch (error) {
         if (error?.status === 404 || error?.response?.status === 404) {
@@ -299,6 +361,7 @@ export const useExplorationStore = defineStore('exploration', {
     closeLogicNode() { this.selectedLogicNode = null },
     openEntry() {
       this.pause()
+      this.stopAnalysisPolling()
       if (!PRIVATE_EXPLORATIONS_ENABLED) {
         this.openSample()
         return
@@ -306,7 +369,10 @@ export const useExplorationStore = defineStore('exploration', {
       this.entryOpen = true
     },
     continueWorkspace() {
-      if (this.hasWorkspace) this.entryOpen = false
+      if (this.hasWorkspace) {
+        this.entryOpen = false
+        this.startAnalysisPolling()
+      }
     },
     async startQuestion(prompt) {
       const value = String(prompt || '').trim()
@@ -320,6 +386,7 @@ export const useExplorationStore = defineStore('exploration', {
       this.range = '范围待确认'
       this.snapshot = null
       this.privateExplorationId = null
+      this.resetAnalysisState()
       this.companionNotice = ''
       this.questionSyncState = 'starting'
       this.selectedAnchorId = 'question'
@@ -356,6 +423,7 @@ export const useExplorationStore = defineStore('exploration', {
       this.range = ANSHI_PUBLIC_DEMO.range
       this.snapshot = null
       this.privateExplorationId = null
+      this.resetAnalysisState()
       this.companionNotice = ''
       this.questionSyncState = 'idle'
       this.activeImportedAnchorId = null
@@ -387,6 +455,198 @@ export const useExplorationStore = defineStore('exploration', {
       this.playbackStatus = 'paused'
       clearInterval(playbackTimer)
       playbackTimer = 0
+    },
+    stopAnalysisPolling() {
+      clearTimeout(analysisPollTimer)
+      analysisPollTimer = 0
+    },
+    resetAnalysisState() {
+      this.stopAnalysisPolling()
+      this.analysisRuns = []
+      this.activeAnalysisRunId = null
+      this.analysisRefreshing = false
+      this.analysisAction = ''
+      this.analysisError = ''
+      this.analysisResult = null
+      this.analysisReviewDecisions = {}
+      this.publishedAnalysisView = 'argument'
+    },
+    upsertAnalysisRun(run) {
+      if (!run?.id) return
+      if (this.activeAnalysisRunId && this.activeAnalysisRunId !== run.id) {
+        this.analysisResult = null
+        this.analysisReviewDecisions = {}
+      }
+      const index = this.analysisRuns.findIndex((item) => item.id === run.id)
+      if (index >= 0) this.analysisRuns.splice(index, 1, run)
+      else this.analysisRuns.push(run)
+      this.activeAnalysisRunId = run.id
+    },
+    scheduleAnalysisPoll() {
+      this.stopAnalysisPolling()
+      const shouldPoll = POLLED_ANALYSIS_STATES.has(this.activeAnalysisRun?.state)
+        || (this.activeAnalysisRun?.state === 'waiting_review' && this.analysisResult?.review_submitted)
+      if (!shouldPoll) return
+      analysisPollTimer = window.setTimeout(async () => {
+        await this.refreshActiveAnalysisRun({ silent: true })
+        this.scheduleAnalysisPoll()
+      }, 1800)
+    },
+    startAnalysisPolling() {
+      if (!PRIVATE_EXPLORATIONS_ENABLED || !this.snapshot?.id) return
+      this.scheduleAnalysisPoll()
+    },
+    async refreshAnalysisRuns({ silent = false } = {}) {
+      if (!PRIVATE_EXPLORATIONS_ENABLED || !this.snapshot?.id || this.isSampleWorkspace) return false
+      if (!silent) this.analysisRefreshing = true
+      this.analysisError = ''
+      try {
+        const result = await listExplorationAnalysisRuns(this.snapshot.id)
+        this.analysisRuns = Array.isArray(result?.items) ? result.items : []
+        const activeStillExists = this.analysisRuns.some((run) => run.id === this.activeAnalysisRunId)
+        if (!activeStillExists) this.activeAnalysisRunId = this.analysisRuns.at(-1)?.id || null
+        if (['waiting_review', 'completed'].includes(this.activeAnalysisRun?.state)) {
+          await this.refreshAnalysisResult({ silent: true })
+        }
+        this.scheduleAnalysisPoll()
+        return true
+      } catch (error) {
+        this.analysisError = error?.response?.data?.detail || '分析状态暂时无法读取'
+        return false
+      } finally {
+        if (!silent) this.analysisRefreshing = false
+      }
+    },
+    async refreshActiveAnalysisRun({ silent = false } = {}) {
+      const runId = this.activeAnalysisRunId
+      if (!PRIVATE_EXPLORATIONS_ENABLED || !this.snapshot?.id || !runId) return false
+      if (!silent) this.analysisRefreshing = true
+      this.analysisError = ''
+      try {
+        const run = await getExplorationAnalysisRun(this.snapshot.id, runId)
+        this.upsertAnalysisRun(run)
+        if (['waiting_review', 'completed'].includes(run.state)) {
+          await this.refreshAnalysisResult({ silent: true })
+        }
+        return true
+      } catch (error) {
+        this.analysisError = error?.response?.data?.detail || '分析状态暂时无法读取'
+        return false
+      } finally {
+        if (!silent) this.analysisRefreshing = false
+      }
+    },
+    async createAnalysisRun() {
+      if (!PRIVATE_EXPLORATIONS_ENABLED || !this.snapshot?.id || this.isSampleWorkspace) return false
+      this.analysisAction = 'creating'
+      this.analysisError = ''
+      try {
+        const run = await createExplorationAnalysisRun(this.snapshot.id, this.snapshot.revision)
+        this.analysisResult = null
+        this.analysisReviewDecisions = {}
+        this.upsertAnalysisRun(run)
+        this.composerNotice = '已创建分析任务；等待独立 worker 处理'
+        this.scheduleAnalysisPoll()
+        return true
+      } catch (error) {
+        this.analysisError = error?.response?.data?.detail || '无法创建深度分析'
+        return false
+      } finally {
+        this.analysisAction = ''
+      }
+    },
+    async cancelAnalysisRun() {
+      const runId = this.activeAnalysisRun?.id
+      if (!this.snapshot?.id || !runId || !this.canCancelAnalysis) return false
+      this.analysisAction = 'cancelling'
+      this.analysisError = ''
+      try {
+        const run = await cancelExplorationAnalysisRun(this.snapshot.id, runId)
+        this.upsertAnalysisRun(run)
+        this.stopAnalysisPolling()
+        return true
+      } catch (error) {
+        this.analysisError = error?.response?.data?.detail || '取消失败'
+        return false
+      } finally {
+        this.analysisAction = ''
+      }
+    },
+    async resumeAnalysisRun() {
+      const runId = this.activeAnalysisRun?.id
+      if (!this.snapshot?.id || !runId || !this.canResumeAnalysis) return false
+      this.analysisAction = 'resuming'
+      this.analysisError = ''
+      try {
+        const run = await resumeExplorationAnalysisRun(this.snapshot.id, runId)
+        this.upsertAnalysisRun(run)
+        this.scheduleAnalysisPoll()
+        return true
+      } catch (error) {
+        this.analysisError = error?.response?.data?.detail || '恢复失败'
+        return false
+      } finally {
+        this.analysisAction = ''
+      }
+    },
+    async refreshAnalysisResult({ silent = false } = {}) {
+      const runId = this.activeAnalysisRunId
+      if (!PRIVATE_EXPLORATIONS_ENABLED || !this.snapshot?.id || !runId) return false
+      if (!silent) this.analysisRefreshing = true
+      this.analysisError = ''
+      try {
+        const result = await getExplorationAnalysisResult(this.snapshot.id, runId)
+        const previousToken = this.analysisResult?.review_token
+        this.analysisResult = result
+        this.upsertAnalysisRun(result.status)
+        if (previousToken && previousToken !== result.review_token) this.analysisReviewDecisions = {}
+        return true
+      } catch (error) {
+        this.analysisError = error?.response?.data?.detail || '分析结果暂时无法读取'
+        return false
+      } finally {
+        if (!silent) this.analysisRefreshing = false
+      }
+    },
+    setAnalysisReviewDecision(artifactType, artifactId, decision) {
+      if (!['claim', 'event'].includes(artifactType) || !['accepted', 'rejected'].includes(decision)) return
+      this.analysisReviewDecisions = {
+        ...this.analysisReviewDecisions,
+        [`${artifactType}:${artifactId}`]: decision,
+      }
+    },
+    async submitAnalysisReview() {
+      const run = this.activeAnalysisRun
+      const result = this.analysisResult
+      if (!this.snapshot?.id || !run?.id || !result?.review_token || result.review_submitted) return false
+      if (!this.reviewReady) {
+        this.analysisError = '请先逐项接受或拒绝所有候选'
+        if (this.reviewDependencyError) this.analysisError = this.reviewDependencyError
+        return false
+      }
+      this.analysisAction = 'reviewing'
+      this.analysisError = ''
+      try {
+        const decisions = this.analysisCandidateItems.map((item) => ({
+          artifact_type: item.artifact_type,
+          artifact_id: item.id,
+          decision: this.analysisReviewDecisions[`${item.artifact_type}:${item.id}`],
+        }))
+        const next = await submitExplorationAnalysisReview(this.snapshot.id, run.id, {
+          review_token: result.review_token,
+          decisions,
+        })
+        this.analysisResult = next
+        this.upsertAnalysisRun(next.status)
+        this.composerNotice = '复核决定已提交；等待 worker 生成发布投影'
+        this.scheduleAnalysisPoll()
+        return true
+      } catch (error) {
+        this.analysisError = error?.response?.data?.detail || '复核提交失败'
+        return false
+      } finally {
+        this.analysisAction = ''
+      }
     },
     start() {
       if (this.sceneIndex >= EXPLORATION_SCENES.length - 1) this.selectScene(0)
@@ -437,6 +697,7 @@ export const useExplorationStore = defineStore('exploration', {
         this.workspaceKind = 'document'
         this.privateExplorationId = this.snapshot.id
         this.companionNotice = ''
+        this.resetAnalysisState()
         this.questionSyncState = 'idle'
         this.entryOpen = false
         this.title = this.snapshot.document.title
@@ -475,6 +736,7 @@ export const useExplorationStore = defineStore('exploration', {
         this.workspaceKind = 'document'
         this.privateExplorationId = this.snapshot.id
         this.companionNotice = ''
+        this.resetAnalysisState()
         this.questionSyncState = 'idle'
         this.entryOpen = false
         this.title = this.snapshot.document.title

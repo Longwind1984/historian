@@ -1,6 +1,6 @@
 {
-  "_readme": "交接文档。写给接手的人（或三个月后没有上下文的我）。2026-07-31 由 Codex 滚动校正：v1.4.0 朋友分享版以《安史之乱》九幕受限 Demo 为公开入口，稳定 URL 为 #route=explore&demo=anshi；公开前端与 EdgeOne 云函数均关闭无账户隔离的 Prompt / 上传接口，本地 scripts/dev.sh 继续开放。普通移动端补齐阅读/论证/时空/证据（问题工作区为范围），切换工作区会回到合理默认页；论证节点回到受限锚点后会展开章节级来源说明并可复制公开定位，不下发原文或私有 locator。可重建的 external_data 上游原始包不进入公开 GitHub，实际本机文件保留。公开源码目标为 https://github.com/Longwind1984/historian；EdgeOne 现网仍是 v1.3.0 / 52b2f002，本轮没有获得或执行线上部署授权。Chrome Companion 仍只连接 127.0.0.1:5173 的 unpacked 本地 beta。真实 LLM、账户级持久化、PDF/OCR、通用公开投影与正式库晋升仍未实现。更老叙事见 WORKLOG.md 与 docs/。",
-  "generated_at": "2026-07-31",
+  "_readme": "交接文档。写给接手的人（或三个月后没有上下文的我）。2026-08-01 由 Codex 滚动校正：v1.4.0 公开层仍以《安史之乱》九幕受限 Demo 为入口，公网私人 API 继续关闭；本地书籍后端已从进程内队列升级为 private vault + SQLite control plane + 独立 worker。七类 BookProfile 会编译有界 DAG，候选经过质量门和逐项人工接受/拒绝后才进入论证、时间、地图、洞见投影。模型默认 provider=none，未调用会形成 Gap，不伪造分析结果。当前已完成可靠性骨架，不等于真实模型内容质量已验收：provider benchmark、gold set、跨章深综合、专属人物/史料产物、多租户和 PDF/OCR 仍未完成。可重建的 external_data 上游原始包不进入公开 GitHub，实际本机文件保留；EdgeOne 现网仍是 v1.3.0 / 52b2f002，本轮没有获得或执行线上部署授权。更老叙事见 WORKLOG.md 与 docs/。",
+  "generated_at": "2026-08-01",
   "repo": "/Users/rick/ZCodeProject/history-kb",
   "branch_state": {
     "active_branch": "main（本地完整历史）＋ GitHub main（v1.4.0 公开首发的干净根历史）；精确提交与 remote 状态见 git log -1 / git remote -v。",
@@ -15,18 +15,19 @@
   },
   "project": {
     "what": "中国通史互动知识库：既有时间柱、可播放地图与谱系星图；探索模块现在可从历史问题或私人书籍进入，把范围合同、连续阅读、作者论证、Scene、地图与关系化证据放进同一个可逆探索",
-    "stack": "Vue3 + Pinia + Vite + MapLibre GL 4.7 / FastAPI / YAML 数据源（无数据库）",
+    "stack": "Vue3 + Pinia + Vite + MapLibre GL 4.7 / FastAPI / 公开 YAML+GeoJSON 只读底座 / 私人探索 SQLite+private vault+独立 worker",
     "scale": "entities=7396, relations=10277（validate errors=0 warnings=19201；孤儿实体 82）",
     "atlas": "谭其骧图集「古」底图按年换幅：年代表 28 幅（汉两期/三国/西晋/东晋/前秦/北魏/西魏/北周北齐陈/隋/唐三期/五代/北宋辽/金南宋两期/明两期/清两期 + 史前至秦 7 幅），自托管瓦片 z2-z6；当前 29 个目录 / 5023 PNG，签名扫描全通过；元与新莽显式兜底「该年代图幅待补」"
   },
   "how_to_run": {
-    "preview_一体化": "cd frontend && npm run dev —— vite 插件 backend-autostart 探测 proxy 目标，无后端时经 scripts/run-backend.sh 拉起；环境顺序固定为 backend/.venv → 根 .venv → requirements.txt 约束的 uv 隔离环境，绝不借父项目 venv。SIGTERM 级联退出。",
+    "preview_一体化": "scripts/dev.sh —— 同时启动绑定 127.0.0.1 的 backend :8000、独立 exploration worker 与 frontend :5173，Ctrl-C 级联退出；环境顺序固定为 backend/.venv → 根 .venv → requirements.txt 约束的 uv 隔离环境，绝不借父项目 venv。",
     "manual_backend": "scripts/run-backend.sh --host 127.0.0.1 --port 8002",
+    "manual_exploration_worker": "scripts/run-exploration-worker.sh；必须与后端共享 EXPLORATION_STATE_DIR。默认 EXPLORATION_MODEL_PROVIDER=none；openai_compatible 只有 endpoint/key/三个能力模型都配置时才调用。",
     "backend_gotcha": "scripts/run-backend.sh 自动把 DATA_DIR/SCHEMA_DIR 指向仓库 data/schema，并依次使用 backend/.venv、根 .venv、requirements.txt 约束的 uv 隔离环境；绕过脚本直接起 uvicorn 时必须显式设置这两个路径，否则容器默认值 /app/data 会让本地 API 静默为空。后台常驻时还应妥善处理 stdout/stderr，避免管道无人读取。",
     "e2e": "cd frontend && npm run test:e2e。Playwright webServer 冷启动 backend :8002 + frontend :5174，reuseExistingServer=false，超时 120s，结束自动回收；系统 Chrome，无需下载浏览器。",
     "test": "uv run --with-requirements backend/requirements-dev.txt python -m pytest backend/tests -q（runtime 与 test 依赖分离；pytest/httpx 精确锁定）",
     "validate": "uv run --with-requirements backend/requirements.txt python scripts/validate_data.py → errors=0（系统 python3 不保证安装 yaml/pydantic，要走 uv 或仓库 venv）",
-    "exploration_v4_production": "朋友分享用 http://127.0.0.1:5173/#route=explore&demo=anshi；生产构建默认直接进入受限 Demo，前端不显示 Prompt/上传，EdgeOne 云函数不注册 /explorations/*。本地 scripts/dev.sh 显式开放私人能力，#route=explore 仍从历史 Prompt 或 TXT/Markdown/EPUB 真空入口开始；后端会话只在当前进程内，重启即清除。Chrome Companion 继续以 chrome://extensions 手动加载 extensions/weread-companion，仅供本地伴读。",
+    "exploration_v4_production": "朋友分享用 http://127.0.0.1:5173/#route=explore&demo=anshi；生产构建默认直接进入受限 Demo，前端不显示 Prompt/上传，EdgeOne 云函数不注册 /explorations/*。本地 scripts/dev.sh 显式开放私人能力，#route=explore 可导入 TXT/Markdown/EPUB；原文件只在 private vault，SQLite 保存脱敏控制状态并可跨重启恢复。Chrome Companion 继续以 chrome://extensions 手动加载 extensions/weread-companion，仅供本地伴读。",
     "exploration_v4_prototype": "cd prototypes/exploration-v4 && npm run dev -- --host 127.0.0.1 --port 4173 --strictPort；构建用 npm run build，Sites 包装合同用 npm run test:sites。此目录是隔离 React/Vite 产品原型，不是生产 frontend。",
     "build": "根目录 npm run build：先运行 validate_data.py（errors 必须为 0），再构建完整前端并生成 edgeone-dist/；发布产物可重建且不入 Git。仅构建前端可用 cd frontend && npm run build。",
     "build_safe": "根目录 npm run build:safe：生成独立 edgeone-dist-safe/，排除 chgis_*.geojson、tiles/atlas 与“古”底图能力；前端 marker 与 Python profile 双向校验，错配即失败。根 edgeone.json 仍默认 full；safe 只按预构建成品直接上传，未验证平台源码构建的多 profile 选择，且本命令不发布。",
@@ -34,11 +35,11 @@
     "tile_fetch": "uv run python3 scripts/fetch_atlas_tiles.py --sheets <id,逗号分隔>（幂等；--probe <sid> 拼 z5 预览图认图；单 URL 不重试，8s 超时并按主机熔断）。2026-07-22 计划内 15 幅均补齐 z2-z6；mp03db/mp03dd/mp0503/mp053d/mp053e 本轮标准 BBOX 计划各 172/172，另保留 7 个边缘扩展瓦片，所以本地各 179。幂等复跑标准计划 860 skipped / 0 failed。外部 tile.osgeo.cn 可用性不可控，失败时保留已有文件并择机再跑，不绕过熔断。抓取后直接请求目标瓦片核验；若旧进程 404，先核对其 DATA_DIR、代码与挂载。"
   },
   "verified_baselines": {
-    "pytest": "223 passed + 1 skipped / 11.50s（2026-07-31；含 EdgeOne 公开运行时、构建 marker 双门禁与前后端版本一致性回归）",
-    "validate": "entities=7396 / relations=10277 / errors=0 / warnings=19201 / 8.37s（2026-07-31 v1.4.0 最终构建；孤儿实体 82；未删除、隐藏或降级既有 warning）",
-    "vite_build": "v1.4.0 full（Vite 6.4.3）：220 modules / 1.72s，ExplorationView 55.00 kB / gzip 18.73 kB，ExploreMapPanel 16.43 kB / gzip 5.82 kB；npm audit 为 0 vulnerabilities，既有 seed / maplibre-gl 大 chunk warning 未变化。full EdgeOne 5129 files / 134.30 MB；safe 88 files / 5.42 MB / atlas 0。生产 marker 强制 private_explorations_enabled=false。",
+    "pytest": "271 passed + 1 skipped / 12.61s（2026-08-01；新增 v6 合同、SQLite runtime、恢复幂等、模型网关、review gate、独立 worker 与 API 回归）",
+    "validate": "entities=7396 / relations=10277 / errors=0 / warnings=19201 / 4.02s（2026-08-01；孤儿实体 82；未删除、隐藏或降级既有 warning）",
+    "vite_build": "v1.4.0 full（Vite 6.4.3）：221 modules / 1.77s，ExplorationView 64.32 kB / gzip 21.70 kB，ExploreMapPanel 16.43 kB / gzip 5.82 kB；复核面板仍为按需探索 chunk、无新增前端依赖，既有 seed / maplibre-gl 大 chunk warning 未变化。生产 marker 强制 private_explorations_enabled=false。",
     "docker": "部署定稿 9b5b38f；等价隔离拓扑真实 build/run 通过：frontend Node22 production build 197 modules / 2.67s，backend stats=7396/10266，schema/entities、nginx -t、同源 API、瓦片 PNG、只读挂载与无 reload 合同均通过；临时资源已清理。本机 CLI 29.6.1/server 29.5.2，无 Compose/buildx，故 scripts/up.sh 本机按设计清晰失败。",
-    "e2e": "v1.4.0 全站 Playwright：123 passed + 2 skipped / 12.5m；生产 demo-only 专项 1/1，safe profile 专项 1/1。Chrome Companion Node 12/12。一体化浏览器复验桌面与 390px 移动阅读/论证/证据无横向溢出，API 与地图瓦片 200，console error/warning=0。",
+    "e2e": "v1.4.0 全站 Playwright：125 passed + 2 skipped / 12.6m；新增分析取消/恢复、waiting_review、逐项接受/拒绝、NoModel 空候选与投影闭环。生产 demo-only 与 safe profile 同套件继续通过。",
     "edgeone_profiles": "full：34 GeoJSON、18 个 CHGIS 文件、5023 atlas PNG、5129 files / 134.30 MB；safe：16 GeoJSON、0 CHGIS、0 atlas、88 files / 5.42 MB。两者前端 marker 均要求 private_explorations_enabled=false；云函数不注册私人探索路由。",
     "production": "v1.3.0 / 52b2f002，EdgeOne Production 部署 dpmr9bplyfcq。2026-07-23 复验：首页、release.json、API 7396/10277、真实古地图瓦片 26056 bytes 均通过；浏览器实看来源署名、地图播放 0/169→64/169 与 710 年唐隆政变简介联动、图谱/星云/时空柱三态均正常，console error=0。",
     "browser_limit": "Chrome 单元素高度上限实测 33,554,428px（2^25），scrollTop=12,000,000 精确生效——日档内高 12,057,172px 有 2.8 倍余量",
@@ -104,12 +105,13 @@
     "Chrome Companion 本地 beta → 已完成：跨站微信读书 iframe 正式退出；MV3 Side Panel 只连接 127.0.0.1:5173，用户两次主动操作后才把最多 2,000 字选区写入当前 revision。权限仅 sidePanel + weread.qq.com；消息有 source/origin/字段/ACK 白名单、防重放与清理合同，私人会话只持久化 ID。Extension 12/12、Companion + 探索 v5 E2E 9/9、build 通过；真实 Chrome 420×800 论证/时空/出处 QA 通过。扩展安装仍需用户在 chrome://extensions 手动执行；未发布。"
   ],
   "next_task": {
-    "id": "exploration-v4-llm-persistence",
-    "title": "把诚实基础版接上真实编织与可恢复探索",
-    "state": "v1.4.0 公开朋友分享层已经建立：稳定 Demo URL、移动端论证与动态范围/证据、可展开的受限来源说明、生产前后端 demo-only 双门禁均可运行。GitHub 公开仓库采用不含 external_data 与旧超大 blob 的干净首发历史；EdgeOne 现网仍停在 v1.3.0。后端私人会话仍只存在单进程内存，deep analysis 只生成 needs_model/not_called 合同，不调用模型，也没有账户级恢复；因此这些能力只在 scripts/dev.sh 本地模式开放。Companion 线上版在固定扩展 ID、生产 origin/frame-ancestors、账户隔离和隐私披露前保持关闭。",
+    "id": "exploration-v6-model-quality",
+    "title": "用真实 benchmark 提升拆书质量，不绕过来源与人工复核",
+    "state": "本地 v6 已具备可恢复的 private vault、SQLite runtime、七类书型计划、独立 worker、schema-first model gateway、candidate quality gate、逐项人工复核与四类 reviewed-only 投影。真实 provider 尚未配置或验收，默认 NoModel 只产生 Gap；跨章深综合、丰富人物指代/史料边界产物、gold set 和公网外证仍未完成。公开 v1.4.0 Demo 与私人 pipeline 继续分层，EdgeOne 现网仍停在 v1.3.0。",
     "then": [
-      "下一轮为真实 LLM 增加分批拆解、渐进骨架、引用审计、取消/重试与成本状态，并把探索快照持久化到明确的私人存储边界；模型和存储选型属于会产生费用或隐私差异的产品/技术决策，实施前提供可预览状态和实际成本边界",
-      "随后补 EPUB CFI/版本/页码绑定、按章按需服务和外部材料核对；PDF/OCR、微信读书官方同步能力与正式库晋升继续保持后置",
+      "选择第一批真实 provider 前，先用公开或本地可控的 gold corpus 建立 claim 支持率、引用正确率、事件/时间/地点解析和跨章过度综合的基线，并给出单本成本与延迟 benchmark",
+      "在同一合同下扩充跨章 synthesis、人物指代、史料边界与 reference 产物；不以一个总 Agent 或自报 confidence 替代可归因质量门",
+      "随后补 EPUB CFI/版本/页码绑定、按章按需服务和获授权的外部材料核对；PDF/OCR、正式库晋升与多租户托管继续保持后置",
       "内容完整性维护继续沿用高置信证据口径，不以清零指标为目标，不猜人物地点、不制造弱关系",
       "needs-verification：若要补北宋/金政治边界，需另找权威分国矢量源或人工数字化谭图。已核 CHGIS DBF 无 polity 字段，3,062 条记录只能按年中性展示，不能诚实导出分国边界；当前「古」底图已有谭其骧栅格展示"
     ]
@@ -131,13 +133,13 @@
       "severity": "medium"
     },
     {
-      "what": "本地私人 Exploration 只在单个后端进程内存中保存，尚不可跨重启或跨 worker 恢复",
-      "detail": "当前有 64 会话容量、6 小时 TTL、旧会话淘汰、revision 乐观并发与显式 DELETE；这些边界可以避免无界内存和误覆盖，但不是持久化。公开构建已完全关闭相关 UI 与 API；未来若要对外开放，必须先接入明确的私人存储、身份与会话隔离。",
+      "what": "本地私人 Exploration 已持久化，但尚不是多用户托管边界",
+      "detail": "private vault + SQLite control plane 已支持跨重启恢复、独立 worker、幂等、取消/重试与显式 DELETE；当前仍无 auth/tenant、加密对象存储、配额和删除回执，所以公开构建继续关闭私人 UI 与 API。",
       "severity": "medium"
     },
     {
-      "what": "探索 compose / deep analysis 仍不调用真实 LLM",
-      "detail": "问题仍标记 recorded_no_llm；deep analysis 现在会生成 book_argument_graph.v1 的 needs_model/not_called Prompt 合同，包含 locator、认识论层级、guardrails 和输出 Schema，但 candidate_output 仍为空。真实模型运行、引用审计、取消/重试和成本状态仍待实现。",
+      "what": "探索 deep analysis 尚未完成真实 provider 内容质量验收",
+      "detail": "schema-first model gateway、超时、Gap、引用审计、人工复核和投影骨架已实现；默认 provider=none，因此不会调用外部模型。下一阶段需要用 gold set 实测模型质量、单本成本与延迟，不能把 deterministic fixture 或 NoModel Gap 当成分析效果。",
       "severity": "medium"
     },
     {
@@ -232,13 +234,15 @@
     "frontend/src/views/ExplorationView.vue": "生产探索工作台：真空入口、Prompt/书籍共用布局、桌面可调三栏与 Brief/论证/地图纵向分区；普通移动端为阅读/时空/出处，companion 窄栏为论证/时空/出处",
     "frontend/src/components/exploration/ExplorationEntry.vue": "单一历史 Prompt 主入口；显式“上传本地书籍”按钮打开 TXT/Markdown/EPUB 专用弹层，并展示可继续探索与《安史之乱》公开受限示例",
     "frontend/src/data/anshiPublicDemo.js": "《安史之乱》公开投影：9 个 Scene 与 9 个稳定 restricted 锚点；只含原创衍生摘要、已核地点与权利状态，不含原文、私有 locator 或本机信息",
-    "frontend/src/stores/useExplorationStore.js": "问题、示例与私人导入共用的 Exploration/Scene 状态；负责范围合同、章节索引、revision 串行进度、播放、手动桥与 companion selection 写入/ID 恢复",
+    "frontend/src/stores/useExplorationStore.js": "问题、示例与私人导入共用状态；负责范围合同、阅读进度、analysis run 轮询、取消/恢复、逐项复核决定与 reviewed projection 入口",
     "frontend/src/composables/useWereadCompanionBridge.js": "严格的 Side Panel postMessage 接收器：companion query、origin/source、字段长度、ACK 白名单与有界防重放",
     "extensions/weread-companion/": "Chrome MV3 Side Panel 本地 beta：精确单域权限、用户主动选区捕获、内存预览、二次确认、sandbox/CSP 和协议测试",
     "contracts/weread-companion/v1-example.json": "扩展生产者与网页消费者共用的 v1 消息合同 fixture",
     "frontend/src/components/exploration/ExploreMapPanel.vue": "探索地图：1908 历史参考层、无地点清理、中性材料 hub 到地点的连续 GeoJSON Bézier fan-out、主题与手动暂停",
-    "backend/app/services/exploration_service.py": "Prompt/TXT/Markdown/EPUB 的有界进程内会话、安全 EPUB 解析、段落 locator、TTL/容量、revision 并发和认识论状态边界",
-    "backend/app/api/explorations.py": "Exploration from-prompt/import/get/delete/compose/mutations API",
+    "backend/app/services/exploration_service.py": "Prompt/TXT/Markdown/EPUB 安全解析、段落 locator、private vault facade、revision 并发与 analysis run API 兼容层",
+    "backend/app/api/explorations.py": "Exploration import/get/delete/compose/mutations + analysis run/status/result/review/cancel/resume API",
+    "backend/app/exploration/": "v6 领域合同、形态信号、书型画像、计划、SQLite runtime、独立 worker、模型网关、专业 pass、质量门与四类投影",
+    "docs/backend-system-flow.md": "当前实际技术架构、私有数据边界、运行状态机与产品流程图；区分已接通、合同已接和未完成",
     "frontend/e2e/exploration.spec.js": "深度衍生示例、私人导入、材料 fan-out、逻辑回跳、播放与移动三视图合同",
     "frontend/e2e/exploration-v5.spec.js": "真空入口、Prompt hydration/失败草案、EPUB 二进制 adapter/章节窗口、微信读书顶层打开与手动桥兜底",
     "frontend/e2e/weread-companion.spec.js": "companion origin/source/长度、无工作区、sample local-only、窄栏论证、私人 revision/恢复/防重放与 404 合同",

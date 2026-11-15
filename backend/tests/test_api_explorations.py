@@ -1,4 +1,5 @@
 """Private book exploration API contracts."""
+
 from __future__ import annotations
 
 import base64
@@ -13,7 +14,11 @@ from app.schemas.exploration import (
     EpubImportRequest,
     ImportExplorationRequest,
     SourceFormat,
+    PrivateDocument,
 )
+from app.exploration.planning import compile_analysis_plan
+from app.exploration.profiling import build_book_profile
+from app.exploration.signals import derive_document_signals
 from app.services.exploration_service import (
     ExplorationNotFound,
     ExplorationStore,
@@ -131,16 +136,15 @@ def test_import_markdown_builds_private_paragraph_anchors_without_pages(client):
     snapshot = _import_markdown(client)
 
     assert snapshot["revision"] == 1
-    assert snapshot["retention"] == "process_memory"
+    assert snapshot["retention"] == "private_source_vault"
     assert snapshot["entry_mode"] == "book"
     assert snapshot["session_boundary"] == {
-        "storage": "process_memory",
-        "ttl_seconds": 21600.0,
-        "max_sessions": 64,
-        "max_total_source_chars": 8000000,
-        "restart_clears_session": True,
+        "storage": "sqlite_control_plane_private_vault",
+        "private_source_in_database": False,
+        "restart_clears_session": False,
+        "explicit_delete_required": True,
     }
-    assert snapshot["document"]["ephemeral"] is True
+    assert snapshot["document"]["ephemeral"] is False
     assert snapshot["document"]["title"] == "私人研究文本"
     assert snapshot["document"]["author"] == "用户填写的作者"
     assert snapshot["document"]["version_label"] == "用户填写的版本说明"
@@ -185,6 +189,28 @@ def test_plain_text_chapter_detection_does_not_invent_book_metadata(client):
         paragraph["page_label"] is None
         for section in document["sections"]
         for paragraph in section["paragraphs"]
+    )
+
+
+def test_oversized_paragraph_is_losslessly_bounded_before_model_batching(client):
+    source = "甲" * 30_001
+    response = client.post(
+        "/api/explorations/import",
+        json={"source_format": "text", "content": source},
+    )
+    assert response.status_code == 201, response.text
+    document = PrivateDocument.model_validate(response.json()["document"])
+    paragraphs = document.sections[0].paragraphs
+    assert len(paragraphs) == 3
+    assert "".join(item.text for item in paragraphs) == source
+    assert max(len(item.text) for item in paragraphs) <= 12_000
+
+    signals = derive_document_signals(document)
+    text_by_anchor = {item.id: item.text for item in paragraphs}
+    assert all(
+        sum(len(text_by_anchor[anchor_id]) for anchor_id in batch.anchor_ids)
+        <= 36_000
+        for batch in signals.planning_scope.anchor_batches
     )
 
 
@@ -345,7 +371,7 @@ def test_delete_clears_private_session(client):
     assert client.get(f"/api/explorations/{imported['id']}").status_code == 404
 
 
-def test_process_store_is_bounded_and_evicts_oldest_session():
+def test_cache_eviction_does_not_delete_a_durable_exploration():
     store = ExplorationStore(max_sessions=1, ttl_seconds=60)
     request = ImportExplorationRequest(
         source_format=SourceFormat.TEXT,
@@ -359,12 +385,12 @@ def test_process_store_is_bounded_and_evicts_oldest_session():
         )
     )
 
-    with pytest.raises(ExplorationNotFound):
-        store.get(first.id)
+    assert store.get(first.id).id == first.id
     assert store.get(second.id).id == second.id
+    store.close()
 
 
-def test_process_store_evicts_to_enforce_total_source_character_budget():
+def test_cache_character_budget_does_not_delete_durable_sources():
     store = ExplorationStore(
         max_sessions=4,
         ttl_seconds=60,
@@ -383,9 +409,9 @@ def test_process_store_evicts_to_enforce_total_source_character_budget():
         )
     )
 
-    with pytest.raises(ExplorationNotFound):
-        store.get(first.id)
-    assert store.get(second.id).session_boundary.max_total_source_chars == 18
+    assert store.get(first.id).id == first.id
+    assert store.get(second.id).id == second.id
+    store.close()
 
 
 def test_prompt_entry_builds_scope_contract_and_research_question_without_guesses(
@@ -724,25 +750,63 @@ def test_real_private_epub_parses_when_opted_in():
         pytest.skip("HISTORY_KB_TEST_EPUB does not point to a local file")
 
     store = ExplorationStore(max_sessions=1, ttl_seconds=60)
-    snapshot = store.create_epub(
-        EpubImportRequest(
-            content_base64=base64.b64encode(epub_path.read_bytes()).decode("ascii")
+    try:
+        snapshot = store.create_epub(
+            EpubImportRequest(
+                content_base64=base64.b64encode(epub_path.read_bytes()).decode("ascii")
+            )
         )
-    )
-    document = snapshot.document
-    assert document is not None
-    assert document.source_format == SourceFormat.EPUB
-    assert document.section_count > 0
-    assert document.paragraph_count > 0
-    assert document.char_count <= 1_500_000
-    assert all(
-        paragraph.page_label is None
-        for section in document.sections
-        for paragraph in section.paragraphs
-    )
-    assert all(
-        paragraph.locator.spine_index is not None
-        and paragraph.locator.href is not None
-        for section in document.sections
-        for paragraph in section.paragraphs
-    )
+        document = snapshot.document
+        assert document is not None
+        assert document.source_format == SourceFormat.EPUB
+        assert document.section_count > 0
+        assert document.paragraph_count > 0
+        assert document.char_count <= 1_500_000
+        assert all(
+            paragraph.page_label is None
+            for section in document.sections
+            for paragraph in section.paragraphs
+        )
+        assert all(
+            paragraph.locator.spine_index is not None
+            and paragraph.locator.href is not None
+            for section in document.sections
+            for paragraph in section.paragraphs
+        )
+
+        signals = derive_document_signals(document)
+        anchors = {
+            paragraph.id: paragraph
+            for section in document.sections
+            for paragraph in section.paragraphs
+        }
+        assert len(signals.anchor_ids) == document.paragraph_count
+        assert all(
+            len(batch.anchor_ids) <= 24
+            for batch in signals.planning_scope.anchor_batches
+        )
+        assert all(
+            sum(len(anchors[anchor_id].text) for anchor_id in batch.anchor_ids)
+            <= 36_000
+            for batch in signals.planning_scope.anchor_batches
+        )
+
+        profile = build_book_profile(
+            source_checksum=document.checksum_sha256,
+            metadata=signals.metadata,
+            structure=signals.structure,
+            section_signals=signals.sections,
+        )
+        plan = compile_analysis_plan(
+            profile,
+            planning_scope=signals.planning_scope,
+        )
+        work_item_ids = {item.id for item in plan.work_items}
+        assert work_item_ids
+        assert all(
+            dependency in work_item_ids
+            for item in plan.work_items
+            for dependency in item.depends_on
+        )
+    finally:
+        store.close()

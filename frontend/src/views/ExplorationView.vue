@@ -188,14 +188,22 @@ onMounted(() => {
   sync()
   mobileMedia.addEventListener('change', sync)
   mobileMedia._explorationSync = sync
+  if (store.workspaceKind === 'document' && store.snapshot?.id) {
+    store.refreshAnalysisRuns({ silent: true })
+  }
   if (import.meta.env.DEV) window.__hkbExploration = store
 })
 watch(
   [() => store.entryOpen, () => store.workspaceKind, () => store.sampleDemoId, () => store.snapshot?.id],
   () => { mobileTab.value = defaultMobileTab() },
 )
+watch(() => store.snapshot?.id, (id, previousId) => {
+  if (!id || id === previousId || store.isSampleWorkspace) return
+  store.refreshAnalysisRuns({ silent: true })
+})
 onBeforeUnmount(() => {
   store.pause()
+  store.stopAnalysisPolling()
   unsubscribe?.()
   if (mobileMedia?._explorationSync) mobileMedia.removeEventListener('change', mobileMedia._explorationSync)
   if (import.meta.env.DEV && window.__hkbExploration === store) delete window.__hkbExploration

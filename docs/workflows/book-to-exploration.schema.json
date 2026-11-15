@@ -1391,38 +1391,7 @@
             "$ref": "#/$defs/id"
           }
         }
-      },
-      "allOf": [
-        {
-          "if": {
-            "properties": {
-              "geometry_status": {
-                "const": "verified"
-              }
-            }
-          },
-          "then": {
-            "properties": {
-              "longitude": {
-                "type": "number"
-              },
-              "latitude": {
-                "type": "number"
-              }
-            }
-          },
-          "else": {
-            "properties": {
-              "longitude": {
-                "type": "null"
-              },
-              "latitude": {
-                "type": "null"
-              }
-            }
-          }
-        }
-      ]
+      }
     },
     "timeRef": {
       "type": "object",

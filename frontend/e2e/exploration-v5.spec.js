@@ -282,6 +282,184 @@ test.describe('探索 v5 入口与阅读器', () => {
     await expect(page.locator('.xe-imported-state')).toContainText(selectedText.slice(0, 28))
   })
 
+  test('私人书籍可创建、追踪、取消与恢复深度分析，待复核结果不自动采纳', async ({ page }) => {
+    const snapshot = epubSnapshot()
+    let serverRun = null
+    let resumed = false
+    let reviewSubmitted = false
+    let reviewPayload = null
+    const makeRun = (state, workState = 'queued') => ({
+      id: 'analysis-run-test',
+      exploration_id: snapshot.id,
+      plan_id: 'plan-test',
+      plan_revision: snapshot.revision,
+      primary_book_type: 'narrative_history',
+      state,
+      cancel_requested: state === 'cancelled',
+      dispatch: 'external_worker_required',
+      created_at: '2026-08-01T00:00:00Z',
+      updated_at: '2026-08-01T00:00:01Z',
+      work_items: [
+        { id: 'work-1', pass_type: 'anchor_batch', state: workState, attempt_count: workState === 'succeeded' ? 1 : 0, max_attempts: 3, last_error_code: null },
+        { id: 'work-2', pass_type: 'evidence_critic', state: workState, attempt_count: workState === 'succeeded' ? 1 : 0, max_attempts: 3, last_error_code: null },
+      ],
+    })
+    const projectionBundle = (published = false) => ({
+      argument: { nodes: published ? [{ id: 'argument:claim-1', claim_id: 'claim-1', statement: '这是经复核的原文陈述。', epistemic_layer: 'source_statement', speaker: null, source_anchor_ids: ['epub-p-1'], derived_from_claim_ids: [], limitations: [], review_status: 'accepted' }] : [], edges: [] },
+      timeline: { items: [] },
+      map: { points: [], sequence: [], unlocated_event_ids: [] },
+      insights: { items: [] },
+      scenes: [],
+    })
+    const makeResult = (published = false) => ({
+      status: serverRun,
+      review_token: 'a'.repeat(64),
+      review_required: !published,
+      review_submitted: reviewSubmitted,
+      artifacts: {
+        claims: [{ id: 'claim-1', statement: '这是候选原文陈述。', kind: 'source_statement', speaker: null, source_anchor_ids: ['epub-p-1'], derived_from_claim_ids: [], external_source_ids: [], limitations: [], review_status: 'pending_review' }],
+        temporal_refs: [],
+        location_refs: [],
+        events: [{ id: 'event-1', title: '候选事件', summary: '需要人工判断是否进入时间投影。', claim_ids: ['claim-1'], source_anchor_ids: ['epub-p-1'], temporal_ref_ids: [], location_ref_ids: [], person_ids: [], review_status: 'pending_review' }],
+        evidence_relations: [],
+        gaps: [{ id: 'gap-1', code: 'counterevidence_not_found', target_type: 'claim', target_id: 'claim-1', detail: '尚未找到独立反证。' }],
+      },
+      quality_report: {
+        contract_version: 'quality_report.v1', validation_issues: [],
+        gates: [{ code: 'provenance', passed: true, blocking: true, detail: '候选均保留来源锚点。' }],
+        claim_count: 1, event_count: 1, gap_count: 1, model_not_called_count: 0,
+        accepted_claim_count: published ? 1 : 0, accepted_event_count: 0,
+      },
+      candidate_projections: projectionBundle(false),
+      published_projections: projectionBundle(published),
+    })
+
+    await page.route('**/api/explorations/import-epub', (route) => route.fulfill({
+      status: 201,
+      contentType: 'application/json',
+      body: JSON.stringify(snapshot),
+    }))
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs`, async (route) => {
+      if (route.request().method() === 'POST') {
+        expect(route.request().postDataJSON()).toEqual({ base_revision: snapshot.revision })
+        serverRun = makeRun('queued')
+        await route.fulfill({ status: 201, contentType: 'application/json', body: JSON.stringify(serverRun) })
+        return
+      }
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ items: serverRun ? [serverRun] : [] }) })
+    })
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-test/cancel`, async (route) => {
+      serverRun = makeRun('cancelled', 'cancelled')
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(serverRun) })
+    })
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-test/resume`, async (route) => {
+      resumed = true
+      serverRun = makeRun('queued')
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(serverRun) })
+    })
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-test`, async (route) => {
+      if (reviewSubmitted) serverRun = makeRun('completed', 'succeeded')
+      else if (resumed) serverRun = makeRun('waiting_review', 'succeeded')
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(serverRun) })
+    })
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-test/result`, async (route) => {
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(makeResult(serverRun?.state === 'completed')) })
+    })
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-test/review`, async (route) => {
+      reviewPayload = route.request().postDataJSON()
+      reviewSubmitted = true
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(makeResult(false)) })
+    })
+
+    await page.goto('/#route=explore')
+    await page.getByRole('button', { name: '上传本地书籍' }).click()
+    const uploadDialog = page.getByRole('dialog', { name: '上传本地书籍' })
+    await uploadDialog.locator('.file-picker input').setInputFiles({
+      name: '分析测试.epub',
+      mimeType: 'application/epub+zip',
+      buffer: Buffer.from('PK\u0003\u0004analysis-test'),
+    })
+    await uploadDialog.getByRole('button', { name: '导入并进入阅读器' }).click()
+
+    const panel = page.getByTestId('analysis-run-panel')
+    await expect(panel).toContainText('尚未开始')
+    await panel.getByRole('button', { name: '开始深度分析' }).click()
+    await expect(panel).toContainText('排队中')
+    await panel.getByRole('button', { name: '取消' }).click()
+    await expect(panel).toContainText('已取消')
+    await panel.getByRole('button', { name: '恢复' }).click()
+    await expect(panel).toContainText('排队中')
+    await expect(panel).toContainText('待复核', { timeout: 5000 })
+    await expect(panel).toContainText('尚未人工接受')
+    await expect(panel).toContainText('2 / 2 个工作项完成')
+    await expect(panel).toContainText('1 条 Claim · 1 个事件 · 1 个缺口')
+    const reviewButton = panel.getByRole('button', { name: '提交复核' })
+    await expect(reviewButton).toBeDisabled()
+    await panel.getByRole('button', { name: /接受这是候选原文陈述/ }).click()
+    await expect(reviewButton).toBeDisabled()
+    await panel.getByRole('button', { name: /拒绝候选事件/ }).click()
+    await expect(reviewButton).toBeEnabled()
+    await reviewButton.click()
+    await expect.poll(() => reviewPayload).toEqual({
+      review_token: 'a'.repeat(64),
+      decisions: [
+        { artifact_type: 'claim', artifact_id: 'claim-1', decision: 'accepted' },
+        { artifact_type: 'event', artifact_id: 'event-1', decision: 'rejected' },
+      ],
+    })
+    await expect(panel).toContainText('复核已提交')
+    await expect(panel).toContainText('已发布投影', { timeout: 5000 })
+    await expect(panel.getByRole('button', { name: '论证 1' })).toBeVisible()
+    await expect(panel).toContainText('这是经复核的原文陈述。')
+  })
+
+  test('无模型只产生缺口时，用户可明确提交空复核', async ({ page }) => {
+    const snapshot = epubSnapshot()
+    let submitted = false
+    let payload = null
+    const run = (state) => ({
+      id: 'analysis-run-empty', exploration_id: snapshot.id, plan_id: 'plan-empty',
+      plan_revision: 1, primary_book_type: 'narrative_history', state,
+      cancel_requested: false, dispatch: 'external_worker_required',
+      created_at: '2026-08-01T00:00:00Z', updated_at: '2026-08-01T00:00:01Z',
+      work_items: [{ id: 'work-empty', pass_type: 'anchor_batch', state: state === 'queued' ? 'queued' : 'succeeded', attempt_count: state === 'queued' ? 0 : 1, max_attempts: 3, last_error_code: null }],
+    })
+    const emptyBundle = { argument: { nodes: [], edges: [] }, timeline: { items: [] }, map: { points: [], sequence: [], unlocated_event_ids: [] }, insights: { items: [] }, scenes: [] }
+    const result = (state) => ({
+      status: run(state), review_token: 'b'.repeat(64), review_required: state !== 'completed', review_submitted: submitted,
+      artifacts: { claims: [], temporal_refs: [], location_refs: [], events: [], evidence_relations: [], gaps: [{ id: 'gap-empty', code: 'model_not_called', target_type: 'passage_unit', target_id: 'batch-1', detail: '本次未调用模型。' }] },
+      quality_report: { contract_version: 'quality_report.v1', validation_issues: [], gates: [{ code: 'review', passed: state === 'completed', blocking: true, detail: '需要确认空候选。' }], claim_count: 0, event_count: 0, gap_count: 1, model_not_called_count: 1, accepted_claim_count: 0, accepted_event_count: 0 },
+      candidate_projections: emptyBundle, published_projections: emptyBundle,
+    })
+
+    await page.route('**/api/explorations/import-epub', (route) => route.fulfill({ status: 201, contentType: 'application/json', body: JSON.stringify(snapshot) }))
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs`, (route) => route.fulfill({
+      status: route.request().method() === 'POST' ? 201 : 200,
+      contentType: 'application/json',
+      body: JSON.stringify(route.request().method() === 'POST' ? run('queued') : { items: [] }),
+    }))
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-empty`, (route) => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(run(submitted ? 'completed' : 'waiting_review')) }))
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-empty/result`, (route) => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(result(submitted ? 'completed' : 'waiting_review')) }))
+    await page.route(`**/api/explorations/${snapshot.id}/analysis-runs/analysis-run-empty/review`, async (route) => {
+      payload = route.request().postDataJSON()
+      submitted = true
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(result('waiting_review')) })
+    })
+
+    await page.goto('/#route=explore')
+    await page.getByRole('button', { name: '上传本地书籍' }).click()
+    const uploadDialog = page.getByRole('dialog', { name: '上传本地书籍' })
+    await uploadDialog.locator('.file-picker input').setInputFiles({ name: '无模型.epub', mimeType: 'application/epub+zip', buffer: Buffer.from('PK\u0003\u0004empty') })
+    await uploadDialog.getByRole('button', { name: '导入并进入阅读器' }).click()
+    const panel = page.getByTestId('analysis-run-panel')
+    await panel.getByRole('button', { name: '开始深度分析' }).click()
+    await panel.getByRole('button', { name: '刷新分析状态' }).click()
+    await expect(panel).toContainText('此轮只产生证据缺口')
+    await panel.getByRole('button', { name: '确认无候选并继续' }).click()
+    await expect.poll(() => payload).toEqual({ review_token: 'b'.repeat(64), decisions: [] })
+    await expect(panel).toContainText('已发布投影', { timeout: 5000 })
+  })
+
   test('微信读书使用顶层 Chrome 伴读，并保留手动位置同步兜底', async ({ page }) => {
     let syncPayload = null
     await page.route('**/api/explorations/*/mutations', async (route) => {
